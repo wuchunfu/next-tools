@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "wifi-qrcode-generator": {
+      "cardTitle": "Генератор WiFi QR-кода",
+      "cardDescription": "Создавайте QR-коды для простого обмена WiFi-сетями. Сканируйте для мгновенного подключения.",
+      "networkSettings": "Настройки сети",
+      "encryptionMethod": "Метод шифрования",
+      "noPassword": "Без пароля",
+      "wpaWpa2": "WPA/WPA2",
+      "wep": "WEP",
+      "wpa2Eap": "WPA2-EAP",
+      "ssidLabel": "Имя сети (SSID)",
+      "ssidPlaceholder": "Ваш WiFi SSID...",
+      "hiddenSsid": "Скрытый SSID",
+      "passwordLabel": "Пароль",
+      "passwordPlaceholder": "Ваш WiFi пароль...",
+      "eapSettings": "Настройки EAP",
+      "eapMethod": "Метод EAP",
+      "selectEapMethod": "Выберите метод EAP",
+      "identityLabel": "Идентификация",
+      "identityPlaceholder": "Ваша EAP идентификация...",
+      "anonymous": "Анонимно",
+      "eapPhase2Method": "Метод EAP Фаза 2",
+      "selectPhase2": "Выберите метод Фазы 2",
+      "colorSettings": "Настройки цвета",
+      "foregroundColor": "Передний план",
+      "backgroundColor": "Фон",
+      "resetColors": "Сбросить",
+      "resetColorsTooltip": "Сбросить до цветов по умолчанию",
+      "preview": "Предпросмотр",
+      "emptyPreview": "Введите данные сети для генерации QR-кода",
+      "downloadQrCode": "Скачать PNG"
+    }
+  }
+}

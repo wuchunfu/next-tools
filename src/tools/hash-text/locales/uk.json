@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "hash-text": {
+      "title": "Хешувати текст",
+      "description": "Хешуйте текстовий рядок, використовуючи потрібну функцію: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 або RIPEMD160",
+      "placeholder": "Ваш рядок для хешування...",
+      "yourTextToHash": "Ваш текст для хешування:",
+      "digestEncoding": "Кодування дайджесту",
+      "digestEncodingDescription": "Виберіть формат виводу для хеш-значень.",
+      "binary": "Двійковий",
+      "binaryDescription": "Двійковий формат (основа 2).",
+      "hexadecimal": "Шістнадцятковий",
+      "hexadecimalDescription": "Шістнадцятковий формат (основа 16), найбільш часто використовуваний.",
+      "base64": "Base64",
+      "base64Description": "Формат Base64 (основа 64), компактне представлення.",
+      "base64url": "Base64 URL",
+      "base64urlDescription": "Формат Base64, безпечний для URL, підходить для URL.",
+      "hashResults": "Результати хешування",
+      "noInput": "Введіть текст вище, щоб згенерувати хеші",
+      "cardInputTitle": "Ввід та кодування хешу",
+      "cardOutputTitle": "Результати хешування"
+    }
+  }
+}

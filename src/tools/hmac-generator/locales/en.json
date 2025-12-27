@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "hmac-generator": {
+      "copied": "HMAC copied to the clipboard",
+      "plainPlaceholder": "Plain text to compute the hash...",
+      "plainLabel": "Plain text to compute the hash",
+      "secretPlaceholder": "Enter the secret key...",
+      "secretLabel": "Secret key",
+      "hashFunction": "Hashing function",
+      "hashPlaceholder": "Select a hashing function...",
+      "encoding": "Output encoding",
+      "encodingPlaceholder": "Select the result encoding...",
+      "binary": "Binary (base 2)",
+      "hex": "Hexadecimal (base 16)",
+      "base64": "Base64 (base 64)",
+      "base64url": "Base64-url (base 64 with url safe chars)",
+      "resultPlaceholder": "The result of the HMAC...",
+      "resultLabel": "HMAC of your text",
+      "copy": "Copy HMAC",
+      "cardInputTitle": "HMAC input & options",
+      "cardOutputTitle": "HMAC result"
+    }
+  }
+}

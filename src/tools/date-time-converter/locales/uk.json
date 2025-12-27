@@ -1,0 +1,40 @@
+{
+  "tools": {
+    "date-converter": {
+      "jsLocaleDateString": "Рядок дати локалі JS",
+      "iso8601": "ISO 8601",
+      "iso9075": "ISO 9075",
+      "rfc3339": "RFC 3339",
+      "rfc7231": "RFC 7231",
+      "unixTimestamp": "Мітка часу Unix",
+      "timestamp": "Мітка часу",
+      "utcFormat": "Формат UTC",
+      "mongoObjectId": "Mongo ObjectID",
+      "excelDateTime": "Дата/час Excel",
+      "inputPlaceholder": "Вставте ваш рядок дати тут...",
+      "invalidDate": "Ця дата недійсна для цього формату",
+      "invalidDatePlaceholder": "Недійсна дата...",
+      "cardInputTitle": "Введення дати та формат",
+      "cardInputDescription": "Вставте або введіть дату — ми автоматично визначимо формат.",
+      "inputLabel": "Введення дати",
+      "actionUseNow": "Використати поточний час",
+      "actionClear": "Очистити поле",
+      "formatTitle": "Формат",
+      "formatDescription": "Автоматично визначається за вашим вводом або оберіть вручну.",
+      "jsLocaleDateStringDescription": "Нативний рядок дати JavaScript (з урахуванням локалі)",
+      "iso8601Description": "Стандартне представлення ISO 8601",
+      "iso9075Description": "Формат дати/часу ISO 9075",
+      "rfc3339Description": "Мітка часу RFC 3339 з часовим поясом",
+      "rfc7231Description": "Дата HTTP (RFC 7231)",
+      "unixTimestampDescription": "Секунди від епохи Unix",
+      "timestampDescription": "Мілісекунди від епохи Unix",
+      "utcFormatDescription": "Рядкове представлення UTC",
+      "mongoObjectIdDescription": "Перші 4 байти Mongo ObjectID як Unix-час",
+      "excelDateTimeDescription": "Серійний номер дати/часу Excel",
+      "cardOutputTitle": "Перетворені результати",
+      "cardOutputDescription": "Копіюйте будь-який формат миттєво. Всі результати синхронізовані.",
+      "validDateTitle": "Дата виглядає коректною",
+      "validDateDescription": "Усі формати нижче синхронізовані з вашим вводом."
+    }
+  }
+}

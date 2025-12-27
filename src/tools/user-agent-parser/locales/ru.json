@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "user-agent-parser": {
+      "cardTitle": "Инспектор User-Agent",
+      "cardDescription": "Вставьте или измените строку User-Agent, чтобы увидеть данные о браузере, устройстве, ОС и CPU.",
+      "cardInputTitle": "Ввод User-Agent",
+      "cardInputDescription": "Вставьте или измените строку User-Agent, чтобы увидеть данные о браузере, устройстве, ОС и CPU.",
+      "cardOutputTitle": "Разобранные данные",
+      "cardOutputDescription": "Каждый раздел показывает значения, извлечённые из строки User-Agent.",
+      "inputLabel": "Строка User-Agent",
+      "inputPlaceholder": "Вставьте ваш User-Agent здесь...",
+      "browser": "Браузер",
+      "engine": "Движок",
+      "os": "Операционная система",
+      "device": "Устройство",
+      "cpu": "CPU",
+      "name": "Имя",
+      "version": "Версия",
+      "model": "Модель",
+      "type": "Тип",
+      "vendor": "Производитель",
+      "architecture": "Архитектура",
+      "charactersLabel": "Символы",
+      "copyUa": "Копировать UA",
+      "copiedUa": "User-Agent скопирован",
+      "clear": "Очистить",
+      "currentUaLabel": "Текущий User-Agent браузера",
+      "useCurrentUa": "Использовать текущий UA",
+      "resultsTitle": "Разобранные данные",
+      "resultsDescription": "Каждый раздел показывает значения, извлечённые из строки User-Agent.",
+      "noBrowserName": "Имя браузера отсутствует",
+      "noBrowserVersion": "Версия браузера отсутствует",
+      "noEngineName": "Имя движка отсутствует",
+      "noEngineVersion": "Версия движка отсутствует",
+      "noOsName": "Имя операционной системы отсутствует",
+      "noOsVersion": "Версия операционной системы отсутствует",
+      "noDeviceModel": "Модель устройства отсутствует",
+      "noDeviceType": "Тип устройства отсутствует",
+      "noDeviceVendor": "Производитель устройства отсутствует",
+      "noCpuArch": "Архитектура CPU отсутствует"
+    }
+  }
+}

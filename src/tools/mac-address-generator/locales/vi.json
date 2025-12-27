@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "mac-address-generator": {
+      "cardOptionsTitle": "Tùy chọn tạo",
+      "cardOptionsDescription": "Cấu hình các tùy chọn để tạo địa chỉ MAC ngẫu nhiên, bao gồm số lượng, tiền tố, chữ hoa/thường và dấu phân cách.",
+      "cardResultsTitle": "Địa chỉ MAC đã tạo",
+      "cardResultsDescription": "Địa chỉ MAC được tạo dựa trên cấu hình của bạn. Nhấp vào nút sao chép để sao chép tất cả địa chỉ vào clipboard.",
+      "invalidPrefixTitle": "Tiền tố không hợp lệ",
+      "quantity": "Số lượng",
+      "macAddressPrefix": "Tiền tố địa chỉ MAC",
+      "prefixPlaceholder": "Đặt một tiền tố, vd. 64:16:7F",
+      "case": "Chữ hoa/thường",
+      "uppercase": "Chữ hoa",
+      "lowercase": "Chữ thường",
+      "separator": "Dấu phân cách",
+      "none": "Không có",
+      "refresh": "Làm mới",
+      "copied": "Địa chỉ MAC đã được sao chép vào clipboard"
+    }
+  }
+}

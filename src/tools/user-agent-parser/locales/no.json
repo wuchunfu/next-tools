@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "user-agent-parser": {
+      "cardTitle": "User-Agent-inspektør",
+      "cardDescription": "Lim inn eller rediger en User-Agent-streng for å se detaljer om nettleser, enhet, OS og CPU.",
+      "cardInputTitle": "User-Agent-inndata",
+      "cardInputDescription": "Lim inn eller rediger en User-Agent-streng for å se detaljer om nettleser, enhet, OS og CPU.",
+      "cardOutputTitle": "Analyserte detaljer",
+      "cardOutputDescription": "Hver seksjon viser verdier hentet fra User-Agent-strengen.",
+      "inputLabel": "User-agent-streng",
+      "inputPlaceholder": "Legg inn din user-agent her...",
+      "browser": "Nettleser",
+      "engine": "Motor",
+      "os": "Operativsystem",
+      "device": "Enhet",
+      "cpu": "CPU",
+      "name": "Navn",
+      "version": "Versjon",
+      "model": "Modell",
+      "type": "Type",
+      "vendor": "Leverandør",
+      "architecture": "Arkitektur",
+      "charactersLabel": "Tegn",
+      "copyUa": "Kopier UA",
+      "copiedUa": "User-Agent kopiert",
+      "clear": "Tøm",
+      "currentUaLabel": "Gjeldende nettleser-UA",
+      "useCurrentUa": "Bruk gjeldende UA",
+      "resultsTitle": "Analyserte detaljer",
+      "resultsDescription": "Hver seksjon viser verdier hentet fra User-Agent-strengen.",
+      "noBrowserName": "Ingen nettlesernavn",
+      "noBrowserVersion": "Ingen nettleserversjon",
+      "noEngineName": "Ingen motornavn",
+      "noEngineVersion": "Ingen motorversjon",
+      "noOsName": "Ingen operativsystemnavn",
+      "noOsVersion": "Ingen operativsystemversjon",
+      "noDeviceModel": "Ingen enhetsmodell",
+      "noDeviceType": "Ingen enhetstype",
+      "noDeviceVendor": "Ingen enhetsleverandør",
+      "noCpuArch": "Ingen CPU-arkitektur"
+    }
+  }
+}

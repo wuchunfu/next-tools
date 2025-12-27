@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "safelink-decoder": {
+      "title": "Outlook Safelink dekoder",
+      "description": "Dekod Outlook SafeLink-lenker",
+      "cardTitle": "Outlook SafeLink Dekoder",
+      "cardDescription": "Dekod Microsoft Outlook SafeLink-URLer for å vise den opprinnelige mål-URLen.",
+      "cardInputTitle": "SafeLink-inndata",
+      "cardInputDescription": "Lim inn en Outlook SafeLink-URL nedenfor. Vi validerer den og henter ut den opprinnelige mål-URLen.",
+      "cardOutputTitle": "Dekodet URL",
+      "cardOutputDescription": "Se gjennom den ekstraherte URL-en. Du kan kopiere den eller åpne den i en ny fane.",
+      "inputPlaceholder": "Lim inn Outlook SafeLink-URLen din her...",
+      "inputLabel": "SafeLink-URL",
+      "outputLabel": "Dekodet URL",
+      "invalidUrl": "Vennligst lim inn en gyldig Outlook SafeLink-URL (https://*.safelinks.protection.outlook.com/...)",
+      "decodeError": "Dekoding mislyktes. Vennligst sjekk lenken og prøv igjen.",
+      "emptyHint": "Lim inn en SafeLink-URL ovenfor for å dekode den.",
+      "errorTitle": "Ugyldig URL",
+      "successTitle": "Dekodet vellykket",
+      "successDescription": "Den opprinnelige URLen har blitt hentet fra SafeLink.",
+      "openUrl": "Åpne URL"
+    }
+  }
+}

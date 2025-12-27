@@ -1,0 +1,36 @@
+{
+  "tools": {
+    "pdf-signature-checker": {
+      "uploadTitle": "Kéo và thả tệp PDF vào đây, hoặc nhấp để chọn tệp",
+      "noSignatures": "Không tìm thấy chữ ký trong tệp được cung cấp.",
+      "signatureCertificates": "Chứng chỉ chữ ký {index} :",
+      "validityPeriod": "Thời hạn hiệu lực",
+      "issuedBy": "Được phát hành bởi",
+      "issuedTo": "Được phát hành cho",
+      "pemCertificate": "Chứng chỉ PEM",
+      "notBefore": "Không trước",
+      "notAfter": "Không sau",
+      "commonName": "Tên chung",
+      "organizationName": "Tên tổ chức",
+      "countryName": "Tên quốc gia",
+      "localityName": "Tên địa phương",
+      "organizationalUnitName": "Tên đơn vị tổ chức",
+      "stateOrProvinceName": "Tên bang hoặc tỉnh",
+      "certificateName": "Chứng chỉ {index}",
+      "viewPemCert": "Xem chứng chỉ PEM",
+      "cardUploadTitle": "Tải lên PDF",
+      "cardResultTitle": "Chữ ký",
+      "statusLabel": "Trạng thái",
+      "statusIdle": "Chờ PDF",
+      "statusLoading": "Đang kiểm tra chữ ký...",
+      "statusParsed": "Đã phân tích chữ ký",
+      "statusError": "Không tìm thấy chữ ký",
+      "fileInfo": "Thông tin tệp",
+      "noFileSelected": "Chưa chọn tệp",
+      "signaturesCount": "Tìm thấy {count} chữ ký",
+      "uploadCta": "Nhấp để chọn PDF",
+      "uploadHint": "Kéo thả PDF vào đây để kiểm tra chữ ký",
+      "uploadButton": "Chọn PDF"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "tools": {
+    "date-converter": {
+      "jsLocaleDateString": "JS locale datostreng",
+      "iso8601": "ISO 8601",
+      "iso9075": "ISO 9075",
+      "rfc3339": "RFC 3339",
+      "rfc7231": "RFC 7231",
+      "unixTimestamp": "Unix-tidsstempel",
+      "timestamp": "Tidsstempel",
+      "utcFormat": "UTC-format",
+      "mongoObjectId": "Mongo ObjectID",
+      "excelDateTime": "Excel dato/klokkeslett",
+      "inputPlaceholder": "Legg inn datostrengen din her...",
+      "invalidDate": "Denne datoen er ugyldig for dette formatet",
+      "invalidDatePlaceholder": "Ugyldig dato...",
+      "cardInputTitle": "Dato-innsending og format",
+      "cardInputDescription": "Lim inn eller skriv en dato, vi oppdager formatet automatisk.",
+      "inputLabel": "Dato-input",
+      "actionUseNow": "Bruk nåværende tid",
+      "actionClear": "Tøm feltet",
+      "formatTitle": "Format",
+      "formatDescription": "Oppdages automatisk fra inputen din, eller velg manuelt.",
+      "jsLocaleDateStringDescription": "Naturlig JavaScript-datostreng (lokaliseringsavhengig)",
+      "iso8601Description": "Standard ISO 8601 dato/klokkeslett",
+      "iso9075Description": "ISO 9075 dato/klokkeslett-format",
+      "rfc3339Description": "RFC 3339 tidsstempel med tidssone",
+      "rfc7231Description": "HTTP-dato (RFC 7231)",
+      "unixTimestampDescription": "Sekunder siden Unix-epoken",
+      "timestampDescription": "Millisekunder siden Unix-epoken",
+      "utcFormatDescription": "UTC-strengrepresentasjon",
+      "mongoObjectIdDescription": "De første 4 bytene av Mongo ObjectID som Unix-tid",
+      "excelDateTimeDescription": "Excel serienummer for dato/klokkeslett",
+      "cardOutputTitle": "Konverterte resultater",
+      "cardOutputDescription": "Kopier hvilket som helst format umiddelbart. Alle utdata forblir synkronisert.",
+      "validDateTitle": "Datoen ser gyldig ut",
+      "validDateDescription": "Alle formatene under holdes synkronisert med inputen din."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "benchmark-builder": {
+      "suiteName": "Suite {index}",
+      "suiteLabel": "Tên suite",
+      "suitePlaceholder": "Tên suite...",
+      "suitesTitle": "Bộ thử nghiệm",
+      "suitesDescription": "Quản lý nhiều bộ và các giá trị mẫu của chúng.",
+      "suiteValues": "Giá trị suite",
+      "deleteSuite": "Xóa suite",
+      "addSuite": "Thêm suite",
+      "resultsTitle": "Kết quả",
+      "resultsDescription": "Tóm tắt và so sánh giữa các suite.",
+      "unitPlaceholder": "Đơn vị (vd: ms)",
+      "unitLabel": "Đơn vị",
+      "resetSuites": "Đặt lại suites",
+      "copyMarkdown": "Sao chép dưới dạng bảng markdown",
+      "copyBullet": "Sao chép dưới dạng danh sách gạch đầu dòng",
+      "setMeasure": "Đặt phép đo của bạn...",
+      "deleteValue": "Xóa giá trị này",
+      "addMeasure": "Thêm một phép đo",
+      "header": {
+        "position": "Vị trí",
+        "title": "Suite",
+        "size": "Mẫu",
+        "mean": "Trung bình",
+        "variance": "Phương sai"
+      }
+    }
+  }
+}

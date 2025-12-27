@@ -1,0 +1,34 @@
+{
+  "tools": {
+    "case-converter": {
+      "title": "大小写转换",
+      "description": "更改字符串的大小写并在不同格式之间进行选择",
+      "cardTitle": "大小写转换",
+      "cardDescription": "更改字符串的大小写并在不同格式之间进行选择。",
+      "cardInputTitle": "文本输入",
+      "cardInputDescription": "在下方输入字符串，我们会生成编程/文本常用的多种大小写格式。",
+      "cardOutputTitle": "全部格式",
+      "cardOutputDescription": "选择你需要的格式并一键复制，输入变化会实时更新。",
+      "yourString": "您的字符串",
+      "yourStringPlaceholder": "在此输入您的文本...",
+      "inputLength": "长度",
+      "sanitizedLength": "有效字符",
+      "clear": "清除",
+      "formatsTitle": "所有格式",
+      "lowercase": "小写",
+      "uppercase": "大写",
+      "camelcase": "驼峰式",
+      "capitalcase": "首字母大写",
+      "constantcase": "常量式",
+      "dotcase": "点式",
+      "headercase": "标题式",
+      "nocase": "无格式",
+      "paramcase": "参数式",
+      "pascalcase": "帕斯卡式",
+      "pathcase": "路径式",
+      "sentencecase": "句子式",
+      "snakecase": "蛇形式",
+      "mockingcase": "混合式"
+    }
+  }
+}

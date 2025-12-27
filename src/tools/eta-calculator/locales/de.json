@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "eta-calculator": {
+      "exampleTitle": "Beispiel",
+      "example": "Mit einem konkreten Beispiel: Wenn Sie 5 Teller in 3 Minuten waschen und 500 Teller zu waschen haben, wird es 5 Stunden dauern, bis Sie alle gewaschen haben.",
+      "cardInputTitle": "Eingabeparameter",
+      "cardInputDescription": "Geben Sie die Anzahl der zu verbrauchenden Elemente, Startzeit und Verbrauchsrate ein, um die geschätzte Ankunftszeit zu berechnen.",
+      "cardResultsTitle": "Berechnungsergebnisse",
+      "cardResultsDescription": "Geschätzte Ankunftszeit und Abschlusszeit basierend auf Ihren Eingabeparametern.",
+      "amountOfElement": "Anzahl der zu verbrauchenden Elemente",
+      "consumptionStartedAt": "Der Verbrauch begann um",
+      "amountOfUnitConsumed": "Anzahl der pro Zeitspanne verbrauchten Einheiten",
+      "timeSpan": "Zeitspanne",
+      "hour": "Stunde",
+      "minute": "Minute",
+      "in": "in",
+      "milliseconds": "Millisekunden",
+      "seconds": "Sekunden",
+      "minutes": "Minuten",
+      "hours": "Stunden",
+      "days": "Tage",
+      "totalDuration": "Gesamtdauer",
+      "itWillEnd": "Es wird enden"
+    }
+  }
+}

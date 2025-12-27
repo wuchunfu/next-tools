@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "sql-prettify": {
+      "dialect": "Dialekt",
+      "gcpBigQuery": "GCP BigQuery",
+      "ibmDb2": "IBM DB2",
+      "apacheHive": "Apache Hive",
+      "mariadb": "MariaDB",
+      "mysql": "MySQL",
+      "couchbaseN1ql": "Couchbase N1QL",
+      "oraclePlsql": "Oracle PL/SQL",
+      "postgresql": "PostgreSQL",
+      "amazonRedshift": "Amazon Redshift",
+      "spark": "Spark",
+      "standardSql": "Standard SQL",
+      "sqlite": "sqlite",
+      "sqlServerTsql": "SQL Server Transact-SQL",
+      "keywordCase": "Nøkkelord store/små bokstaver",
+      "uppercase": "STORE BOKSTAVER",
+      "lowercase": "små bokstaver",
+      "preserve": "Behold",
+      "indentStyle": "Innrykksstil",
+      "standard": "Standard",
+      "tabularLeft": "Tabellær venstre",
+      "tabularRight": "Tabellær høyre",
+      "configTitle": "Formateringsalternativer",
+      "configDescription": "Konfigurer SQL-formateringsalternativer, inkludert dialekt, nøkkelord store/små bokstaver og innrykksstil.",
+      "converterTitle": "SQL-formaterer",
+      "converterDescription": "Lim inn SQL-spørringen din og se den formaterte utgangen basert på konfigurasjonen ovenfor.",
+      "yourSqlQuery": "Din SQL-spørring",
+      "inputPlaceholder": "Legg inn SQL-spørringen din her...",
+      "prettifyVersion": "Formatert versjon av spørringen din"
+    }
+  }
+}

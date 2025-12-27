@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "url-encoder": {
+      "title": "Codificar/decodificar strings formatadas em URL",
+      "description": "Codifique texto para formato codificado em URL (também conhecido como \"codificado por porcentagem\"), ou decodifique dele.",
+      "cardEncodeTitle": "Codificar URL",
+      "cardEncodeDescription": "Codifique texto para formato codificado em URL (também conhecido como \"codificado por porcentagem\").",
+      "cardDecodeTitle": "Decodificar URL",
+      "cardDecodeDescription": "Decodifique strings codificadas em URL de volta ao seu texto original.",
+      "inputLabel": "Sua string",
+      "inputPlaceholder": "Digite a string a ser codificada...",
+      "outputLabel": "String codificada",
+      "outputPlaceholder": "A string codificada aparecerá aqui...",
+      "decodeInputLabel": "Sua string codificada",
+      "decodeInputPlaceholder": "Digite a string codificada em URL a ser decodificada...",
+      "decodeOutputLabel": "String decodificada",
+      "decodeOutputPlaceholder": "A string decodificada aparecerá aqui...",
+      "clear": "Limpar",
+      "impossibleToParse": "Impossível analisar esta string"
+    }
+  }
+}

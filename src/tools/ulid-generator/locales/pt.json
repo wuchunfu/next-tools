@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "ulid-generator": {
+      "format": {
+        "label": "Formato",
+        "description": "Selecione o formato de saída dos ULIDs.",
+        "raw": "Bruto",
+        "rawDescription": "Texto simples, um ULID por linha.",
+        "json": "JSON",
+        "jsonDescription": "Formato de array JSON, ideal para APIs."
+      },
+      "quantity": "Quantidade",
+      "quantityDescription": "Número de ULIDs a gerar (1-100).",
+      "generatedUlids": "ULIDs gerados",
+      "refresh": "Atualizar",
+      "copy": "Copiar",
+      "copied": "ULIDs copiados para a área de transferência",
+      "noUlids": "Clique em atualizar para gerar ULIDs",
+      "cardConfigTitle": "Configuração de ULID",
+      "cardOutputTitle": "Resultados de ULID"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "iban-validator-and-parser": {
+      "cardTitle": "Валідатор та аналізатор IBAN",
+      "cardDescription": "Валідувати та аналізувати Міжнародні номери банківських рахунків (IBAN)",
+      "cardResultsTitle": "Результати",
+      "cardResultsDescription": "Проаналізована інформація IBAN та результати валідації",
+      "examplesDescription": "Приклади IBAN для тестування",
+      "label": "IBAN",
+      "isValid": "IBAN дійсний?",
+      "errors": "Помилки IBAN",
+      "isQrIban": "Чи є IBAN QR-IBAN?",
+      "countryCode": "Код країни",
+      "bban": "BBAN",
+      "friendlyFormat": "Зручний формат IBAN",
+      "placeholder": "Введіть IBAN для перевірки дійсності...",
+      "examplesTitle": "Приклади дійсних IBAN"
+    }
+  }
+}

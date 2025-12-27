@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "base-converter": {
+      "inputNumber": "Nombre d'entrée",
+      "inputPlaceholder": "Mettez votre nombre ici (ex: 42)",
+      "inputBase": "Base d'entrée",
+      "inputBasePlaceholder": "Mettez votre base d'entrée ici (ex: 10)",
+      "binary": "Binaire (2)",
+      "binaryPlaceholder": "La version binaire apparaîtra ici...",
+      "octal": "Octal (8)",
+      "octalPlaceholder": "La version octale apparaîtra ici...",
+      "decimal": "Décimal (10)",
+      "decimalPlaceholder": "La version décimale apparaîtra ici...",
+      "hexadecimal": "Hexadécimal (16)",
+      "hexadecimalPlaceholder": "La version hexadécimale apparaîtra ici...",
+      "base64": "Base64 (64)",
+      "base64Placeholder": "La version Base64 apparaîtra ici...",
+      "custom": "Personnalisé",
+      "customPlaceholder": "La base {base} apparaîtra ici...",
+      "cardInputTitle": "Nombre et bases",
+      "cardInputDescription": "Saisissez une valeur et choisissez les bases d'entrée et de sortie.",
+      "cardOutputTitle": "Valeurs converties",
+      "cardOutputDescription": "Copiez n'importe quelle base instantanément.",
+      "inputLength": "Longueur",
+      "useExample": "Utiliser l'exemple",
+      "clear": "Effacer",
+      "customBaseLabel": "Base personnalisée",
+      "outputPresetsTitle": "Sorties rapides",
+      "customOutputTitle": "Sortie personnalisée",
+      "errorTitle": "Erreur de conversion",
+      "validTitle": "Prêt à copier",
+      "validHint": "Toutes les sorties restent synchronisées avec votre saisie."
+    }
+  }
+}

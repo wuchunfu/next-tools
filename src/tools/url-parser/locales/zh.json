@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "url-parser": {
+      "invalid": "无效的 URL",
+      "cardTitle": "URL 解析器",
+      "cardDescription": "解析和分析 URL 以提取其组件（协议、主机名、路径、查询参数等）。",
+      "cardInputTitle": "URL 输入",
+      "cardInputDescription": "在下方粘贴一个 URL，我们会校验并展示它的组件信息与查询参数。",
+      "cardOutputTitle": "解析结果",
+      "cardOutputDescription": "查看并复制从 URL 中解析出的各项组件信息。",
+      "inputPlaceholder": "输入要解析的 URL...",
+      "clear": "清除",
+      "invalidUrlTitle": "无效的 URL",
+      "urlComponents": "URL 组件",
+      "protocol": "协议",
+      "username": "用户名",
+      "password": "密码",
+      "hostname": "主机名",
+      "port": "端口",
+      "path": "路径",
+      "search": "搜索",
+      "hash": "哈希",
+      "queryParameters": "查询参数",
+      "parameterName": "参数名",
+      "parameterValue": "参数值",
+      "enterUrlToParse": "输入有效的 URL 以查看其组件。"
+    }
+  }
+}

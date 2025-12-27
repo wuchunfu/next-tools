@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "otp-generator": {
+      "secretBase32": "Секрет повинен бути рядком base32",
+      "secretRequired": "Будь ласка, встановіть секрет",
+      "secret": "Секрет",
+      "secretPlaceholder": "Вставте ваш TOTP секрет...",
+      "generateTooltip": "Згенерувати новий випадковий секрет",
+      "nextIn": "Наступний через {seconds}с",
+      "openKeyUri": "Відкрити Key URI в новій вкладці",
+      "secretHex": "Секрет у шістнадцятковому форматі",
+      "secretHexPlaceholder": "Секрет у hex буде відображено тут",
+      "epoch": "Епоха",
+      "epochPlaceholder": "Епоха в секундах буде відображена тут",
+      "iteration": "Ітерація",
+      "count": "Лічильник:",
+      "countPlaceholder": "Кількість ітерацій буде відображена тут",
+      "countHexPlaceholder": "Кількість ітерацій у hex буде відображена тут",
+      "countHexLabel": "Hex з заповненням:",
+      "previous": "Попередній",
+      "current": "Поточний OTP",
+      "next": "Наступний",
+      "copyPrevious": "Копіювати попередній OTP",
+      "copyCurrent": "Копіювати поточний OTP",
+      "copyNext": "Копіювати наступний OTP",
+      "cardLiveCodes": "Активні OTP-коди",
+      "liveCodesDescription": "Стежте за попереднім, поточним і наступним TOTP та копіюйте в один клік.",
+      "regenerate": "Згенерувати секрет знову",
+      "cardSecret": "Секрет і QR",
+      "secretHint": "Використовуйте Base32 секрет (A-Z, 2-7). Згенеруйте або вставте свій.",
+      "qrCodeLabel": "Скануйте цей QR код у додатку-аутентифікаторі",
+      "cardDetails": "Технічні деталі"
+    }
+  }
+}

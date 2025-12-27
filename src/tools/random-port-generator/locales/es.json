@@ -1,0 +1,15 @@
+{
+  "tools": {
+    "random-port-generator": {
+      "cardTitle": "Generador de puertos aleatorios",
+      "cardDescription": "Genera un puerto TCP/UDP aleatorio en el rango 1024–65535 para servicios locales y desarrollo.",
+      "currentPortLabel": "Puerto actual",
+      "categoryRegistered": "Puerto registrado (1024–49151)",
+      "categoryDynamic": "Puerto dinámico/privado (49152–65535)",
+      "rangeHint": "Los puertos por debajo de 1024 suelen estar reservados para servicios del sistema. Esta herramienta solo genera puertos entre 1024 y 65535.",
+      "copied": "Puerto copiado al portapapeles",
+      "copy": "Copiar",
+      "refresh": "Actualizar"
+    }
+  }
+}

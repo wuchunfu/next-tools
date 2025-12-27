@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "docker-run-to-compose": {
+      "cardInputTitle": "Lệnh docker run",
+      "cardInputDescription": "Dán bên dưới lệnh docker run của bạn để chuyển đổi thành định nghĩa dịch vụ docker-compose.yml.",
+      "cardOutputTitle": "docker-compose.yml được tạo",
+      "cardOutputDescription": "Xem, sao chép hoặc tải xuống cấu hình docker-compose được tạo.",
+      "inputLabel": "Lệnh docker run của bạn:",
+      "inputPlaceholder": "Lệnh docker run của bạn để chuyển đổi...",
+      "download": "Tải xuống docker-compose.yml",
+      "clear": "Xóa lệnh",
+      "notComposableTitle": "Các tùy chọn này không thể được dịch sang docker-compose",
+      "notImplementedTitle": "Các tùy chọn này chưa được triển khai và do đó chưa được dịch sang docker-compose",
+      "errorsTitle": "Đã xảy ra các lỗi sau"
+    }
+  }
+}

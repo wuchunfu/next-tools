@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "password-strength-analyser": {
+      "inputPlaceholder": "Entrez un mot de passe...",
+      "passwordLength": "Longueur du mot de passe :",
+      "entropy": "Entropie :",
+      "charsetLength": "Taille du jeu de caractères :",
+      "score": "Score :",
+      "durationToCrack": "Durée pour craquer ce mot de passe par force brute",
+      "note": "Note",
+      "noteDescription": "La résistance calculée est basée sur le temps qu'il faudrait pour craquer le mot de passe en utilisant une approche de force brute, elle ne prend pas en compte la possibilité d'une attaque par dictionnaire.",
+      "cardInputTitle": "Saisie du mot de passe",
+      "cardResultTitle": "Estimation du temps de cassage",
+      "cardMetricsTitle": "Métriques de robustesse",
+      "timeUnits": {
+        "instantly": "Instantanément",
+        "lessThanASecond": "Moins d'une seconde",
+        "millenium": "millénaire",
+        "millennia": "millénaires",
+        "century": "siècle",
+        "centuries": "siècles",
+        "decade": "décennie",
+        "decades": "décennies",
+        "year": "année",
+        "years": "années",
+        "month": "mois",
+        "months": "mois",
+        "week": "semaine",
+        "weeks": "semaines",
+        "day": "jour",
+        "days": "jours",
+        "hour": "heure",
+        "hours": "heures",
+        "minute": "minute",
+        "minutes": "minutes",
+        "second": "seconde",
+        "seconds": "secondes"
+      }
+    }
+  }
+}

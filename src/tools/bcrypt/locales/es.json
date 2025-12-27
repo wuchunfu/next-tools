@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "bcrypt": {
+      "title": "Bcrypt",
+      "description": "Hashear y comparar cadenas de texto usando bcrypt. Bcrypt es una función de hash de contraseñas basada en el cifrado Blowfish.",
+      "hash": "Hash",
+      "placeholder": "Su cadena para bcrypt...",
+      "yourString": "Su cadena:",
+      "saltCount": "Recuento de sal:",
+      "saltRounds": "Rondas de sal...",
+      "copyHash": "Copiar hash",
+      "copied": "Cadena hasheada copiada al portapapeles",
+      "compareStringWithHash": "Comparar cadena con hash",
+      "stringToCompare": "Su cadena para comparar...",
+      "yourHash": "Su hash:",
+      "hashToCompare": "Su hash para comparar...",
+      "doTheyMatch": "¿Coinciden?",
+      "yes": "Sí",
+      "no": "No",
+      "enterBothFields": "Ingrese ambos campos para comparar"
+    }
+  }
+}

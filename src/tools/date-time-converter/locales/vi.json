@@ -1,0 +1,40 @@
+{
+  "tools": {
+    "date-converter": {
+      "jsLocaleDateString": "Chuỗi ngày tháng locale JS",
+      "iso8601": "ISO 8601",
+      "iso9075": "ISO 9075",
+      "rfc3339": "RFC 3339",
+      "rfc7231": "RFC 7231",
+      "unixTimestamp": "Dấu thời gian Unix",
+      "timestamp": "Dấu thời gian",
+      "utcFormat": "Định dạng UTC",
+      "mongoObjectId": "Mongo ObjectID",
+      "excelDateTime": "Ngày/giờ Excel",
+      "inputPlaceholder": "Đặt chuỗi ngày tháng của bạn ở đây...",
+      "invalidDate": "Ngày này không hợp lệ cho định dạng này",
+      "invalidDatePlaceholder": "Ngày không hợp lệ...",
+      "cardInputTitle": "Nhập ngày và định dạng",
+      "cardInputDescription": "Dán hoặc nhập ngày, chúng tôi tự động nhận dạng định dạng.",
+      "inputLabel": "Ngày nhập",
+      "actionUseNow": "Dùng thời gian hiện tại",
+      "actionClear": "Xoá nội dung",
+      "formatTitle": "Định dạng",
+      "formatDescription": "Tự nhận dạng từ đầu vào của bạn, hoặc chọn thủ công.",
+      "jsLocaleDateStringDescription": "Chuỗi ngày giờ JavaScript gốc (theo locale)",
+      "iso8601Description": "Biểu diễn chuẩn ISO 8601",
+      "iso9075Description": "Định dạng ngày/giờ ISO 9075",
+      "rfc3339Description": "Dấu thời gian RFC 3339 kèm múi giờ",
+      "rfc7231Description": "Ngày HTTP (RFC 7231)",
+      "unixTimestampDescription": "Giây từ thời điểm Unix",
+      "timestampDescription": "Mili-giây từ thời điểm Unix",
+      "utcFormatDescription": "Biểu diễn chuỗi UTC",
+      "mongoObjectIdDescription": "4 byte đầu của Mongo ObjectID là thời gian Unix",
+      "excelDateTimeDescription": "Số seri ngày/giờ của Excel",
+      "cardOutputTitle": "Kết quả chuyển đổi",
+      "cardOutputDescription": "Sao chép bất kỳ định dạng nào ngay lập tức. Tất cả đầu ra luôn đồng bộ.",
+      "validDateTitle": "Ngày có vẻ hợp lệ",
+      "validDateDescription": "Mọi định dạng bên dưới được đồng bộ với đầu vào của bạn."
+    }
+  }
+}

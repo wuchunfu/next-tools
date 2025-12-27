@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "chronometer": {
+      "title": "Chronomètre",
+      "description": "Surveillez la durée d'une chose. Essentiellement un chronomètre avec des fonctionnalités simples de chronomètre.",
+      "button": {
+        "start": "Démarrer",
+        "stop": "Arrêter",
+        "reset": "Réinitialiser",
+        "record": "Enregistrer",
+        "clearRecords": "Effacer les enregistrements"
+      },
+      "records": {
+        "title": "Enregistrements",
+        "empty": "Aucun enregistrement"
+      }
+    }
+  }
+}

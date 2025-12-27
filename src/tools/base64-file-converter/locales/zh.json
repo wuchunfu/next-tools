@@ -1,0 +1,37 @@
+{
+  "tools": {
+    "base64-file-converter": {
+      "base64ToFile": "Base64 转文件",
+      "fileToBase64": "文件转 Base64",
+      "cardDecodeTitle": "Base64 转文件",
+      "cardDecodeDescription": "解码 Base64 字符串并下载为文件。支持图片预览。",
+      "cardEncodeTitle": "文件转 Base64",
+      "cardEncodeDescription": "上传文件并转换为 Base64 格式。",
+      "fileName": "文件名",
+      "downloadFilename": "下载文件名",
+      "extension": "扩展名",
+      "base64InputLabel": "Base64 字符串",
+      "base64InputPlaceholder": "在此输入您的 base64 文件字符串...",
+      "previewImage": "预览图片",
+      "downloadFile": "下载文件",
+      "dragAndDrop": "拖放文件到此处，或点击选择文件",
+      "fileBase64Label": "Base64 输出",
+      "fileBase64Placeholder": "Base64 文件将显示在此处",
+      "copy": "复制",
+      "copied": "Base64 字符串已复制到剪贴板",
+      "invalidBase64": "无效的 base64 字符串",
+      "length": "长度",
+      "detectedType": "检测到的类型",
+      "imageFile": "图片",
+      "imagePreview": "图片预览",
+      "clickPreview": "点击预览按钮查看图片",
+      "uploadCta": "点击上传或拖放文件",
+      "uploadHint": "支持任何文件类型",
+      "fileUploadLabel": "选择文件",
+      "fileSize": "大小",
+      "fileType": "类型",
+      "unknownType": "未知",
+      "previewError": "预览图片失败"
+    }
+  }
+}

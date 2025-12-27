@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "xml-formatter": {
+      "invalid": "提供的 XML 无效。",
+      "invalidXmlTitle": "无效的 XML",
+      "collapse": "折叠内容：",
+      "collapseHint": "尽可能将纯文本内容折叠为单行。",
+      "indent": "缩进大小：",
+      "indentHint": "缩进使用的空格数（0–10）。",
+      "cardOptionsTitle": "格式化选项",
+      "cardOptionsDescription": "调整缩进与折叠行为，以匹配你偏好的 XML 风格。",
+      "cardInputTitle": "XML 输入",
+      "cardInputDescription": "在下方粘贴 XML，我们会校验格式并生成格式化结果。",
+      "cardOutputTitle": "格式化后的 XML",
+      "cardOutputDescription": "查看并复制格式化后的 XML 输出。",
+      "inputLabel": "你的 XML",
+      "inputPlaceholder": "将 XML 粘贴到此处...",
+      "outputLabel": "格式化后的 XML"
+    }
+  }
+}

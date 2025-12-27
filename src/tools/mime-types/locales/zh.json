@@ -1,0 +1,27 @@
+{
+  "tools": {
+    "mime-types": {
+      "mimeToExt": {
+        "title": "MIME 类型转扩展名",
+        "subtitle": "查看某个 MIME 类型对应的文件扩展名",
+        "placeholder": "选择 MIME 类型（例如：application/pdf）",
+        "resultPrefix": "该 MIME 类型对应的扩展名：",
+        "resultSuffix": "MIME 类型："
+      },
+      "extToMime": {
+        "title": "扩展名转 MIME 类型",
+        "subtitle": "查看某个扩展名对应的 MIME 类型",
+        "placeholder": "选择扩展名（例如：application/pdf）",
+        "resultPrefix": "该扩展名对应的 MIME 类型：",
+        "resultSuffix": "扩展名："
+      },
+      "table": {
+        "mime": "MIME 类型",
+        "extensions": "扩展名"
+      },
+      "tableTitle": "全部 MIME 类型",
+      "tableSubtitle": "浏览完整的 MIME 类型及其对应的扩展名列表。",
+      "clear": "清空"
+    }
+  }
+}

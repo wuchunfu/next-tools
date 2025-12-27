@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "basic-auth-generator": {
+      "inputTitle": "Anmeldedaten",
+      "inputDescription": "Geben Sie Ihren Benutzernamen und Ihr Passwort ein, um einen Basic-Authentifizierungs-Header zu generieren.",
+      "outputTitle": "Autorisierungs-Header",
+      "outputDescription": "Der generierte Basic-Authentifizierungs-Header, der in Ihren HTTP-Anfragen verwendet werden kann.",
+      "username": "Benutzername",
+      "usernamePlaceholder": "Ihr Benutzername...",
+      "password": "Passwort",
+      "passwordPlaceholder": "Ihr Passwort...",
+      "headerLabel": "Autorisierungs-Header",
+      "headerPlaceholder": "Autorisierungs-Header wird hier angezeigt...",
+      "base64Value": "Base64-kodierter Wert",
+      "clear": "Löschen",
+      "copied": "Header in die Zwischenablage kopiert"
+    }
+  }
+}

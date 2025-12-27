@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "ascii-text-drawer": {
+      "yourText": "Ваш текст:",
+      "yourTextToDraw": "Ваш текст для малювання",
+      "font": "Шрифт:",
+      "selectFont": "Виберіть шрифт для використання",
+      "width": "Ширина:",
+      "widthPlaceholder": "Ширина тексту",
+      "loadingFont": "Завантаження шрифту...",
+      "error": "Поточні налаштування призвели до помилки.",
+      "asciiArtText": "Текст ASCII-арт:",
+      "cardOptionsTitle": "Параметри",
+      "cardOptionsDescription": "Налаштуйте вхідний текст, шрифт і ширину для ASCII-арту.",
+      "cardResultsTitle": "Результати",
+      "cardResultsDescription": "Попередній перегляд і копіювання згенерованого ASCII-арту."
+    }
+  }
+}

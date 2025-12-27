@@ -1,0 +1,27 @@
+{
+  "tools": {
+    "percentage-calculator": {
+      "title": "百分比计算器",
+      "description": "轻松计算从一个值到另一个值的百分比，或从百分比到值的百分比。",
+      "card1Title": "X% 的 Y 是多少？",
+      "card1Description": "计算一个值的百分比。输入百分比（X）和基准值（Y）以获得结果。",
+      "card2Title": "X 是 Y 的百分之几？",
+      "card2Description": "找出一个值相对于另一个值的百分比。输入值（X）和总值（Y）以计算百分比。",
+      "card3Title": "百分比增加/减少",
+      "card3Description": "计算两个值之间的百分比变化。输入初始值（从）和最终值（到）以获得百分比变化。",
+      "whatIs": "什么是",
+      "percentOf": "% 的",
+      "percentage": "百分比",
+      "of": "的",
+      "value": "值",
+      "placeholderX": "X",
+      "placeholderY": "Y",
+      "result": "结果",
+      "xIsWhatPercentOfY": "X 是 Y 的百分之几",
+      "isWhatPercentOf": "是百分之几的",
+      "percentageIncreaseDecrease": "百分比增加/减少是多少",
+      "from": "从",
+      "to": "到"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "toml-to-json": {
+      "cardTitle": "Bộ chuyển đổi TOML sang JSON",
+      "cardDescription": "Chuyển đổi định dạng TOML sang định dạng JSON. Dán TOML của bạn và nhận đầu ra JSON.",
+      "cardInputTitle": "TOML đầu vào",
+      "cardInputDescription": "Dán TOML bạn muốn chuyển đổi vào bên dưới. Chúng tôi sẽ xác thực và tạo đầu ra JSON tương ứng.",
+      "cardOutputTitle": "Đầu ra JSON",
+      "cardOutputDescription": "Đây là biểu diễn JSON của TOML. Bạn có thể sao chép để sử dụng tiếp.",
+      "inputPlaceholder": "Dán TOML của bạn vào đây...",
+      "invalidToml": "TOML được cung cấp không hợp lệ.",
+      "invalidTomlTitle": "TOML không hợp lệ",
+      "outputError": "Định dạng TOML không hợp lệ. Vui lòng kiểm tra đầu vào của bạn.",
+      "clear": "Xóa",
+      "formatJson": "Định dạng JSON"
+    }
+  }
+}

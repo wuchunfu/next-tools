@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "yaml-viewer": {
+      "invalid": "Bereitgestelltes YAML ist nicht gültig.",
+      "cardOptionsTitle": "Formatierungsoptionen",
+      "cardOptionsDescription": "Passen Sie Einrückung und Schlüsselsortierung an Ihren bevorzugten YAML-Stil an.",
+      "sortKeys": "Schlüssel sortieren",
+      "sortKeysHelp": "Objektschlüssel alphabetisch sortieren, um eine stabilere und besser lesbare Ausgabe zu erhalten.",
+      "indent": "Einrückungsgröße",
+      "indentHint": "Anzahl der Leerzeichen für die Einrückung (1–10).",
+      "cardInputTitle": "YAML-Eingabe",
+      "cardInputDescription": "Fügen Sie unten Ihr YAML ein. Wir validieren es und erzeugen eine formatierte Version.",
+      "inputPlaceholder": "Fügen Sie Ihr YAML hier ein...",
+      "cardOutputTitle": "Formatiertes YAML",
+      "cardOutputDescription": "Überprüfen und kopieren Sie die formatierte YAML-Ausgabe.",
+      "invalidYamlTitle": "Ungültiges YAML"
+    }
+  }
+}

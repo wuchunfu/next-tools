@@ -1,0 +1,14 @@
+{
+  "tools": {
+    "json-minify": {
+      "cardTitle": "Компресор JSON",
+      "cardInputTitle": "Початковий JSON",
+      "cardInputDescription": "Вставте нижче JSON, який потрібно стиснути. Ми перевіримо його та згенеруємо компактну версію.",
+      "cardOutputTitle": "Стиснений JSON",
+      "cardOutputDescription": "Це мінімізована версія вашого JSON без зайвих пробілів.",
+      "invalid": "Наданий JSON недійсний.",
+      "invalidJsonTitle": "Недійсний JSON",
+      "inputPlaceholder": "Вставте ваш необроблений JSON тут..."
+    }
+  }
+}

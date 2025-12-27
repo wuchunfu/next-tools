@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "xml-formatter": {
+      "invalid": "Предоставленный XML недействителен.",
+      "invalidXmlTitle": "Недействительный XML",
+      "collapse": "Свернуть содержимое:",
+      "collapseHint": "Сворачивать текстовое содержимое в одну строку, когда это возможно.",
+      "indent": "Размер отступа:",
+      "indentHint": "Количество пробелов для отступа (0–10).",
+      "cardOptionsTitle": "Параметры форматирования",
+      "cardOptionsDescription": "Настройте отступы и сворачивание, чтобы соответствовало вашему стилю XML.",
+      "cardInputTitle": "Ввод XML",
+      "cardInputDescription": "Вставьте XML ниже. Мы проверим его и создадим отформатированную версию.",
+      "cardOutputTitle": "Отформатированный XML",
+      "cardOutputDescription": "Просмотрите и скопируйте отформатированный XML.",
+      "inputLabel": "Ваш XML",
+      "inputPlaceholder": "Вставьте ваш XML здесь...",
+      "outputLabel": "Отформатированный XML из вашего XML"
+    }
+  }
+}

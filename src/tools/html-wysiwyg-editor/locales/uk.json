@@ -1,0 +1,34 @@
+{
+  "tools": {
+    "html-wysiwyg-editor": {
+      "cardTitle": "Редактор",
+      "cardDescription": "Пишіть форматований текст і дивіться HTML поруч.",
+      "initial": "<h1>Привіт!</h1><p>Ласкаво просимо до цього HTML wysiwyg редактора</p>",
+      "formattedTitle": "Відформатований HTML",
+      "formattedDescription": "Розмітка, відформатована Prettier, готова до копіювання.",
+      "formattedPlaceholder": "Відформатований HTML з’явиться тут",
+      "copyFormatted": "Копіювати відформатований",
+      "copiedFormatted": "Відформатований HTML скопійовано",
+      "clearContent": "Очистити",
+      "charactersLabel": "Символи",
+      "toolbar": {
+        "bold": "Жирний",
+        "italic": "Курсив",
+        "strike": "Закреслений",
+        "inline": "Вбудований код",
+        "h1": "Заголовок 1",
+        "h2": "Заголовок 2",
+        "h3": "Заголовок 3",
+        "h4": "Заголовок 4",
+        "bullet": "Маркований список",
+        "ordered": "Нумерований список",
+        "codeBlock": "Блок коду",
+        "blockquote": "Цитата",
+        "hardBreak": "Розрив рядка",
+        "clear": "Очистити форматування",
+        "undo": "Скасувати",
+        "redo": "Повторити"
+      }
+    }
+  }
+}

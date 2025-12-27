@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "uuid-generator": {
+      "title": "Générateur d'UUIDs",
+      "description": "Un Identifiant Unique Universel (UUID) est un nombre de 128 bits utilisé pour identifier des informations dans les systèmes informatiques. Le nombre d'UUIDs possibles est 16^32, ce qui équivaut à 2^128 ou environ 3,4x10^38 (c'est beaucoup !).",
+      "uuidVersion": "Version UUID",
+      "uuidVersionDescription": "Sélectionnez la version UUID à générer.",
+      "versionNIL": "NIL",
+      "versionNILDescription": "L'UUID nil (tous les zéros).",
+      "versionV1": "Version 1",
+      "versionV1Description": "UUID basé sur le temps utilisant l'horodatage et l'adresse MAC.",
+      "versionV3": "Version 3",
+      "versionV3Description": "UUID basé sur le nom utilisant le hachage MD5 et l'espace de noms.",
+      "versionV4": "Version 4",
+      "versionV4Description": "UUID aléatoire (le plus couramment utilisé).",
+      "versionV5": "Version 5",
+      "versionV5Description": "UUID basé sur le nom utilisant le hachage SHA-1 et l'espace de noms.",
+      "quantity": "Quantité",
+      "uuidQuantity": "Quantité d'UUIDs",
+      "namespace": "Espace de noms",
+      "namespaceDescription": "Sélectionnez un espace de noms prédéfini ou entrez un UUID personnalisé.",
+      "namespaceDNS": "DNS",
+      "namespaceDNSDescription": "Espace de noms du système de noms de domaine.",
+      "namespaceURL": "URL",
+      "namespaceURLDescription": "Espace de noms du localisateur de ressources uniforme.",
+      "namespaceOID": "OID",
+      "namespaceOIDDescription": "Espace de noms de l'identifiant d'objet.",
+      "namespaceX500": "X.500",
+      "namespaceX500Description": "Espace de noms du nom distingué X.500.",
+      "namespaceCustom": "Personnalisé",
+      "namespaceCustomDescription": "Entrez un espace de noms UUID personnalisé.",
+      "name": "Nom",
+      "yourUuids": "Vos UUIDs",
+      "copy": "Copier",
+      "refresh": "Actualiser",
+      "invalidUuid": "UUID invalide",
+      "copied": "UUIDs copiés dans le presse-papiers",
+      "cardConfigTitle": "Configuration UUID"
+    }
+  }
+}

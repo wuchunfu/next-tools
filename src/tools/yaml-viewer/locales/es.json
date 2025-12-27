@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "yaml-viewer": {
+      "invalid": "El YAML proporcionado no es válido.",
+      "cardOptionsTitle": "Opciones de formato",
+      "cardOptionsDescription": "Ajusta la sangría y el orden de las claves para que coincidan con tu estilo preferido de YAML.",
+      "sortKeys": "Ordenar claves",
+      "sortKeysHelp": "Ordena las claves de los objetos alfabéticamente para obtener una salida más estable y legible.",
+      "indent": "Tamaño de sangría",
+      "indentHint": "Número de espacios a usar para la sangría (1–10).",
+      "cardInputTitle": "Entrada YAML",
+      "cardInputDescription": "Pega tu YAML abajo. Lo validaremos y generaremos una versión formateada.",
+      "inputPlaceholder": "Pega tu YAML aquí...",
+      "cardOutputTitle": "YAML formateado",
+      "cardOutputDescription": "Revisa y copia la salida YAML formateada.",
+      "invalidYamlTitle": "YAML no válido"
+    }
+  }
+}

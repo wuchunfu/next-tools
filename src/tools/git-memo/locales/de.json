@@ -1,0 +1,8 @@
+{
+  "tools": {
+    "git-memo": {
+      "cardTitle": "Git Spickzettel",
+      "cardDescription": "Häufig verwendete Git-Befehle und Workflows, übersichtlich zum schnellen Nachschlagen."
+    }
+  }
+}

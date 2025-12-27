@@ -1,0 +1,28 @@
+{
+  "tools": {
+    "qrcode-generator": {
+      "title": "二维码生成器",
+      "description": "生成并下载url或文本的QR代码，并自定义背景和前景颜色。",
+      "cardTitle": "二维码生成器",
+      "cardDescription": "生成可自定义颜色和纠错级别的二维码，支持 URL 或文本。",
+      "text": "内容",
+      "yourLinkOrText": "输入要编码的 URL 或文本...",
+      "foregroundColor": "前景色",
+      "backgroundColor": "背景色",
+      "errorResistance": "纠错级别",
+      "downloadQrCode": "下载 PNG",
+      "characters": "字符",
+      "colorSettings": "颜色设置",
+      "resetColors": "重置",
+      "resetColorsTooltip": "重置为默认颜色",
+      "levelLow": "低 (~7%)",
+      "levelMedium": "中 (~15%)",
+      "levelQuartile": "较高 (~25%)",
+      "levelHigh": "高 (~30%)",
+      "selectLevel": "选择级别",
+      "errorResistanceHint": "更高的级别允许更多损坏容忍度，但会增加二维码密度。",
+      "preview": "预览",
+      "emptyPreview": "输入文本以生成二维码"
+    }
+  }
+}

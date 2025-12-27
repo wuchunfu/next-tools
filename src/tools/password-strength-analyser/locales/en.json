@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "password-strength-analyser": {
+      "inputPlaceholder": "Enter a password...",
+      "passwordLength": "Password length:",
+      "entropy": "Entropy:",
+      "charsetLength": "Character set size:",
+      "score": "Score:",
+      "durationToCrack": "Duration to crack this password with brute force",
+      "note": "Note",
+      "noteDescription": "The computed strength is based on the time it would take to crack the password using a brute force approach, it does not take into account the possibility of a dictionary attack.",
+      "cardInputTitle": "Password input",
+      "cardResultTitle": "Crack time estimation",
+      "cardMetricsTitle": "Strength metrics",
+      "timeUnits": {
+        "instantly": "Instantly",
+        "lessThanASecond": "Less than a second",
+        "millenium": "millenium",
+        "millennia": "millennia",
+        "century": "century",
+        "centuries": "centuries",
+        "decade": "decade",
+        "decades": "decades",
+        "year": "year",
+        "years": "years",
+        "month": "month",
+        "months": "months",
+        "week": "week",
+        "weeks": "weeks",
+        "day": "day",
+        "days": "days",
+        "hour": "hour",
+        "hours": "hours",
+        "minute": "minute",
+        "minutes": "minutes",
+        "second": "second",
+        "seconds": "seconds"
+      }
+    }
+  }
+}

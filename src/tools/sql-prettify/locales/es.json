@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "sql-prettify": {
+      "dialect": "Dialecto",
+      "gcpBigQuery": "GCP BigQuery",
+      "ibmDb2": "IBM DB2",
+      "apacheHive": "Apache Hive",
+      "mariadb": "MariaDB",
+      "mysql": "MySQL",
+      "couchbaseN1ql": "Couchbase N1QL",
+      "oraclePlsql": "Oracle PL/SQL",
+      "postgresql": "PostgreSQL",
+      "amazonRedshift": "Amazon Redshift",
+      "spark": "Spark",
+      "standardSql": "SQL estándar",
+      "sqlite": "sqlite",
+      "sqlServerTsql": "SQL Server Transact-SQL",
+      "keywordCase": "Mayúsculas/minúsculas de palabras clave",
+      "uppercase": "MAYÚSCULAS",
+      "lowercase": "minúsculas",
+      "preserve": "Conservar",
+      "indentStyle": "Estilo de sangría",
+      "standard": "Estándar",
+      "tabularLeft": "Tabular izquierda",
+      "tabularRight": "Tabular derecha",
+      "configTitle": "Opciones de formato",
+      "configDescription": "Configure las opciones de formato SQL, incluido el dialecto, el caso de las palabras clave y el estilo de sangría.",
+      "converterTitle": "Formateador SQL",
+      "converterDescription": "Pegue su consulta SQL y vea la salida formateada basada en la configuración anterior.",
+      "yourSqlQuery": "Su consulta SQL",
+      "inputPlaceholder": "Ponga su consulta SQL aquí...",
+      "prettifyVersion": "Versión formateada de su consulta"
+    }
+  }
+}

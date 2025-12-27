@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "iban-validator-and-parser": {
+      "cardTitle": "IBAN Validator & Parser",
+      "cardDescription": "Valider og analyser Internasjonale Bankkontonummer (IBAN)",
+      "cardResultsTitle": "Resultater",
+      "cardResultsDescription": "Analysert IBAN-informasjon og valideringsresultater",
+      "examplesDescription": "Eksempel IBAN-er for testing",
+      "label": "IBAN",
+      "isValid": "Er IBAN gyldig?",
+      "errors": "IBAN-feil",
+      "isQrIban": "Er IBAN en QR-IBAN?",
+      "countryCode": "Landskode",
+      "bban": "BBAN",
+      "friendlyFormat": "IBAN-vennlig format",
+      "placeholder": "Skriv inn en IBAN for å sjekke gyldigheten...",
+      "examplesTitle": "Gyldige IBAN-eksempler"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "eta-calculator": {
+      "exampleTitle": "Eksempel",
+      "example": "Med et konkret eksempel, hvis du vasker 5 tallerkener på 3 minutter og du har 500 tallerkener å vaske, vil det ta deg 5 timer å vaske dem alle.",
+      "cardInputTitle": "Inndataparametere",
+      "cardInputDescription": "Angi mengden elementer som skal forbrukes, starttid og forbruksrate for å beregne estimert ankomsttid.",
+      "cardResultsTitle": "Beregningsresultater",
+      "cardResultsDescription": "Estimert ankomsttid og fullføringstid basert på dine inndataparametere.",
+      "amountOfElement": "Mengde elementer å forbruke",
+      "consumptionStartedAt": "Forbruket startet klokken",
+      "amountOfUnitConsumed": "Mengde enheter forbrukt per tidsperiode",
+      "timeSpan": "Tidsperiode",
+      "hour": "Time",
+      "minute": "Minutt",
+      "in": "i",
+      "milliseconds": "millisekunder",
+      "seconds": "sekunder",
+      "minutes": "minutter",
+      "hours": "timer",
+      "days": "dager",
+      "totalDuration": "Total varighet",
+      "itWillEnd": "Det vil slutte"
+    }
+  }
+}

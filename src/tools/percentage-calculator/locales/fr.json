@@ -1,0 +1,27 @@
+{
+  "tools": {
+    "percentage-calculator": {
+      "title": "Calculateur de pourcentage",
+      "description": "Calculez facilement les pourcentages d'une valeur à une autre valeur, ou d'un pourcentage à une valeur.",
+      "card1Title": "Qu'est-ce que X% de Y?",
+      "card1Description": "Calculez le pourcentage d'une valeur. Entrez le pourcentage (X) et la valeur de base (Y) pour obtenir le résultat.",
+      "card2Title": "X est quel pourcentage de Y?",
+      "card2Description": "Trouvez quel pourcentage représente une valeur par rapport à une autre. Entrez la valeur (X) et le total (Y) pour calculer le pourcentage.",
+      "card3Title": "Augmentation/diminution en pourcentage",
+      "card3Description": "Calculez le changement en pourcentage entre deux valeurs. Entrez la valeur initiale (De) et la valeur finale (À) pour obtenir le changement en pourcentage.",
+      "whatIs": "Qu'est-ce que",
+      "percentOf": "% de",
+      "percentage": "Pourcentage",
+      "of": "de",
+      "value": "Valeur",
+      "placeholderX": "X",
+      "placeholderY": "Y",
+      "result": "Résultat",
+      "xIsWhatPercentOfY": "X est quel pourcentage de Y",
+      "isWhatPercentOf": "est quel pourcentage de",
+      "percentageIncreaseDecrease": "Quel est l'augmentation/diminution en pourcentage",
+      "from": "De",
+      "to": "À"
+    }
+  }
+}

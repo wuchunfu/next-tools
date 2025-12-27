@@ -1,0 +1,36 @@
+{
+  "tools": {
+    "pdf-signature-checker": {
+      "uploadTitle": "Перетягніть PDF-файл сюди або натисніть, щоб вибрати файл",
+      "noSignatures": "У наданому файлі не знайдено підписів.",
+      "signatureCertificates": "Сертифікати підпису {index} :",
+      "validityPeriod": "Період дії",
+      "issuedBy": "Видано",
+      "issuedTo": "Видано для",
+      "pemCertificate": "PEM-сертифікат",
+      "notBefore": "Не раніше",
+      "notAfter": "Не пізніше",
+      "commonName": "Загальне ім'я",
+      "organizationName": "Назва організації",
+      "countryName": "Назва країни",
+      "localityName": "Назва населеного пункту",
+      "organizationalUnitName": "Назва організаційного підрозділу",
+      "stateOrProvinceName": "Назва штату або провінції",
+      "certificateName": "Сертифікат {index}",
+      "viewPemCert": "Переглянути PEM-сертифікат",
+      "cardUploadTitle": "Завантаження PDF",
+      "cardResultTitle": "Підписи",
+      "statusLabel": "Статус",
+      "statusIdle": "Очікування PDF",
+      "statusLoading": "Перевірка підписів...",
+      "statusParsed": "Підписи оброблено",
+      "statusError": "Підписів не знайдено",
+      "fileInfo": "Інформація про файл",
+      "noFileSelected": "Файл ще не вибрано",
+      "signaturesCount": "Знайдено підписів: {count}",
+      "uploadCta": "Натисніть, щоб вибрати PDF",
+      "uploadHint": "Перетягніть PDF сюди, щоб перевірити підписи",
+      "uploadButton": "Вибрати PDF"
+    }
+  }
+}

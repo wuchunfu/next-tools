@@ -1,0 +1,32 @@
+{
+  "tools": {
+    "list-converter": {
+      "configTitle": "配置",
+      "configDescription": "配置转换选项，如修剪、排序、格式化和分隔符。",
+      "converterTitle": "转换器",
+      "converterDescription": "粘贴您的列表数据，根据上述配置查看转换后的输出。",
+      "sortAscending": "升序排序",
+      "sortDescending": "降序排序",
+      "trimListItems": "修剪列表项",
+      "trimListItemsHelp": "移除每个项的前导和尾随空白字符",
+      "removeDuplicates": "删除重复项",
+      "removeDuplicatesHelp": "从列表中移除重复的项",
+      "convertToLowercase": "转换为小写",
+      "keepLineBreaks": "保留换行符",
+      "sortList": "排序列表",
+      "sortAlphabetically": "按字母顺序排序",
+      "separator": "分隔符",
+      "wrapItem": "包装项",
+      "itemPrefix": "项前缀",
+      "itemSuffix": "项后缀",
+      "wrapList": "包装列表",
+      "listPrefix": "列表前缀",
+      "listSuffix": "列表后缀",
+      "inputLabel": "您的输入数据",
+      "inputPlaceholder": "在此粘贴您的输入数据...",
+      "outputLabel": "转换后的数据",
+      "outputPlaceholder": "转换后的输出将显示在这里...",
+      "clear": "清除"
+    }
+  }
+}

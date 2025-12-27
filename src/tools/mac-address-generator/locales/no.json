@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "mac-address-generator": {
+      "cardOptionsTitle": "Genereringsalternativer",
+      "cardOptionsDescription": "Konfigurer alternativene for å generere tilfeldige MAC-adresser, inkludert mengde, prefiks, store/små bokstaver og separator.",
+      "cardResultsTitle": "Genererte MAC-adresser",
+      "cardResultsDescription": "Genererte MAC-adresser basert på konfigurasjonen din. Klikk på kopier-knappen for å kopiere alle adresser til utklippstavlen.",
+      "invalidPrefixTitle": "Ugyldig prefiks",
+      "quantity": "Mengde",
+      "macAddressPrefix": "MAC-adresseprefiks",
+      "prefixPlaceholder": "Sett et prefiks, f.eks. 64:16:7F",
+      "case": "Store/små bokstaver",
+      "uppercase": "Store bokstaver",
+      "lowercase": "Små bokstaver",
+      "separator": "Separator",
+      "none": "Ingen",
+      "refresh": "Oppdater",
+      "copied": "MAC-adresser kopiert til utklippstavlen"
+    }
+  }
+}

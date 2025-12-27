@@ -1,0 +1,15 @@
+{
+  "tools": {
+    "mac-address-lookup": {
+      "cardInputTitle": "MAC address",
+      "cardInputDescription": "Enter a MAC address to look up the vendor information from the OUI (Organizationally Unique Identifier) database.",
+      "cardResultsTitle": "Vendor information",
+      "cardResultsDescription": "Vendor information retrieved from the OUI database based on the MAC address prefix.",
+      "invalidAddressTitle": "Invalid MAC address",
+      "invalidMacAddress": "Invalid MAC address",
+      "placeholder": "Type a MAC address",
+      "unknown": "Unknown vendor for this address",
+      "copied": "Vendor info copied to the clipboard"
+    }
+  }
+}

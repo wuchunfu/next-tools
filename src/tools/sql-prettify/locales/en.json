@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "sql-prettify": {
+      "dialect": "Dialect",
+      "gcpBigQuery": "GCP BigQuery",
+      "ibmDb2": "IBM DB2",
+      "apacheHive": "Apache Hive",
+      "mariadb": "MariaDB",
+      "mysql": "MySQL",
+      "couchbaseN1ql": "Couchbase N1QL",
+      "oraclePlsql": "Oracle PL/SQL",
+      "postgresql": "PostgreSQL",
+      "amazonRedshift": "Amazon Redshift",
+      "spark": "Spark",
+      "standardSql": "Standard SQL",
+      "sqlite": "sqlite",
+      "sqlServerTsql": "SQL Server Transact-SQL",
+      "keywordCase": "Keyword case",
+      "uppercase": "UPPERCASE",
+      "lowercase": "lowercase",
+      "preserve": "Preserve",
+      "indentStyle": "Indent style",
+      "standard": "Standard",
+      "tabularLeft": "Tabular left",
+      "tabularRight": "Tabular right",
+      "configTitle": "Formatting Options",
+      "configDescription": "Configure SQL formatting options including dialect, keyword case, and indent style.",
+      "converterTitle": "SQL Formatter",
+      "converterDescription": "Paste your SQL query and see the formatted output based on the configuration above.",
+      "yourSqlQuery": "Your SQL query",
+      "inputPlaceholder": "Put your SQL query here...",
+      "prettifyVersion": "Prettify version of your query"
+    }
+  }
+}

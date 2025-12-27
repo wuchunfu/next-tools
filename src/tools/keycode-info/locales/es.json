@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "keycode-info": {
+      "cardTitle": "Información de teclas del teclado",
+      "cardDescription": "Presione cualquier tecla de su teclado para ver su información detallada.",
+      "detailsTitle": "Detalles de la tecla",
+      "detailsDescription": "Información detallada sobre la tecla presionada.",
+      "key": "Tecla",
+      "keyPlaceholder": "Nombre de la tecla...",
+      "keycode": "Código de tecla",
+      "keycodePlaceholder": "Código de tecla...",
+      "keycodeDeprecated": "Obsoleto, use code en su lugar",
+      "code": "Código",
+      "codePlaceholder": "Código...",
+      "charCode": "Código de carácter",
+      "charCodePlaceholder": "Código de carácter...",
+      "location": "Ubicación",
+      "locationPlaceholder": "Ubicación...",
+      "locationStandard": "Estándar",
+      "locationLeft": "Izquierda",
+      "locationRight": "Derecha",
+      "locationNumpad": "Teclado numérico",
+      "modifiers": "Modificadores",
+      "noModifiers": "No se presionaron modificadores",
+      "meta": "Meta",
+      "shift": "Mayús",
+      "ctrl": "Ctrl",
+      "alt": "Alt",
+      "repeat": "Repetición",
+      "repeatPlaceholder": "Estado de repetición de tecla...",
+      "typeCharacter": "Tecla de carácter",
+      "typeFunction": "Tecla de función",
+      "typeNavigation": "Tecla de navegación",
+      "typeControl": "Tecla de control",
+      "typeSpecial": "Tecla especial",
+      "none": "Ninguno",
+      "yes": "Sí",
+      "no": "No",
+      "unknown": "Desconocido",
+      "tip": "Presione cualquier tecla de su teclado para ver su información"
+    }
+  }
+}

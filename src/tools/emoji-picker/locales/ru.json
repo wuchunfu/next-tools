@@ -1,0 +1,13 @@
+{
+  "tools": {
+    "emoji-picker": {
+      "searchPlaceholder": "Поиск эмодзи (например, 'улыбка')...",
+      "noResults": "Нет результатов",
+      "noResultsDescription": "Попробуйте другой запрос или просмотрите категории",
+      "searchResult": "Результат поиска",
+      "copyEmoji": "Эмодзи {emoji} скопировано в буфер обмена",
+      "copyCodePoints": "Кодовые точки '{value}' скопированы в буфер обмена",
+      "copyUnicode": "Unicode '{value}' скопировано в буфер обмена"
+    }
+  }
+}

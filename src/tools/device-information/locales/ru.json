@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "device-information": {
+      "screen": "Экран",
+      "screenSize": "Размер экрана",
+      "orientation": "Ориентация",
+      "orientationAngle": "Угол ориентации",
+      "colorDepth": "Глубина цвета",
+      "pixelRatio": "Соотношение пикселей",
+      "windowSize": "Размер окна",
+      "device": "Устройство",
+      "vendor": "Производитель браузера",
+      "languages": "Языки",
+      "platform": "Платформа",
+      "userAgent": "User-Agent",
+      "unknown": "неизвестно"
+    }
+  }
+}

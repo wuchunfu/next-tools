@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "user-agent-parser": {
+      "cardTitle": "User-Agent-Inspektor",
+      "cardDescription": "Fügen Sie eine User-Agent-Zeichenkette ein oder bearbeiten Sie sie, um Browser-, Geräte-, OS- und CPU-Details zu sehen.",
+      "cardInputTitle": "User-Agent-Eingabe",
+      "cardInputDescription": "Fügen Sie eine User-Agent-Zeichenkette ein oder bearbeiten Sie sie, um Browser-, Geräte-, OS- und CPU-Details zu sehen.",
+      "cardOutputTitle": "Geparste Details",
+      "cardOutputDescription": "Jeder Abschnitt zeigt Werte, die aus der User-Agent-Zeichenkette extrahiert wurden.",
+      "inputLabel": "User-Agent-Zeichenkette",
+      "inputPlaceholder": "Geben Sie hier Ihren User-Agent ein...",
+      "browser": "Browser",
+      "engine": "Engine",
+      "os": "Betriebssystem",
+      "device": "Gerät",
+      "cpu": "CPU",
+      "name": "Name",
+      "version": "Version",
+      "model": "Modell",
+      "type": "Typ",
+      "vendor": "Hersteller",
+      "architecture": "Architektur",
+      "charactersLabel": "Zeichen",
+      "copyUa": "UA kopieren",
+      "copiedUa": "User-Agent kopiert",
+      "clear": "Leeren",
+      "currentUaLabel": "Aktueller Browser-UA",
+      "useCurrentUa": "Aktuellen UA verwenden",
+      "resultsTitle": "Geparste Details",
+      "resultsDescription": "Jeder Abschnitt zeigt Werte, die aus der User-Agent-Zeichenkette extrahiert wurden.",
+      "noBrowserName": "Kein Browsername",
+      "noBrowserVersion": "Keine Browserversion",
+      "noEngineName": "Kein Engine-Name",
+      "noEngineVersion": "Keine Engine-Version",
+      "noOsName": "Kein Betriebssystemname",
+      "noOsVersion": "Keine Betriebssystemversion",
+      "noDeviceModel": "Kein Gerätemodell",
+      "noDeviceType": "Kein Gerätetyp",
+      "noDeviceVendor": "Kein Gerätehersteller",
+      "noCpuArch": "Keine CPU-Architektur"
+    }
+  }
+}

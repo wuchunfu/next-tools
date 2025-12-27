@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "keycode-info": {
+      "cardTitle": "Informations sur les touches du clavier",
+      "cardDescription": "Appuyez sur n'importe quelle touche de votre clavier pour voir ses informations détaillées.",
+      "detailsTitle": "Détails de la touche",
+      "detailsDescription": "Informations détaillées sur la touche pressée.",
+      "key": "Touche",
+      "keyPlaceholder": "Nom de la touche...",
+      "keycode": "Code de touche",
+      "keycodePlaceholder": "Code de touche...",
+      "keycodeDeprecated": "Déprécié, utilisez code à la place",
+      "code": "Code",
+      "codePlaceholder": "Code...",
+      "charCode": "Code de caractère",
+      "charCodePlaceholder": "Code de caractère...",
+      "location": "Emplacement",
+      "locationPlaceholder": "Emplacement...",
+      "locationStandard": "Standard",
+      "locationLeft": "Gauche",
+      "locationRight": "Droite",
+      "locationNumpad": "Pavé numérique",
+      "modifiers": "Modificateurs",
+      "noModifiers": "Aucun modificateur pressé",
+      "meta": "Meta",
+      "shift": "Maj",
+      "ctrl": "Ctrl",
+      "alt": "Alt",
+      "repeat": "Répétition",
+      "repeatPlaceholder": "Statut de répétition de la touche...",
+      "typeCharacter": "Touche de caractère",
+      "typeFunction": "Touche de fonction",
+      "typeNavigation": "Touche de navigation",
+      "typeControl": "Touche de contrôle",
+      "typeSpecial": "Touche spéciale",
+      "none": "Aucun",
+      "yes": "Oui",
+      "no": "Non",
+      "unknown": "Inconnu",
+      "tip": "Appuyez sur n'importe quelle touche de votre clavier pour voir ses informations"
+    }
+  }
+}

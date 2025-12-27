@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "lorem-ipsum-generator": {
+      "title": "Lorem ipsum-generator",
+      "description": "Lorem ipsum er en plassholdertekst som vanligvis brukes til å demonstrere den visuelle formen til et dokument eller en skrifttype uten å stole på meningsfullt innhold",
+      "optionsTitle": "Innstillinger",
+      "optionsDescription": "Konfigurer hvordan Lorem Ipsum genereres",
+      "resultsTitle": "Generert tekst",
+      "resultsDescription": "Forhåndsvisning av generert Lorem Ipsum",
+      "paragraphs": "Avsnitt",
+      "sentencesPerParagraph": "Setninger per avsnitt",
+      "wordsPerSentence": "Ord per setning",
+      "startWithLoremIpsum": "Starte med lorem ipsum?",
+      "asHtml": "Som HTML?",
+      "placeholder": "Din lorem ipsum...",
+      "copy": "Kopier",
+      "refresh": "Oppdater",
+      "copied": "Lorem ipsum kopiert til utklippstavlen"
+    }
+  }
+}

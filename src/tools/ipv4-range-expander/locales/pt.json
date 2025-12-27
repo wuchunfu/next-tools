@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "ipv4-range-expander": {
+      "cardInputTitle": "Intervalo de endereços IPv4",
+      "cardInputDescription": "Digite os endereços IPv4 inicial e final para calcular o intervalo CIDR e informações de endereços expandidos.",
+      "cardResultsTitle": "Resultados de expansão de intervalo",
+      "cardResultsDescription": "Visualize o intervalo CIDR calculado e informações de endereços expandidos.",
+      "invalidAddressTitle": "Endereço inválido",
+      "startAddress": "Endereço inicial",
+      "startAddressPlaceholder": "Endereço IPv4 inicial...",
+      "endAddress": "Endereço final",
+      "endAddressPlaceholder": "Endereço IPv4 final...",
+      "invalidIpv4": "Endereço IPv4 inválido",
+      "addressesInRange": "Endereços no intervalo",
+      "cidr": "CIDR",
+      "label": "Rótulo",
+      "oldValue": "valor antigo",
+      "newValue": "valor novo",
+      "invalidCombination": "Combinação de endereços inválida",
+      "invalidCombinationDescription": "O endereço IPv4 final é menor que o endereço IPv4 inicial. Isso não é válido e nenhum resultado pôde ser calculado.",
+      "switchAddresses": "Trocar endereços"
+    }
+  }
+}

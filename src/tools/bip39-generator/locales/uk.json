@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "bip39-generator": {
+      "entropyLength": "Довжина ентропії має бути ≥ 16, ≤ 32 і кратною 4",
+      "entropyHex": "Ентропія має бути шістнадцятковим рядком",
+      "invalidMnemonic": "Неправильна мнемоніка",
+      "copyEntropy": "Ентропію скопійовано в буфер обміну",
+      "copyPassphrase": "Парольну фразу скопійовано в буфер обміну",
+      "generateNewEntropy": "Згенерувати нову ентропію",
+      "languageLabel": "Мова",
+      "languageDescription": "Виберіть мову словника для генерації мнемоніки BIP39.",
+      "entropyLabel": "Ентропія",
+      "entropyDescription": "Шістнадцяткове seed-значення (16–32 символи, кратне 4).",
+      "entropyPlaceholder": "Введіть шістнадцяткову ентропію...",
+      "passphraseLabel": "Мнемонічна фраза",
+      "passphraseDescription": "Мнемонічна фраза BIP39 (12 або 24 слова).",
+      "passphrasePlaceholder": "Введіть мнемонічну фразу...",
+      "cardLanguageTitle": "Мова мнемоніки",
+      "cardEntropyTitle": "Джерело ентропії",
+      "cardPassphraseTitle": "Мнемонічна фраза",
+      "languages": {
+        "english": "Англійська",
+        "chinese-simplified": "Спрощена китайська",
+        "chinese-traditional": "Традиційна китайська",
+        "czech": "Чеська",
+        "french": "Французька",
+        "italian": "Італійська",
+        "japanese": "Японська",
+        "korean": "Корейська",
+        "portuguese": "Португальська",
+        "spanish": "Іспанська"
+      }
+    }
+  }
+}

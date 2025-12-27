@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "json-to-toml": {
+      "cardTitle": "Конвертер JSON в TOML",
+      "cardDescription": "Перетворіть формат JSON на формат TOML. Вставте ваш JSON і отримайте вивід TOML.",
+      "cardInputTitle": "Ввід JSON",
+      "cardInputDescription": "Вставте нижче JSON, який потрібно конвертувати. Ми перевіримо його та згенеруємо TOML-вивід.",
+      "cardOutputTitle": "TOML-вивід",
+      "cardOutputDescription": "Це TOML-представлення вашого JSON. Ви можете скопіювати його для подальшого використання.",
+      "inputPlaceholder": "Вставте ваш JSON тут...",
+      "invalidJson": "Наданий JSON недійсний.",
+      "invalidJsonTitle": "Недійсний JSON",
+      "outputError": "Невірний формат JSON. Будь ласка, перевірте ваш ввід.",
+      "clear": "Очистити"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "tools": {
+    "phone-parser-and-formatter": {
+      "invalid": "无效的电话号码",
+      "country": "国家",
+      "countryName": "国家",
+      "countryCallingCode": "国家区号",
+      "isValid": "是否有效？",
+      "isPossible": "是否可能？",
+      "type": "类型",
+      "international": "国际格式",
+      "national": "国内格式",
+      "e164": "E.164 格式",
+      "rfc3966": "RFC3966 格式",
+      "defaultCode": "默认国家代码：",
+      "placeholder": "输入电话号码",
+      "label": "电话号码：",
+      "cardTitle": "电话号码解析与格式化",
+      "cardDescription": "解析电话号码并显示各种格式及元数据。",
+      "cardResultsTitle": "结果",
+      "cardResultsDescription": "解析的格式和元数据。",
+      "types": {
+        "MOBILE": "移动电话",
+        "FIXED_LINE": "固定电话",
+        "FIXED_LINE_OR_MOBILE": "固定电话或移动电话",
+        "PERSONAL_NUMBER": "个人号码",
+        "PREMIUM_RATE": "收费号码",
+        "SHARED_COST": "分摊费用",
+        "TOLL_FREE": "免费电话",
+        "UAN": "通用访问号码",
+        "VOICEMAIL": "语音邮件",
+        "VOIP": "VoIP",
+        "PAGER": "寻呼机"
+      }
+    }
+  }
+}

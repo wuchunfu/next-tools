@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "ipv4-range-expander": {
+      "cardInputTitle": "IPv4 address range",
+      "cardInputDescription": "Enter the start and end IPv4 addresses to calculate the CIDR range and expanded address information.",
+      "cardResultsTitle": "Range expansion results",
+      "cardResultsDescription": "View the calculated CIDR range and expanded address information.",
+      "invalidAddressTitle": "Invalid address",
+      "startAddress": "Start address",
+      "startAddressPlaceholder": "Start IPv4 address...",
+      "endAddress": "End address",
+      "endAddressPlaceholder": "End IPv4 address...",
+      "invalidIpv4": "Invalid ipv4 address",
+      "addressesInRange": "Addresses in range",
+      "cidr": "CIDR",
+      "label": "Label",
+      "oldValue": "old value",
+      "newValue": "new value",
+      "invalidCombination": "Invalid address combination",
+      "invalidCombinationDescription": "The end IPv4 address is lower than the start IPv4 address. This is not valid and no result could be calculated.",
+      "switchAddresses": "Switch addresses"
+    }
+  }
+}

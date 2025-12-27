@@ -1,0 +1,27 @@
+{
+  "tools": {
+    "percentage-calculator": {
+      "title": "Prozentrechner",
+      "description": "Berechnen Sie einfach Prozentsätze von einem Wert zu einem anderen Wert oder von einem Prozentsatz zu einem Wert.",
+      "card1Title": "Was ist X% von Y?",
+      "card1Description": "Berechnen Sie den Prozentsatz eines Werts. Geben Sie den Prozentsatz (X) und den Basiswert (Y) ein, um das Ergebnis zu erhalten.",
+      "card2Title": "X ist wie viel Prozent von Y?",
+      "card2Description": "Finden Sie heraus, wie viel Prozent ein Wert von einem anderen Wert ist. Geben Sie den Wert (X) und den Gesamtwert (Y) ein, um den Prozentsatz zu berechnen.",
+      "card3Title": "Prozentuale Zunahme/Abnahme",
+      "card3Description": "Berechnen Sie die prozentuale Änderung zwischen zwei Werten. Geben Sie den Anfangswert (Von) und den Endwert (Bis) ein, um die prozentuale Änderung zu erhalten.",
+      "whatIs": "Was ist",
+      "percentOf": "% von",
+      "percentage": "Prozentsatz",
+      "of": "von",
+      "value": "Wert",
+      "placeholderX": "X",
+      "placeholderY": "Y",
+      "result": "Ergebnis",
+      "xIsWhatPercentOfY": "X ist wie viel Prozent von Y",
+      "isWhatPercentOf": "ist wie viel Prozent von",
+      "percentageIncreaseDecrease": "Wie hoch ist die prozentuale Zunahme/Abnahme",
+      "from": "Von",
+      "to": "Bis"
+    }
+  }
+}

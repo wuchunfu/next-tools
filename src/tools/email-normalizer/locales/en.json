@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "email-normalizer": {
+      "unableToParse": "Unable to parse email: {email}",
+      "copied": "Normalized emails copied to the clipboard",
+      "rawEmails": "Raw emails to normalize:",
+      "inputPlaceholder": "Put your emails here (one per line)...",
+      "normalizedEmails": "Normalized emails:",
+      "outputPlaceholder": "Normalized emails will appear here...",
+      "clear": "Clear emails",
+      "copy": "Copy normalized emails",
+      "cardInputTitle": "Email input",
+      "cardInputDescription": "Paste your email addresses below (one per line). They will be normalized automatically.",
+      "cardOutputTitle": "Normalized emails",
+      "cardOutputDescription": "Review and copy the normalized email addresses."
+    }
+  }
+}

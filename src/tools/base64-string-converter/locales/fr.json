@@ -1,0 +1,42 @@
+{
+  "tools": {
+    "base64-string-converter": {
+      "title": "Encodeur/décodeur de chaîne Base64",
+      "description": "Encodez et décodez simplement des chaînes dans leur représentation base64.",
+      "stringToBase64": "Chaîne vers base64",
+      "encodeUrlSafe": "Encoder URL sécurisé",
+      "putYourStringHere": "Mettez votre chaîne ici...",
+      "stringToEncode": "Chaîne à encoder",
+      "base64OfString": "Base64 de la chaîne",
+      "base64EncodingPlaceholder": "L'encodage base64 de votre chaîne sera ici",
+      "copyBase64": "Copier base64",
+      "copiedBase64": "Chaîne Base64 copiée dans le presse-papiers",
+      "base64ToString": "Base64 vers chaîne",
+      "decodeUrlSafe": "Décoder URL sécurisé",
+      "yourBase64String": "Votre chaîne base64...",
+      "base64StringToDecode": "Chaîne base64 à décoder",
+      "decodedString": "Chaîne décodée",
+      "decodedStringPlaceholder": "La chaîne décodée sera ici",
+      "copyDecodedString": "Copier la chaîne décodée",
+      "copiedString": "Chaîne copiée dans le presse-papiers",
+      "invalidBase64": "Chaîne base64 invalide",
+      "cardEncodeTitle": "Chaîne vers Base64",
+      "cardEncodeDescription": "Encodez n'importe quelle chaîne de texte au format Base64.",
+      "cardDecodeTitle": "Base64 vers Chaîne",
+      "cardDecodeDescription": "Décodez les chaînes Base64 pour retrouver leur texte original.",
+      "encodeUrlSafeDescription": "Utiliser l'encodage Base64 sécurisé pour URL (remplace + par - et / par _)",
+      "decodeUrlSafeDescription": "Décoder les chaînes Base64 sécurisées pour URL (gère les caractères - et _)",
+      "invalidBase64Description": "L'entrée n'est pas une chaîne Base64 valide. Veuillez vérifier votre entrée.",
+      "inputLength": "Longueur",
+      "outputLength": "Longueur de sortie",
+      "urlSafe": "URL Sécurisé",
+      "clear": "Effacer",
+      "emptyInputTitle": "Aucune entrée",
+      "emptyInputDescription": "Entrez du texte ci-dessus pour voir l'encodage Base64.",
+      "validInputTitle": "Prêt à encoder",
+      "validInputDescription": "Votre texte est prêt à être encodé.",
+      "validBase64Title": "Base64 valide",
+      "validBase64Description": "La chaîne Base64 est valide et prête à être décodée."
+    }
+  }
+}

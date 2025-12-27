@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "text-statistics": {
+      "title": "Estadísticas de texto",
+      "description": "Obtenga información sobre un texto, el número de caracteres, el número de palabras, su tamaño en bytes, ...",
+      "cardInputTitle": "Entrada",
+      "cardInputDescription": "Pegue o escriba su texto para obtener estadísticas instantáneas.",
+      "cardResultsTitle": "Resultados",
+      "cardResultsDescription": "Resumen de las estadísticas de texto",
+      "placeholder": "Su texto...",
+      "characterCount": "Recuento de caracteres",
+      "wordCount": "Recuento de palabras",
+      "lineCount": "Recuento de líneas",
+      "byteSize": "Tamaño en bytes"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "tools": {
+    "pdf-signature-checker": {
+      "uploadTitle": "Перетащите PDF-файл сюда или нажмите, чтобы выбрать файл",
+      "noSignatures": "В предоставленном файле не найдено подписей.",
+      "signatureCertificates": "Сертификаты подписи {index} :",
+      "validityPeriod": "Период действия",
+      "issuedBy": "Выдан",
+      "issuedTo": "Выдан для",
+      "pemCertificate": "PEM-сертификат",
+      "notBefore": "Не ранее",
+      "notAfter": "Не позднее",
+      "commonName": "Общее имя",
+      "organizationName": "Название организации",
+      "countryName": "Название страны",
+      "localityName": "Название населенного пункта",
+      "organizationalUnitName": "Название организационного подразделения",
+      "stateOrProvinceName": "Название штата или провинции",
+      "certificateName": "Сертификат {index}",
+      "viewPemCert": "Просмотреть PEM-сертификат",
+      "cardUploadTitle": "Загрузка PDF",
+      "cardResultTitle": "Подписи",
+      "statusLabel": "Статус",
+      "statusIdle": "Ожидание PDF",
+      "statusLoading": "Проверка подписей...",
+      "statusParsed": "Подписи обработаны",
+      "statusError": "Подписи не найдены",
+      "fileInfo": "Информация о файле",
+      "noFileSelected": "Файл пока не выбран",
+      "signaturesCount": "Найдено подписей: {count}",
+      "uploadCta": "Нажмите, чтобы выбрать PDF",
+      "uploadHint": "Перетащите PDF сюда, чтобы проверить подписи",
+      "uploadButton": "Выбрать PDF"
+    }
+  }
+}

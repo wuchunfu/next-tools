@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "xml-formatter": {
+      "invalid": "Le XML fourni n'est pas valide.",
+      "invalidXmlTitle": "XML invalide",
+      "collapse": "Réduire le contenu :",
+      "collapseHint": "Réduire le contenu texte sur une seule ligne lorsque c'est possible.",
+      "indent": "Taille d'indentation :",
+      "indentHint": "Nombre d'espaces à utiliser pour l'indentation (0–10).",
+      "cardOptionsTitle": "Options de formatage",
+      "cardOptionsDescription": "Ajustez l'indentation et la réduction du contenu selon votre style XML préféré.",
+      "cardInputTitle": "Saisie XML",
+      "cardInputDescription": "Collez votre XML ci-dessous. Nous le validerons et générerons une version formatée.",
+      "cardOutputTitle": "XML formaté",
+      "cardOutputDescription": "Consultez et copiez la sortie XML formatée.",
+      "inputLabel": "Votre XML",
+      "inputPlaceholder": "Collez votre XML ici...",
+      "outputLabel": "XML formaté de votre XML"
+    }
+  }
+}

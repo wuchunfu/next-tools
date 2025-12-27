@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "roman-numeral-converter": {
+      "arabicToRoman": "Arabisk til romersk",
+      "romanToArabic": "Romersk til arabisk",
+      "copy": "Kopier",
+      "invalidRange": "Vi kan bare konvertere tall mellom {min} og {max}",
+      "invalidRoman": "Inndataen du skrev inn er ikke et gyldig romertall",
+      "copiedRoman": "Romertall kopiert til utklippstavlen",
+      "copiedArabic": "Arabisk tall kopiert til utklippstavlen",
+      "cardArabicTitle": "Arabisk til romersk",
+      "cardArabicDescription": "Konverter arabiske tall til klassiske romertall.",
+      "cardRomanTitle": "Romersk til arabisk",
+      "cardRomanDescription": "Valider og konverter romertall tilbake til arabiske tall.",
+      "inputArabicLabel": "Arabisk tall",
+      "inputArabicPlaceholder": "Skriv inn et heltall innenfor støttet område.",
+      "inputRomanLabel": "Romertall",
+      "inputRomanPlaceholder": "Skriv et gyldig romertall (f.eks. MMXXIV).",
+      "outputRomanLabel": "Romertall",
+      "outputRomanPlaceholder": "Resultatet vises her",
+      "outputArabicLabel": "Arabisk tall",
+      "outputArabicPlaceholder": "Resultatet vises her",
+      "reset": "Tilbakestill",
+      "quickExamples": "Hurtigeksempler",
+      "length": "Lengde",
+      "value": "Verdi"
+    }
+  }
+}

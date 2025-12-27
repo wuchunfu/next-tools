@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "uuid-generator": {
+      "title": "Generador de UUIDs",
+      "description": "Un Identificador Único Universal (UUID) es un número de 128 bits utilizado para identificar información en sistemas informáticos. El número de UUIDs posibles es 16^32, que es 2^128 o aproximadamente 3,4x10^38 (¡eso es mucho!).",
+      "uuidVersion": "Versión UUID",
+      "uuidVersionDescription": "Seleccione la versión UUID a generar.",
+      "versionNIL": "NIL",
+      "versionNILDescription": "El UUID nulo (todos ceros).",
+      "versionV1": "Versión 1",
+      "versionV1Description": "UUID basado en tiempo que utiliza marca de tiempo y dirección MAC.",
+      "versionV3": "Versión 3",
+      "versionV3Description": "UUID basado en nombre que utiliza hash MD5 y espacio de nombres.",
+      "versionV4": "Versión 4",
+      "versionV4Description": "UUID aleatorio (más comúnmente usado).",
+      "versionV5": "Versión 5",
+      "versionV5Description": "UUID basado en nombre que utiliza hash SHA-1 y espacio de nombres.",
+      "quantity": "Cantidad",
+      "uuidQuantity": "Cantidad de UUIDs",
+      "namespace": "Espacio de nombres",
+      "namespaceDescription": "Seleccione un espacio de nombres predefinido o ingrese un UUID personalizado.",
+      "namespaceDNS": "DNS",
+      "namespaceDNSDescription": "Espacio de nombres del sistema de nombres de dominio.",
+      "namespaceURL": "URL",
+      "namespaceURLDescription": "Espacio de nombres del localizador uniforme de recursos.",
+      "namespaceOID": "OID",
+      "namespaceOIDDescription": "Espacio de nombres del identificador de objeto.",
+      "namespaceX500": "X.500",
+      "namespaceX500Description": "Espacio de nombres del nombre distinguido X.500.",
+      "namespaceCustom": "Personalizado",
+      "namespaceCustomDescription": "Ingrese un espacio de nombres UUID personalizado.",
+      "name": "Nombre",
+      "yourUuids": "Sus UUIDs",
+      "copy": "Copiar",
+      "refresh": "Actualizar",
+      "invalidUuid": "UUID inválido",
+      "copied": "UUIDs copiados al portapapeles",
+      "cardConfigTitle": "Configuración de UUID"
+    }
+  }
+}

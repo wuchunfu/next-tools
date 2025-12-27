@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "eta-calculator": {
+      "exampleTitle": "Ví dụ",
+      "example": "Với một ví dụ cụ thể, nếu bạn rửa 5 đĩa trong 3 phút và bạn có 500 đĩa để rửa, bạn sẽ mất 5 giờ để rửa tất cả.",
+      "cardInputTitle": "Tham số đầu vào",
+      "cardInputDescription": "Nhập số lượng phần tử cần tiêu thụ, thời gian bắt đầu và tốc độ tiêu thụ để tính toán thời gian đến ước tính.",
+      "cardResultsTitle": "Kết quả tính toán",
+      "cardResultsDescription": "Thời gian đến ước tính và thời gian hoàn thành dựa trên các tham số đầu vào của bạn.",
+      "amountOfElement": "Số lượng phần tử cần tiêu thụ",
+      "consumptionStartedAt": "Việc tiêu thụ bắt đầu lúc",
+      "amountOfUnitConsumed": "Số lượng đơn vị tiêu thụ trong khoảng thời gian",
+      "timeSpan": "Khoảng thời gian",
+      "hour": "Giờ",
+      "minute": "Phút",
+      "in": "trong",
+      "milliseconds": "mili giây",
+      "seconds": "giây",
+      "minutes": "phút",
+      "hours": "giờ",
+      "days": "ngày",
+      "totalDuration": "Tổng thời lượng",
+      "itWillEnd": "Sẽ kết thúc"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "chmod-calculator": {
+      "permissionsTitle": "Filrettigheter",
+      "permissionsDescription": "Velg rettigheter for eier, gruppe og offentlig. De oktale og symbolske representasjonene vil bli beregnet automatisk.",
+      "resultsTitle": "Resultater",
+      "resultsDescription": "Oktale og symbolske representasjoner av de valgte rettighetene.",
+      "octalLabel": "Oktal representasjon",
+      "symbolicLabel": "Symbolsk representasjon",
+      "commandLabel": "Kommando",
+      "read": "Lese (4)",
+      "write": "Skriv (2)",
+      "execute": "Utfør (1)",
+      "owner": "Eier (u)",
+      "group": "Gruppe (g)",
+      "public": "Offentlig (o)",
+      "copyCommand": "chmod {octal} sti"
+    }
+  }
+}

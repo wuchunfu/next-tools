@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "roman-numeral-converter": {
+      "arabicToRoman": "Ả Rập sang La Mã",
+      "romanToArabic": "La Mã sang Ả Rập",
+      "copy": "Sao chép",
+      "invalidRange": "Chúng tôi chỉ có thể chuyển đổi số giữa {min} và {max}",
+      "invalidRoman": "Giá trị bạn nhập không phải là số La Mã hợp lệ",
+      "copiedRoman": "Số La Mã đã được sao chép vào clipboard",
+      "copiedArabic": "Số Ả Rập đã được sao chép vào clipboard",
+      "cardArabicTitle": "Ả Rập sang La Mã",
+      "cardArabicDescription": "Chuyển số Ả Rập sang chữ số La Mã cổ điển.",
+      "cardRomanTitle": "La Mã sang Ả Rập",
+      "cardRomanDescription": "Kiểm tra và chuyển số La Mã về số Ả Rập.",
+      "inputArabicLabel": "Số Ả Rập",
+      "inputArabicPlaceholder": "Nhập một số nguyên trong phạm vi hỗ trợ.",
+      "inputRomanLabel": "Số La Mã",
+      "inputRomanPlaceholder": "Nhập số La Mã hợp lệ (vd: MMXXIV).",
+      "outputRomanLabel": "Số La Mã",
+      "outputRomanPlaceholder": "Kết quả sẽ hiển thị tại đây",
+      "outputArabicLabel": "Số Ả Rập",
+      "outputArabicPlaceholder": "Kết quả sẽ hiển thị tại đây",
+      "reset": "Đặt lại",
+      "quickExamples": "Ví dụ nhanh",
+      "length": "Độ dài",
+      "value": "Giá trị"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "basic-auth-generator": {
+      "inputTitle": "Credenciales",
+      "inputDescription": "Ingrese su nombre de usuario y contraseña para generar un encabezado de autenticación básica.",
+      "outputTitle": "Encabezado de autorización",
+      "outputDescription": "El encabezado de autenticación básica generado listo para usar en sus solicitudes HTTP.",
+      "username": "Nombre de usuario",
+      "usernamePlaceholder": "Su nombre de usuario...",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Su contraseña...",
+      "headerLabel": "Encabezado de autorización",
+      "headerPlaceholder": "El encabezado de autorización aparecerá aquí...",
+      "base64Value": "Valor codificado en Base64",
+      "clear": "Limpiar",
+      "copied": "Encabezado copiado al portapapeles"
+    }
+  }
+}

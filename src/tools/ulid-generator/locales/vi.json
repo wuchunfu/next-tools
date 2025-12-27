@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "ulid-generator": {
+      "format": {
+        "label": "Định dạng",
+        "description": "Chọn định dạng xuất cho ULID.",
+        "raw": "Thô",
+        "rawDescription": "Văn bản thuần, mỗi dòng một ULID.",
+        "json": "JSON",
+        "jsonDescription": "Dạng mảng JSON, phù hợp cho API."
+      },
+      "quantity": "Số lượng",
+      "quantityDescription": "Số ULID cần tạo (1-100).",
+      "generatedUlids": "ULID đã tạo",
+      "refresh": "Làm mới",
+      "copy": "Sao chép",
+      "copied": "ULID đã được sao chép vào clipboard",
+      "noUlids": "Nhấn làm mới để tạo ULID",
+      "cardConfigTitle": "Cấu hình ULID",
+      "cardOutputTitle": "Kết quả ULID"
+    }
+  }
+}

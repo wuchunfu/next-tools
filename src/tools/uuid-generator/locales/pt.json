@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "uuid-generator": {
+      "title": "Gerador de UUIDs",
+      "description": "Um Identificador Único Universal (UUID) é um número de 128 bits usado para identificar informações em sistemas de computador. O número de UUIDs possíveis é 16^32, que é 2^128 ou aproximadamente 3,4x10^38 (isso é muito!).",
+      "uuidVersion": "Versão UUID",
+      "uuidVersionDescription": "Selecione a versão UUID a gerar.",
+      "versionNIL": "NIL",
+      "versionNILDescription": "O UUID nulo (todos zeros).",
+      "versionV1": "Versão 1",
+      "versionV1Description": "UUID baseado em tempo usando timestamp e endereço MAC.",
+      "versionV3": "Versão 3",
+      "versionV3Description": "UUID baseado em nome usando hash MD5 e namespace.",
+      "versionV4": "Versão 4",
+      "versionV4Description": "UUID aleatório (mais comumente usado).",
+      "versionV5": "Versão 5",
+      "versionV5Description": "UUID baseado em nome usando hash SHA-1 e namespace.",
+      "quantity": "Quantidade",
+      "uuidQuantity": "Quantidade de UUIDs",
+      "namespace": "Namespace",
+      "namespaceDescription": "Selecione um namespace predefinido ou insira um UUID personalizado.",
+      "namespaceDNS": "DNS",
+      "namespaceDNSDescription": "Namespace do sistema de nomes de domínio.",
+      "namespaceURL": "URL",
+      "namespaceURLDescription": "Namespace do localizador uniforme de recursos.",
+      "namespaceOID": "OID",
+      "namespaceOIDDescription": "Namespace do identificador de objeto.",
+      "namespaceX500": "X.500",
+      "namespaceX500Description": "Namespace do nome distinguido X.500.",
+      "namespaceCustom": "Personalizado",
+      "namespaceCustomDescription": "Insira um namespace UUID personalizado.",
+      "name": "Nome",
+      "yourUuids": "Seus UUIDs",
+      "copy": "Copiar",
+      "refresh": "Atualizar",
+      "invalidUuid": "UUID inválido",
+      "copied": "UUIDs copiados para a área de transferência",
+      "cardConfigTitle": "Configuração de UUID"
+    }
+  }
+}

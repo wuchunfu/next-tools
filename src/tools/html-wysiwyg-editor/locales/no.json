@@ -1,0 +1,34 @@
+{
+  "tools": {
+    "html-wysiwyg-editor": {
+      "cardTitle": "Redaktør",
+      "cardDescription": "Skriv rik tekst og se formatert HTML side om side.",
+      "initial": "<h1>Hei!</h1><p>Velkommen til denne HTML wysiwyg-redigereren</p>",
+      "formattedTitle": "Formatert HTML",
+      "formattedDescription": "Prettier-formatert markup klar til kopiering.",
+      "formattedPlaceholder": "Formatert HTML vises her",
+      "copyFormatted": "Kopier formatert",
+      "copiedFormatted": "Formatert HTML kopiert",
+      "clearContent": "Tøm",
+      "charactersLabel": "Tegn",
+      "toolbar": {
+        "bold": "Fet",
+        "italic": "Kursiv",
+        "strike": "Gjennomstreket",
+        "inline": "Inline-kode",
+        "h1": "Overskrift 1",
+        "h2": "Overskrift 2",
+        "h3": "Overskrift 3",
+        "h4": "Overskrift 4",
+        "bullet": "Punktliste",
+        "ordered": "Nummerert liste",
+        "codeBlock": "Kodeblokk",
+        "blockquote": "Blokksitat",
+        "hardBreak": "Linjeskift",
+        "clear": "Tøm formatering",
+        "undo": "Angre",
+        "redo": "Gjør om"
+      }
+    }
+  }
+}

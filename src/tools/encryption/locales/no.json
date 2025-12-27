@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "encryption": {
+      "title": "Krypter / dekrypter tekst",
+      "description": "Krypter klar tekst og dekrypter kryptert tekst ved hjelp av kryptoalgoritmer som AES, TripleDES, Rabbit eller RC4.",
+      "encrypt": "Krypter",
+      "yourText": "Din tekst:",
+      "stringToCypher": "Strengen som skal krypteres",
+      "yourSecretKey": "Din hemmelige nøkkel:",
+      "encryptionAlgorithm": "Krypteringsalgoritme:",
+      "yourTextEncrypted": "Din krypterte tekst:",
+      "stringHash": "Din streng-hash",
+      "decrypt": "Dekrypter",
+      "yourEncryptedText": "Din krypterte tekst:",
+      "yourDecryptedText": "Din dekrypterte tekst:",
+      "errorWhileDecrypting": "Feil under dekryptering",
+      "unableToDecrypt": "Kan ikke dekryptere teksten din"
+    }
+  }
+}

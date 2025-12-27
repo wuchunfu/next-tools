@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "base-converter": {
+      "inputNumber": "输入数字",
+      "inputPlaceholder": "在此输入您的数字（例如：42）",
+      "inputBase": "输入进制",
+      "inputBasePlaceholder": "在此输入您的输入进制（例如：10）",
+      "binary": "二进制 (2)",
+      "binaryPlaceholder": "二进制版本将显示在此处...",
+      "octal": "八进制 (8)",
+      "octalPlaceholder": "八进制版本将显示在此处...",
+      "decimal": "十进制 (10)",
+      "decimalPlaceholder": "十进制版本将显示在此处...",
+      "hexadecimal": "十六进制 (16)",
+      "hexadecimalPlaceholder": "十六进制版本将显示在此处...",
+      "base64": "Base64 (64)",
+      "base64Placeholder": "Base64 版本将显示在此处...",
+      "custom": "自定义",
+      "customPlaceholder": "进制 {base} 将显示在此处...",
+      "cardInputTitle": "数字与进制",
+      "cardInputDescription": "输入数值，选择输入与输出进制。",
+      "cardOutputTitle": "转换结果",
+      "cardOutputDescription": "一键复制任意进制结果。",
+      "inputLength": "长度",
+      "useExample": "使用示例",
+      "clear": "清空",
+      "customBaseLabel": "自定义进制",
+      "outputPresetsTitle": "常用输出",
+      "customOutputTitle": "自定义输出",
+      "errorTitle": "转换错误",
+      "validTitle": "可复制",
+      "validHint": "所有输出会与您的输入保持同步。"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-unicode": {
+      "title": "文本转 Unicode",
+      "description": "解析文本并将其转换为 unicode，反之亦然",
+      "cardTextToUnicodeTitle": "文本转 Unicode",
+      "cardTextToUnicodeDescription": "将文本转换为 Unicode 转义序列（\\u0031 格式）。",
+      "cardUnicodeToTextTitle": "Unicode 转文本",
+      "cardUnicodeToTextDescription": "将 Unicode 转义序列转换回文本。",
+      "textPlaceholder": "例如：'Hello Avengers'",
+      "enterTextToConvert": "输入要转换的文本",
+      "inputLength": "长度",
+      "outputLength": "长度",
+      "characters": "字符数",
+      "entities": "实体数",
+      "clear": "清除",
+      "unicodeFromText": "Unicode 输出",
+      "unicodePlaceholder": "您文本的 unicode 表示将显示在这里",
+      "unicodeInputPlaceholder": "输入 Unicode",
+      "enterUnicodeToConvert": "输入要转换的 unicode",
+      "textFromUnicode": "文本输出",
+      "textOutputPlaceholder": "您 unicode 的文本表示将显示在这里"
+    }
+  }
+}

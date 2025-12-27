@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "json-to-xml": {
+      "cardTitle": "Конвертер JSON у XML",
+      "cardDescription": "Перетворіть формат JSON у формат XML. Вставте ваш JSON і отримайте вивід XML.",
+      "cardInputTitle": "Ввід JSON",
+      "cardInputDescription": "Вставте нижче JSON, який потрібно конвертувати. Ми перевіримо його та згенеруємо XML-вивід.",
+      "cardOutputTitle": "XML-вивід",
+      "cardOutputDescription": "Це XML-представлення вашого JSON. Ви можете скопіювати його для подальшого використання.",
+      "inputPlaceholder": "Вставте ваш вміст JSON тут...",
+      "invalidJson": "Наданий JSON недійсний.",
+      "invalidJsonTitle": "Недійсний JSON",
+      "outputError": "Недійсний формат JSON. Будь ласка, перевірте ваш ввід.",
+      "clear": "Очистити",
+      "formatXml": "Форматувати XML"
+    }
+  }
+}

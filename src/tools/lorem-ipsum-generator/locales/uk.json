@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "lorem-ipsum-generator": {
+      "title": "Генератор Lorem ipsum",
+      "description": "Lorem ipsum — це текст-заповнювач, який зазвичай використовується для демонстрації візуальної форми документа або шрифту без опори на значущий контент",
+      "optionsTitle": "Параметри",
+      "optionsDescription": "Налаштуйте параметри генерації Lorem Ipsum",
+      "resultsTitle": "Згенерований текст",
+      "resultsDescription": "Попередній перегляд згенерованого Lorem Ipsum",
+      "paragraphs": "Абзаци",
+      "sentencesPerParagraph": "Речень в абзаці",
+      "wordsPerSentence": "Слів у реченні",
+      "startWithLoremIpsum": "Почати з lorem ipsum?",
+      "asHtml": "Як HTML?",
+      "placeholder": "Ваш lorem ipsum...",
+      "copy": "Копіювати",
+      "refresh": "Оновити",
+      "copied": "Lorem ipsum скопійовано в буфер обміну"
+    }
+  }
+}

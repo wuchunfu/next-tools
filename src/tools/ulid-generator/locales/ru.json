@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "ulid-generator": {
+      "format": {
+        "label": "Формат",
+        "description": "Выберите формат вывода ULID.",
+        "raw": "Без формата",
+        "rawDescription": "Текстовый формат, по одному ULID на строку.",
+        "json": "JSON",
+        "jsonDescription": "Формат массива JSON, удобен для API."
+      },
+      "quantity": "Количество",
+      "quantityDescription": "Сколько ULID сгенерировать (1–100).",
+      "generatedUlids": "Сгенерированные ULID",
+      "refresh": "Обновить",
+      "copy": "Копировать",
+      "copied": "ULID скопированы в буфер обмена",
+      "noUlids": "Нажмите «Обновить», чтобы сгенерировать ULID",
+      "cardConfigTitle": "Конфигурация ULID",
+      "cardOutputTitle": "Результаты ULID"
+    }
+  }
+}

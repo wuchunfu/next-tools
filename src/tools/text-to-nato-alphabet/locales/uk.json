@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "text-to-nato-alphabet": {
+      "cardTitle": "Конвертер фонетичного алфавіту NATO",
+      "cardDescription": "Перетворіть текст на фонетичний алфавіт NATO (Alpha, Bravo, Charlie тощо)",
+      "cardInputTitle": "Ввід тексту",
+      "cardInputDescription": "Введіть або вставте ваш текст нижче. Ми перетворимо літери на фонетичний алфавіт NATO.",
+      "cardOutputTitle": "Результат NATO",
+      "cardOutputDescription": "Перегляньте та скопіюйте перетворений рядок фонетичного алфавіту NATO.",
+      "yourTextToConvert": "Ваш текст для перетворення",
+      "inputPlaceholder": "Введіть ваш текст тут...",
+      "inputLength": "Довжина",
+      "letters": "Літери",
+      "clear": "Очистити",
+      "yourTextInNato": "Фонетичний алфавіт NATO",
+      "outputLength": "Довжина виводу",
+      "copyNatoString": "Копіювати рядок NATO",
+      "copied": "Рядок алфавіту NATO скопійовано."
+    }
+  }
+}

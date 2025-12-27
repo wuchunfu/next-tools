@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "bcrypt": {
+      "title": "Bcrypt",
+      "description": "Hash og sammenlign tekststrenger ved hjelp av bcrypt. Bcrypt er en passord-hashfunksjon basert på Blowfish-krypteringen.",
+      "hash": "Hash",
+      "placeholder": "Din streng å bcrypte...",
+      "yourString": "Din streng:",
+      "saltCount": "Salt-antall:",
+      "saltRounds": "Salt-runder...",
+      "copyHash": "Kopier hash",
+      "copied": "Hashet streng kopiert til utklippstavlen",
+      "compareStringWithHash": "Sammenlign streng med hash",
+      "stringToCompare": "Din streng å sammenligne...",
+      "yourHash": "Din hash:",
+      "hashToCompare": "Din hash å sammenligne...",
+      "doTheyMatch": "Stemmer de overens?",
+      "yes": "Ja",
+      "no": "Nei",
+      "enterBothFields": "Skriv inn begge felt for å sammenligne"
+    }
+  }
+}

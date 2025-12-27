@@ -1,0 +1,12 @@
+{
+  "tools": {
+    "numeronym-generator": {
+      "placeholder": "Nhập một từ, vd. 'internationalization'",
+      "outputPlaceholder": "Numeronym của bạn sẽ xuất hiện ở đây, vd. 'i18n'",
+      "cardInputTitle": "Nhập",
+      "cardInputDescription": "Nhập từ bạn muốn chuyển thành numeronym.",
+      "cardResultsTitle": "Kết quả",
+      "cardResultsDescription": "Numeronym cho từ đã cung cấp."
+    }
+  }
+}

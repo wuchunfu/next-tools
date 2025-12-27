@@ -1,0 +1,34 @@
+{
+  "tools": {
+    "case-converter": {
+      "title": "Bộ chuyển đổi chữ hoa/thường",
+      "description": "Chuyển đổi chữ hoa/thường của chuỗi và chọn giữa các định dạng khác nhau",
+      "cardTitle": "Bộ chuyển đổi chữ hoa/thường",
+      "cardDescription": "Chuyển đổi chữ hoa/thường của chuỗi và chọn giữa các định dạng khác nhau.",
+      "cardInputTitle": "Nhập văn bản",
+      "cardInputDescription": "Nhập chuỗi của bạn bên dưới. Chúng tôi sẽ tạo các định dạng chữ hoa/thường phổ biến cho lập trình và văn bản.",
+      "cardOutputTitle": "Tất cả định dạng",
+      "cardOutputDescription": "Chọn định dạng bạn cần và sao chép. Giá trị sẽ cập nhật ngay khi bạn nhập.",
+      "yourString": "Chuỗi của bạn",
+      "yourStringPlaceholder": "Nhập văn bản của bạn ở đây...",
+      "inputLength": "Độ dài",
+      "sanitizedLength": "Ký tự hợp lệ",
+      "clear": "Xóa",
+      "formatsTitle": "Tất cả các định dạng",
+      "lowercase": "Chữ thường",
+      "uppercase": "Chữ hoa",
+      "camelcase": "Camelcase",
+      "capitalcase": "Capitalcase",
+      "constantcase": "Constantcase",
+      "dotcase": "Dotcase",
+      "headercase": "Headercase",
+      "nocase": "Nocase",
+      "paramcase": "Paramcase",
+      "pascalcase": "Pascalcase",
+      "pathcase": "Pathcase",
+      "sentencecase": "Sentencecase",
+      "snakecase": "Snakecase",
+      "mockingcase": "Mockingcase"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "tools": {
+    "list-converter": {
+      "configTitle": "Configuration",
+      "configDescription": "Configure conversion options like trimming, sorting, formatting, and separators.",
+      "converterTitle": "Converter",
+      "converterDescription": "Paste your list data and see the transformed output based on the configuration above.",
+      "sortAscending": "Sort ascending",
+      "sortDescending": "Sort descending",
+      "trimListItems": "Trim list items",
+      "trimListItemsHelp": "Remove leading and trailing whitespace from each item",
+      "removeDuplicates": "Remove duplicates",
+      "removeDuplicatesHelp": "Remove duplicate items from the list",
+      "convertToLowercase": "Convert to lowercase",
+      "keepLineBreaks": "Keep line breaks",
+      "sortList": "Sort list",
+      "sortAlphabetically": "Sort alphabetically",
+      "separator": "Separator",
+      "wrapItem": "Wrap item",
+      "itemPrefix": "Item prefix",
+      "itemSuffix": "Item suffix",
+      "wrapList": "Wrap list",
+      "listPrefix": "List prefix",
+      "listSuffix": "List suffix",
+      "inputLabel": "Your input data",
+      "inputPlaceholder": "Paste your input data here...",
+      "outputLabel": "Your transformed data",
+      "outputPlaceholder": "Transformed output will appear here...",
+      "clear": "Clear"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "yaml-to-toml": {
+      "cardTitle": "Конвертер YAML в TOML",
+      "cardDescription": "Перетворіть формат YAML на формат TOML. Вставте ваш YAML і отримайте вивід TOML.",
+      "cardInputTitle": "Ввід YAML",
+      "cardInputDescription": "Вставте нижче YAML, який потрібно конвертувати. Ми перевіримо його та згенеруємо TOML-вивід.",
+      "cardOutputTitle": "TOML-вивід",
+      "cardOutputDescription": "Це TOML-представлення вашого YAML. Ви можете скопіювати його для подальшого використання.",
+      "inputPlaceholder": "Вставте ваш YAML тут...",
+      "clear": "Очистити",
+      "invalidYaml": "Наданий YAML недійсний.",
+      "invalidYamlTitle": "Недійсний YAML",
+      "outputError": "Невірний формат YAML. Будь ласка, перевірте ваш ввід."
+    }
+  }
+}

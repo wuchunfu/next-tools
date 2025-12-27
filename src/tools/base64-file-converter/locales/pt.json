@@ -1,0 +1,37 @@
+{
+  "tools": {
+    "base64-file-converter": {
+      "base64ToFile": "Base64 para arquivo",
+      "fileToBase64": "Arquivo para base64",
+      "fileName": "Nome do arquivo",
+      "downloadFilename": "Nome do arquivo de download",
+      "extension": "Extensão",
+      "base64InputPlaceholder": "Coloque sua string de arquivo base64 aqui...",
+      "previewImage": "Visualizar imagem",
+      "downloadFile": "Baixar arquivo",
+      "dragAndDrop": "Arraste e solte um arquivo aqui, ou clique para selecionar um arquivo",
+      "fileBase64Placeholder": "O arquivo em base64 estará aqui",
+      "copy": "Copiar",
+      "copied": "String Base64 copiada para a área de transferência",
+      "invalidBase64": "String base64 inválida",
+      "cardDecodeTitle": "Base64 para Arquivo",
+      "cardDecodeDescription": "Decodifique strings Base64 e baixe-as como arquivos. Suporta visualização de imagens.",
+      "cardEncodeTitle": "Arquivo para Base64",
+      "cardEncodeDescription": "Faça upload de arquivos e converta-os para o formato Base64.",
+      "base64InputLabel": "String Base64",
+      "fileBase64Label": "Saída Base64",
+      "length": "Comprimento",
+      "detectedType": "Tipo detectado",
+      "imageFile": "Imagem",
+      "imagePreview": "Visualização de imagem",
+      "clickPreview": "Clique no botão de visualização para ver a imagem",
+      "uploadCta": "Clique para fazer upload ou arrastar e soltar",
+      "uploadHint": "Qualquer tipo de arquivo é suportado",
+      "fileUploadLabel": "Selecionar arquivo",
+      "fileSize": "Tamanho",
+      "fileType": "Tipo",
+      "unknownType": "Desconhecido",
+      "previewError": "Falha ao visualizar a imagem"
+    }
+  }
+}

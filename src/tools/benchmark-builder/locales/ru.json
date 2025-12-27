@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "benchmark-builder": {
+      "suiteName": "Набор {index}",
+      "suiteLabel": "Имя набора",
+      "suitePlaceholder": "Имя набора...",
+      "suitesTitle": "Наборы",
+      "suitesDescription": "Управляйте несколькими наборами и их значениями выборки.",
+      "suiteValues": "Значения набора",
+      "deleteSuite": "Удалить набор",
+      "addSuite": "Добавить набор",
+      "resultsTitle": "Результаты",
+      "resultsDescription": "Сводка и сравнение между наборами.",
+      "unitPlaceholder": "Единица (например: мс)",
+      "unitLabel": "Единица",
+      "resetSuites": "Сбросить наборы",
+      "copyMarkdown": "Копировать как таблицу markdown",
+      "copyBullet": "Копировать как маркированный список",
+      "setMeasure": "Установите вашу меру...",
+      "deleteValue": "Удалить это значение",
+      "addMeasure": "Добавить меру",
+      "header": {
+        "position": "Позиция",
+        "title": "Набор",
+        "size": "Образцы",
+        "mean": "Среднее",
+        "variance": "Дисперсия"
+      }
+    }
+  }
+}

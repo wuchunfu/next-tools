@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "json-diff": {
+      "cardTitle": "JSON-sammenligning",
+      "cardDescription": "Sammenlign to JSON-objekter og se forskjellene fremhevet.",
+      "cardInputTitle": "JSON-inndata",
+      "cardInputDescription": "Lim inn to JSON-dokumenter nedenfor. Vi validerer dem og viser forskjellene.",
+      "invalidJson": "Ugyldig JSON-format",
+      "firstJsonLabel": "Din første JSON",
+      "firstJsonPlaceholder": "Lim inn din første JSON her...",
+      "compareJsonLabel": "Din JSON å sammenligne",
+      "compareJsonPlaceholder": "Lim inn din JSON å sammenligne her...",
+      "resultsTitle": "Sammenligningsresultater",
+      "resultsDescription": "Forskjeller er fremhevet i grønn (lagt til) og rød (fjernet).",
+      "onlyShowDifferences": "Vis bare forskjeller",
+      "sameJson": "De oppgitte JSON-ene er like",
+      "sameJsonDescription": "Begge JSON-objektene er identiske. Ingen forskjeller funnet.",
+      "clickToCopy": "Klikk for å kopiere"
+    }
+  }
+}

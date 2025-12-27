@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "ipv4-range-expander": {
+      "cardInputTitle": "Rango de direcciones IPv4",
+      "cardInputDescription": "Ingrese las direcciones IPv4 de inicio y final para calcular el rango CIDR y la información de direcciones expandidas.",
+      "cardResultsTitle": "Resultados de expansión de rango",
+      "cardResultsDescription": "Vea el rango CIDR calculado y la información de direcciones expandidas.",
+      "invalidAddressTitle": "Dirección inválida",
+      "startAddress": "Dirección de inicio",
+      "startAddressPlaceholder": "Dirección IPv4 de inicio...",
+      "endAddress": "Dirección final",
+      "endAddressPlaceholder": "Dirección IPv4 final...",
+      "invalidIpv4": "Dirección IPv4 inválida",
+      "addressesInRange": "Direcciones en el rango",
+      "cidr": "CIDR",
+      "label": "Etiqueta",
+      "oldValue": "valor antiguo",
+      "newValue": "valor nuevo",
+      "invalidCombination": "Combinación de direcciones inválida",
+      "invalidCombinationDescription": "La dirección IPv4 final es menor que la dirección IPv4 de inicio. Esto no es válido y no se pudo calcular ningún resultado.",
+      "switchAddresses": "Cambiar direcciones"
+    }
+  }
+}

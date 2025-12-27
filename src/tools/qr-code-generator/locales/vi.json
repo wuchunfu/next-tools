@@ -1,0 +1,28 @@
+{
+  "tools": {
+    "qrcode-generator": {
+      "title": "Tạo mã QR",
+      "description": "Tạo và tải xuống mã QR cho URL (hoặc văn bản thuần túy), tùy chỉnh màu nền và màu nền trước.",
+      "cardTitle": "Tạo mã QR",
+      "cardDescription": "Tạo mã QR có thể tùy chỉnh cho URL hoặc văn bản với màu sắc và mức độ sửa lỗi có thể điều chỉnh.",
+      "text": "Nội dung",
+      "yourLinkOrText": "Nhập URL hoặc văn bản để mã hóa...",
+      "foregroundColor": "Màu nền trước",
+      "backgroundColor": "Màu nền",
+      "errorResistance": "Mức độ sửa lỗi",
+      "downloadQrCode": "Tải PNG",
+      "characters": "ký tự",
+      "colorSettings": "Cài đặt màu",
+      "resetColors": "Đặt lại",
+      "resetColorsTooltip": "Đặt lại màu mặc định",
+      "levelLow": "Thấp (~7%)",
+      "levelMedium": "Trung bình (~15%)",
+      "levelQuartile": "Phần tư (~25%)",
+      "levelHigh": "Cao (~30%)",
+      "selectLevel": "Chọn mức độ",
+      "errorResistanceHint": "Mức độ cao hơn cho phép chịu được nhiều hư hại hơn nhưng tăng mật độ mã QR.",
+      "preview": "Xem trước",
+      "emptyPreview": "Nhập văn bản để tạo mã QR"
+    }
+  }
+}

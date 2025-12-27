@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "ipv4-range-expander": {
+      "cardInputTitle": "Диапазон адресов IPv4",
+      "cardInputDescription": "Введите начальный и конечный адреса IPv4 для расчета диапазона CIDR и расширенной информации об адресах.",
+      "cardResultsTitle": "Результаты расширения диапазона",
+      "cardResultsDescription": "Просмотрите рассчитанный диапазон CIDR и расширенную информацию об адресах.",
+      "invalidAddressTitle": "Неверный адрес",
+      "startAddress": "Начальный адрес",
+      "startAddressPlaceholder": "Начальный адрес IPv4...",
+      "endAddress": "Конечный адрес",
+      "endAddressPlaceholder": "Конечный адрес IPv4...",
+      "invalidIpv4": "Неверный адрес IPv4",
+      "addressesInRange": "Адреса в диапазоне",
+      "cidr": "CIDR",
+      "label": "Метка",
+      "oldValue": "старое значение",
+      "newValue": "новое значение",
+      "invalidCombination": "Неверная комбинация адресов",
+      "invalidCombinationDescription": "Конечный адрес IPv4 меньше начального адреса IPv4. Это недействительно, и результат не может быть вычислен.",
+      "switchAddresses": "Поменять адреса местами"
+    }
+  }
+}

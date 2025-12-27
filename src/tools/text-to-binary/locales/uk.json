@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-binary": {
+      "title": "Текст до ASCII двійковий",
+      "description": "Перетворіть текст у його двійкове представлення ASCII і навпаки.",
+      "cardTextToBinaryTitle": "Текст до Двійковий",
+      "cardTextToBinaryDescription": "Перетворіть текст у його двійкове представлення ASCII.",
+      "cardBinaryToTextTitle": "Двійковий до Текст",
+      "cardBinaryToTextDescription": "Перетворіть двійкове представлення ASCII назад на текст.",
+      "textPlaceholder": "напр. 'Hello world'",
+      "enterTextToConvert": "Введіть текст для перетворення",
+      "inputLength": "Довжина",
+      "outputLength": "Довжина",
+      "bytes": "Байти",
+      "clear": "Очистити",
+      "binaryFromText": "Двійковий вивід",
+      "binaryPlaceholder": "Двійкове представлення вашого тексту з'явиться тут",
+      "binaryInputPlaceholder": "напр. '01001000 01100101 01101100 01101100 01101111'",
+      "enterBinaryToConvert": "Введіть двійковий для перетворення",
+      "textFromBinary": "Текстовий вивід",
+      "textOutputPlaceholder": "Текстове представлення вашого двійкового з'явиться тут",
+      "invalidBinary": "Двійковий повинен бути дійсним ASCII двійковим рядком з кратними 8 бітам"
+    }
+  }
+}

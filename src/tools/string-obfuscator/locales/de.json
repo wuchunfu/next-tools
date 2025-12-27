@@ -1,0 +1,16 @@
+{
+  "tools": {
+    "string-obfuscator": {
+      "copied": "Verschleierte Zeichenkette kopiert",
+      "cardInputTitle": "Optionen",
+      "cardInputDescription": "Konfigurieren Sie, wie die Zeichenkette verschleiert werden soll",
+      "cardResultsTitle": "Verschleiert",
+      "cardResultsDescription": "Vorschau der verschleierten Zeichenkette",
+      "placeholder": "Geben Sie eine zu verschleiernde Zeichenkette ein",
+      "label": "Zu verschleiernde Zeichenkette:",
+      "keepFirst": "Erste behalten:",
+      "keepLast": "Letzte behalten:",
+      "keepSpaces": "Leerzeichen behalten:"
+    }
+  }
+}

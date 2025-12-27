@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "email-normalizer": {
+      "unableToParse": "Không thể phân tích email: {email}",
+      "copied": "Email đã chuẩn hóa được sao chép vào clipboard",
+      "rawEmails": "Email thô để chuẩn hóa:",
+      "inputPlaceholder": "Đặt email của bạn ở đây (mỗi dòng một email)...",
+      "normalizedEmails": "Email đã chuẩn hóa:",
+      "outputPlaceholder": "Email đã chuẩn hóa sẽ xuất hiện ở đây...",
+      "clear": "Xóa email",
+      "copy": "Sao chép email đã chuẩn hóa",
+      "cardInputTitle": "Nhập email",
+      "cardInputDescription": "Dán địa chỉ email của bạn bên dưới (mỗi dòng một địa chỉ). Chúng sẽ được chuẩn hóa tự động.",
+      "cardOutputTitle": "Email đã chuẩn hóa",
+      "cardOutputDescription": "Xem xét và sao chép các địa chỉ email đã chuẩn hóa."
+    }
+  }
+}

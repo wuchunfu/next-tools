@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "device-information": {
+      "screen": "Écran",
+      "screenSize": "Taille de l'écran",
+      "orientation": "Orientation",
+      "orientationAngle": "Angle d'orientation",
+      "colorDepth": "Profondeur de couleur",
+      "pixelRatio": "Ratio de pixels",
+      "windowSize": "Taille de la fenêtre",
+      "device": "Appareil",
+      "vendor": "Fournisseur du navigateur",
+      "languages": "Langues",
+      "platform": "Plateforme",
+      "userAgent": "Agent utilisateur",
+      "unknown": "inconnu"
+    }
+  }
+}

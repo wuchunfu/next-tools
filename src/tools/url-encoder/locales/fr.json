@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "url-encoder": {
+      "title": "Encoder/décoder les chaînes au format URL",
+      "description": "Encodez le texte au format codé URL (également appelé \"codé en pourcentage\"), ou décodez-le.",
+      "cardEncodeTitle": "Encoder URL",
+      "cardEncodeDescription": "Encodez le texte au format codé URL (également appelé \"codé en pourcentage\").",
+      "cardDecodeTitle": "Décoder URL",
+      "cardDecodeDescription": "Décodez les chaînes codées URL en leur texte original.",
+      "inputLabel": "Votre chaîne",
+      "inputPlaceholder": "Entrez la chaîne à encoder...",
+      "outputLabel": "Chaîne encodée",
+      "outputPlaceholder": "La chaîne encodée apparaîtra ici...",
+      "decodeInputLabel": "Votre chaîne encodée",
+      "decodeInputPlaceholder": "Entrez la chaîne codée URL à décoder...",
+      "decodeOutputLabel": "Chaîne décodée",
+      "decodeOutputPlaceholder": "La chaîne décodée apparaîtra ici...",
+      "clear": "Effacer",
+      "impossibleToParse": "Impossible d'analyser cette chaîne"
+    }
+  }
+}

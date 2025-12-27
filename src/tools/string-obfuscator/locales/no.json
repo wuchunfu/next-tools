@@ -1,0 +1,16 @@
+{
+  "tools": {
+    "string-obfuscator": {
+      "copied": "Obfuskert streng kopiert",
+      "cardInputTitle": "Innstillinger",
+      "cardInputDescription": "Konfigurer hvordan strengen skal obfuskeres",
+      "cardResultsTitle": "Obfuskert",
+      "cardResultsDescription": "Forhåndsvisning av obfuskert streng",
+      "placeholder": "Skriv inn en streng å obfuskere",
+      "label": "Streng å obfuskere:",
+      "keepFirst": "Behold første:",
+      "keepLast": "Behold siste:",
+      "keepSpaces": "Behold mellomrom:"
+    }
+  }
+}

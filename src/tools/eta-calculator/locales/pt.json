@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "eta-calculator": {
+      "exampleTitle": "Exemplo",
+      "example": "Com um exemplo concreto, se você lava 5 pratos em 3 minutos e tem 500 pratos para lavar, levará 5 horas para lavar todos.",
+      "cardInputTitle": "Parâmetros de entrada",
+      "cardInputDescription": "Digite a quantidade de elementos a consumir, hora de início e taxa de consumo para calcular o tempo estimado de chegada.",
+      "cardResultsTitle": "Resultados do cálculo",
+      "cardResultsDescription": "Tempo estimado de chegada e tempo de conclusão com base nos seus parâmetros de entrada.",
+      "amountOfElement": "Quantidade de elementos a consumir",
+      "consumptionStartedAt": "O consumo começou às",
+      "amountOfUnitConsumed": "Quantidade de unidades consumidas por período de tempo",
+      "timeSpan": "Período de tempo",
+      "hour": "Hora",
+      "minute": "Minuto",
+      "in": "em",
+      "milliseconds": "milissegundos",
+      "seconds": "segundos",
+      "minutes": "minutos",
+      "hours": "horas",
+      "days": "dias",
+      "totalDuration": "Duração total",
+      "itWillEnd": "Terminará"
+    }
+  }
+}

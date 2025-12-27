@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "svg-placeholder-generator": {
+      "cardTitle": "SVG Plassholder Generator",
+      "cardDescription": "Generer tilpassbare SVG-plassholderbilder med egendefinerte dimensjoner, farger og tekst.",
+      "dimensions": "Dimensjoner",
+      "width": "Bredde (px)",
+      "widthPlaceholder": "SVG-bredde...",
+      "height": "Høyde (px)",
+      "heightPlaceholder": "SVG-høyde...",
+      "fontSize": "Skriftstørrelse (px)",
+      "fontSizePlaceholder": "Skriftstørrelse...",
+      "customText": "Egendefinert tekst",
+      "customPlaceholder": "Standard er {width}x{height}",
+      "useExact": "Bruk eksakt størrelse i SVG-attributter",
+      "colorSettings": "Fargeinnstillinger",
+      "background": "Bakgrunn",
+      "textColor": "Tekstfarge",
+      "preview": "Forhåndsvisning",
+      "svgHtml": "SVG HTML-element",
+      "svgBase64": "SVG i Base64",
+      "copySvg": "Kopier SVG",
+      "copySvgTooltip": "Kopier SVG HTML-kode",
+      "copyBase64": "Kopier Base64",
+      "copyBase64Tooltip": "Kopier Base64 data-URL",
+      "downloadSvg": "Last ned",
+      "downloadSvgTooltip": "Last ned som SVG-fil",
+      "imageAlt": "SVG-forhåndsvisning"
+    }
+  }
+}

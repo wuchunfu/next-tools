@@ -1,0 +1,274 @@
+{
+  "tools": {
+    "http-status-codes": {
+      "searchPlaceholder": "Buscar estado HTTP...",
+      "searchResults": "Resultados de búsqueda",
+      "forType": "Para {type}.",
+      "types": {
+        "http": "HTTP",
+        "webdav": "WebDav"
+      },
+      "categories": {
+        "1xx-informational-response": "Respuesta informativa 1xx",
+        "2xx-success": "Éxito 2xx",
+        "3xx-redirection": "Redirección 3xx",
+        "4xx-client-error": "Error del cliente 4xx",
+        "5xx-server-error": "Error del servidor 5xx"
+      },
+      "codes": {
+        "100": {
+          "name": "Continuar",
+          "description": "Esperando a que el cliente envíe el cuerpo de la solicitud."
+        },
+        "101": {
+          "name": "Cambio de protocolo",
+          "description": "El servidor ha acordado cambiar el protocolo."
+        },
+        "102": {
+          "name": "Procesando",
+          "description": "El servidor está procesando la solicitud, pero aún no hay respuesta disponible."
+        },
+        "103": {
+          "name": "Indicaciones tempranas",
+          "description": "El servidor devuelve algunos encabezados de respuesta antes del mensaje HTTP final."
+        },
+        "200": {
+          "name": "OK",
+          "description": "Respuesta estándar para solicitudes HTTP exitosas."
+        },
+        "201": {
+          "name": "Creado",
+          "description": "La solicitud se ha cumplido, resultando en la creación de un nuevo recurso."
+        },
+        "202": {
+          "name": "Aceptado",
+          "description": "La solicitud ha sido aceptada para procesamiento, pero el procesamiento no se ha completado."
+        },
+        "203": {
+          "name": "Información no autorizada",
+          "description": "La solicitud es exitosa pero el contenido de la solicitud original ha sido modificado por un proxy transformador."
+        },
+        "204": {
+          "name": "Sin contenido",
+          "description": "El servidor procesó exitosamente la solicitud y no está devolviendo ningún contenido."
+        },
+        "205": {
+          "name": "Restablecer contenido",
+          "description": "El servidor indica reinicializar la vista del documento que envió esta solicitud."
+        },
+        "206": {
+          "name": "Contenido parcial",
+          "description": "El servidor está entregando solo una parte del recurso debido a un encabezado de rango enviado por el cliente."
+        },
+        "207": {
+          "name": "Multiestado",
+          "description": "El cuerpo del mensaje que sigue es un mensaje XML y puede contener varios códigos de respuesta separados."
+        },
+        "208": {
+          "name": "Ya reportado",
+          "description": "Los miembros de un enlace DAV ya han sido enumerados en una parte anterior de la respuesta (multiestado)."
+        },
+        "226": {
+          "name": "IM usado",
+          "description": "El servidor ha cumplido una solicitud para el recurso, y la respuesta es una representación del resultado."
+        },
+        "300": {
+          "name": "Múltiples opciones",
+          "description": "Indica múltiples opciones para el recurso que el cliente puede seguir."
+        },
+        "301": {
+          "name": "Movido permanentemente",
+          "description": "Esta y todas las solicitudes futuras deben dirigirse al URI dado."
+        },
+        "302": {
+          "name": "Encontrado",
+          "description": "Redirigir a otra URL. Este es un ejemplo de práctica de la industria que contradice el estándar."
+        },
+        "303": {
+          "name": "Ver otro",
+          "description": "La respuesta a la solicitud se puede encontrar bajo otro URI usando un método GET."
+        },
+        "304": {
+          "name": "No modificado",
+          "description": "Indica que el recurso no ha sido modificado desde la versión especificada por los encabezados de solicitud."
+        },
+        "305": {
+          "name": "Usar proxy",
+          "description": "El recurso solicitado está disponible solo a través de un proxy, cuya dirección se proporciona en la respuesta."
+        },
+        "306": {
+          "name": "Cambiar proxy",
+          "description": "Ya no se usa. Originalmente significaba \"Las solicitudes posteriores deben usar el proxy especificado.\""
+        },
+        "307": {
+          "name": "Redirección temporal",
+          "description": "En este caso, la solicitud debe repetirse con otro URI; sin embargo, las solicitudes futuras aún deben usar el URI original."
+        },
+        "308": {
+          "name": "Redirección permanente",
+          "description": "La solicitud y todas las solicitudes futuras deben repetirse usando otro URI."
+        },
+        "400": {
+          "name": "Solicitud incorrecta",
+          "description": "El servidor no puede o no procesará la solicitud debido a un error aparente del cliente."
+        },
+        "401": {
+          "name": "No autorizado",
+          "description": "Similar a 403 Prohibido, pero específicamente para usar cuando se requiere autenticación y ha fallado o aún no se ha proporcionado."
+        },
+        "402": {
+          "name": "Pago requerido",
+          "description": "Reservado para uso futuro. La intención original era que este código podría usarse como parte de alguna forma de dinero digital o esquema de micropago."
+        },
+        "403": {
+          "name": "Prohibido",
+          "description": "La solicitud era válida, pero el servidor se niega a actuar. El usuario podría no tener los permisos necesarios para un recurso."
+        },
+        "404": {
+          "name": "No encontrado",
+          "description": "El recurso solicitado no se pudo encontrar pero puede estar disponible en el futuro."
+        },
+        "405": {
+          "name": "Método no permitido",
+          "description": "Un método de solicitud no es compatible con el recurso solicitado."
+        },
+        "406": {
+          "name": "No aceptable",
+          "description": "El recurso solicitado es capaz de generar solo contenido no aceptable según los encabezados Accept enviados en la solicitud."
+        },
+        "407": {
+          "name": "Autenticación de proxy requerida",
+          "description": "El cliente debe autenticarse primero con el proxy."
+        },
+        "408": {
+          "name": "Tiempo de espera de solicitud",
+          "description": "El servidor agotó el tiempo de espera esperando la solicitud."
+        },
+        "409": {
+          "name": "Conflicto",
+          "description": "Indica que la solicitud no se pudo procesar debido a un conflicto en la solicitud, como un conflicto de edición."
+        },
+        "410": {
+          "name": "Desaparecido",
+          "description": "Indica que el recurso solicitado ya no está disponible y no volverá a estar disponible."
+        },
+        "411": {
+          "name": "Longitud requerida",
+          "description": "La solicitud no especificó la longitud de su contenido, que es requerida por el recurso solicitado."
+        },
+        "412": {
+          "name": "Precondición fallida",
+          "description": "El servidor no cumple con una de las precondiciones que el solicitante puso en la solicitud."
+        },
+        "413": {
+          "name": "Carga útil demasiado grande",
+          "description": "La solicitud es más grande de lo que el servidor está dispuesto o puede procesar."
+        },
+        "414": {
+          "name": "URI demasiado largo",
+          "description": "El URI proporcionado era demasiado largo para que el servidor lo procesara."
+        },
+        "415": {
+          "name": "Tipo de medio no compatible",
+          "description": "La entidad de solicitud tiene un tipo de medio que el servidor o recurso no admite."
+        },
+        "416": {
+          "name": "Rango no satisfacible",
+          "description": "El cliente ha solicitado una porción del archivo, pero el servidor no puede suministrar esa porción."
+        },
+        "417": {
+          "name": "Expectativa fallida",
+          "description": "El servidor no puede cumplir con los requisitos del campo de encabezado de solicitud Expect."
+        },
+        "418": {
+          "name": "Soy una tetera",
+          "description": "El servidor rechaza el intento de preparar café con una tetera."
+        },
+        "421": {
+          "name": "Solicitud mal dirigida",
+          "description": "La solicitud se dirigió a un servidor que no puede producir una respuesta."
+        },
+        "422": {
+          "name": "Entidad no procesable",
+          "description": "La solicitud estaba bien formada pero no se pudo seguir debido a errores semánticos."
+        },
+        "423": {
+          "name": "Bloqueado",
+          "description": "El recurso al que se está accediendo está bloqueado."
+        },
+        "424": {
+          "name": "Dependencia fallida",
+          "description": "La solicitud falló debido al fallo de una solicitud anterior."
+        },
+        "425": {
+          "name": "Demasiado temprano",
+          "description": "Indica que el servidor no está dispuesto a arriesgarse a procesar una solicitud que podría ser reproducida."
+        },
+        "426": {
+          "name": "Actualización requerida",
+          "description": "El cliente debe cambiar a un protocolo diferente como TLS/1.0."
+        },
+        "428": {
+          "name": "Precondición requerida",
+          "description": "El servidor de origen requiere que la solicitud sea condicional."
+        },
+        "429": {
+          "name": "Demasiadas solicitudes",
+          "description": "El usuario ha enviado demasiadas solicitudes en una cantidad determinada de tiempo."
+        },
+        "431": {
+          "name": "Campos de encabezado de solicitud demasiado grandes",
+          "description": "El servidor no está dispuesto a procesar la solicitud porque un campo de encabezado individual, o todos los campos de encabezado colectivamente, son demasiado grandes."
+        },
+        "451": {
+          "name": "No disponible por razones legales",
+          "description": "Un operador del servidor ha recibido una demanda legal para denegar el acceso a un recurso o a un conjunto de recursos que incluye el recurso solicitado."
+        },
+        "500": {
+          "name": "Error interno del servidor",
+          "description": "Un mensaje de error genérico, dado cuando se encontró una condición inesperada y no hay un mensaje más específico adecuado."
+        },
+        "501": {
+          "name": "No implementado",
+          "description": "El servidor no reconoce el método de solicitud, o carece de la capacidad para cumplir la solicitud."
+        },
+        "502": {
+          "name": "Puerta de enlace incorrecta",
+          "description": "El servidor estaba actuando como puerta de enlace o proxy y recibió una respuesta inválida del servidor ascendente."
+        },
+        "503": {
+          "name": "Servicio no disponible",
+          "description": "El servidor no está disponible actualmente (porque está sobrecargado o fuera de servicio por mantenimiento)."
+        },
+        "504": {
+          "name": "Tiempo de espera de puerta de enlace",
+          "description": "El servidor estaba actuando como puerta de enlace o proxy y no recibió una respuesta oportuna del servidor ascendente."
+        },
+        "505": {
+          "name": "Versión HTTP no compatible",
+          "description": "El servidor no admite la versión del protocolo HTTP utilizada en la solicitud."
+        },
+        "506": {
+          "name": "Variante también negocia",
+          "description": "La negociación transparente de contenido para la solicitud resulta en una referencia circular."
+        },
+        "507": {
+          "name": "Almacenamiento insuficiente",
+          "description": "El servidor no puede almacenar la representación necesaria para completar la solicitud."
+        },
+        "508": {
+          "name": "Bucle detectado",
+          "description": "El servidor detectó un bucle infinito mientras procesaba la solicitud."
+        },
+        "510": {
+          "name": "No extendido",
+          "description": "Se requieren más extensiones a la solicitud para que el servidor la cumpla."
+        },
+        "511": {
+          "name": "Autenticación de red requerida",
+          "description": "El cliente necesita autenticarse para obtener acceso a la red."
+        }
+      }
+    }
+  }
+}

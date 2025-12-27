@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "ascii-text-drawer": {
+      "yourText": "Ihr Text:",
+      "yourTextToDraw": "Ihr zu zeichnender Text",
+      "font": "Schriftart:",
+      "selectFont": "Zu verwendende Schriftart auswählen",
+      "width": "Breite:",
+      "widthPlaceholder": "Breite des Textes",
+      "loadingFont": "Schriftart wird geladen...",
+      "error": "Die aktuellen Einstellungen führten zu einem Fehler.",
+      "asciiArtText": "ASCII-Kunsttext:",
+      "cardOptionsTitle": "Optionen",
+      "cardOptionsDescription": "Konfigurieren Sie den Eingabetext, die Schriftart und die Breite für die ASCII-Kunst.",
+      "cardResultsTitle": "Ergebnis",
+      "cardResultsDescription": "Vorschau und Kopieren der generierten ASCII-Kunst."
+    }
+  }
+}

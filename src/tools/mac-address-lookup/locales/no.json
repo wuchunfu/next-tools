@@ -1,0 +1,15 @@
+{
+  "tools": {
+    "mac-address-lookup": {
+      "cardInputTitle": "MAC-adresse",
+      "cardInputDescription": "Skriv inn en MAC-adresse for å slå opp leverandørinformasjon fra OUI-databasen (Organizationally Unique Identifier).",
+      "cardResultsTitle": "Leverandørinformasjon",
+      "cardResultsDescription": "Leverandørinformasjon hentet fra OUI-databasen basert på MAC-adresseprefikset.",
+      "invalidAddressTitle": "Ugyldig MAC-adresse",
+      "invalidMacAddress": "Ugyldig MAC-adresse",
+      "placeholder": "Skriv inn en MAC-adresse",
+      "unknown": "Ukjent leverandør for denne adressen",
+      "copied": "Leverandørinformasjon kopiert til utklippstavlen"
+    }
+  }
+}

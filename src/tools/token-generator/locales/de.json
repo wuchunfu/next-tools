@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "token-generator": {
+      "title": "Token-Generator",
+      "description": "Generiere eine zufällige Zeichenfolge mit den von dir gewünschten Zeichen, Groß- oder Kleinbuchstaben, Zahlen und/oder Symbolen.",
+      "uppercase": "Großbuchstaben (ABC...)",
+      "lowercase": "Kleinbuchstaben (abc...)",
+      "numbers": "Zahlen (123...)",
+      "symbols": "Symbole (!-;...)",
+      "length": "Länge",
+      "tokenPlaceholder": "Das Token...",
+      "copied": "Token in die Zwischenablage kopiert",
+      "cardOptionsTitle": "Token-Optionen",
+      "cardOutputTitle": "Token-Ergebnis",
+      "button": {
+        "copy": "Kopieren",
+        "refresh": "Aktualisieren"
+      }
+    }
+  }
+}

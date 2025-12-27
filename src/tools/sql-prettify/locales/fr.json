@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "sql-prettify": {
+      "dialect": "Dialecte",
+      "gcpBigQuery": "GCP BigQuery",
+      "ibmDb2": "IBM DB2",
+      "apacheHive": "Apache Hive",
+      "mariadb": "MariaDB",
+      "mysql": "MySQL",
+      "couchbaseN1ql": "Couchbase N1QL",
+      "oraclePlsql": "Oracle PL/SQL",
+      "postgresql": "PostgreSQL",
+      "amazonRedshift": "Amazon Redshift",
+      "spark": "Spark",
+      "standardSql": "SQL standard",
+      "sqlite": "sqlite",
+      "sqlServerTsql": "SQL Server Transact-SQL",
+      "keywordCase": "Casse des mots-clés",
+      "uppercase": "MAJUSCULES",
+      "lowercase": "minuscules",
+      "preserve": "Conserver",
+      "indentStyle": "Style d'indentation",
+      "standard": "Standard",
+      "tabularLeft": "Tabulaire gauche",
+      "tabularRight": "Tabulaire droite",
+      "configTitle": "Options de formatage",
+      "configDescription": "Configurez les options de formatage SQL, y compris le dialecte, la casse des mots-clés et le style d'indentation.",
+      "converterTitle": "Formateur SQL",
+      "converterDescription": "Collez votre requête SQL et voyez la sortie formatée basée sur la configuration ci-dessus.",
+      "yourSqlQuery": "Votre requête SQL",
+      "inputPlaceholder": "Mettez votre requête SQL ici...",
+      "prettifyVersion": "Version formatée de votre requête"
+    }
+  }
+}

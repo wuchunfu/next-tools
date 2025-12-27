@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "uuid-generator": {
+      "title": "Генератор UUID",
+      "description": "Універсальний унікальний ідентифікатор (UUID) — це 128-бітне число, яке використовується для ідентифікації інформації в комп'ютерних системах. Кількість можливих UUID становить 16^32, що дорівнює 2^128 або приблизно 3,4x10^38 (це дуже багато!).",
+      "uuidVersion": "Версія UUID",
+      "uuidVersionDescription": "Виберіть версію UUID для генерації.",
+      "versionNIL": "NIL",
+      "versionNILDescription": "Нульовий UUID (всі нулі).",
+      "versionV1": "Версія 1",
+      "versionV1Description": "UUID на основі часу, що використовує часову мітку та MAC-адресу.",
+      "versionV3": "Версія 3",
+      "versionV3Description": "UUID на основі імені, що використовує хешування MD5 та простір імен.",
+      "versionV4": "Версія 4",
+      "versionV4Description": "Випадковий UUID (найбільш часто використовуваний).",
+      "versionV5": "Версія 5",
+      "versionV5Description": "UUID на основі імені, що використовує хешування SHA-1 та простір імен.",
+      "quantity": "Кількість",
+      "uuidQuantity": "Кількість UUID",
+      "namespace": "Простір імен",
+      "namespaceDescription": "Виберіть попередньо визначений простір імен або введіть користувацький UUID.",
+      "namespaceDNS": "DNS",
+      "namespaceDNSDescription": "Простір імен системи доменних імен.",
+      "namespaceURL": "URL",
+      "namespaceURLDescription": "Простір імен уніфікованого локатора ресурсів.",
+      "namespaceOID": "OID",
+      "namespaceOIDDescription": "Простір імен ідентифікатора об'єкта.",
+      "namespaceX500": "X.500",
+      "namespaceX500Description": "Простір імен відмінного імені X.500.",
+      "namespaceCustom": "Користувацький",
+      "namespaceCustomDescription": "Введіть користувацький простір імен UUID.",
+      "name": "Ім'я",
+      "yourUuids": "Ваші UUID",
+      "copy": "Копіювати",
+      "refresh": "Оновити",
+      "invalidUuid": "Недійсний UUID",
+      "copied": "UUID скопійовано в буфер обміну",
+      "cardConfigTitle": "Конфігурація UUID"
+    }
+  }
+}

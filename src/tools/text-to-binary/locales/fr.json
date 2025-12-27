@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-binary": {
+      "title": "Texte vers binaire ASCII",
+      "description": "Convertissez le texte en sa représentation binaire ASCII et vice-versa.",
+      "cardTextToBinaryTitle": "Texte vers Binaire",
+      "cardTextToBinaryDescription": "Convertissez le texte en sa représentation binaire ASCII.",
+      "cardBinaryToTextTitle": "Binaire vers Texte",
+      "cardBinaryToTextDescription": "Convertissez la représentation binaire ASCII en texte.",
+      "textPlaceholder": "ex. 'Hello world'",
+      "enterTextToConvert": "Entrez le texte à convertir",
+      "inputLength": "Longueur",
+      "outputLength": "Longueur",
+      "bytes": "Octets",
+      "clear": "Effacer",
+      "binaryFromText": "Sortie binaire",
+      "binaryPlaceholder": "La représentation binaire de votre texte apparaîtra ici",
+      "binaryInputPlaceholder": "ex. '01001000 01100101 01101100 01101100 01101111'",
+      "enterBinaryToConvert": "Entrez le binaire à convertir",
+      "textFromBinary": "Sortie texte",
+      "textOutputPlaceholder": "La représentation texte de votre binaire apparaîtra ici",
+      "invalidBinary": "Le binaire doit être une chaîne binaire ASCII valide avec des multiples de 8 bits"
+    }
+  }
+}

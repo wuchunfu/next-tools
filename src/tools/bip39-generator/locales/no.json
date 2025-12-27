@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "bip39-generator": {
+      "entropyLength": "Entropilengden må være ≥ 16, ≤ 32 og et multiplum av 4",
+      "entropyHex": "Entropien må være en heksadesimal streng",
+      "invalidMnemonic": "Ugyldig mnemonikk",
+      "copyEntropy": "Entropi kopiert til utklippstavlen",
+      "copyPassphrase": "Passfrase kopiert til utklippstavlen",
+      "generateNewEntropy": "Generer ny entropi",
+      "languageLabel": "Språk",
+      "languageDescription": "Velg språk for ordlisten som brukes til BIP39-mnemonikken.",
+      "entropyLabel": "Entropi",
+      "entropyDescription": "Heksadesimal seed-verdi (16–32 tegn, multiplum av 4).",
+      "entropyPlaceholder": "Skriv inn heksadesimal entropi...",
+      "passphraseLabel": "Mnemonisk frase",
+      "passphraseDescription": "BIP39-mnemonisk frase (12 eller 24 ord).",
+      "passphrasePlaceholder": "Skriv inn den mnemoniske frasen...",
+      "cardLanguageTitle": "Språk for mnemonikk",
+      "cardEntropyTitle": "Entropikilde",
+      "cardPassphraseTitle": "Mnemonisk frase",
+      "languages": {
+        "english": "Engelsk",
+        "chinese-simplified": "Forenklet kinesisk",
+        "chinese-traditional": "Tradisjonell kinesisk",
+        "czech": "Tsjekkisk",
+        "french": "Fransk",
+        "italian": "Italiensk",
+        "japanese": "Japansk",
+        "korean": "Koreansk",
+        "portuguese": "Portugisisk",
+        "spanish": "Spansk"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "tools": {
+    "base64-file-converter": {
+      "base64ToFile": "Base64 to file",
+      "fileToBase64": "File to base64",
+      "cardDecodeTitle": "Base64 to File",
+      "cardDecodeDescription": "Decode Base64 strings and download as files. Supports image preview.",
+      "cardEncodeTitle": "File to Base64",
+      "cardEncodeDescription": "Upload files and convert them to Base64 format.",
+      "fileName": "File Name",
+      "downloadFilename": "Download filename",
+      "extension": "Extension",
+      "base64InputLabel": "Base64 string",
+      "base64InputPlaceholder": "Put your base64 file string here...",
+      "previewImage": "Preview image",
+      "downloadFile": "Download file",
+      "dragAndDrop": "Drag and drop a file here, or click to select a file",
+      "fileBase64Label": "Base64 output",
+      "fileBase64Placeholder": "File in base64 will be here",
+      "copy": "Copy",
+      "copied": "Base64 string copied to the clipboard",
+      "invalidBase64": "Invalid base 64 string",
+      "length": "Length",
+      "detectedType": "Detected type",
+      "imageFile": "Image",
+      "imagePreview": "Image preview",
+      "clickPreview": "Click preview button to see image",
+      "uploadCta": "Click to upload or drag and drop",
+      "uploadHint": "Any file type supported",
+      "fileUploadLabel": "Select file",
+      "fileSize": "Size",
+      "fileType": "Type",
+      "unknownType": "Unknown",
+      "previewError": "Failed to preview image"
+    }
+  }
+}

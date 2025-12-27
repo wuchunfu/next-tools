@@ -1,0 +1,28 @@
+{
+  "tools": {
+    "qrcode-generator": {
+      "title": "Générateur de QR Code",
+      "description": "Générez et téléchargez un QR code pour une URL (ou du texte simple), et personnalisez les couleurs d'arrière-plan et de premier plan.",
+      "cardTitle": "Générateur de QR Code",
+      "cardDescription": "Générez des QR codes personnalisables pour des URLs ou du texte avec des couleurs et des niveaux de correction d'erreur ajustables.",
+      "text": "Contenu",
+      "yourLinkOrText": "Entrez l'URL ou le texte à encoder...",
+      "foregroundColor": "Premier plan",
+      "backgroundColor": "Arrière-plan",
+      "errorResistance": "Niveau de correction d'erreur",
+      "downloadQrCode": "Télécharger PNG",
+      "characters": "caractères",
+      "colorSettings": "Paramètres de couleur",
+      "resetColors": "Réinitialiser",
+      "resetColorsTooltip": "Réinitialiser aux couleurs par défaut",
+      "levelLow": "Bas (~7%)",
+      "levelMedium": "Moyen (~15%)",
+      "levelQuartile": "Quartile (~25%)",
+      "levelHigh": "Élevé (~30%)",
+      "selectLevel": "Sélectionner le niveau",
+      "errorResistanceHint": "Des niveaux plus élevés permettent plus de tolérance aux dommages mais augmentent la densité du QR code.",
+      "preview": "Aperçu",
+      "emptyPreview": "Entrez du texte pour générer le QR code"
+    }
+  }
+}

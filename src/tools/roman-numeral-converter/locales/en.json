@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "roman-numeral-converter": {
+      "arabicToRoman": "Arabic to roman",
+      "romanToArabic": "Roman to arabic",
+      "copy": "Copy",
+      "invalidRange": "We can only convert numbers between {min} and {max}",
+      "invalidRoman": "The input you entered is not a valid roman number",
+      "copiedRoman": "Roman number copied to the clipboard",
+      "copiedArabic": "Arabic number copied to the clipboard",
+      "cardArabicTitle": "Arabic to Roman",
+      "cardArabicDescription": "Convert Arabic numbers to classic Roman numerals.",
+      "cardRomanTitle": "Roman to Arabic",
+      "cardRomanDescription": "Validate and convert Roman numerals back to Arabic numbers.",
+      "inputArabicLabel": "Arabic number",
+      "inputArabicPlaceholder": "Enter an integer within the supported range.",
+      "inputRomanLabel": "Roman numeral",
+      "inputRomanPlaceholder": "Type a valid Roman numeral (e.g., MMXXIV).",
+      "outputRomanLabel": "Roman numeral",
+      "outputRomanPlaceholder": "Converted value will appear here",
+      "outputArabicLabel": "Arabic number",
+      "outputArabicPlaceholder": "Converted value will appear here",
+      "reset": "Reset",
+      "quickExamples": "Quick examples",
+      "length": "Length",
+      "value": "Value"
+    }
+  }
+}

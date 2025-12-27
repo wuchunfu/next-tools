@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "keycode-info": {
+      "cardTitle": "Tastatur-Informationen",
+      "cardDescription": "Drücken Sie eine beliebige Taste auf Ihrer Tastatur, um detaillierte Informationen anzuzeigen.",
+      "detailsTitle": "Tastendetails",
+      "detailsDescription": "Detaillierte Informationen über die gedrückte Taste.",
+      "key": "Taste",
+      "keyPlaceholder": "Tastenname...",
+      "keycode": "Tastencode",
+      "keycodePlaceholder": "Tastencode...",
+      "keycodeDeprecated": "Veraltet, verwenden Sie stattdessen code",
+      "code": "Code",
+      "codePlaceholder": "Code...",
+      "charCode": "Zeichencode",
+      "charCodePlaceholder": "Zeichencode...",
+      "location": "Position",
+      "locationPlaceholder": "Position...",
+      "locationStandard": "Standard",
+      "locationLeft": "Links",
+      "locationRight": "Rechts",
+      "locationNumpad": "Ziffernblock",
+      "modifiers": "Modifikatoren",
+      "noModifiers": "Keine Modifikatoren gedrückt",
+      "meta": "Meta",
+      "shift": "Shift",
+      "ctrl": "Strg",
+      "alt": "Alt",
+      "repeat": "Wiederholung",
+      "repeatPlaceholder": "Tastenwiederholungsstatus...",
+      "typeCharacter": "Zeichentaste",
+      "typeFunction": "Funktionstaste",
+      "typeNavigation": "Navigationstaste",
+      "typeControl": "Steuerungstaste",
+      "typeSpecial": "Sondertaste",
+      "none": "Keine",
+      "yes": "Ja",
+      "no": "Nein",
+      "unknown": "Unbekannt",
+      "tip": "Drücken Sie eine beliebige Taste auf Ihrer Tastatur, um Informationen anzuzeigen"
+    }
+  }
+}

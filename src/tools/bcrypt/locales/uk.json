@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "bcrypt": {
+      "title": "Bcrypt",
+      "description": "Хешування та порівняння текстових рядків за допомогою bcrypt. Bcrypt - це функція хешування паролів на основі шифру Blowfish.",
+      "hash": "Хеш",
+      "placeholder": "Ваш рядок для bcrypt...",
+      "yourString": "Ваш рядок:",
+      "saltCount": "Кількість солі:",
+      "saltRounds": "Раунди солі...",
+      "copyHash": "Копіювати хеш",
+      "copied": "Захешований рядок скопійовано в буфер обміну",
+      "compareStringWithHash": "Порівняти рядок з хешем",
+      "stringToCompare": "Ваш рядок для порівняння...",
+      "yourHash": "Ваш хеш:",
+      "hashToCompare": "Ваш хеш для порівняння...",
+      "doTheyMatch": "Вони збігаються?",
+      "yes": "Так",
+      "no": "Ні",
+      "enterBothFields": "Введіть обидва поля для порівняння"
+    }
+  }
+}

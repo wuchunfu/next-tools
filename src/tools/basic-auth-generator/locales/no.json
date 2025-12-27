@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "basic-auth-generator": {
+      "inputTitle": "Legitimasjon",
+      "inputDescription": "Skriv inn brukernavnet og passordet ditt for å generere en Basic-autentiseringsheader.",
+      "outputTitle": "Autorisasjonsheader",
+      "outputDescription": "Den genererte Basic-autentiseringsheaderen klar til bruk i HTTP-forespørslene dine.",
+      "username": "Brukernavn",
+      "usernamePlaceholder": "Ditt brukernavn...",
+      "password": "Passord",
+      "passwordPlaceholder": "Ditt passord...",
+      "headerLabel": "Autorisasjonsheader",
+      "headerPlaceholder": "Autorisasjonsheader vil vises her...",
+      "base64Value": "Base64-kodet verdi",
+      "clear": "Tøm",
+      "copied": "Header kopiert til utklippstavlen"
+    }
+  }
+}

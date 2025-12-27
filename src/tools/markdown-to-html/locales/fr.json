@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "markdown-to-html": {
+      "cardTitle": "Convertisseur Markdown vers HTML",
+      "cardDescription": "Convertissez le format Markdown en format HTML. Collez votre Markdown et obtenez la sortie HTML.",
+      "cardInputTitle": "Saisie Markdown",
+      "cardInputDescription": "Écrivez ou collez votre Markdown ci-dessous. Nous le convertissons en HTML et proposons un aperçu.",
+      "cardOutputTitle": "Sortie HTML",
+      "cardOutputDescription": "Basculez entre l’aperçu et le code HTML. Vous pouvez aussi imprimer le HTML rendu en PDF.",
+      "inputPlaceholder": "Votre contenu Markdown...",
+      "clear": "Effacer",
+      "printAsPdf": "Imprimer en PDF",
+      "printTooltip": "Imprimer HTML en PDF",
+      "printTitle": "Markdown vers HTML",
+      "preview": "Aperçu",
+      "htmlCode": "Code HTML",
+      "previewPlaceholder": "L'aperçu apparaîtra ici...",
+      "previewTitle": "Aperçu Markdown",
+      "formatHtml": "Formater HTML"
+    }
+  }
+}

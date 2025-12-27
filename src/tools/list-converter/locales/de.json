@@ -1,0 +1,32 @@
+{
+  "tools": {
+    "list-converter": {
+      "sortAscending": "Aufsteigend sortieren",
+      "sortDescending": "Absteigend sortieren",
+      "trimListItems": "Listenelemente trimmen",
+      "trimListItemsHelp": "Entfernen Sie führende und nachfolgende Leerzeichen von jedem Element",
+      "removeDuplicates": "Duplikate entfernen",
+      "removeDuplicatesHelp": "Entfernen Sie doppelte Elemente aus der Liste",
+      "convertToLowercase": "In Kleinbuchstaben umwandeln",
+      "keepLineBreaks": "Zeilenumbrüche beibehalten",
+      "sortList": "Liste sortieren",
+      "sortAlphabetically": "Alphabetisch sortieren",
+      "separator": "Trennzeichen",
+      "wrapItem": "Element umschließen",
+      "itemPrefix": "Elementpräfix",
+      "itemSuffix": "Elementsuffix",
+      "wrapList": "Liste umschließen",
+      "listPrefix": "Listenpräfix",
+      "listSuffix": "Listensuffix",
+      "configTitle": "Konfiguration",
+      "configDescription": "Konfigurieren Sie Konvertierungsoptionen wie Trimmen, Sortieren, Formatieren und Trennzeichen.",
+      "converterTitle": "Konverter",
+      "converterDescription": "Fügen Sie Ihre Listendaten ein und sehen Sie die transformierte Ausgabe basierend auf der obigen Konfiguration.",
+      "inputLabel": "Ihre Eingabedaten",
+      "inputPlaceholder": "Fügen Sie hier Ihre Eingabedaten ein...",
+      "outputLabel": "Ihre transformierten Daten",
+      "outputPlaceholder": "Transformierte Ausgabe wird hier angezeigt...",
+      "clear": "Löschen"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-binary": {
+      "title": "Văn bản sang nhị phân ASCII",
+      "description": "Chuyển đổi văn bản sang biểu diễn nhị phân ASCII của nó và ngược lại.",
+      "cardTextToBinaryTitle": "Văn bản sang Nhị phân",
+      "cardTextToBinaryDescription": "Chuyển đổi văn bản sang biểu diễn nhị phân ASCII của nó.",
+      "cardBinaryToTextTitle": "Nhị phân sang Văn bản",
+      "cardBinaryToTextDescription": "Chuyển đổi biểu diễn nhị phân ASCII trở lại thành văn bản.",
+      "textPlaceholder": "vd. 'Hello world'",
+      "enterTextToConvert": "Nhập văn bản để chuyển đổi",
+      "inputLength": "Độ dài",
+      "outputLength": "Độ dài",
+      "bytes": "Bytes",
+      "clear": "Xóa",
+      "binaryFromText": "Đầu ra nhị phân",
+      "binaryPlaceholder": "Biểu diễn nhị phân của văn bản của bạn sẽ xuất hiện ở đây",
+      "binaryInputPlaceholder": "vd. '01001000 01100101 01101100 01101100 01101111'",
+      "enterBinaryToConvert": "Nhập nhị phân để chuyển đổi",
+      "textFromBinary": "Đầu ra văn bản",
+      "textOutputPlaceholder": "Biểu diễn văn bản của nhị phân của bạn sẽ xuất hiện ở đây",
+      "invalidBinary": "Nhị phân phải là chuỗi nhị phân ASCII hợp lệ với bội số của 8 bit"
+    }
+  }
+}

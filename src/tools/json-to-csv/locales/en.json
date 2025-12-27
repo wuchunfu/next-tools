@@ -1,0 +1,13 @@
+{
+  "tools": {
+    "json-to-csv": {
+      "cardInputTitle": "JSON array input",
+      "cardInputDescription": "Paste a valid JSON array below. Each object will become a row in the CSV output.",
+      "cardOutputTitle": "CSV result",
+      "cardOutputDescription": "Review and copy the generated CSV representation of your JSON array.",
+      "invalid": "Provided JSON is not valid or not an array.",
+      "invalidJsonTitle": "Invalid JSON",
+      "inputPlaceholder": "Paste your JSON array here..."
+    }
+  }
+}

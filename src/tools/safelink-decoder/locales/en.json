@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "safelink-decoder": {
+      "title": "Outlook Safelink decoder",
+      "description": "Decode Outlook SafeLink links",
+      "cardTitle": "Outlook SafeLink Decoder",
+      "cardDescription": "Decode Microsoft Outlook SafeLink URLs to reveal the original destination URL.",
+      "cardInputTitle": "SafeLink input",
+      "cardInputDescription": "Paste an Outlook SafeLink URL below. We will validate it and extract the original destination URL.",
+      "cardOutputTitle": "Decoded URL",
+      "cardOutputDescription": "Review the extracted URL. You can copy it or open it in a new tab.",
+      "inputPlaceholder": "Paste your Outlook SafeLink URL here...",
+      "inputLabel": "SafeLink URL",
+      "outputLabel": "Decoded URL",
+      "invalidUrl": "Please paste a valid Outlook SafeLink URL (https://*.safelinks.protection.outlook.com/...)",
+      "decodeError": "Failed to decode this SafeLink. Please check the link and try again.",
+      "emptyHint": "Paste a SafeLink URL above to decode it.",
+      "errorTitle": "Invalid URL",
+      "successTitle": "Decoded Successfully",
+      "successDescription": "The original URL has been extracted from the SafeLink.",
+      "openUrl": "Open URL"
+    }
+  }
+}

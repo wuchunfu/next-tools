@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "encryption": {
+      "title": "Cifrar / descifrar texto",
+      "description": "Cifre texto claro y descifre texto cifrado usando algoritmos criptográficos como AES, TripleDES, Rabbit o RC4.",
+      "encrypt": "Cifrar",
+      "yourText": "Su texto:",
+      "stringToCypher": "La cadena a cifrar",
+      "yourSecretKey": "Su clave secreta:",
+      "encryptionAlgorithm": "Algoritmo de cifrado:",
+      "yourTextEncrypted": "Su texto cifrado:",
+      "stringHash": "Hash de su cadena",
+      "decrypt": "Descifrar",
+      "yourEncryptedText": "Su texto cifrado:",
+      "yourDecryptedText": "Su texto descifrado:",
+      "errorWhileDecrypting": "Error al descifrar",
+      "unableToDecrypt": "No se puede descifrar su texto"
+    }
+  }
+}

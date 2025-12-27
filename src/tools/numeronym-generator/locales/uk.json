@@ -1,0 +1,12 @@
+{
+  "tools": {
+    "numeronym-generator": {
+      "placeholder": "Введіть слово, напр. 'internationalization'",
+      "outputPlaceholder": "Ваш нумеронім з'явиться тут, напр. 'i18n'",
+      "cardInputTitle": "Ввід",
+      "cardInputDescription": "Введіть слово, яке ви хочете перетворити на нумеронім.",
+      "cardResultsTitle": "Результат",
+      "cardResultsDescription": "Нумеронім для наданого слова."
+    }
+  }
+}

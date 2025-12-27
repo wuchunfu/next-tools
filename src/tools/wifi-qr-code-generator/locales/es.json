@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "wifi-qrcode-generator": {
+      "cardTitle": "Generador de Código QR WiFi",
+      "cardDescription": "Genera códigos QR para compartir redes WiFi fácilmente. Escanea para conectar al instante.",
+      "networkSettings": "Configuración de Red",
+      "encryptionMethod": "Método de cifrado",
+      "noPassword": "Sin contraseña",
+      "wpaWpa2": "WPA/WPA2",
+      "wep": "WEP",
+      "wpa2Eap": "WPA2-EAP",
+      "ssidLabel": "Nombre de Red (SSID)",
+      "ssidPlaceholder": "Tu SSID WiFi...",
+      "hiddenSsid": "SSID oculto",
+      "passwordLabel": "Contraseña",
+      "passwordPlaceholder": "Tu contraseña WiFi...",
+      "eapSettings": "Configuración EAP",
+      "eapMethod": "Método EAP",
+      "selectEapMethod": "Seleccionar método EAP",
+      "identityLabel": "Identidad",
+      "identityPlaceholder": "Tu identidad EAP...",
+      "anonymous": "Anónimo",
+      "eapPhase2Method": "Método EAP Fase 2",
+      "selectPhase2": "Seleccionar método Fase 2",
+      "colorSettings": "Configuración de Colores",
+      "foregroundColor": "Primer plano",
+      "backgroundColor": "Fondo",
+      "resetColors": "Restablecer",
+      "resetColorsTooltip": "Restablecer colores predeterminados",
+      "preview": "Vista previa",
+      "emptyPreview": "Ingresa los detalles de la red para generar el código QR",
+      "downloadQrCode": "Descargar PNG"
+    }
+  }
+}

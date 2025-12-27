@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "chronometer": {
+      "title": "Chronometer",
+      "description": "Überwachen Sie die Dauer einer Sache. Im Grunde ein Chronometer mit einfachen Chronometer-Funktionen.",
+      "button": {
+        "start": "Starten",
+        "stop": "Stoppen",
+        "reset": "Zurücksetzen",
+        "record": "Aufzeichnen",
+        "clearRecords": "Aufzeichnungen löschen"
+      },
+      "records": {
+        "title": "Aufzeichnungen",
+        "empty": "Keine Aufzeichnungen"
+      }
+    }
+  }
+}

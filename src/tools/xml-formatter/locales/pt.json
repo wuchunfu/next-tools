@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "xml-formatter": {
+      "invalid": "O XML fornecido não é válido.",
+      "invalidXmlTitle": "XML inválido",
+      "collapse": "Recolher conteúdo:",
+      "collapseHint": "Recolher o conteúdo de texto em uma única linha quando possível.",
+      "indent": "Tamanho da indentação:",
+      "indentHint": "Número de espaços a usar para indentação (0–10).",
+      "cardOptionsTitle": "Opções de formatação",
+      "cardOptionsDescription": "Ajuste a indentação e o recolhimento do conteúdo para corresponder ao seu estilo XML preferido.",
+      "cardInputTitle": "Entrada XML",
+      "cardInputDescription": "Cole seu XML abaixo. Vamos validá-lo e gerar uma versão formatada.",
+      "cardOutputTitle": "XML formatado",
+      "cardOutputDescription": "Revise e copie a saída XML formatada.",
+      "inputLabel": "Seu XML",
+      "inputPlaceholder": "Cole seu XML aqui...",
+      "outputLabel": "XML formatado do seu XML"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "keycode-info": {
+      "cardTitle": "Tastaturinformasjon",
+      "cardDescription": "Trykk på en hvilken som helst tast på tastaturet ditt for å se dens detaljerte informasjon.",
+      "detailsTitle": "Tastedetaljer",
+      "detailsDescription": "Detaljert informasjon om den trykkede tasten.",
+      "key": "Tast",
+      "keyPlaceholder": "Tastnavn...",
+      "keycode": "Tastkode",
+      "keycodePlaceholder": "Tastkode...",
+      "keycodeDeprecated": "Foreldet, bruk code i stedet",
+      "code": "Kode",
+      "codePlaceholder": "Kode...",
+      "charCode": "Tegnkode",
+      "charCodePlaceholder": "Tegnkode...",
+      "location": "Plassering",
+      "locationPlaceholder": "Plassering...",
+      "locationStandard": "Standard",
+      "locationLeft": "Venstre",
+      "locationRight": "Høyre",
+      "locationNumpad": "Numerisk tastatur",
+      "modifiers": "Modifikatorer",
+      "noModifiers": "Ingen modifikatorer trykket",
+      "meta": "Meta",
+      "shift": "Shift",
+      "ctrl": "Ctrl",
+      "alt": "Alt",
+      "repeat": "Gjentakelse",
+      "repeatPlaceholder": "Tastgjentakelsesstatus...",
+      "typeCharacter": "Tegntast",
+      "typeFunction": "Funksjonstast",
+      "typeNavigation": "Navigasjonstast",
+      "typeControl": "Kontrolltast",
+      "typeSpecial": "Spesialtast",
+      "none": "Ingen",
+      "yes": "Ja",
+      "no": "Nei",
+      "unknown": "Ukjent",
+      "tip": "Trykk på en hvilken som helst tast på tastaturet ditt for å se informasjon"
+    }
+  }
+}

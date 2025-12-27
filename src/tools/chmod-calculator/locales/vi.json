@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "chmod-calculator": {
+      "permissionsTitle": "Quyền truy cập tệp",
+      "permissionsDescription": "Chọn quyền cho chủ sở hữu, nhóm và công khai. Biểu diễn bát phân và ký hiệu sẽ được tính toán tự động.",
+      "resultsTitle": "Kết quả",
+      "resultsDescription": "Biểu diễn bát phân và ký hiệu của các quyền đã chọn.",
+      "octalLabel": "Biểu diễn bát phân",
+      "symbolicLabel": "Biểu diễn ký hiệu",
+      "commandLabel": "Lệnh",
+      "read": "Đọc (4)",
+      "write": "Ghi (2)",
+      "execute": "Thực thi (1)",
+      "owner": "Chủ sở hữu (u)",
+      "group": "Nhóm (g)",
+      "public": "Công khai (o)",
+      "copyCommand": "chmod {octal} đường dẫn"
+    }
+  }
+}

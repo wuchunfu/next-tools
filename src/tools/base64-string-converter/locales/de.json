@@ -1,0 +1,42 @@
+{
+  "tools": {
+    "base64-string-converter": {
+      "title": "Base64-Zeichenketten-Kodierer/Dekodierer",
+      "description": "Kodieren und dekodieren Sie Zeichenketten einfach in ihre Base64-Darstellung.",
+      "stringToBase64": "Zeichenkette zu Base64",
+      "encodeUrlSafe": "URL-sicher kodieren",
+      "putYourStringHere": "Geben Sie hier Ihre Zeichenkette ein...",
+      "stringToEncode": "Zu kodierende Zeichenkette",
+      "base64OfString": "Base64 der Zeichenkette",
+      "base64EncodingPlaceholder": "Die Base64-Kodierung Ihrer Zeichenkette wird hier angezeigt",
+      "copyBase64": "Base64 kopieren",
+      "copiedBase64": "Base64-Zeichenkette in die Zwischenablage kopiert",
+      "base64ToString": "Base64 zu Zeichenkette",
+      "decodeUrlSafe": "URL-sicher dekodieren",
+      "yourBase64String": "Ihre Base64-Zeichenkette...",
+      "base64StringToDecode": "Zu dekodierende Base64-Zeichenkette",
+      "decodedString": "Dekodierte Zeichenkette",
+      "decodedStringPlaceholder": "Die dekodierte Zeichenkette wird hier angezeigt",
+      "copyDecodedString": "Dekodierte Zeichenkette kopieren",
+      "copiedString": "Zeichenkette in die Zwischenablage kopiert",
+      "invalidBase64": "Ungültige Base64-Zeichenkette",
+      "cardEncodeTitle": "Zeichenkette zu Base64",
+      "cardEncodeDescription": "Kodieren Sie beliebige Textzeichenketten in das Base64-Format.",
+      "cardDecodeTitle": "Base64 zu Zeichenkette",
+      "cardDecodeDescription": "Dekodieren Sie Base64-Zeichenketten zurück in ihren ursprünglichen Text.",
+      "encodeUrlSafeDescription": "Verwenden Sie URL-sichere Base64-Kodierung (ersetzt + durch - und / durch _)",
+      "decodeUrlSafeDescription": "Dekodieren Sie URL-sichere Base64-Zeichenketten (behandelt - und _ Zeichen)",
+      "invalidBase64Description": "Die Eingabe ist keine gültige Base64-Zeichenkette. Bitte überprüfen Sie Ihre Eingabe.",
+      "inputLength": "Länge",
+      "outputLength": "Ausgabelänge",
+      "urlSafe": "URL-sicher",
+      "clear": "Löschen",
+      "emptyInputTitle": "Keine Eingabe",
+      "emptyInputDescription": "Geben Sie oben Text ein, um die Base64-Kodierung zu sehen.",
+      "validInputTitle": "Bereit zum Kodieren",
+      "validInputDescription": "Ihr Text ist bereit zum Kodieren.",
+      "validBase64Title": "Gültiges Base64",
+      "validBase64Description": "Die Base64-Zeichenkette ist gültig und bereit zum Dekodieren."
+    }
+  }
+}

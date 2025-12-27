@@ -1,0 +1,37 @@
+{
+  "tools": {
+    "base64-file-converter": {
+      "base64ToFile": "Base64 zu Datei",
+      "fileToBase64": "Datei zu Base64",
+      "fileName": "Dateiname",
+      "downloadFilename": "Download-Dateiname",
+      "extension": "Erweiterung",
+      "base64InputPlaceholder": "Geben Sie hier Ihre Base64-Dateizeichenkette ein...",
+      "previewImage": "Bildvorschau",
+      "downloadFile": "Datei herunterladen",
+      "dragAndDrop": "Ziehen Sie eine Datei hierher oder klicken Sie, um eine Datei auszuwählen",
+      "fileBase64Placeholder": "Datei in Base64 wird hier angezeigt",
+      "copy": "Kopieren",
+      "copied": "Base64-Zeichenkette in die Zwischenablage kopiert",
+      "invalidBase64": "Ungültige Base64-Zeichenkette",
+      "cardDecodeTitle": "Base64 zu Datei",
+      "cardDecodeDescription": "Dekodieren Sie Base64-Zeichenketten und laden Sie sie als Dateien herunter. Unterstützt Bildvorschau.",
+      "cardEncodeTitle": "Datei zu Base64",
+      "cardEncodeDescription": "Laden Sie Dateien hoch und konvertieren Sie sie in das Base64-Format.",
+      "base64InputLabel": "Base64-Zeichenkette",
+      "fileBase64Label": "Base64-Ausgabe",
+      "length": "Länge",
+      "detectedType": "Erkannter Typ",
+      "imageFile": "Bild",
+      "imagePreview": "Bildvorschau",
+      "clickPreview": "Klicken Sie auf die Vorschau-Schaltfläche, um das Bild zu sehen",
+      "uploadCta": "Zum Hochladen klicken oder per Drag & Drop",
+      "uploadHint": "Alle Dateitypen werden unterstützt",
+      "fileUploadLabel": "Datei auswählen",
+      "fileSize": "Größe",
+      "fileType": "Typ",
+      "unknownType": "Unbekannt",
+      "previewError": "Bildvorschau fehlgeschlagen"
+    }
+  }
+}

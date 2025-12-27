@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "url-encoder": {
+      "title": "Codificar/decodificar cadenas con formato URL",
+      "description": "Codifique texto a formato codificado URL (también conocido como \"codificado por porcentaje\"), o decodifique desde él.",
+      "cardEncodeTitle": "Codificar URL",
+      "cardEncodeDescription": "Codifique texto a formato codificado URL (también conocido como \"codificado por porcentaje\").",
+      "cardDecodeTitle": "Decodificar URL",
+      "cardDecodeDescription": "Decodifique cadenas codificadas URL de vuelta a su texto original.",
+      "inputLabel": "Su cadena",
+      "inputPlaceholder": "Ingrese la cadena a codificar...",
+      "outputLabel": "Cadena codificada",
+      "outputPlaceholder": "La cadena codificada aparecerá aquí...",
+      "decodeInputLabel": "Su cadena codificada",
+      "decodeInputPlaceholder": "Ingrese la cadena codificada URL a decodificar...",
+      "decodeOutputLabel": "Cadena decodificada",
+      "decodeOutputPlaceholder": "La cadena decodificada aparecerá aquí...",
+      "clear": "Limpiar",
+      "impossibleToParse": "Imposible analizar esta cadena"
+    }
+  }
+}

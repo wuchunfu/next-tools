@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "otp-generator": {
+      "secretBase32": "Hemmeligheten skal være en base32-streng",
+      "secretRequired": "Vennligst sett en hemmelighet",
+      "secret": "Hemmelighet",
+      "secretPlaceholder": "Lim inn din TOTP-hemmelighet...",
+      "generateTooltip": "Generer en ny tilfeldig hemmelighet",
+      "nextIn": "Neste om {seconds}s",
+      "openKeyUri": "Åpne Key URI i ny fane",
+      "secretHex": "Hemmelighet i heksadesimal",
+      "secretHexPlaceholder": "Hemmeligheten i hex vil vises her",
+      "epoch": "Epoke",
+      "epochPlaceholder": "Epoken i sekunder vil vises her",
+      "iteration": "Iterasjon",
+      "count": "Antall:",
+      "countPlaceholder": "Iterasjonsantall vil vises her",
+      "countHexPlaceholder": "Iterasjonsantall i hex vil vises her",
+      "countHexLabel": "Hex med utfylling:",
+      "previous": "Forrige",
+      "current": "Gjeldende OTP",
+      "next": "Neste",
+      "copyPrevious": "Kopier forrige OTP",
+      "copyCurrent": "Kopier gjeldende OTP",
+      "copyNext": "Kopier neste OTP",
+      "cardLiveCodes": "Live OTP-koder",
+      "liveCodesDescription": "Følg forrige, gjeldende og neste TOTP og kopier med ett klikk.",
+      "regenerate": "Regenerer hemmelighet",
+      "cardSecret": "Hemmelighet og QR",
+      "secretHint": "Bruk en Base32-hemmelighet (A-Z, 2-7). Regenerer eller lim inn din egen.",
+      "qrCodeLabel": "Skann denne QR-koden med autentiseringsappen din",
+      "cardDetails": "Tekniske detaljer"
+    }
+  }
+}

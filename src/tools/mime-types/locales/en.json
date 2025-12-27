@@ -1,0 +1,27 @@
+{
+  "tools": {
+    "mime-types": {
+      "mimeToExt": {
+        "title": "Mime type to extension",
+        "subtitle": "Know which file extensions are associated to a mime-type",
+        "placeholder": "Select your mimetype here... (ex: application/pdf)",
+        "resultPrefix": "Extensions of files with the",
+        "resultSuffix": "mime-type:"
+      },
+      "extToMime": {
+        "title": "File extension to mime type",
+        "subtitle": "Know which mime type is associated to a file extension",
+        "placeholder": "Select your extension here... (ex: application/pdf)",
+        "resultPrefix": "Mime type associated to the extension",
+        "resultSuffix": "file extension:"
+      },
+      "table": {
+        "mime": "Mime types",
+        "extensions": "Extensions"
+      },
+      "tableTitle": "All MIME types",
+      "tableSubtitle": "Browse the complete list of MIME types and their extensions.",
+      "clear": "Clear"
+    }
+  }
+}

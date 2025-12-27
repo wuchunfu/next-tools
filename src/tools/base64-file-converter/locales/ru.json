@@ -1,0 +1,37 @@
+{
+  "tools": {
+    "base64-file-converter": {
+      "base64ToFile": "Base64 в файл",
+      "fileToBase64": "Файл в base64",
+      "fileName": "Имя файла",
+      "downloadFilename": "Имя файла для загрузки",
+      "extension": "Расширение",
+      "base64InputPlaceholder": "Вставьте здесь вашу строку файла base64...",
+      "previewImage": "Предпросмотр изображения",
+      "downloadFile": "Скачать файл",
+      "dragAndDrop": "Перетащите файл сюда или нажмите, чтобы выбрать файл",
+      "fileBase64Placeholder": "Файл в base64 будет здесь",
+      "copy": "Копировать",
+      "copied": "Строка Base64 скопирована в буфер обмена",
+      "invalidBase64": "Неверная строка base64",
+      "cardDecodeTitle": "Base64 в Файл",
+      "cardDecodeDescription": "Декодируйте строки Base64 и загружайте их как файлы. Поддерживает предпросмотр изображений.",
+      "cardEncodeTitle": "Файл в Base64",
+      "cardEncodeDescription": "Загрузите файлы и преобразуйте их в формат Base64.",
+      "base64InputLabel": "Строка Base64",
+      "fileBase64Label": "Вывод Base64",
+      "length": "Длина",
+      "detectedType": "Обнаруженный тип",
+      "imageFile": "Изображение",
+      "imagePreview": "Предпросмотр изображения",
+      "clickPreview": "Нажмите кнопку предпросмотра, чтобы увидеть изображение",
+      "uploadCta": "Нажмите для загрузки или перетащите файл",
+      "uploadHint": "Поддерживаются любые типы файлов",
+      "fileUploadLabel": "Выбрать файл",
+      "fileSize": "Размер",
+      "fileType": "Тип",
+      "unknownType": "Неизвестно",
+      "previewError": "Не удалось предварительно просмотреть изображение"
+    }
+  }
+}

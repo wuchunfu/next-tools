@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "benchmark-builder": {
+      "suiteName": "Suite {index}",
+      "suiteLabel": "Nombre de suite",
+      "suitePlaceholder": "Nombre de suite...",
+      "suitesTitle": "Conjuntos",
+      "suitesDescription": "Gestiona múltiples conjuntos y sus valores de muestra.",
+      "suiteValues": "Valores de suite",
+      "deleteSuite": "Eliminar suite",
+      "addSuite": "Agregar suite",
+      "resultsTitle": "Resultados",
+      "resultsDescription": "Resumen y comparación entre los conjuntos.",
+      "unitPlaceholder": "Unidad (ej: ms)",
+      "unitLabel": "Unidad",
+      "resetSuites": "Restablecer suites",
+      "copyMarkdown": "Copiar como tabla markdown",
+      "copyBullet": "Copiar como lista con viñetas",
+      "setMeasure": "Establecer su medida...",
+      "deleteValue": "Eliminar este valor",
+      "addMeasure": "Agregar una medida",
+      "header": {
+        "position": "Posición",
+        "title": "Suite",
+        "size": "Muestras",
+        "mean": "Media",
+        "variance": "Varianza"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "roman-numeral-converter": {
+      "arabicToRoman": "Árabe a romano",
+      "romanToArabic": "Romano a árabe",
+      "copy": "Copiar",
+      "invalidRange": "Solo podemos convertir números entre {min} y {max}",
+      "invalidRoman": "La entrada que ingresó no es un número romano válido",
+      "copiedRoman": "Número romano copiado al portapapeles",
+      "copiedArabic": "Número árabe copiado al portapapeles",
+      "cardArabicTitle": "Árabe a romano",
+      "cardArabicDescription": "Convierte números arábigos a números romanos clásicos.",
+      "cardRomanTitle": "Romano a árabe",
+      "cardRomanDescription": "Valida y convierte números romanos de regreso a arábigos.",
+      "inputArabicLabel": "Número arábigo",
+      "inputArabicPlaceholder": "Ingresa un entero dentro del rango soportado.",
+      "inputRomanLabel": "Número romano",
+      "inputRomanPlaceholder": "Escribe un número romano válido (ej.: MMXXIV).",
+      "outputRomanLabel": "Número romano",
+      "outputRomanPlaceholder": "El resultado convertido aparecerá aquí",
+      "outputArabicLabel": "Número arábigo",
+      "outputArabicPlaceholder": "El resultado convertido aparecerá aquí",
+      "reset": "Restablecer",
+      "quickExamples": "Ejemplos rápidos",
+      "length": "Longitud",
+      "value": "Valor"
+    }
+  }
+}

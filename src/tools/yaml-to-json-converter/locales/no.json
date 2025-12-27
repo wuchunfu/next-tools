@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "yaml-to-json": {
+      "cardTitle": "YAML til JSON Konverter",
+      "cardDescription": "Konverter YAML-format til JSON-format. Lim inn din YAML og få JSON-utgangen.",
+      "invalid": "Den oppgitte YAML-en er ikke gyldig.",
+      "cardInputTitle": "YAML-inndata",
+      "cardInputDescription": "Lim inn YAML-en du vil konvertere nedenfor. Vi validerer den og genererer JSON-utdata.",
+      "cardOutputTitle": "JSON-utdata",
+      "cardOutputDescription": "Dette er JSON-representasjonen av YAML-en din. Du kan kopiere den til videre bruk.",
+      "inputPlaceholder": "Lim inn din YAML her...",
+      "formatJson": "Formater JSON",
+      "invalidJsonTitle": "Ugyldig YAML",
+      "outputError": "Ugyldig YAML-format. Vennligst sjekk inndataene dine."
+    }
+  }
+}

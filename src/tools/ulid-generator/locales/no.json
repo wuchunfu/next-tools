@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "ulid-generator": {
+      "format": {
+        "label": "Format",
+        "description": "Velg utdataformat for ULID-er.",
+        "raw": "Rå",
+        "rawDescription": "Ren tekst, én ULID per linje.",
+        "json": "JSON",
+        "jsonDescription": "JSON-arrayformat, egnet for API-er."
+      },
+      "quantity": "Antall",
+      "quantityDescription": "Antall ULID-er som skal genereres (1-100).",
+      "generatedUlids": "Genererte ULID-er",
+      "refresh": "Oppdater",
+      "copy": "Kopier",
+      "copied": "ULID-er kopiert til utklippstavlen",
+      "noUlids": "Klikk oppdater for å generere ULID-er",
+      "cardConfigTitle": "ULID-konfigurasjon",
+      "cardOutputTitle": "ULID-resultater"
+    }
+  }
+}

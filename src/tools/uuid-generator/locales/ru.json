@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "uuid-generator": {
+      "title": "Генератор UUID",
+      "description": "Универсальный уникальный идентификатор (UUID) — это 128-битное число, используемое для идентификации информации в компьютерных системах. Количество возможных UUID составляет 16^32, что равно 2^128 или примерно 3,4x10^38 (это очень много!).",
+      "uuidVersion": "Версия UUID",
+      "uuidVersionDescription": "Выберите версию UUID для генерации.",
+      "versionNIL": "NIL",
+      "versionNILDescription": "Нулевой UUID (все нули).",
+      "versionV1": "Версия 1",
+      "versionV1Description": "UUID на основе времени, использующий временную метку и MAC-адрес.",
+      "versionV3": "Версия 3",
+      "versionV3Description": "UUID на основе имени, использующий хеширование MD5 и пространство имен.",
+      "versionV4": "Версия 4",
+      "versionV4Description": "Случайный UUID (наиболее часто используемый).",
+      "versionV5": "Версия 5",
+      "versionV5Description": "UUID на основе имени, использующий хеширование SHA-1 и пространство имен.",
+      "quantity": "Количество",
+      "uuidQuantity": "Количество UUID",
+      "namespace": "Пространство имен",
+      "namespaceDescription": "Выберите предопределенное пространство имен или введите пользовательский UUID.",
+      "namespaceDNS": "DNS",
+      "namespaceDNSDescription": "Пространство имен системы доменных имен.",
+      "namespaceURL": "URL",
+      "namespaceURLDescription": "Пространство имен унифицированного указателя ресурсов.",
+      "namespaceOID": "OID",
+      "namespaceOIDDescription": "Пространство имен идентификатора объекта.",
+      "namespaceX500": "X.500",
+      "namespaceX500Description": "Пространство имен отличительного имени X.500.",
+      "namespaceCustom": "Пользовательский",
+      "namespaceCustomDescription": "Введите пользовательское пространство имен UUID.",
+      "name": "Имя",
+      "yourUuids": "Ваши UUID",
+      "copy": "Копировать",
+      "refresh": "Обновить",
+      "invalidUuid": "Недействительный UUID",
+      "copied": "UUID скопированы в буфер обмена",
+      "cardConfigTitle": "Конфигурация UUID"
+    }
+  }
+}

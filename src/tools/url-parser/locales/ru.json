@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "url-parser": {
+      "invalid": "Неверный URL",
+      "cardTitle": "Анализатор URL",
+      "cardDescription": "Анализировать URL для извлечения их компонентов (протокол, имя хоста, путь, параметры запроса и т.д.).",
+      "cardInputTitle": "Ввод URL",
+      "cardInputDescription": "Вставьте URL ниже. Мы проверим его и покажем компоненты и параметры запроса.",
+      "cardOutputTitle": "Результат разбора",
+      "cardOutputDescription": "Просмотрите и скопируйте компоненты URL, извлечённые из вашего ввода.",
+      "inputPlaceholder": "Введите URL для анализа...",
+      "clear": "Очистить",
+      "invalidUrlTitle": "Неверный URL",
+      "urlComponents": "Компоненты URL",
+      "protocol": "Протокол",
+      "username": "Имя пользователя",
+      "password": "Пароль",
+      "hostname": "Имя хоста",
+      "port": "Порт",
+      "path": "Путь",
+      "search": "Поиск",
+      "hash": "Хеш",
+      "queryParameters": "Параметры запроса",
+      "parameterName": "Параметр",
+      "parameterValue": "Значение",
+      "enterUrlToParse": "Введите действительный URL, чтобы увидеть его компоненты."
+    }
+  }
+}

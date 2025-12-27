@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "sql-prettify": {
+      "dialect": "Діалект",
+      "gcpBigQuery": "GCP BigQuery",
+      "ibmDb2": "IBM DB2",
+      "apacheHive": "Apache Hive",
+      "mariadb": "MariaDB",
+      "mysql": "MySQL",
+      "couchbaseN1ql": "Couchbase N1QL",
+      "oraclePlsql": "Oracle PL/SQL",
+      "postgresql": "PostgreSQL",
+      "amazonRedshift": "Amazon Redshift",
+      "spark": "Spark",
+      "standardSql": "Стандартний SQL",
+      "sqlite": "sqlite",
+      "sqlServerTsql": "SQL Server Transact-SQL",
+      "keywordCase": "Регістр ключових слів",
+      "uppercase": "ВЕРХНІЙ РЕГІСТР",
+      "lowercase": "нижній регістр",
+      "preserve": "Зберегти",
+      "indentStyle": "Стиль відступу",
+      "standard": "Стандартний",
+      "tabularLeft": "Табличний зліва",
+      "tabularRight": "Табличний справа",
+      "configTitle": "Параметри форматування",
+      "configDescription": "Налаштуйте параметри форматування SQL, включаючи діалект, регістр ключових слів і стиль відступу.",
+      "converterTitle": "Форматувальник SQL",
+      "converterDescription": "Вставте ваш SQL-запит і подивіться відформатований вивід на основі конфігурації вище.",
+      "yourSqlQuery": "Ваш SQL-запит",
+      "inputPlaceholder": "Вставте ваш SQL-запит тут...",
+      "prettifyVersion": "Відформатована версія вашого запиту"
+    }
+  }
+}

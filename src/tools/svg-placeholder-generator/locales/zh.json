@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "svg-placeholder-generator": {
+      "cardTitle": "SVG 占位图生成器",
+      "cardDescription": "生成可自定义尺寸、颜色和文字的 SVG 占位图。",
+      "dimensions": "尺寸设置",
+      "width": "宽度 (px)",
+      "widthPlaceholder": "SVG 宽度...",
+      "height": "高度 (px)",
+      "heightPlaceholder": "SVG 高度...",
+      "fontSize": "字体大小 (px)",
+      "fontSizePlaceholder": "字体大小...",
+      "customText": "自定义文字",
+      "customPlaceholder": "默认为 {width}x{height}",
+      "useExact": "在 SVG 属性中使用精确尺寸",
+      "colorSettings": "颜色设置",
+      "background": "背景色",
+      "textColor": "文字颜色",
+      "preview": "预览",
+      "svgHtml": "SVG HTML 元素",
+      "svgBase64": "SVG Base64 格式",
+      "copySvg": "复制 SVG",
+      "copySvgTooltip": "复制 SVG HTML 代码",
+      "copyBase64": "复制 Base64",
+      "copyBase64Tooltip": "复制 Base64 数据 URL",
+      "downloadSvg": "下载",
+      "downloadSvgTooltip": "下载为 SVG 文件",
+      "imageAlt": "SVG 预览"
+    }
+  }
+}

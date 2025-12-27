@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "chmod-calculator": {
+      "permissionsTitle": "Dateiberechtigungen",
+      "permissionsDescription": "Wählen Sie Berechtigungen für Besitzer, Gruppe und Öffentlichkeit. Die Oktal- und Symbolischen Darstellungen werden automatisch berechnet.",
+      "resultsTitle": "Ergebnisse",
+      "resultsDescription": "Oktal- und symbolische Darstellungen der ausgewählten Berechtigungen.",
+      "octalLabel": "Oktale Darstellung",
+      "symbolicLabel": "Symbolische Darstellung",
+      "commandLabel": "Befehl",
+      "read": "Lesen (4)",
+      "write": "Schreiben (2)",
+      "execute": "Ausführen (1)",
+      "owner": "Besitzer (u)",
+      "group": "Gruppe (g)",
+      "public": "Öffentlich (o)",
+      "copyCommand": "chmod {octal} Pfad"
+    }
+  }
+}

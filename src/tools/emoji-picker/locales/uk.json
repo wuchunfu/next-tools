@@ -1,0 +1,13 @@
+{
+  "tools": {
+    "emoji-picker": {
+      "searchPlaceholder": "Пошук емодзі (напр. 'посмішка')...",
+      "noResults": "Немає результатів",
+      "noResultsDescription": "Спробуйте інший запит або перегляньте категорії",
+      "searchResult": "Результат пошуку",
+      "copyEmoji": "Емодзі {emoji} скопійовано в буфер обміну",
+      "copyCodePoints": "Кодові точки '{value}' скопійовано в буфер обміну",
+      "copyUnicode": "Unicode '{value}' скопійовано в буфер обміну"
+    }
+  }
+}

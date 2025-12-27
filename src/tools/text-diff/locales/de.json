@@ -1,0 +1,8 @@
+{
+  "tools": {
+    "text-diff": {
+      "cardTitle": "Text-Vergleich",
+      "cardDescription": "Vergleiche zwei Textabschnitte und hebe die Unterschiede hervor."
+    }
+  }
+}

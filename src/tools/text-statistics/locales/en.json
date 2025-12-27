@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "text-statistics": {
+      "title": "Text statistics",
+      "description": "Get information about a text, the number of characters, the number of words, its size in bytes, ...",
+      "cardInputTitle": "Input",
+      "cardInputDescription": "Paste or type your text to get instant statistics.",
+      "cardResultsTitle": "Results",
+      "cardResultsDescription": "Summary of text statistics",
+      "placeholder": "Your text...",
+      "characterCount": "Character count",
+      "wordCount": "Word count",
+      "lineCount": "Line count",
+      "byteSize": "Byte size"
+    }
+  }
+}

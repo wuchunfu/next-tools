@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "sql-prettify": {
+      "dialect": "Dialekt",
+      "gcpBigQuery": "GCP BigQuery",
+      "ibmDb2": "IBM DB2",
+      "apacheHive": "Apache Hive",
+      "mariadb": "MariaDB",
+      "mysql": "MySQL",
+      "couchbaseN1ql": "Couchbase N1QL",
+      "oraclePlsql": "Oracle PL/SQL",
+      "postgresql": "PostgreSQL",
+      "amazonRedshift": "Amazon Redshift",
+      "spark": "Spark",
+      "standardSql": "Standard SQL",
+      "sqlite": "sqlite",
+      "sqlServerTsql": "SQL Server Transact-SQL",
+      "keywordCase": "Schlüsselwort-Groß-/Kleinschreibung",
+      "uppercase": "GROSSBUCHSTABEN",
+      "lowercase": "kleinbuchstaben",
+      "preserve": "Beibehalten",
+      "indentStyle": "Einrückungsstil",
+      "standard": "Standard",
+      "tabularLeft": "Tabellarisch links",
+      "tabularRight": "Tabellarisch rechts",
+      "configTitle": "Formatierungsoptionen",
+      "configDescription": "Konfigurieren Sie SQL-Formatierungsoptionen einschließlich Dialekt, Schlüsselwort-Groß-/Kleinschreibung und Einrückungsstil.",
+      "converterTitle": "SQL-Formatierer",
+      "converterDescription": "Fügen Sie Ihre SQL-Abfrage ein und sehen Sie die formatierte Ausgabe basierend auf der obigen Konfiguration.",
+      "yourSqlQuery": "Ihre SQL-Abfrage",
+      "inputPlaceholder": "Geben Sie hier Ihre SQL-Abfrage ein...",
+      "prettifyVersion": "Formatierte Version Ihrer Abfrage"
+    }
+  }
+}

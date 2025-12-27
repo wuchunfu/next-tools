@@ -1,0 +1,42 @@
+{
+  "tools": {
+    "base64-string-converter": {
+      "title": "Кодувальник/декодувальник рядків Base64",
+      "description": "Просто кодуйте та декодуйте рядки в їх представлення base64.",
+      "stringToBase64": "Рядок у base64",
+      "encodeUrlSafe": "Кодувати URL безпечно",
+      "putYourStringHere": "Вставте ваш рядок тут...",
+      "stringToEncode": "Рядок для кодування",
+      "base64OfString": "Base64 рядка",
+      "base64EncodingPlaceholder": "Кодування base64 вашого рядка буде тут",
+      "copyBase64": "Копіювати base64",
+      "copiedBase64": "Рядок Base64 скопійовано в буфер обміну",
+      "base64ToString": "Base64 у рядок",
+      "decodeUrlSafe": "Декодувати URL безпечно",
+      "yourBase64String": "Ваш рядок base64...",
+      "base64StringToDecode": "Рядок base64 для декодування",
+      "decodedString": "Декодований рядок",
+      "decodedStringPlaceholder": "Декодований рядок буде тут",
+      "copyDecodedString": "Копіювати декодований рядок",
+      "copiedString": "Рядок скопійовано в буфер обміну",
+      "invalidBase64": "Невірний рядок base64",
+      "cardEncodeTitle": "Рядок у Base64",
+      "cardEncodeDescription": "Кодуйте будь-який текстовий рядок у формат Base64.",
+      "cardDecodeTitle": "Base64 у Рядок",
+      "cardDecodeDescription": "Декодуйте рядки Base64 назад до їх оригінального тексту.",
+      "encodeUrlSafeDescription": "Використовувати безпечне для URL кодування Base64 (замінює + на - і / на _)",
+      "decodeUrlSafeDescription": "Декодувати безпечні для URL рядки Base64 (обробляє символи - і _)",
+      "invalidBase64Description": "Введення не є допустимим рядком Base64. Будь ласка, перевірте ваше введення.",
+      "inputLength": "Довжина",
+      "outputLength": "Довжина виводу",
+      "urlSafe": "URL Безпечний",
+      "clear": "Очистити",
+      "emptyInputTitle": "Немає введення",
+      "emptyInputDescription": "Введіть текст вище, щоб побачити кодування Base64.",
+      "validInputTitle": "Готово до кодування",
+      "validInputDescription": "Ваш текст готовий до кодування.",
+      "validBase64Title": "Допустимий Base64",
+      "validBase64Description": "Рядок Base64 допустимий і готовий до декодування."
+    }
+  }
+}

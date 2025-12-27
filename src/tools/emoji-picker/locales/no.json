@@ -1,0 +1,13 @@
+{
+  "tools": {
+    "emoji-picker": {
+      "searchPlaceholder": "Søk emojis (f.eks. 'smil')...",
+      "noResults": "Ingen resultater",
+      "noResultsDescription": "Prøv et annet søkeord eller bla gjennom kategorier",
+      "searchResult": "Søkeresultat",
+      "copyEmoji": "Emoji {emoji} kopiert til utklippstavlen",
+      "copyCodePoints": "Kode punkter '{value}' kopiert til utklippstavlen",
+      "copyUnicode": "Unicode '{value}' kopiert til utklippstavlen"
+    }
+  }
+}

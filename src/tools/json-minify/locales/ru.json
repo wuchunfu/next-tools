@@ -1,0 +1,14 @@
+{
+  "tools": {
+    "json-minify": {
+      "cardTitle": "Компрессор JSON",
+      "cardInputTitle": "Исходный JSON",
+      "cardInputDescription": "Вставьте ниже JSON, который нужно сжать. Мы проверим его и создадим компактную версию.",
+      "cardOutputTitle": "Сжатый JSON",
+      "cardOutputDescription": "Это минифицированная версия вашего JSON без лишних пробелов.",
+      "invalid": "Предоставленный JSON недействителен.",
+      "invalidJsonTitle": "Недействительный JSON",
+      "inputPlaceholder": "Вставьте ваш необработанный JSON здесь..."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "tools": {
+    "list-converter": {
+      "sortAscending": "Sắp xếp tăng dần",
+      "sortDescending": "Sắp xếp giảm dần",
+      "trimListItems": "Cắt bỏ khoảng trắng các mục danh sách",
+      "trimListItemsHelp": "Loại bỏ khoảng trắng đầu và cuối khỏi mỗi mục",
+      "removeDuplicates": "Loại bỏ trùng lặp",
+      "removeDuplicatesHelp": "Loại bỏ các mục trùng lặp khỏi danh sách",
+      "convertToLowercase": "Chuyển đổi sang chữ thường",
+      "keepLineBreaks": "Giữ ngắt dòng",
+      "sortList": "Sắp xếp danh sách",
+      "sortAlphabetically": "Sắp xếp theo bảng chữ cái",
+      "separator": "Dấu phân cách",
+      "wrapItem": "Bọc mục",
+      "itemPrefix": "Tiền tố mục",
+      "itemSuffix": "Hậu tố mục",
+      "wrapList": "Bọc danh sách",
+      "listPrefix": "Tiền tố danh sách",
+      "listSuffix": "Hậu tố danh sách",
+      "configTitle": "Cấu hình",
+      "configDescription": "Cấu hình các tùy chọn chuyển đổi như cắt, sắp xếp, định dạng và dấu phân cách.",
+      "converterTitle": "Bộ chuyển đổi",
+      "converterDescription": "Dán dữ liệu danh sách của bạn và xem đầu ra đã chuyển đổi dựa trên cấu hình ở trên.",
+      "inputLabel": "Dữ liệu đầu vào của bạn",
+      "inputPlaceholder": "Dán dữ liệu đầu vào của bạn vào đây...",
+      "outputLabel": "Dữ liệu đã chuyển đổi của bạn",
+      "outputPlaceholder": "Đầu ra đã chuyển đổi sẽ xuất hiện ở đây...",
+      "clear": "Xóa"
+    }
+  }
+}

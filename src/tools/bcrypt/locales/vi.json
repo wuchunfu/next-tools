@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "bcrypt": {
+      "title": "Bcrypt",
+      "description": "Băm và so sánh chuỗi văn bản bằng bcrypt. Bcrypt là một hàm băm mật khẩu dựa trên mật mã Blowfish.",
+      "hash": "Hash",
+      "placeholder": "Chuỗi của bạn để bcrypt...",
+      "yourString": "Chuỗi của bạn:",
+      "saltCount": "Số lượng muối:",
+      "saltRounds": "Vòng muối...",
+      "copyHash": "Sao chép hash",
+      "copied": "Chuỗi đã băm được sao chép vào clipboard",
+      "compareStringWithHash": "So sánh chuỗi với hash",
+      "stringToCompare": "Chuỗi của bạn để so sánh...",
+      "yourHash": "Hash của bạn:",
+      "hashToCompare": "Hash của bạn để so sánh...",
+      "doTheyMatch": "Chúng có khớp không?",
+      "yes": "Có",
+      "no": "Không",
+      "enterBothFields": "Nhập cả hai trường để so sánh"
+    }
+  }
+}

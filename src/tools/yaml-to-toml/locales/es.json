@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "yaml-to-toml": {
+      "cardTitle": "Convertidor de YAML a TOML",
+      "cardDescription": "Convierta formato YAML a formato TOML. Pegue su YAML y obtenga la salida TOML.",
+      "cardInputTitle": "Entrada YAML",
+      "cardInputDescription": "Pegue a continuación el YAML que desea convertir. Lo validaremos y generaremos la salida TOML.",
+      "cardOutputTitle": "Salida TOML",
+      "cardOutputDescription": "Esta es la representación TOML de su YAML. Puede copiarla para usarla más adelante.",
+      "inputPlaceholder": "Pegue su YAML aquí...",
+      "clear": "Limpiar",
+      "invalidYaml": "El YAML proporcionado no es válido.",
+      "invalidYamlTitle": "YAML no válido",
+      "outputError": "Formato YAML no válido. Por favor, verifique su entrada."
+    }
+  }
+}

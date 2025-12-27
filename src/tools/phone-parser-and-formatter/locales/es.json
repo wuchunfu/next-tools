@@ -1,0 +1,37 @@
+{
+  "tools": {
+    "phone-parser-and-formatter": {
+      "invalid": "Número de teléfono inválido",
+      "country": "País",
+      "countryName": "País",
+      "countryCallingCode": "Código de llamada del país",
+      "isValid": "¿Es válido?",
+      "isPossible": "¿Es posible?",
+      "type": "Tipo",
+      "international": "Formato internacional",
+      "national": "Formato nacional",
+      "e164": "Formato E.164",
+      "rfc3966": "Formato RFC3966",
+      "defaultCode": "Código de país predeterminado:",
+      "placeholder": "Ingrese un número de teléfono",
+      "label": "Número de teléfono:",
+      "cardTitle": "Analizador y formateador de teléfonos",
+      "cardDescription": "Analice un número de teléfono y muestre formatos y metadatos.",
+      "cardResultsTitle": "Resultados",
+      "cardResultsDescription": "Formatos y metadatos analizados.",
+      "types": {
+        "MOBILE": "Móvil",
+        "FIXED_LINE": "Línea fija",
+        "FIXED_LINE_OR_MOBILE": "Línea fija o móvil",
+        "PERSONAL_NUMBER": "Número personal",
+        "PREMIUM_RATE": "Tarifa premium",
+        "SHARED_COST": "Costo compartido",
+        "TOLL_FREE": "Gratuito",
+        "UAN": "Número de acceso universal",
+        "VOICEMAIL": "Correo de voz",
+        "VOIP": "VoIP",
+        "PAGER": "Buscapersonas"
+      }
+    }
+  }
+}

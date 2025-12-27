@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "bip39-generator": {
+      "entropyLength": "Entropy length should be >= 16, <= 32 and be a multiple of 4",
+      "entropyHex": "Entropy should be an hexadecimal string",
+      "invalidMnemonic": "Invalid mnemonic",
+      "copyEntropy": "Entropy copied to the clipboard",
+      "copyPassphrase": "Passphrase copied to the clipboard",
+      "generateNewEntropy": "Generate new entropy",
+      "languageLabel": "Language",
+      "languageDescription": "Select the word list language for BIP39 mnemonic generation.",
+      "entropyLabel": "Entropy",
+      "entropyDescription": "Hexadecimal seed value (16-32 characters, multiple of 4).",
+      "entropyPlaceholder": "Enter hexadecimal entropy...",
+      "passphraseLabel": "Passphrase",
+      "passphraseDescription": "BIP39 mnemonic phrase (12 or 24 words).",
+      "passphrasePlaceholder": "Enter mnemonic phrase...",
+      "cardLanguageTitle": "Mnemonic language",
+      "cardEntropyTitle": "Entropy source",
+      "cardPassphraseTitle": "Mnemonic phrase",
+      "languages": {
+        "english": "English",
+        "chinese-simplified": "Chinese Simplified",
+        "chinese-traditional": "Chinese Traditional",
+        "czech": "Czech",
+        "french": "French",
+        "italian": "Italian",
+        "japanese": "Japanese",
+        "korean": "Korean",
+        "portuguese": "Portuguese",
+        "spanish": "Spanish"
+      }
+    }
+  }
+}

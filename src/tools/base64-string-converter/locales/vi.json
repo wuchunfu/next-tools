@@ -1,0 +1,42 @@
+{
+  "tools": {
+    "base64-string-converter": {
+      "title": "Bộ mã hóa/giải mã chuỗi Base64",
+      "description": "Đơn giản mã hóa và giải mã chuỗi thành biểu diễn base64 của chúng.",
+      "stringToBase64": "Chuỗi sang base64",
+      "encodeUrlSafe": "Mã hóa URL an toàn",
+      "putYourStringHere": "Đặt chuỗi của bạn ở đây...",
+      "stringToEncode": "Chuỗi để mã hóa",
+      "base64OfString": "Base64 của chuỗi",
+      "base64EncodingPlaceholder": "Mã hóa base64 của chuỗi của bạn sẽ ở đây",
+      "copyBase64": "Sao chép base64",
+      "copiedBase64": "Chuỗi Base64 đã được sao chép vào clipboard",
+      "base64ToString": "Base64 sang chuỗi",
+      "decodeUrlSafe": "Giải mã URL an toàn",
+      "yourBase64String": "Chuỗi base64 của bạn...",
+      "base64StringToDecode": "Chuỗi base64 để giải mã",
+      "decodedString": "Chuỗi đã giải mã",
+      "decodedStringPlaceholder": "Chuỗi đã giải mã sẽ ở đây",
+      "copyDecodedString": "Sao chép chuỗi đã giải mã",
+      "copiedString": "Chuỗi đã được sao chép vào clipboard",
+      "invalidBase64": "Chuỗi base64 không hợp lệ",
+      "cardEncodeTitle": "Chuỗi sang Base64",
+      "cardEncodeDescription": "Mã hóa bất kỳ chuỗi văn bản nào sang định dạng Base64.",
+      "cardDecodeTitle": "Base64 sang Chuỗi",
+      "cardDecodeDescription": "Giải mã các chuỗi Base64 trở lại văn bản gốc của chúng.",
+      "encodeUrlSafeDescription": "Sử dụng mã hóa Base64 an toàn cho URL (thay thế + bằng - và / bằng _)",
+      "decodeUrlSafeDescription": "Giải mã các chuỗi Base64 an toàn cho URL (xử lý các ký tự - và _)",
+      "invalidBase64Description": "Đầu vào không phải là chuỗi Base64 hợp lệ. Vui lòng kiểm tra đầu vào của bạn.",
+      "inputLength": "Độ dài",
+      "outputLength": "Độ dài đầu ra",
+      "urlSafe": "URL An toàn",
+      "clear": "Xóa",
+      "emptyInputTitle": "Không có đầu vào",
+      "emptyInputDescription": "Nhập văn bản ở trên để xem mã hóa Base64.",
+      "validInputTitle": "Sẵn sàng mã hóa",
+      "validInputDescription": "Văn bản của bạn đã sẵn sàng để mã hóa.",
+      "validBase64Title": "Base64 hợp lệ",
+      "validBase64Description": "Chuỗi Base64 hợp lệ và sẵn sàng để giải mã."
+    }
+  }
+}

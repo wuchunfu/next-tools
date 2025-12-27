@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "sql-prettify": {
+      "dialect": "Диалект",
+      "gcpBigQuery": "GCP BigQuery",
+      "ibmDb2": "IBM DB2",
+      "apacheHive": "Apache Hive",
+      "mariadb": "MariaDB",
+      "mysql": "MySQL",
+      "couchbaseN1ql": "Couchbase N1QL",
+      "oraclePlsql": "Oracle PL/SQL",
+      "postgresql": "PostgreSQL",
+      "amazonRedshift": "Amazon Redshift",
+      "spark": "Spark",
+      "standardSql": "Стандартный SQL",
+      "sqlite": "sqlite",
+      "sqlServerTsql": "SQL Server Transact-SQL",
+      "keywordCase": "Регистр ключевых слов",
+      "uppercase": "ВЕРХНИЙ РЕГИСТР",
+      "lowercase": "нижний регистр",
+      "preserve": "Сохранить",
+      "indentStyle": "Стиль отступа",
+      "standard": "Стандартный",
+      "tabularLeft": "Табличный слева",
+      "tabularRight": "Табличный справа",
+      "configTitle": "Параметры форматирования",
+      "configDescription": "Настройте параметры форматирования SQL, включая диалект, регистр ключевых слов и стиль отступа.",
+      "converterTitle": "Форматировщик SQL",
+      "converterDescription": "Вставьте ваш SQL-запрос и посмотрите отформатированный вывод на основе конфигурации выше.",
+      "yourSqlQuery": "Ваш SQL-запрос",
+      "inputPlaceholder": "Вставьте ваш SQL-запрос здесь...",
+      "prettifyVersion": "Отформатированная версия вашего запроса"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "tools": {
+    "numeronym-generator": {
+      "placeholder": "Skriv inn et ord, f.eks. 'internationalization'",
+      "outputPlaceholder": "Ditt numeronym vil vises her, f.eks. 'i18n'",
+      "cardInputTitle": "Inndata",
+      "cardInputDescription": "Skriv inn ordet du vil konvertere til et numeronym.",
+      "cardResultsTitle": "Resultat",
+      "cardResultsDescription": "Numeronymet for det angitte ordet."
+    }
+  }
+}

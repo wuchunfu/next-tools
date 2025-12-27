@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "base-converter": {
+      "inputNumber": "Входное число",
+      "inputPlaceholder": "Введите ваше число здесь (например: 42)",
+      "inputBase": "Основание ввода",
+      "inputBasePlaceholder": "Введите основание ввода здесь (например: 10)",
+      "binary": "Двоичный (2)",
+      "binaryPlaceholder": "Двоичная версия появится здесь...",
+      "octal": "Восьмеричный (8)",
+      "octalPlaceholder": "Восьмеричная версия появится здесь...",
+      "decimal": "Десятичный (10)",
+      "decimalPlaceholder": "Десятичная версия появится здесь...",
+      "hexadecimal": "Шестнадцатеричный (16)",
+      "hexadecimalPlaceholder": "Шестнадцатеричная версия появится здесь...",
+      "base64": "Base64 (64)",
+      "base64Placeholder": "Версия Base64 появится здесь...",
+      "custom": "Пользовательский",
+      "customPlaceholder": "Основание {base} появится здесь...",
+      "cardInputTitle": "Число и основания",
+      "cardInputDescription": "Введите значение и выберите основания ввода и вывода.",
+      "cardOutputTitle": "Преобразованные значения",
+      "cardOutputDescription": "Копируйте любое основание мгновенно.",
+      "inputLength": "Длина",
+      "useExample": "Использовать пример",
+      "clear": "Очистить",
+      "customBaseLabel": "Пользовательское основание",
+      "outputPresetsTitle": "Быстрые выводы",
+      "customOutputTitle": "Пользовательский вывод",
+      "errorTitle": "Ошибка преобразования",
+      "validTitle": "Готово к копированию",
+      "validHint": "Все выводы синхронизированы с вашим вводом."
+    }
+  }
+}

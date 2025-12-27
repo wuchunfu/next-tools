@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "json-prettify": {
+      "title": "JSON美化和格式化",
+      "description": "将JSON字符串修饰为友好的可读格式。",
+      "cardOptionsTitle": "格式化选项",
+      "cardOptionsDescription": "调整缩进和键排序行为，使其符合你偏好的 JSON 风格。",
+      "sortKeys": "排序键",
+      "sortKeysHelp": "按字母顺序对对象键进行排序，以获得更稳定、易读的输出。",
+      "indentSize": "缩进大小",
+      "indentHint": "用于缩进的空格数量（0–10）。",
+      "cardInputTitle": "JSON 输入",
+      "cardInputDescription": "在下方粘贴你的 JSON，我们会验证（兼容 JSON5）并生成格式化结果。",
+      "pasteYourRawJson": "在此粘贴您的原始 JSON...",
+      "cardOutputTitle": "格式化后的 JSON",
+      "cardOutputDescription": "查看并复制格式化后的 JSON 输出。",
+      "prettifiedVersion": "美化后的 JSON 版本",
+      "invalidJson": "提供的 JSON 无效。",
+      "invalidJsonTitle": "无效的 JSON"
+    }
+  }
+}

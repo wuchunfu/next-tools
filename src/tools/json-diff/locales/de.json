@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "json-diff": {
+      "cardTitle": "JSON-Vergleich",
+      "cardDescription": "Vergleichen Sie zwei JSON-Objekte und sehen Sie die hervorgehobenen Unterschiede.",
+      "cardInputTitle": "JSON-Eingaben",
+      "cardInputDescription": "Fügen Sie unten zwei JSON-Dokumente ein. Wir validieren sie und zeigen die Unterschiede an.",
+      "invalidJson": "Ungültiges JSON-Format",
+      "firstJsonLabel": "Ihr erster JSON",
+      "firstJsonPlaceholder": "Fügen Sie hier Ihren ersten JSON ein...",
+      "compareJsonLabel": "Ihr zu vergleichender JSON",
+      "compareJsonPlaceholder": "Fügen Sie hier Ihren zu vergleichenden JSON ein...",
+      "resultsTitle": "Vergleichsergebnisse",
+      "resultsDescription": "Unterschiede werden in Grün (hinzugefügt) und Rot (entfernt) hervorgehoben.",
+      "onlyShowDifferences": "Nur Unterschiede anzeigen",
+      "sameJson": "Die bereitgestellten JSONs sind identisch",
+      "sameJsonDescription": "Beide JSON-Objekte sind identisch. Keine Unterschiede gefunden.",
+      "clickToCopy": "Zum Kopieren klicken"
+    }
+  }
+}

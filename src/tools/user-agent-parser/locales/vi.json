@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "user-agent-parser": {
+      "cardTitle": "Trình phân tích User-Agent",
+      "cardDescription": "Dán hoặc chỉnh sửa chuỗi User-Agent để xem chi tiết trình duyệt, thiết bị, hệ điều hành và CPU.",
+      "cardInputTitle": "User-Agent đầu vào",
+      "cardInputDescription": "Dán hoặc chỉnh sửa chuỗi User-Agent để xem chi tiết trình duyệt, thiết bị, hệ điều hành và CPU.",
+      "cardOutputTitle": "Chi tiết đã phân tích",
+      "cardOutputDescription": "Mỗi phần hiển thị các giá trị được trích xuất từ chuỗi User-Agent.",
+      "inputLabel": "Chuỗi user-agent",
+      "inputPlaceholder": "Đặt user-agent của bạn ở đây...",
+      "browser": "Trình duyệt",
+      "engine": "Engine",
+      "os": "Hệ điều hành",
+      "device": "Thiết bị",
+      "cpu": "CPU",
+      "name": "Tên",
+      "version": "Phiên bản",
+      "model": "Mô hình",
+      "type": "Loại",
+      "vendor": "Nhà sản xuất",
+      "architecture": "Kiến trúc",
+      "charactersLabel": "Ký tự",
+      "copyUa": "Sao chép UA",
+      "copiedUa": "User-Agent đã được sao chép",
+      "clear": "Xóa",
+      "currentUaLabel": "User-Agent trình duyệt hiện tại",
+      "useCurrentUa": "Dùng UA hiện tại",
+      "resultsTitle": "Chi tiết đã phân tích",
+      "resultsDescription": "Mỗi phần hiển thị các giá trị được trích xuất từ chuỗi User-Agent.",
+      "noBrowserName": "Không có tên trình duyệt",
+      "noBrowserVersion": "Không có phiên bản trình duyệt",
+      "noEngineName": "Không có tên engine",
+      "noEngineVersion": "Không có phiên bản engine",
+      "noOsName": "Không có tên hệ điều hành",
+      "noOsVersion": "Không có phiên bản hệ điều hành",
+      "noDeviceModel": "Không có model thiết bị",
+      "noDeviceType": "Không có kiểu thiết bị",
+      "noDeviceVendor": "Không có nhà sản xuất thiết bị",
+      "noCpuArch": "Không có kiến trúc CPU"
+    }
+  }
+}

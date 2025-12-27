@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "json-prettify": {
+      "title": "JSON formatieren und schöner machen",
+      "description": "Formatieren Sie Ihre JSON-Zeichenkette in ein benutzerfreundliches, lesbares Format.",
+      "cardOptionsTitle": "Formatierungsoptionen",
+      "cardOptionsDescription": "Passen Sie Einrückung und Schlüsselsortierung an Ihren bevorzugten JSON-Stil an.",
+      "sortKeys": "Schlüssel sortieren",
+      "sortKeysHelp": "Objektschlüssel alphabetisch sortieren, um eine stabilere und besser lesbare Ausgabe zu erhalten.",
+      "indentSize": "Einrückungsgröße",
+      "indentHint": "Anzahl der Leerzeichen für die Einrückung (0–10).",
+      "cardInputTitle": "JSON-Eingabe",
+      "cardInputDescription": "Fügen Sie unten Ihr JSON ein. Wir validieren es (JSON5-kompatibel) und erzeugen eine formatierte Version.",
+      "pasteYourRawJson": "Fügen Sie hier Ihren rohen JSON ein...",
+      "cardOutputTitle": "Formatiertes JSON",
+      "cardOutputDescription": "Überprüfen und kopieren Sie die formatierte JSON-Ausgabe.",
+      "prettifiedVersion": "Formatierte Version Ihres JSON",
+      "invalidJson": "Bereitgestellter JSON ist nicht gültig.",
+      "invalidJsonTitle": "Ungültiger JSON"
+    }
+  }
+}

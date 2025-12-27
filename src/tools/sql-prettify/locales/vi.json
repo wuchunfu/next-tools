@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "sql-prettify": {
+      "dialect": "Phương ngữ",
+      "gcpBigQuery": "GCP BigQuery",
+      "ibmDb2": "IBM DB2",
+      "apacheHive": "Apache Hive",
+      "mariadb": "MariaDB",
+      "mysql": "MySQL",
+      "couchbaseN1ql": "Couchbase N1QL",
+      "oraclePlsql": "Oracle PL/SQL",
+      "postgresql": "PostgreSQL",
+      "amazonRedshift": "Amazon Redshift",
+      "spark": "Spark",
+      "standardSql": "SQL chuẩn",
+      "sqlite": "sqlite",
+      "sqlServerTsql": "SQL Server Transact-SQL",
+      "keywordCase": "Chữ hoa/thường của từ khóa",
+      "uppercase": "CHỮ HOA",
+      "lowercase": "chữ thường",
+      "preserve": "Giữ nguyên",
+      "indentStyle": "Kiểu thụt lề",
+      "standard": "Chuẩn",
+      "tabularLeft": "Bảng trái",
+      "tabularRight": "Bảng phải",
+      "configTitle": "Tùy chọn định dạng",
+      "configDescription": "Cấu hình các tùy chọn định dạng SQL, bao gồm phương ngữ, chữ hoa/thường của từ khóa và kiểu thụt lề.",
+      "converterTitle": "Trình định dạng SQL",
+      "converterDescription": "Dán truy vấn SQL của bạn và xem đầu ra đã định dạng dựa trên cấu hình ở trên.",
+      "yourSqlQuery": "Truy vấn SQL của bạn",
+      "inputPlaceholder": "Đặt truy vấn SQL của bạn ở đây...",
+      "prettifyVersion": "Phiên bản đã định dạng của truy vấn của bạn"
+    }
+  }
+}

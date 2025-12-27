@@ -1,0 +1,42 @@
+{
+  "tools": {
+    "base64-string-converter": {
+      "title": "Кодировщик/декодировщик строк Base64",
+      "description": "Просто кодируйте и декодируйте строки в их представление base64.",
+      "stringToBase64": "Строка в base64",
+      "encodeUrlSafe": "Кодировать URL безопасно",
+      "putYourStringHere": "Вставьте вашу строку здесь...",
+      "stringToEncode": "Строка для кодирования",
+      "base64OfString": "Base64 строки",
+      "base64EncodingPlaceholder": "Кодирование base64 вашей строки будет здесь",
+      "copyBase64": "Копировать base64",
+      "copiedBase64": "Строка Base64 скопирована в буфер обмена",
+      "base64ToString": "Base64 в строку",
+      "decodeUrlSafe": "Декодировать URL безопасно",
+      "yourBase64String": "Ваша строка base64...",
+      "base64StringToDecode": "Строка base64 для декодирования",
+      "decodedString": "Декодированная строка",
+      "decodedStringPlaceholder": "Декодированная строка будет здесь",
+      "copyDecodedString": "Копировать декодированную строку",
+      "copiedString": "Строка скопирована в буфер обмена",
+      "invalidBase64": "Неверная строка base64",
+      "cardEncodeTitle": "Строка в Base64",
+      "cardEncodeDescription": "Кодируйте любую текстовую строку в формат Base64.",
+      "cardDecodeTitle": "Base64 в Строку",
+      "cardDecodeDescription": "Декодируйте строки Base64 обратно в их исходный текст.",
+      "encodeUrlSafeDescription": "Использовать безопасное для URL кодирование Base64 (заменяет + на - и / на _)",
+      "decodeUrlSafeDescription": "Декодировать безопасные для URL строки Base64 (обрабатывает символы - и _)",
+      "invalidBase64Description": "Ввод не является допустимой строкой Base64. Пожалуйста, проверьте ваш ввод.",
+      "inputLength": "Длина",
+      "outputLength": "Длина вывода",
+      "urlSafe": "URL Безопасный",
+      "clear": "Очистить",
+      "emptyInputTitle": "Нет ввода",
+      "emptyInputDescription": "Введите текст выше, чтобы увидеть кодирование Base64.",
+      "validInputTitle": "Готово к кодированию",
+      "validInputDescription": "Ваш текст готов к кодированию.",
+      "validBase64Title": "Допустимый Base64",
+      "validBase64Description": "Строка Base64 допустима и готова к декодированию."
+    }
+  }
+}

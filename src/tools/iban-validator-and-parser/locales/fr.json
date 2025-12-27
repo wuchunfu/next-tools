@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "iban-validator-and-parser": {
+      "cardTitle": "Validateur et Analyseur IBAN",
+      "cardDescription": "Valider et analyser les Numéros de Compte Bancaire Internationaux (IBAN)",
+      "cardResultsTitle": "Résultats",
+      "cardResultsDescription": "Informations analysées de l'IBAN et résultats de validation",
+      "examplesDescription": "Exemples d'IBAN pour les tests",
+      "label": "IBAN",
+      "isValid": "L'IBAN est-il valide ?",
+      "errors": "Erreurs IBAN",
+      "isQrIban": "L'IBAN est-il un QR-IBAN ?",
+      "countryCode": "Code pays",
+      "bban": "BBAN",
+      "friendlyFormat": "Format convivial IBAN",
+      "placeholder": "Entrez un IBAN pour vérifier sa validité...",
+      "examplesTitle": "Exemples d'IBAN valides"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "bcrypt": {
+      "title": "Bcrypt",
+      "description": "Hashen und Vergleichen von Textzeichenketten mit bcrypt. Bcrypt ist eine Passwort-Hashing-Funktion basierend auf dem Blowfish-Verschlüsselungsalgorithmus.",
+      "hash": "Hash",
+      "placeholder": "Ihre zu bcryptende Zeichenkette...",
+      "yourString": "Ihre Zeichenkette:",
+      "saltCount": "Salt-Anzahl:",
+      "saltRounds": "Salt-Runden...",
+      "copyHash": "Hash kopieren",
+      "copied": "Gehashte Zeichenkette in die Zwischenablage kopiert",
+      "compareStringWithHash": "Zeichenkette mit Hash vergleichen",
+      "stringToCompare": "Ihre zu vergleichende Zeichenkette...",
+      "yourHash": "Ihr Hash:",
+      "hashToCompare": "Ihr zu vergleichender Hash...",
+      "doTheyMatch": "Stimmen sie überein?",
+      "yes": "Ja",
+      "no": "Nein",
+      "enterBothFields": "Geben Sie beide Felder ein, um zu vergleichen"
+    }
+  }
+}

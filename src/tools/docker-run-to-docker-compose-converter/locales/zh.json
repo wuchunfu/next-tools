@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "docker-run-to-compose": {
+      "cardInputTitle": "docker run 命令",
+      "cardInputDescription": "在下方粘贴要转换的 docker run 命令，我们会帮你生成对应的 docker-compose.yml 配置。",
+      "cardOutputTitle": "生成的 docker-compose.yml",
+      "cardOutputDescription": "查看、复制或下载根据命令生成的 docker-compose 配置。",
+      "inputLabel": "docker run 命令：",
+      "inputPlaceholder": "输入要转换的 docker run 命令...",
+      "download": "下载 docker-compose.yml",
+      "clear": "清空命令",
+      "notComposableTitle": "下列选项无法转换为 docker-compose",
+      "notImplementedTitle": "下列选项尚未实现，因此未转换为 docker-compose",
+      "errorsTitle": "出现以下错误"
+    }
+  }
+}

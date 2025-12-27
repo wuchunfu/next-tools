@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "xml-to-json": {
+      "cardTitle": "Bộ chuyển đổi XML sang JSON",
+      "cardDescription": "Chuyển đổi định dạng XML sang định dạng JSON. Dán XML của bạn và nhận đầu ra JSON.",
+      "cardInputTitle": "XML đầu vào",
+      "cardInputDescription": "Dán XML bạn muốn chuyển đổi vào bên dưới. Chúng tôi sẽ xác thực và tạo đầu ra JSON tương ứng.",
+      "cardOutputTitle": "Đầu ra JSON",
+      "cardOutputDescription": "Đây là biểu diễn JSON của XML. Bạn có thể sao chép để sử dụng tiếp.",
+      "inputPlaceholder": "Dán nội dung XML của bạn vào đây...",
+      "invalidXml": "XML được cung cấp không hợp lệ.",
+      "invalidXmlTitle": "XML không hợp lệ",
+      "outputError": "Định dạng XML không hợp lệ. Vui lòng kiểm tra đầu vào của bạn.",
+      "clear": "Xóa",
+      "formatJson": "Định dạng JSON"
+    }
+  }
+}

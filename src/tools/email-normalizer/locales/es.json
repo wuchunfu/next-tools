@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "email-normalizer": {
+      "unableToParse": "No se puede analizar el correo electrónico: {email}",
+      "copied": "Correos electrónicos normalizados copiados al portapapeles",
+      "rawEmails": "Correos electrónicos sin procesar para normalizar:",
+      "inputPlaceholder": "Ponga sus correos electrónicos aquí (uno por línea)...",
+      "normalizedEmails": "Correos electrónicos normalizados:",
+      "outputPlaceholder": "Los correos electrónicos normalizados aparecerán aquí...",
+      "clear": "Limpiar correos electrónicos",
+      "copy": "Copiar correos electrónicos normalizados",
+      "cardInputTitle": "Entrada de correo electrónico",
+      "cardInputDescription": "Pegue sus direcciones de correo electrónico a continuación (una por línea). Se normalizarán automáticamente.",
+      "cardOutputTitle": "Correos electrónicos normalizados",
+      "cardOutputDescription": "Revise y copie las direcciones de correo electrónico normalizadas."
+    }
+  }
+}

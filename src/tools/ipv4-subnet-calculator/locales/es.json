@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "ipv4-subnet-calculator": {
+      "inputLabel": "Una dirección IPv4 con o sin máscara",
+      "inputPlaceholder": "La dirección IPv4...",
+      "cannotParseAddress": "No podemos analizar esta dirección, verifique el formato",
+      "netmask": "Máscara de red",
+      "networkAddress": "Dirección de red",
+      "networkMask": "Máscara de red",
+      "networkMaskInBinary": "Máscara de red en binario",
+      "cidrNotation": "Notación CIDR",
+      "wildcardMask": "Máscara comodín",
+      "networkSize": "Tamaño de red",
+      "firstAddress": "Primera dirección",
+      "lastAddress": "Última dirección",
+      "broadcastAddress": "Dirección de difusión",
+      "noBroadcastAddress": "No hay dirección de difusión con esta máscara",
+      "ipClass": "Clase IP",
+      "unknownClassType": "Tipo de clase desconocido",
+      "previousBlock": "Bloque anterior",
+      "nextBlock": "Bloque siguiente",
+      "cardInputTitle": "Dirección IPv4",
+      "cardInputDescription": "Ingrese una dirección IPv4 con o sin notación CIDR para calcular información de subred.",
+      "cardResultsTitle": "Información de subred",
+      "cardResultsDescription": "Información detallada de red y subred para la dirección IPv4 ingresada.",
+      "invalidAddressTitle": "Dirección inválida",
+      "property": "Propiedad",
+      "value": "Valor"
+    }
+  }
+}

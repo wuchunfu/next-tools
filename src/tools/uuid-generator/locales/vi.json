@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "uuid-generator": {
+      "title": "Trình tạo UUID",
+      "description": "Một Universal Unique Identifier (UUID) là một số 128 bit được sử dụng để xác định thông tin trong hệ thống máy tính. Số lượng UUID có thể là 16^32, tức là 2^128 hoặc khoảng 3,4x10^38 (đó là rất nhiều!).",
+      "uuidVersion": "Phiên bản UUID",
+      "uuidVersionDescription": "Chọn phiên bản UUID để tạo.",
+      "versionNIL": "NIL",
+      "versionNILDescription": "UUID rỗng (tất cả số không).",
+      "versionV1": "Phiên bản 1",
+      "versionV1Description": "UUID dựa trên thời gian sử dụng dấu thời gian và địa chỉ MAC.",
+      "versionV3": "Phiên bản 3",
+      "versionV3Description": "UUID dựa trên tên sử dụng băm MD5 và không gian tên.",
+      "versionV4": "Phiên bản 4",
+      "versionV4Description": "UUID ngẫu nhiên (được sử dụng phổ biến nhất).",
+      "versionV5": "Phiên bản 5",
+      "versionV5Description": "UUID dựa trên tên sử dụng băm SHA-1 và không gian tên.",
+      "quantity": "Số lượng",
+      "uuidQuantity": "Số lượng UUID",
+      "namespace": "Không gian tên",
+      "namespaceDescription": "Chọn không gian tên được xác định trước hoặc nhập UUID tùy chỉnh.",
+      "namespaceDNS": "DNS",
+      "namespaceDNSDescription": "Không gian tên của hệ thống tên miền.",
+      "namespaceURL": "URL",
+      "namespaceURLDescription": "Không gian tên của bộ định vị tài nguyên thống nhất.",
+      "namespaceOID": "OID",
+      "namespaceOIDDescription": "Không gian tên của định danh đối tượng.",
+      "namespaceX500": "X.500",
+      "namespaceX500Description": "Không gian tên của tên phân biệt X.500.",
+      "namespaceCustom": "Tùy chỉnh",
+      "namespaceCustomDescription": "Nhập không gian tên UUID tùy chỉnh.",
+      "name": "Tên",
+      "yourUuids": "UUID của bạn",
+      "copy": "Sao chép",
+      "refresh": "Làm mới",
+      "invalidUuid": "UUID không hợp lệ",
+      "copied": "UUID đã được sao chép vào clipboard",
+      "cardConfigTitle": "Cấu hình UUID"
+    }
+  }
+}

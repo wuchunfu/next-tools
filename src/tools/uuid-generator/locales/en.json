@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "uuid-generator": {
+      "title": "UUIDs generator",
+      "description": "A Universally Unique Identifier (UUID) is a 128-bit number used to identify information in computer systems. The number of possible UUIDs is 16^32, which is 2^128 or about 3.4x10^38 (which is a lot!).",
+      "uuidVersion": "UUID version",
+      "uuidVersionDescription": "Select the UUID version to generate.",
+      "versionNIL": "NIL",
+      "versionNILDescription": "The nil UUID (all zeros).",
+      "versionV1": "Version 1",
+      "versionV1Description": "Time-based UUID using timestamp and MAC address.",
+      "versionV3": "Version 3",
+      "versionV3Description": "Name-based UUID using MD5 hashing and namespace.",
+      "versionV4": "Version 4",
+      "versionV4Description": "Random UUID (most commonly used).",
+      "versionV5": "Version 5",
+      "versionV5Description": "Name-based UUID using SHA-1 hashing and namespace.",
+      "quantity": "Quantity",
+      "uuidQuantity": "UUID quantity",
+      "namespace": "Namespace",
+      "namespaceDescription": "Select a predefined namespace or enter a custom UUID.",
+      "namespaceDNS": "DNS",
+      "namespaceDNSDescription": "Domain Name System namespace.",
+      "namespaceURL": "URL",
+      "namespaceURLDescription": "Uniform Resource Locator namespace.",
+      "namespaceOID": "OID",
+      "namespaceOIDDescription": "Object Identifier namespace.",
+      "namespaceX500": "X.500",
+      "namespaceX500Description": "X.500 Distinguished Name namespace.",
+      "namespaceCustom": "Custom",
+      "namespaceCustomDescription": "Enter a custom UUID namespace.",
+      "name": "Name",
+      "yourUuids": "Your uuids",
+      "copy": "Copy",
+      "refresh": "Refresh",
+      "invalidUuid": "Invalid UUID",
+      "copied": "UUIDs copied to the clipboard",
+      "cardConfigTitle": "UUID configuration"
+    }
+  }
+}

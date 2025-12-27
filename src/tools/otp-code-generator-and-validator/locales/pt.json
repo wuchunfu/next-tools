@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "otp-generator": {
+      "secretBase32": "O segredo deve ser uma string base32",
+      "secretRequired": "Por favor, defina um segredo",
+      "secret": "Segredo",
+      "secretPlaceholder": "Cole seu segredo TOTP...",
+      "generateTooltip": "Gerar um novo segredo aleatório",
+      "nextIn": "Próximo em {seconds}s",
+      "openKeyUri": "Abrir Key URI em nova aba",
+      "secretHex": "Segredo em hexadecimal",
+      "secretHexPlaceholder": "O segredo em hex será exibido aqui",
+      "epoch": "Época",
+      "epochPlaceholder": "A época em segundos será exibida aqui",
+      "iteration": "Iteração",
+      "count": "Contagem:",
+      "countPlaceholder": "A contagem de iterações será exibida aqui",
+      "countHexPlaceholder": "A contagem de iterações em hex será exibida aqui",
+      "countHexLabel": "Hex com preenchimento:",
+      "previous": "Anterior",
+      "current": "OTP atual",
+      "next": "Próximo",
+      "copyPrevious": "Copiar OTP anterior",
+      "copyCurrent": "Copiar OTP atual",
+      "copyNext": "Copiar OTP próximo",
+      "cardLiveCodes": "Códigos OTP ao vivo",
+      "liveCodesDescription": "Monitore o TOTP anterior, atual e próximo e copie com um clique.",
+      "regenerate": "Regenerar segredo",
+      "cardSecret": "Segredo e QR",
+      "secretHint": "Use um segredo Base32 (A-Z, 2-7). Regere ou cole o seu.",
+      "qrCodeLabel": "Escaneie este QR com seu app autenticador",
+      "cardDetails": "Detalhes técnicos"
+    }
+  }
+}

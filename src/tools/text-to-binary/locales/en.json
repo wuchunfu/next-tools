@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-binary": {
+      "title": "Text to ASCII binary",
+      "description": "Convert text to its ASCII binary representation and vice-versa.",
+      "cardTextToBinaryTitle": "Text to Binary",
+      "cardTextToBinaryDescription": "Convert text to its ASCII binary representation.",
+      "cardBinaryToTextTitle": "Binary to Text",
+      "cardBinaryToTextDescription": "Convert ASCII binary representation back to text.",
+      "textPlaceholder": "e.g. 'Hello world'",
+      "enterTextToConvert": "Enter text to convert",
+      "inputLength": "Length",
+      "outputLength": "Length",
+      "bytes": "Bytes",
+      "clear": "Clear",
+      "binaryFromText": "Binary output",
+      "binaryPlaceholder": "The binary representation of your text will be here",
+      "binaryInputPlaceholder": "e.g. '01001000 01100101 01101100 01101100 01101111'",
+      "enterBinaryToConvert": "Enter binary to convert",
+      "textFromBinary": "Text output",
+      "textOutputPlaceholder": "The text representation of your binary will be here",
+      "invalidBinary": "Binary should be a valid ASCII binary string with multiples of 8 bits"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "yaml-viewer": {
+      "invalid": "YAML được cung cấp không hợp lệ.",
+      "cardOptionsTitle": "Tùy chọn định dạng",
+      "cardOptionsDescription": "Điều chỉnh thụt lề và cách sắp xếp khóa để phù hợp với kiểu YAML ưa thích của bạn.",
+      "sortKeys": "Sắp xếp khóa",
+      "sortKeysHelp": "Sắp xếp các khóa của đối tượng theo bảng chữ cái để đầu ra ổn định và dễ đọc hơn.",
+      "indent": "Kích thước thụt lề",
+      "indentHint": "Số lượng khoảng trắng dùng để thụt lề (1–10).",
+      "cardInputTitle": "YAML đầu vào",
+      "cardInputDescription": "Dán YAML của bạn bên dưới. Chúng tôi sẽ kiểm tra và tạo phiên bản đã định dạng.",
+      "inputPlaceholder": "Dán YAML của bạn vào đây...",
+      "cardOutputTitle": "YAML đã định dạng",
+      "cardOutputDescription": "Xem và sao chép đầu ra YAML đã định dạng.",
+      "invalidYamlTitle": "YAML không hợp lệ"
+    }
+  }
+}

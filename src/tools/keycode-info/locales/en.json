@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "keycode-info": {
+      "cardTitle": "Keyboard Key Information",
+      "cardDescription": "Press any key on your keyboard to see its detailed information.",
+      "detailsTitle": "Key Details",
+      "detailsDescription": "Detailed information about the pressed key.",
+      "key": "Key",
+      "keyPlaceholder": "Key name...",
+      "keycode": "Keycode",
+      "keycodePlaceholder": "Keycode...",
+      "keycodeDeprecated": "Deprecated, use code instead",
+      "code": "Code",
+      "codePlaceholder": "Code...",
+      "charCode": "Char Code",
+      "charCodePlaceholder": "Character code...",
+      "location": "Location",
+      "locationPlaceholder": "Location...",
+      "locationStandard": "Standard",
+      "locationLeft": "Left",
+      "locationRight": "Right",
+      "locationNumpad": "Numpad",
+      "modifiers": "Modifiers",
+      "noModifiers": "No modifiers pressed",
+      "meta": "Meta",
+      "shift": "Shift",
+      "ctrl": "Ctrl",
+      "alt": "Alt",
+      "repeat": "Repeat",
+      "repeatPlaceholder": "Key repeat status...",
+      "typeCharacter": "Character Key",
+      "typeFunction": "Function Key",
+      "typeNavigation": "Navigation Key",
+      "typeControl": "Control Key",
+      "typeSpecial": "Special Key",
+      "none": "None",
+      "yes": "Yes",
+      "no": "No",
+      "unknown": "Unknown",
+      "tip": "Press any key on your keyboard to see its information"
+    }
+  }
+}

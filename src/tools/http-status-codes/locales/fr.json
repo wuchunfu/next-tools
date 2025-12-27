@@ -1,0 +1,274 @@
+{
+  "tools": {
+    "http-status-codes": {
+      "searchPlaceholder": "Rechercher le statut HTTP...",
+      "searchResults": "Résultats de recherche",
+      "forType": "Pour {type}.",
+      "types": {
+        "http": "HTTP",
+        "webdav": "WebDav"
+      },
+      "categories": {
+        "1xx-informational-response": "Réponse informative 1xx",
+        "2xx-success": "Succès 2xx",
+        "3xx-redirection": "Redirection 3xx",
+        "4xx-client-error": "Erreur client 4xx",
+        "5xx-server-error": "Erreur serveur 5xx"
+      },
+      "codes": {
+        "100": {
+          "name": "Continuer",
+          "description": "En attente que le client envoie le corps de la requête."
+        },
+        "101": {
+          "name": "Changement de protocole",
+          "description": "Le serveur a accepté de changer le protocole."
+        },
+        "102": {
+          "name": "Traitement en cours",
+          "description": "Le serveur traite la requête, mais aucune réponse n'est encore disponible."
+        },
+        "103": {
+          "name": "Indications précoces",
+          "description": "Le serveur renvoie certains en-têtes de réponse avant le message HTTP final."
+        },
+        "200": {
+          "name": "OK",
+          "description": "Réponse standard pour les requêtes HTTP réussies."
+        },
+        "201": {
+          "name": "Créé",
+          "description": "La requête a été satisfaite, résultant en la création d'une nouvelle ressource."
+        },
+        "202": {
+          "name": "Accepté",
+          "description": "La requête a été acceptée pour traitement, mais le traitement n'est pas terminé."
+        },
+        "203": {
+          "name": "Informations non autorisées",
+          "description": "La requête est réussie mais le contenu de la requête originale a été modifié par un proxy transformateur."
+        },
+        "204": {
+          "name": "Pas de contenu",
+          "description": "Le serveur a traité la requête avec succès et ne renvoie aucun contenu."
+        },
+        "205": {
+          "name": "Réinitialiser le contenu",
+          "description": "Le serveur indique de réinitialiser la vue du document qui a envoyé cette requête."
+        },
+        "206": {
+          "name": "Contenu partiel",
+          "description": "Le serveur ne livre qu'une partie de la ressource en raison d'un en-tête de plage envoyé par le client."
+        },
+        "207": {
+          "name": "Multi-statut",
+          "description": "Le corps du message qui suit est un message XML et peut contenir un certain nombre de codes de réponse séparés."
+        },
+        "208": {
+          "name": "Déjà rapporté",
+          "description": "Les membres d'une liaison DAV ont déjà été énumérés dans une partie précédente de la réponse (multistatus)."
+        },
+        "226": {
+          "name": "IM utilisé",
+          "description": "Le serveur a satisfait une requête pour la ressource, et la réponse est une représentation du résultat."
+        },
+        "300": {
+          "name": "Choix multiples",
+          "description": "Indique plusieurs options pour la ressource que le client peut suivre."
+        },
+        "301": {
+          "name": "Déplacé de façon permanente",
+          "description": "Cette requête et toutes les requêtes futures doivent être dirigées vers l'URI donné."
+        },
+        "302": {
+          "name": "Trouvé",
+          "description": "Rediriger vers une autre URL. C'est un exemple de pratique industrielle qui contredit la norme."
+        },
+        "303": {
+          "name": "Voir autre",
+          "description": "La réponse à la requête peut être trouvée sous un autre URI en utilisant une méthode GET."
+        },
+        "304": {
+          "name": "Non modifié",
+          "description": "Indique que la ressource n'a pas été modifiée depuis la version spécifiée par les en-têtes de requête."
+        },
+        "305": {
+          "name": "Utiliser un proxy",
+          "description": "La ressource demandée n'est disponible que via un proxy, dont l'adresse est fournie dans la réponse."
+        },
+        "306": {
+          "name": "Changer de proxy",
+          "description": "N'est plus utilisé. Signifiait à l'origine \"Les requêtes suivantes doivent utiliser le proxy spécifié.\""
+        },
+        "307": {
+          "name": "Redirection temporaire",
+          "description": "Dans ce cas, la requête doit être répétée avec un autre URI; cependant, les requêtes futures doivent toujours utiliser l'URI d'origine."
+        },
+        "308": {
+          "name": "Redirection permanente",
+          "description": "La requête et toutes les requêtes futures doivent être répétées en utilisant un autre URI."
+        },
+        "400": {
+          "name": "Mauvaise requête",
+          "description": "Le serveur ne peut pas ou ne traitera pas la requête en raison d'une erreur client apparente."
+        },
+        "401": {
+          "name": "Non autorisé",
+          "description": "Similaire à 403 Interdit, mais spécifiquement pour une utilisation lorsque l'authentification est requise et a échoué ou n'a pas encore été fournie."
+        },
+        "402": {
+          "name": "Paiement requis",
+          "description": "Réservé pour une utilisation future. L'intention originale était que ce code puisse être utilisé dans le cadre d'une forme de monnaie numérique ou de système de micropaiement."
+        },
+        "403": {
+          "name": "Interdit",
+          "description": "La requête était valide, mais le serveur refuse d'agir. L'utilisateur pourrait ne pas avoir les permissions nécessaires pour une ressource."
+        },
+        "404": {
+          "name": "Non trouvé",
+          "description": "La ressource demandée n'a pas pu être trouvée mais pourrait être disponible à l'avenir."
+        },
+        "405": {
+          "name": "Méthode non autorisée",
+          "description": "Une méthode de requête n'est pas prise en charge pour la ressource demandée."
+        },
+        "406": {
+          "name": "Non acceptable",
+          "description": "La ressource demandée est capable de générer uniquement du contenu non acceptable selon les en-têtes Accept envoyés dans la requête."
+        },
+        "407": {
+          "name": "Authentification proxy requise",
+          "description": "Le client doit d'abord s'authentifier auprès du proxy."
+        },
+        "408": {
+          "name": "Délai d'attente de la requête",
+          "description": "Le serveur a expiré en attendant la requête."
+        },
+        "409": {
+          "name": "Conflit",
+          "description": "Indique que la requête n'a pas pu être traitée en raison d'un conflit dans la requête, tel qu'un conflit d'édition."
+        },
+        "410": {
+          "name": "Disparu",
+          "description": "Indique que la ressource demandée n'est plus disponible et ne sera plus disponible."
+        },
+        "411": {
+          "name": "Longueur requise",
+          "description": "La requête n'a pas spécifié la longueur de son contenu, qui est requise par la ressource demandée."
+        },
+        "412": {
+          "name": "Précondition échouée",
+          "description": "Le serveur ne répond pas à l'une des préconditions que le demandeur a mises sur la requête."
+        },
+        "413": {
+          "name": "Charge utile trop grande",
+          "description": "La requête est plus grande que ce que le serveur est prêt ou capable de traiter."
+        },
+        "414": {
+          "name": "URI trop long",
+          "description": "L'URI fourni était trop long pour que le serveur le traite."
+        },
+        "415": {
+          "name": "Type de média non pris en charge",
+          "description": "L'entité de requête a un type de média que le serveur ou la ressource ne prend pas en charge."
+        },
+        "416": {
+          "name": "Plage non satisfaisable",
+          "description": "Le client a demandé une partie du fichier, mais le serveur ne peut pas fournir cette partie."
+        },
+        "417": {
+          "name": "Attente échouée",
+          "description": "Le serveur ne peut pas répondre aux exigences du champ d'en-tête de requête Expect."
+        },
+        "418": {
+          "name": "Je suis une théière",
+          "description": "Le serveur refuse la tentative de préparer du café avec une théière."
+        },
+        "421": {
+          "name": "Requête mal dirigée",
+          "description": "La requête a été dirigée vers un serveur qui n'est pas capable de produire une réponse."
+        },
+        "422": {
+          "name": "Entité non traitable",
+          "description": "La requête était bien formée mais n'a pas pu être suivie en raison d'erreurs sémantiques."
+        },
+        "423": {
+          "name": "Verrouillé",
+          "description": "La ressource à laquelle on accède est verrouillée."
+        },
+        "424": {
+          "name": "Dépendance échouée",
+          "description": "La requête a échoué en raison de l'échec d'une requête précédente."
+        },
+        "425": {
+          "name": "Trop tôt",
+          "description": "Indique que le serveur n'est pas disposé à risquer de traiter une requête qui pourrait être rejouée."
+        },
+        "426": {
+          "name": "Mise à niveau requise",
+          "description": "Le client doit passer à un protocole différent tel que TLS/1.0."
+        },
+        "428": {
+          "name": "Précondition requise",
+          "description": "Le serveur d'origine exige que la requête soit conditionnelle."
+        },
+        "429": {
+          "name": "Trop de requêtes",
+          "description": "L'utilisateur a envoyé trop de requêtes dans un laps de temps donné."
+        },
+        "431": {
+          "name": "Champs d'en-tête de requête trop grands",
+          "description": "Le serveur n'est pas disposé à traiter la requête car un champ d'en-tête individuel, ou tous les champs d'en-tête collectivement, sont trop grands."
+        },
+        "451": {
+          "name": "Indisponible pour des raisons légales",
+          "description": "Un opérateur de serveur a reçu une demande légale de refuser l'accès à une ressource ou à un ensemble de ressources qui inclut la ressource demandée."
+        },
+        "500": {
+          "name": "Erreur interne du serveur",
+          "description": "Un message d'erreur générique, donné lorsqu'une condition inattendue a été rencontrée et qu'aucun message plus spécifique n'est approprié."
+        },
+        "501": {
+          "name": "Non implémenté",
+          "description": "Le serveur ne reconnaît pas la méthode de requête, ou il manque la capacité de satisfaire la requête."
+        },
+        "502": {
+          "name": "Mauvaise passerelle",
+          "description": "Le serveur agissait comme une passerelle ou un proxy et a reçu une réponse invalide du serveur en amont."
+        },
+        "503": {
+          "name": "Service indisponible",
+          "description": "Le serveur n'est actuellement pas disponible (car il est surchargé ou en panne pour maintenance)."
+        },
+        "504": {
+          "name": "Délai d'attente de la passerelle",
+          "description": "Le serveur agissait comme une passerelle ou un proxy et n'a pas reçu de réponse en temps opportun du serveur en amont."
+        },
+        "505": {
+          "name": "Version HTTP non prise en charge",
+          "description": "Le serveur ne prend pas en charge la version du protocole HTTP utilisée dans la requête."
+        },
+        "506": {
+          "name": "Variante négocie également",
+          "description": "La négociation transparente de contenu pour la requête aboutit à une référence circulaire."
+        },
+        "507": {
+          "name": "Stockage insuffisant",
+          "description": "Le serveur est incapable de stocker la représentation nécessaire pour terminer la requête."
+        },
+        "508": {
+          "name": "Boucle détectée",
+          "description": "Le serveur a détecté une boucle infinie lors du traitement de la requête."
+        },
+        "510": {
+          "name": "Non étendu",
+          "description": "Des extensions supplémentaires à la requête sont requises pour que le serveur la satisfasse."
+        },
+        "511": {
+          "name": "Authentification réseau requise",
+          "description": "Le client doit s'authentifier pour obtenir l'accès au réseau."
+        }
+      }
+    }
+  }
+}

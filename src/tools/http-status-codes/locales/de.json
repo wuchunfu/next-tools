@@ -1,0 +1,274 @@
+{
+  "tools": {
+    "http-status-codes": {
+      "searchPlaceholder": "HTTP-Status suchen...",
+      "searchResults": "Suchergebnisse",
+      "forType": "Für {type}.",
+      "types": {
+        "http": "HTTP",
+        "webdav": "WebDav"
+      },
+      "categories": {
+        "1xx-informational-response": "1xx Informationsantwort",
+        "2xx-success": "2xx Erfolg",
+        "3xx-redirection": "3xx Umleitung",
+        "4xx-client-error": "4xx Client-Fehler",
+        "5xx-server-error": "5xx Server-Fehler"
+      },
+      "codes": {
+        "100": {
+          "name": "Weiter",
+          "description": "Warten darauf, dass der Client den Anfragetext sendet."
+        },
+        "101": {
+          "name": "Protokoll wechseln",
+          "description": "Der Server hat zugestimmt, das Protokoll zu ändern."
+        },
+        "102": {
+          "name": "Verarbeitung",
+          "description": "Der Server verarbeitet die Anfrage, aber es ist noch keine Antwort verfügbar."
+        },
+        "103": {
+          "name": "Frühe Hinweise",
+          "description": "Der Server gibt einige Antwortheader vor der endgültigen HTTP-Nachricht zurück."
+        },
+        "200": {
+          "name": "OK",
+          "description": "Standardantwort für erfolgreiche HTTP-Anfragen."
+        },
+        "201": {
+          "name": "Erstellt",
+          "description": "Die Anfrage wurde erfüllt, was zur Erstellung einer neuen Ressource geführt hat."
+        },
+        "202": {
+          "name": "Akzeptiert",
+          "description": "Die Anfrage wurde zur Verarbeitung akzeptiert, aber die Verarbeitung ist noch nicht abgeschlossen."
+        },
+        "203": {
+          "name": "Nicht autoritative Information",
+          "description": "Die Anfrage war erfolgreich, aber der Inhalt der ursprünglichen Anfrage wurde von einem transformierenden Proxy geändert."
+        },
+        "204": {
+          "name": "Kein Inhalt",
+          "description": "Der Server hat die Anfrage erfolgreich verarbeitet und gibt keinen Inhalt zurück."
+        },
+        "205": {
+          "name": "Inhalt zurücksetzen",
+          "description": "Der Server weist an, die Dokumentansicht neu zu initialisieren, die diese Anfrage gesendet hat."
+        },
+        "206": {
+          "name": "Teilweiser Inhalt",
+          "description": "Der Server liefert nur einen Teil der Ressource aufgrund eines Bereichsheaders, der vom Client gesendet wurde."
+        },
+        "207": {
+          "name": "Multi-Status",
+          "description": "Der nachfolgende Nachrichtenkörper ist eine XML-Nachricht und kann eine Reihe separater Antwortcodes enthalten."
+        },
+        "208": {
+          "name": "Bereits gemeldet",
+          "description": "Die Mitglieder einer DAV-Bindung wurden bereits in einem vorherigen Teil der (Multistatus-)Antwort aufgelistet."
+        },
+        "226": {
+          "name": "IM verwendet",
+          "description": "Der Server hat eine Anfrage für die Ressource erfüllt, und die Antwort ist eine Darstellung des Ergebnisses."
+        },
+        "300": {
+          "name": "Mehrere Auswahlmöglichkeiten",
+          "description": "Zeigt mehrere Optionen für die Ressource an, denen der Client folgen kann."
+        },
+        "301": {
+          "name": "Dauerhaft verschoben",
+          "description": "Diese und alle zukünftigen Anfragen sollten an die angegebene URI gerichtet werden."
+        },
+        "302": {
+          "name": "Gefunden",
+          "description": "Umleitung zu einer anderen URL. Dies ist ein Beispiel für eine Branchenpraxis, die dem Standard widerspricht."
+        },
+        "303": {
+          "name": "Siehe andere",
+          "description": "Die Antwort auf die Anfrage kann unter einer anderen URI mit einer GET-Methode gefunden werden."
+        },
+        "304": {
+          "name": "Nicht geändert",
+          "description": "Zeigt an, dass die Ressource seit der Version, die von den Anfrageheadern angegeben wurde, nicht geändert wurde."
+        },
+        "305": {
+          "name": "Proxy verwenden",
+          "description": "Die angeforderte Ressource ist nur über einen Proxy verfügbar, dessen Adresse in der Antwort bereitgestellt wird."
+        },
+        "306": {
+          "name": "Proxy wechseln",
+          "description": "Wird nicht mehr verwendet. Ursprünglich bedeutete es \"Nachfolgende Anfragen sollten den angegebenen Proxy verwenden.\""
+        },
+        "307": {
+          "name": "Temporäre Umleitung",
+          "description": "In diesem Fall sollte die Anfrage mit einer anderen URI wiederholt werden; zukünftige Anfragen sollten jedoch weiterhin die ursprüngliche URI verwenden."
+        },
+        "308": {
+          "name": "Permanente Umleitung",
+          "description": "Die Anfrage und alle zukünftigen Anfragen sollten mit einer anderen URI wiederholt werden."
+        },
+        "400": {
+          "name": "Schlechte Anfrage",
+          "description": "Der Server kann oder wird die Anfrage aufgrund eines offensichtlichen Client-Fehlers nicht verarbeiten."
+        },
+        "401": {
+          "name": "Nicht autorisiert",
+          "description": "Ähnlich wie 403 Verboten, aber speziell für die Verwendung, wenn eine Authentifizierung erforderlich ist und fehlgeschlagen ist oder noch nicht bereitgestellt wurde."
+        },
+        "402": {
+          "name": "Zahlung erforderlich",
+          "description": "Für zukünftige Verwendung reserviert. Die ursprüngliche Absicht war, dass dieser Code als Teil einer Form von digitalem Bargeld oder Micropayment-Schema verwendet werden könnte."
+        },
+        "403": {
+          "name": "Verboten",
+          "description": "Die Anfrage war gültig, aber der Server weigert sich, Maßnahmen zu ergreifen. Der Benutzer hat möglicherweise nicht die erforderlichen Berechtigungen für eine Ressource."
+        },
+        "404": {
+          "name": "Nicht gefunden",
+          "description": "Die angeforderte Ressource konnte nicht gefunden werden, ist aber möglicherweise in Zukunft verfügbar."
+        },
+        "405": {
+          "name": "Methode nicht erlaubt",
+          "description": "Eine Anfragetmethode wird für die angeforderte Ressource nicht unterstützt."
+        },
+        "406": {
+          "name": "Nicht akzeptabel",
+          "description": "Die angeforderte Ressource kann nur Inhalte generieren, die gemäß den Accept-Headern, die in der Anfrage gesendet wurden, nicht akzeptabel sind."
+        },
+        "407": {
+          "name": "Proxy-Authentifizierung erforderlich",
+          "description": "Der Client muss sich zuerst beim Proxy authentifizieren."
+        },
+        "408": {
+          "name": "Anfrage-Timeout",
+          "description": "Der Server hat beim Warten auf die Anfrage ein Timeout erreicht."
+        },
+        "409": {
+          "name": "Konflikt",
+          "description": "Zeigt an, dass die Anfrage aufgrund eines Konflikts in der Anfrage, wie z. B. einem Bearbeitungskonflikt, nicht verarbeitet werden konnte."
+        },
+        "410": {
+          "name": "Weg",
+          "description": "Zeigt an, dass die angeforderte Ressource nicht mehr verfügbar ist und nicht wieder verfügbar sein wird."
+        },
+        "411": {
+          "name": "Länge erforderlich",
+          "description": "Die Anfrage hat die Länge ihres Inhalts nicht angegeben, was von der angeforderten Ressource erforderlich ist."
+        },
+        "412": {
+          "name": "Vorbedingung fehlgeschlagen",
+          "description": "Der Server erfüllt eine der Vorbedingungen nicht, die der Anfragende an die Anfrage gestellt hat."
+        },
+        "413": {
+          "name": "Nutzlast zu groß",
+          "description": "Die Anfrage ist größer, als der Server bereit oder in der Lage ist, sie zu verarbeiten."
+        },
+        "414": {
+          "name": "URI zu lang",
+          "description": "Die bereitgestellte URI war zu lang, als dass der Server sie verarbeiten könnte."
+        },
+        "415": {
+          "name": "Nicht unterstützter Medientyp",
+          "description": "Die Anfrageentität hat einen Medientyp, den der Server oder die Ressource nicht unterstützt."
+        },
+        "416": {
+          "name": "Bereich nicht erfüllbar",
+          "description": "Der Client hat nach einem Teil der Datei gefragt, aber der Server kann diesen Teil nicht liefern."
+        },
+        "417": {
+          "name": "Erwartung fehlgeschlagen",
+          "description": "Der Server kann die Anforderungen des Expect-Anfrageheader-Felds nicht erfüllen."
+        },
+        "418": {
+          "name": "Ich bin eine Teekanne",
+          "description": "Der Server weigert sich, den Versuch abzulehnen, Kaffee mit einer Teekanne zu brühen."
+        },
+        "421": {
+          "name": "Fehlgeleitete Anfrage",
+          "description": "Die Anfrage wurde an einen Server gerichtet, der nicht in der Lage ist, eine Antwort zu produzieren."
+        },
+        "422": {
+          "name": "Nicht verarbeitbare Entität",
+          "description": "Die Anfrage war wohlgeformt, konnte aber aufgrund semantischer Fehler nicht befolgt werden."
+        },
+        "423": {
+          "name": "Gesperrt",
+          "description": "Die Ressource, auf die zugegriffen wird, ist gesperrt."
+        },
+        "424": {
+          "name": "Abhängigkeit fehlgeschlagen",
+          "description": "Die Anfrage ist aufgrund des Fehlschlags einer vorherigen Anfrage fehlgeschlagen."
+        },
+        "425": {
+          "name": "Zu früh",
+          "description": "Zeigt an, dass der Server nicht bereit ist, das Risiko einzugehen, eine Anfrage zu verarbeiten, die möglicherweise wiedergegeben wird."
+        },
+        "426": {
+          "name": "Upgrade erforderlich",
+          "description": "Der Client sollte zu einem anderen Protokoll wie TLS/1.0 wechseln."
+        },
+        "428": {
+          "name": "Vorbedingung erforderlich",
+          "description": "Der Ursprungsserver erfordert, dass die Anfrage bedingt ist."
+        },
+        "429": {
+          "name": "Zu viele Anfragen",
+          "description": "Der Benutzer hat in einer bestimmten Zeitspanne zu viele Anfragen gesendet."
+        },
+        "431": {
+          "name": "Anfrage-Header-Felder zu groß",
+          "description": "Der Server ist nicht bereit, die Anfrage zu verarbeiten, da entweder ein einzelnes Header-Feld oder alle Header-Felder zusammen zu groß sind."
+        },
+        "451": {
+          "name": "Aus rechtlichen Gründen nicht verfügbar",
+          "description": "Ein Serverbetreiber hat eine rechtliche Aufforderung erhalten, den Zugriff auf eine Ressource oder auf eine Reihe von Ressourcen, die die angeforderte Ressource enthält, zu verweigern."
+        },
+        "500": {
+          "name": "Interner Serverfehler",
+          "description": "Eine generische Fehlermeldung, die angezeigt wird, wenn eine unerwartete Bedingung aufgetreten ist und keine spezifischere Nachricht geeignet ist."
+        },
+        "501": {
+          "name": "Nicht implementiert",
+          "description": "Der Server erkennt entweder die Anfragetmethode nicht oder es fehlt ihm die Fähigkeit, die Anfrage zu erfüllen."
+        },
+        "502": {
+          "name": "Schlechtes Gateway",
+          "description": "Der Server fungierte als Gateway oder Proxy und erhielt eine ungültige Antwort vom Upstream-Server."
+        },
+        "503": {
+          "name": "Dienst nicht verfügbar",
+          "description": "Der Server ist derzeit nicht verfügbar (weil er überlastet ist oder für Wartungsarbeiten heruntergefahren wurde)."
+        },
+        "504": {
+          "name": "Gateway-Timeout",
+          "description": "Der Server fungierte als Gateway oder Proxy und hat keine rechtzeitige Antwort vom Upstream-Server erhalten."
+        },
+        "505": {
+          "name": "HTTP-Version nicht unterstützt",
+          "description": "Der Server unterstützt die in der Anfrage verwendete HTTP-Protokollversion nicht."
+        },
+        "506": {
+          "name": "Variante verhandelt auch",
+          "description": "Die transparente Inhaltsaushandlung für die Anfrage führt zu einer zirkulären Referenz."
+        },
+        "507": {
+          "name": "Unzureichender Speicher",
+          "description": "Der Server kann die Darstellung nicht speichern, die benötigt wird, um die Anfrage abzuschließen."
+        },
+        "508": {
+          "name": "Schleife erkannt",
+          "description": "Der Server hat eine Endlosschleife beim Verarbeiten der Anfrage erkannt."
+        },
+        "510": {
+          "name": "Nicht erweitert",
+          "description": "Weitere Erweiterungen der Anfrage sind erforderlich, damit der Server sie erfüllen kann."
+        },
+        "511": {
+          "name": "Netzwerkauthentifizierung erforderlich",
+          "description": "Der Client muss sich authentifizieren, um Netzwerkzugriff zu erhalten."
+        }
+      }
+    }
+  }
+}

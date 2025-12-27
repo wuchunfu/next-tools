@@ -1,0 +1,15 @@
+{
+  "tools": {
+    "mac-address-lookup": {
+      "cardInputTitle": "MAC-адреса",
+      "cardInputDescription": "Введіть MAC-адресу для пошуку інформації про виробника в базі даних OUI (Organizationally Unique Identifier).",
+      "cardResultsTitle": "Інформація про виробника",
+      "cardResultsDescription": "Інформація про виробника, отримана з бази даних OUI на основі префіксу MAC-адреси.",
+      "invalidAddressTitle": "Невірна MAC-адреса",
+      "invalidMacAddress": "Невірна MAC-адреса",
+      "placeholder": "Введіть MAC-адресу",
+      "unknown": "Невідомий виробник для цієї адреси",
+      "copied": "Інформація про виробника скопійовано в буфер обміну"
+    }
+  }
+}

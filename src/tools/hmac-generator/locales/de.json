@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "hmac-generator": {
+      "copied": "HMAC in die Zwischenablage kopiert",
+      "plainPlaceholder": "Klartext zur Hash-Berechnung...",
+      "plainLabel": "Klartext zur Hash-Berechnung",
+      "secretPlaceholder": "Geben Sie den geheimen Schlüssel ein...",
+      "secretLabel": "Geheimer Schlüssel",
+      "hashFunction": "Hash-Funktion",
+      "hashPlaceholder": "Wählen Sie eine Hash-Funktion...",
+      "encoding": "Ausgabekodierung",
+      "encodingPlaceholder": "Wählen Sie die Ergebnis-Kodierung...",
+      "binary": "Binär (Basis 2)",
+      "hex": "Hexadezimal (Basis 16)",
+      "base64": "Base64 (Basis 64)",
+      "base64url": "Base64-url (Basis 64 mit URL-sicheren Zeichen)",
+      "resultPlaceholder": "Das Ergebnis des HMAC...",
+      "resultLabel": "HMAC Ihres Textes",
+      "copy": "HMAC kopieren",
+      "cardInputTitle": "HMAC Eingabe & Optionen",
+      "cardOutputTitle": "HMAC Ergebnis"
+    }
+  }
+}

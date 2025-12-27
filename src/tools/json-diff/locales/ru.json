@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "json-diff": {
+      "cardTitle": "Сравнение JSON",
+      "cardDescription": "Сравните два JSON-объекта и посмотрите выделенные различия.",
+      "cardInputTitle": "Ввод JSON",
+      "cardInputDescription": "Вставьте ниже два JSON-документа. Мы проверим их и покажем различия.",
+      "invalidJson": "Неверный формат JSON",
+      "firstJsonLabel": "Ваш первый JSON",
+      "firstJsonPlaceholder": "Вставьте ваш первый JSON здесь...",
+      "compareJsonLabel": "Ваш JSON для сравнения",
+      "compareJsonPlaceholder": "Вставьте ваш JSON для сравнения здесь...",
+      "resultsTitle": "Результаты сравнения",
+      "resultsDescription": "Различия выделены зелёным (добавлено) и красным (удалено).",
+      "onlyShowDifferences": "Показывать только различия",
+      "sameJson": "Предоставленные JSON идентичны",
+      "sameJsonDescription": "Оба JSON-объекта идентичны. Различий не найдено.",
+      "clickToCopy": "Нажмите, чтобы скопировать"
+    }
+  }
+}

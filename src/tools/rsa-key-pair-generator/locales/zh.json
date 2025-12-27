@@ -1,0 +1,13 @@
+{
+  "tools": {
+    "rsa-key-pair-generator": {
+      "bitsRule": "位数需在 256 到 16384 且为 8 的倍数",
+      "bits": "位数：",
+      "refresh": "刷新密钥对",
+      "public": "公钥",
+      "private": "私钥",
+      "configuration": "RSA 密钥选项",
+      "generatedKeys": "生成的密钥"
+    }
+  }
+}

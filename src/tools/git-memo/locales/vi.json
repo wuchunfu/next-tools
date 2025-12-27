@@ -1,0 +1,8 @@
+{
+  "tools": {
+    "git-memo": {
+      "cardTitle": "Ghi chú Git",
+      "cardDescription": "Các lệnh và quy trình Git thường dùng, sắp xếp để tra cứu nhanh."
+    }
+  }
+}

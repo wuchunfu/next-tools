@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "markdown-to-html": {
+      "cardTitle": "Конвертер Markdown в HTML",
+      "cardDescription": "Преобразуйте формат Markdown в формат HTML. Вставьте ваш Markdown и получите вывод HTML.",
+      "cardInputTitle": "Ввод Markdown",
+      "cardInputDescription": "Напишите или вставьте ваш Markdown ниже. Мы преобразуем его в HTML и покажем предпросмотр.",
+      "cardOutputTitle": "HTML-вывод",
+      "cardOutputDescription": "Переключайтесь между предпросмотром и HTML-кодом. Вы также можете распечатать отрендеренный HTML как PDF.",
+      "inputPlaceholder": "Ваше содержимое Markdown...",
+      "clear": "Очистить",
+      "printAsPdf": "Печать как PDF",
+      "printTooltip": "Печать HTML как PDF",
+      "printTitle": "Markdown в HTML",
+      "preview": "Предпросмотр",
+      "htmlCode": "HTML-код",
+      "previewPlaceholder": "Предпросмотр появится здесь...",
+      "previewTitle": "Предпросмотр Markdown",
+      "formatHtml": "Форматировать HTML"
+    }
+  }
+}

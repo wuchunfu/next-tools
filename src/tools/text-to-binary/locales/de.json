@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-binary": {
+      "title": "Text zu ASCII-Binär",
+      "description": "Konvertieren Sie Text in seine ASCII-Binärdarstellung und umgekehrt.",
+      "cardTextToBinaryTitle": "Text zu Binär",
+      "cardTextToBinaryDescription": "Konvertieren Sie Text in seine ASCII-Binärdarstellung.",
+      "cardBinaryToTextTitle": "Binär zu Text",
+      "cardBinaryToTextDescription": "Konvertieren Sie ASCII-Binärdarstellung zurück in Text.",
+      "textPlaceholder": "z.B. 'Hello world'",
+      "enterTextToConvert": "Geben Sie Text ein, der konvertiert werden soll",
+      "inputLength": "Länge",
+      "outputLength": "Länge",
+      "bytes": "Bytes",
+      "clear": "Löschen",
+      "binaryFromText": "Binärausgabe",
+      "binaryPlaceholder": "Die Binärdarstellung Ihres Textes wird hier angezeigt",
+      "binaryInputPlaceholder": "z.B. '01001000 01100101 01101100 01101100 01101111'",
+      "enterBinaryToConvert": "Geben Sie Binär ein, der konvertiert werden soll",
+      "textFromBinary": "Textausgabe",
+      "textOutputPlaceholder": "Die Textdarstellung Ihres Binärs wird hier angezeigt",
+      "invalidBinary": "Binär sollte eine gültige ASCII-Binärzeichenkette mit Vielfachen von 8 Bits sein"
+    }
+  }
+}

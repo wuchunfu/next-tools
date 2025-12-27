@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "hmac-generator": {
+      "copied": "HMAC đã được sao chép vào clipboard",
+      "plainPlaceholder": "Văn bản thuần để tính toán hash...",
+      "plainLabel": "Văn bản thuần để tính toán hash",
+      "secretPlaceholder": "Nhập khóa bí mật...",
+      "secretLabel": "Khóa bí mật",
+      "hashFunction": "Hàm băm",
+      "hashPlaceholder": "Chọn một hàm băm...",
+      "encoding": "Mã hóa đầu ra",
+      "encodingPlaceholder": "Chọn mã hóa kết quả...",
+      "binary": "Nhị phân (cơ số 2)",
+      "hex": "Thập lục phân (cơ số 16)",
+      "base64": "Base64 (cơ số 64)",
+      "base64url": "Base64-url (cơ số 64 với ký tự an toàn URL)",
+      "resultPlaceholder": "Kết quả của HMAC...",
+      "resultLabel": "HMAC của văn bản của bạn",
+      "copy": "Sao chép HMAC",
+      "cardInputTitle": "Nhập và tùy chọn HMAC",
+      "cardOutputTitle": "Kết quả HMAC"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tools": {
+    "string-obfuscator": {
+      "copied": "Chuỗi đã làm mờ đã được sao chép",
+      "cardInputTitle": "Tùy chọn",
+      "cardInputDescription": "Cấu hình cách chuỗi được làm mờ",
+      "cardResultsTitle": "Đã làm mờ",
+      "cardResultsDescription": "Xem trước chuỗi đã được làm mờ",
+      "placeholder": "Nhập chuỗi để làm mờ",
+      "label": "Chuỗi để làm mờ:",
+      "keepFirst": "Giữ đầu:",
+      "keepLast": "Giữ cuối:",
+      "keepSpaces": "Giữ khoảng trắng:"
+    }
+  }
+}

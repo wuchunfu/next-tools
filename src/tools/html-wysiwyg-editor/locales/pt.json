@@ -1,0 +1,34 @@
+{
+  "tools": {
+    "html-wysiwyg-editor": {
+      "cardTitle": "Editor",
+      "cardDescription": "Escreva texto rico e veja o HTML formatado lado a lado.",
+      "initial": "<h1>Olá!</h1><p>Bem-vindo a este editor HTML wysiwyg</p>",
+      "formattedTitle": "HTML formatado",
+      "formattedDescription": "Markup formatado pelo Prettier pronto para copiar.",
+      "formattedPlaceholder": "O HTML formatado aparecerá aqui",
+      "copyFormatted": "Copiar formatado",
+      "copiedFormatted": "HTML formatado copiado",
+      "clearContent": "Limpar",
+      "charactersLabel": "Caracteres",
+      "toolbar": {
+        "bold": "Negrito",
+        "italic": "Itálico",
+        "strike": "Tachado",
+        "inline": "Código inline",
+        "h1": "Cabeçalho 1",
+        "h2": "Cabeçalho 2",
+        "h3": "Cabeçalho 3",
+        "h4": "Cabeçalho 4",
+        "bullet": "Lista com marcadores",
+        "ordered": "Lista ordenada",
+        "codeBlock": "Bloco de código",
+        "blockquote": "Citação em bloco",
+        "hardBreak": "Quebra de linha",
+        "clear": "Limpar formatação",
+        "undo": "Desfazer",
+        "redo": "Refazer"
+      }
+    }
+  }
+}

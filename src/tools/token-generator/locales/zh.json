@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "token-generator": {
+      "title": "Token 生成器",
+      "description": "使用您想要的字符生成随机字符串，可选择大写或小写字母、数字和/或符号。",
+      "characterTypes": "字符类型",
+      "uppercase": "大写字母",
+      "lowercase": "小写字母",
+      "numbers": "数字",
+      "symbols": "符号",
+      "length": "长度",
+      "generatedToken": "生成的 Token",
+      "tokenPlaceholder": "Token 将显示在这里...",
+      "selectCharacterTypes": "请至少选择一种字符类型",
+      "copied": "Token 已复制到剪贴板",
+      "cardOptionsTitle": "Token 选项",
+      "cardOutputTitle": "Token 结果",
+      "button": {
+        "copy": "复制",
+        "refresh": "刷新"
+      }
+    }
+  }
+}

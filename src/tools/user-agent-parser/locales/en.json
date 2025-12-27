@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "user-agent-parser": {
+      "cardTitle": "User agent inspector",
+      "cardDescription": "Paste or edit a user agent string to see parsed browser, device, OS and CPU details.",
+      "cardInputTitle": "User agent input",
+      "cardInputDescription": "Paste or edit a user agent string to see parsed browser, device, OS and CPU details.",
+      "cardOutputTitle": "Parsed details",
+      "cardOutputDescription": "Each section shows values extracted from the user agent string.",
+      "inputLabel": "User agent string",
+      "inputPlaceholder": "Put your user-agent here...",
+      "browser": "Browser",
+      "engine": "Engine",
+      "os": "OS",
+      "device": "Device",
+      "cpu": "CPU",
+      "name": "Name",
+      "version": "Version",
+      "model": "Model",
+      "type": "Type",
+      "vendor": "Vendor",
+      "architecture": "Architecture",
+      "charactersLabel": "Characters",
+      "copyUa": "Copy UA",
+      "copiedUa": "User agent copied",
+      "clear": "Clear",
+      "currentUaLabel": "Current browser UA",
+      "useCurrentUa": "Use current UA",
+      "resultsTitle": "Parsed details",
+      "resultsDescription": "Each section shows values extracted from the user agent string.",
+      "noBrowserName": "No browser name",
+      "noBrowserVersion": "No browser version",
+      "noEngineName": "No engine name",
+      "noEngineVersion": "No engine version",
+      "noOsName": "No OS name",
+      "noOsVersion": "No OS version",
+      "noDeviceModel": "No device model",
+      "noDeviceType": "No device type",
+      "noDeviceVendor": "No device vendor",
+      "noCpuArch": "No CPU architecture"
+    }
+  }
+}

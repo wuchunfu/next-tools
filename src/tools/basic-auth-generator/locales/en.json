@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "basic-auth-generator": {
+      "inputTitle": "Credentials",
+      "inputDescription": "Enter your username and password to generate a Basic Authentication header.",
+      "outputTitle": "Authorization Header",
+      "outputDescription": "The generated Basic Authentication header ready to use in your HTTP requests.",
+      "username": "Username",
+      "usernamePlaceholder": "Your username...",
+      "password": "Password",
+      "passwordPlaceholder": "Your password...",
+      "headerLabel": "Authorization header",
+      "headerPlaceholder": "Authorization header will appear here...",
+      "base64Value": "Base64 Encoded Value",
+      "clear": "Clear",
+      "copied": "Header copied to the clipboard"
+    }
+  }
+}

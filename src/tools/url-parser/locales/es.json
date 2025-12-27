@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "url-parser": {
+      "invalid": "URL inválida",
+      "cardTitle": "Analizador de URL",
+      "cardDescription": "Analizar URLs para extraer sus componentes (protocolo, nombre de host, ruta, parámetros de consulta, etc.).",
+      "cardInputTitle": "Entrada de URL",
+      "cardInputDescription": "Pegue una URL a continuación. La validaremos y mostraremos sus componentes y parámetros de consulta.",
+      "cardOutputTitle": "Resultado analizado",
+      "cardOutputDescription": "Revise y copie los componentes de la URL extraídos de su entrada.",
+      "inputPlaceholder": "Ingrese la URL a analizar...",
+      "clear": "Limpiar",
+      "invalidUrlTitle": "URL inválida",
+      "urlComponents": "Componentes de URL",
+      "protocol": "Protocolo",
+      "username": "Nombre de usuario",
+      "password": "Contraseña",
+      "hostname": "Nombre de host",
+      "port": "Puerto",
+      "path": "Ruta",
+      "search": "Búsqueda",
+      "hash": "Hash",
+      "queryParameters": "Parámetros de consulta",
+      "parameterName": "Parámetro",
+      "parameterValue": "Valor",
+      "enterUrlToParse": "Ingrese una URL válida para ver sus componentes."
+    }
+  }
+}

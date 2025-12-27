@@ -1,0 +1,12 @@
+{
+  "tools": {
+    "math-evaluator": {
+      "cardInputTitle": "Biểu thức toán học",
+      "cardInputDescription": "Nhập biểu thức toán học bằng các toán tử và hàm thông dụng (vd: 2 * sqrt(6) + sin(pi / 4)).",
+      "cardResultTitle": "Kết quả tính toán",
+      "cardResultDescription": "Kết quả được tính từ biểu thức của bạn.",
+      "placeholder": "Biểu thức toán học của bạn (vd: 2*sqrt(6) )...",
+      "result": "Kết quả"
+    }
+  }
+}

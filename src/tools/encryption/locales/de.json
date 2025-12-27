@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "encryption": {
+      "title": "Text verschlüsseln / entschlüsseln",
+      "description": "Verschlüsseln Sie Klartext und entschlüsseln Sie verschlüsselten Text mit Kryptoalgorithmen wie AES, TripleDES, Rabbit oder RC4.",
+      "encrypt": "Verschlüsseln",
+      "yourText": "Ihr Text:",
+      "stringToCypher": "Die zu verschlüsselnde Zeichenkette",
+      "yourSecretKey": "Ihr geheimer Schlüssel:",
+      "encryptionAlgorithm": "Verschlüsselungsalgorithmus:",
+      "yourTextEncrypted": "Ihr verschlüsselter Text:",
+      "stringHash": "Ihr Zeichenketten-Hash",
+      "decrypt": "Entschlüsseln",
+      "yourEncryptedText": "Ihr verschlüsselter Text:",
+      "yourDecryptedText": "Ihr entschlüsselter Text:",
+      "errorWhileDecrypting": "Fehler beim Entschlüsseln",
+      "unableToDecrypt": "Ihr Text kann nicht entschlüsselt werden"
+    }
+  }
+}

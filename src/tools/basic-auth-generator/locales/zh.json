@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "basic-auth-generator": {
+      "inputTitle": "凭据",
+      "inputDescription": "输入您的用户名和密码以生成基本身份验证头。",
+      "outputTitle": "授权头",
+      "outputDescription": "生成的基本身份验证头，可在 HTTP 请求中使用。",
+      "username": "用户名",
+      "usernamePlaceholder": "输入用户名...",
+      "password": "密码",
+      "passwordPlaceholder": "输入密码...",
+      "headerLabel": "授权头",
+      "headerPlaceholder": "授权头将显示在这里...",
+      "base64Value": "Base64 编码值",
+      "clear": "清除",
+      "copied": "认证头已复制到剪贴板"
+    }
+  }
+}

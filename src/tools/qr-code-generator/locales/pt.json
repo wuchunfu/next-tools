@@ -1,0 +1,28 @@
+{
+  "tools": {
+    "qrcode-generator": {
+      "title": "Gerador de código QR",
+      "description": "Gere e baixe um código QR para uma URL (ou texto simples), e personalize as cores de fundo e primeiro plano.",
+      "cardTitle": "Gerador de código QR",
+      "cardDescription": "Gere códigos QR personalizáveis para URLs ou texto com cores e níveis de correção de erro ajustáveis.",
+      "text": "Conteúdo",
+      "yourLinkOrText": "Digite URL ou texto para codificar...",
+      "foregroundColor": "Primeiro plano",
+      "backgroundColor": "Fundo",
+      "errorResistance": "Nível de correção de erro",
+      "downloadQrCode": "Baixar PNG",
+      "characters": "caracteres",
+      "colorSettings": "Configurações de cor",
+      "resetColors": "Redefinir",
+      "resetColorsTooltip": "Redefinir para cores padrão",
+      "levelLow": "Baixo (~7%)",
+      "levelMedium": "Médio (~15%)",
+      "levelQuartile": "Quartil (~25%)",
+      "levelHigh": "Alto (~30%)",
+      "selectLevel": "Selecionar nível",
+      "errorResistanceHint": "Níveis mais altos permitem mais tolerância a danos, mas aumentam a densidade do código QR.",
+      "preview": "Visualização",
+      "emptyPreview": "Digite texto para gerar código QR"
+    }
+  }
+}

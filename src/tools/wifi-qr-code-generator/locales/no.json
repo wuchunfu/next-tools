@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "wifi-qrcode-generator": {
+      "cardTitle": "WiFi QR-kode Generator",
+      "cardDescription": "Generer QR-koder for enkel WiFi-nettverksdeling. Skann for å koble til umiddelbart.",
+      "networkSettings": "Nettverksinnstillinger",
+      "encryptionMethod": "Krypteringsmetode",
+      "noPassword": "Ingen passord",
+      "wpaWpa2": "WPA/WPA2",
+      "wep": "WEP",
+      "wpa2Eap": "WPA2-EAP",
+      "ssidLabel": "Nettverksnavn (SSID)",
+      "ssidPlaceholder": "Din WiFi SSID...",
+      "hiddenSsid": "Skjult SSID",
+      "passwordLabel": "Passord",
+      "passwordPlaceholder": "Ditt WiFi-passord...",
+      "eapSettings": "EAP-innstillinger",
+      "eapMethod": "EAP-metode",
+      "selectEapMethod": "Velg EAP-metode",
+      "identityLabel": "Identitet",
+      "identityPlaceholder": "Din EAP-identitet...",
+      "anonymous": "Anonym",
+      "eapPhase2Method": "EAP Fase 2 metode",
+      "selectPhase2": "Velg Fase 2 metode",
+      "colorSettings": "Fargeinnstillinger",
+      "foregroundColor": "Forgrunn",
+      "backgroundColor": "Bakgrunn",
+      "resetColors": "Tilbakestill",
+      "resetColorsTooltip": "Tilbakestill til standardfarger",
+      "preview": "Forhåndsvisning",
+      "emptyPreview": "Skriv inn nettverksdetaljer for å generere QR-kode",
+      "downloadQrCode": "Last ned PNG"
+    }
+  }
+}

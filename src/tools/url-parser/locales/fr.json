@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "url-parser": {
+      "invalid": "URL invalide",
+      "cardTitle": "Analyseur d'URL",
+      "cardDescription": "Analyser les URLs pour extraire leurs composants (protocole, nom d'hôte, chemin, paramètres de requête, etc.).",
+      "cardInputTitle": "Saisie d'URL",
+      "cardInputDescription": "Collez une URL ci-dessous. Nous la validerons et afficherons ses composants et paramètres de requête.",
+      "cardOutputTitle": "Résultat analysé",
+      "cardOutputDescription": "Consultez et copiez les composants d'URL extraits de votre saisie.",
+      "inputPlaceholder": "Entrez l'URL à analyser...",
+      "clear": "Effacer",
+      "invalidUrlTitle": "URL invalide",
+      "urlComponents": "Composants d'URL",
+      "protocol": "Protocole",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "hostname": "Nom d'hôte",
+      "port": "Port",
+      "path": "Chemin",
+      "search": "Recherche",
+      "hash": "Hash",
+      "queryParameters": "Paramètres de requête",
+      "parameterName": "Paramètre",
+      "parameterValue": "Valeur",
+      "enterUrlToParse": "Entrez une URL valide pour voir ses composants."
+    }
+  }
+}

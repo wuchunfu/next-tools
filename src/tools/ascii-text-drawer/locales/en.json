@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "ascii-text-drawer": {
+      "yourText": "Your text:",
+      "yourTextToDraw": "Your text to draw",
+      "font": "Font:",
+      "selectFont": "Select font to use",
+      "width": "Width:",
+      "widthPlaceholder": "Width of the text",
+      "loadingFont": "Loading font...",
+      "error": "Current settings resulted in error.",
+      "asciiArtText": "Ascii Art text:",
+      "cardOptionsTitle": "Options",
+      "cardOptionsDescription": "Configure the input text, font and width for the ASCII art.",
+      "cardResultsTitle": "Results",
+      "cardResultsDescription": "Preview and copy the generated ASCII art."
+    }
+  }
+}

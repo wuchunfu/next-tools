@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "xml-to-json": {
+      "cardTitle": "Конвертер XML в JSON",
+      "cardDescription": "Преобразуйте формат XML в формат JSON. Вставьте ваш XML и получите вывод JSON.",
+      "cardInputTitle": "Ввод XML",
+      "cardInputDescription": "Вставьте ниже XML, который нужно конвертировать. Мы проверим его и сгенерируем JSON-вывод.",
+      "cardOutputTitle": "JSON-вывод",
+      "cardOutputDescription": "Это JSON-представление вашего XML. Вы можете скопировать его для дальнейшего использования.",
+      "inputPlaceholder": "Вставьте ваше содержимое XML здесь...",
+      "invalidXml": "Предоставленный XML недействителен.",
+      "invalidXmlTitle": "Недействительный XML",
+      "outputError": "Неверный формат XML. Пожалуйста, проверьте ваш ввод.",
+      "clear": "Очистить",
+      "formatJson": "Форматировать JSON"
+    }
+  }
+}

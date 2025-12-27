@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "otp-generator": {
+      "secretBase32": "Secret should be a base32 string",
+      "secretRequired": "Please set a secret",
+      "secret": "Secret",
+      "secretPlaceholder": "Paste your TOTP secret...",
+      "generateTooltip": "Generate a new random secret",
+      "nextIn": "Next in {seconds}s",
+      "openKeyUri": "Open Key URI in new tab",
+      "secretHex": "Secret in hexadecimal",
+      "secretHexPlaceholder": "Secret in hex will be displayed here",
+      "epoch": "Epoch",
+      "epochPlaceholder": "Epoch in sec will be displayed here",
+      "iteration": "Iteration",
+      "count": "Count:",
+      "countPlaceholder": "Iteration count will be displayed here",
+      "countHexPlaceholder": "Iteration count in hex will be displayed here",
+      "countHexLabel": "Padded hex:",
+      "previous": "Previous",
+      "current": "Current OTP",
+      "next": "Next",
+      "copyPrevious": "Copy previous OTP",
+      "copyCurrent": "Copy current OTP",
+      "copyNext": "Copy next OTP",
+      "cardLiveCodes": "Live OTP codes",
+      "liveCodesDescription": "Monitor the last, current, and next TOTP and copy with one click.",
+      "regenerate": "Regenerate secret",
+      "cardSecret": "Secret & QR",
+      "secretHint": "Use a Base32 secret (A-Z, 2-7). Regenerate or paste your own.",
+      "qrCodeLabel": "Scan this QR code with your authenticator app",
+      "cardDetails": "Technical details"
+    }
+  }
+}

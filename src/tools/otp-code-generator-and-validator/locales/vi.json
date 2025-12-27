@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "otp-generator": {
+      "secretBase32": "Bí mật phải là chuỗi base32",
+      "secretRequired": "Vui lòng đặt bí mật",
+      "secret": "Bí mật",
+      "secretPlaceholder": "Dán bí mật TOTP của bạn...",
+      "generateTooltip": "Tạo bí mật ngẫu nhiên mới",
+      "nextIn": "Tiếp theo trong {seconds}s",
+      "openKeyUri": "Mở Key URI trong tab mới",
+      "secretHex": "Bí mật ở dạng thập lục phân",
+      "secretHexPlaceholder": "Bí mật ở dạng hex sẽ được hiển thị ở đây",
+      "epoch": "Kỷ nguyên",
+      "epochPlaceholder": "Kỷ nguyên tính bằng giây sẽ được hiển thị ở đây",
+      "iteration": "Lặp lại",
+      "count": "Đếm:",
+      "countPlaceholder": "Số lần lặp lại sẽ được hiển thị ở đây",
+      "countHexPlaceholder": "Số lần lặp lại ở dạng hex sẽ được hiển thị ở đây",
+      "countHexLabel": "Hex có đệm:",
+      "previous": "Trước",
+      "current": "OTP hiện tại",
+      "next": "Tiếp theo",
+      "copyPrevious": "Sao chép OTP trước",
+      "copyCurrent": "Sao chép OTP hiện tại",
+      "copyNext": "Sao chép OTP tiếp theo",
+      "cardLiveCodes": "Mã OTP trực tiếp",
+      "liveCodesDescription": "Theo dõi TOTP trước, hiện tại và tiếp theo, sao chép nhanh bằng một nhấp.",
+      "regenerate": "Tạo lại bí mật",
+      "cardSecret": "Secret & QR",
+      "secretHint": "Dùng bí mật Base32 (A-Z, 2-7). Tạo mới hoặc dán của bạn.",
+      "qrCodeLabel": "Quét mã QR này bằng ứng dụng xác thực",
+      "cardDetails": "Chi tiết kỹ thuật"
+    }
+  }
+}

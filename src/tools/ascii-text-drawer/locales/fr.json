@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "ascii-text-drawer": {
+      "yourText": "Votre texte :",
+      "yourTextToDraw": "Votre texte à dessiner",
+      "font": "Police :",
+      "selectFont": "Sélectionner la police à utiliser",
+      "width": "Largeur :",
+      "widthPlaceholder": "Largeur du texte",
+      "loadingFont": "Chargement de la police...",
+      "error": "Les paramètres actuels ont entraîné une erreur.",
+      "asciiArtText": "Texte ASCII art :",
+      "cardOptionsTitle": "Options",
+      "cardOptionsDescription": "Configurez le texte d'entrée, la police et la largeur pour l'art ASCII.",
+      "cardResultsTitle": "Résultats",
+      "cardResultsDescription": "Aperçu et copie de l'art ASCII généré."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "safelink-decoder": {
+      "title": "Décodeur Outlook Safelink",
+      "description": "Décoder les liens Outlook SafeLink",
+      "cardTitle": "Décodeur Outlook SafeLink",
+      "cardDescription": "Décodez les URL Microsoft Outlook SafeLink pour révéler l'URL de destination originale.",
+      "cardInputTitle": "Saisie SafeLink",
+      "cardInputDescription": "Collez ci-dessous une URL Outlook SafeLink. Nous la validerons et extrairons l'URL de destination originale.",
+      "cardOutputTitle": "URL décodée",
+      "cardOutputDescription": "Vérifiez l’URL extraite. Vous pouvez la copier ou l’ouvrir dans un nouvel onglet.",
+      "inputPlaceholder": "Collez votre URL Outlook SafeLink ici...",
+      "inputLabel": "URL SafeLink",
+      "outputLabel": "URL décodée",
+      "invalidUrl": "Veuillez coller une URL Outlook SafeLink valide (https://*.safelinks.protection.outlook.com/...)",
+      "decodeError": "Échec du décodage. Veuillez vérifier le lien et réessayer.",
+      "emptyHint": "Collez une URL SafeLink ci-dessus pour la décoder.",
+      "errorTitle": "URL invalide",
+      "successTitle": "Décodé avec succès",
+      "successDescription": "L'URL originale a été extraite du SafeLink.",
+      "openUrl": "Ouvrir l'URL"
+    }
+  }
+}

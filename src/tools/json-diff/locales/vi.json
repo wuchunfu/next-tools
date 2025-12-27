@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "json-diff": {
+      "cardTitle": "So sánh JSON",
+      "cardDescription": "So sánh hai đối tượng JSON và xem các khác biệt được đánh dấu.",
+      "cardInputTitle": "Đầu vào JSON",
+      "cardInputDescription": "Dán hai tài liệu JSON bên dưới. Chúng tôi sẽ xác thực và hiển thị các khác biệt.",
+      "invalidJson": "Định dạng JSON không hợp lệ",
+      "firstJsonLabel": "JSON đầu tiên của bạn",
+      "firstJsonPlaceholder": "Dán JSON đầu tiên của bạn vào đây...",
+      "compareJsonLabel": "JSON của bạn để so sánh",
+      "compareJsonPlaceholder": "Dán JSON của bạn để so sánh vào đây...",
+      "resultsTitle": "Kết quả so sánh",
+      "resultsDescription": "Các khác biệt được đánh dấu bằng màu xanh lá (thêm) và màu đỏ (xóa).",
+      "onlyShowDifferences": "Chỉ hiển thị sự khác biệt",
+      "sameJson": "Các JSON được cung cấp giống nhau",
+      "sameJsonDescription": "Cả hai đối tượng JSON đều giống hệt nhau. Không tìm thấy sự khác biệt.",
+      "clickToCopy": "Nhấp để sao chép"
+    }
+  }
+}

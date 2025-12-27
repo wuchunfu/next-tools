@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "mac-address-generator": {
+      "cardOptionsTitle": "Generierungsoptionen",
+      "cardOptionsDescription": "Konfigurieren Sie die Optionen zum Generieren zufälliger MAC-Adressen, einschließlich Menge, Präfix, Groß-/Kleinschreibung und Trennzeichen.",
+      "cardResultsTitle": "Generierte MAC-Adressen",
+      "cardResultsDescription": "Generierte MAC-Adressen basierend auf Ihrer Konfiguration. Klicken Sie auf die Schaltfläche Kopieren, um alle Adressen in die Zwischenablage zu kopieren.",
+      "invalidPrefixTitle": "Ungültiges Präfix",
+      "quantity": "Menge",
+      "macAddressPrefix": "MAC-Adresspräfix",
+      "prefixPlaceholder": "Setzen Sie ein Präfix, z.B. 64:16:7F",
+      "case": "Groß-/Kleinschreibung",
+      "uppercase": "Großbuchstaben",
+      "lowercase": "Kleinbuchstaben",
+      "separator": "Trennzeichen",
+      "none": "Keine",
+      "refresh": "Aktualisieren",
+      "copied": "MAC-Adressen in die Zwischenablage kopiert"
+    }
+  }
+}

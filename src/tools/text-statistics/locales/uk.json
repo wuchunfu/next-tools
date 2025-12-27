@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "text-statistics": {
+      "title": "Статистика тексту",
+      "description": "Отримайте інформацію про текст, кількість символів, кількість слів, розмір у байтах, ...",
+      "cardInputTitle": "Введення",
+      "cardInputDescription": "Вставте або введіть текст, щоб негайно отримати статистику.",
+      "cardResultsTitle": "Результати",
+      "cardResultsDescription": "Підсумок статистики тексту",
+      "placeholder": "Ваш текст...",
+      "characterCount": "Кількість символів",
+      "wordCount": "Кількість слів",
+      "lineCount": "Кількість рядків",
+      "byteSize": "Розмір у байтах"
+    }
+  }
+}

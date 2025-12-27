@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "json-prettify": {
+      "title": "Formater et embellir JSON",
+      "description": "Formatez votre chaîne JSON dans un format convivial et lisible.",
+      "cardOptionsTitle": "Options de formatage",
+      "cardOptionsDescription": "Ajustez l'indentation et le tri des clés pour correspondre à votre style JSON préféré.",
+      "sortKeys": "Trier les clés",
+      "sortKeysHelp": "Trier les clés des objets par ordre alphabétique pour une sortie plus stable et plus lisible.",
+      "indentSize": "Taille d'indentation",
+      "indentHint": "Nombre d'espaces utilisés pour l'indentation (0–10).",
+      "cardInputTitle": "Entrée JSON",
+      "cardInputDescription": "Collez votre JSON ci-dessous. Nous le validerons (compatible JSON5) et générerons une version formatée.",
+      "pasteYourRawJson": "Collez votre JSON brut ici...",
+      "cardOutputTitle": "JSON formaté",
+      "cardOutputDescription": "Consultez et copiez la sortie JSON formatée.",
+      "prettifiedVersion": "Version formatée de votre JSON",
+      "invalidJson": "Le JSON fourni n'est pas valide.",
+      "invalidJsonTitle": "JSON invalide"
+    }
+  }
+}

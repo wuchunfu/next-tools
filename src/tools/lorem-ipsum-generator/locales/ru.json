@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "lorem-ipsum-generator": {
+      "title": "Генератор Lorem ipsum",
+      "description": "Lorem ipsum — это текст-заполнитель, обычно используемый для демонстрации визуальной формы документа или шрифта без опоры на значимый контент",
+      "optionsTitle": "Параметры",
+      "optionsDescription": "Настройте параметры генерации Lorem Ipsum",
+      "resultsTitle": "Сгенерированный текст",
+      "resultsDescription": "Предпросмотр сгенерированного Lorem Ipsum",
+      "paragraphs": "Абзацы",
+      "sentencesPerParagraph": "Предложений в абзаце",
+      "wordsPerSentence": "Слов в предложении",
+      "startWithLoremIpsum": "Начать с lorem ipsum?",
+      "asHtml": "Как HTML?",
+      "placeholder": "Ваш lorem ipsum...",
+      "copy": "Копировать",
+      "refresh": "Обновить",
+      "copied": "Lorem ipsum скопировано в буфер обмена"
+    }
+  }
+}

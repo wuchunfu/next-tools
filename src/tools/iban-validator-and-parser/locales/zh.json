@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "iban-validator-and-parser": {
+      "cardTitle": "IBAN 验证器和解析器",
+      "cardDescription": "验证和解析国际银行账号 (IBAN)",
+      "cardResultsTitle": "结果",
+      "cardResultsDescription": "解析的 IBAN 信息和验证结果",
+      "examplesDescription": "用于测试的示例 IBAN",
+      "label": "IBAN",
+      "isValid": "IBAN 是否有效？",
+      "errors": "IBAN 错误",
+      "isQrIban": "是否为 QR-IBAN？",
+      "countryCode": "国家代码",
+      "bban": "BBAN",
+      "friendlyFormat": "IBAN 易读格式",
+      "placeholder": "输入 IBAN 以检查其有效性...",
+      "examplesTitle": "有效的 IBAN 示例"
+    }
+  }
+}

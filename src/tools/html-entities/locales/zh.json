@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "html-entities": {
+      "title": "转义html实体",
+      "description": "转义或unescape html实体（将<、>、&、\"和\\'替换为其html版本）",
+      "cardEscapeTitle": "转义 HTML 实体",
+      "cardEscapeDescription": "转义 HTML 实体（将字符如 <、>、&、\" 和 ' 替换为其 HTML 版本）。",
+      "cardUnescapeTitle": "反转义 HTML 实体",
+      "cardUnescapeDescription": "反转义 HTML 实体（将 HTML 实体转换回原始字符）。",
+      "inputLabel": "您的字符串",
+      "inputPlaceholder": "输入要转义的字符串...",
+      "outputLabel": "转义后的字符串",
+      "outputPlaceholder": "转义后的字符串将显示在这里...",
+      "unescapeInputLabel": "您的转义字符串",
+      "unescapeInputPlaceholder": "输入要反转义的 HTML 转义字符串...",
+      "unescapeOutputLabel": "反转义后的字符串",
+      "unescapeOutputPlaceholder": "反转义后的字符串将显示在这里...",
+      "clear": "清除"
+    }
+  }
+}

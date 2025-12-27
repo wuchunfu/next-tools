@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "url-encoder": {
+      "title": "Kode/dekode URL-formaterte strenger",
+      "description": "Kode tekst til URL-kodet format (også kjent som \"prosentkodet\"), eller dekode fra det.",
+      "cardEncodeTitle": "Kode URL",
+      "cardEncodeDescription": "Kode tekst til URL-kodet format (også kjent som \"prosentkodet\").",
+      "cardDecodeTitle": "Dekode URL",
+      "cardDecodeDescription": "Dekode URL-kodede strenger tilbake til deres opprinnelige tekst.",
+      "inputLabel": "Din streng",
+      "inputPlaceholder": "Skriv inn strengen som skal kodes...",
+      "outputLabel": "Kodet streng",
+      "outputPlaceholder": "Kodet streng vil vises her...",
+      "decodeInputLabel": "Din kodede streng",
+      "decodeInputPlaceholder": "Skriv inn den URL-kodede strengen som skal dekodes...",
+      "decodeOutputLabel": "Dekodet streng",
+      "decodeOutputPlaceholder": "Dekodet streng vil vises her...",
+      "clear": "Tøm",
+      "impossibleToParse": "Umulig å analysere denne strengen"
+    }
+  }
+}

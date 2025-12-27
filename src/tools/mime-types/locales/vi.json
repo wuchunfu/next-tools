@@ -1,0 +1,27 @@
+{
+  "tools": {
+    "mime-types": {
+      "mimeToExt": {
+        "title": "Loại MIME sang phần mở rộng",
+        "subtitle": "Biết phần mở rộng tệp nào được liên kết với loại MIME",
+        "placeholder": "Chọn loại MIME của bạn ở đây... (vd: application/pdf)",
+        "resultPrefix": "Phần mở rộng của tệp với",
+        "resultSuffix": "loại MIME:"
+      },
+      "extToMime": {
+        "title": "Phần mở rộng tệp sang loại MIME",
+        "subtitle": "Biết loại MIME nào được liên kết với phần mở rộng tệp",
+        "placeholder": "Chọn phần mở rộng của bạn ở đây... (vd: application/pdf)",
+        "resultPrefix": "Loại MIME được liên kết với phần mở rộng",
+        "resultSuffix": "phần mở rộng tệp:"
+      },
+      "table": {
+        "mime": "Loại MIME",
+        "extensions": "Phần mở rộng"
+      },
+      "tableTitle": "Tất cả loại MIME",
+      "tableSubtitle": "Duyệt toàn bộ danh sách loại MIME và các phần mở rộng của chúng.",
+      "clear": "Xóa"
+    }
+  }
+}

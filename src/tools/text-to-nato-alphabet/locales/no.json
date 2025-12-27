@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "text-to-nato-alphabet": {
+      "cardTitle": "NATO Fonetisk Alfabet-Konverter",
+      "cardDescription": "Konverter tekst til NATO fonetisk alfabet (Alpha, Bravo, Charlie, osv.)",
+      "cardInputTitle": "Tekstinndata",
+      "cardInputDescription": "Skriv eller lim inn teksten din nedenfor. Vi konverterer bokstaver til NATO fonetisk alfabet.",
+      "cardOutputTitle": "NATO-utdata",
+      "cardOutputDescription": "Se gjennom og kopier den konverterte NATO fonetiske alfabetstrengen.",
+      "yourTextToConvert": "Din tekst å konvertere",
+      "inputPlaceholder": "Skriv inn teksten din her...",
+      "inputLength": "Lengde",
+      "letters": "Bokstaver",
+      "clear": "Tøm",
+      "yourTextInNato": "NATO fonetisk alfabet",
+      "outputLength": "Utgavelengde",
+      "copyNatoString": "Kopier NATO-streng",
+      "copied": "NATO-alfabetstreng kopiert."
+    }
+  }
+}

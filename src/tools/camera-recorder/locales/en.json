@@ -1,0 +1,39 @@
+{
+  "tools": {
+    "camera-recorder": {
+      "cardTitle": "Camera Recorder",
+      "cardDescription": "Capture screenshots and record videos from your webcam.",
+      "notSupportedTitle": "Not Supported",
+      "notSupported": "Your browser does not support recording video from camera",
+      "permissionRequired": "Permission Required",
+      "needPermission": "You need to grant permission to use your camera and microphone",
+      "permissionBlockedTitle": "Permission Blocked",
+      "permissionBlocked": "Your browser has blocked permission request or does not support it. You need to grant permission manually in your browser settings (usually the lock icon in the address bar).",
+      "grant": "Grant permission",
+      "deviceSettings": "Device Settings",
+      "video": "Camera",
+      "audio": "Microphone",
+      "selectCamera": "Select camera",
+      "selectMic": "Select microphone",
+      "unknownCamera": "Camera",
+      "unknownMic": "Microphone",
+      "start": "Start webcam",
+      "screenshot": "Screenshot",
+      "screenshotTooltip": "Capture current frame as image",
+      "startRecording": "Start recording",
+      "recording": "Recording",
+      "paused": "Paused",
+      "pause": "Pause",
+      "resume": "Resume",
+      "stop": "Stop",
+      "noRecord": "Video recording is not supported in your browser",
+      "gallery": "Captured Media",
+      "screenshotLabel": "Screenshot",
+      "videoLabel": "Video",
+      "download": "Download",
+      "delete": "Delete",
+      "stopCamera": "Stop Camera",
+      "stopCameraTooltip": "Turn off webcam"
+    }
+  }
+}

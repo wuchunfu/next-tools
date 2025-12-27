@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "yaml-viewer": {
+      "invalid": "Den oppgitte YAML-en er ikke gyldig.",
+      "cardOptionsTitle": "Formateringsalternativer",
+      "cardOptionsDescription": "Juster innrykk og nøkkelsortering slik at det passer din foretrukne YAML-stil.",
+      "sortKeys": "Sorter nøkler",
+      "sortKeysHelp": "Sorter objekt-nøkler alfabetisk for en mer stabil og lesbar output.",
+      "indent": "Innrykksstørrelse",
+      "indentHint": "Antall mellomrom som brukes til innrykk (1–10).",
+      "cardInputTitle": "YAML-inngang",
+      "cardInputDescription": "Lim inn YAML-en din nedenfor. Vi validerer den og genererer en formatert versjon.",
+      "inputPlaceholder": "Lim inn YAML-en din her...",
+      "cardOutputTitle": "Formatert YAML",
+      "cardOutputDescription": "Se gjennom og kopier den formaterte YAML-outputen.",
+      "invalidYamlTitle": "Ugyldig YAML"
+    }
+  }
+}

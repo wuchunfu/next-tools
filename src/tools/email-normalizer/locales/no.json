@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "email-normalizer": {
+      "unableToParse": "Kan ikke analysere e-post: {email}",
+      "copied": "Normaliserte e-poster kopiert til utklippstavlen",
+      "rawEmails": "Rå e-poster å normalisere:",
+      "inputPlaceholder": "Legg inn e-postene dine her (en per linje)...",
+      "normalizedEmails": "Normaliserte e-poster:",
+      "outputPlaceholder": "Normaliserte e-poster vil vises her...",
+      "clear": "Tøm e-poster",
+      "copy": "Kopier normaliserte e-poster",
+      "cardInputTitle": "E-postinndata",
+      "cardInputDescription": "Lim inn e-postadressene dine nedenfor (en per linje). De vil bli normalisert automatisk.",
+      "cardOutputTitle": "Normaliserte e-poster",
+      "cardOutputDescription": "Gjennomgå og kopier de normaliserte e-postadressene."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "svg-placeholder-generator": {
+      "cardTitle": "Генератор SVG-заполнителей",
+      "cardDescription": "Создавайте настраиваемые SVG-заполнители с пользовательскими размерами, цветами и текстом.",
+      "dimensions": "Размеры",
+      "width": "Ширина (px)",
+      "widthPlaceholder": "Ширина SVG...",
+      "height": "Высота (px)",
+      "heightPlaceholder": "Высота SVG...",
+      "fontSize": "Размер шрифта (px)",
+      "fontSizePlaceholder": "Размер шрифта...",
+      "customText": "Пользовательский текст",
+      "customPlaceholder": "По умолчанию {width}x{height}",
+      "useExact": "Использовать точный размер в атрибутах SVG",
+      "colorSettings": "Настройки цвета",
+      "background": "Фон",
+      "textColor": "Цвет текста",
+      "preview": "Предпросмотр",
+      "svgHtml": "HTML-элемент SVG",
+      "svgBase64": "SVG в Base64",
+      "copySvg": "Копировать SVG",
+      "copySvgTooltip": "Копировать HTML-код SVG",
+      "copyBase64": "Копировать Base64",
+      "copyBase64Tooltip": "Копировать Base64 URL данных",
+      "downloadSvg": "Скачать",
+      "downloadSvgTooltip": "Скачать как SVG-файл",
+      "imageAlt": "Предпросмотр SVG"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "tools": {
+    "phone-parser-and-formatter": {
+      "invalid": "Số điện thoại không hợp lệ",
+      "country": "Quốc gia",
+      "countryName": "Quốc gia",
+      "countryCallingCode": "Mã quốc gia gọi",
+      "isValid": "Có hợp lệ không?",
+      "isPossible": "Có thể không?",
+      "type": "Loại",
+      "international": "Định dạng quốc tế",
+      "national": "Định dạng quốc gia",
+      "e164": "Định dạng E.164",
+      "rfc3966": "Định dạng RFC3966",
+      "defaultCode": "Mã quốc gia mặc định:",
+      "placeholder": "Nhập số điện thoại",
+      "label": "Số điện thoại:",
+      "cardTitle": "Trình phân tích và định dạng điện thoại",
+      "cardDescription": "Phân tích số điện thoại và hiển thị các định dạng và siêu dữ liệu.",
+      "cardResultsTitle": "Kết quả",
+      "cardResultsDescription": "Các định dạng và siêu dữ liệu đã được phân tích.",
+      "types": {
+        "MOBILE": "Di động",
+        "FIXED_LINE": "Đường dây cố định",
+        "FIXED_LINE_OR_MOBILE": "Đường dây cố định hoặc di động",
+        "PERSONAL_NUMBER": "Số cá nhân",
+        "PREMIUM_RATE": "Tỷ lệ cao cấp",
+        "SHARED_COST": "Chi phí chia sẻ",
+        "TOLL_FREE": "Miễn phí",
+        "UAN": "Số truy cập phổ quát",
+        "VOICEMAIL": "Thư thoại",
+        "VOIP": "VoIP",
+        "PAGER": "Máy nhắn tin"
+      }
+    }
+  }
+}

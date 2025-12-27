@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "ipv4-subnet-calculator": {
+      "inputLabel": "Une adresse IPv4 avec ou sans masque",
+      "inputPlaceholder": "L'adresse IPv4...",
+      "cannotParseAddress": "Nous ne pouvons pas analyser cette adresse, vérifiez le format",
+      "netmask": "Masque de réseau",
+      "networkAddress": "Adresse réseau",
+      "networkMask": "Masque réseau",
+      "networkMaskInBinary": "Masque réseau en binaire",
+      "cidrNotation": "Notation CIDR",
+      "wildcardMask": "Masque générique",
+      "networkSize": "Taille du réseau",
+      "firstAddress": "Première adresse",
+      "lastAddress": "Dernière adresse",
+      "broadcastAddress": "Adresse de diffusion",
+      "noBroadcastAddress": "Pas d'adresse de diffusion avec ce masque",
+      "ipClass": "Classe IP",
+      "unknownClassType": "Type de classe inconnu",
+      "previousBlock": "Bloc précédent",
+      "nextBlock": "Bloc suivant",
+      "cardInputTitle": "Adresse IPv4",
+      "cardInputDescription": "Entrez une adresse IPv4 avec ou sans notation CIDR pour calculer les informations de sous-réseau.",
+      "cardResultsTitle": "Informations de sous-réseau",
+      "cardResultsDescription": "Informations détaillées sur le réseau et le sous-réseau pour l'adresse IPv4 saisie.",
+      "invalidAddressTitle": "Adresse invalide",
+      "property": "Propriété",
+      "value": "Valeur"
+    }
+  }
+}

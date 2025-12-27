@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-unicode": {
+      "title": "Tekst til Unicode",
+      "description": "Analyser og konverter tekst til unicode og omvendt",
+      "cardTextToUnicodeTitle": "Tekst til Unicode",
+      "cardTextToUnicodeDescription": "Konverter tekst til Unicode escape-sekvenser (\\u0031 format).",
+      "cardUnicodeToTextTitle": "Unicode til Tekst",
+      "cardUnicodeToTextDescription": "Konverter Unicode escape-sekvenser tilbake til tekst.",
+      "textPlaceholder": "f.eks. 'Hello Avengers'",
+      "enterTextToConvert": "Skriv inn tekst å konvertere",
+      "inputLength": "Lengde",
+      "outputLength": "Lengde",
+      "characters": "Tegn",
+      "entities": "Entiteter",
+      "clear": "Tøm",
+      "unicodeFromText": "Unicode-utgang",
+      "unicodePlaceholder": "Unicode-representasjonen av teksten din vil vises her",
+      "unicodeInputPlaceholder": "Skriv inn Unicode",
+      "enterUnicodeToConvert": "Skriv inn unicode å konvertere",
+      "textFromUnicode": "Tekstutgang",
+      "textOutputPlaceholder": "Tekstrepresentasjonen av din unicode vil vises her"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-unicode": {
+      "title": "Văn bản sang Unicode",
+      "description": "Phân tích và chuyển đổi văn bản sang unicode và ngược lại",
+      "cardTextToUnicodeTitle": "Văn bản sang Unicode",
+      "cardTextToUnicodeDescription": "Chuyển đổi văn bản sang chuỗi escape Unicode (định dạng \\u0031).",
+      "cardUnicodeToTextTitle": "Unicode sang Văn bản",
+      "cardUnicodeToTextDescription": "Chuyển đổi chuỗi escape Unicode trở lại thành văn bản.",
+      "textPlaceholder": "vd. 'Hello Avengers'",
+      "enterTextToConvert": "Nhập văn bản để chuyển đổi",
+      "inputLength": "Độ dài",
+      "outputLength": "Độ dài",
+      "characters": "Ký tự",
+      "entities": "Thực thể",
+      "clear": "Xóa",
+      "unicodeFromText": "Đầu ra Unicode",
+      "unicodePlaceholder": "Biểu diễn unicode của văn bản của bạn sẽ xuất hiện ở đây",
+      "unicodeInputPlaceholder": "Nhập Unicode",
+      "enterUnicodeToConvert": "Nhập unicode để chuyển đổi",
+      "textFromUnicode": "Đầu ra văn bản",
+      "textOutputPlaceholder": "Biểu diễn văn bản của unicode của bạn sẽ xuất hiện ở đây"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "keycode-info": {
+      "cardTitle": "Информация о клавишах клавиатуры",
+      "cardDescription": "Нажмите любую клавишу на клавиатуре, чтобы увидеть подробную информацию.",
+      "detailsTitle": "Детали клавиши",
+      "detailsDescription": "Подробная информация о нажатой клавише.",
+      "key": "Клавиша",
+      "keyPlaceholder": "Имя клавиши...",
+      "keycode": "Код клавиши",
+      "keycodePlaceholder": "Код клавиши...",
+      "keycodeDeprecated": "Устарело, используйте code вместо этого",
+      "code": "Код",
+      "codePlaceholder": "Код...",
+      "charCode": "Код символа",
+      "charCodePlaceholder": "Код символа...",
+      "location": "Расположение",
+      "locationPlaceholder": "Расположение...",
+      "locationStandard": "Стандартное",
+      "locationLeft": "Левое",
+      "locationRight": "Правое",
+      "locationNumpad": "Цифровая клавиатура",
+      "modifiers": "Модификаторы",
+      "noModifiers": "Модификаторы не нажаты",
+      "meta": "Meta",
+      "shift": "Shift",
+      "ctrl": "Ctrl",
+      "alt": "Alt",
+      "repeat": "Повторение",
+      "repeatPlaceholder": "Статус повторения клавиши...",
+      "typeCharacter": "Символьная клавиша",
+      "typeFunction": "Функциональная клавиша",
+      "typeNavigation": "Клавиша навигации",
+      "typeControl": "Клавиша управления",
+      "typeSpecial": "Специальная клавиша",
+      "none": "Нет",
+      "yes": "Да",
+      "no": "Нет",
+      "unknown": "Неизвестно",
+      "tip": "Нажмите любую клавишу на клавиатуре, чтобы увидеть информацию"
+    }
+  }
+}

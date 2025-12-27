@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "hash-text": {
+      "title": "Hash text",
+      "description": "Hash a text string using the function you need : MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 or RIPEMD160",
+      "placeholder": "Your string to hash...",
+      "yourTextToHash": "Your text to hash:",
+      "digestEncoding": "Digest encoding",
+      "digestEncodingDescription": "Select the output format for hash values.",
+      "binary": "Binary",
+      "binaryDescription": "Binary format (base 2).",
+      "hexadecimal": "Hexadecimal",
+      "hexadecimalDescription": "Hexadecimal format (base 16), most commonly used.",
+      "base64": "Base64",
+      "base64Description": "Base64 format (base 64), compact representation.",
+      "base64url": "Base64 URL",
+      "base64urlDescription": "Base64 URL-safe format, suitable for URLs.",
+      "hashResults": "Hash Results",
+      "noInput": "Enter text above to generate hashes",
+      "cardInputTitle": "Hash input & encoding",
+      "cardOutputTitle": "Hash results"
+    }
+  }
+}

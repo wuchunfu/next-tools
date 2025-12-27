@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "benchmark-builder": {
+      "suiteName": "Suite {index}",
+      "suiteLabel": "Suitenavn",
+      "suitePlaceholder": "Suitenavn...",
+      "suitesTitle": "Sett",
+      "suitesDescription": "Administrer flere sett og deres prøveverdier.",
+      "suiteValues": "Suiteverdier",
+      "deleteSuite": "Slett suite",
+      "addSuite": "Legg til suite",
+      "resultsTitle": "Resultater",
+      "resultsDescription": "Sammendrag og sammenligning mellom settene.",
+      "unitPlaceholder": "Enhet (f.eks. ms)",
+      "unitLabel": "Enhet",
+      "resetSuites": "Tilbakestill suites",
+      "copyMarkdown": "Kopier som markdown-tabell",
+      "copyBullet": "Kopier som punktliste",
+      "setMeasure": "Sett målingen din...",
+      "deleteValue": "Slett denne verdien",
+      "addMeasure": "Legg til en måling",
+      "header": {
+        "position": "Posisjon",
+        "title": "Suite",
+        "size": "Prøver",
+        "mean": "Gjennomsnitt",
+        "variance": "Varians"
+      }
+    }
+  }
+}

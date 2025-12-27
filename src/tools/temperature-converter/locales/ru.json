@@ -1,0 +1,15 @@
+{
+  "tools": {
+    "temperature-converter": {
+      "kelvin": "Кельвин",
+      "celsius": "Цельсий",
+      "fahrenheit": "Фаренгейт",
+      "rankine": "Ранкин",
+      "delisle": "Делиль",
+      "newton": "Ньютон",
+      "reaumur": "Реомюр",
+      "romer": "Рёмер",
+      "description": "Быстро конвертировать между шкалами температуры"
+    }
+  }
+}

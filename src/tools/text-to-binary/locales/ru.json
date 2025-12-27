@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-binary": {
+      "title": "Текст в ASCII двоичный",
+      "description": "Преобразуйте текст в его двоичное представление ASCII и наоборот.",
+      "cardTextToBinaryTitle": "Текст в Двоичный",
+      "cardTextToBinaryDescription": "Преобразуйте текст в его двоичное представление ASCII.",
+      "cardBinaryToTextTitle": "Двоичный в Текст",
+      "cardBinaryToTextDescription": "Преобразуйте двоичное представление ASCII обратно в текст.",
+      "textPlaceholder": "например: 'Hello world'",
+      "enterTextToConvert": "Введите текст для преобразования",
+      "inputLength": "Длина",
+      "outputLength": "Длина",
+      "bytes": "Байты",
+      "clear": "Очистить",
+      "binaryFromText": "Двоичный вывод",
+      "binaryPlaceholder": "Двоичное представление вашего текста появится здесь",
+      "binaryInputPlaceholder": "например: '01001000 01100101 01101100 01101100 01101111'",
+      "enterBinaryToConvert": "Введите двоичный для преобразования",
+      "textFromBinary": "Текстовый вывод",
+      "textOutputPlaceholder": "Текстовое представление вашего двоичного появится здесь",
+      "invalidBinary": "Двоичный должен быть действительной ASCII двоичной строкой с кратными 8 битам"
+    }
+  }
+}

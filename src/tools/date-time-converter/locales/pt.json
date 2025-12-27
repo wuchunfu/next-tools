@@ -1,0 +1,40 @@
+{
+  "tools": {
+    "date-converter": {
+      "jsLocaleDateString": "String de data de localidade JS",
+      "iso8601": "ISO 8601",
+      "iso9075": "ISO 9075",
+      "rfc3339": "RFC 3339",
+      "rfc7231": "RFC 7231",
+      "unixTimestamp": "Carimbo de data/hora Unix",
+      "timestamp": "Carimbo de data/hora",
+      "utcFormat": "Formato UTC",
+      "mongoObjectId": "Mongo ObjectID",
+      "excelDateTime": "Data/hora do Excel",
+      "inputPlaceholder": "Coloque sua string de data aqui...",
+      "invalidDate": "Esta data não é válida para este formato",
+      "invalidDatePlaceholder": "Data inválida...",
+      "cardInputTitle": "Entrada de data e formato",
+      "cardInputDescription": "Cole ou digite uma data; detectamos o formato automaticamente.",
+      "inputLabel": "Entrada de data",
+      "actionUseNow": "Usar horário atual",
+      "actionClear": "Limpar entrada",
+      "formatTitle": "Formato",
+      "formatDescription": "Detectado automaticamente com base na sua entrada ou escolha manualmente.",
+      "jsLocaleDateStringDescription": "String de data nativa do JavaScript (dependente da localidade)",
+      "iso8601Description": "Representação padrão ISO 8601",
+      "iso9075Description": "Formato de data/hora ISO 9075",
+      "rfc3339Description": "Timestamp RFC 3339 com fuso horário",
+      "rfc7231Description": "Formato de data HTTP (RFC 7231)",
+      "unixTimestampDescription": "Segundos desde a época Unix",
+      "timestampDescription": "Milissegundos desde a época Unix",
+      "utcFormatDescription": "Representação de string UTC",
+      "mongoObjectIdDescription": "Primeiros 4 bytes do Mongo ObjectID como tempo Unix",
+      "excelDateTimeDescription": "Número de série de data/hora do Excel",
+      "cardOutputTitle": "Resultados convertidos",
+      "cardOutputDescription": "Copie qualquer formato instantaneamente. Todas as saídas permanecem sincronizadas.",
+      "validDateTitle": "A data parece válida",
+      "validDateDescription": "Todos os formatos abaixo ficam sincronizados com sua entrada."
+    }
+  }
+}

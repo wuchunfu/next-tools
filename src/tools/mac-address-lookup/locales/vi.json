@@ -1,0 +1,15 @@
+{
+  "tools": {
+    "mac-address-lookup": {
+      "cardInputTitle": "Địa chỉ MAC",
+      "cardInputDescription": "Nhập địa chỉ MAC để tra cứu thông tin nhà sản xuất từ cơ sở dữ liệu OUI (Organizationally Unique Identifier).",
+      "cardResultsTitle": "Thông tin nhà sản xuất",
+      "cardResultsDescription": "Thông tin nhà sản xuất được lấy từ cơ sở dữ liệu OUI dựa trên tiền tố địa chỉ MAC.",
+      "invalidAddressTitle": "Địa chỉ MAC không hợp lệ",
+      "invalidMacAddress": "Địa chỉ MAC không hợp lệ",
+      "placeholder": "Nhập địa chỉ MAC",
+      "unknown": "Nhà sản xuất không xác định cho địa chỉ này",
+      "copied": "Thông tin nhà sản xuất đã được sao chép vào clipboard"
+    }
+  }
+}

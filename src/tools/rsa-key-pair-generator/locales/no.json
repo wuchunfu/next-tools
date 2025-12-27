@@ -1,0 +1,13 @@
+{
+  "tools": {
+    "rsa-key-pair-generator": {
+      "bitsRule": "Bits skal være 256 <= bits <= 16384 og være et multiplum av 8",
+      "bits": "Bits :",
+      "refresh": "Oppdater nøkkelpar",
+      "public": "Offentlig nøkkel",
+      "private": "Privat nøkkel",
+      "configuration": "RSA-nøkkelvalg",
+      "generatedKeys": "Genererte nøkler"
+    }
+  }
+}

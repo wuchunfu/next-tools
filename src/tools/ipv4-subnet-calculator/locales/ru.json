@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "ipv4-subnet-calculator": {
+      "inputLabel": "Адрес IPv4 с маской или без",
+      "inputPlaceholder": "Адрес IPv4...",
+      "cannotParseAddress": "Мы не можем разобрать этот адрес, проверьте формат",
+      "netmask": "Маска сети",
+      "networkAddress": "Адрес сети",
+      "networkMask": "Маска сети",
+      "networkMaskInBinary": "Маска сети в двоичном виде",
+      "cidrNotation": "Обозначение CIDR",
+      "wildcardMask": "Маска подстановки",
+      "networkSize": "Размер сети",
+      "firstAddress": "Первый адрес",
+      "lastAddress": "Последний адрес",
+      "broadcastAddress": "Широковещательный адрес",
+      "noBroadcastAddress": "Нет широковещательного адреса с этой маской",
+      "ipClass": "Класс IP",
+      "unknownClassType": "Неизвестный тип класса",
+      "previousBlock": "Предыдущий блок",
+      "nextBlock": "Следующий блок",
+      "cardInputTitle": "Адрес IPv4",
+      "cardInputDescription": "Введите адрес IPv4 с обозначением CIDR или без него для расчета информации о подсети.",
+      "cardResultsTitle": "Информация о подсети",
+      "cardResultsDescription": "Подробная информация о сети и подсети для введенного адреса IPv4.",
+      "invalidAddressTitle": "Недействительный адрес",
+      "property": "Свойство",
+      "value": "Значение"
+    }
+  }
+}

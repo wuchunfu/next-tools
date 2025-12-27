@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "encryption": {
+      "title": "Шифрувати / розшифровувати текст",
+      "description": "Шифруйте відкритий текст і розшифровуйте зашифрований текст за допомогою криптографічних алгоритмів, таких як AES, TripleDES, Rabbit або RC4.",
+      "encrypt": "Шифрувати",
+      "yourText": "Ваш рядок:",
+      "stringToCypher": "Рядок для шифрування",
+      "yourSecretKey": "Ваш секретний ключ:",
+      "encryptionAlgorithm": "Алгоритм шифрування:",
+      "yourTextEncrypted": "Ваш зашифрований рядок:",
+      "stringHash": "Хеш вашого рядка",
+      "decrypt": "Розшифрувати",
+      "yourEncryptedText": "Ваш зашифрований рядок:",
+      "yourDecryptedText": "Ваш розшифрований рядок:",
+      "errorWhileDecrypting": "Помилка під час розшифрування",
+      "unableToDecrypt": "Неможливо розшифрувати ваш рядок"
+    }
+  }
+}

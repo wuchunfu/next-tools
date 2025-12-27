@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "uuid-generator": {
+      "title": "UUID-generator",
+      "description": "En Universally Unique Identifier (UUID) er et 128-bits nummer som brukes til å identifisere informasjon i datasystemer. Antallet mulige UUIDs er 16^32, som er 2^128 eller omtrent 3,4x10^38 (det er mye!).",
+      "uuidVersion": "UUID-versjon",
+      "uuidVersionDescription": "Velg UUID-versjonen som skal genereres.",
+      "versionNIL": "NIL",
+      "versionNILDescription": "Null-UUID (alle nuller).",
+      "versionV1": "Versjon 1",
+      "versionV1Description": "Tidsbasert UUID som bruker tidsstempel og MAC-adresse.",
+      "versionV3": "Versjon 3",
+      "versionV3Description": "Navnbasert UUID som bruker MD5-hashing og navneområde.",
+      "versionV4": "Versjon 4",
+      "versionV4Description": "Tilfeldig UUID (mest brukt).",
+      "versionV5": "Versjon 5",
+      "versionV5Description": "Navnbasert UUID som bruker SHA-1-hashing og navneområde.",
+      "quantity": "Mengde",
+      "uuidQuantity": "UUID-mengde",
+      "namespace": "Navneområde",
+      "namespaceDescription": "Velg et forhåndsdefinert navneområde eller skriv inn en tilpasset UUID.",
+      "namespaceDNS": "DNS",
+      "namespaceDNSDescription": "Domenenavnssystem navneområde.",
+      "namespaceURL": "URL",
+      "namespaceURLDescription": "Uniform Resource Locator navneområde.",
+      "namespaceOID": "OID",
+      "namespaceOIDDescription": "Objektidentifikator navneområde.",
+      "namespaceX500": "X.500",
+      "namespaceX500Description": "X.500 Distinguished Name navneområde.",
+      "namespaceCustom": "Tilpasset",
+      "namespaceCustomDescription": "Skriv inn et tilpasset UUID-navneområde.",
+      "name": "Navn",
+      "yourUuids": "Dine UUIDs",
+      "copy": "Kopier",
+      "refresh": "Oppdater",
+      "invalidUuid": "Ugyldig UUID",
+      "copied": "UUIDs kopiert til utklippstavlen",
+      "cardConfigTitle": "UUID-konfigurasjon"
+    }
+  }
+}

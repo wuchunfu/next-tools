@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "text-to-nato-alphabet": {
+      "cardTitle": "Bộ chuyển đổi Bảng chữ cái Ngữ âm NATO",
+      "cardDescription": "Chuyển đổi văn bản sang bảng chữ cái ngữ âm NATO (Alpha, Bravo, Charlie, v.v.)",
+      "cardInputTitle": "Nhập văn bản",
+      "cardInputDescription": "Nhập hoặc dán văn bản bên dưới. Chúng tôi sẽ chuyển đổi các chữ cái sang bảng chữ cái ngữ âm NATO.",
+      "cardOutputTitle": "Kết quả NATO",
+      "cardOutputDescription": "Xem lại và sao chép chuỗi bảng chữ cái ngữ âm NATO đã được chuyển đổi.",
+      "yourTextToConvert": "Văn bản của bạn để chuyển đổi",
+      "inputPlaceholder": "Nhập văn bản của bạn ở đây...",
+      "inputLength": "Độ dài",
+      "letters": "Chữ cái",
+      "clear": "Xóa",
+      "yourTextInNato": "Bảng chữ cái ngữ âm NATO",
+      "outputLength": "Độ dài đầu ra",
+      "copyNatoString": "Sao chép chuỗi NATO",
+      "copied": "Chuỗi bảng chữ cái NATO đã được sao chép."
+    }
+  }
+}

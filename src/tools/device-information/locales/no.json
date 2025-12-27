@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "device-information": {
+      "screen": "Skjerm",
+      "screenSize": "Skjermstørrelse",
+      "orientation": "Orientering",
+      "orientationAngle": "Orientasjonsvinkel",
+      "colorDepth": "Fargedybde",
+      "pixelRatio": "Pixelforhold",
+      "windowSize": "Vindustørrelse",
+      "device": "Enhet",
+      "vendor": "Nettleserleverandør",
+      "languages": "Språk",
+      "platform": "Plattform",
+      "userAgent": "Brukeragent",
+      "unknown": "ukjent"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tools": {
+    "random-port-generator": {
+      "cardTitle": "Trình tạo cổng ngẫu nhiên",
+      "cardDescription": "Tạo một cổng TCP/UDP ngẫu nhiên trong khoảng 1024–65535 cho dịch vụ nội bộ và phát triển.",
+      "currentPortLabel": "Cổng hiện tại",
+      "categoryRegistered": "Cổng đã đăng ký (1024–49151)",
+      "categoryDynamic": "Cổng động/riêng tư (49152–65535)",
+      "rangeHint": "Các cổng dưới 1024 thường được dành cho dịch vụ hệ thống. Công cụ này chỉ tạo các cổng trong khoảng 1024 đến 65535.",
+      "copied": "Cổng đã được sao chép vào clipboard",
+      "copy": "Sao chép",
+      "refresh": "Làm mới"
+    }
+  }
+}

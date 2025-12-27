@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "chronometer": {
+      "title": "Kronometer",
+      "description": "Overvåk varigheten av noe. I hovedsak en kronometer med enkle kronometerfunksjoner.",
+      "button": {
+        "start": "Start",
+        "stop": "Stopp",
+        "reset": "Tilbakestill",
+        "record": "Registrer",
+        "clearRecords": "Tøm registreringer"
+      },
+      "records": {
+        "title": "Registreringer",
+        "empty": "Ingen registreringer"
+      }
+    }
+  }
+}

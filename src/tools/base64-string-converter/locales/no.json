@@ -1,0 +1,42 @@
+{
+  "tools": {
+    "base64-string-converter": {
+      "title": "Base64-strengkoder/dekoder",
+      "description": "Kode og dekode enkelt strenger til deres base64-representasjon.",
+      "stringToBase64": "Streng til base64",
+      "encodeUrlSafe": "Kode URL-sikker",
+      "putYourStringHere": "Legg inn strengen din her...",
+      "stringToEncode": "Streng å kode",
+      "base64OfString": "Base64 av streng",
+      "base64EncodingPlaceholder": "Base64-kodingen av strengen din vil være her",
+      "copyBase64": "Kopier base64",
+      "copiedBase64": "Base64-streng kopiert til utklippstavlen",
+      "base64ToString": "Base64 til streng",
+      "decodeUrlSafe": "Dekode URL-sikker",
+      "yourBase64String": "Din base64-streng...",
+      "base64StringToDecode": "Base64-streng å dekode",
+      "decodedString": "Dekodet streng",
+      "decodedStringPlaceholder": "Den dekodede strengen vil være her",
+      "copyDecodedString": "Kopier dekodet streng",
+      "copiedString": "Streng kopiert til utklippstavlen",
+      "invalidBase64": "Ugyldig base64-streng",
+      "cardEncodeTitle": "Streng til Base64",
+      "cardEncodeDescription": "Kode hvilken som helst tekststreng til Base64-format.",
+      "cardDecodeTitle": "Base64 til Streng",
+      "cardDecodeDescription": "Dekode Base64-strenger tilbake til deres opprinnelige tekst.",
+      "encodeUrlSafeDescription": "Bruk URL-sikker Base64-koding (erstatter + med - og / med _)",
+      "decodeUrlSafeDescription": "Dekode URL-sikre Base64-strenger (håndterer - og _ tegn)",
+      "invalidBase64Description": "Inndataen er ikke en gyldig Base64-streng. Vennligst sjekk inndataen din.",
+      "inputLength": "Lengde",
+      "outputLength": "Utlengde",
+      "urlSafe": "URL-sikker",
+      "clear": "Tøm",
+      "emptyInputTitle": "Ingen inndata",
+      "emptyInputDescription": "Skriv inn tekst ovenfor for å se Base64-kodingen.",
+      "validInputTitle": "Klar til å kode",
+      "validInputDescription": "Teksten din er klar til å bli kodet.",
+      "validBase64Title": "Gyldig Base64",
+      "validBase64Description": "Base64-strengen er gyldig og klar til å dekodes."
+    }
+  }
+}

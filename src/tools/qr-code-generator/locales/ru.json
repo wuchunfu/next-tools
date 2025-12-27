@@ -1,0 +1,28 @@
+{
+  "tools": {
+    "qrcode-generator": {
+      "title": "Генератор QR-кода",
+      "description": "Создайте и скачайте QR-код для URL (или простого текста), настройте цвета фона и переднего плана.",
+      "cardTitle": "Генератор QR-кода",
+      "cardDescription": "Создавайте настраиваемые QR-коды для URL или текста с регулируемыми цветами и уровнями коррекции ошибок.",
+      "text": "Содержимое",
+      "yourLinkOrText": "Введите URL или текст для кодирования...",
+      "foregroundColor": "Передний план",
+      "backgroundColor": "Фон",
+      "errorResistance": "Уровень коррекции ошибок",
+      "downloadQrCode": "Скачать PNG",
+      "characters": "символов",
+      "colorSettings": "Настройки цвета",
+      "resetColors": "Сбросить",
+      "resetColorsTooltip": "Сбросить до цветов по умолчанию",
+      "levelLow": "Низкий (~7%)",
+      "levelMedium": "Средний (~15%)",
+      "levelQuartile": "Квартиль (~25%)",
+      "levelHigh": "Высокий (~30%)",
+      "selectLevel": "Выбрать уровень",
+      "errorResistanceHint": "Более высокие уровни допускают больше повреждений, но увеличивают плотность QR-кода.",
+      "preview": "Предпросмотр",
+      "emptyPreview": "Введите текст для генерации QR-кода"
+    }
+  }
+}

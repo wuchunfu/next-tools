@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "url-parser": {
+      "invalid": "Ugyldig URL",
+      "cardTitle": "URL-analysator",
+      "cardDescription": "Analyser URLs for å trekke ut deres komponenter (protokoll, vertnavn, sti, spørringsparametere osv.).",
+      "cardInputTitle": "URL-inndata",
+      "cardInputDescription": "Lim inn en URL nedenfor. Vi validerer den og viser komponenter og spørringsparametere.",
+      "cardOutputTitle": "Analyseresultat",
+      "cardOutputDescription": "Se gjennom og kopier URL-komponentene som er hentet fra inndataene dine.",
+      "inputPlaceholder": "Skriv inn URL-en som skal analyseres...",
+      "clear": "Tøm",
+      "invalidUrlTitle": "Ugyldig URL",
+      "urlComponents": "URL-komponenter",
+      "protocol": "Protokoll",
+      "username": "Brukernavn",
+      "password": "Passord",
+      "hostname": "Vertnavn",
+      "port": "Port",
+      "path": "Sti",
+      "search": "Søk",
+      "hash": "Hash",
+      "queryParameters": "Spørringsparametere",
+      "parameterName": "Parameter",
+      "parameterValue": "Verdi",
+      "enterUrlToParse": "Skriv inn en gyldig URL for å se dens komponenter."
+    }
+  }
+}

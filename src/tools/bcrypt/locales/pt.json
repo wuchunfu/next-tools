@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "bcrypt": {
+      "title": "Bcrypt",
+      "description": "Fazer hash e comparar strings de texto usando bcrypt. Bcrypt é uma função de hash de senha baseada na cifra Blowfish.",
+      "hash": "Hash",
+      "placeholder": "Sua string para bcrypt...",
+      "yourString": "Sua string:",
+      "saltCount": "Contagem de sal:",
+      "saltRounds": "Rounds de sal...",
+      "copyHash": "Copiar hash",
+      "copied": "String com hash copiada para a área de transferência",
+      "compareStringWithHash": "Comparar string com hash",
+      "stringToCompare": "Sua string para comparar...",
+      "yourHash": "Seu hash:",
+      "hashToCompare": "Seu hash para comparar...",
+      "doTheyMatch": "Eles correspondem?",
+      "yes": "Sim",
+      "no": "Não",
+      "enterBothFields": "Digite ambos os campos para comparar"
+    }
+  }
+}

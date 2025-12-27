@@ -1,0 +1,8 @@
+{
+  "tools": {
+    "text-diff": {
+      "cardTitle": "文本差异",
+      "cardDescription": "比较两段文本并高亮显示差异。"
+    }
+  }
+}

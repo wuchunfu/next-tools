@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "json-to-toml": {
+      "cardTitle": "JSON zu TOML Konverter",
+      "cardDescription": "Konvertieren Sie JSON-Format in TOML-Format. Fügen Sie Ihr JSON ein und erhalten Sie die TOML-Ausgabe.",
+      "cardInputTitle": "JSON-Eingabe",
+      "cardInputDescription": "Fügen Sie unten das JSON ein, das Sie konvertieren möchten. Wir validieren es und erzeugen anschließend die TOML-Ausgabe.",
+      "cardOutputTitle": "TOML-Ausgabe",
+      "cardOutputDescription": "Dies ist die TOML-Darstellung Ihres JSON. Sie können sie für die weitere Verwendung kopieren.",
+      "inputPlaceholder": "Fügen Sie hier Ihren JSON ein...",
+      "invalidJson": "Bereitgestellter JSON ist nicht gültig.",
+      "invalidJsonTitle": "Ungültiger JSON",
+      "outputError": "Ungültiges JSON-Format. Bitte überprüfen Sie Ihre Eingabe.",
+      "clear": "Löschen"
+    }
+  }
+}

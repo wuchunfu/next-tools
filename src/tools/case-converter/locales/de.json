@@ -1,0 +1,34 @@
+{
+  "tools": {
+    "case-converter": {
+      "title": "Groß-/Kleinschreibung-Konverter",
+      "description": "Transformieren Sie die Groß-/Kleinschreibung einer Zeichenkette und wählen Sie zwischen verschiedenen Formaten",
+      "cardTitle": "Groß-/Kleinschreibung-Konverter",
+      "cardDescription": "Transformieren Sie die Groß-/Kleinschreibung einer Zeichenkette und wählen Sie zwischen verschiedenen Formaten.",
+      "cardInputTitle": "Texteingabe",
+      "cardInputDescription": "Geben Sie unten Ihre Zeichenkette ein. Wir erzeugen gängige Schreibweisen für Programmierung und Text.",
+      "cardOutputTitle": "Alle Formate",
+      "cardOutputDescription": "Wählen Sie das benötigte Format aus und kopieren Sie es. Werte werden beim Tippen sofort aktualisiert.",
+      "yourString": "Ihre Zeichenkette",
+      "yourStringPlaceholder": "Geben Sie hier Ihren Text ein...",
+      "inputLength": "Länge",
+      "sanitizedLength": "Gültige Zeichen",
+      "clear": "Löschen",
+      "formatsTitle": "Alle Formate",
+      "lowercase": "Kleinbuchstaben",
+      "uppercase": "Großbuchstaben",
+      "camelcase": "Camelcase",
+      "capitalcase": "Capitalcase",
+      "constantcase": "Constantcase",
+      "dotcase": "Dotcase",
+      "headercase": "Headercase",
+      "nocase": "Nocase",
+      "paramcase": "Paramcase",
+      "pascalcase": "Pascalcase",
+      "pathcase": "Pathcase",
+      "sentencecase": "Sentencecase",
+      "snakecase": "Snakecase",
+      "mockingcase": "Mockingcase"
+    }
+  }
+}

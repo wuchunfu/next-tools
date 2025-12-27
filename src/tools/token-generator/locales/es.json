@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "token-generator": {
+      "title": "Generador de tokens",
+      "description": "Genera una cadena aleatoria con los caracteres que quieras, letras mayúsculas o minúsculas, números y/o símbolos.",
+      "uppercase": "Mayúsculas (ABC...)",
+      "lowercase": "Minúsculas (abc...)",
+      "numbers": "Números (123...)",
+      "symbols": "Símbolos (!-;...)",
+      "length": "Longitud",
+      "tokenPlaceholder": "El token...",
+      "copied": "Token copiado al portapapeles",
+      "cardOptionsTitle": "Opciones del token",
+      "cardOutputTitle": "Resultado del token",
+      "button": {
+        "copy": "Copiar",
+        "refresh": "Actualizar"
+      }
+    }
+  }
+}

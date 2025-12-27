@@ -1,0 +1,37 @@
+{
+  "tools": {
+    "phone-parser-and-formatter": {
+      "invalid": "Invalid phone number",
+      "country": "Country",
+      "countryName": "Country",
+      "countryCallingCode": "Country calling code",
+      "isValid": "Is valid?",
+      "isPossible": "Is possible?",
+      "type": "Type",
+      "international": "International format",
+      "national": "National format",
+      "e164": "E.164 format",
+      "rfc3966": "RFC3966 format",
+      "defaultCode": "Default country code:",
+      "placeholder": "Enter a phone number",
+      "label": "Phone number:",
+      "cardTitle": "Phone Parser & Formatter",
+      "cardDescription": "Parse a phone number and show formats and metadata.",
+      "cardResultsTitle": "Results",
+      "cardResultsDescription": "Parsed formats and metadata.",
+      "types": {
+        "MOBILE": "Mobile",
+        "FIXED_LINE": "Fixed line",
+        "FIXED_LINE_OR_MOBILE": "Fixed line or mobile",
+        "PERSONAL_NUMBER": "Personal number",
+        "PREMIUM_RATE": "Premium rate",
+        "SHARED_COST": "Shared cost",
+        "TOLL_FREE": "Toll free",
+        "UAN": "Universal access number",
+        "VOICEMAIL": "Voicemail",
+        "VOIP": "VoIP",
+        "PAGER": "Pager"
+      }
+    }
+  }
+}

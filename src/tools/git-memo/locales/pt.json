@@ -1,0 +1,8 @@
+{
+  "tools": {
+    "git-memo": {
+      "cardTitle": "Resumo de Git",
+      "cardDescription": "Comandos e fluxos de trabalho Git mais usados, organizados para consulta rápida."
+    }
+  }
+}

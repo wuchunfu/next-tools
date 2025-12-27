@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "bcrypt": {
+      "title": "Bcrypt",
+      "description": "Хеширование и сравнение текстовых строк с использованием bcrypt. Bcrypt - это функция хеширования паролей на основе шифра Blowfish.",
+      "hash": "Хеш",
+      "placeholder": "Ваша строка для bcrypt...",
+      "yourString": "Ваша строка:",
+      "saltCount": "Количество соли:",
+      "saltRounds": "Раунды соли...",
+      "copyHash": "Копировать хеш",
+      "copied": "Хешированная строка скопирована в буфер обмена",
+      "compareStringWithHash": "Сравнить строку с хешем",
+      "stringToCompare": "Ваша строка для сравнения...",
+      "yourHash": "Ваш хеш:",
+      "hashToCompare": "Ваш хеш для сравнения...",
+      "doTheyMatch": "Они совпадают?",
+      "yes": "Да",
+      "no": "Нет",
+      "enterBothFields": "Введите оба поля для сравнения"
+    }
+  }
+}

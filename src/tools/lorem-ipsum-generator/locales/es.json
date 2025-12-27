@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "lorem-ipsum-generator": {
+      "title": "Generador de Lorem ipsum",
+      "description": "Lorem ipsum es un texto de marcador de posición comúnmente usado para demostrar la forma visual de un documento o un tipo de letra sin depender de contenido significativo",
+      "optionsTitle": "Opciones",
+      "optionsDescription": "Configura cómo se genera el Lorem Ipsum",
+      "resultsTitle": "Texto generado",
+      "resultsDescription": "Vista previa del Lorem Ipsum generado",
+      "paragraphs": "Párrafos",
+      "sentencesPerParagraph": "Oraciones por párrafo",
+      "wordsPerSentence": "Palabras por oración",
+      "startWithLoremIpsum": "¿Empezar con lorem ipsum?",
+      "asHtml": "¿Como HTML?",
+      "placeholder": "Su lorem ipsum...",
+      "copy": "Copiar",
+      "refresh": "Actualizar",
+      "copied": "Lorem ipsum copiado al portapapeles"
+    }
+  }
+}

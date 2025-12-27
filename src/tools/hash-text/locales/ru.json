@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "hash-text": {
+      "title": "Хешировать текст",
+      "description": "Хешируйте текстовую строку, используя нужную функцию: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 или RIPEMD160",
+      "placeholder": "Ваша строка для хеширования...",
+      "yourTextToHash": "Ваш текст для хеширования:",
+      "digestEncoding": "Кодирование дайджеста",
+      "digestEncodingDescription": "Выберите формат вывода для хеш-значений.",
+      "binary": "Двоичный",
+      "binaryDescription": "Двоичный формат (основание 2).",
+      "hexadecimal": "Шестнадцатеричный",
+      "hexadecimalDescription": "Шестнадцатеричный формат (основание 16), наиболее часто используемый.",
+      "base64": "Base64",
+      "base64Description": "Формат Base64 (основание 64), компактное представление.",
+      "base64url": "Base64 URL",
+      "base64urlDescription": "Формат Base64, безопасный для URL, подходит для URL.",
+      "hashResults": "Результаты хеширования",
+      "noInput": "Введите текст выше, чтобы сгенерировать хеши",
+      "cardInputTitle": "Ввод и кодирование хеша",
+      "cardOutputTitle": "Результаты хеширования"
+    }
+  }
+}

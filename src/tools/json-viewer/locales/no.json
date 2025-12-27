@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "json-prettify": {
+      "title": "Formater og gjøre JSON penere",
+      "description": "Formater JSON-strengen din til et vennlig, lesbart format.",
+      "cardOptionsTitle": "Formateringsalternativer",
+      "cardOptionsDescription": "Juster innrykk og nøkkelsortering slik at det passer din foretrukne JSON-stil.",
+      "sortKeys": "Sorter nøkler",
+      "sortKeysHelp": "Sorter objekt-nøkler alfabetisk for en mer stabil og lesbar output.",
+      "indentSize": "Innrykksstørrelse",
+      "indentHint": "Antall mellomrom som brukes til innrykk (0–10).",
+      "cardInputTitle": "JSON-inngang",
+      "cardInputDescription": "Lim inn JSON-en din nedenfor. Vi validerer den (JSON5-kompatibel) og genererer en formatert versjon.",
+      "pasteYourRawJson": "Lim inn din rå JSON her...",
+      "cardOutputTitle": "Formatert JSON",
+      "cardOutputDescription": "Se gjennom og kopier den formaterte JSON-outputen.",
+      "prettifiedVersion": "Formatert versjon av JSON-en din",
+      "invalidJson": "Den oppgitte JSON-en er ikke gyldig.",
+      "invalidJsonTitle": "Ugyldig JSON"
+    }
+  }
+}

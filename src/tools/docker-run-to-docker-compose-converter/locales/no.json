@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "docker-run-to-compose": {
+      "cardInputTitle": "docker run-kommando",
+      "cardInputDescription": "Lim inn docker run-kommandoen nedenfor for å konvertere den til en docker-compose.yml-tjenestedefinisjon.",
+      "cardOutputTitle": "Generert docker-compose.yml",
+      "cardOutputDescription": "Se gjennom, kopier eller last ned den genererte docker-compose-konfigurasjonen.",
+      "inputLabel": "Din docker run-kommando:",
+      "inputPlaceholder": "Din docker run-kommando å konvertere...",
+      "download": "Last ned docker-compose.yml",
+      "clear": "Tøm kommando",
+      "notComposableTitle": "Disse alternativene kan ikke oversettes til docker-compose",
+      "notImplementedTitle": "Disse alternativene er ikke implementert ennå og er derfor ikke oversatt til docker-compose",
+      "errorsTitle": "Følgende feil oppstod"
+    }
+  }
+}

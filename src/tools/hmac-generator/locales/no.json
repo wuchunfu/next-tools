@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "hmac-generator": {
+      "copied": "HMAC kopiert til utklippstavlen",
+      "plainPlaceholder": "Klartekst for å beregne hashen...",
+      "plainLabel": "Klartekst for å beregne hashen",
+      "secretPlaceholder": "Skriv inn den hemmelige nøkkelen...",
+      "secretLabel": "Hemmelig nøkkel",
+      "hashFunction": "Hash-funksjon",
+      "hashPlaceholder": "Velg en hash-funksjon...",
+      "encoding": "Utdata-koding",
+      "encodingPlaceholder": "Velg resultatkodingen...",
+      "binary": "Binær (base 2)",
+      "hex": "Heksadesimal (base 16)",
+      "base64": "Base64 (base 64)",
+      "base64url": "Base64-url (base 64 med URL-sikre tegn)",
+      "resultPlaceholder": "Resultatet av HMAC...",
+      "resultLabel": "HMAC av teksten din",
+      "copy": "Kopier HMAC",
+      "cardInputTitle": "HMAC-inndata og valg",
+      "cardOutputTitle": "HMAC-resultat"
+    }
+  }
+}

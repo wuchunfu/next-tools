@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "hash-text": {
+      "title": "Hash 文本",
+      "description": "使用所需的函数哈希文本字符串：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3或RIPEMD160",
+      "placeholder": "要哈希的字符串...",
+      "yourTextToHash": "要哈希的文本：",
+      "digestEncoding": "摘要编码",
+      "digestEncodingDescription": "选择哈希值的输出格式。",
+      "binary": "二进制",
+      "binaryDescription": "二进制格式（基数 2）。",
+      "hexadecimal": "十六进制",
+      "hexadecimalDescription": "十六进制格式（基数 16），最常用。",
+      "base64": "Base64",
+      "base64Description": "Base64 格式（基数 64），紧凑表示。",
+      "base64url": "Base64 URL",
+      "base64urlDescription": "Base64 URL 安全格式，适用于 URL。",
+      "hashResults": "哈希结果",
+      "noInput": "在上方输入文本以生成哈希值",
+      "cardInputTitle": "哈希输入与编码",
+      "cardOutputTitle": "哈希结果"
+    }
+  }
+}

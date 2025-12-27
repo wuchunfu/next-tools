@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "bip39-generator": {
+      "entropyLength": "Độ dài entropy phải ≥ 16, ≤ 32 và là bội số của 4",
+      "entropyHex": "Entropy phải là chuỗi thập lục phân",
+      "invalidMnemonic": "Cụm mnemonic không hợp lệ",
+      "copyEntropy": "Đã sao chép entropy vào clipboard",
+      "copyPassphrase": "Đã sao chép cụm mnemonic vào clipboard",
+      "generateNewEntropy": "Tạo entropy mới",
+      "languageLabel": "Ngôn ngữ",
+      "languageDescription": "Chọn ngôn ngữ danh sách từ để tạo mnemonic BIP39.",
+      "entropyLabel": "Entropy",
+      "entropyDescription": "Giá trị seed ở dạng hex (16–32 ký tự, bội số của 4).",
+      "entropyPlaceholder": "Nhập entropy thập lục phân...",
+      "passphraseLabel": "Cụm mnemonic",
+      "passphraseDescription": "Cụm mnemonic BIP39 (12 hoặc 24 từ).",
+      "passphrasePlaceholder": "Nhập cụm mnemonic...",
+      "cardLanguageTitle": "Ngôn ngữ cụm mnemonic",
+      "cardEntropyTitle": "Entropy",
+      "cardPassphraseTitle": "Cụm mnemonic",
+      "languages": {
+        "english": "Tiếng Anh",
+        "chinese-simplified": "Tiếng Trung giản thể",
+        "chinese-traditional": "Tiếng Trung phồn thể",
+        "czech": "Tiếng Séc",
+        "french": "Tiếng Pháp",
+        "italian": "Tiếng Ý",
+        "japanese": "Tiếng Nhật",
+        "korean": "Tiếng Hàn",
+        "portuguese": "Tiếng Bồ Đào Nha",
+        "spanish": "Tiếng Tây Ban Nha"
+      }
+    }
+  }
+}

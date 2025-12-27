@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-binary": {
+      "title": "文本到 ASCII 二进制",
+      "description": "将文本转换为其 ASCII 二进制表示形式，反之亦然。",
+      "cardTextToBinaryTitle": "文本转二进制",
+      "cardTextToBinaryDescription": "将文本转换为其 ASCII 二进制表示形式。",
+      "cardBinaryToTextTitle": "二进制转文本",
+      "cardBinaryToTextDescription": "将 ASCII 二进制表示形式转换回文本。",
+      "textPlaceholder": "例如：'Hello world'",
+      "enterTextToConvert": "输入要转换的文本",
+      "inputLength": "长度",
+      "outputLength": "长度",
+      "bytes": "字节",
+      "clear": "清除",
+      "binaryFromText": "二进制输出",
+      "binaryPlaceholder": "您文本的二进制表示将显示在这里",
+      "binaryInputPlaceholder": "例如：'01001000 01100101 01101100 01101100 01101111'",
+      "enterBinaryToConvert": "输入要转换的二进制",
+      "textFromBinary": "文本输出",
+      "textOutputPlaceholder": "您二进制的文本表示将显示在这里",
+      "invalidBinary": "二进制应该是有效的 ASCII 二进制字符串，且为 8 位的倍数"
+    }
+  }
+}

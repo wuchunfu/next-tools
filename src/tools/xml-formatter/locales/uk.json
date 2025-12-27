@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "xml-formatter": {
+      "invalid": "Наданий XML недійсний.",
+      "invalidXmlTitle": "Недійсний XML",
+      "collapse": "Згорнути вміст:",
+      "collapseHint": "Згортати текстовий вміст в один рядок, коли це можливо.",
+      "indent": "Розмір відступу:",
+      "indentHint": "Кількість пробілів для відступу (0–10).",
+      "cardOptionsTitle": "Параметри форматування",
+      "cardOptionsDescription": "Налаштуйте відступи та згортання, щоб відповідало вашому стилю XML.",
+      "cardInputTitle": "Ввід XML",
+      "cardInputDescription": "Вставте XML нижче. Ми перевіримо його та згенеруємо відформатовану версію.",
+      "cardOutputTitle": "Відформатований XML",
+      "cardOutputDescription": "Перегляньте та скопіюйте відформатований XML.",
+      "inputLabel": "Ваш XML",
+      "inputPlaceholder": "Вставте ваш XML тут...",
+      "outputLabel": "Відформатований XML з вашого XML"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "tools": {
+    "camera-recorder": {
+      "cardTitle": "Gravador de Câmera",
+      "cardDescription": "Capture capturas de tela e grave vídeos da sua webcam.",
+      "notSupportedTitle": "Não suportado",
+      "notSupported": "Seu navegador não suporta gravação de vídeo da câmera",
+      "permissionRequired": "Permissão necessária",
+      "needPermission": "Você precisa conceder permissão para usar sua câmera e microfone",
+      "permissionBlockedTitle": "Permissão bloqueada",
+      "permissionBlocked": "Seu navegador bloqueou a solicitação de permissão ou não a suporta. Você precisa conceder a permissão manualmente nas configurações do navegador (geralmente o ícone de cadeado na barra de endereços).",
+      "grant": "Conceder permissão",
+      "deviceSettings": "Configurações do dispositivo",
+      "video": "Câmera",
+      "audio": "Microfone",
+      "selectCamera": "Selecionar câmera",
+      "selectMic": "Selecionar microfone",
+      "unknownCamera": "Câmera",
+      "unknownMic": "Microfone",
+      "start": "Iniciar webcam",
+      "screenshot": "Captura",
+      "screenshotTooltip": "Capturar o quadro atual como imagem",
+      "startRecording": "Iniciar gravação",
+      "recording": "Gravando",
+      "paused": "Pausado",
+      "pause": "Pausar",
+      "resume": "Retomar",
+      "stop": "Parar",
+      "noRecord": "A gravação de vídeo não é suportada no seu navegador",
+      "gallery": "Mídia capturada",
+      "screenshotLabel": "Captura",
+      "videoLabel": "Vídeo",
+      "download": "Baixar",
+      "delete": "Excluir",
+      "stopCamera": "Parar câmera",
+      "stopCameraTooltip": "Desligar webcam"
+    }
+  }
+}

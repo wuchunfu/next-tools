@@ -1,0 +1,28 @@
+{
+  "tools": {
+    "color-converter": {
+      "colorPicker": "вибір кольору",
+      "hex": "hex",
+      "hexPlaceholder": "напр. #ff0000",
+      "rgb": "rgb",
+      "rgbPlaceholder": "напр. rgb(255, 0, 0)",
+      "hsl": "hsl",
+      "hslPlaceholder": "напр. hsl(0, 100%, 50%)",
+      "hwb": "hwb",
+      "hwbPlaceholder": "напр. hwb(0, 0%, 0%)",
+      "lch": "lch",
+      "lchPlaceholder": "напр. lch(53.24, 104.55, 40.85)",
+      "cmyk": "cmyk",
+      "cmykPlaceholder": "напр. cmyk(0, 100%, 100%, 0)",
+      "name": "ім'я",
+      "namePlaceholder": "напр. червоний",
+      "unknown": "Невідомо",
+      "cardPickerTitle": "Вибір Кольору",
+      "cardPickerDescription": "Виберіть колір за допомогою палітри кольорів.",
+      "cardFormatsTitle": "Формати Кольору",
+      "cardFormatsDescription": "Конвертуйте між різними форматами кольорів. Відредагуйте будь-яке поле, щоб оновити всі формати.",
+      "colorInfo": "Інформація про Колір",
+      "alpha": "Альфа"
+    }
+  }
+}

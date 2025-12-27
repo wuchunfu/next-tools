@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "ipv4-subnet-calculator": {
+      "inputLabel": "带或不带掩码的 IPv4 地址",
+      "inputPlaceholder": "IPv4 地址...",
+      "cannotParseAddress": "无法解析此地址，请检查格式",
+      "netmask": "网络掩码",
+      "networkAddress": "网络地址",
+      "networkMask": "网络掩码",
+      "networkMaskInBinary": "二进制网络掩码",
+      "cidrNotation": "CIDR 表示法",
+      "wildcardMask": "通配符掩码",
+      "networkSize": "网络大小",
+      "firstAddress": "第一个地址",
+      "lastAddress": "最后一个地址",
+      "broadcastAddress": "广播地址",
+      "noBroadcastAddress": "此掩码没有广播地址",
+      "ipClass": "IP 类别",
+      "unknownClassType": "未知类别类型",
+      "previousBlock": "上一个块",
+      "nextBlock": "下一个块",
+      "cardInputTitle": "IPv4 地址",
+      "cardInputDescription": "输入带或不带 CIDR 表示法的 IPv4 地址以计算子网信息。",
+      "cardResultsTitle": "子网信息",
+      "cardResultsDescription": "输入 IPv4 地址的详细网络和子网信息。",
+      "invalidAddressTitle": "无效地址",
+      "property": "属性",
+      "value": "值"
+    }
+  }
+}

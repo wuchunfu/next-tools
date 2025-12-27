@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "ipv4-address-converter": {
+      "inputLabel": "Адреса IPv4:",
+      "inputPlaceholder": "Адреса IPv4...",
+      "placeholder": "Встановіть правильну адресу IPv4",
+      "invalidIpv4": "Невірна адреса IPv4",
+      "decimal": "Десятковий:",
+      "hexadecimal": "Шістнадцятковий:",
+      "binary": "Двійковий:",
+      "ipv6": "IPv6:",
+      "ipv6Short": "IPv6 (короткий):",
+      "cardInputTitle": "Адреса IPv4",
+      "cardInputDescription": "Введіть адресу IPv4 для перетворення в різні формати (десятковий, шістнадцятковий, двійковий, IPv6).",
+      "cardResultsTitle": "Перетворені формати",
+      "cardResultsDescription": "Перегляньте адресу IPv4 в різних системах числення та форматах IPv6.",
+      "invalidAddressTitle": "Недійсна адреса",
+      "format": "Формат",
+      "value": "Значення"
+    }
+  }
+}

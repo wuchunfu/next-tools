@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "svg-placeholder-generator": {
+      "cardTitle": "Generador de Marcadores SVG",
+      "cardDescription": "Genera imágenes SVG de marcador personalizables con dimensiones, colores y texto personalizados.",
+      "dimensions": "Dimensiones",
+      "width": "Ancho (px)",
+      "widthPlaceholder": "Ancho SVG...",
+      "height": "Alto (px)",
+      "heightPlaceholder": "Alto SVG...",
+      "fontSize": "Tamaño de fuente (px)",
+      "fontSizePlaceholder": "Tamaño de fuente...",
+      "customText": "Texto personalizado",
+      "customPlaceholder": "Por defecto es {width}x{height}",
+      "useExact": "Usar tamaño exacto en atributos SVG",
+      "colorSettings": "Configuración de Colores",
+      "background": "Fondo",
+      "textColor": "Color del texto",
+      "preview": "Vista previa",
+      "svgHtml": "Elemento HTML SVG",
+      "svgBase64": "SVG en Base64",
+      "copySvg": "Copiar SVG",
+      "copySvgTooltip": "Copiar código HTML SVG",
+      "copyBase64": "Copiar Base64",
+      "copyBase64Tooltip": "Copiar URL de datos Base64",
+      "downloadSvg": "Descargar",
+      "downloadSvgTooltip": "Descargar como archivo SVG",
+      "imageAlt": "Vista previa SVG"
+    }
+  }
+}

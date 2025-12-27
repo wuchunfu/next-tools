@@ -1,0 +1,39 @@
+{
+  "tools": {
+    "camera-recorder": {
+      "cardTitle": "Enregistreur Caméra",
+      "cardDescription": "Capturez des captures d'écran et enregistrez des vidéos depuis votre webcam.",
+      "notSupportedTitle": "Non supporté",
+      "notSupported": "Votre navigateur ne supporte pas l'enregistrement vidéo depuis la caméra",
+      "permissionRequired": "Permission requise",
+      "needPermission": "Vous devez accorder la permission d'utiliser votre caméra et votre microphone",
+      "permissionBlockedTitle": "Permission bloquée",
+      "permissionBlocked": "Votre navigateur a bloqué la demande de permission ou ne la supporte pas. Vous devez accorder la permission manuellement dans les paramètres de votre navigateur (généralement l'icône de cadenas dans la barre d'adresse).",
+      "grant": "Accorder la permission",
+      "deviceSettings": "Paramètres des appareils",
+      "video": "Caméra",
+      "audio": "Microphone",
+      "selectCamera": "Sélectionner la caméra",
+      "selectMic": "Sélectionner le microphone",
+      "unknownCamera": "Caméra",
+      "unknownMic": "Microphone",
+      "start": "Démarrer la webcam",
+      "screenshot": "Capture",
+      "screenshotTooltip": "Capturer l'image actuelle",
+      "startRecording": "Démarrer l'enregistrement",
+      "recording": "Enregistrement",
+      "paused": "En pause",
+      "pause": "Pause",
+      "resume": "Reprendre",
+      "stop": "Arrêter",
+      "noRecord": "L'enregistrement vidéo n'est pas supporté dans votre navigateur",
+      "gallery": "Médias capturés",
+      "screenshotLabel": "Capture",
+      "videoLabel": "Vidéo",
+      "download": "Télécharger",
+      "delete": "Supprimer",
+      "stopCamera": "Arrêter caméra",
+      "stopCameraTooltip": "Éteindre la webcam"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "bcrypt": {
+      "title": "加密",
+      "description": "使用bcrypt对文本字符串进行哈希和比较。Bcrypt是一个基于Blowfish密码的密码哈希函数。",
+      "hash": "哈希",
+      "placeholder": "要 bcrypt 的字符串...",
+      "yourString": "您的字符串：",
+      "saltCount": "盐计数：",
+      "saltRounds": "盐轮数...",
+      "copyHash": "复制哈希",
+      "copied": "哈希字符串已复制到剪贴板",
+      "compareStringWithHash": "比较字符串与哈希",
+      "stringToCompare": "要比较的字符串...",
+      "yourHash": "您的哈希：",
+      "hashToCompare": "要比较的哈希...",
+      "doTheyMatch": "它们匹配吗？",
+      "yes": "是",
+      "no": "否",
+      "enterBothFields": "请输入两个字段进行比较"
+    }
+  }
+}

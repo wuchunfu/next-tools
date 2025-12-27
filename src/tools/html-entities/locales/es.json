@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "html-entities": {
+      "title": "Escapar entidades HTML",
+      "description": "Escapar o sin escapar entidades HTML (reemplazar caracteres como <,>, &, \" y \\' con su versión HTML)",
+      "cardEscapeTitle": "Escapar entidades HTML",
+      "cardEscapeDescription": "Escapar entidades HTML (reemplazar caracteres como <, >, &, \" y ' con su versión HTML).",
+      "cardUnescapeTitle": "Sin escapar entidades HTML",
+      "cardUnescapeDescription": "Sin escapar entidades HTML (convertir entidades HTML de vuelta a sus caracteres originales).",
+      "inputLabel": "Su cadena",
+      "inputPlaceholder": "Ingrese la cadena a escapar...",
+      "outputLabel": "Cadena escapada",
+      "outputPlaceholder": "La cadena escapada aparecerá aquí...",
+      "unescapeInputLabel": "Su cadena escapada",
+      "unescapeInputPlaceholder": "Ingrese la cadena HTML escapada a sin escapar...",
+      "unescapeOutputLabel": "Cadena sin escapar",
+      "unescapeOutputPlaceholder": "La cadena sin escapar aparecerá aquí...",
+      "clear": "Limpiar"
+    }
+  }
+}

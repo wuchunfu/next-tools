@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "wifi-qrcode-generator": {
+      "cardTitle": "WiFi QR Code Generator",
+      "cardDescription": "Generate QR codes for easy WiFi network sharing. Scan to connect instantly.",
+      "networkSettings": "Network Settings",
+      "encryptionMethod": "Encryption method",
+      "noPassword": "No password",
+      "wpaWpa2": "WPA/WPA2",
+      "wep": "WEP",
+      "wpa2Eap": "WPA2-EAP",
+      "ssidLabel": "Network Name (SSID)",
+      "ssidPlaceholder": "Your WiFi SSID...",
+      "hiddenSsid": "Hidden SSID",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Your WiFi Password...",
+      "eapSettings": "EAP Settings",
+      "eapMethod": "EAP method",
+      "selectEapMethod": "Select EAP method",
+      "identityLabel": "Identity",
+      "identityPlaceholder": "Your EAP Identity...",
+      "anonymous": "Anonymous",
+      "eapPhase2Method": "EAP Phase 2 method",
+      "selectPhase2": "Select Phase 2 method",
+      "colorSettings": "Color Settings",
+      "foregroundColor": "Foreground",
+      "backgroundColor": "Background",
+      "resetColors": "Reset",
+      "resetColorsTooltip": "Reset to default colors",
+      "preview": "Preview",
+      "emptyPreview": "Enter network details to generate QR code",
+      "downloadQrCode": "Download PNG"
+    }
+  }
+}

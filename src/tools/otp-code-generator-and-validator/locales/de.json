@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "otp-generator": {
+      "secretBase32": "Geheimnis sollte eine Base32-Zeichenkette sein",
+      "secretRequired": "Bitte setzen Sie ein Geheimnis",
+      "secret": "Geheimnis",
+      "secretPlaceholder": "Fügen Sie Ihr TOTP-Geheimnis ein...",
+      "generateTooltip": "Neues zufälliges Geheimnis generieren",
+      "nextIn": "Nächstes in {seconds}s",
+      "openKeyUri": "Key URI in neuem Tab öffnen",
+      "secretHex": "Geheimnis in Hexadezimal",
+      "secretHexPlaceholder": "Geheimnis in Hex wird hier angezeigt",
+      "epoch": "Epoche",
+      "epochPlaceholder": "Epoche in Sekunden wird hier angezeigt",
+      "iteration": "Iteration",
+      "count": "Anzahl:",
+      "countPlaceholder": "Iterationsanzahl wird hier angezeigt",
+      "countHexPlaceholder": "Iterationsanzahl in Hex wird hier angezeigt",
+      "countHexLabel": "Mit Nullen aufgefülltes Hex:",
+      "previous": "Vorherige",
+      "current": "Aktuelles OTP",
+      "next": "Nächste",
+      "copyPrevious": "Vorheriges OTP kopieren",
+      "copyCurrent": "Aktuelles OTP kopieren",
+      "copyNext": "Nächstes OTP kopieren",
+      "cardLiveCodes": "Live-OTP-Codes",
+      "liveCodesDescription": "Beobachte vorherigen, aktuellen und nächsten TOTP und kopiere mit einem Klick.",
+      "regenerate": "Secret neu generieren",
+      "cardSecret": "Secret & QR",
+      "secretHint": "Verwende ein Base32-Secret (A-Z, 2-7). Generiere neu oder füge dein eigenes ein.",
+      "qrCodeLabel": "Scanne diesen QR-Code mit deiner Authenticator-App",
+      "cardDetails": "Technische Details"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tools": {
+    "mac-address-lookup": {
+      "cardInputTitle": "MAC 地址",
+      "cardInputDescription": "输入 MAC 地址，从 OUI（组织唯一标识符）数据库中查找厂商信息。",
+      "cardResultsTitle": "厂商信息",
+      "cardResultsDescription": "根据 MAC 地址前缀从 OUI 数据库检索的厂商信息。",
+      "invalidAddressTitle": "无效的 MAC 地址",
+      "invalidMacAddress": "无效的 MAC 地址",
+      "placeholder": "输入 MAC 地址",
+      "unknown": "未找到该地址的厂商信息",
+      "copied": "厂商信息已复制到剪贴板"
+    }
+  }
+}

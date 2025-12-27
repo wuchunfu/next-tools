@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "token-generator": {
+      "title": "Token generator",
+      "description": "Generer en tilfeldig streng med store og/eller små bokstaver, siffer og/eller symboler.",
+      "uppercase": "Store bokstaver (ABC...)",
+      "lowercase": "Små bokstaver (abc...)",
+      "numbers": "Siffer (123...)",
+      "symbols": "Symboler (!-;...)",
+      "length": "Lengde",
+      "tokenPlaceholder": "Tokenet...",
+      "copied": "Tokenet er kopiert til utklippstavlen.",
+      "cardOptionsTitle": "Token-alternativer",
+      "cardOutputTitle": "Token-resultat",
+      "button": {
+        "copy": "Kopier",
+        "refresh": "Oppfrisk"
+      }
+    }
+  }
+}

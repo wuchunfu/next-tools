@@ -1,0 +1,39 @@
+{
+  "tools": {
+    "camera-recorder": {
+      "cardTitle": "Kamera-Rekorder",
+      "cardDescription": "Erfassen Sie Screenshots und nehmen Sie Videos von Ihrer Webcam auf.",
+      "notSupportedTitle": "Nicht unterstützt",
+      "notSupported": "Ihr Browser unterstützt keine Videoaufnahme von der Kamera",
+      "permissionRequired": "Berechtigung erforderlich",
+      "needPermission": "Sie müssen die Berechtigung zur Verwendung Ihrer Kamera und Ihres Mikrofons erteilen",
+      "permissionBlockedTitle": "Berechtigung blockiert",
+      "permissionBlocked": "Ihr Browser hat die Berechtigungsanfrage blockiert oder unterstützt sie nicht. Sie müssen die Berechtigung manuell in Ihren Browsereinstellungen erteilen (normalerweise das Schlosssymbol in der Adressleiste).",
+      "grant": "Berechtigung erteilen",
+      "deviceSettings": "Geräteeinstellungen",
+      "video": "Kamera",
+      "audio": "Mikrofon",
+      "selectCamera": "Kamera auswählen",
+      "selectMic": "Mikrofon auswählen",
+      "unknownCamera": "Kamera",
+      "unknownMic": "Mikrofon",
+      "start": "Webcam starten",
+      "screenshot": "Screenshot",
+      "screenshotTooltip": "Aktuelles Bild als Bild erfassen",
+      "startRecording": "Aufnahme starten",
+      "recording": "Aufnahme",
+      "paused": "Pausiert",
+      "pause": "Pause",
+      "resume": "Fortsetzen",
+      "stop": "Stopp",
+      "noRecord": "Videoaufnahme wird in Ihrem Browser nicht unterstützt",
+      "gallery": "Erfasste Medien",
+      "screenshotLabel": "Screenshot",
+      "videoLabel": "Video",
+      "download": "Herunterladen",
+      "delete": "Löschen",
+      "stopCamera": "Kamera stoppen",
+      "stopCameraTooltip": "Webcam ausschalten"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "tools": {
+    "slugify-string": {
+      "cardTitle": "String-Slugifier",
+      "cardDescription": "Konvertieren Sie Zeichenketten in URL-freundliche Slugs. Perfekt für Dateinamen, URLs und Identifikatoren.",
+      "inputPlaceholder": "Geben Sie hier Ihre Zeichenkette ein (z.B. Mein Dateipfad)",
+      "outputPlaceholder": "Ihr Slug wird hier generiert (z.B. mein-dateipfad)",
+      "cardInputTitle": "Ausgangstext",
+      "cardInputDescription": "Fügen Sie Text ein, um einen URL-freundlichen Slug zu erzeugen. Ideal für URLs, Dateinamen und Identifikatoren.",
+      "cardOutputTitle": "Generierter Slug",
+      "cardOutputDescription": "Kopieren Sie den generierten Slug und verwenden Sie ihn in URLs, Dateinamen oder IDs."
+    }
+  }
+}

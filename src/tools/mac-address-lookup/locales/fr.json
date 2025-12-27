@@ -1,0 +1,15 @@
+{
+  "tools": {
+    "mac-address-lookup": {
+      "cardInputTitle": "Adresse MAC",
+      "cardInputDescription": "Entrez une adresse MAC pour rechercher les informations du fabricant dans la base de données OUI (Organizationally Unique Identifier).",
+      "cardResultsTitle": "Informations du fabricant",
+      "cardResultsDescription": "Informations du fabricant récupérées de la base de données OUI basées sur le préfixe de l'adresse MAC.",
+      "invalidAddressTitle": "Adresse MAC invalide",
+      "invalidMacAddress": "Adresse MAC invalide",
+      "placeholder": "Saisissez une adresse MAC",
+      "unknown": "Fabricant inconnu pour cette adresse",
+      "copied": "Informations du fabricant copiées dans le presse-papiers"
+    }
+  }
+}

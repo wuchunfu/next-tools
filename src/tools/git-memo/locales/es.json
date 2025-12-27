@@ -1,0 +1,8 @@
+{
+  "tools": {
+    "git-memo": {
+      "cardTitle": "Chuleta de Git",
+      "cardDescription": "Comandos y flujos de trabajo de Git más usados, organizados para consulta rápida."
+    }
+  }
+}

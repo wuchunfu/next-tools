@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "base-converter": {
+      "inputNumber": "Input number",
+      "inputPlaceholder": "Put your number here (ex: 42)",
+      "inputBase": "Input base",
+      "inputBasePlaceholder": "Put your input base here (ex: 10)",
+      "binary": "Binary (2)",
+      "binaryPlaceholder": "Binary version will be here...",
+      "octal": "Octal (8)",
+      "octalPlaceholder": "Octal version will be here...",
+      "decimal": "Decimal (10)",
+      "decimalPlaceholder": "Decimal version will be here...",
+      "hexadecimal": "Hexadecimal (16)",
+      "hexadecimalPlaceholder": "Hexadecimal version will be here...",
+      "base64": "Base64 (64)",
+      "base64Placeholder": "Base64 version will be here...",
+      "custom": "Custom",
+      "customPlaceholder": "Base {base} will be here...",
+      "cardInputTitle": "Number & bases",
+      "cardInputDescription": "Enter a value, pick input and output bases.",
+      "cardOutputTitle": "Converted values",
+      "cardOutputDescription": "Copy any base instantly.",
+      "inputLength": "Length",
+      "useExample": "Use example",
+      "clear": "Clear",
+      "customBaseLabel": "Custom base",
+      "outputPresetsTitle": "Quick outputs",
+      "customOutputTitle": "Custom output",
+      "errorTitle": "Conversion error",
+      "validTitle": "Ready to copy",
+      "validHint": "All outputs stay in sync with your input."
+    }
+  }
+}

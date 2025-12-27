@@ -1,0 +1,36 @@
+{
+  "tools": {
+    "pdf-signature-checker": {
+      "uploadTitle": "Drag and drop a PDF file here, or click to select a file",
+      "noSignatures": "No signatures found in the provided file.",
+      "signatureCertificates": "Signature {index} certificates :",
+      "validityPeriod": "Validity period",
+      "issuedBy": "Issued by",
+      "issuedTo": "Issued to",
+      "pemCertificate": "PEM certificate",
+      "notBefore": "Not before",
+      "notAfter": "Not after",
+      "commonName": "Common name",
+      "organizationName": "Organization name",
+      "countryName": "Country name",
+      "localityName": "Locality name",
+      "organizationalUnitName": "Organizational unit name",
+      "stateOrProvinceName": "State or province name",
+      "certificateName": "Certificate {index}",
+      "viewPemCert": "View PEM cert",
+      "cardUploadTitle": "Upload PDF",
+      "cardResultTitle": "Signatures",
+      "statusLabel": "Status",
+      "statusIdle": "Waiting for PDF",
+      "statusLoading": "Verifying signatures...",
+      "statusParsed": "Signatures parsed",
+      "statusError": "No signatures found",
+      "fileInfo": "File info",
+      "noFileSelected": "No file selected yet",
+      "signaturesCount": "{count} signature(s) found",
+      "uploadCta": "Click to select a PDF",
+      "uploadHint": "Drag & drop a PDF here to verify signatures",
+      "uploadButton": "Choose PDF"
+    }
+  }
+}

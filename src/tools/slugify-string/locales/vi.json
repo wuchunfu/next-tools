@@ -1,0 +1,14 @@
+{
+  "tools": {
+    "slugify-string": {
+      "cardTitle": "Bộ chuyển đổi slug",
+      "cardDescription": "Chuyển đổi chuỗi thành slug thân thiện với URL. Hoàn hảo cho tên tệp, URL và định danh.",
+      "inputPlaceholder": "Đặt chuỗi của bạn ở đây (vd: Đường dẫn tệp của tôi)",
+      "outputPlaceholder": "Slug của bạn sẽ được tạo ở đây (vd: duong-dan-tep-cua-toi)",
+      "cardInputTitle": "Văn bản gốc",
+      "cardInputDescription": "Dán văn bản để tạo slug thân thiện với URL. Phù hợp cho URL, tên tệp và định danh.",
+      "cardOutputTitle": "Slug đã tạo",
+      "cardOutputDescription": "Sao chép slug đã tạo và dùng cho URL, tên tệp hoặc ID."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tools": {
+    "string-obfuscator": {
+      "copied": "Cadena ofuscada copiada",
+      "cardInputTitle": "Opciones",
+      "cardInputDescription": "Configure cómo se debe ofuscar la cadena",
+      "cardResultsTitle": "Ofuscado",
+      "cardResultsDescription": "Vista previa de la cadena ofuscada",
+      "placeholder": "Ingrese una cadena para ofuscar",
+      "label": "Cadena para ofuscar:",
+      "keepFirst": "Mantener primero:",
+      "keepLast": "Mantener último:",
+      "keepSpaces": "Mantener espacios:"
+    }
+  }
+}

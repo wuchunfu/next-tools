@@ -1,0 +1,27 @@
+{
+  "tools": {
+    "mime-types": {
+      "mimeToExt": {
+        "title": "MIME-type til utvidelse",
+        "subtitle": "Vet hvilke filutvidelser som er tilknyttet en MIME-type",
+        "placeholder": "Velg din MIME-type her... (f.eks. application/pdf)",
+        "resultPrefix": "Utvidelser av filer med",
+        "resultSuffix": "MIME-type:"
+      },
+      "extToMime": {
+        "title": "Filutvidelse til MIME-type",
+        "subtitle": "Vet hvilken MIME-type som er tilknyttet en filutvidelse",
+        "placeholder": "Velg din utvidelse her... (f.eks. application/pdf)",
+        "resultPrefix": "MIME-type tilknyttet utvidelsen",
+        "resultSuffix": "filutvidelse:"
+      },
+      "table": {
+        "mime": "MIME-typer",
+        "extensions": "Utvidelser"
+      },
+      "tableTitle": "Alle MIME-typer",
+      "tableSubtitle": "Bla gjennom den fullstendige listen over MIME-typer og deres utvidelser.",
+      "clear": "Tøm"
+    }
+  }
+}

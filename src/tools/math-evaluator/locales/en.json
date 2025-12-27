@@ -1,0 +1,12 @@
+{
+  "tools": {
+    "math-evaluator": {
+      "cardInputTitle": "Math expression",
+      "cardInputDescription": "Enter a math expression using standard operators and functions (e.g. 2 * sqrt(6) + sin(pi / 4)).",
+      "cardResultTitle": "Evaluation result",
+      "cardResultDescription": "The evaluated result of your expression.",
+      "placeholder": "Your math expression (ex: 2*sqrt(6) )...",
+      "result": "Result"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "bip39-generator": {
+      "entropyLength": "La longueur d’entropie doit être ≥ 16, ≤ 32 et un multiple de 4",
+      "entropyHex": "L’entropie doit être une chaîne hexadécimale",
+      "invalidMnemonic": "Mnémonique invalide",
+      "copyEntropy": "Entropie copiée dans le presse-papiers",
+      "copyPassphrase": "Phrase secrète copiée dans le presse-papiers",
+      "generateNewEntropy": "Générer une nouvelle entropie",
+      "languageLabel": "Langue",
+      "languageDescription": "Choisissez la langue de la liste de mots pour générer la mnémonique BIP39.",
+      "entropyLabel": "Entropie",
+      "entropyDescription": "Valeur de graine en hexadécimal (16-32 caractères, multiple de 4).",
+      "entropyPlaceholder": "Saisissez l’entropie en hexadécimal...",
+      "passphraseLabel": "Phrase mnémonique",
+      "passphraseDescription": "Phrase mnémonique BIP39 (12 ou 24 mots).",
+      "passphrasePlaceholder": "Saisissez la phrase mnémonique...",
+      "cardLanguageTitle": "Langue de la mnémonique",
+      "cardEntropyTitle": "Source d’entropie",
+      "cardPassphraseTitle": "Phrase mnémonique",
+      "languages": {
+        "english": "Anglais",
+        "chinese-simplified": "Chinois simplifié",
+        "chinese-traditional": "Chinois traditionnel",
+        "czech": "Tchèque",
+        "french": "Français",
+        "italian": "Italien",
+        "japanese": "Japonais",
+        "korean": "Coréen",
+        "portuguese": "Portugais",
+        "spanish": "Espagnol"
+      }
+    }
+  }
+}

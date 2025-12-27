@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "url-encoder": {
+      "title": "Encode/decode URL-formatted strings",
+      "description": "Encode text to URL-encoded format (also known as \"percent-encoded\"), or decode from it.",
+      "cardEncodeTitle": "URL Encode",
+      "cardEncodeDescription": "Encode text to URL-encoded format (also known as \"percent-encoded\").",
+      "cardDecodeTitle": "URL Decode",
+      "cardDecodeDescription": "Decode URL-encoded strings back to their original text.",
+      "inputLabel": "Your string",
+      "inputPlaceholder": "Enter the string to encode...",
+      "outputLabel": "Encoded string",
+      "outputPlaceholder": "Encoded string will appear here...",
+      "decodeInputLabel": "Your encoded string",
+      "decodeInputPlaceholder": "Enter the URL-encoded string to decode...",
+      "decodeOutputLabel": "Decoded string",
+      "decodeOutputPlaceholder": "Decoded string will appear here...",
+      "clear": "Clear",
+      "impossibleToParse": "Impossible to parse this string"
+    }
+  }
+}

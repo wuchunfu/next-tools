@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "encryption": {
+      "title": "Mã hóa / giải mã văn bản",
+      "description": "Mã hóa văn bản rõ và giải mã văn bản đã mã hóa bằng các thuật toán mật mã như AES, TripleDES, Rabbit hoặc RC4.",
+      "encrypt": "Mã hóa",
+      "yourText": "Văn bản của bạn:",
+      "stringToCypher": "Chuỗi cần mã hóa",
+      "yourSecretKey": "Khóa bí mật của bạn:",
+      "encryptionAlgorithm": "Thuật toán mã hóa:",
+      "yourTextEncrypted": "Văn bản đã mã hóa của bạn:",
+      "stringHash": "Hash của chuỗi của bạn",
+      "decrypt": "Giải mã",
+      "yourEncryptedText": "Văn bản đã mã hóa của bạn:",
+      "yourDecryptedText": "Văn bản đã giải mã của bạn:",
+      "errorWhileDecrypting": "Lỗi khi giải mã",
+      "unableToDecrypt": "Không thể giải mã văn bản của bạn"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "eta-calculator": {
+      "exampleTitle": "Exemple",
+      "example": "Avec un exemple concret, si vous lavez 5 assiettes en 3 minutes et que vous avez 500 assiettes à laver, il vous faudra 5 heures pour toutes les laver.",
+      "cardInputTitle": "Paramètres d'entrée",
+      "cardInputDescription": "Entrez la quantité d'éléments à consommer, l'heure de début et le taux de consommation pour calculer l'heure d'arrivée estimée.",
+      "cardResultsTitle": "Résultats du calcul",
+      "cardResultsDescription": "Heure d'arrivée estimée et heure de fin basées sur vos paramètres d'entrée.",
+      "amountOfElement": "Quantité d'éléments à consommer",
+      "consumptionStartedAt": "La consommation a commencé à",
+      "amountOfUnitConsumed": "Quantité d'unités consommées par période",
+      "timeSpan": "Période de temps",
+      "hour": "Heure",
+      "minute": "Minute",
+      "in": "en",
+      "milliseconds": "millisecondes",
+      "seconds": "secondes",
+      "minutes": "minutes",
+      "hours": "heures",
+      "days": "jours",
+      "totalDuration": "Durée totale",
+      "itWillEnd": "Cela se terminera"
+    }
+  }
+}

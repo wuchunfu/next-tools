@@ -1,0 +1,40 @@
+{
+  "tools": {
+    "date-converter": {
+      "jsLocaleDateString": "Строка даты локали JS",
+      "iso8601": "ISO 8601",
+      "iso9075": "ISO 9075",
+      "rfc3339": "RFC 3339",
+      "rfc7231": "RFC 7231",
+      "unixTimestamp": "Временная метка Unix",
+      "timestamp": "Временная метка",
+      "utcFormat": "Формат UTC",
+      "mongoObjectId": "Mongo ObjectID",
+      "excelDateTime": "Дата/время Excel",
+      "inputPlaceholder": "Вставьте вашу строку даты здесь...",
+      "invalidDate": "Эта дата недействительна для этого формата",
+      "invalidDatePlaceholder": "Недействительная дата...",
+      "cardInputTitle": "Ввод даты и формат",
+      "cardInputDescription": "Вставьте или введите дату — мы автоматически определим формат.",
+      "inputLabel": "Поле даты",
+      "actionUseNow": "Использовать текущее время",
+      "actionClear": "Очистить ввод",
+      "formatTitle": "Формат",
+      "formatDescription": "Определяется автоматически по вводу, либо выберите вручную.",
+      "jsLocaleDateStringDescription": "Нативная строка даты JavaScript (учитывает локаль)",
+      "iso8601Description": "Стандартное представление ISO 8601",
+      "iso9075Description": "Формат даты/времени ISO 9075",
+      "rfc3339Description": "Метка времени RFC 3339 с часовым поясом",
+      "rfc7231Description": "Дата HTTP (RFC 7231)",
+      "unixTimestampDescription": "Секунды с эпохи Unix",
+      "timestampDescription": "Миллисекунды с эпохи Unix",
+      "utcFormatDescription": "Строковое представление UTC",
+      "mongoObjectIdDescription": "Первые 4 байта Mongo ObjectID как Unix-время",
+      "excelDateTimeDescription": "Серийный номер даты/времени Excel",
+      "cardOutputTitle": "Преобразованные результаты",
+      "cardOutputDescription": "Копируйте любой формат мгновенно. Все выводы синхронизированы.",
+      "validDateTitle": "Дата выглядит корректной",
+      "validDateDescription": "Все форматы ниже синхронизированы с вашим вводом."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "wifi-qrcode-generator": {
+      "cardTitle": "Trình tạo mã QR WiFi",
+      "cardDescription": "Tạo mã QR để chia sẻ mạng WiFi dễ dàng. Quét để kết nối ngay lập tức.",
+      "networkSettings": "Cài đặt mạng",
+      "encryptionMethod": "Phương thức mã hóa",
+      "noPassword": "Không có mật khẩu",
+      "wpaWpa2": "WPA/WPA2",
+      "wep": "WEP",
+      "wpa2Eap": "WPA2-EAP",
+      "ssidLabel": "Tên mạng (SSID)",
+      "ssidPlaceholder": "SSID WiFi của bạn...",
+      "hiddenSsid": "SSID ẩn",
+      "passwordLabel": "Mật khẩu",
+      "passwordPlaceholder": "Mật khẩu WiFi của bạn...",
+      "eapSettings": "Cài đặt EAP",
+      "eapMethod": "Phương thức EAP",
+      "selectEapMethod": "Chọn phương thức EAP",
+      "identityLabel": "Danh tính",
+      "identityPlaceholder": "Danh tính EAP của bạn...",
+      "anonymous": "Ẩn danh",
+      "eapPhase2Method": "Phương thức EAP Giai đoạn 2",
+      "selectPhase2": "Chọn phương thức Giai đoạn 2",
+      "colorSettings": "Cài đặt màu sắc",
+      "foregroundColor": "Màu nền trước",
+      "backgroundColor": "Màu nền",
+      "resetColors": "Đặt lại",
+      "resetColorsTooltip": "Đặt lại về màu mặc định",
+      "preview": "Xem trước",
+      "emptyPreview": "Nhập thông tin mạng để tạo mã QR",
+      "downloadQrCode": "Tải PNG"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "ipv6-ula-generator": {
+      "cardInputTitle": "Dirección MAC",
+      "cardInputDescription": "Ingrese una dirección MAC para generar prefijos IPv6 ULA (Unique Local Address) usando el método recomendado por IETF.",
+      "cardResultsTitle": "Prefijos IPv6 ULA generados",
+      "cardResultsDescription": "Prefijos IPv6 ULA generados basados en su dirección MAC. Haga clic en cualquier valor para copiarlo al portapapeles.",
+      "invalidAddressTitle": "Dirección MAC inválida",
+      "invalidMacAddress": "Dirección MAC inválida",
+      "label": "Etiqueta",
+      "value": "Valor",
+      "ula": "IPv6 ULA",
+      "first": "Primer bloque enrutable",
+      "last": "Último bloque enrutable",
+      "infoTitle": "Información",
+      "info": "Esta herramienta utiliza el primer método sugerido por IETF usando la marca de tiempo actual más la dirección MAC, hash SHA1, y los 40 bits inferiores para generar su ULA aleatoria.",
+      "placeholder": "Escriba una dirección MAC"
+    }
+  }
+}

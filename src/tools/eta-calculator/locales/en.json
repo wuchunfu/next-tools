@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "eta-calculator": {
+      "exampleTitle": "Example",
+      "example": "With a concrete example, if you wash 5 plates in 3 minutes and you have 500 plates to wash, it will take you 5 hours to wash them all.",
+      "cardInputTitle": "Input parameters",
+      "cardInputDescription": "Enter the amount of elements to consume, start time, and consumption rate to calculate the estimated time of arrival.",
+      "cardResultsTitle": "Calculation results",
+      "cardResultsDescription": "Estimated time of arrival and completion time based on your input parameters.",
+      "amountOfElement": "Amount of element to consume",
+      "consumptionStartedAt": "The consumption started at",
+      "amountOfUnitConsumed": "Amount of unit consumed by time span",
+      "timeSpan": "Time span",
+      "hour": "Hour",
+      "minute": "Minute",
+      "in": "in",
+      "milliseconds": "milliseconds",
+      "seconds": "seconds",
+      "minutes": "minutes",
+      "hours": "hours",
+      "days": "days",
+      "totalDuration": "Total duration",
+      "itWillEnd": "It will end"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "ipv6-ula-generator": {
+      "cardInputTitle": "MAC 地址",
+      "cardInputDescription": "输入 MAC 地址，使用 IETF 推荐的方法生成 IPv6 ULA（唯一本地地址）前缀。",
+      "cardResultsTitle": "生成的 IPv6 ULA 前缀",
+      "cardResultsDescription": "根据您的 MAC 地址生成的 IPv6 ULA 前缀。点击任何值可将其复制到剪贴板。",
+      "invalidAddressTitle": "无效的 MAC 地址",
+      "invalidMacAddress": "无效的 MAC 地址",
+      "label": "标签",
+      "value": "值",
+      "ula": "IPv6 ULA",
+      "first": "首个可路由块",
+      "last": "最后可路由块",
+      "infoTitle": "说明",
+      "info": "本工具按照 IETF 建议的第一种方法：使用当前时间戳加 MAC 地址，经 SHA1 后取低 40 位生成随机 ULA。",
+      "placeholder": "输入 MAC 地址"
+    }
+  }
+}

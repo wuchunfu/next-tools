@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "json-prettify": {
+      "title": "JSON prettify and format",
+      "description": "Prettify your JSON string into a friendly, human-readable format.",
+      "cardOptionsTitle": "Formatting options",
+      "cardOptionsDescription": "Tune indentation and key sorting behavior to match your preferred JSON style.",
+      "sortKeys": "Sort keys",
+      "sortKeysHelp": "Sort object keys alphabetically for a more stable and readable output.",
+      "indentSize": "Indent size",
+      "indentHint": "Number of spaces to use for indentation (0–10).",
+      "cardInputTitle": "JSON input",
+      "cardInputDescription": "Paste your JSON below. We will validate it (JSON5 compatible) and generate a formatted version.",
+      "pasteYourRawJson": "Paste your raw JSON here...",
+      "cardOutputTitle": "Formatted JSON",
+      "cardOutputDescription": "Review and copy the formatted JSON output.",
+      "prettifiedVersion": "Prettified version of your JSON",
+      "invalidJson": "Provided JSON is not valid.",
+      "invalidJsonTitle": "Invalid JSON"
+    }
+  }
+}

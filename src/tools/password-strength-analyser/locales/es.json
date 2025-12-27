@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "password-strength-analyser": {
+      "inputPlaceholder": "Ingrese una contraseña...",
+      "passwordLength": "Longitud de la contraseña:",
+      "entropy": "Entropía:",
+      "charsetLength": "Tamaño del conjunto de caracteres:",
+      "score": "Puntuación:",
+      "durationToCrack": "Duración para descifrar esta contraseña con fuerza bruta",
+      "note": "Nota",
+      "noteDescription": "La resistencia calculada se basa en el tiempo que tomaría descifrar la contraseña usando un enfoque de fuerza bruta, no tiene en cuenta la posibilidad de un ataque de diccionario.",
+      "cardInputTitle": "Entrada de contraseña",
+      "cardResultTitle": "Estimación de tiempo de crackeo",
+      "cardMetricsTitle": "Métricas de fortaleza",
+      "timeUnits": {
+        "instantly": "Instantáneamente",
+        "lessThanASecond": "Menos de un segundo",
+        "millenium": "milenio",
+        "millennia": "milenios",
+        "century": "siglo",
+        "centuries": "siglos",
+        "decade": "década",
+        "decades": "décadas",
+        "year": "año",
+        "years": "años",
+        "month": "mes",
+        "months": "meses",
+        "week": "semana",
+        "weeks": "semanas",
+        "day": "día",
+        "days": "días",
+        "hour": "hora",
+        "hours": "horas",
+        "minute": "minuto",
+        "minutes": "minutos",
+        "second": "segundo",
+        "seconds": "segundos"
+      }
+    }
+  }
+}

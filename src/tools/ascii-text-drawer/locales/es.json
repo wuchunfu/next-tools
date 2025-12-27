@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "ascii-text-drawer": {
+      "yourText": "Su texto:",
+      "yourTextToDraw": "Su texto para dibujar",
+      "font": "Fuente:",
+      "selectFont": "Seleccionar fuente a usar",
+      "width": "Ancho:",
+      "widthPlaceholder": "Ancho del texto",
+      "loadingFont": "Cargando fuente...",
+      "error": "La configuración actual resultó en un error.",
+      "asciiArtText": "Texto ASCII art:",
+      "cardOptionsTitle": "Opciones",
+      "cardOptionsDescription": "Configura el texto de entrada, la fuente y el ancho para el arte ASCII.",
+      "cardResultsTitle": "Resultados",
+      "cardResultsDescription": "Previsualiza y copia el arte ASCII generado."
+    }
+  }
+}

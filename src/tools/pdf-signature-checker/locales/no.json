@@ -1,0 +1,36 @@
+{
+  "tools": {
+    "pdf-signature-checker": {
+      "uploadTitle": "Dra og slipp en PDF-fil her, eller klikk for å velge en fil",
+      "noSignatures": "Ingen signaturer funnet i den oppgitte filen.",
+      "signatureCertificates": "Signatur {index} sertifikater :",
+      "validityPeriod": "Gyldighetsperiode",
+      "issuedBy": "Utstedt av",
+      "issuedTo": "Utstedt til",
+      "pemCertificate": "PEM-sertifikat",
+      "notBefore": "Ikke før",
+      "notAfter": "Ikke etter",
+      "commonName": "Felles navn",
+      "organizationName": "Organisasjonsnavn",
+      "countryName": "Landnavn",
+      "localityName": "Stedsnavn",
+      "organizationalUnitName": "Organisasjonsenhetsnavn",
+      "stateOrProvinceName": "Stat eller provinsnavn",
+      "certificateName": "Sertifikat {index}",
+      "viewPemCert": "Vis PEM-sertifikat",
+      "cardUploadTitle": "Last opp PDF",
+      "cardResultTitle": "Signaturer",
+      "statusLabel": "Status",
+      "statusIdle": "Venter på PDF",
+      "statusLoading": "Verifiserer signaturer...",
+      "statusParsed": "Signaturer analysert",
+      "statusError": "Ingen signaturer funnet",
+      "fileInfo": "Filinformasjon",
+      "noFileSelected": "Ingen fil valgt ennå",
+      "signaturesCount": "{count} signatur(er) funnet",
+      "uploadCta": "Klikk for å velge en PDF",
+      "uploadHint": "Dra og slipp en PDF her for å verifisere signaturer",
+      "uploadButton": "Velg PDF"
+    }
+  }
+}

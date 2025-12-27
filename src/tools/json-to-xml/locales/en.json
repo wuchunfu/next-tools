@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "json-to-xml": {
+      "cardTitle": "JSON to XML Converter",
+      "cardDescription": "Convert JSON format to XML format. Paste your JSON and get the XML output.",
+      "cardInputTitle": "JSON input",
+      "cardInputDescription": "Paste the JSON you want to convert. We will validate it and then generate the XML output.",
+      "cardOutputTitle": "XML output",
+      "cardOutputDescription": "This is the XML representation of your JSON. You can copy it for further use.",
+      "inputPlaceholder": "Paste your JSON content here...",
+      "invalidJson": "Provided JSON is not valid.",
+      "invalidJsonTitle": "Invalid JSON",
+      "outputError": "Invalid JSON format. Please check your input.",
+      "clear": "Clear",
+      "formatXml": "Format XML"
+    }
+  }
+}

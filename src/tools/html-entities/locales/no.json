@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "html-entities": {
+      "title": "Escape HTML-enheter",
+      "description": "Escape eller unescape HTML-enheter (erstatt tegn som <,>, &, \" og \\' med deres HTML-versjon)",
+      "cardEscapeTitle": "Escape HTML-enheter",
+      "cardEscapeDescription": "Escape HTML-enheter (erstatt tegn som <, >, &, \" og ' med deres HTML-versjon).",
+      "cardUnescapeTitle": "Unescape HTML-enheter",
+      "cardUnescapeDescription": "Unescape HTML-enheter (konverter HTML-enheter tilbake til deres opprinnelige tegn).",
+      "inputLabel": "Din streng",
+      "inputPlaceholder": "Skriv inn strengen som skal escapes...",
+      "outputLabel": "Escapet streng",
+      "outputPlaceholder": "Escapet streng vil vises her...",
+      "unescapeInputLabel": "Din escapede streng",
+      "unescapeInputPlaceholder": "Skriv inn den HTML-escapede strengen som skal unescapes...",
+      "unescapeOutputLabel": "Unescapet streng",
+      "unescapeOutputPlaceholder": "Unescapet streng vil vises her...",
+      "clear": "Tøm"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "hmac-generator": {
+      "copied": "HMAC скопійовано в буфер обміну",
+      "plainPlaceholder": "Відкритий текст для обчислення хешу...",
+      "plainLabel": "Відкритий текст для обчислення хешу",
+      "secretPlaceholder": "Введіть секретний ключ...",
+      "secretLabel": "Секретний ключ",
+      "hashFunction": "Хеш-функція",
+      "hashPlaceholder": "Виберіть хеш-функцію...",
+      "encoding": "Кодування виводу",
+      "encodingPlaceholder": "Виберіть кодування результату...",
+      "binary": "Двійковий (основа 2)",
+      "hex": "Шістнадцятковий (основа 16)",
+      "base64": "Base64 (основа 64)",
+      "base64url": "Base64-url (основа 64 з URL-безпечними символами)",
+      "resultPlaceholder": "Результат HMAC...",
+      "resultLabel": "HMAC вашого рядка",
+      "copy": "Копіювати HMAC",
+      "cardInputTitle": "Ввід та параметри HMAC",
+      "cardOutputTitle": "Результат HMAC"
+    }
+  }
+}

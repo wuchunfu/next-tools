@@ -1,0 +1,34 @@
+{
+  "tools": {
+    "case-converter": {
+      "title": "Конвертер регистра",
+      "description": "Преобразуйте регистр строки и выберите между различными форматами",
+      "cardTitle": "Конвертер регистра",
+      "cardDescription": "Преобразуйте регистр строки и выберите между различными форматами.",
+      "cardInputTitle": "Ввод текста",
+      "cardInputDescription": "Введите строку ниже. Мы сгенерируем распространённые форматы регистра для программирования и текста.",
+      "cardOutputTitle": "Все форматы",
+      "cardOutputDescription": "Выберите нужный формат и скопируйте. Значения обновляются мгновенно при вводе.",
+      "yourString": "Ваша строка",
+      "yourStringPlaceholder": "Введите ваш текст здесь...",
+      "inputLength": "Длина",
+      "sanitizedLength": "Допустимые символы",
+      "clear": "Очистить",
+      "formatsTitle": "Все форматы",
+      "lowercase": "Строчные",
+      "uppercase": "Заглавные",
+      "camelcase": "Camelcase",
+      "capitalcase": "Capitalcase",
+      "constantcase": "Constantcase",
+      "dotcase": "Dotcase",
+      "headercase": "Headercase",
+      "nocase": "Nocase",
+      "paramcase": "Paramcase",
+      "pascalcase": "Pascalcase",
+      "pathcase": "Pathcase",
+      "sentencecase": "Sentencecase",
+      "snakecase": "Snakecase",
+      "mockingcase": "Mockingcase"
+    }
+  }
+}

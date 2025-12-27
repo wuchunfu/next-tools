@@ -1,0 +1,34 @@
+{
+  "tools": {
+    "case-converter": {
+      "title": "Store/små bokstaver-konverter",
+      "description": "Transformer store/små bokstaver i en streng og velg mellom forskjellige formater",
+      "cardTitle": "Store/små bokstaver-konverter",
+      "cardDescription": "Transformer store/små bokstaver i en streng og velg mellom forskjellige formater.",
+      "cardInputTitle": "Tekstinndata",
+      "cardInputDescription": "Skriv inn strengen din nedenfor. Vi genererer vanlige store-/småbokstav-formater for programmering og tekst.",
+      "cardOutputTitle": "Alle formater",
+      "cardOutputDescription": "Velg formatet du trenger og kopier det. Verdiene oppdateres umiddelbart mens du skriver.",
+      "yourString": "Din streng",
+      "yourStringPlaceholder": "Skriv inn teksten din her...",
+      "inputLength": "Lengde",
+      "sanitizedLength": "Gyldige tegn",
+      "clear": "Tøm",
+      "formatsTitle": "Alle formater",
+      "lowercase": "Små bokstaver",
+      "uppercase": "Store bokstaver",
+      "camelcase": "Camelcase",
+      "capitalcase": "Capitalcase",
+      "constantcase": "Constantcase",
+      "dotcase": "Dotcase",
+      "headercase": "Headercase",
+      "nocase": "Nocase",
+      "paramcase": "Paramcase",
+      "pascalcase": "Pascalcase",
+      "pathcase": "Pathcase",
+      "sentencecase": "Sentencecase",
+      "snakecase": "Snakecase",
+      "mockingcase": "Mockingcase"
+    }
+  }
+}

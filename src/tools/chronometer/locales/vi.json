@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "chronometer": {
+      "title": "Đồng hồ bấm giờ",
+      "description": "Theo dõi thời lượng của một thứ. Về cơ bản là một đồng hồ bấm giờ với các tính năng đơn giản.",
+      "button": {
+        "start": "Bắt đầu",
+        "stop": "Dừng",
+        "reset": "Đặt lại",
+        "record": "Ghi lại",
+        "clearRecords": "Xóa bản ghi"
+      },
+      "records": {
+        "title": "Bản ghi",
+        "empty": "Chưa có bản ghi"
+      }
+    }
+  }
+}

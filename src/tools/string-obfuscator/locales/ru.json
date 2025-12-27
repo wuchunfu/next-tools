@@ -1,0 +1,16 @@
+{
+  "tools": {
+    "string-obfuscator": {
+      "copied": "Замаскированная строка скопирована",
+      "cardInputTitle": "Параметры",
+      "cardInputDescription": "Настройте, как должна быть маскированна строка",
+      "cardResultsTitle": "Маскированная",
+      "cardResultsDescription": "Предпросмотр маскированной строки",
+      "placeholder": "Введите строку для маскировки",
+      "label": "Строка для маскировки:",
+      "keepFirst": "Сохранить первые:",
+      "keepLast": "Сохранить последние:",
+      "keepSpaces": "Сохранить пробелы:"
+    }
+  }
+}

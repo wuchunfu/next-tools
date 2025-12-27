@@ -1,0 +1,36 @@
+{
+  "tools": {
+    "pdf-signature-checker": {
+      "uploadTitle": "将 PDF 拖放到此处，或点击选择文件",
+      "noSignatures": "在提供的文件中未找到签名。",
+      "signatureCertificates": "签名 {index} 的证书：",
+      "validityPeriod": "有效期",
+      "issuedBy": "签发者",
+      "issuedTo": "签发给",
+      "pemCertificate": "PEM 证书",
+      "notBefore": "生效时间",
+      "notAfter": "失效时间",
+      "commonName": "公共名称",
+      "organizationName": "组织名称",
+      "countryName": "国家名称",
+      "localityName": "城市/地区",
+      "organizationalUnitName": "组织单位名称",
+      "stateOrProvinceName": "州/省名称",
+      "certificateName": "证书 {index}",
+      "viewPemCert": "查看 PEM 证书",
+      "cardUploadTitle": "上传 PDF",
+      "cardResultTitle": "签名",
+      "statusLabel": "状态",
+      "statusIdle": "等待 PDF",
+      "statusLoading": "正在验证签名...",
+      "statusParsed": "已解析签名",
+      "statusError": "未找到签名",
+      "fileInfo": "文件信息",
+      "noFileSelected": "尚未选择文件",
+      "signaturesCount": "找到 {count} 个签名",
+      "uploadCta": "点击选择 PDF",
+      "uploadHint": "拖拽 PDF 至此即可验证签名",
+      "uploadButton": "选择 PDF"
+    }
+  }
+}

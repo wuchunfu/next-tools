@@ -1,0 +1,34 @@
+{
+  "tools": {
+    "case-converter": {
+      "title": "Convertidor de mayúsculas/minúsculas",
+      "description": "Transforme las mayúsculas/minúsculas de una cadena y elija entre diferentes formatos",
+      "cardTitle": "Convertidor de mayúsculas/minúsculas",
+      "cardDescription": "Transforme las mayúsculas/minúsculas de una cadena y elija entre diferentes formatos.",
+      "cardInputTitle": "Entrada de texto",
+      "cardInputDescription": "Ingrese su cadena abajo. Generaremos formatos de mayúsculas/minúsculas comunes para programación y texto.",
+      "cardOutputTitle": "Todos los formatos",
+      "cardOutputDescription": "Elija el formato que necesite y cópielo. Los valores se actualizan al instante mientras escribe.",
+      "yourString": "Su cadena",
+      "yourStringPlaceholder": "Ingrese su texto aquí...",
+      "inputLength": "Longitud",
+      "sanitizedLength": "Caracteres válidos",
+      "clear": "Limpiar",
+      "formatsTitle": "Todos los formatos",
+      "lowercase": "Minúsculas",
+      "uppercase": "Mayúsculas",
+      "camelcase": "Camelcase",
+      "capitalcase": "Capitalcase",
+      "constantcase": "Constantcase",
+      "dotcase": "Dotcase",
+      "headercase": "Headercase",
+      "nocase": "Nocase",
+      "paramcase": "Paramcase",
+      "pascalcase": "Pascalcase",
+      "pathcase": "Pathcase",
+      "sentencecase": "Sentencecase",
+      "snakecase": "Snakecase",
+      "mockingcase": "Mockingcase"
+    }
+  }
+}

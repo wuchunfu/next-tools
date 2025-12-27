@@ -1,0 +1,14 @@
+{
+  "tools": {
+    "slugify-string": {
+      "cardTitle": "字符串 Slug 转换器",
+      "cardDescription": "将字符串转换为 URL 友好的 slug。非常适合文件名、URL 和标识符。",
+      "inputPlaceholder": "在此输入您的字符串（例如：My file path）",
+      "outputPlaceholder": "您的 slug 将在此生成（例如：my-file-path）",
+      "cardInputTitle": "原始文本",
+      "cardInputDescription": "在下方粘贴文本，我们会生成 URL 友好的 slug，适用于 URL、文件名与标识符。",
+      "cardOutputTitle": "生成的 slug",
+      "cardOutputDescription": "复制生成的 slug，用于 URL、文件名或 ID。"
+    }
+  }
+}

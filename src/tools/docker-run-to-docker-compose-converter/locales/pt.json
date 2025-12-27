@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "docker-run-to-compose": {
+      "cardInputTitle": "Comando docker run",
+      "cardInputDescription": "Cole abaixo seu comando docker run para convertê-lo em uma definição de serviço docker-compose.yml.",
+      "cardOutputTitle": "docker-compose.yml gerado",
+      "cardOutputDescription": "Revise, copie ou baixe a configuração docker-compose gerada.",
+      "inputLabel": "Seu comando docker run:",
+      "inputPlaceholder": "Seu comando docker run para converter...",
+      "download": "Baixar docker-compose.yml",
+      "clear": "Limpar comando",
+      "notComposableTitle": "Essas opções não podem ser traduzidas para docker-compose",
+      "notImplementedTitle": "Essas opções ainda não estão implementadas e, portanto, não foram traduzidas para docker-compose",
+      "errorsTitle": "Os seguintes erros ocorreram"
+    }
+  }
+}

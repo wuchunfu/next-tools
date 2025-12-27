@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "uuid-generator": {
+      "title": "UUID-Generator",
+      "description": "Ein Universally Unique Identifier (UUID) ist eine 128-Bit-Zahl, die zur Identifizierung von Informationen in Computersystemen verwendet wird. Die Anzahl möglicher UUIDs beträgt 16^32, was 2^128 oder etwa 3,4x10^38 entspricht (das ist eine Menge!).",
+      "uuidVersion": "UUID-Version",
+      "uuidVersionDescription": "Wählen Sie die zu generierende UUID-Version.",
+      "versionNIL": "NIL",
+      "versionNILDescription": "Die Null-UUID (alle Nullen).",
+      "versionV1": "Version 1",
+      "versionV1Description": "Zeitbasierte UUID mit Zeitstempel und MAC-Adresse.",
+      "versionV3": "Version 3",
+      "versionV3Description": "Namensbasierte UUID mit MD5-Hashing und Namespace.",
+      "versionV4": "Version 4",
+      "versionV4Description": "Zufällige UUID (am häufigsten verwendet).",
+      "versionV5": "Version 5",
+      "versionV5Description": "Namensbasierte UUID mit SHA-1-Hashing und Namespace.",
+      "quantity": "Menge",
+      "uuidQuantity": "UUID-Menge",
+      "namespace": "Namespace",
+      "namespaceDescription": "Wählen Sie einen vordefinierten Namespace oder geben Sie eine benutzerdefinierte UUID ein.",
+      "namespaceDNS": "DNS",
+      "namespaceDNSDescription": "Domain Name System Namespace.",
+      "namespaceURL": "URL",
+      "namespaceURLDescription": "Uniform Resource Locator Namespace.",
+      "namespaceOID": "OID",
+      "namespaceOIDDescription": "Object Identifier Namespace.",
+      "namespaceX500": "X.500",
+      "namespaceX500Description": "X.500 Distinguished Name Namespace.",
+      "namespaceCustom": "Benutzerdefiniert",
+      "namespaceCustomDescription": "Geben Sie einen benutzerdefinierten UUID-Namespace ein.",
+      "name": "Name",
+      "yourUuids": "Ihre UUIDs",
+      "copy": "Kopieren",
+      "refresh": "Aktualisieren",
+      "invalidUuid": "Ungültige UUID",
+      "copied": "UUIDs in die Zwischenablage kopiert",
+      "cardConfigTitle": "UUID-Konfiguration"
+    }
+  }
+}

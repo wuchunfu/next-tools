@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "uuid-generator": {
+      "title": "UUIDs 生成器",
+      "description": "通用唯一标识符（UUID）是一个128位数字，用于标识计算机系统中的信息。可能的UUID数量为16^32，即2^128或约3.4x10^38（这是一个很大的数字！）。",
+      "uuidVersion": "UUID 版本",
+      "uuidVersionDescription": "选择要生成的 UUID 版本。",
+      "versionNIL": "NIL",
+      "versionNILDescription": "空 UUID（全零）。",
+      "versionV1": "版本 1",
+      "versionV1Description": "基于时间戳和 MAC 地址的时间型 UUID。",
+      "versionV3": "版本 3",
+      "versionV3Description": "基于 MD5 哈希和命名空间的名称型 UUID。",
+      "versionV4": "版本 4",
+      "versionV4Description": "随机 UUID（最常用）。",
+      "versionV5": "版本 5",
+      "versionV5Description": "基于 SHA-1 哈希和命名空间的名称型 UUID。",
+      "quantity": "数量",
+      "uuidQuantity": "UUID 数量",
+      "namespace": "命名空间",
+      "namespaceDescription": "选择预定义的命名空间或输入自定义 UUID。",
+      "namespaceDNS": "DNS",
+      "namespaceDNSDescription": "域名系统命名空间。",
+      "namespaceURL": "URL",
+      "namespaceURLDescription": "统一资源定位符命名空间。",
+      "namespaceOID": "OID",
+      "namespaceOIDDescription": "对象标识符命名空间。",
+      "namespaceX500": "X.500",
+      "namespaceX500Description": "X.500 可分辨名称命名空间。",
+      "namespaceCustom": "自定义",
+      "namespaceCustomDescription": "输入自定义 UUID 命名空间。",
+      "name": "名称",
+      "yourUuids": "您的 UUID",
+      "copy": "复制",
+      "refresh": "刷新",
+      "invalidUuid": "无效的 UUID",
+      "copied": "UUID 已复制到剪贴板",
+      "cardConfigTitle": "UUID 配置"
+    }
+  }
+}

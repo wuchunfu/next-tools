@@ -1,0 +1,46 @@
+import { Math } from '@vicons/tabler';
+import { computed } from 'vue';
+import { translate } from '@/plugins/i18n.plugin';
+import { defineTool } from '../tool';
+
+export const tool = defineTool({
+  name: computed(() => translate('tools.math-evaluator.title')),
+  path: '/math-evaluator',
+  key: 'math-evaluator',
+  description: computed(() => translate('tools.math-evaluator.description')),
+  keywords: [
+    'math',
+    'evaluator',
+    'calculator',
+    'expression',
+    'abs',
+    'acos',
+    'acosh',
+    'acot',
+    'acoth',
+    'acsc',
+    'acsch',
+    'asec',
+    'asech',
+    'asin',
+    'asinh',
+    'atan',
+    'atan2',
+    'atanh',
+    'cos',
+    'cosh',
+    'cot',
+    'coth',
+    'csc',
+    'csch',
+    'sec',
+    'sech',
+    'sin',
+    'sinh',
+    'sqrt',
+    'tan',
+    'tanh',
+  ],
+  component: () => import('./math-evaluator.vue'),
+  icon: Math,
+})

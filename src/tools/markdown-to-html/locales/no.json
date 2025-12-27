@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "markdown-to-html": {
+      "cardTitle": "Markdown til HTML Konverter",
+      "cardDescription": "Konverter Markdown-format til HTML-format. Lim inn din Markdown og få HTML-utdataene.",
+      "cardInputTitle": "Markdown-inndata",
+      "cardInputDescription": "Skriv eller lim inn Markdown nedenfor. Vi konverterer den til HTML og viser en forhåndsvisning.",
+      "cardOutputTitle": "HTML-utdata",
+      "cardOutputDescription": "Bytt mellom forhåndsvisning og HTML-kode. Du kan også skrive ut rendret HTML som PDF.",
+      "inputPlaceholder": "Ditt Markdown-innhold...",
+      "clear": "Tøm",
+      "printAsPdf": "Skriv ut som PDF",
+      "printTooltip": "Skriv ut HTML som PDF",
+      "printTitle": "Markdown til HTML",
+      "preview": "Forhåndsvisning",
+      "htmlCode": "HTML-kode",
+      "previewPlaceholder": "Forhåndsvisning vil vises her...",
+      "previewTitle": "Markdown-forhåndsvisning",
+      "formatHtml": "Formater HTML"
+    }
+  }
+}

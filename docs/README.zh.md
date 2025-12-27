@@ -1,0 +1,168 @@
+
+<div align="center">
+
+# Next-Tools
+
+**专为开发者和 IT 专业人士打造的实用在线工具集合**
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![GitHub stars](https://img.shields.io/github/stars/willjayyyy/next-tools)](https://github.com/willjayyyy/next-tools/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/willjayyyy/next-tools)](https://github.com/willjayyyy/next-tools/issues)
+
+**🗣️ 语言:** [English](../README.md) • 中文 • [Français](README.fr.md) • [Deutsch](README.de.md) • [Español](README.es.md) • [Português](README.pt.md) • [Русский](README.ru.md) • [Українська](README.uk.md) • [Norsk](README.no.md) • [Tiếng Việt](README.vi.md)
+
+[🌐 在线试用！](https://next-tools.vercel.app) •
+[📖 关于项目](https://next-tools.vercel.app/about) •
+[🐛 报告问题](https://github.com/willjayyyy/next-tools/issues) •
+[💡 功能请求](https://github.com/willjayyyy/next-tools/issues/new/choose)
+
+</div>
+
+---
+
+> **注意：** 这是对原 [it-tools](https://github.com/CorentinTh/it-tools) 项目的分支和重构，由 [Will Jay](https://github.com/willjayyyy) 维护。本项目采用 GNU GPLv3 许可证。
+
+## ✨ 特性
+
+- 🔧 **120+ 开发者工具** - 从数据转换到网络分析
+- 🎨 **现代化界面** - 基于 Vue.js 3 构建的简洁直观界面
+- 🔒 **隐私优先** - 所有工具都在浏览器本地运行
+- 🌍 **10 种语言** - 完整的国际化支持
+- 📱 **响应式设计** - 在所有设备上完美运行
+- ⚡ **快速轻量** - 使用 Vite 构建，性能优化
+- 🆓 **免费开源** - GPL-3.0 许可证，永远免费
+
+## 🚀 快速开始
+
+### 在线使用
+访问 [next-tools.vercel.app](https://next-tools.vercel.app) 直接在浏览器中使用所有工具。
+
+### 自托管部署
+
+#### 使用 Docker Hub：
+```bash
+docker run -d --name next-tools \
+  --restart unless-stopped \
+  -p 8080:80 \
+  willjayyyy/next-tools:latest
+```
+
+#### 使用 GitHub Packages：
+```bash
+docker run -d --name next-tools \
+  --restart unless-stopped \
+  -p 8080:80 \
+  ghcr.io/willjayyyy/next-tools:latest
+```
+
+#### 本地开发：
+```bash
+# 克隆仓库
+git clone https://github.com/willjayyyy/next-tools.git
+cd next-tools
+
+# 安装依赖
+pnpm install
+
+# 启动开发服务器
+pnpm dev
+```
+
+## 🛠️ 工具分类
+
+- **转换器** - JSON、XML、YAML、CSV、Base64、URL 编码
+- **生成器** - UUID、密码、QR 码、哈希、JWT
+- **格式化器** - SQL、XML、JSON、CSS、JavaScript
+- **验证器** - 邮箱、URL、JSON、XML、Cron 表达式
+- **编码/解码器** - Base64、URL、HTML 实体、摩尔斯电码
+- **计算器** - 百分比、子网、chmod 权限
+- **文本工具** - 大小写转换、lorem ipsum、字数统计
+- **网络工具** - IP 计算器、MAC 查找、DNS 工具
+- **开发工具** - 正则表达式测试器、颜色选择器、HTTP 状态码
+
+## 🤝 贡献指南
+
+我们欢迎各种形式的贡献！以下是您可以提供帮助的方式：
+
+### 开发环境设置
+
+**推荐的 IDE 配置：**
+- [VSCode](https://code.visualstudio.com/) 及以下扩展：
+  - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+  - [TypeScript Vue Plugin](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
+
+**VSCode 设置：**
+```json
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "i18n-ally.localesPaths": ["locales", "src/tools/*/locales"],
+  "i18n-ally.keystyle": "nested"
+}
+```
+
+### 项目设置
+```bash
+# 安装依赖
+pnpm install
+
+# 启动开发服务器
+pnpm dev
+
+# 生产环境构建
+pnpm build
+
+# 运行测试
+pnpm test
+
+# 代码检查
+pnpm lint
+```
+
+### 添加新工具
+
+使用我们的生成器创建新工具：
+```bash
+pnpm run script:create:tool my-tool-name
+```
+
+这将在 `src/tools/my-tool-name/` 目录中生成基础文件。
+
+## 🌍 国际化
+
+Next-Tools 支持 10 种语言：
+- 🇺🇸 English (en)
+- 🇨🇳 中文 (zh)
+- 🇫🇷 Français (fr)
+- 🇩🇪 Deutsch (de)
+- 🇪🇸 Español (es)
+- 🇵🇹 Português (pt)
+- 🇷🇺 Русский (ru)
+- 🇺🇦 Українська (uk)
+- 🇳🇴 Norsk (no)
+- 🇻🇳 Tiếng Việt (vi)
+
+要贡献翻译，请编辑 `locales/` 目录中的 JSON 文件。
+
+## 📄 许可证
+
+本项目采用 [GNU General Public License v3.0](LICENSE) 许可证。
+
+## 🙏 致谢
+
+- 原 [it-tools](https://github.com/CorentinTh/it-tools) 项目作者 Corentin Thomasset
+- [Vue.js](https://vuejs.org/) - 渐进式 JavaScript 框架
+- [shadcn-vue](https://www.shadcn-vue.com/) - Vue 3 组件库
+- [Vite](https://vitejs.dev/) - 快速构建工具
+- 所有优秀的[贡献者](https://github.com/willjayyyy/next-tools/graphs/contributors)！
+
+---
+
+<div align="center">
+用 ❤️ 制作，由 <a href="https://github.com/willjayyyy">Will Jay</a> 维护
+
+</div>

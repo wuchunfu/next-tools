@@ -1,0 +1,40 @@
+{
+  "tools": {
+    "date-converter": {
+      "jsLocaleDateString": "JS Locale-Datumszeichenkette",
+      "iso8601": "ISO 8601",
+      "iso9075": "ISO 9075",
+      "rfc3339": "RFC 3339",
+      "rfc7231": "RFC 7231",
+      "unixTimestamp": "Unix-Zeitstempel",
+      "timestamp": "Zeitstempel",
+      "utcFormat": "UTC-Format",
+      "mongoObjectId": "Mongo ObjectID",
+      "excelDateTime": "Excel Datum/Zeit",
+      "inputPlaceholder": "Geben Sie hier Ihre Datumszeichenkette ein...",
+      "invalidDate": "Dieses Datum ist für dieses Format ungültig",
+      "invalidDatePlaceholder": "Ungültiges Datum...",
+      "cardInputTitle": "Datumseingabe & Format",
+      "cardInputDescription": "Fügen Sie eine Datumszeichenkette ein oder tippen Sie sie, wir erkennen das Format automatisch.",
+      "inputLabel": "Datumseingabe",
+      "actionUseNow": "Aktuelle Zeit verwenden",
+      "actionClear": "Eingabe löschen",
+      "formatTitle": "Format",
+      "formatDescription": "Automatisch erkannt auf Basis Ihrer Eingabe, oder manuell auswählen.",
+      "jsLocaleDateStringDescription": "Native JavaScript-Datumszeichenfolge (lokalisiert)",
+      "iso8601Description": "Standard ISO 8601 Datum/Zeit",
+      "iso9075Description": "ISO 9075 Datum/Zeit Format",
+      "rfc3339Description": "RFC 3339 Zeitstempel mit Zeitzone",
+      "rfc7231Description": "HTTP-Datum (RFC 7231)",
+      "unixTimestampDescription": "Sekunden seit Unix-Epoche",
+      "timestampDescription": "Millisekunden seit Unix-Epoche",
+      "utcFormatDescription": "UTC-Zeichenfolgendarstellung",
+      "mongoObjectIdDescription": "Erste 4 Bytes der Mongo ObjectID als Unix-Zeit",
+      "excelDateTimeDescription": "Excel-Seriennummer für Datum/Zeit",
+      "cardOutputTitle": "Konvertierte Ergebnisse",
+      "cardOutputDescription": "Kopieren Sie jedes Format sofort. Alle Ausgaben bleiben synchron.",
+      "validDateTitle": "Datum scheint gültig",
+      "validDateDescription": "Alle Formate unten sind mit Ihrer Eingabe synchronisiert."
+    }
+  }
+}

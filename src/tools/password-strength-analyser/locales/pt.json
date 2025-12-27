@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "password-strength-analyser": {
+      "inputPlaceholder": "Digite uma senha...",
+      "passwordLength": "Comprimento da senha:",
+      "entropy": "Entropia:",
+      "charsetLength": "Tamanho do conjunto de caracteres:",
+      "score": "Pontuação:",
+      "durationToCrack": "Duração para quebrar esta senha com força bruta",
+      "note": "Nota",
+      "noteDescription": "A resistência calculada é baseada no tempo que levaria para quebrar a senha usando uma abordagem de força bruta, não leva em conta a possibilidade de um ataque de dicionário.",
+      "cardInputTitle": "Entrada da senha",
+      "cardResultTitle": "Estimativa de tempo de quebra",
+      "cardMetricsTitle": "Métricas de força",
+      "timeUnits": {
+        "instantly": "Instantaneamente",
+        "lessThanASecond": "Menos de um segundo",
+        "millenium": "milênio",
+        "millennia": "milênios",
+        "century": "século",
+        "centuries": "séculos",
+        "decade": "década",
+        "decades": "décadas",
+        "year": "ano",
+        "years": "anos",
+        "month": "mês",
+        "months": "meses",
+        "week": "semana",
+        "weeks": "semanas",
+        "day": "dia",
+        "days": "dias",
+        "hour": "hora",
+        "hours": "horas",
+        "minute": "minuto",
+        "minutes": "minutos",
+        "second": "segundo",
+        "seconds": "segundos"
+      }
+    }
+  }
+}

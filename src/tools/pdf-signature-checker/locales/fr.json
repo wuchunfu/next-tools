@@ -1,0 +1,36 @@
+{
+  "tools": {
+    "pdf-signature-checker": {
+      "uploadTitle": "Glissez-déposez un fichier PDF ici, ou cliquez pour sélectionner un fichier",
+      "noSignatures": "Aucune signature trouvée dans le fichier fourni.",
+      "signatureCertificates": "Certificats de signature {index} :",
+      "validityPeriod": "Période de validité",
+      "issuedBy": "Émis par",
+      "issuedTo": "Émis à",
+      "pemCertificate": "Certificat PEM",
+      "notBefore": "Pas avant",
+      "notAfter": "Pas après",
+      "commonName": "Nom commun",
+      "organizationName": "Nom de l'organisation",
+      "countryName": "Nom du pays",
+      "localityName": "Nom de la localité",
+      "organizationalUnitName": "Nom de l'unité organisationnelle",
+      "stateOrProvinceName": "Nom de l'état ou de la province",
+      "certificateName": "Certificat {index}",
+      "viewPemCert": "Voir le certificat PEM",
+      "cardUploadTitle": "Téléverser un PDF",
+      "cardResultTitle": "Signatures",
+      "statusLabel": "Statut",
+      "statusIdle": "En attente d'un PDF",
+      "statusLoading": "Vérification des signatures...",
+      "statusParsed": "Signatures analysées",
+      "statusError": "Aucune signature trouvée",
+      "fileInfo": "Informations sur le fichier",
+      "noFileSelected": "Aucun fichier sélectionné pour le moment",
+      "signaturesCount": "{count} signature(s) trouvée(s)",
+      "uploadCta": "Cliquez pour sélectionner un PDF",
+      "uploadHint": "Glissez-déposez un PDF ici pour vérifier les signatures",
+      "uploadButton": "Choisir un PDF"
+    }
+  }
+}

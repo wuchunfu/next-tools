@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "encryption": {
+      "title": "Criptografar / descriptografar texto",
+      "description": "Criptografe texto claro e descriptografe texto criptografado usando algoritmos criptográficos como AES, TripleDES, Rabbit ou RC4.",
+      "encrypt": "Criptografar",
+      "yourText": "Seu texto:",
+      "stringToCypher": "A string a ser criptografada",
+      "yourSecretKey": "Sua chave secreta:",
+      "encryptionAlgorithm": "Algoritmo de criptografia:",
+      "yourTextEncrypted": "Seu texto criptografado:",
+      "stringHash": "Hash da sua string",
+      "decrypt": "Descriptografar",
+      "yourEncryptedText": "Seu texto criptografado:",
+      "yourDecryptedText": "Seu texto descriptografado:",
+      "errorWhileDecrypting": "Erro ao descriptografar",
+      "unableToDecrypt": "Não é possível descriptografar seu texto"
+    }
+  }
+}

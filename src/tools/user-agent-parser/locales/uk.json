@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "user-agent-parser": {
+      "cardTitle": "Інспектор User-Agent",
+      "cardDescription": "Вставте або відредагуйте рядок User-Agent, щоб побачити дані про браузер, пристрій, ОС та CPU.",
+      "cardInputTitle": "Ввід User-Agent",
+      "cardInputDescription": "Вставте або відредагуйте рядок User-Agent, щоб побачити дані про браузер, пристрій, ОС та CPU.",
+      "cardOutputTitle": "Розібрані деталі",
+      "cardOutputDescription": "Кожен розділ показує значення, отримані з рядка User-Agent.",
+      "inputLabel": "Рядок User-Agent",
+      "inputPlaceholder": "Вставте ваш User-Agent тут...",
+      "browser": "Браузер",
+      "engine": "Рушій",
+      "os": "Операційна система",
+      "device": "Пристрій",
+      "cpu": "CPU",
+      "name": "Ім'я",
+      "version": "Версія",
+      "model": "Модель",
+      "type": "Тип",
+      "vendor": "Виробник",
+      "architecture": "Архітектура",
+      "charactersLabel": "Символи",
+      "copyUa": "Скопіювати UA",
+      "copiedUa": "User-Agent скопійовано",
+      "clear": "Очистити",
+      "currentUaLabel": "Поточний User-Agent браузера",
+      "useCurrentUa": "Використати поточний UA",
+      "resultsTitle": "Розібрані деталі",
+      "resultsDescription": "Кожен розділ показує значення, отримані з рядка User-Agent.",
+      "noBrowserName": "Ім'я браузера відсутнє",
+      "noBrowserVersion": "Версія браузера відсутня",
+      "noEngineName": "Ім'я рушія відсутнє",
+      "noEngineVersion": "Версія рушія відсутня",
+      "noOsName": "Ім'я операційної системи відсутнє",
+      "noOsVersion": "Версія операційної системи відсутня",
+      "noDeviceModel": "Модель пристрою відсутня",
+      "noDeviceType": "Тип пристрою відсутній",
+      "noDeviceVendor": "Виробник пристрою відсутній",
+      "noCpuArch": "Архітектура CPU відсутня"
+    }
+  }
+}

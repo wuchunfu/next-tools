@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "url-parser": {
+      "invalid": "Невірний URL",
+      "cardTitle": "Аналізатор URL",
+      "cardDescription": "Аналізувати URL для витягування їх компонентів (протокол, ім'я хоста, шлях, параметри запиту тощо).",
+      "cardInputTitle": "Ввід URL",
+      "cardInputDescription": "Вставте URL нижче. Ми перевіримо його та покажемо компоненти й параметри запиту.",
+      "cardOutputTitle": "Результат розбору",
+      "cardOutputDescription": "Перегляньте та скопіюйте компоненти URL, отримані з вашого вводу.",
+      "inputPlaceholder": "Введіть URL для аналізу...",
+      "clear": "Очистити",
+      "invalidUrlTitle": "Невірний URL",
+      "urlComponents": "Компоненти URL",
+      "protocol": "Протокол",
+      "username": "Ім'я користувача",
+      "password": "Пароль",
+      "hostname": "Ім'я хоста",
+      "port": "Порт",
+      "path": "Шлях",
+      "search": "Пошук",
+      "hash": "Хеш",
+      "queryParameters": "Параметри запиту",
+      "parameterName": "Параметр",
+      "parameterValue": "Значення",
+      "enterUrlToParse": "Введіть дійсний URL, щоб побачити його компоненти."
+    }
+  }
+}

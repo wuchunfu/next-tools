@@ -1,0 +1,168 @@
+
+<div align="center">
+
+# Next-Tools
+
+**Uma coleção de ferramentas práticas online para desenvolvedores e profissionais de TI**
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![GitHub stars](https://img.shields.io/github/stars/willjayyyy/next-tools)](https://github.com/willjayyyy/next-tools/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/willjayyyy/next-tools)](https://github.com/willjayyyy/next-tools/issues)
+
+**🗣️ Idiomas:** [English](../README.md) • [中文](README.zh.md) • [Français](README.fr.md) • [Deutsch](README.de.md) • [Español](README.es.md) • Português • [Русский](README.ru.md) • [Українська](README.uk.md) • [Norsk](README.no.md) • [Tiếng Việt](README.vi.md)
+
+[🌐 Experimente online!](https://next-tools.vercel.app) •
+[📖 Sobre o projeto](https://next-tools.vercel.app/about) •
+[🐛 Reportar bug](https://github.com/willjayyyy/next-tools/issues) •
+[💡 Solicitar funcionalidade](https://github.com/willjayyyy/next-tools/issues/new/choose)
+
+</div>
+
+---
+
+> **Nota:** Este é um fork do projeto original [it-tools](https://github.com/CorentinTh/it-tools), refatorado e mantido por [Will Jay](https://github.com/willjayyyy). Este projeto está sob licença GNU GPLv3.
+
+## ✨ Funcionalidades
+
+- 🔧 **120+ Ferramentas para desenvolvedores** - Da conversão de dados à análise de rede
+- 🎨 **Interface moderna** - Interface limpa e intuitiva construída com Vue.js 3
+- 🔒 **Privacidade em primeiro lugar** - Todas as ferramentas são executadas localmente no seu navegador
+- 🌍 **10 idiomas** - Suporte completo de internacionalização
+- 📱 **Design responsivo** - Funciona perfeitamente em todos os dispositivos
+- ⚡ **Rápido e leve** - Construído com Vite para desempenho ótimo
+- 🆓 **Grátis e open source** - Licenciado sob GPL-3.0, gratuito para sempre
+
+## 🚀 Início rápido
+
+### Uso online
+Visite [next-tools.vercel.app](https://next-tools.vercel.app) para usar todas as ferramentas diretamente no seu navegador.
+
+### Auto-hospedagem
+
+#### Do Docker Hub:
+```bash
+docker run -d --name next-tools \
+  --restart unless-stopped \
+  -p 8080:80 \
+  willjayyyy/next-tools:latest
+```
+
+#### Do GitHub Packages:
+```bash
+docker run -d --name next-tools \
+  --restart unless-stopped \
+  -p 8080:80 \
+  ghcr.io/willjayyyy/next-tools:latest
+```
+
+#### Desenvolvimento local:
+```bash
+# Clonar o repositório
+git clone https://github.com/willjayyyy/next-tools.git
+cd next-tools
+
+# Instalar dependências
+pnpm install
+
+# Iniciar servidor de desenvolvimento
+pnpm dev
+```
+
+## 🛠️ Categorias de ferramentas
+
+- **Conversores** - JSON, XML, YAML, CSV, Base64, codificação URL
+- **Geradores** - UUID, senha, código QR, hash, JWT
+- **Formatadores** - SQL, XML, JSON, CSS, JavaScript
+- **Validadores** - Email, URL, JSON, XML, expressões cron
+- **Codificadores/Decodificadores** - Base64, URL, entidades HTML, código Morse
+- **Calculadoras** - Porcentagem, sub-rede, permissões chmod
+- **Ferramentas de texto** - Conversor de maiúsculas/minúsculas, lorem ipsum, contador de palavras
+- **Ferramentas de rede** - Calculadora IP, pesquisa MAC, ferramentas DNS
+- **Desenvolvimento** - Testador de expressões regulares, seletor de cores, códigos de status HTTP
+
+## 🤝 Contribuição
+
+Aceitamos contribuições! Aqui está como você pode ajudar:
+
+### Configuração de IDE recomendada
+
+**Configuração IDE recomendada:**
+- [VSCode](https://code.visualstudio.com/) com as seguintes extensões:
+  - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+  - [TypeScript Vue Plugin](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
+
+**Configurações do VSCode:**
+```json
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "i18n-ally.localesPaths": ["locales", "src/tools/*/locales"],
+  "i18n-ally.keystyle": "nested"
+}
+```
+
+### Configuração do projeto
+```bash
+# Instalar dependências
+pnpm install
+
+# Iniciar servidor de desenvolvimento
+pnpm dev
+
+# Construir para produção
+pnpm build
+
+# Executar testes
+pnpm test
+
+# Verificar código
+pnpm lint
+```
+
+### Adicionar uma nova ferramenta
+
+Criar uma nova ferramenta com nosso gerador:
+```bash
+pnpm run script:create:tool my-tool-name
+```
+
+Isso gerará os arquivos base em `src/tools/my-tool-name/`.
+
+## 🌍 Internacionalização
+
+Next-Tools suporta 10 idiomas:
+- 🇺🇸 English (en)
+- 🇨🇳 中文 (zh)
+- 🇫🇷 Français (fr)
+- 🇩🇪 Deutsch (de)
+- 🇪🇸 Español (es)
+- 🇵🇹 Português (pt)
+- 🇷🇺 Русский (ru)
+- 🇺🇦 Українська (uk)
+- 🇳🇴 Norsk (no)
+- 🇻🇳 Tiếng Việt (vi)
+
+Para contribuir com traduções, edite os arquivos JSON no diretório `locales/`.
+
+## 📄 Licença
+
+Este projeto está sob a [Licença Pública Geral GNU v3.0](LICENSE).
+
+## 🙏 Agradecimentos
+
+- Projeto original [it-tools](https://github.com/CorentinTh/it-tools) por Corentin Thomasset
+- [Vue.js](https://vuejs.org/) - Framework JavaScript progressivo
+- [shadcn-vue](https://www.shadcn-vue.com/) - Biblioteca de componentes Vue 3
+- [Vite](https://vitejs.dev/) - Ferramenta de construção rápida
+- Todos os nossos incríveis [colaboradores](https://github.com/willjayyyy/next-tools/graphs/contributors)!
+
+---
+
+<div align="center">
+Feito com ❤️ por <a href="https://github.com/willjayyyy">Will Jay</a>
+
+</div>

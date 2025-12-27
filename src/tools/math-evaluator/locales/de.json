@@ -1,0 +1,12 @@
+{
+  "tools": {
+    "math-evaluator": {
+      "cardInputTitle": "Mathematischer Ausdruck",
+      "cardInputDescription": "Geben Sie einen mathematischen Ausdruck mit Standardoperatoren und -funktionen ein (z. B. 2 * sqrt(6) + sin(pi / 4)).",
+      "cardResultTitle": "Auswertungsergebnis",
+      "cardResultDescription": "Das berechnete Ergebnis Ihres Ausdrucks.",
+      "placeholder": "Ihr mathematischer Ausdruck (z.B. 2*sqrt(6) )...",
+      "result": "Ergebnis"
+    }
+  }
+}

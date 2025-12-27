@@ -1,0 +1,13 @@
+{
+  "tools": {
+    "json-to-csv": {
+      "cardInputTitle": "JSON 数组输入",
+      "cardInputDescription": "在下方粘贴一个合法的 JSON 数组，每个对象都会被转换为 CSV 中的一行。",
+      "cardOutputTitle": "CSV 结果",
+      "cardOutputDescription": "查看并复制根据 JSON 数组生成的 CSV 内容。",
+      "invalid": "提供的 JSON 无效或不是数组。",
+      "invalidJsonTitle": "无效的 JSON",
+      "inputPlaceholder": "在此粘贴您的 JSON 数组..."
+    }
+  }
+}

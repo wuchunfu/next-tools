@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "xml-formatter": {
+      "invalid": "El XML proporcionado no es válido.",
+      "invalidXmlTitle": "XML no válido",
+      "collapse": "Colapsar contenido:",
+      "collapseHint": "Colapsar el contenido de texto en una sola línea cuando sea posible.",
+      "indent": "Tamaño de sangría:",
+      "indentHint": "Número de espacios a usar para la sangría (0–10).",
+      "cardOptionsTitle": "Opciones de formato",
+      "cardOptionsDescription": "Ajuste la sangría y el colapso del contenido para adaptarlo a su estilo XML preferido.",
+      "cardInputTitle": "Entrada XML",
+      "cardInputDescription": "Pegue su XML a continuación. Lo validaremos y generaremos una versión formateada.",
+      "cardOutputTitle": "XML formateado",
+      "cardOutputDescription": "Revise y copie la salida XML formateada.",
+      "inputLabel": "Su XML",
+      "inputPlaceholder": "Pegue su XML aquí...",
+      "outputLabel": "XML formateado de su XML"
+    }
+  }
+}

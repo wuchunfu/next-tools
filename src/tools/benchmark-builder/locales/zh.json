@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "benchmark-builder": {
+      "suiteName": "套件 {index}",
+      "suiteLabel": "套件名称",
+      "suitePlaceholder": "套件名称...",
+      "suitesTitle": "套件列表",
+      "suitesDescription": "管理多个套件及其样本数值。",
+      "suiteValues": "套件数值",
+      "deleteSuite": "删除套件",
+      "addSuite": "新增套件",
+      "resultsTitle": "计算结果",
+      "resultsDescription": "套件之间的比较与统计结果。",
+      "unitPlaceholder": "单位（例如：ms）",
+      "unitLabel": "单位",
+      "resetSuites": "重置套件",
+      "copyMarkdown": "复制为 Markdown 表格",
+      "copyBullet": "复制为项目列表",
+      "setMeasure": "设置测量值...",
+      "deleteValue": "删除该数值",
+      "addMeasure": "添加测量值",
+      "header": {
+        "position": "排名",
+        "title": "套件",
+        "size": "样本数量",
+        "mean": "平均值",
+        "variance": "方差"
+      }
+    }
+  }
+}

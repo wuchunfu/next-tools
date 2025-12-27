@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "password-strength-analyser": {
+      "inputPlaceholder": "Введите пароль...",
+      "passwordLength": "Длина пароля:",
+      "entropy": "Энтропия:",
+      "charsetLength": "Размер набора символов:",
+      "score": "Оценка:",
+      "durationToCrack": "Время для взлома этого пароля методом перебора",
+      "note": "Примечание",
+      "noteDescription": "Вычисленная стойкость основана на времени, которое потребуется для взлома пароля с использованием подхода перебора, она не учитывает возможность атаки по словарю.",
+      "cardInputTitle": "Ввод пароля",
+      "cardResultTitle": "Оценка времени взлома",
+      "cardMetricsTitle": "Метрики сложности",
+      "timeUnits": {
+        "instantly": "Мгновенно",
+        "lessThanASecond": "Меньше секунды",
+        "millenium": "тысячелетие",
+        "millennia": "тысячелетий",
+        "century": "век",
+        "centuries": "веков",
+        "decade": "десятилетие",
+        "decades": "десятилетий",
+        "year": "год",
+        "years": "лет",
+        "month": "месяц",
+        "months": "месяцев",
+        "week": "неделя",
+        "weeks": "недель",
+        "day": "день",
+        "days": "дней",
+        "hour": "час",
+        "hours": "часов",
+        "minute": "минута",
+        "minutes": "минут",
+        "second": "секунда",
+        "seconds": "секунд"
+      }
+    }
+  }
+}

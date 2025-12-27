@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "toml-to-yaml": {
+      "cardTitle": "TOML 转 YAML 转换器",
+      "cardDescription": "将 TOML 格式转换为 YAML 格式。粘贴您的 TOML 即可获得 YAML 输出。",
+      "cardInputTitle": "TOML 输入",
+      "cardInputDescription": "在下方粘贴你要转换的 TOML，我们会先校验格式，然后生成对应的 YAML。",
+      "cardOutputTitle": "YAML 输出",
+      "cardOutputDescription": "这是根据 TOML 转换得到的 YAML，可以复制用于后续使用。",
+      "inputPlaceholder": "在此粘贴您的 TOML...",
+      "invalidToml": "提供的 TOML 无效。",
+      "invalidTomlTitle": "无效的 TOML",
+      "outputError": "TOML 格式无效。请检查您的输入。",
+      "clear": "清除"
+    }
+  }
+}

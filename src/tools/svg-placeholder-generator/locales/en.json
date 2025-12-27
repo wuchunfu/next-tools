@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "svg-placeholder-generator": {
+      "cardTitle": "SVG Placeholder Generator",
+      "cardDescription": "Generate customizable SVG placeholder images with custom dimensions, colors, and text.",
+      "dimensions": "Dimensions",
+      "width": "Width (px)",
+      "widthPlaceholder": "SVG width...",
+      "height": "Height (px)",
+      "heightPlaceholder": "SVG height...",
+      "fontSize": "Font size (px)",
+      "fontSizePlaceholder": "Font size...",
+      "customText": "Custom text",
+      "customPlaceholder": "Default is {width}x{height}",
+      "useExact": "Use exact size in SVG attributes",
+      "colorSettings": "Color Settings",
+      "background": "Background",
+      "textColor": "Text color",
+      "preview": "Preview",
+      "svgHtml": "SVG HTML element",
+      "svgBase64": "SVG in Base64",
+      "copySvg": "Copy SVG",
+      "copySvgTooltip": "Copy SVG HTML code",
+      "copyBase64": "Copy Base64",
+      "copyBase64Tooltip": "Copy Base64 data URL",
+      "downloadSvg": "Download",
+      "downloadSvgTooltip": "Download as SVG file",
+      "imageAlt": "SVG Preview"
+    }
+  }
+}

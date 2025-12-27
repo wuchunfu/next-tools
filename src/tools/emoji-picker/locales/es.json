@@ -1,0 +1,13 @@
+{
+  "tools": {
+    "emoji-picker": {
+      "searchPlaceholder": "Buscar emojis (ej. 'sonrisa')...",
+      "noResults": "Sin resultados",
+      "noResultsDescription": "Prueba otra palabra clave o navega por las categorías",
+      "searchResult": "Resultado de búsqueda",
+      "copyEmoji": "Emoji {emoji} copiado al portapapeles",
+      "copyCodePoints": "Puntos de código '{value}' copiados al portapapeles",
+      "copyUnicode": "Unicode '{value}' copiado al portapapeles"
+    }
+  }
+}

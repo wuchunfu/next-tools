@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "hash-text": {
+      "title": "Text hashen",
+      "description": "Hashen Sie eine Textzeichenkette mit der benötigten Funktion: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 oder RIPEMD160",
+      "placeholder": "Ihre zu hashende Zeichenkette...",
+      "yourTextToHash": "Ihr zu hashender Text:",
+      "digestEncoding": "Digest-Kodierung",
+      "digestEncodingDescription": "Wählen Sie das Ausgabeformat für Hash-Werte.",
+      "binary": "Binär",
+      "binaryDescription": "Binäres Format (Basis 2).",
+      "hexadecimal": "Hexadezimal",
+      "hexadecimalDescription": "Hexadezimales Format (Basis 16), am häufigsten verwendet.",
+      "base64": "Base64",
+      "base64Description": "Base64-Format (Basis 64), kompakte Darstellung.",
+      "base64url": "Base64 URL",
+      "base64urlDescription": "Base64 URL-sicheres Format, geeignet für URLs.",
+      "hashResults": "Hash-Ergebnisse",
+      "noInput": "Geben Sie oben Text ein, um Hash-Werte zu generieren",
+      "cardInputTitle": "Hash-Eingabe & Kodierung",
+      "cardOutputTitle": "Hash-Ergebnisse"
+    }
+  }
+}

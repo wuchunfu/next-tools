@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "user-agent-parser": {
+      "cardTitle": "Inspetor de User-Agent",
+      "cardDescription": "Cole ou edite uma string de User-Agent para ver detalhes do navegador, dispositivo, SO e CPU.",
+      "cardInputTitle": "Entrada de User-Agent",
+      "cardInputDescription": "Cole ou edite uma string de User-Agent para ver detalhes do navegador, dispositivo, SO e CPU.",
+      "cardOutputTitle": "Detalhes analisados",
+      "cardOutputDescription": "Cada seção mostra valores extraídos da string de User-Agent.",
+      "inputLabel": "String de agente do usuário",
+      "inputPlaceholder": "Coloque seu agente do usuário aqui...",
+      "browser": "Navegador",
+      "engine": "Motor",
+      "os": "Sistema operacional",
+      "device": "Dispositivo",
+      "cpu": "CPU",
+      "name": "Nome",
+      "version": "Versão",
+      "model": "Modelo",
+      "type": "Tipo",
+      "vendor": "Fabricante",
+      "architecture": "Arquitetura",
+      "charactersLabel": "Caracteres",
+      "copyUa": "Copiar UA",
+      "copiedUa": "User-Agent copiado",
+      "clear": "Limpar",
+      "currentUaLabel": "UA do navegador atual",
+      "useCurrentUa": "Usar UA atual",
+      "resultsTitle": "Detalhes analisados",
+      "resultsDescription": "Cada seção mostra valores extraídos da string de User-Agent.",
+      "noBrowserName": "Nenhum nome de navegador",
+      "noBrowserVersion": "Nenhuma versão de navegador",
+      "noEngineName": "Nenhum nome de motor",
+      "noEngineVersion": "Nenhuma versão de motor",
+      "noOsName": "Nenhum nome de sistema operacional",
+      "noOsVersion": "Nenhuma versão de sistema operacional",
+      "noDeviceModel": "Nenhum modelo de dispositivo",
+      "noDeviceType": "Nenhum tipo de dispositivo",
+      "noDeviceVendor": "Nenhum fabricante de dispositivo",
+      "noCpuArch": "Nenhuma arquitetura de CPU"
+    }
+  }
+}

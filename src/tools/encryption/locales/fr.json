@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "encryption": {
+      "title": "Chiffrer / déchiffrer le texte",
+      "description": "Chiffrez le texte clair et déchiffrez le texte chiffré à l'aide d'algorithmes cryptographiques comme AES, TripleDES, Rabbit ou RC4.",
+      "encrypt": "Chiffrer",
+      "yourText": "Votre texte :",
+      "stringToCypher": "La chaîne à chiffrer",
+      "yourSecretKey": "Votre clé secrète :",
+      "encryptionAlgorithm": "Algorithme de chiffrement :",
+      "yourTextEncrypted": "Votre texte chiffré :",
+      "stringHash": "Hash de votre chaîne",
+      "decrypt": "Déchiffrer",
+      "yourEncryptedText": "Votre texte chiffré :",
+      "yourDecryptedText": "Votre texte déchiffré :",
+      "errorWhileDecrypting": "Erreur lors du déchiffrement",
+      "unableToDecrypt": "Impossible de déchiffrer votre texte"
+    }
+  }
+}

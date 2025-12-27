@@ -1,0 +1,39 @@
+{
+  "tools": {
+    "camera-recorder": {
+      "cardTitle": "Kameraopptaker",
+      "cardDescription": "Ta skjermbilder og ta opp videoer fra webkameraet ditt.",
+      "notSupportedTitle": "Ikke støttet",
+      "notSupported": "Nettleseren din støtter ikke videoopptak fra kamera",
+      "permissionRequired": "Tillatelse kreves",
+      "needPermission": "Du må gi tillatelse til å bruke kameraet og mikrofonen din",
+      "permissionBlockedTitle": "Tillatelse blokkert",
+      "permissionBlocked": "Nettleseren din har blokkert tillatelsesforespørselen eller støtter den ikke. Du må gi tillatelse manuelt i nettleserinnstillingene (vanligvis låsikonet i adressefeltet).",
+      "grant": "Gi tillatelse",
+      "deviceSettings": "Enhetsinnstillinger",
+      "video": "Kamera",
+      "audio": "Mikrofon",
+      "selectCamera": "Velg kamera",
+      "selectMic": "Velg mikrofon",
+      "unknownCamera": "Kamera",
+      "unknownMic": "Mikrofon",
+      "start": "Start webkamera",
+      "screenshot": "Skjermbilde",
+      "screenshotTooltip": "Ta bilde av gjeldende bilde",
+      "startRecording": "Start opptak",
+      "recording": "Tar opp",
+      "paused": "Pauset",
+      "pause": "Pause",
+      "resume": "Fortsett",
+      "stop": "Stopp",
+      "noRecord": "Videoopptak støttes ikke i nettleseren din",
+      "gallery": "Tatt opp media",
+      "screenshotLabel": "Skjermbilde",
+      "videoLabel": "Video",
+      "download": "Last ned",
+      "delete": "Slett",
+      "stopCamera": "Stopp kamera",
+      "stopCameraTooltip": "Slå av webkamera"
+    }
+  }
+}

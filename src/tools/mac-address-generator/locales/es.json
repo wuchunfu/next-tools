@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "mac-address-generator": {
+      "cardOptionsTitle": "Opciones de generación",
+      "cardOptionsDescription": "Configure las opciones para generar direcciones MAC aleatorias, incluyendo cantidad, prefijo, mayúsculas/minúsculas y separador.",
+      "cardResultsTitle": "Direcciones MAC generadas",
+      "cardResultsDescription": "Direcciones MAC generadas según su configuración. Haga clic en el botón copiar para copiar todas las direcciones al portapapeles.",
+      "invalidPrefixTitle": "Prefijo inválido",
+      "quantity": "Cantidad",
+      "macAddressPrefix": "Prefijo de dirección MAC",
+      "prefixPlaceholder": "Establezca un prefijo, ej. 64:16:7F",
+      "case": "Mayúsculas/minúsculas",
+      "uppercase": "Mayúsculas",
+      "lowercase": "Minúsculas",
+      "separator": "Separador",
+      "none": "Ninguno",
+      "refresh": "Actualizar",
+      "copied": "Direcciones MAC copiadas al portapapeles"
+    }
+  }
+}

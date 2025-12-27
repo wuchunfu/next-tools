@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "keycode-info": {
+      "cardTitle": "Thông tin phím bàn phím",
+      "cardDescription": "Nhấn bất kỳ phím nào trên bàn phím của bạn để xem thông tin chi tiết.",
+      "detailsTitle": "Chi tiết phím",
+      "detailsDescription": "Thông tin chi tiết về phím đã nhấn.",
+      "key": "Phím",
+      "keyPlaceholder": "Tên phím...",
+      "keycode": "Mã phím",
+      "keycodePlaceholder": "Mã phím...",
+      "keycodeDeprecated": "Đã lỗi thời, sử dụng code thay thế",
+      "code": "Mã",
+      "codePlaceholder": "Mã...",
+      "charCode": "Mã ký tự",
+      "charCodePlaceholder": "Mã ký tự...",
+      "location": "Vị trí",
+      "locationPlaceholder": "Vị trí...",
+      "locationStandard": "Tiêu chuẩn",
+      "locationLeft": "Trái",
+      "locationRight": "Phải",
+      "locationNumpad": "Bàn phím số",
+      "modifiers": "Phím sửa đổi",
+      "noModifiers": "Không có phím sửa đổi được nhấn",
+      "meta": "Meta",
+      "shift": "Shift",
+      "ctrl": "Ctrl",
+      "alt": "Alt",
+      "repeat": "Lặp lại",
+      "repeatPlaceholder": "Trạng thái lặp lại phím...",
+      "typeCharacter": "Phím ký tự",
+      "typeFunction": "Phím chức năng",
+      "typeNavigation": "Phím điều hướng",
+      "typeControl": "Phím điều khiển",
+      "typeSpecial": "Phím đặc biệt",
+      "none": "Không có",
+      "yes": "Có",
+      "no": "Không",
+      "unknown": "Không xác định",
+      "tip": "Nhấn bất kỳ phím nào trên bàn phím của bạn để xem thông tin"
+    }
+  }
+}

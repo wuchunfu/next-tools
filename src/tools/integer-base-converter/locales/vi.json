@@ -1,0 +1,35 @@
+{
+  "tools": {
+    "base-converter": {
+      "inputNumber": "Số đầu vào",
+      "inputPlaceholder": "Đặt số của bạn ở đây (vd: 42)",
+      "inputBase": "Cơ số đầu vào",
+      "inputBasePlaceholder": "Đặt cơ số đầu vào của bạn ở đây (vd: 10)",
+      "binary": "Nhị phân (2)",
+      "binaryPlaceholder": "Phiên bản nhị phân sẽ xuất hiện ở đây...",
+      "octal": "Bát phân (8)",
+      "octalPlaceholder": "Phiên bản bát phân sẽ xuất hiện ở đây...",
+      "decimal": "Thập phân (10)",
+      "decimalPlaceholder": "Phiên bản thập phân sẽ xuất hiện ở đây...",
+      "hexadecimal": "Thập lục phân (16)",
+      "hexadecimalPlaceholder": "Phiên bản thập lục phân sẽ xuất hiện ở đây...",
+      "base64": "Base64 (64)",
+      "base64Placeholder": "Phiên bản Base64 sẽ xuất hiện ở đây...",
+      "custom": "Tùy chỉnh",
+      "customPlaceholder": "Cơ số {base} sẽ xuất hiện ở đây...",
+      "cardInputTitle": "Số và cơ số",
+      "cardInputDescription": "Nhập giá trị, chọn cơ số đầu vào và đầu ra.",
+      "cardOutputTitle": "Giá trị đã chuyển đổi",
+      "cardOutputDescription": "Sao chép bất kỳ cơ số nào ngay lập tức.",
+      "inputLength": "Độ dài",
+      "useExample": "Dùng ví dụ",
+      "clear": "Xóa",
+      "customBaseLabel": "Cơ số tùy chỉnh",
+      "outputPresetsTitle": "Kết quả nhanh",
+      "customOutputTitle": "Kết quả tùy chỉnh",
+      "errorTitle": "Lỗi chuyển đổi",
+      "validTitle": "Sẵn sàng sao chép",
+      "validHint": "Mọi kết quả đều đồng bộ với đầu vào của bạn."
+    }
+  }
+}

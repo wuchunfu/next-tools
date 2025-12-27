@@ -1,0 +1,13 @@
+{
+  "tools": {
+    "json-to-csv": {
+      "cardInputTitle": "Ввод JSON-массива",
+      "cardInputDescription": "Вставьте ниже корректный JSON-массив. Каждый объект станет строкой в CSV-выводе.",
+      "cardOutputTitle": "Результат CSV",
+      "cardOutputDescription": "Просмотрите и скопируйте сгенерированное CSV-представление вашего JSON-массива.",
+      "invalid": "Предоставленный JSON недействителен или не является массивом.",
+      "invalidJsonTitle": "Недействительный JSON",
+      "inputPlaceholder": "Вставьте ваш JSON-массив здесь..."
+    }
+  }
+}

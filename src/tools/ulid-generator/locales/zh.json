@@ -1,0 +1,23 @@
+{
+  "tools": {
+    "ulid-generator": {
+      "format": {
+        "label": "格式",
+        "description": "选择 ULID 的输出格式。",
+        "raw": "原始",
+        "rawDescription": "纯文本格式，每行一个 ULID。",
+        "json": "JSON",
+        "jsonDescription": "JSON 数组格式，适用于 API。"
+      },
+      "quantity": "数量",
+      "quantityDescription": "要生成的 ULID 数量（1-100）。",
+      "generatedUlids": "生成的 ULID",
+      "refresh": "刷新",
+      "copy": "复制",
+      "copied": "ULID 已复制到剪贴板",
+      "noUlids": "点击刷新以生成 ULID",
+      "cardConfigTitle": "ULID 配置",
+      "cardOutputTitle": "ULID 结果"
+    }
+  }
+}

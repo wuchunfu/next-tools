@@ -1,0 +1,43 @@
+{
+  "tools": {
+    "keycode-info": {
+      "cardTitle": "键盘按键信息",
+      "cardDescription": "按下键盘上的任意按键以查看其详细信息。",
+      "detailsTitle": "按键详情",
+      "detailsDescription": "关于按下按键的详细信息。",
+      "key": "键",
+      "keyPlaceholder": "键名...",
+      "keycode": "Keycode",
+      "keycodePlaceholder": "Keycode...",
+      "keycodeDeprecated": "已弃用，请使用 code",
+      "code": "Code",
+      "codePlaceholder": "Code...",
+      "charCode": "字符码",
+      "charCodePlaceholder": "字符码...",
+      "location": "位置",
+      "locationPlaceholder": "位置...",
+      "locationStandard": "标准",
+      "locationLeft": "左侧",
+      "locationRight": "右侧",
+      "locationNumpad": "数字键盘",
+      "modifiers": "修饰键",
+      "noModifiers": "未按下修饰键",
+      "meta": "Meta",
+      "shift": "Shift",
+      "ctrl": "Ctrl",
+      "alt": "Alt",
+      "repeat": "重复",
+      "repeatPlaceholder": "按键重复状态...",
+      "typeCharacter": "字符键",
+      "typeFunction": "功能键",
+      "typeNavigation": "导航键",
+      "typeControl": "控制键",
+      "typeSpecial": "特殊键",
+      "none": "无",
+      "yes": "是",
+      "no": "否",
+      "unknown": "未知",
+      "tip": "按下任意键以查看其信息"
+    }
+  }
+}

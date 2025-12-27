@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "encryption": {
+      "title": "Encrypt / decrypt text",
+      "description": "Encrypt clear text and decrypt ciphertext using crypto algorithms like AES, TripleDES, Rabbit or RC4.",
+      "encrypt": "Encrypt",
+      "yourText": "Your text:",
+      "stringToCypher": "The string to cypher",
+      "yourSecretKey": "Your secret key:",
+      "encryptionAlgorithm": "Encryption algorithm:",
+      "yourTextEncrypted": "Your text encrypted:",
+      "stringHash": "Your string hash",
+      "decrypt": "Decrypt",
+      "yourEncryptedText": "Your encrypted text:",
+      "yourDecryptedText": "Your decrypted text:",
+      "errorWhileDecrypting": "Error while decrypting",
+      "unableToDecrypt": "Unable to decrypt your text"
+    }
+  }
+}

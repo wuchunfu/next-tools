@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "chronometer": {
+      "title": "Cronômetro",
+      "description": "Monitore a duração de algo. Basicamente um cronômetro com recursos simples de cronômetro.",
+      "button": {
+        "start": "Iniciar",
+        "stop": "Parar",
+        "reset": "Redefinir",
+        "record": "Registrar",
+        "clearRecords": "Limpar registros"
+      },
+      "records": {
+        "title": "Registros",
+        "empty": "Sem registros"
+      }
+    }
+  }
+}

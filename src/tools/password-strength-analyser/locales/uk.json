@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "password-strength-analyser": {
+      "inputPlaceholder": "Введіть пароль...",
+      "passwordLength": "Довжина пароля:",
+      "entropy": "Ентропія:",
+      "charsetLength": "Розмір набору символів:",
+      "score": "Оцінка:",
+      "durationToCrack": "Час для злому цього пароля методом перебору",
+      "note": "Примітка",
+      "noteDescription": "Обчислена стійкість заснована на часі, який знадобиться для злому пароля з використанням підходу перебору, вона не враховує можливість атаки за словником.",
+      "cardInputTitle": "Введення пароля",
+      "cardResultTitle": "Оцінка часу зламу",
+      "cardMetricsTitle": "Метрики складності",
+      "timeUnits": {
+        "instantly": "Миттєво",
+        "lessThanASecond": "Менше ніж секунда",
+        "millenium": "тисячоліття",
+        "millennia": "тисячоліть",
+        "century": "століття",
+        "centuries": "століть",
+        "decade": "десятиліття",
+        "decades": "десятиліть",
+        "year": "рік",
+        "years": "роки",
+        "month": "місяць",
+        "months": "місяці",
+        "week": "тиждень",
+        "weeks": "тижні",
+        "day": "день",
+        "days": "дні",
+        "hour": "година",
+        "hours": "години",
+        "minute": "хвилина",
+        "minutes": "хвилини",
+        "second": "секунда",
+        "seconds": "секунди"
+      }
+    }
+  }
+}

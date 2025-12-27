@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "json-prettify": {
+      "title": "Форматувати та прикрасити JSON",
+      "description": "Форматуйте ваш JSON-рядок у зручний, читабельний формат.",
+      "cardOptionsTitle": "Параметри форматування",
+      "cardOptionsDescription": "Налаштуйте відступи та сортування ключів відповідно до вашого стилю JSON.",
+      "sortKeys": "Сортувати ключі",
+      "sortKeysHelp": "Сортуйте ключі об’єктів у алфавітному порядку для більш стабільного та читабельного виводу.",
+      "indentSize": "Розмір відступу",
+      "indentHint": "Кількість пробілів для відступу (0–10).",
+      "cardInputTitle": "Ввід JSON",
+      "cardInputDescription": "Вставте ваш JSON нижче. Ми перевіримо його (сумісний з JSON5) та згенеруємо відформатовану версію.",
+      "pasteYourRawJson": "Вставте ваш необроблений JSON тут...",
+      "cardOutputTitle": "Відформатований JSON",
+      "cardOutputDescription": "Перегляньте та скопіюйте відформатований вивід JSON.",
+      "prettifiedVersion": "Відформатована версія вашого JSON",
+      "invalidJson": "Наданий JSON недійсний.",
+      "invalidJsonTitle": "Недійсний JSON"
+    }
+  }
+}

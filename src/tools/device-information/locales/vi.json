@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "device-information": {
+      "screen": "Màn hình",
+      "screenSize": "Kích thước màn hình",
+      "orientation": "Hướng",
+      "orientationAngle": "Góc hướng",
+      "colorDepth": "Độ sâu màu",
+      "pixelRatio": "Tỷ lệ pixel",
+      "windowSize": "Kích thước cửa sổ",
+      "device": "Thiết bị",
+      "vendor": "Nhà cung cấp trình duyệt",
+      "languages": "Ngôn ngữ",
+      "platform": "Nền tảng",
+      "userAgent": "User-Agent",
+      "unknown": "không xác định"
+    }
+  }
+}

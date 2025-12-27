@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "text-to-unicode": {
+      "title": "Text to Unicode",
+      "description": "Parse and convert text to unicode and vice-versa",
+      "cardTextToUnicodeTitle": "Text to Unicode",
+      "cardTextToUnicodeDescription": "Convert text to Unicode escape sequences (\\u0031 format).",
+      "cardUnicodeToTextTitle": "Unicode to Text",
+      "cardUnicodeToTextDescription": "Convert Unicode escape sequences back to text.",
+      "textPlaceholder": "e.g. 'Hello Avengers'",
+      "enterTextToConvert": "Enter text to convert",
+      "inputLength": "Length",
+      "outputLength": "Length",
+      "characters": "Characters",
+      "entities": "Entities",
+      "clear": "Clear",
+      "unicodeFromText": "Unicode output",
+      "unicodePlaceholder": "The unicode representation of your text will be here",
+      "unicodeInputPlaceholder": "Input Unicode",
+      "enterUnicodeToConvert": "Enter unicode to convert",
+      "textFromUnicode": "Text output",
+      "textOutputPlaceholder": "The text representation of your unicode will be here"
+    }
+  }
+}

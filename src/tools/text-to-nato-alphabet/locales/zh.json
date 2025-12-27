@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "text-to-nato-alphabet": {
+      "cardTitle": "NATO 音标字母转换器",
+      "cardDescription": "将文本转换为 NATO 音标字母（Alpha、Bravo、Charlie 等）",
+      "cardInputTitle": "文本输入",
+      "cardInputDescription": "在下方输入或粘贴文本，我们会将其中的字母转换为 NATO 音标字母。",
+      "cardOutputTitle": "转换结果",
+      "cardOutputDescription": "查看并复制转换后的 NATO 音标字母字符串。",
+      "yourTextToConvert": "要转换的文本",
+      "inputPlaceholder": "在此输入您的文本...",
+      "inputLength": "长度",
+      "letters": "字母数",
+      "clear": "清除",
+      "yourTextInNato": "NATO 音标字母",
+      "outputLength": "输出长度",
+      "copyNatoString": "复制 NATO 字符串",
+      "copied": "NATO 字母字符串已复制。"
+    }
+  }
+}

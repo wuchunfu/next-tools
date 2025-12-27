@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "mac-address-generator": {
+      "cardOptionsTitle": "生成选项",
+      "cardOptionsDescription": "配置生成随机 MAC 地址的选项，包括数量、前缀、大小写和分隔符。",
+      "cardResultsTitle": "生成的 MAC 地址",
+      "cardResultsDescription": "根据您的配置生成的 MAC 地址。点击复制按钮将所有地址复制到剪贴板。",
+      "invalidPrefixTitle": "无效的前缀",
+      "quantity": "数量",
+      "macAddressPrefix": "MAC 地址前缀",
+      "prefixPlaceholder": "设置前缀，例如 64:16:7F",
+      "case": "大小写",
+      "uppercase": "大写",
+      "lowercase": "小写",
+      "separator": "分隔符",
+      "none": "无",
+      "refresh": "刷新",
+      "copied": "MAC 地址已复制到剪贴板"
+    }
+  }
+}

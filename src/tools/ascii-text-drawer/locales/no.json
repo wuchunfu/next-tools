@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "ascii-text-drawer": {
+      "yourText": "Din tekst:",
+      "yourTextToDraw": "Din tekst å tegne",
+      "font": "Skrifttype:",
+      "selectFont": "Velg skrifttype å bruke",
+      "width": "Bredde:",
+      "widthPlaceholder": "Bredden på teksten",
+      "loadingFont": "Laster skrifttype...",
+      "error": "De nåværende innstillingene resulterte i en feil.",
+      "asciiArtText": "ASCII-kunsttekst:",
+      "cardOptionsTitle": "Alternativer",
+      "cardOptionsDescription": "Konfigurer inndatateksten, skrifttypen og bredden for ASCII-kunsten.",
+      "cardResultsTitle": "Resultater",
+      "cardResultsDescription": "Forhåndsvis og kopier den genererte ASCII-kunsten."
+    }
+  }
+}

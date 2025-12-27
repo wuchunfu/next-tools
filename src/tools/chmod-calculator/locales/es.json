@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "chmod-calculator": {
+      "permissionsTitle": "Permisos de archivo",
+      "permissionsDescription": "Seleccione permisos para propietario, grupo y público. Las representaciones octal y simbólica se calcularán automáticamente.",
+      "resultsTitle": "Resultados",
+      "resultsDescription": "Representaciones octal y simbólica de los permisos seleccionados.",
+      "octalLabel": "Representación octal",
+      "symbolicLabel": "Representación simbólica",
+      "commandLabel": "Comando",
+      "read": "Leer (4)",
+      "write": "Escribir (2)",
+      "execute": "Ejecutar (1)",
+      "owner": "Propietario (u)",
+      "group": "Grupo (g)",
+      "public": "Público (o)",
+      "copyCommand": "chmod {octal} ruta"
+    }
+  }
+}

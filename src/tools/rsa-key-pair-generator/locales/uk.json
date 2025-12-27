@@ -1,0 +1,13 @@
+{
+  "tools": {
+    "rsa-key-pair-generator": {
+      "bitsRule": "Біт повинно бути 256 <= bits <= 16384 і бути кратним 8",
+      "bits": "Біт :",
+      "refresh": "Оновити пару ключів",
+      "public": "Публічний ключ",
+      "private": "Приватний ключ",
+      "configuration": "Параметри ключа RSA",
+      "generatedKeys": "Згенеровані ключі"
+    }
+  }
+}
