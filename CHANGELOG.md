@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2025.12.28-839e753] - 2025-12-28
+
+### Features
+- **PWA Support**: Add PWA icons and update manifest configuration
+- **Internationalization**: Internationalize home page title for all 10 supported languages
+
+### Bug fixes
+- **Color Picker**: Resolve color picker initialization issues with 8-bit hex colors
+- **Tool Locales**: Update tool locales and utilities for consistency
+
 ## [Next-Tools] - Fork & Refactor (2024-12-XX)
 
 ### Breaking Changes
