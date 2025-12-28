@@ -63,7 +63,7 @@ const currentErrorCorrectionLabel = computed(() => {
   return found ? found.label : t('tools.qrcode-generator.selectLevel', 'Select level')
 });
 
-const text = ref('https://next-tools.tech')
+const text = ref('https://next-tools.dev')
 const { qrcode } = useQRCode({
   text,
   color: {

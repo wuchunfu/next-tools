@@ -11,8 +11,8 @@
 
 **🗣️ Språk:** [English](../README.md) • [中文](README.zh.md) • [Français](README.fr.md) • [Deutsch](README.de.md) • [Español](README.es.md) • [Português](README.pt.md) • [Русский](README.ru.md) • [Українська](README.uk.md) • Norsk • [Tiếng Việt](README.vi.md)
 
-[🌐 Prøv online!](https://next-tools.vercel.app) •
-[📖 Om prosjektet](https://next-tools.vercel.app/about) •
+[🌐 Prøv online!](https://next-tools.dev) •
+[📖 Om prosjektet](https://next-tools.dev/about) •
 [🐛 Rapporter feil](https://github.com/willjayyyy/next-tools/issues) •
 [💡 Be om funksjon](https://github.com/willjayyyy/next-tools/issues/new/choose)
 
@@ -35,7 +35,7 @@
 ## 🚀 Hurtigstart
 
 ### Online bruk
-Besøk [next-tools.vercel.app](https://next-tools.vercel.app) for å bruke alle verktøyene direkte i nettleseren din.
+Besøk [next-tools.dev](https://next-tools.dev) for å bruke alle verktøyene direkte i nettleseren din.
 
 ### Selv-hosting
 

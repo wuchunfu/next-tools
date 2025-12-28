@@ -11,8 +11,8 @@
 
 **🗣️ Ngôn ngữ:** [English](../README.md) • [中文](README.zh.md) • [Français](README.fr.md) • [Deutsch](README.de.md) • [Español](README.es.md) • [Português](README.pt.md) • [Русский](README.ru.md) • [Українська](README.uk.md) • [Norsk](README.no.md) • Tiếng Việt
 
-[🌐 Thử trực tuyến!](https://next-tools.vercel.app) •
-[📖 Về dự án](https://next-tools.vercel.app/about) •
+[🌐 Thử trực tuyến!](https://next-tools.dev) •
+[📖 Về dự án](https://next-tools.dev/about) •
 [🐛 Báo cáo lỗi](https://github.com/willjayyyy/next-tools/issues) •
 [💡 Yêu cầu tính năng](https://github.com/willjayyyy/next-tools/issues/new/choose)
 
@@ -35,7 +35,7 @@
 ## 🚀 Bắt đầu nhanh
 
 ### Sử dụng trực tuyến
-Truy cập [next-tools.vercel.app](https://next-tools.vercel.app) để sử dụng tất cả các công cụ trực tiếp trong trình duyệt của bạn.
+Truy cập [next-tools.dev](https://next-tools.dev) để sử dụng tất cả các công cụ trực tiếp trong trình duyệt của bạn.
 
 ### Tự lưu trữ
 

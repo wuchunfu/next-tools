@@ -11,8 +11,8 @@
 
 **🗣️ Idiomas:** [English](../README.md) • [中文](README.zh.md) • [Français](README.fr.md) • [Deutsch](README.de.md) • Español • [Português](README.pt.md) • [Русский](README.ru.md) • [Українська](README.uk.md) • [Norsk](README.no.md) • [Tiếng Việt](README.vi.md)
 
-[🌐 ¡Pruébalo en línea!](https://next-tools.vercel.app) •
-[📖 Acerca de](https://next-tools.vercel.app/about) •
+[🌐 ¡Pruébalo en línea!](https://next-tools.dev) •
+[📖 Acerca de](https://next-tools.dev/about) •
 [🐛 Reportar error](https://github.com/willjayyyy/next-tools/issues) •
 [💡 Solicitar función](https://github.com/willjayyyy/next-tools/issues/new/choose)
 
@@ -35,7 +35,7 @@
 ## 🚀 Inicio rápido
 
 ### Uso en línea
-Visita [next-tools.vercel.app](https://next-tools.vercel.app) para usar todas las herramientas directamente en tu navegador.
+Visita [next-tools.dev](https://next-tools.dev) para usar todas las herramientas directamente en tu navegador.
 
 ### Auto-alojamiento
 
