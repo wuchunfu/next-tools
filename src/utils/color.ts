@@ -33,10 +33,10 @@ export function hexToColorObject(hex: string): ColorObject {
   return {
     rgb: { r, g, b },
     rgba: { r, g, b, a },
-    hsl: { h, s: sHSL * 100, l: l * 100 },
-    hsla: { h, s: sHSL * 100, l: l * 100, a },
-    hsv: { h, s: sHSV * 100, v: v * 100 },
-    hsva: { h, s: sHSV * 100, v: v * 100, a },
+    hsl: { h, s: sHSL, l },
+    hsla: { h, s: sHSL, l, a },
+    hsv: { h, s: sHSV, v },
+    hsva: { h, s: sHSV, v, a },
     hex: `#${cleanHex.slice(0, 6)}`,
     hexa: hex.startsWith('#') ? hex : `#${hex}`,
   }

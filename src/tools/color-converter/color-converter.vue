@@ -41,8 +41,7 @@ syncRef<ColorObject | null, string>(
       // pickerColor -> storedHex
       ltr: (left) => {
         if (!left) { return '' }
-        const c = colorObjectToColord(left)
-        return c && c.isValid() ? c.toHex() : ''
+        return left.hexa // 直接使用完整的8位hex值
       },
       // storedHex -> pickerColor
       rtl: (right) => {
