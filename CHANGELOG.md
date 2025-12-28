@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 2025.12.28-9a070db
+
+### Features
+-  update domain from vercel.app and tech to next-tools.dev (b8599b6)
+
+### Refactoring
+-  remove unplugin-icons types from vitest config (9a070db)
+
 ## Version 2025.12.28-114c5d5
 
 ### Other
