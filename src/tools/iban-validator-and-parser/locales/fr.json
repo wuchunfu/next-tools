@@ -14,7 +14,9 @@
       "bban": "BBAN",
       "friendlyFormat": "Format convivial IBAN",
       "placeholder": "Entrez un IBAN pour vérifier sa validité...",
-      "examplesTitle": "Exemples d'IBAN valides"
+      "examplesTitle": "Exemples d'IBAN valides",
+      "iban": "IBAN",
+      "formatted": "Formaté"
     }
   }
 }

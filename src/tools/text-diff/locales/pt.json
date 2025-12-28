@@ -1,8 +1,7 @@
 {
   "tools": {
     "text-diff": {
-      "cardTitle": "Diff de texto",
-      "cardDescription": "Compare dois trechos de texto e destaque as diferenças."
+      
     }
   }
 }

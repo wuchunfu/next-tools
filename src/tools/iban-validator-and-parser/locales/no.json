@@ -14,7 +14,9 @@
       "bban": "BBAN",
       "friendlyFormat": "IBAN-vennlig format",
       "placeholder": "Skriv inn en IBAN for å sjekke gyldigheten...",
-      "examplesTitle": "Gyldige IBAN-eksempler"
+      "examplesTitle": "Gyldige IBAN-eksempler",
+      "iban": "IBAN",
+      "formatted": "Formatert"
     }
   }
 }

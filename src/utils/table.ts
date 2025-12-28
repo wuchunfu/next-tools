@@ -8,7 +8,7 @@ export const tableContainerMaxHeightClasses
 
 // Table header classes - 表格头部样式
 export const tableHeaderClasses
-  = 'bg-muted sticky top-0 z-10 border-border rounded-t-lg';
+  = 'bg-muted sticky top-0 z-1 border-border rounded-t-lg';
 
 // Table head classes - 表头样式
 export const tableHeadClasses

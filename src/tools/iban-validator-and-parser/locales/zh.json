@@ -14,7 +14,9 @@
       "bban": "BBAN",
       "friendlyFormat": "IBAN 易读格式",
       "placeholder": "输入 IBAN 以检查其有效性...",
-      "examplesTitle": "有效的 IBAN 示例"
+      "examplesTitle": "有效的 IBAN 示例",
+      "iban": "IBAN",
+      "formatted": "格式化"
     }
   }
 }

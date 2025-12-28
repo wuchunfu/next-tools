@@ -14,7 +14,9 @@
       "bban": "BBAN",
       "friendlyFormat": "Зручний формат IBAN",
       "placeholder": "Введіть IBAN для перевірки дійсності...",
-      "examplesTitle": "Приклади дійсних IBAN"
+      "examplesTitle": "Приклади дійсних IBAN",
+      "iban": "IBAN",
+      "formatted": "Форматований"
     }
   }
 }

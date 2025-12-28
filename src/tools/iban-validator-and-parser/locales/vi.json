@@ -14,7 +14,9 @@
       "bban": "BBAN",
       "friendlyFormat": "Định dạng IBAN thân thiện",
       "placeholder": "Nhập IBAN để kiểm tra tính hợp lệ...",
-      "examplesTitle": "Ví dụ IBAN hợp lệ"
+      "examplesTitle": "Ví dụ IBAN hợp lệ",
+      "iban": "IBAN",
+      "formatted": "Đã định dạng"
     }
   }
 }

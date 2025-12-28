@@ -1,12 +1,15 @@
 <script setup lang="ts">
 import { extractIBAN, friendlyFormatIBAN, isQRIBAN, validateIBAN } from 'ibantools'
 import { Banknote } from 'lucide-vue-next';
+import CopyableCell from '@/components/CopyableCell.vue';
 import InputCopyable from '@/components/InputCopyable.vue';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Field, FieldContent, FieldGroup, FieldLabel } from '@/components/ui/field';
 import { Input } from '@/components/ui/input';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { useToolI18n } from '@/composable/useToolI18n';
 import { booleanToHumanReadable } from '@/utils/boolean';
+import { tableCellClasses, tableContainerClasses, tableHeadClasses, tableHeaderClasses } from '@/utils/table';
 import { getFriendlyErrors } from './iban-validator-and-parser.service'
 
 const rawIban = ref('')
@@ -52,9 +55,21 @@ const ibanInfo = computed(() => {
 });
 
 const ibanExamples = [
-  'FR7630006000011234567890189',
-  'DE89370400440532013000',
-  'GB29NWBK60161331926819',
+  {
+    iban: 'FR7630006000011234567890189',
+    country: 'France',
+    friendlyFormat: friendlyFormatIBAN('FR7630006000011234567890189'),
+  },
+  {
+    iban: 'DE89370400440532013000',
+    country: 'Germany',
+    friendlyFormat: friendlyFormatIBAN('DE89370400440532013000'),
+  },
+  {
+    iban: 'GB29NWBK60161331926819',
+    country: 'United Kingdom',
+    friendlyFormat: friendlyFormatIBAN('GB29NWBK60161331926819'),
+  },
 ]
 </script>
 
@@ -128,15 +143,29 @@ const ibanExamples = [
         </div>
       </CardHeader>
       <CardContent>
-        <div class="space-y-3">
-          <div v-for="iban in ibanExamples" :key="iban" class="flex items-center gap-2">
-            <InputCopyable
-              :value="iban"
-              :label="friendlyFormatIBAN(iban) || iban"
-              readonly
-              :field-props="{ orientation: 'horizontal' }"
-            />
-          </div>
+        <div class="overflow-x-auto">
+          <Table :container-class="tableContainerClasses">
+            <TableHeader :class="tableHeaderClasses">
+              <TableRow>
+                <TableHead :class="tableHeadClasses">
+{{ t('tools.iban-validator-and-parser.iban', 'IBAN') }}
+</TableHead>
+                <TableHead :class="tableHeadClasses">
+{{ t('tools.iban-validator-and-parser.formatted', 'Formatted') }}
+</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              <TableRow v-for="example in ibanExamples" :key="example.iban">
+                <TableCell :class="tableCellClasses">
+                  <CopyableCell :value="example.iban" />
+                </TableCell>
+                <TableCell :class="tableCellClasses">
+                  <CopyableCell :value="example.friendlyFormat || example.iban" />
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
         </div>
       </CardContent>
     </Card>

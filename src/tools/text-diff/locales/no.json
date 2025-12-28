@@ -1,8 +1,7 @@
 {
   "tools": {
     "text-diff": {
-      "cardTitle": "Tekst-diff",
-      "cardDescription": "Sammenlign to tekststykker og markér forskjellene."
+      
     }
   }
 }

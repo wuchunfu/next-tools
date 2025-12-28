@@ -1,8 +1,7 @@
 {
   "tools": {
     "text-diff": {
-      "cardTitle": "Diff de texte",
-      "cardDescription": "Comparez deux textes et mettez en évidence les différences."
+      
     }
   }
 }
