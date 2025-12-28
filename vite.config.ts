@@ -68,8 +68,8 @@ export default defineConfig({
         lang: 'zh-CN',
         start_url: `${baseUrl}?utm_source=pwa&utm_medium=pwa`,
         orientation: 'any',
-        theme_color: '#18a058',
-        background_color: '#f1f5f9',
+        theme_color: '#F0F3F0',
+        background_color: '#ffffff', // 白色背景，图标有自己的绿色半透明背景
         icons: [
           {
             src: '/favicon-16x16.png',
@@ -80,6 +80,11 @@ export default defineConfig({
             src: '/favicon-32x32.png',
             type: 'image/png',
             sizes: '32x32',
+          },
+          {
+            src: '/apple-touch-icon-180x180.png',
+            sizes: '180x180',
+            type: 'image/png',
           },
           {
             src: '/android-chrome-192x192.png',
