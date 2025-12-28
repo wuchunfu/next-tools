@@ -537,6 +537,8 @@
   },
   "commandPalette": {
     "categories": {
+      "recentTools": "Đã sử dụng gần đây",
+      "tools": "Công cụ",
       "actions": "Hành động",
       "external": "Liên kết ngoài",
       "pages": "Trang"

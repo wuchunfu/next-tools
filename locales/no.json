@@ -537,6 +537,8 @@
   },
   "commandPalette": {
     "categories": {
+      "recentTools": "Nylig brukt",
+      "tools": "Verktøy",
       "actions": "Handlinger",
       "external": "Eksterne",
       "pages": "Sider"

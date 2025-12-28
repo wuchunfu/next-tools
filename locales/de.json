@@ -536,6 +536,8 @@
   },
   "commandPalette": {
     "categories": {
+      "recentTools": "Zuletzt verwendet",
+      "tools": "Werkzeuge",
       "actions": "Aktionen",
       "external": "Extern",
       "pages": "Seiten"

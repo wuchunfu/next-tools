@@ -537,29 +537,31 @@
   },
   "commandPalette": {
     "categories": {
-      "actions": "Actions",
-      "external": "External",
-      "pages": "Pages"
+      "recentTools": "Недавно использованные",
+      "tools": "Инструменты",
+      "actions": "Действия",
+      "external": "Внешние",
+      "pages": "Страницы"
     },
     "actions": {
-      "toggleDarkMode": "Toggle dark mode",
-      "toggleDarkModeDescription": "Toggle dark mode on or off.",
-      "reportBug": "Report a bug or an issue",
-      "reportBugDescription": "Report a bug or an issue to help improve next-tools."
+      "toggleDarkMode": "Переключить тёмный режим",
+      "toggleDarkModeDescription": "Включить или выключить тёмный режим.",
+      "reportBug": "Сообщить об ошибке или проблеме",
+      "reportBugDescription": "Сообщить об ошибке или проблеме, чтобы помочь улучшить next-tools."
     },
     "external": {
-      "githubRepository": "Github repository",
-      "githubRepositoryDescription": "View the source code of next-tools on Github."
+      "githubRepository": "Репозиторий GitHub",
+      "githubRepositoryDescription": "Посмотреть исходный код next-tools на Github."
     },
     "pages": {
-      "about": "About",
-      "aboutDescription": "Learn more about Next-Tools."
+      "about": "О программе",
+      "aboutDescription": "Узнайте больше о Next-Tools."
     },
     "keywords": {
-      "toggleDarkMode": "dark,theme,toggle,mode,light,system",
-      "githubRepository": "github,repo,repository,source,code",
-      "reportBug": "report,issue,bug,problem,error",
-      "about": "about,learn,more,info,information"
+      "toggleDarkMode": "тёмный,тема,переключить,режим,светлый,система",
+      "githubRepository": "github,репо,репозиторий,исходный,код",
+      "reportBug": "сообщить,проблема,ошибка,баг",
+      "about": "о программе,узнать,больше,инфо,информация"
     }
   }
 }

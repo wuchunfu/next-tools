@@ -537,6 +537,8 @@
   },
   "commandPalette": {
     "categories": {
+      "recentTools": "Недавно використані",
+      "tools": "Інструменти",
       "actions": "Дії",
       "external": "Зовнішні",
       "pages": "Сторінки"

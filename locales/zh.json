@@ -537,6 +537,8 @@
   },
   "commandPalette": {
     "categories": {
+      "recentTools": "最近使用",
+      "tools": "工具",
       "actions": "操作",
       "external": "外部链接",
       "pages": "页面"
