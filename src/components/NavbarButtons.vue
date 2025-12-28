@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Github, Info, Moon, SunMedium } from 'lucide-vue-next';
+import { Github, Info, Moon, Sun } from 'lucide-vue-next';
 
 import { Button } from '@/components/ui/button';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
@@ -59,7 +59,7 @@ const { isDarkTheme } = toRefs(styleStore);
     <Tooltip>
       <TooltipTrigger as-child>
         <Button variant="ghost" size="icon" :aria-label="$t('home.nav.mode')" @click="() => styleStore.toggleDark()">
-          <SunMedium v-if="isDarkTheme" class="h-5 w-5" />
+          <Sun v-if="isDarkTheme" class="h-5 w-5" />
           <Moon v-else class="h-5 w-5" />
         </Button>
       </TooltipTrigger>

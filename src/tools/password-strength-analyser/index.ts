@@ -1,5 +1,5 @@
 import { computed } from 'vue';
-import PasswordIcon from '~icons/mdi/form-textbox-password'
+import { Lock } from 'lucide-vue-next'
 import { translate } from '@/plugins/i18n.plugin'
 import { defineTool } from '../tool'
 
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.password-strength-analyser.description')),
   keywords: computed(() => translate('tools.password-strength-analyser.keywords')),
   component: () => import('./password-strength-analyser.vue'),
-  icon: PasswordIcon,
+  icon: Lock,
   createdAt: new Date('2023-06-24'),
 });

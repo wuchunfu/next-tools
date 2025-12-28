@@ -1,5 +1,5 @@
 import { computed } from 'vue';
-import FileCertIcon from '~icons/mdi/file-certificate-outline'
+import { FileCheck } from 'lucide-vue-next'
 import { translate } from '@/plugins/i18n.plugin'
 import { defineTool } from '../tool'
 
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.pdf-signature-checker.description')),
   keywords: computed(() => translate('tools.pdf-signature-checker.keywords')),
   component: () => import('./pdf-signature-checker.vue'),
-  icon: FileCertIcon,
+  icon: FileCheck,
   createdAt: new Date('2023-12-09'),
 });
