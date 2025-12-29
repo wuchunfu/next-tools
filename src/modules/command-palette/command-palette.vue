@@ -26,7 +26,14 @@ const isMac = computed(() => window.navigator.userAgent.toLowerCase().includes('
 const commandPaletteStore = useCommandPaletteStore()
 const { filteredSearchResult, searchPrompt } = storeToRefs(commandPaletteStore)
 
-const { ctrl_k, meta_k, escape } = useMagicKeys()
+const { ctrl_k, meta_k, escape } = useMagicKeys({
+  passive: false,
+  onEventFired(e) {
+    const isCmdPressed = isMac.value ? e.metaKey : e.ctrlKey
+    if (isCmdPressed && e.key === 'k' && e.type === 'keydown')
+      e.preventDefault()
+  },
+})
 
 const ctrlK = computed(() => ctrl_k?.value ?? false)
 const metaK = computed(() => meta_k?.value ?? false)
