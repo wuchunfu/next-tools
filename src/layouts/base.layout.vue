@@ -128,7 +128,7 @@ const tools = computed<ToolCategory[]>(() => [
         class="px-3 py-4 pt-0 text-center text-xs text-muted-foreground group-data-[collapsible=icon]:hidden"
       >
         <div class="space-x-1">
-          <span>NEXT-Tools</span>
+          <span>Next-Tools</span>
           <Button
             as="a"
             variant="link"
