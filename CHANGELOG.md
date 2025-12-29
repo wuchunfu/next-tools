@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.3.0
+
+### Features
+-  add figlet fonts for ASCII text generator (a1616bf)
+-  update PWA icons and manifest configuration (4a6cf41)
+
+### Bug fixes
+-  resolve TypeScript type errors in meta-tag generator (738daaa)
+
+### Refactoring
+-  clean up configuration and remove unused settings (e391d31)
+-  remove Plausible Analytics integration (bf5916b)
+-  remove naive-ui components and dependencies (1ada4ca)
+
+### Chores
+-  update build scripts and tooling configuration (f52dd8d)
+-  remove unused dependencies (1b8cde5)
+
+### Style
+-  migrate components to Tailwind CSS and update styling (462ce04)
+
 ## Version 2025.12.28-e50ebc7
 
 ### Features
