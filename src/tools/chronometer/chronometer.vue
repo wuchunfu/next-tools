@@ -56,7 +56,7 @@ function resetAll() {
     <Card>
       <CardContent>
         <div class="flex flex-col items-center">
-          <div class="duration select-none font-mono">
+          <div class="text-center text-6xl font-mono font-semibold my-4 select-none">
             {{ formatMs(counter) }}
           </div>
 
@@ -110,12 +110,3 @@ function resetAll() {
   </div>
 </template>
 
-<style lang="less" scoped>
-.duration {
-  text-align: center;
-  font-size: 36px;
-  font-family: monospace;
-  margin: 16px 0;
-  font-weight: 600;
-}
-</style>

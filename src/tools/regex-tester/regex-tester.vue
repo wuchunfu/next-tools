@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { ShadowRootExpose } from 'vue-shadow-dom';
+import { ShadowRoot } from 'vue-shadow-dom';
 import { render } from '@regexper/render';
 import { useStorage } from '@vueuse/core';
 import { Code2, FileText, Network, Sparkles, X } from 'lucide-vue-next';
@@ -426,7 +427,7 @@ watchEffect(
       </CardHeader>
       <CardContent>
         <div class="overflow-x-auto rounded-lg border p-4">
-          <shadow-root ref="visualizerSVG" />
+          <ShadowRoot ref="visualizerSVG" />
         </div>
       </CardContent>
     </Card>

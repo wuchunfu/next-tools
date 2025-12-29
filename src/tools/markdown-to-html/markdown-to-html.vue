@@ -13,6 +13,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import { useToolI18n } from '@/composable/useToolI18n';
 import { withDefaultOnError } from '@/utils/defaults';
+import { markdownBodyClasses } from '@/utils/markdown';
 
 const inputElement = ref<HTMLElement>()
 
@@ -273,7 +274,7 @@ function printHtml() {
                 </TabsList>
                 <TabsContent value="preview" class="mt-4">
                   <div class="relative min-w-0 w-full border rounded-md overflow-auto p-4 min-h-100 max-h-150">
-                    <div v-if="outputHtml" class="markdown-preview" v-html="outputHtml" />
+                    <div v-if="outputHtml" :class="markdownBodyClasses" v-html="outputHtml" />
                     <div v-else class="flex items-center justify-center h-100 text-muted-foreground">
                       {{ t('tools.markdown-to-html.previewPlaceholder', 'Preview will appear here...') }}
                     </div>
@@ -307,128 +308,3 @@ function printHtml() {
   </div>
 </template>
 
-<style scoped>
-.markdown-preview :deep(h1),
-.markdown-preview :deep(h2),
-.markdown-preview :deep(h3),
-.markdown-preview :deep(h4),
-.markdown-preview :deep(h5),
-.markdown-preview :deep(h6) {
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-  font-weight: 600;
-  line-height: 1.25;
-}
-
-.markdown-preview :deep(h1) {
-  font-size: 2em;
-  border-bottom: 1px solid hsl(var(--border));
-  padding-bottom: 0.3em;
-}
-
-.markdown-preview :deep(h2) {
-  font-size: 1.5em;
-  border-bottom: 1px solid hsl(var(--border));
-  padding-bottom: 0.3em;
-}
-
-.markdown-preview :deep(h3) {
-  font-size: 1.25em;
-}
-
-.markdown-preview :deep(h4) {
-  font-size: 1em;
-}
-
-.markdown-preview :deep(h5) {
-  font-size: 0.875em;
-}
-
-.markdown-preview :deep(h6) {
-  font-size: 0.85em;
-  color: hsl(var(--muted-foreground));
-}
-
-.markdown-preview :deep(p) {
-  margin-bottom: 1em;
-  line-height: 1.6;
-}
-
-.markdown-preview :deep(code) {
-  background-color: hsl(var(--muted));
-  padding: 2px 6px;
-  border-radius: 3px;
-  font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
-  font-size: 0.9em;
-}
-
-.markdown-preview :deep(pre) {
-  background-color: hsl(var(--muted));
-  padding: 12px;
-  border-radius: 4px;
-  overflow-x: auto;
-  margin-bottom: 1em;
-}
-
-.markdown-preview :deep(pre code) {
-  background-color: transparent;
-  padding: 0;
-}
-
-.markdown-preview :deep(blockquote) {
-  border-left: 4px solid hsl(var(--border));
-  padding-left: 16px;
-  margin-left: 0;
-  color: hsl(var(--muted-foreground));
-  font-style: italic;
-}
-
-.markdown-preview :deep(table) {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1em 0;
-}
-
-.markdown-preview :deep(th),
-.markdown-preview :deep(td) {
-  border: 1px solid hsl(var(--border));
-  padding: 8px 12px;
-  text-align: left;
-}
-
-.markdown-preview :deep(th) {
-  background-color: hsl(var(--muted));
-  font-weight: 600;
-}
-
-.markdown-preview :deep(img) {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
-
-.markdown-preview :deep(a) {
-  color: hsl(var(--primary));
-  text-decoration: none;
-}
-
-.markdown-preview :deep(a:hover) {
-  text-decoration: underline;
-}
-
-.markdown-preview :deep(ul),
-.markdown-preview :deep(ol) {
-  margin-bottom: 1em;
-  padding-left: 2em;
-}
-
-.markdown-preview :deep(li) {
-  margin-bottom: 0.5em;
-}
-
-.markdown-preview :deep(hr) {
-  border: none;
-  border-top: 1px solid hsl(var(--border));
-  margin: 2em 0;
-}
-</style>
