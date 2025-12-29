@@ -6,7 +6,7 @@ const typeOptions = [
   { label: 'Book', value: 'book' },
   { label: 'Profile', value: 'profile' },
   {
-    type: 'group',
+    type: 'group' as const,
     label: 'Music',
     key: 'Music',
     children: [
@@ -17,7 +17,7 @@ const typeOptions = [
     ],
   },
   {
-    type: 'group',
+    type: 'group' as const,
     label: 'Video',
     key: 'Video',
     children: [
