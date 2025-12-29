@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.3.1
+
+### Chores
+- **icons**: update PWA manifest, add maskable and non-maskable desktop icons, and update meta links (a0f474c)
+
 ## Version 1.3.0
 
 ### Features
