@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.3.2
+
+### Bug fixes
+- **command-palette**: prevent default Ctrl/Cmd+K only on platform using useMagicKeys options (87f6d61)
+
+### Chores
+-  update changelog and base layout tweaks (4d25997)
+
 ## Version 1.3.1
 
 ### Chores
