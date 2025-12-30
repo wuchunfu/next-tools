@@ -6,13 +6,13 @@ export const config = defineConfig(
     app: {
       version: {
         doc: 'Application current version',
-        schema: v.string(),
+        schema: z.string(),
         default: '0.0.0',
         env: 'PACKAGE_VERSION',
       },
       baseUrl: {
         doc: 'Application base url',
-        schema: v.string(),
+        schema: z.string(),
         default: '/',
         env: 'BASE_URL',
       },
