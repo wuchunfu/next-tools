@@ -53,6 +53,14 @@ export const config = defineConfig(
         env: 'VITE_UMAMI_SCRIPT_URL',
       },
     },
+    consent: {
+      enabled: {
+        doc: 'Enable cookie consent management system',
+        schema: z.coerce.boolean(),
+        default: true,
+        env: 'VITE_ENABLE_CONSENT',
+      },
+    },
   },
   {
     envSource: {

@@ -1,15 +1,16 @@
 <script setup lang="ts">
 import { defineAsyncComponent, ref, computed, watch } from 'vue';
 import { useConsent } from '@/composable/useConsent';
+import { config } from '@/config';
 
-const ConsentBanner = defineAsyncComponent(() => import('./ConsentBanner.vue'));
+const ConsentBanner = defineAsyncComponent(() => import('@/consent/ConsentBanner.vue'));
 
 const { needsConsent, detectRegion, consentConfig } = useConsent();
 
 const showConsentModal = ref(false);
 
 const hasConsentEnabled = computed(() => {
-  return Object.values(consentConfig.value).some(value => value);
+  return config.consent.enabled && Object.values(consentConfig.value).some(value => value);
 });
 
 // Check consent requirements when consent options are enabled

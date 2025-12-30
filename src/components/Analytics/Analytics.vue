@@ -2,9 +2,9 @@
 import { defineAsyncComponent } from 'vue';
 import { config } from '@/config';
 
-const VercelAnalytics = defineAsyncComponent(() => import('./VercelAnalytics.vue'));
-const GoogleAnalytics = defineAsyncComponent(() => import('./GoogleAnalytics.vue'));
-const UmamiAnalytics = defineAsyncComponent(() => import('./UmamiAnalytics.vue'));
+const VercelAnalytics = defineAsyncComponent(() => import('@/analytics/VercelAnalytics.vue'));
+const GoogleAnalytics = defineAsyncComponent(() => import('@/analytics/GoogleAnalytics.vue'));
+const UmamiAnalytics = defineAsyncComponent(() => import('@/analytics/UmamiAnalytics.vue'));
 </script>
 
 <template>
