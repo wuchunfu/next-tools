@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.5.0
+
+### Features
+-  Add comprehensive cookie consent management system (2b75a98)
+
+### Bug fixes
+- **build**: Submitting missing information (0cfdf62)
+- **build**: Fixing Windows' inability to package (b28aed5)
+- **config**: Use to fix missing variables (1e8f438)
+
 ## Version 1.4.0
 
 ### Features
