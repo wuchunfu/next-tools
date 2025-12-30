@@ -17,6 +17,42 @@ export const config = defineConfig(
         env: 'BASE_URL',
       },
     },
+    vercelAnalytics: {
+      enabled: {
+        doc: 'Enable Vercel Analytics',
+        schema: v.boolean(),
+        default: false,
+        env: 'VITE_ENABLE_VERCEL_ANALYTICS',
+      },
+      debug: {
+        doc: 'Enable debug logging for Vercel Analytics',
+        schema: v.boolean(),
+        default: false,
+        env: 'VITE_DEBUG_VERCEL_ANALYTICS',
+      },
+    },
+    googleAnalytics: {
+      id: {
+        doc: 'Google Analytics Measurement ID (G-XXXXXXXXXX). Presence enables GA.',
+        schema: v.string(),
+        default: '',
+        env: 'VITE_GOOGLE_ANALYTICS_ID',
+      },
+    },
+    umamiAnalytics: {
+      websiteId: {
+        doc: 'Umami website ID. Presence enables Umami analytics.',
+        schema: v.string(),
+        default: '',
+        env: 'VITE_UMAMI_WEBSITE_ID',
+      },
+      scriptUrl: {
+        doc: 'Umami script URL.',
+        schema: v.string(),
+        default: 'https://analytics.umami.is/script.js',
+        env: 'VITE_UMAMI_SCRIPT_URL',
+      },
+    },
   },
   {
     envSource: {

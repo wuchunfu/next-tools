@@ -150,6 +150,29 @@ Um Übersetzungen beizutragen, bearbeiten Sie die JSON-Dateien im `locales/` Ver
 
 ## 📄 Lizenz
 
+## 📊 Analytics-Integration
+
+Next-Tools unterstützt optionale Analytics-Integration für Nutzungsverfolgung. Konfigurieren Sie diese Umgebungsvariablen, um Analytics zu aktivieren:
+
+### Vercel Analytics
+```bash
+VITE_ENABLE_VERCEL_ANALYTICS=true
+VITE_DEBUG_VERCEL_ANALYTICS=false  # Optionaler Debug-Modus
+```
+
+### Google Analytics 4
+```bash
+VITE_GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX
+```
+
+### Umami Analytics
+```bash
+VITE_UMAMI_WEBSITE_ID=your-website-id
+VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # Optionale benutzerdefinierte URL
+```
+
+Analytics laufen nur in Produktions-Builds und sind vollständig optional.
+
 Dieses Projekt ist unter der [GNU General Public License v3.0](LICENSE) lizenziert.
 
 ## 🙏 Danksagungen

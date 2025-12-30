@@ -148,6 +148,29 @@ Next-Tools hỗ trợ 10 ngôn ngữ:
 
 Để đóng góp bản dịch, chỉnh sửa các tệp JSON trong thư mục `locales/`.
 
+## 📊 Tích hợp Analytics
+
+Next-Tools hỗ trợ tích hợp analytics tùy chọn để theo dõi việc sử dụng. Cấu hình các biến môi trường này để bật analytics:
+
+### Vercel Analytics
+```bash
+VITE_ENABLE_VERCEL_ANALYTICS=true
+VITE_DEBUG_VERCEL_ANALYTICS=false  # Chế độ debug tùy chọn
+```
+
+### Google Analytics 4
+```bash
+VITE_GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX
+```
+
+### Umami Analytics
+```bash
+VITE_UMAMI_WEBSITE_ID=your-website-id
+VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # URL tùy chỉnh tùy chọn
+```
+
+Analytics chỉ chạy trong bản build production và hoàn toàn tùy chọn.
+
 ## 📄 Giấy phép
 
 Dự án này được cấp phép theo [Giấy phép Công cộng GNU v3.0](LICENSE).

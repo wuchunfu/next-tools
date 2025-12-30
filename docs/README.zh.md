@@ -148,6 +148,29 @@ Next-Tools 支持 10 种语言：
 
 要贡献翻译，请编辑 `locales/` 目录中的 JSON 文件。
 
+## 📊 分析集成
+
+Next-Tools 支持可选的分析集成，用于使用情况跟踪。配置以下环境变量以启用分析：
+
+### Vercel Analytics
+```bash
+VITE_ENABLE_VERCEL_ANALYTICS=true
+VITE_DEBUG_VERCEL_ANALYTICS=false  # 可选调试模式
+```
+
+### Google Analytics 4
+```bash
+VITE_GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX
+```
+
+### Umami Analytics
+```bash
+VITE_UMAMI_WEBSITE_ID=your-website-id
+VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # 可选自定义 URL
+```
+
+分析仅在生产构建中运行且完全可选。
+
 ## 📄 许可证
 
 本项目采用 [GNU General Public License v3.0](LICENSE) 许可证。

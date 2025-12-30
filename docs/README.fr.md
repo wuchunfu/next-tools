@@ -150,6 +150,29 @@ Pour contribuer aux traductions, modifiez les fichiers JSON dans le répertoire 
 
 ## 📄 Licence
 
+## 📊 Intégration Analytics
+
+Next-Tools prend en charge l'intégration d'analyse optionnelle pour le suivi d'utilisation. Configurez ces variables d'environnement pour activer les analytics :
+
+### Vercel Analytics
+```bash
+VITE_ENABLE_VERCEL_ANALYTICS=true
+VITE_DEBUG_VERCEL_ANALYTICS=false  # Mode debug optionnel
+```
+
+### Google Analytics 4
+```bash
+VITE_GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX
+```
+
+### Umami Analytics
+```bash
+VITE_UMAMI_WEBSITE_ID=your-website-id
+VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # URL personnalisée optionnelle
+```
+
+Les analytics ne s'exécutent que dans les builds de production et sont complètement optionnels.
+
 Ce projet est sous licence [GNU General Public License v3.0](LICENSE).
 
 ## 🙏 Remerciements

@@ -4,6 +4,7 @@ import { RouterView, useRoute } from 'vue-router';
 import { useHead } from '@vueuse/head';
 
 import { Toaster } from '@/components/ui/sonner';
+import Analytics from '@/components/Analytics/Analytics.vue';
 import { layouts } from './layouts';
 import { useStyleStore } from './stores/style.store';
 
@@ -85,7 +86,7 @@ syncRef(useStorage('locale', language.value?.split?.('-')?.[0] ?? 'en'), locale,
     <component :is="layout">
       <RouterView />
     </component>
-
+    <Analytics />
     <Toaster />
   </div>
 </template>

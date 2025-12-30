@@ -148,6 +148,29 @@ Next-Tools suporta 10 idiomas:
 
 Para contribuir com traduções, edite os arquivos JSON no diretório `locales/`.
 
+## 📊 Integração de Analytics
+
+Next-Tools suporta integração opcional de analytics para rastreamento de uso. Configure estas variáveis de ambiente para habilitar analytics:
+
+### Vercel Analytics
+```bash
+VITE_ENABLE_VERCEL_ANALYTICS=true
+VITE_DEBUG_VERCEL_ANALYTICS=false  # Modo debug opcional
+```
+
+### Google Analytics 4
+```bash
+VITE_GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX
+```
+
+### Umami Analytics
+```bash
+VITE_UMAMI_WEBSITE_ID=your-website-id
+VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # URL personalizada opcional
+```
+
+Os analytics só executam em builds de produção e são completamente opcionais.
+
 ## 📄 Licença
 
 Este projeto está sob a [Licença Pública Geral GNU v3.0](LICENSE).
