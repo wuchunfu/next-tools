@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.5.1
+
+### Features
+-  Add consent management toggle (fc01024)
+
 ## Version 1.5.0
 
 ### Features
