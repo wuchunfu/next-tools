@@ -3,7 +3,7 @@ import { defineAsyncComponent, ref, computed, watch } from 'vue';
 import { useConsent } from '@/composable/useConsent';
 import { config } from '@/config';
 
-const ConsentBanner = defineAsyncComponent(() => import('@/consent/ConsentBanner.vue'));
+const ConsentBanner = defineAsyncComponent(() => import('./ConsentBanner.vue'));
 
 const { needsConsent, detectRegion, consentConfig } = useConsent();
 

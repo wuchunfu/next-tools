@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import { config } from '@/config';
 import { configure, useConsent as useGtagConsent } from 'vue-gtag';
 import { useConsent } from '@/composable/useConsent';
@@ -8,7 +8,7 @@ const { consentState } = useConsent();
 const { acceptCustom } = useGtagConsent();
 const id = config.googleAnalytics.id;
 
-// Initialize Google Analytics in manual mode
+// Initialize Google analytics in manual mode
 const initGoogleAnalytics = () => {
   if (id) {
     configure({
@@ -21,7 +21,7 @@ const initGoogleAnalytics = () => {
 // Initialize immediately if ID exists
 initGoogleAnalytics();
 
-// Watch for consent state changes and update Google Analytics consent
+// Watch for consent state changes and update Google analytics consent
 watch(
   () => ({
     analytics: consentState.value.analytics,

@@ -7,7 +7,7 @@ import { config } from '@/config';
 // Define user consent state
 export interface ConsentState {
   essential: boolean; // Essential cookies/functionality
-  analytics?: boolean; // Analytics consent (all tools)
+  analytics?: boolean; // analytics consent (all tools)
   marketing?: boolean; // Marketing related
   preferences?: boolean; // Preference settings
   timestamp: number; // Consent timestamp
@@ -28,7 +28,7 @@ export interface RegionInfo {
 // Default consent state
 const defaultConsentState: ConsentState = {
   essential: true, // Essential functionality enabled by default
-  analytics: undefined, // Analytics disabled by default
+  analytics: undefined, // analytics disabled by default
   marketing: undefined,
   preferences: undefined,
   timestamp: 0,

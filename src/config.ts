@@ -19,13 +19,13 @@ export const config = defineConfig(
     },
     vercelAnalytics: {
       enabled: {
-        doc: 'Enable Vercel Analytics',
+        doc: 'Enable Vercel analytics',
         schema: z.coerce.boolean(),
         default: false,
         env: 'VITE_ENABLE_VERCEL_ANALYTICS',
       },
       debug: {
-        doc: 'Enable debug logging for Vercel Analytics',
+        doc: 'Enable debug logging for Vercel analytics',
         schema: z.coerce.boolean(),
         default: false,
         env: 'VITE_DEBUG_VERCEL_ANALYTICS',
@@ -33,7 +33,7 @@ export const config = defineConfig(
     },
     googleAnalytics: {
       id: {
-        doc: 'Google Analytics Measurement ID (G-XXXXXXXXXX). Presence enables GA.',
+        doc: 'Google analytics Measurement ID (G-XXXXXXXXXX). Presence enables GA.',
         schema: z.string(),
         default: '',
         env: 'VITE_GOOGLE_ANALYTICS_ID',

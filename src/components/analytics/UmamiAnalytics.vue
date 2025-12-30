@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import { config } from '@/config';
 import Script from '@/components/Script.vue';
 import { useConsent } from '@/composable/useConsent';
@@ -9,7 +9,7 @@ const { consentState, hasConsented } = useConsent();
 const websiteId = config.umamiAnalytics.websiteId;
 const scriptUrl = config.umamiAnalytics.scriptUrl;
 
-// Only show Umami Analytics when user consents
+// Only show Umami analytics when user consents
 const showUmami = computed(() => {
   return websiteId && hasConsented.value && consentState.value.analytics;
 });
@@ -18,9 +18,9 @@ const showUmami = computed(() => {
 <template>
   <Script
     v-if="showUmami"
-    :src="scriptUrl"
     :async="true"
-    :defer="true"
     :data="{ 'website-id': websiteId }"
+    :defer="true"
+    :src="scriptUrl"
   />
 </template>
