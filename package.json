@@ -142,6 +142,7 @@
     "@vue/tsconfig": "^0.8.1",
     "autoprefixer": "^10.4.23",
     "consola": "^3.4.2",
+    "cross-env": "^10.1.0",
     "eslint": "^9.39.2",
     "eslint-plugin-unused-imports": "^4.3.0",
     "hygen": "^6.2.11",
