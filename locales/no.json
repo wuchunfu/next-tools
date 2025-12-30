@@ -42,6 +42,51 @@
       "mode": "Veksle mørk/lys modus"
     }
   },
+  "consent": {
+    "gdpr": {
+      "title": "Cookie-innstillinger",
+      "description": "Vi bruker cookies og lignende teknologier for å forbedre opplevelsen din. I henhold til GDPR trenger vi ditt samtykke for å bruke analysecookies.",
+      "acceptAll": "Godta Alle",
+      "rejectAll": "Avvis Alle",
+      "customize": "Tilpass",
+      "saveSettings": "Lagre Innstillinger"
+    },
+    "ccpa": {
+      "title": "Personverninnstillinger",
+      "description": "Vi respekterer dine personvernrettigheter under CCPA. Du kan kontrollere hvordan vi bruker dataene dine for analyse og markedsføring.",
+      "acceptAll": "Godta Alle",
+      "rejectAll": "Avvis Alle",
+      "customize": "Tilpass",
+      "saveSettings": "Lagre Innstillinger"
+    },
+    "default": {
+      "title": "Personverninnstillinger",
+      "description": "Hjelp oss å forbedre tjenesten vår ved å tillate analysecookies. Du kan endre disse innstillingene når som helst.",
+      "acceptAll": "Godta Alle",
+      "rejectAll": "Avvis Alle",
+      "customize": "Tilpass",
+      "saveSettings": "Lagre Innstillinger"
+    },
+    "analytics": {
+      "title": "Analyse",
+      "description": "Hjelp oss å forstå hvordan du bruker verktøyene våre for å forbedre opplevelsen din."
+    },
+    "essential": {
+      "title": "Viktig",
+      "description": "Påkrevd for at nettstedet skal fungere ordentlig. Kan ikke deaktiveres."
+    },
+    "customize": {
+      "analytics": "Analyse-cookies",
+      "analyticsDescription": "Tillat analyse for å hjelpe oss å forbedre tjenesten vår",
+      "marketing": "Markedsførings-cookies",
+      "marketingDescription": "Tillat personaliserte annonser og markedsføringskommunikasjon",
+      "preferences": "Preferanse-cookies",
+      "preferencesDescription": "Husk innstillingene og preferansene dine",
+      "essential": "Viktige Cookies",
+      "essentialDescription": "Påkrevd for grunnleggende nettstedfunksjonalitet"
+    },
+    "back": "Tilbake"
+  },
   "about": {
     "content": "# Om Next-Tools\nNext-Tools er en samling praktiske online-verktøy designet for utviklere og IT-profesjonelle. Dette prosjektet er en fork og forbedring av det originale [it-tools](https://github.com/CorentinTh/it-tools) prosjektet, gjenoppbygd og vedlikeholdt av [Will Jay](https://github.com/willjayyyy).\n\nVår misjon er å gi utviklere effektive og pålitelige verktøy som effektiviserer daglige arbeidsflyter. Enten du jobber med datakonvertering, tekstbehandling eller nettverksanalyse, tilbyr Next-Tools et rent og intuitivt grensesnitt for å få jobben gjort raskt.\n\n## Hva gjør Next-Tools spesielt\n- **Åpen kildekode**: Lisensiert under GPL-3.0, gratis og transparent\n- **Utviklerfokusert**: Bygget av utviklere, for utviklere\n- **Personvern først**: Alle verktøy kjører lokalt i nettleseren din\n- **Regelmessige oppdateringer**: Kontinuerlige forbedringer og nye verktøytillegg\n\n## Teknologier\nNext-Tools er bygget med moderne web-teknologier:\n- **Vue.js 3** - Progressivt JavaScript-rammeverk\n- **Naive UI** - Vue 3 komponentbibliotek\n- **Vite** - Rask byggverktøy og utviklingsserver\n- **TypeScript** - Utvikling med typesikkerhet\n\nVi bruker også forskjellige åpen kildekode-biblioteker for spesifikke funksjoner. Du finner den komplette listen i vår [package.json](https://github.com/willjayyyy/next-tools/blob/main/package.json).\n\n## Fellesskap og bidrag\nVi tror på kraften i åpen kildekode-samarbeid. Hvis du har ideer til nye verktøy eller forbedringer, vil vi gjerne høre dem! Du kan:\n- ⭐ Gi stjerne til repositoriet hvis du synes det er nyttig\n- 🐛 Rapportere feil eller problemer\n- 💡 Foreslå nye verktøy eller funksjoner\n- 🤝 Bidra med kodeforbedringer\n\n## Funnet en feil? Trenger nytt verktøy?\nVi vedlikeholder aktivt dette prosjektet og setter pris på tilbakemeldingen din. Vennligst besøk vårt [GitHub-repositorium](https://github.com/willjayyyy/next-tools) for å:\n- Sende inn funksjonsforespørsler via [Issues](https://github.com/willjayyyy/next-tools/issues/new/choose)\n- Rapportere feil som trenger retting\n- Se kildekoden og bidra\n\nTakk for at du bruker Next-Tools! Din støtte hjelper oss å fortsette å skape bedre verktøy for utviklere. 🚀\n",
     "title": "Om - Next Tools",

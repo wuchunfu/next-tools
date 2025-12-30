@@ -42,6 +42,51 @@
       "mode": "颜色模式"
     }
   },
+  "consent": {
+    "gdpr": {
+      "title": "Cookie 偏好设置",
+      "description": "我们使用 Cookie 和类似技术来提升您的体验。根据 GDPR，我们需要您的同意才能使用分析 Cookie。",
+      "acceptAll": "全部接受",
+      "rejectAll": "全部拒绝",
+      "customize": "自定义",
+      "saveSettings": "保存设置"
+    },
+    "ccpa": {
+      "title": "隐私偏好设置",
+      "description": "我们尊重您在 CCPA 下的隐私权。您可以控制我们如何使用您的数据进行分析和营销。",
+      "acceptAll": "全部接受",
+      "rejectAll": "全部拒绝",
+      "customize": "自定义",
+      "saveSettings": "保存设置"
+    },
+    "default": {
+      "title": "隐私偏好设置",
+      "description": "通过允许分析 Cookie 帮助我们改进服务。您可以随时更改这些设置。",
+      "acceptAll": "全部接受",
+      "rejectAll": "全部拒绝",
+      "customize": "自定义",
+      "saveSettings": "保存设置"
+    },
+    "analytics": {
+      "title": "分析工具",
+      "description": "帮助我们了解您如何使用我们的工具，从而改进您的体验。"
+    },
+    "essential": {
+      "title": "必需功能",
+      "description": "网站正常运行所必需。无法禁用。"
+    },
+    "customize": {
+      "analytics": "分析 Cookie",
+      "analyticsDescription": "允许分析功能帮助我们改进服务",
+      "marketing": "营销 Cookie",
+      "marketingDescription": "允许个性化广告和营销通讯",
+      "preferences": "偏好 Cookie",
+      "preferencesDescription": "记住您的设置和偏好",
+      "essential": "必需 Cookie",
+      "essentialDescription": "网站基本功能所必需"
+    },
+    "back": "返回"
+  },
   "about": {
     "title": "关于 - Next Tools",
     "description": "了解 Next Tools - 专为开发者打造的实用在线工具集合。探索我们的使命、技术栈以及如何为这个开源项目做出贡献。",

@@ -42,6 +42,51 @@
       "mode": "Wechseln zwischen dunklem/hellem Modus"
     }
   },
+  "consent": {
+    "gdpr": {
+      "title": "Cookie-Einstellungen",
+      "description": "Wir verwenden Cookies und ähnliche Technologien, um Ihr Erlebnis zu verbessern. Gemäß DSGVO benötigen wir Ihre Zustimmung zur Verwendung von Analyse-Cookies.",
+      "acceptAll": "Alle akzeptieren",
+      "rejectAll": "Alle ablehnen",
+      "customize": "Anpassen",
+      "saveSettings": "Einstellungen speichern"
+    },
+    "ccpa": {
+      "title": "Datenschutzeinstellungen",
+      "description": "Wir respektieren Ihre Datenschutzrechte gemäß CCPA. Sie können kontrollieren, wie wir Ihre Daten für Analyse und Marketing verwenden.",
+      "acceptAll": "Alle akzeptieren",
+      "rejectAll": "Alle ablehnen",
+      "customize": "Anpassen",
+      "saveSettings": "Einstellungen speichern"
+    },
+    "default": {
+      "title": "Datenschutzeinstellungen",
+      "description": "Helfen Sie uns, unseren Service zu verbessern, indem Sie Analyse-Cookies zulassen. Sie können diese Einstellungen jederzeit ändern.",
+      "acceptAll": "Alle akzeptieren",
+      "rejectAll": "Alle ablehnen",
+      "customize": "Anpassen",
+      "saveSettings": "Einstellungen speichern"
+    },
+    "analytics": {
+      "title": "Analyse",
+      "description": "Helfen Sie uns zu verstehen, wie Sie unsere Tools verwenden, um Ihr Erlebnis zu verbessern."
+    },
+    "essential": {
+      "title": "Essentiell",
+      "description": "Erforderlich für die ordnungsgemäße Funktion der Website. Kann nicht deaktiviert werden."
+    },
+    "customize": {
+      "analytics": "Analyse-Cookies",
+      "analyticsDescription": "Analyse zulassen, um uns bei der Verbesserung unseres Services zu helfen",
+      "marketing": "Marketing-Cookies",
+      "marketingDescription": "Personalisierte Werbung und Marketing-Kommunikation zulassen",
+      "preferences": "Präferenz-Cookies",
+      "preferencesDescription": "Ihre Einstellungen und Präferenzen merken",
+      "essential": "Essentielle Cookies",
+      "essentialDescription": "Für grundlegende Website-Funktionalität erforderlich"
+    },
+    "back": "Zurück"
+  },
   "about": {
     "content": "# Über Next-Tools\nNext-Tools ist eine Sammlung praktischer Online-Tools, die für Entwickler und IT-Profis entwickelt wurden. Dieses Projekt ist ein Fork und eine Verbesserung des ursprünglichen [it-tools](https://github.com/CorentinTh/it-tools) Projekts, das von [Will Jay](https://github.com/willjayyyy) neu aufgebaut und gepflegt wird.\n\nUnsere Mission ist es, Entwicklern effiziente und zuverlässige Tools zur Verfügung zu stellen, die den täglichen Arbeitsablauf rationalisieren. Egal, ob Sie an Datenkonvertierung, Textverarbeitung oder Netzwerkanalyse arbeiten, Next-Tools bietet eine saubere, intuitive Benutzeroberfläche, um die Arbeit schnell zu erledigen.\n\n## Was Next-Tools besonders macht\n- **Open Source**: Lizenziert unter GPL-3.0, kostenlos und transparent\n- **Entwickler fokussiert**: Von Entwicklern gebaut, für Entwickler\n- **Datenschutz zuerst**: Alle Tools laufen lokal in Ihrem Browser\n- **Regelmäßige Updates**: Kontinuierliche Verbesserungen und neue Tool-Zugaben\n\n## Technologien\nNext-Tools ist mit modernen Web-Technologien gebaut:\n- **Vue.js 3** - Progressives JavaScript-Framework\n- **Naive UI** - Vue 3 Komponentenbibliothek\n- **Vite** - Schnelles Build-Tool und Entwicklungsserver\n- **TypeScript** - Typ-sichere Entwicklung\n\nWir nutzen auch verschiedene Open-Source-Bibliotheken für spezifische Funktionalitäten. Die vollständige Liste finden Sie in unserer [package.json](https://github.com/willjayyyy/next-tools/blob/main/package.json).\n\n## Community und Beiträge\nWir glauben an die Kraft der Open-Source-Zusammenarbeit. Wenn Sie Ideen für neue Tools oder Verbesserungen haben, würden wir uns freuen, davon zu hören! Sie können:\n- ⭐ Das Repository mit einem Stern markieren, wenn Sie es nützlich finden\n- 🐛 Bugs oder Probleme melden\n- 💡 Neue Tools oder Funktionen vorschlagen\n- 🤝 Code-Verbesserungen beitragen\n\n## Einen Bug gefunden? Neues Tool benötigt?\nWir pflegen dieses Projekt aktiv und freuen uns über Ihr Feedback. Besuchen Sie bitte unser [GitHub-Repository](https://github.com/willjayyyy/next-tools), um:\n- Feature-Anfragen über [Issues](https://github.com/willjayyyy/next-tools/issues/new/choose) einzureichen\n- Bugs zu melden, die behoben werden müssen\n- Den Quellcode anzusehen und beizutragen\n\nVielen Dank für die Nutzung von Next-Tools! Ihre Unterstützung hilft uns, bessere Entwicklertools zu schaffen. 🚀\n",
     "title": "Über - Next Tools",

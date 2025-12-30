@@ -42,6 +42,51 @@
       "mode": "Toggle dark/light mode"
     }
   },
+  "consent": {
+    "gdpr": {
+      "title": "Cookie Preferences",
+      "description": "We use cookies and similar technologies to enhance your experience. Under GDPR, we need your consent to use analytics cookies.",
+      "acceptAll": "Accept All",
+      "rejectAll": "Reject All",
+      "customize": "Customize",
+      "saveSettings": "Save Settings"
+    },
+    "ccpa": {
+      "title": "Privacy Preferences",
+      "description": "We respect your privacy rights under CCPA. You can control how we use your data for analytics and marketing.",
+      "acceptAll": "Accept All",
+      "rejectAll": "Reject All",
+      "customize": "Customize",
+      "saveSettings": "Save Settings"
+    },
+    "default": {
+      "title": "Privacy Preferences",
+      "description": "Help us improve our service by allowing analytics cookies. You can change these settings anytime.",
+      "acceptAll": "Accept All",
+      "rejectAll": "Reject All",
+      "customize": "Customize",
+      "saveSettings": "Save Settings"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "Help us understand how you use our tools to improve your experience."
+    },
+    "essential": {
+      "title": "Essential",
+      "description": "Required for the website to function properly. Cannot be disabled."
+    },
+    "customize": {
+      "analytics": "Analytics Cookies",
+      "analyticsDescription": "Allow analytics to help us improve our service",
+      "marketing": "Marketing Cookies",
+      "marketingDescription": "Allow personalized ads and marketing communications",
+      "preferences": "Preference Cookies",
+      "preferencesDescription": "Remember your settings and preferences",
+      "essential": "Essential Cookies",
+      "essentialDescription": "Required for basic website functionality"
+    },
+    "back": "Back"
+  },
   "about": {
     "title": "About - Next Tools",
     "description": "Learn about Next Tools - a collection of practical online tools for developers. Discover our mission, technologies, and how to contribute to this open-source project.",

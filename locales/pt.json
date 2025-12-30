@@ -42,6 +42,51 @@
       "mode": "Trocar modo escuro/claro"
     }
   },
+  "consent": {
+    "gdpr": {
+      "title": "Preferências de Cookies",
+      "description": "Usamos cookies e tecnologias similares para melhorar sua experiência. De acordo com o GDPR, precisamos do seu consentimento para usar cookies de análise.",
+      "acceptAll": "Aceitar Tudo",
+      "rejectAll": "Rejeitar Tudo",
+      "customize": "Personalizar",
+      "saveSettings": "Salvar Configurações"
+    },
+    "ccpa": {
+      "title": "Preferências de Privacidade",
+      "description": "Respeitamos seus direitos de privacidade sob CCPA. Você pode controlar como usamos seus dados para análise e marketing.",
+      "acceptAll": "Aceitar Tudo",
+      "rejectAll": "Rejeitar Tudo",
+      "customize": "Personalizar",
+      "saveSettings": "Salvar Configurações"
+    },
+    "default": {
+      "title": "Preferências de Privacidade",
+      "description": "Ajude-nos a melhorar nosso serviço permitindo cookies de análise. Você pode alterar essas configurações a qualquer momento.",
+      "acceptAll": "Aceitar Tudo",
+      "rejectAll": "Rejeitar Tudo",
+      "customize": "Personalizar",
+      "saveSettings": "Salvar Configurações"
+    },
+    "analytics": {
+      "title": "Análises",
+      "description": "Ajude-nos a entender como você usa nossas ferramentas para melhorar sua experiência."
+    },
+    "essential": {
+      "title": "Essencial",
+      "description": "Obrigatório para que o site funcione corretamente. Não pode ser desabilitado."
+    },
+    "customize": {
+      "analytics": "Cookies de Análise",
+      "analyticsDescription": "Permitir análise para nos ajudar a melhorar nosso serviço",
+      "marketing": "Cookies de Marketing",
+      "marketingDescription": "Permitir anúncios personalizados e comunicações de marketing",
+      "preferences": "Cookies de Preferências",
+      "preferencesDescription": "Lembrar suas configurações e preferências",
+      "essential": "Cookies Essenciais",
+      "essentialDescription": "Obrigatório para funcionalidade básica do site"
+    },
+    "back": "Voltar"
+  },
   "about": {
     "content": "# Sobre o Next-Tools\nNext-Tools é uma coleção de ferramentas práticas online projetadas para desenvolvedores e profissionais de TI. Este projeto é um fork e melhoria do projeto original [it-tools](https://github.com/CorentinTh/it-tools), reconstruído e mantido por [Will Jay](https://github.com/willjayyyy).\n\nNossa missão é fornecer aos desenvolvedores ferramentas eficientes e confiáveis que simplifiquem os fluxos de trabalho diários. Seja trabalhando em conversão de dados, processamento de texto ou análise de rede, Next-Tools oferece uma interface limpa e intuitiva para fazer o trabalho rapidamente.\n\n## O que torna o Next-Tools especial\n- **Código Aberto**: Licenciado sob GPL-3.0, gratuito e transparente\n- **Focado em desenvolvedores**: Construído por desenvolvedores, para desenvolvedores\n- **Privacidade em primeiro lugar**: Todas as ferramentas são executadas localmente no seu navegador\n- **Atualizações regulares**: Melhorias contínuas e novas adições de ferramentas\n\n## Tecnologias\nNext-Tools é construído com tecnologias web modernas:\n- **Vue.js 3** - Framework JavaScript progressivo\n- **Naive UI** - Biblioteca de componentes Vue 3\n- **Vite** - Ferramenta de construção rápida e servidor de desenvolvimento\n- **TypeScript** - Desenvolvimento com segurança de tipos\n\nTambém utilizamos várias bibliotecas de código aberto para funcionalidades específicas. Você pode encontrar a lista completa em nosso [package.json](https://github.com/willjayyyy/next-tools/blob/main/package.json).\n\n## Comunidade e contribuições\nAcreditamos no poder da colaboração de código aberto. Se você tiver ideias para novas ferramentas ou melhorias, adoraríamos ouvir! Você pode:\n- ⭐ Dar estrela ao repositório se o considerar útil\n- 🐛 Reportar bugs ou problemas\n- 💡 Sugerir novas ferramentas ou funcionalidades\n- 🤝 Contribuir com melhorias de código\n\n## Achou um bug? Precisa de uma nova ferramenta?\nMantemos este projeto ativamente e agradecemos seu feedback. Por favor, visite nosso [repositório GitHub](https://github.com/willjayyyy/next-tools) para:\n- Enviar solicitações de funcionalidades através de [Issues](https://github.com/willjayyyy/next-tools/issues/new/choose)\n- Reportar bugs que precisam ser corrigidos\n- Ver o código fonte e contribuir\n\nObrigado por usar Next-Tools! Seu apoio nos ajuda a continuar criando melhores ferramentas para desenvolvedores. 🚀\n",
     "title": "Sobre - Next Tools",
