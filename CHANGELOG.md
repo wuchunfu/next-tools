@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.6.0
+
+### Features
+-  implement PWA update prompt mechanism to replace auto-update (9fafbcc)
+
 ## Version 1.5.3
 
 ### Documentation
