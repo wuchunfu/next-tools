@@ -171,6 +171,25 @@ VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # Valgfri tilpasset 
 
 Analytics kjører kun i produksjonsbygg og er helt valgfrie.
 
+## 🍪 Samtykkebehandling
+
+Next-Tools inkluderer et innebygd samtykkebehandlingssystem som overholder GDPR, CCPA og andre personvernforskrifter.
+
+### Funksjoner
+- **Automatisk regiondeteksjon** - Oppdager automatisk brukerens region og viser samtykkedialog for GDPR/CCPA-regioner
+- **Tilpassbare alternativer** - Brukere kan godta alt, avvise alt eller tilpasse sine preferanser
+- **Vedvarende lagring** - Brukerpreferanser lagres lokalt og respekteres på tvers av økter
+- **Streng modus** - Valgfri modus for å kreve samtykke fra alle brukere uavhengig av region
+
+### Konfigurasjon
+```bash
+# Aktiver samtykkebehandling
+VITE_CONSENT_ENABLE=true
+
+# Aktiver streng modus - krev samtykke fra alle brukere uavhengig av region
+VITE_CONSENT_STRICT=false
+```
+
 ## 📄 Lisens
 
 Dette prosjektet er lisensiert under [GNU General Public License v3.0](LICENSE).

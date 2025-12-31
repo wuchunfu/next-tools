@@ -173,6 +173,27 @@ VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # Optionale benutzer
 
 Analytics laufen nur in Produktions-Builds und sind vollständig optional.
 
+## 🍪 Datenschutz-Einwilligung
+
+Next-Tools enthält ein integriertes Einwilligungsverwaltungssystem, das DSGVO, CCPA und andere Datenschutzvorschriften erfüllt.
+
+### Funktionen
+- **Automatische Regionserkennung** - Erkennt automatisch die Region des Benutzers und zeigt den Einwilligungsdialog für DSGVO/CCPA-Regionen an
+- **Anpassbare Optionen** - Benutzer können alles akzeptieren, alles ablehnen oder ihre Präferenzen anpassen
+- **Persistente Speicherung** - Benutzereinstellungen werden lokal gespeichert und sitzungsübergreifend respektiert
+- **Strikter Modus** - Optionaler Modus, der die Einwilligung aller Benutzer unabhängig von der Region erfordert
+
+### Konfiguration
+```bash
+# Einwilligungsverwaltung aktivieren
+VITE_CONSENT_ENABLE=true
+
+# Strikten Modus aktivieren - Einwilligung aller Benutzer unabhängig von der Region erforderlich
+VITE_CONSENT_STRICT=false
+```
+
+## 📄 Lizenz
+
 Dieses Projekt ist unter der [GNU General Public License v3.0](LICENSE) lizenziert.
 
 ## 🙏 Danksagungen

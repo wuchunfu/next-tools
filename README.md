@@ -171,6 +171,25 @@ VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # Optional custom UR
 
 Analytics only run in production builds and are completely optional.
 
+## 🍪 Privacy Consent
+
+Next-Tools includes a built-in privacy consent management system that complies with GDPR, CCPA, and other privacy regulations.
+
+### Features
+- **Automatic Region Detection** - Automatically detects user region and shows consent dialog for GDPR/CCPA regions
+- **Customizable Options** - Users can accept all, reject all, or customize their preferences
+- **Persistent Storage** - User preferences are saved locally and respected across sessions
+- **Strict Mode** - Optional mode to require consent from all users regardless of region
+
+### Configuration
+```bash
+# Enable consent management
+VITE_CONSENT_ENABLE=true
+
+# Enable strict mode - require consent from all users regardless of region
+VITE_CONSENT_STRICT=false
+```
+
 ## 📄 License
 
 This project is licensed under the [GNU General Public License v3.0](LICENSE).

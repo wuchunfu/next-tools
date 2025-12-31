@@ -171,6 +171,25 @@ VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # 可选自定义 UR
 
 分析仅在生产构建中运行且完全可选。
 
+## 🍪 隐私同意管理
+
+Next-Tools 内置了隐私同意管理系统，符合 GDPR、CCPA 等隐私法规要求。
+
+### 功能特点
+- **自动区域检测** - 自动检测用户所在区域，对 GDPR/CCPA 地区用户显示同意对话框
+- **可自定义选项** - 用户可以选择全部接受、全部拒绝或自定义偏好设置
+- **持久化存储** - 用户偏好设置保存在本地，跨会话保持有效
+- **严格模式** - 可选模式，要求所有用户（无论地区）都必须进行同意确认
+
+### 配置方式
+```bash
+# 启用同意管理
+VITE_CONSENT_ENABLE=true
+
+# 启用严格模式 - 要求所有用户都必须确认同意，无论其所在地区
+VITE_CONSENT_STRICT=false
+```
+
 ## 📄 许可证
 
 本项目采用 [GNU General Public License v3.0](LICENSE) 许可证。

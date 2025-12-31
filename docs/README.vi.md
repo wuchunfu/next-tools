@@ -171,6 +171,25 @@ VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # URL tùy chỉnh t
 
 Analytics chỉ chạy trong bản build production và hoàn toàn tùy chọn.
 
+## 🍪 Quản lý Đồng ý
+
+Next-Tools bao gồm hệ thống quản lý đồng ý tích hợp tuân thủ GDPR, CCPA và các quy định về quyền riêng tư khác.
+
+### Tính năng
+- **Tự động phát hiện khu vực** - Tự động phát hiện khu vực của người dùng và hiển thị hộp thoại đồng ý cho các khu vực GDPR/CCPA
+- **Tùy chọn có thể tùy chỉnh** - Người dùng có thể chấp nhận tất cả, từ chối tất cả hoặc tùy chỉnh tùy chọn của họ
+- **Lưu trữ liên tục** - Tùy chọn của người dùng được lưu cục bộ và được tôn trọng qua các phiên
+- **Chế độ nghiêm ngặt** - Chế độ tùy chọn để yêu cầu sự đồng ý từ tất cả người dùng bất kể khu vực
+
+### Cấu hình
+```bash
+# Bật quản lý đồng ý
+VITE_CONSENT_ENABLE=true
+
+# Bật chế độ nghiêm ngặt - yêu cầu sự đồng ý từ tất cả người dùng bất kể khu vực
+VITE_CONSENT_STRICT=false
+```
+
 ## 📄 Giấy phép
 
 Dự án này được cấp phép theo [Giấy phép Công cộng GNU v3.0](LICENSE).

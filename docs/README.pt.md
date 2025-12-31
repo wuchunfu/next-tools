@@ -171,6 +171,25 @@ VITE_UMAMI_SCRIPT_URL=https://analytics.umami.is/script.js  # URL personalizada 
 
 Os analytics só executam em builds de produção e são completamente opcionais.
 
+## 🍪 Gestão de Consentimento
+
+Next-Tools inclui um sistema de gestão de consentimento integrado que está em conformidade com GDPR, CCPA e outras regulamentações de privacidade.
+
+### Funcionalidades
+- **Detecção automática de região** - Detecta automaticamente a região do usuário e exibe o diálogo de consentimento para regiões GDPR/CCPA
+- **Opções personalizáveis** - Os usuários podem aceitar tudo, rejeitar tudo ou personalizar suas preferências
+- **Armazenamento persistente** - As preferências do usuário são salvas localmente e respeitadas entre sessões
+- **Modo estrito** - Modo opcional para exigir consentimento de todos os usuários independentemente da região
+
+### Configuração
+```bash
+# Habilitar gestão de consentimento
+VITE_CONSENT_ENABLE=true
+
+# Habilitar modo estrito - exigir consentimento de todos os usuários independentemente da região
+VITE_CONSENT_STRICT=false
+```
+
 ## 📄 Licença
 
 Este projeto está sob a [Licença Pública Geral GNU v3.0](LICENSE).
