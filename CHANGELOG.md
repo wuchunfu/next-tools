@@ -7,7 +7,11 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 - **consent**: add strict mode and improve privacy by removing location caching (89a9b9e)
 
+### Bug fixes
+-  make release script cross-platform compatible (dceb731)
+
 ### Documentation
+- **changelog**: update changelog for 1.5.2 (29df1b9)
 -  add privacy consent management documentation for all languages (e22d9d8)
 
 ## Version 1.5.1
