@@ -9,7 +9,7 @@
   },
   "home": {
     "title": "Next-Tools - Outils en ligne pratiques pour développeurs",
-    "description": "Next-Tools est une collection d'outils en ligne utiles pour les développeurs, avec une excellente expérience utilisateur. Comprend le formatage de code, la conversion de données, le traitement d'images et plus encore.",
+    "description": "Next-Tools est une collection d'outils en ligne utiles pour les développeurs, avec une excellente expérience utilisateur.",
     "categories": {
       "newestTools": "Newest tools",
       "favoriteTools": "Your favorite tools",

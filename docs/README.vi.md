@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Next-Tools
+<img src="next-tools-logo.png" alt="Next-Tools Logo" width="500"/>
 
 **Bộ sưu tập các công cụ trực tuyến thực tế được thiết kế cho các nhà phát triển và chuyên gia IT**
 

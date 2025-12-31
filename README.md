@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Next-Tools
+<img src="docs/next-tools-logo.png" alt="Next-Tools Logo" width="500"/>
 
 **A collection of practical online tools for developers and IT professionals**
 
