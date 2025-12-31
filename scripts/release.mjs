@@ -4,6 +4,7 @@ import semver from 'semver';
 import { rawCommitsToMarkdown } from './shared/commits.mjs';
 import { addToChangelog } from './shared/changelog.mjs';
 import process from 'node:process';
+import packageData from '../package.json' with { type: 'json' };
 
 $.verbose = false;
 
@@ -17,9 +18,6 @@ if (bumpIndex !== -1 && bumpIndex + 1 < argv._.length) {
   bumpTypeArg = argv._[bumpIndex + 1];
 }
 
-// Get current version
-const packageJson = await $`cat package.json`;
-const packageData = JSON.parse(packageJson.stdout);
 const currentVersion = packageData.version;
 
 consola.info(`Current version: ${currentVersion}`);
@@ -28,12 +26,19 @@ consola.info(`Current version: ${currentVersion}`);
 let rawCommits;
 
 try {
-  const result = await $`git log --pretty=oneline $(git describe --tags --abbrev=0)..HEAD`;
+  // Get the latest tag first, then use it in git log
+  const tagResult = await $`git describe --tags --abbrev=0`;
+  const latestTag = tagResult.stdout.trim();
+  const result = await $`git log --pretty=oneline ${latestTag}..HEAD`;
   rawCommits = result.stdout;
 } catch {
   // If no previous tag found, check if there are any commits at all
-  const result = await $`git log --pretty=oneline --oneline -1 2>/dev/null || echo ""`;
-  rawCommits = result.stdout;
+  try {
+    const result = await $`git log --pretty=oneline --oneline -1`;
+    rawCommits = result.stdout;
+  } catch {
+    rawCommits = '';
+  }
 }
 
 // Filter out empty lines and invalid commit lines
