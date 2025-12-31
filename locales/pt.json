@@ -612,5 +612,12 @@
       "reportBug": "reportar,problema,bug,erro",
       "about": "sobre,aprender,mais,info,informacao"
     }
+  },
+  "pwa": {
+    "updateAvailable": "Nova versão disponível",
+    "updateDescription": "Uma nova versão está pronta. Clique em atualizar para obter os recursos mais recentes.",
+    "updateNow": "Atualizar agora",
+    "updateLater": "Mais tarde",
+    "offlineReady": "O aplicativo está pronto para uso offline"
   }
 }

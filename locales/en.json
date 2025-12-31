@@ -612,5 +612,12 @@
       "reportBug": "report,issue,bug,problem,error",
       "about": "about,learn,more,info,information"
     }
+  },
+  "pwa": {
+    "updateAvailable": "New version available",
+    "updateDescription": "A new version is ready. Click update to get the latest features.",
+    "updateNow": "Update now",
+    "updateLater": "Later",
+    "offlineReady": "App is ready for offline use"
   }
 }

@@ -45,7 +45,7 @@ export default defineConfig({
     Markdown({ markdownItOptions: { html: true } }),
     svgLoader(),
     VitePWA({
-      registerType: 'autoUpdate',
+      registerType: 'prompt',
       strategies: 'generateSW',
       workbox: {
         maximumFileSizeToCacheInBytes: 10 * 1024 * 1024, // 10MB

@@ -1,7 +1,5 @@
 import { createHead } from '@vueuse/head';
 import { createPinia } from 'pinia';
-import { registerSW } from 'virtual:pwa-register';
-
 import { createApp } from 'vue';
 import App from './App.vue';
 
@@ -9,8 +7,6 @@ import { i18nPlugin } from './plugins/i18n.plugin';
 
 import router from './router';
 import './styles/global.css';
-
-registerSW()
 
 const app = createApp(App)
 

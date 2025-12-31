@@ -12,12 +12,19 @@ const props = defineProps<ToasterProps>();
   <Sonner
     :class="cn('toaster group', props.class)"
     :style="{
-      '--normal-bg': 'var(--popover)',
-      '--normal-text': 'var(--popover-foreground)',
-      '--normal-border': 'var(--border)',
+      '--normal-bg': 'var(--color-popover)',
+      '--normal-text': 'var(--color-popover-foreground)',
+      '--normal-border': 'var(--color-border)',
       '--border-radius': 'var(--radius)',
     }"
     v-bind="props"
+    :toast-options="{
+      actionButtonStyle: {
+        backgroundColor: 'var(--color-primary)',
+        color: 'var(--color-primary-foreground)'
+      },
+      descriptionClass: 'text-muted-foreground!',
+    }"
   >
     <template #success-icon>
       <CircleCheckIcon class="size-4 text-green-500" />

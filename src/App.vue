@@ -6,6 +6,7 @@ import { useHead } from '@vueuse/head';
 import { Toaster } from '@/components/ui/sonner';
 import Analytics from '@/components/analytics/Analytics.vue';
 import Consent from '@/components/consent/Consent.vue';
+import PwaUpdatePrompt from '@/components/PwaUpdatePrompt.vue';
 import { layouts } from './layouts';
 
 const route = useRoute();
@@ -75,5 +76,6 @@ syncRef(useStorage('locale', language.value?.split?.('-')?.[0] ?? 'en'), locale,
     <Analytics />
     <Consent />
     <Toaster />
+    <PwaUpdatePrompt />
   </div>
 </template>

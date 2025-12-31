@@ -612,5 +612,12 @@
       "reportBug": "rapport,problem,feil,problem,feil",
       "about": "om,lær,mer,info,informasjon"
     }
+  },
+  "pwa": {
+    "updateAvailable": "Ny versjon tilgjengelig",
+    "updateDescription": "En ny versjon er klar. Klikk på oppdater for å få de nyeste funksjonene.",
+    "updateNow": "Oppdater nå",
+    "updateLater": "Senere",
+    "offlineReady": "Appen er klar for frakoblet bruk"
   }
 }
