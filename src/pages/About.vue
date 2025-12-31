@@ -35,20 +35,21 @@ useHead({
     <!-- Hero Section -->
     <div class="relative overflow-hidden">
       <div class="absolute inset-0 bg-grid-pattern opacity-5" />
-      <div class="container mx-auto px-4 pt-20 pb-10 relative">
-        <div class="text-center max-w-4xl mx-auto">
-          <div class="inline-flex items-center gap-2 mb-6">
-            <Wrench class="h-8 w-8 text-primary" />
-            <h1 class="text-4xl md:text-6xl font-bold bg-linear-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-              {{ $t('about.title') }}
+      <div class="container mx-auto px-4 py-10 relative flex justify-center">
+        <div class="text-center w-fit flex flex-col items-center gap-6">
+          <div class="flex flex-col items-center gap-2 w-fit p-4">
+            <h1 class="text-5xl md:text-7xl font-bold text-foreground flex items-center">
+              <span>Next</span>
+              <span class="text-primary">-</span>
+              <span>Tools</span>
             </h1>
+            <div class="w-full max-w-sm h-2 rounded-full bg-primary" />
           </div>
-
-          <p class="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p class="text-md text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             {{ $t('home.description', 'Handy online tools for developers and designers') }}
           </p>
 
-          <div class="flex flex-wrap justify-center gap-4 mb-12">
+          <div class="flex flex-wrap justify-center gap-4">
             <Badge variant="secondary" class="px-3 py-1">
               <Code class="h-3 w-3 mr-1" />
               {{ $t('about.badges.openSource') }}
