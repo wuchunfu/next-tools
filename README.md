@@ -1,7 +1,10 @@
 
 <div align="center">
 
-<img src="docs/next-tools-logo.png" alt="Next-Tools Logo" width="500"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/next-tools-logo-dark.png" />
+  <img src="docs/next-tools-logo-light.png" alt="Next-Tools Logo" width="500"/>
+</picture>
 
 **A collection of practical online tools for developers and IT professionals**
 
