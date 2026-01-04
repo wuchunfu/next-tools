@@ -1,5 +1,5 @@
 import { enc, HmacSHA1 } from 'crypto-js'
-import { map } from 'lodash'
+import { map } from 'lodash-es'
 import { createToken } from '../token-generator/token-generator.service'
 
 export function hexToBytes(hex: string) {

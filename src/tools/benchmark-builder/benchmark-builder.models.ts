@@ -1,4 +1,4 @@
-import { sum } from 'lodash'
+import { sum } from 'lodash-es'
 
 function computeAverage({ data }: { data: number[] }) {
   if (data.length === 0) {

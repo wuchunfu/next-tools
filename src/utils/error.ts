@@ -1,4 +1,4 @@
-import { has, isError, isObject, isString } from 'lodash'
+import { has, isError, isObject, isString } from 'lodash-es'
 
 
 

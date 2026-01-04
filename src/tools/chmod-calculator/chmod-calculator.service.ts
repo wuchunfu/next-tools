@@ -1,5 +1,5 @@
 import type { GroupPermissions, Permissions } from './chmod-calculator.types'
-import { get, reduce } from 'lodash'
+import { get, reduce } from 'lodash-es'
 
 function computeChmodOctalRepresentation({ permissions }: { permissions: Permissions }): string {
   const permissionValue = { read: 4, write: 2, execute: 1 };

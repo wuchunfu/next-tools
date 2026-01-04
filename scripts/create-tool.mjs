@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { process } from 'node:process';
+import process from 'node:process';
 
 const currentDirname = dirname(fileURLToPath(import.meta.url));
 

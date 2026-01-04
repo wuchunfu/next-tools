@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { times } from 'lodash'
+import { times } from 'lodash-es'
 import { Copy, RefreshCw } from 'lucide-vue-next'
 import { ulid } from 'ulid'
 import { Button } from '@/components/ui/button'

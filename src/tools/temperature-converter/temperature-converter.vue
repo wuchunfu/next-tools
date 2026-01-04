@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { chain, identity } from 'lodash'
+import { chain, identity } from 'lodash-es'
 import { Card, CardContent } from '@/components/ui/card';
 import { Field, FieldContent, FieldGroup, FieldLabel } from '@/components/ui/field';
 import { Input } from '@/components/ui/input';

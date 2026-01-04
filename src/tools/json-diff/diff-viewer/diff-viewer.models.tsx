@@ -1,5 +1,5 @@
 import type { ArrayDifference, Difference, ObjectDifference } from '../json-diff.types';
-import { isNull } from 'lodash';
+import { isNull } from 'lodash-es';
 import { useCopy } from '@/composable/copy'
 
 export function DiffRootViewer({ diff }: { diff: Difference }) {

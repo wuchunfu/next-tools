@@ -1,17 +1,12 @@
 import { existsSync, writeFileSync } from 'node:fs';
-import { Glob } from 'bun';
-import { chain } from 'lodash';
+import fg from 'fast-glob';
+import { chain} from 'lodash-es';
 
 async function getPathsFromGlobs({ patterns, onlyFiles = true }) {
-  const filePaths = [];
-
-  for (const pattern of patterns) {
-    const glob = new Glob(pattern);
-
-    for await (const filePath of glob.scan({ onlyFiles, cwd: '.' })) {
-      filePaths.push(filePath);
-    }
-  }
+  const filePaths = await fg(patterns, {
+    onlyFiles,
+    cwd: '.',
+  });
 
   return { filePaths };
 }
@@ -22,7 +17,7 @@ function getLocaleKey({ filePath }) {
 }
 
 async function createMissingLocaleFile({ localeKey }) {
-  const fileName = `${localeKey}.yml`;
+  const fileName = `${localeKey}.json`;
 
   const { filePaths: localesDirs } = await getPathsFromGlobs({
     patterns: [

@@ -3,7 +3,7 @@ import { config } from '@/config';
 import { addGtag, configure,  consent } from 'vue-gtag';
 import { useConsent } from '@/composable/useConsent';
 import { watch } from 'vue';
-import { isUndefined } from 'lodash';
+import { isUndefined } from 'lodash-es';
 
 const { consentState } = useConsent();
 const id = config.googleAnalytics.id;

@@ -1,6 +1,6 @@
 import { StorageSerializers, useStorage } from '@vueuse/core';
 import { computed, watch, readonly } from 'vue';
-import { isUndefined } from 'lodash';
+import { isUndefined } from 'lodash-es';
 import { config } from '@/config';
 
 

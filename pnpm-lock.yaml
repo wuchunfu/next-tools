@@ -143,9 +143,9 @@ importers:
       libphonenumber-js:
         specifier: ^1.12.31
         version: 1.12.31
-      lodash:
-        specifier: ^4.17.21
-        version: 4.17.21
+      lodash-es:
+        specifier: ^4.17.22
+        version: 4.17.22
       lucide-vue-next:
         specifier: ^0.556.0
         version: 0.556.0(vue@3.5.25(typescript@5.9.3))
@@ -282,9 +282,9 @@ importers:
       '@types/jsdom':
         specifier: ^27.0.0
         version: 27.0.0
-      '@types/lodash':
-        specifier: ^4.17.21
-        version: 4.17.21
+      '@types/lodash-es':
+        specifier: ^4.17.12
+        version: 4.17.12
       '@types/mime-types':
         specifier: ^3.0.1
         version: 3.0.1
@@ -315,6 +315,9 @@ importers:
       autoprefixer:
         specifier: ^10.4.23
         version: 10.4.23(postcss@8.5.6)
+      bun:
+        specifier: ^1.3.5
+        version: 1.3.5
       consola:
         specifier: ^3.4.2
         version: 3.4.2
@@ -327,6 +330,9 @@ importers:
       eslint-plugin-unused-imports:
         specifier: ^4.3.0
         version: 4.3.0(@typescript-eslint/eslint-plugin@8.50.1(@typescript-eslint/parser@8.50.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))
+      fast-glob:
+        specifier: ^3.3.3
+        version: 3.3.3
       hygen:
         specifier: ^6.2.11
         version: 6.2.11
@@ -1618,6 +1624,61 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
+  '@oven/bun-darwin-aarch64@1.3.5':
+    resolution: {integrity: sha512-8GvNtMo0NINM7Emk9cNAviCG3teEgr3BUX9be0+GD029zIagx2Sf54jMui1Eu1IpFm7nWHODuLEefGOQNaJ0gQ==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@oven/bun-darwin-x64-baseline@1.3.5':
+    resolution: {integrity: sha512-p5q3rJk48qhLuLBOFehVc+kqCE03YrswTc6NCxbwsxiwfySXwcAvpF2KWKF/ZZObvvR8hCCvqe1F81b2p5r2dg==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@oven/bun-darwin-x64@1.3.5':
+    resolution: {integrity: sha512-r33eHQOHAwkuiBJIwmkXIyqONQOQMnd1GMTpDzaxx9vf9+svby80LZO9Hcm1ns6KT/TBRFyODC/0loA7FAaffg==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@oven/bun-linux-aarch64-musl@1.3.5':
+    resolution: {integrity: sha512-HKBeUlJdNduRkzJKZ5DXM+pPqntfC50/Hu2X65jVX0Y7hu/6IC8RaUTqpr8FtCZqqmc9wDK0OTL+Mbi9UQIKYQ==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@oven/bun-linux-aarch64@1.3.5':
+    resolution: {integrity: sha512-zkcHPI23QxJ1TdqafhgkXt1NOEN8o5C460sVeNnrhfJ43LwZgtfcvcQE39x/pBedu67fatY8CU0iY00nOh46ZQ==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@oven/bun-linux-x64-baseline@1.3.5':
+    resolution: {integrity: sha512-FeCQyBU62DMuB0nn01vPnf3McXrKOsrK9p7sHaBFYycw0mmoU8kCq/WkBkGMnLuvQljJSyen8QBTx+fXdNupWg==}
+    cpu: [x64]
+    os: [linux]
+
+  '@oven/bun-linux-x64-musl-baseline@1.3.5':
+    resolution: {integrity: sha512-TJiYC7KCr0XxFTsxgwQOeE7dncrEL/RSyL0EzSL3xRkrxJMWBCvCSjQn7LV1i6T7hFst0+3KoN3VWvD5BinqHA==}
+    cpu: [x64]
+    os: [linux]
+
+  '@oven/bun-linux-x64-musl@1.3.5':
+    resolution: {integrity: sha512-XkCCHkByYn8BIDvoxnny898znju4xnW2kvFE8FT5+0Y62cWdcBGMZ9RdsEUTeRz16k8hHtJpaSfLcEmNTFIwRQ==}
+    cpu: [x64]
+    os: [linux]
+
+  '@oven/bun-linux-x64@1.3.5':
+    resolution: {integrity: sha512-n7zhKTSDZS0yOYg5Rq8easZu5Y/o47sv0c7yGr2ciFdcie9uYV55fZ7QMqhWMGK33ezCSikh5EDkUMCIvfWpjA==}
+    cpu: [x64]
+    os: [linux]
+
+  '@oven/bun-windows-x64-baseline@1.3.5':
+    resolution: {integrity: sha512-rtVQB9/1XK8FWJgFtsOthbPifRMYypgJwxu+pK3NHx8WvFKmq7HcPDqNr8xLzGULjQEO7eAo2aOZfONOwYz+5g==}
+    cpu: [x64]
+    os: [win32]
+
+  '@oven/bun-windows-x64@1.3.5':
+    resolution: {integrity: sha512-T3xkODItb/0ftQPFsZDc7EAX2D6A4TEazQ2YZyofZToO8Q7y8YT8ooWdhd0BQiTCd66uEvgE1DCZetynwg2IoA==}
+    cpu: [x64]
+    os: [win32]
+
   '@pkgr/core@0.2.9':
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
@@ -2255,6 +2316,9 @@ packages:
 
   '@types/linkify-it@5.0.0':
     resolution: {integrity: sha512-sVDA58zAw4eWAffKOaQH5/5j3XeayukzDk+ewSsnv3p4yJEZHCCzMDiZM8e0OUrRvmpGZ85jf4yDHkHsgBNr9Q==}
+
+  '@types/lodash-es@4.17.12':
+    resolution: {integrity: sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==}
 
   '@types/lodash@4.17.21':
     resolution: {integrity: sha512-FOvQ0YPD5NOfPgMzJihoT+Za5pdkDJWcbpuj1DjaKZIr/gxodQjY/uWEFlTNqW2ugXHUiL8lRQgw63dzKHZdeQ==}
@@ -2968,6 +3032,11 @@ packages:
   builtin-modules@3.3.0:
     resolution: {integrity: sha512-zhaCDicdLuWN5UbN5IMnFqNMhNfo919sH85y2/ea+5Yg9TsTkeZxpL+JLbp6cgYFS4sRLp3YV4S6yDuqVWHYOw==}
     engines: {node: '>=6'}
+
+  bun@1.3.5:
+    resolution: {integrity: sha512-c1YHIGUfgvYPJmLug5QiLzNWlX2Dg7X/67JWu1Va+AmMXNXzC/KQn2lgQ7rD+n1u1UqDpJMowVGGxTNpbPydNw==}
+    os: [darwin, linux, win32]
+    hasBin: true
 
   call-bind-apply-helpers@1.0.2:
     resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
@@ -4620,8 +4689,8 @@ packages:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
 
-  lodash-es@4.17.21:
-    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+  lodash-es@4.17.22:
+    resolution: {integrity: sha512-XEawp1t0gxSi9x01glktRZ5HDy0HXqrM0x5pXQM98EaI0NxO6jVM7omDOxsuEo5UIASAnm2bRp1Jt/e0a2XU8Q==}
 
   lodash.debounce@4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
@@ -7829,6 +7898,39 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
+  '@oven/bun-darwin-aarch64@1.3.5':
+    optional: true
+
+  '@oven/bun-darwin-x64-baseline@1.3.5':
+    optional: true
+
+  '@oven/bun-darwin-x64@1.3.5':
+    optional: true
+
+  '@oven/bun-linux-aarch64-musl@1.3.5':
+    optional: true
+
+  '@oven/bun-linux-aarch64@1.3.5':
+    optional: true
+
+  '@oven/bun-linux-x64-baseline@1.3.5':
+    optional: true
+
+  '@oven/bun-linux-x64-musl-baseline@1.3.5':
+    optional: true
+
+  '@oven/bun-linux-x64-musl@1.3.5':
+    optional: true
+
+  '@oven/bun-linux-x64@1.3.5':
+    optional: true
+
+  '@oven/bun-windows-x64-baseline@1.3.5':
+    optional: true
+
+  '@oven/bun-windows-x64@1.3.5':
+    optional: true
+
   '@pkgr/core@0.2.9': {}
 
   '@playwright/test@1.57.0':
@@ -8437,6 +8539,10 @@ snapshots:
 
   '@types/linkify-it@5.0.0': {}
 
+  '@types/lodash-es@4.17.12':
+    dependencies:
+      '@types/lodash': 4.17.21
+
   '@types/lodash@4.17.21': {}
 
   '@types/mapbox__point-geometry@0.1.4': {}
@@ -8724,11 +8830,11 @@ snapshots:
   '@unovis/dagre-layout@0.8.8-2':
     dependencies:
       '@unovis/graphlibrary': 2.2.0-2
-      lodash-es: 4.17.21
+      lodash-es: 4.17.22
 
   '@unovis/graphlibrary@2.2.0-2':
     dependencies:
-      lodash-es: 4.17.21
+      lodash-es: 4.17.22
 
   '@unovis/ts@1.6.2':
     dependencies:
@@ -9271,6 +9377,20 @@ snapshots:
       ieee754: 1.2.1
 
   builtin-modules@3.3.0: {}
+
+  bun@1.3.5:
+    optionalDependencies:
+      '@oven/bun-darwin-aarch64': 1.3.5
+      '@oven/bun-darwin-x64': 1.3.5
+      '@oven/bun-darwin-x64-baseline': 1.3.5
+      '@oven/bun-linux-aarch64': 1.3.5
+      '@oven/bun-linux-aarch64-musl': 1.3.5
+      '@oven/bun-linux-x64': 1.3.5
+      '@oven/bun-linux-x64-baseline': 1.3.5
+      '@oven/bun-linux-x64-musl': 1.3.5
+      '@oven/bun-linux-x64-musl-baseline': 1.3.5
+      '@oven/bun-windows-x64': 1.3.5
+      '@oven/bun-windows-x64-baseline': 1.3.5
 
   call-bind-apply-helpers@1.0.2:
     dependencies:
@@ -11105,7 +11225,7 @@ snapshots:
     dependencies:
       p-locate: 5.0.0
 
-  lodash-es@4.17.21: {}
+  lodash-es@4.17.22: {}
 
   lodash.debounce@4.0.8: {}
 

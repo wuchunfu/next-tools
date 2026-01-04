@@ -1,4 +1,4 @@
-import { chain, take } from 'lodash'
+import { chain, take } from 'lodash-es'
 import { defineStore } from 'pinia'
 import { useI18n } from 'vue-i18n'
 import { Bug, Github, Info, Sun, Moon } from 'lucide-vue-next'

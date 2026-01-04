@@ -7,7 +7,7 @@ import cmykPlugin from 'colord/plugins/cmyk';
 import hwbPlugin from 'colord/plugins/hwb';
 import lchPlugin from 'colord/plugins/lch';
 import namesPlugin from 'colord/plugins/names';
-import forEach from 'lodash/forEach';
+import { forEach } from 'lodash-es';
 import { Palette } from 'lucide-vue-next';
 import ColorPickerWithTabs from '@/components/ColorPickerWithTabs.vue';
 import InputCopyable from '@/components/InputCopyable.vue';

@@ -1,6 +1,6 @@
 import type { IFuseOptions } from 'fuse.js';
 import Fuse from 'fuse.js';
-import { isFunction } from 'lodash';
+import { isFunction } from 'lodash-es';
 import { computed, type MaybeRefOrGetter, unref } from 'vue'
 
 function useFuzzySearch<Data>({

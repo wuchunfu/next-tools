@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { EmojiInfo } from './emoji.types'
 import emojiKeywords from 'emojilib'
-import { capitalize, chain, map } from 'lodash'
+import { capitalize, chain, map } from 'lodash-es'
 import { Search } from 'lucide-vue-next'
 import emojiUnicodeData from 'unicode-emoji-json'
 import { Card, CardContent } from '@/components/ui/card'

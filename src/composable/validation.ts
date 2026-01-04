@@ -1,7 +1,7 @@
 import type { MaybeRef, Ref } from 'vue'
 import { reactive, watch } from 'vue'
 import { get } from '@vueuse/core'
-import { isNil } from 'lodash';
+import { isNil } from 'lodash-es';
 
 type ValidatorReturnType = unknown
 type GetErrorMessageReturnType = string

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { PaletteOption } from './command-palette.types';
 import { useMagicKeys, whenever } from '@vueuse/core';
-import { isUndefined } from 'lodash';
+import { isUndefined } from 'lodash-es';
 import { ArrowUpRight, Search } from 'lucide-vue-next';
 
 import { storeToRefs } from 'pinia';

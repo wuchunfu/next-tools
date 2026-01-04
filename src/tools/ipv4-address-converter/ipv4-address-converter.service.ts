@@ -1,4 +1,4 @@
-import { chain } from 'lodash'
+import { chain } from 'lodash-es'
 
 function ipv4ToInt({ ip }: { ip: string }) {
   if (!isValidIpv4({ ip })) {

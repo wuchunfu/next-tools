@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { escape, unescape } from 'lodash';
+import { escape, unescape } from 'lodash-es';
 import { X } from 'lucide-vue-next'
 import InputCopyable from '@/components/InputCopyable.vue'
 import { Button } from '@/components/ui/button'

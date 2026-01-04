@@ -1,7 +1,7 @@
 import type { MaybeRef, Ref } from 'vue';
 import type { Tool, ToolCategory, ToolWithCategory } from './tools.types';
 import { get, useStorage } from '@vueuse/core';
-import { chain, uniq } from 'lodash';
+import { chain, uniq } from 'lodash-es';
 import { defineStore } from 'pinia';
 import { toolsWithCategory } from './index'
 

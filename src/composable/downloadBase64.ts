@@ -1,5 +1,5 @@
 import type { Ref } from 'vue';
-import { find } from 'lodash';
+import { find } from 'lodash-es';
 import { extension as getExtensionFromMimeType, extension as getMimeTypeFromExtension } from 'mime-types';
 
 export { getExtensionFromMimeType, getMimeTypeFromExtension }

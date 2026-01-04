@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isNil } from 'lodash';
+import { isNil } from 'lodash-es';
 
 import {
   AlertCircle,

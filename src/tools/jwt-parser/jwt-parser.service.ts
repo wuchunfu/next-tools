@@ -1,5 +1,5 @@
 import { jwtDecode, type JwtHeader, type JwtPayload } from 'jwt-decode'
-import { isArray, isNil, isPlainObject, isString, map } from 'lodash'
+import { isArray, isNil, isPlainObject, isString, map } from 'lodash-es'
 
 type Translator = (key: string, defaultValue?: string) => string
 

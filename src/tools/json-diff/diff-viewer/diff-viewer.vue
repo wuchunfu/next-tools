@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { isEqual, isUndefined } from 'lodash';
+import { isEqual, isUndefined } from 'lodash-es';
 import { CircleCheck } from 'lucide-vue-next'
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'

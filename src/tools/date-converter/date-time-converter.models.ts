@@ -1,4 +1,4 @@
-import { isNil } from 'lodash';
+import { isNil } from 'lodash-es';
 
 
 const ISO8601_REGEX

@@ -1,4 +1,4 @@
-import { debounce } from 'lodash';
+import { debounce } from 'lodash-es';
 
 function useDebouncedRef<T>(initialValue: T, delay: number, immediate: boolean = false) {
   const state = ref(initialValue);

@@ -1,4 +1,4 @@
-import { chain, identity } from 'lodash';
+import { chain, identity } from 'lodash-es';
 
 function prettifyExponentialNotation(exponentialNotation: number) {
   const parts = exponentialNotation.toString().split('e');

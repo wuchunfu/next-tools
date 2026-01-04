@@ -1,5 +1,5 @@
 import type { ConvertOptions } from './list-converter.types'
-import { chain, isNull, reverse, trim, uniq } from 'lodash'
+import { chain, isNull, reverse, trim, uniq } from 'lodash-es'
 import { byOrder } from '@/utils/array';
 
 function whenever<T, R>(condition: boolean, fn: (value: T) => R) {

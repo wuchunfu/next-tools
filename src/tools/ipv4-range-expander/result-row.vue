@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { kebabCase } from 'lodash'
+import { kebabCase } from 'lodash-es'
 import SpanCopyable from '@/components/SpanCopyable.vue'
 
 const props = withDefaults(defineProps<{ label: string, oldValue?: string, newValue?: string }>(), {

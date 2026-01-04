@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useStorage } from '@vueuse/core';
-import { times } from 'lodash';
+import { times } from 'lodash-es';
 import { Network, RefreshCw } from 'lucide-vue-next';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';

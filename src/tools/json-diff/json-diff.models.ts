@@ -1,5 +1,5 @@
 import type { Difference, DifferenceStatus } from './json-diff.types'
-import { isArray, isEqual, isObject } from 'lodash'
+import { isArray, isEqual, isObject } from 'lodash-es'
 
 function diff(
   obj: unknown,

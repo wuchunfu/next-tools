@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isNumber } from 'lodash';
+import { isNumber } from 'lodash-es';
 import { Activity, Plus, Server, Trash2 } from 'lucide-vue-next';
 import { ref } from 'vue';
 

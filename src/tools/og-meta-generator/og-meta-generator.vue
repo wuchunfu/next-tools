@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { OGSchemaType, OGSchemaTypeElementSelect } from './OGSchemaType.type';
 import { generateMeta } from '@it-tools/oggen';
-import { chain, pickBy } from 'lodash';
+import { chain, pickBy } from 'lodash-es';
 import { Plus, X } from 'lucide-vue-next';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Button } from '@/components/ui/button';
