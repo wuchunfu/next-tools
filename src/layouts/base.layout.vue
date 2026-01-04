@@ -76,7 +76,7 @@ const tools = computed<ToolCategory[]>(() => [
 
       <SidebarContent class="space-y-4 px-4 pb-4 group-data-[collapsible=icon]:px-2">
         <ScrollArea
-          class="flex-1 rounded-2xl border bg-background p-2.5 shadow-sm group-data-[collapsible=icon]:p-1 group-data-[collapsible=icon]:rounded-lg overflow-hidden"
+          class="flex-1 rounded-2xl border bg-background p-2.5 shadow-sm group-data-[collapsible=icon]:p-1 group-data-[collapsible=icon]:rounded-lg overflow-hidden group-data-[collapsible=icon]:[&_[data-slot=scroll-area-scrollbar]]:hidden"
         >
           <SidebarMenu class="gap-3 group-data-[collapsible=icon]:gap-1">
             <SidebarGroup
