@@ -1,4 +1,5 @@
-import { type Colord, colord } from 'colord';
+import type { Colord } from 'colord';
+import { colord } from 'colord';
 import { useValidation } from '@/composable/validation'
 import { withDefaultOnError } from '@/utils/defaults'
 

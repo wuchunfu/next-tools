@@ -1,4 +1,5 @@
-import { jwtDecode, type JwtHeader, type JwtPayload } from 'jwt-decode'
+import type { JwtHeader, JwtPayload } from 'jwt-decode';
+import { jwtDecode } from 'jwt-decode';
 import { isArray, isNil, isPlainObject, isString, map } from 'lodash-es'
 
 type Translator = (key: string, defaultValue?: string) => string

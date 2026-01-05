@@ -1,5 +1,6 @@
 import type { HSL, HSLA, HSV, HSVA, RGB, RGBA } from './utils/types'
-import { inject, type InjectionKey, provide, type Ref } from 'vue'
+import { inject, provide } from 'vue'
+import type { InjectionKey, Ref } from 'vue'
 
 export interface ColorPickerRootContext {
   alpha: Ref<number>

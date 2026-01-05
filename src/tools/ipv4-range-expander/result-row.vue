@@ -2,7 +2,7 @@
 import { kebabCase } from 'lodash-es'
 import SpanCopyable from '@/components/SpanCopyable.vue'
 
-const props = withDefaults(defineProps<{ label: string, oldValue?: string, newValue?: string }>(), {
+const props = withDefaults(defineProps<{ label?: string, oldValue?: string, newValue?: string }>(), {
   label: '',
   oldValue: '',
   newValue: '',

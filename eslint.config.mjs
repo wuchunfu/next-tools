@@ -7,6 +7,10 @@ const eslintrcImport = require('./.eslintrc-auto-import.json')
 export default antfu(
   {
     // Disable problematic rules that cause circular fixes
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+    },
     stylistic: false, // Disable all stylistic rules to avoid conflicts
     rules: {
       'curly': 'off',
@@ -33,5 +37,5 @@ export default antfu(
   {
     files: ["**/*.{ts,vue}"],
     languageOptions: { ...eslintrcImport }
-  }
+  },
 )

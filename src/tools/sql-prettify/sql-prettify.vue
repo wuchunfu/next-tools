@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { useStorage } from '@vueuse/core';
 import { Database, Settings } from 'lucide-vue-next';
-import { type FormatOptionsWithLanguage, format as formatSQL } from 'sql-formatter';
+import type { FormatOptionsWithLanguage } from 'sql-formatter';
+import { format as formatSQL } from 'sql-formatter';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Field, FieldContent, FieldGroup, FieldLabel } from '@/components/ui/field';

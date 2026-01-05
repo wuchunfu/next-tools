@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import type { DateValue } from 'reka-ui'
 import { fromDate as fromDateI18n, getLocalTimeZone } from '@internationalized/date'
-import { addMilliseconds, formatRelative, type Locale } from 'date-fns'
+import { addMilliseconds, formatRelative } from 'date-fns'
+import type { Locale } from 'date-fns'
 import { de, enGB, es, fr, nb, pt, ru, uk, vi, zhCN } from 'date-fns/locale'
 import { Calendar as CalendarIcon, Clock, Info, X } from 'lucide-vue-next'
 import { toDate } from 'reka-ui/date'
