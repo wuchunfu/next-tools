@@ -139,20 +139,20 @@
     "placeholder": "Søk...",
     "noResults": "Ingen resultater funnet"
   },
+  "categories": {
+    "favorite-tools": "Dine favoritt verktøy",
+    "crypto": "Krypto",
+    "converter": "Konvertering",
+    "web": "Web",
+    "images and videos": "Bilder & Videoer",
+    "development": "Utvikling",
+    "network": "Nettverk",
+    "math": "Matte",
+    "measurement": "Måling",
+    "text": "Tekst",
+    "data": "Data"
+  },
   "tools": {
-    "categories": {
-      "favorite-tools": "Dine favoritt verktøy",
-      "crypto": "Krypto",
-      "converter": "Konvertering",
-      "web": "Web",
-      "images and videos": "Bilder & Videoer",
-      "development": "Utvikling",
-      "network": "Nettverk",
-      "math": "Matte",
-      "measurement": "Måling",
-      "text": "Tekst",
-      "data": "Data"
-    },
     "markdown-to-html": {
       "title": "Markdown til HTML",
       "description": "Konverter Markdown til HTML og skriv ut som PDF",

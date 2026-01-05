@@ -40,7 +40,7 @@ const { favoriteTools, toolsByCategory } = storeToRefs(toolStore);
 
 const tools = computed<ToolCategory[]>(() => [
   ...(favoriteTools.value.length > 0
-    ? [{ name: t('tools.categories.favorite-tools'), components: favoriteTools.value }]
+    ? [{ name: t('categories.favorite-tools'), components: favoriteTools.value }]
     : []),
   ...toolsByCategory.value,
 ]);
@@ -52,11 +52,11 @@ const tools = computed<ToolCategory[]>(() => [
     class="bg-background text-foreground"
     @update:open="(val) => (styleStore.isMenuCollapsed = !val)"
   >
-    <Sidebar collapsible="icon" class="border-r bg-sidebar text-sidebar-foreground">
+    <Sidebar class="border-r bg-sidebar text-sidebar-foreground" collapsible="icon">
       <SidebarHeader class="px-4 py-4 group-data-[collapsible=icon]:px-2 group-data-[collapsible=icon]:py-2">
         <RouterLink
-          to="/"
           class="group-data-[collapsible=icon]:bg-primary/10 transition-all duration-200 block rounded-xl border bg-background px-6 py-5 text-center shadow-sm hover:border-primary/60 group-data-[collapsible=icon]:px-1.5 group-data-[collapsible=icon]:py-1.5 overflow-hidden"
+          to="/"
         >
           <div
             class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary group-data-[collapsible=icon]:h-8 group-data-[collapsible=icon]:w-8 group-data-[collapsible=icon]:bg-transparent"
@@ -97,10 +97,10 @@ const tools = computed<ToolCategory[]>(() => [
                   <SidebarMenuItem v-for="tool in category.components" :key="tool.path">
                     <RouterLink v-slot="{ navigate, isActive }" :to="tool.path" custom>
                       <SidebarMenuButton
-                        :tooltip="tool.name"
                         :is-active="isActive || route.path === tool.path"
-                        variant="default"
+                        :tooltip="tool.name"
                         class="w-full justify-start rounded-lg px-3 py-2.5 text-sm transition-colors border-0 text-foreground/85 hover:text-foreground data-[active=true]:bg-primary/10 data-[active=true]:text-primary focus-visible:ring-2 focus-visible:ring-ring group-data-[collapsible=icon]:justify-center group-data-[collapsible=icon]:p-2 group-data-[collapsible=icon]:h-9! group-data-[collapsible=icon]:w-9!"
+                        variant="default"
                         @click="navigate"
                       >
                         <component
@@ -130,12 +130,12 @@ const tools = computed<ToolCategory[]>(() => [
         <div class="space-x-1">
           <span>Next-Tools</span>
           <Button
-            as="a"
-            variant="link"
-            class="p-0 h-auto text-xs"
-            target="_blank"
-            rel="noopener"
             :href="`https://github.com/willjayyyy/next-tools/tree/v${version}`"
+            as="a"
+            class="p-0 h-auto text-xs"
+            rel="noopener"
+            target="_blank"
+            variant="link"
           >
             v{{ version }}
           </Button>
@@ -144,11 +144,11 @@ const tools = computed<ToolCategory[]>(() => [
           © {{ new Date().getFullYear() }}
           <Button
             as="a"
-            variant="link"
             class="p-0 text-xs h-auto"
-            target="_blank"
-            rel="noopener"
             href="https://github.com/willjayyyy"
+            rel="noopener"
+            target="_blank"
+            variant="link"
           >
             Will Jay
           </Button>
@@ -162,13 +162,13 @@ const tools = computed<ToolCategory[]>(() => [
       <header class="border-b shrink-0">
         <div class="flex h-14 items-center gap-3 px-3">
           <SidebarTrigger />
-          <Separator orientation="vertical" class="mx-1 hidden h-6 md:block" />
+          <Separator class="mx-1 hidden h-6 md:block" orientation="vertical" />
 
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger as-child>
                 <RouterLink to="/">
-                  <Button variant="ghost" size="icon" aria-label="home" class="border border-transparent">
+                  <Button aria-label="home" class="border border-transparent" size="icon" variant="ghost">
                     <Home class="h-5 w-5" />
                   </Button>
                 </RouterLink>

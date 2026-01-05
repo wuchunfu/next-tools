@@ -139,24 +139,24 @@
     "placeholder": "Buscar...",
     "noResults": "No se encontraron resultados"
   },
+  "categories": {
+    "favorite-tools": "Tus herramientas favoritas",
+    "crypto": "Cripto",
+    "converter": "Convertidor",
+    "web": "Web",
+    "images and videos": "Imágenes y Videos",
+    "development": "Desarrollo",
+    "network": "Red",
+    "math": "Matemáticas",
+    "measurement": "Medición",
+    "text": "Texto",
+    "data": "Datos"
+  },
   "tools": {
     "safelink-decoder": {
       "title": "Decodificador de Outlook Safelink",
       "description": "Decodifica enlaces de Outlook SafeLink",
       "keywords": "outlook,safelink,decodificador"
-    },
-    "categories": {
-      "favorite-tools": "Tus herramientas favoritas",
-      "crypto": "Cripto",
-      "converter": "Convertidor",
-      "web": "Web",
-      "images and videos": "Imágenes y Videos",
-      "development": "Desarrollo",
-      "network": "Red",
-      "math": "Matemáticas",
-      "measurement": "Medición",
-      "text": "Texto",
-      "data": "Datos"
     },
     "email-normalizer": {
       "title": "Normalizador de email",

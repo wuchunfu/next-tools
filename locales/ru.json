@@ -139,24 +139,24 @@
     "placeholder": "Поиск...",
     "noResults": "Нет результатов"
   },
+  "categories": {
+    "favorite-tools": "Избранное",
+    "crypto": "Криптография",
+    "converter": "Конвертеры",
+    "web": "Web",
+    "images and videos": "Изображения и видео",
+    "development": "Разработка",
+    "network": "Сеть",
+    "math": "Математика",
+    "measurement": "Измерения",
+    "text": "Текст",
+    "data": "Данные"
+  },
   "tools": {
     "safelink-decoder": {
       "title": "Декодер Outlook Safelink",
       "description": "Декодирование ссылок Outlook SafeLink",
       "keywords": "outlook,safelink,декодер"
-    },
-    "categories": {
-      "favorite-tools": "Избранное",
-      "crypto": "Криптография",
-      "converter": "Конвертеры",
-      "web": "Web",
-      "images and videos": "Изображения и видео",
-      "development": "Разработка",
-      "network": "Сеть",
-      "math": "Математика",
-      "measurement": "Измерения",
-      "text": "Текст",
-      "data": "Данные"
     },
     "password-strength-analyser": {
       "title": "Анализатор силы пароля",

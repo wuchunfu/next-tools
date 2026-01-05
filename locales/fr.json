@@ -139,24 +139,24 @@
     "placeholder": "Search...",
     "noResults": "No results found"
   },
+  "categories": {
+    "favorite-tools": "Your favorite tools",
+    "crypto": "Crypto",
+    "converter": "Converter",
+    "web": "Web",
+    "images and videos": "Images & Videos",
+    "development": "Development",
+    "network": "Network",
+    "math": "Math",
+    "measurement": "Measurement",
+    "text": "Text",
+    "data": "Data"
+  },
   "tools": {
     "safelink-decoder": {
       "title": "Outlook Safelink decoder",
       "description": "Decode Outlook SafeLink links",
       "keywords": "outlook,safelink,decoder"
-    },
-    "categories": {
-      "favorite-tools": "Your favorite tools",
-      "crypto": "Crypto",
-      "converter": "Converter",
-      "web": "Web",
-      "images and videos": "Images & Videos",
-      "development": "Development",
-      "network": "Network",
-      "math": "Math",
-      "measurement": "Measurement",
-      "text": "Text",
-      "data": "Data"
     },
     "password-strength-analyser": {
       "title": "Password strength analyser",

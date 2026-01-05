@@ -139,24 +139,24 @@
     "placeholder": "Пошук...",
     "noResults": "Немає результатів"
   },
+  "categories": {
+    "favorite-tools": "Ваші улюблені інструменти",
+    "crypto": "Крипта",
+    "converter": "Конвертер",
+    "web": "Веб",
+    "images and videos": "Зображення та відео",
+    "development": "Розробка",
+    "network": "Мережа",
+    "math": "Математика",
+    "measurement": "Вимірювання",
+    "text": "Текст",
+    "data": "Дані"
+  },
   "tools": {
     "safelink-decoder": {
       "title": "Декодер Outlook Safelink",
       "description": "Декодує посилання Outlook SafeLink",
       "keywords": "outlook,safelink,декодер"
-    },
-    "categories": {
-      "favorite-tools": "Ваші улюблені інструменти",
-      "crypto": "Крипта",
-      "converter": "Конвертер",
-      "web": "Веб",
-      "images and videos": "Зображення та відео",
-      "development": "Розробка",
-      "network": "Мережа",
-      "math": "Математика",
-      "measurement": "Вимірювання",
-      "text": "Текст",
-      "data": "Дані"
     },
     "password-strength-analyser": {
       "title": "Аналізатор міцності пароля",
@@ -308,7 +308,7 @@
       "description": "Конвертирует IP-адрес IPv4 в десятичный, двоичный, шестнадцатеричный или даже в IPv6.",
       "keywords": "ipv4,address,converter,decimal,hexadecimal,binary,ipv6"
     },
-    "device-information": { 
+    "device-information": {
       "title": "Інформація про пристрій",
       "description": "Отримайте інформацію про ваш поточний пристрій (розмір екрана, співвідношення пікселів, користувацький агент, ...)",
       "keywords": "пристрій,інформація,екран,піксель,співвідношення,статус,дані,комп'ютер,розмір,користувач,агент"

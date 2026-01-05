@@ -139,20 +139,20 @@
     "placeholder": "Tìm kiếm...",
     "noResults": "Không có kết quả"
   },
+  "categories": {
+    "favorite-tools": "Công cụ yêu thích của bạn",
+    "crypto": "Mã hóa",
+    "converter": "Chuyển đổi",
+    "web": "Web",
+    "images and videos": "Hình ảnh & Video",
+    "development": "Phát triển",
+    "network": "Mạng",
+    "math": "Toán học",
+    "measurement": "Đo lường",
+    "text": "Văn bản",
+    "data": "Dữ liệu"
+  },
   "tools": {
-    "categories": {
-      "favorite-tools": "Công cụ yêu thích của bạn",
-      "crypto": "Mã hóa",
-      "converter": "Chuyển đổi",
-      "web": "Web",
-      "images and videos": "Hình ảnh & Video",
-      "development": "Phát triển",
-      "network": "Mạng",
-      "math": "Toán học",
-      "measurement": "Đo lường",
-      "text": "Văn bản",
-      "data": "Dữ liệu"
-    },
     "markdown-to-html": {
       "title": "Markdown sang HTML",
       "description": "Chuyển Markdown sang HTML và in ra PDF",

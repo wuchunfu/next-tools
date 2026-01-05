@@ -139,20 +139,20 @@
     "placeholder": "Suche...",
     "noResults": "Keine Ergebnisse"
   },
+  "categories": {
+    "favorite-tools": "Deine Lieblingstools",
+    "crypto": "Krypto",
+    "converter": "Konverter",
+    "web": "Web",
+    "images and videos": "Bilder & Videos",
+    "development": "Entwicklung",
+    "network": "Netzwerk",
+    "math": "Mathematik",
+    "measurement": "Messung",
+    "text": "Text",
+    "data": "Daten"
+  },
   "tools": {
-    "categories": {
-      "favorite-tools": "Deine Lieblingstools",
-      "crypto": "Krypto",
-      "converter": "Konverter",
-      "web": "Web",
-      "images and videos": "Bilder & Videos",
-      "development": "Entwicklung",
-      "network": "Netzwerk",
-      "math": "Mathematik",
-      "measurement": "Messung",
-      "text": "Text",
-      "data": "Daten"
-    },
     "markdown-to-html": {
       "title": "Markdown zu HTML",
       "description": "Wandle Markdown in HTML um und drucke als PDF",
