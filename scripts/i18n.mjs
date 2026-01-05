@@ -8,6 +8,8 @@ import { merge, pick, omit } from 'lodash-es';
 import fastGlob from 'fast-glob';
 import enquirer from 'enquirer';
 import consola from 'consola';
+import { Command } from 'commander';
+import process from 'node:process';
 
 const currentDirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(currentDirname, '..');
@@ -18,6 +20,9 @@ const toolsDir = join(rootDir, 'src', 'tools');
 // Tool base properties that belong to global translations
 const TOOL_BASE_PROPERTIES = ['title', 'description', 'keywords'];
 
+// Special choice value for selecting all languages
+const ALL_LANGUAGES = '__ALL__';
+
 /**
  * Get all available language codes
  */
@@ -26,6 +31,48 @@ async function getLanguages() {
   return globalLocaleFiles
     .filter(file => file.endsWith('.json'))
     .map(file => file.replace('.json', ''));
+}
+
+/**
+ * Prompt user to select languages
+ */
+async function selectLanguages(availableLanguages, operation, cliLanguages = null) {
+  // If languages specified via CLI
+  if (cliLanguages) {
+    if (cliLanguages.toLowerCase() === 'all') {
+      return availableLanguages;
+    }
+    const languages = cliLanguages.split(',').map(lang => lang.trim());
+    // Validate languages
+    const invalidLanguages = languages.filter(lang => !availableLanguages.includes(lang));
+    if (invalidLanguages.length > 0) {
+      consola.warn(`Invalid languages: ${invalidLanguages.join(', ')}`);
+      consola.info(`Available languages: ${availableLanguages.join(', ')}`);
+      process.exit(1);
+    }
+    return languages;
+  }
+
+  // Interactive mode
+  const choices = [
+    { name: ALL_LANGUAGES, message: 'All languages' },
+    ...availableLanguages.map(lang => ({ name: lang, message: lang })),
+  ];
+
+  const { selectedLanguages } = await enquirer.prompt({
+    type: 'multiselect',
+    name: 'selectedLanguages',
+    message: `Select languages to ${operation}:`,
+    choices,
+    initial: [0], // Default select "All languages"
+  });
+
+  // If "All languages" is selected, return all languages
+  if (selectedLanguages.includes(ALL_LANGUAGES)) {
+    return availableLanguages;
+  }
+
+  return selectedLanguages;
 }
 
 /**
@@ -45,7 +92,7 @@ async function collectLanguageTranslations(lang) {
       const toolContent = await readFile(toolFilePath, 'utf-8');
       const toolTranslations = JSON.parse(toolContent);
       Object.assign(translations, merge({}, translations, toolTranslations));
-    } catch (error) {
+    } catch {
       // Ignore errors for missing files
     }
   }
@@ -71,7 +118,7 @@ async function collectLanguageTranslations(lang) {
         }
       }
     }
-  } catch (error) {
+  } catch {
     // Ignore errors for missing files
   }
 
@@ -81,31 +128,46 @@ async function collectLanguageTranslations(lang) {
 /**
  * Collect all translations and merge them by language
  */
-async function collectTranslations() {
+async function collectTranslations(options = {}) {
   // Check if temp directory exists
   if (existsSync(tempDir)) {
-    const { confirm } = await enquirer.prompt({
-      type: 'confirm',
-      name: 'confirm',
-      message: 'Temporary directory .i18n already exists. Overwrite?',
-      initial: false,
-    });
+    if (options.yes) {
+      consola.info('Auto-confirming: Overwriting existing .i18n directory');
+    } else {
+      const { confirm } = await enquirer.prompt({
+        type: 'confirm',
+        name: 'confirm',
+        message: 'Temporary directory .i18n already exists. Overwrite?',
+        initial: false,
+      });
 
-    if (!confirm) {
-      consola.info('Operation cancelled');
-      return;
+      if (!confirm) {
+        consola.info('Operation cancelled');
+        return;
+      }
     }
   }
 
-  consola.start('Collecting translation files...');
+  const allLanguages = await getLanguages();
+  consola.info(`Found ${allLanguages.length} languages: ${allLanguages.join(', ')}`);
 
-  const languages = await getLanguages();
-  consola.info(`Found ${languages.length} languages: ${languages.join(', ')}`);
+  // If -y flag is set without languages specified, default to all languages
+  const languagesToProcess = options.yes && !options.languages ? 'all' : options.languages;
+
+  // Let user select languages
+  const selectedLanguages = await selectLanguages(allLanguages, 'collect', languagesToProcess);
+
+  if (selectedLanguages.length === 0) {
+    consola.warn('No languages selected');
+    return;
+  }
+
+  consola.start(`Collecting translations for ${selectedLanguages.length} language(s)...`);
 
   const translationsByLanguage = {};
 
-  // Collect translations for each language
-  for (const lang of languages) {
+  // Collect translations for each selected language
+  for (const lang of selectedLanguages) {
     consola.start(`Collecting translations for ${lang}...`);
     translationsByLanguage[lang] = await collectLanguageTranslations(lang);
     consola.success(`✓ Collected translations for ${lang}`);
@@ -148,61 +210,85 @@ function createEmptyTemplate(referenceTranslations) {
 /**
  * Create a new language file
  */
-async function createNewLanguage() {
+async function createNewLanguage(options = {}) {
   consola.box('Create New Language');
 
-  // Ask for language code
-  const { langCode } = await enquirer.prompt({
-    type: 'input',
-    name: 'langCode',
-    message: 'Enter language code (e.g., ja, ko, ar):',
-    validate: (value) => {
-      if (!value || value.trim().length === 0) {
-        return 'Language code is required';
-      }
-      if (!/^[a-z]{2}(_[A-Z]{2})?$/.test(value.trim())) {
-        return 'Invalid language code format (e.g., en, zh, pt_BR)';
-      }
-      return true;
-    },
-  });
+  let lang;
 
-  const lang = langCode.trim();
+  // Get language code
+  if (options.language) {
+    lang = options.language.trim();
+    // Validate language code
+    if (!/^[a-z]{2}(?:_[A-Z]{2})?$/.test(lang)) {
+      consola.error('Invalid language code format (e.g., en, zh, pt_BR)');
+      process.exit(1);
+    }
+  } else {
+    const { langCode } = await enquirer.prompt({
+      type: 'input',
+      name: 'langCode',
+      message: 'Enter language code (e.g., ja, ko, ar):',
+      validate: (value) => {
+        if (!value || value.trim().length === 0) {
+          return 'Language code is required';
+        }
+        if (!/^[a-z]{2}(?:_[A-Z]{2})?$/.test(value.trim())) {
+          return 'Invalid language code format (e.g., en, zh, pt_BR)';
+        }
+        return true;
+      },
+    });
+    lang = langCode.trim();
+  }
 
   // Check if language already exists
   const existingLangFile = join(tempDir, `${lang}.json`);
   if (existsSync(existingLangFile)) {
     consola.warn(`Language file already exists: ${existingLangFile}`);
-    const { overwrite } = await enquirer.prompt({
-      type: 'confirm',
-      name: 'overwrite',
-      message: 'Overwrite existing file?',
-      initial: false,
-    });
 
-    if (!overwrite) {
-      consola.info('Operation cancelled');
-      return;
+    if (options.yes) {
+      consola.info('Auto-confirming: Overwriting existing file');
+    } else {
+      const { overwrite } = await enquirer.prompt({
+        type: 'confirm',
+        name: 'overwrite',
+        message: 'Overwrite existing file?',
+        initial: false,
+      });
+
+      if (!overwrite) {
+        consola.info('Operation cancelled');
+        return;
+      }
     }
   }
 
-  // Ask for template type
-  const { templateType } = await enquirer.prompt({
-    type: 'select',
-    name: 'templateType',
-    message: 'Choose template type:',
-    choices: [
-      { name: 'empty-template', message: 'Empty template - Based on English structure with empty values (Recommended)' },
-      { name: 'empty-file', message: 'Empty file - Just an empty JSON object {}' },
-    ],
-  });
+  let templateType = options.template || 'empty-template';
+
+  // Ask for template type if not specified
+  if (!options.template && !options.yes) {
+    const result = await enquirer.prompt({
+      type: 'select',
+      name: 'templateType',
+      message: 'Choose template type:',
+      choices: [
+        { name: 'empty-template', message: 'Empty template - Based on English structure with empty values (Recommended)' },
+        { name: 'empty-file', message: 'Empty file - Just an empty JSON object {}' },
+      ],
+    });
+    templateType = result.templateType;
+  }
+
+  // Validate template type
+  if (!['empty-template', 'empty-file'].includes(templateType)) {
+    consola.error('Invalid template type. Use "empty-template" or "empty-file"');
+    process.exit(1);
+  }
 
   let newTranslations = {};
 
   if (templateType === 'empty-template') {
-    consola.start('Collecting English translations as template...');
-
-    // Collect English translations
+    // Collect English translations in memory without logging
     const enTranslations = await collectLanguageTranslations('en');
 
     if (Object.keys(enTranslations).length === 0) {
@@ -210,12 +296,10 @@ async function createNewLanguage() {
       return;
     }
 
-    // Create empty template
+    // Create empty template in memory
     newTranslations = createEmptyTemplate(enTranslations);
-    consola.success('Empty template created based on English structure');
   } else {
     newTranslations = {};
-    consola.success('Empty file created');
   }
 
   // Create temp directory if it doesn't exist
@@ -230,14 +314,14 @@ async function createNewLanguage() {
   consola.success(`\n✓ New language file created: ${outputPath}`);
   consola.info(`\nNext steps:`);
   consola.info(`1. Edit the translation file in .i18n/${lang}.json`);
-  consola.info(`2. Run 'npm run i18n' again and select 'Write back' to apply changes`);
+  consola.info(`2. Run 'pnpm run i18n' again and select 'Write back' to apply changes`);
   consola.info(`3. The translations will be distributed to locales/${lang}.json and tool-specific files`);
 }
 
 /**
  * Write back translations from temp directory to original files
  */
-async function writeBackTranslations() {
+async function writeBackTranslations(options = {}) {
   // Check if temp directory exists
   if (!existsSync(tempDir)) {
     consola.error(`Temporary directory does not exist: ${tempDir}`);
@@ -245,30 +329,50 @@ async function writeBackTranslations() {
     return;
   }
 
-  // Confirm operation
-  const { confirm } = await enquirer.prompt({
-    type: 'confirm',
-    name: 'confirm',
-    message: 'This will overwrite existing translation files. Continue?',
-    initial: false,
-  });
-
-  if (!confirm) {
-    consola.info('Operation cancelled');
-    return;
-  }
-
-  consola.start('Writing back translation files...');
-
   const tempFiles = await readdir(tempDir);
-  const languages = tempFiles
+  const availableLanguages = tempFiles
     .filter(file => file.endsWith('.json'))
     .map(file => file.replace('.json', ''));
 
-  consola.info(`Found ${languages.length} languages: ${languages.join(', ')}`);
+  if (availableLanguages.length === 0) {
+    consola.warn('No language files found in temporary directory');
+    return;
+  }
 
-  // Process each language
-  for (const lang of languages) {
+  consola.info(`Found ${availableLanguages.length} languages: ${availableLanguages.join(', ')}`);
+
+  // If -y flag is set without languages specified, default to all languages
+  const languagesToProcess = options.yes && !options.languages ? 'all' : options.languages;
+
+  // Let user select languages
+  const selectedLanguages = await selectLanguages(availableLanguages, 'write back', languagesToProcess);
+
+  if (selectedLanguages.length === 0) {
+    consola.warn('No languages selected');
+    return;
+  }
+
+  // Confirm operation
+  if (options.yes) {
+    consola.info(`Auto-confirming: Overwriting existing translation files for ${selectedLanguages.length} language(s)`);
+  } else {
+    const { confirm } = await enquirer.prompt({
+      type: 'confirm',
+      name: 'confirm',
+      message: `This will overwrite existing translation files for ${selectedLanguages.length} language(s). Continue?`,
+      initial: false,
+    });
+
+    if (!confirm) {
+      consola.info('Operation cancelled');
+      return;
+    }
+  }
+
+  consola.start(`Writing back translations for ${selectedLanguages.length} language(s)...`);
+
+  // Process each selected language
+  for (const lang of selectedLanguages) {
     consola.start(`Processing translations for ${lang}...`);
 
     // Read temp translation file
@@ -334,9 +438,9 @@ async function writeBackTranslations() {
 }
 
 /**
- * Main function
+ * Main function for interactive mode
  */
-async function main() {
+async function interactiveMode() {
   consola.box('i18n Translation Manager');
 
   const { action } = await enquirer.prompt({
@@ -357,6 +461,58 @@ async function main() {
   } else if (action === 'createNew') {
     await createNewLanguage();
   }
+}
+
+/**
+ * Main function
+ */
+async function main() {
+  // If no arguments provided, run interactive mode
+  if (!process.argv.slice(2).length) {
+    await interactiveMode();
+    return;
+  }
+
+  const program = new Command();
+
+  program
+    .name('i18n')
+    .description('i18n Translation Manager')
+    .version('1.0.0');
+
+  // Collect command
+  program
+    .command('collect')
+    .description('Collect translations - Merge all i18n files into temp directory')
+    .option('-l, --languages <langs>', 'Specify languages (comma-separated or "all")')
+    .option('-y, --yes', 'Auto-confirm prompts (use default values)')
+    .action(async (options) => {
+      await collectTranslations(options);
+    });
+
+  // Write-back command
+  program
+    .command('write-back')
+    .description('Write back translations - Apply changes from temp directory to original files')
+    .option('-l, --languages <langs>', 'Specify languages (comma-separated or "all")')
+    .option('-y, --yes', 'Auto-confirm prompts (use default values)')
+    .action(async (options) => {
+      await writeBackTranslations(options);
+    });
+
+  // Create command
+  program
+    .command('create')
+    .description('Create new language - Create a new language translation file')
+    .option('--language <lang>', 'Specify language code (e.g., ja, ko, ar)')
+    .option('-t, --template <type>', 'Template type: "empty-template" or "empty-file"', 'empty-template')
+    .option('-y, --yes', 'Auto-confirm prompts (use default values)')
+    .action(async (options) => {
+      await createNewLanguage(options);
+    });
+
+  // Parse arguments
+  program.parse();
 }
 
 main().catch((error) => {
