@@ -126,14 +126,59 @@ pnpm test
 pnpm lint
 ```
 
-### Adding a New Tool
+### Development Scripts
 
-Create a new tool with our generator:
+#### Create New Tool (create-tool.mjs)
+
+Quickly scaffold a new tool:
+
+**Interactive mode:**
+```bash
+pnpm run script:create:tool
+```
+
+**CLI mode:**
 ```bash
 pnpm run script:create:tool my-tool-name
 ```
 
-This will generate the boilerplate files in `src/tools/my-tool-name/`. It will create a directory in `src/tools` with the correct files, and add the import in `src/tools/index.ts`. You will just need to add the imported tool in the proper category and develop the tool.
+The script automatically:
+- Creates tool directory with all necessary files (.vue, .service.ts, .test.ts, etc.)
+- Adds tool entries to all language locale files
+- Updates `src/tools/index.ts` with import
+- Generates boilerplate code with i18n support
+
+#### i18n Translation Management (i18n.mjs)
+
+Unified tool for managing all translation files:
+
+**Interactive mode:**
+```bash
+pnpm run i18n
+```
+
+**CLI mode:**
+```bash
+# Collect translations to .i18n directory
+pnpm run i18n collect [-l <languages>] [-y]
+
+# Write back edited translations to original files
+pnpm run i18n write-back [-l <languages>] [-y]
+
+# Create new language
+pnpm run i18n create [--language <code>] [-t <template>] [-y]
+```
+
+**Options:**
+- `-l, --languages` - Specify languages (comma-separated or "all"), e.g., `-l en,zh` or `-l all`
+- `-y, --yes` - Skip confirmation prompts, auto-use defaults
+- `--language` - Language code, e.g., `ja`, `ko`, `ar`
+- `-t, --template` - Template type: `empty-template` (recommended) or `empty-file`
+
+**Workflow:**
+1. Run `collect` to merge all translations into `.i18n` directory
+2. Edit translation files in `.i18n` directory
+3. Run `write-back` to apply changes to `locales/` and tool-specific `locales/` directories
 
 ### Type Support for `.vue` Imports in TS
 

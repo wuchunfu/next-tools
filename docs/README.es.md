@@ -126,14 +126,59 @@ pnpm test
 pnpm lint
 ```
 
-### Agregar una nueva herramienta
+### Scripts de desarrollo
 
-Crear una nueva herramienta con nuestro generador:
+#### Crear nueva herramienta (create-tool.mjs)
+
+Crear rápidamente una nueva herramienta:
+
+**Modo interactivo:**
+```bash
+pnpm run script:create:tool
+```
+
+**Modo CLI:**
 ```bash
 pnpm run script:create:tool my-tool-name
 ```
 
-Esto generará los archivos base en `src/tools/my-tool-name/`. Creará un directorio en `src/tools` con los archivos correctos y agregará la importación en `src/tools/index.ts`. Solo necesitarás agregar la herramienta importada en la categoría apropiada y desarrollar la herramienta.
+El script automáticamente:
+- Crea directorio de herramienta con todos los archivos necesarios (.vue, .service.ts, .test.ts, etc.)
+- Agrega entradas de herramienta a todos los archivos de idioma
+- Actualiza `src/tools/index.ts` con la importación
+- Genera código base con soporte i18n
+
+#### Gestión de traducciones i18n (i18n.mjs)
+
+Herramienta unificada para gestionar todos los archivos de traducción:
+
+**Modo interactivo:**
+```bash
+pnpm run i18n
+```
+
+**Modo CLI:**
+```bash
+# Recopilar traducciones en directorio .i18n
+pnpm run i18n collect [-l <languages>] [-y]
+
+# Escribir traducciones editadas de vuelta a archivos originales
+pnpm run i18n write-back [-l <languages>] [-y]
+
+# Crear nuevo idioma
+pnpm run i18n create [--language <code>] [-t <template>] [-y]
+```
+
+**Opciones:**
+- `-l, --languages` - Especificar idiomas (separados por comas o "all"), ej.: `-l en,zh` o `-l all`
+- `-y, --yes` - Omitir confirmaciones, usar valores predeterminados
+- `--language` - Código de idioma, ej.: `ja`, `ko`, `ar`
+- `-t, --template` - Tipo de plantilla: `empty-template` (recomendado) o `empty-file`
+
+**Flujo de trabajo:**
+1. Ejecutar `collect` para fusionar todas las traducciones en directorio `.i18n`
+2. Editar archivos de traducción en directorio `.i18n`
+3. Ejecutar `write-back` para aplicar cambios a `locales/` y directorios `locales/` específicos de herramientas
 
 ### Soporte de tipos para importaciones `.vue` en TS
 

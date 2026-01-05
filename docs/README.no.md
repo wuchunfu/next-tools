@@ -126,14 +126,59 @@ pnpm test
 pnpm lint
 ```
 
-### Legg til et nytt verktøy
+### Utviklingsskript
 
-Opprett et nytt verktøy med generatoren vår:
+#### Opprett nytt verktøy (create-tool.mjs)
+
+Raskt opprette et nytt verktøy:
+
+**Interaktiv modus:**
+```bash
+pnpm run script:create:tool
+```
+
+**CLI-modus:**
 ```bash
 pnpm run script:create:tool my-tool-name
 ```
 
-Dette vil generere basisfiler i `src/tools/my-tool-name/`. Det vil opprette en katalog i `src/tools` med de riktige filene og legge til importen i `src/tools/index.ts`. Du trenger bare å legge til det importerte verktøyet i riktig kategori og utvikle verktøyet.
+Skriptet utfører automatisk:
+- Oppretter verktøykatalog med alle nødvendige filer (.vue, .service.ts, .test.ts, etc.)
+- Legger til verktøyoppføringer i alle språkfiler
+- Oppdaterer `src/tools/index.ts` med import
+- Genererer grunnkode med i18n-støtte
+
+#### i18n-oversettelsesadministrasjon (i18n.mjs)
+
+Enhetlig verktøy for å administrere alle oversettelsesfiler:
+
+**Interaktiv modus:**
+```bash
+pnpm run i18n
+```
+
+**CLI-modus:**
+```bash
+# Samle oversettelser til .i18n-katalog
+pnpm run i18n collect [-l <languages>] [-y]
+
+# Skriv redigerte oversettelser tilbake til originalfiler
+pnpm run i18n write-back [-l <languages>] [-y]
+
+# Opprett nytt språk
+pnpm run i18n create [--language <code>] [-t <template>] [-y]
+```
+
+**Alternativer:**
+- `-l, --languages` - Spesifiser språk (kommaseparert eller "all"), f.eks.: `-l en,zh` eller `-l all`
+- `-y, --yes` - Hopp over bekreftelser, bruk standardverdier
+- `--language` - Språkkode, f.eks.: `ja`, `ko`, `ar`
+- `-t, --template` - Maltype: `empty-template` (anbefalt) eller `empty-file`
+
+**Arbeidsflyt:**
+1. Kjør `collect` for å slå sammen alle oversettelser til `.i18n`-katalog
+2. Rediger oversettelsesfiler i `.i18n`-katalog
+3. Kjør `write-back` for å bruke endringer på `locales/` og verktøyspesifikke `locales/`-kataloger
 
 ### Typestøtte for `.vue` importer i TS
 

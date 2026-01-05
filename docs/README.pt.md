@@ -126,14 +126,59 @@ pnpm test
 pnpm lint
 ```
 
-### Adicionar uma nova ferramenta
+### Scripts de desenvolvimento
 
-Criar uma nova ferramenta com nosso gerador:
+#### Criar nova ferramenta (create-tool.mjs)
+
+Criar rapidamente uma nova ferramenta:
+
+**Modo interativo:**
+```bash
+pnpm run script:create:tool
+```
+
+**Modo CLI:**
 ```bash
 pnpm run script:create:tool my-tool-name
 ```
 
-Isso gerará os arquivos base em `src/tools/my-tool-name/`. Criará um diretório em `src/tools` com os arquivos corretos e adicionará a importação em `src/tools/index.ts`. Você só precisará adicionar a ferramenta importada na categoria apropriada e desenvolver a ferramenta.
+O script automaticamente:
+- Cria diretório da ferramenta com todos os arquivos necessários (.vue, .service.ts, .test.ts, etc.)
+- Adiciona entradas da ferramenta a todos os arquivos de idioma
+- Atualiza `src/tools/index.ts` com a importação
+- Gera código base com suporte i18n
+
+#### Gerenciamento de traduções i18n (i18n.mjs)
+
+Ferramenta unificada para gerenciar todos os arquivos de tradução:
+
+**Modo interativo:**
+```bash
+pnpm run i18n
+```
+
+**Modo CLI:**
+```bash
+# Coletar traduções no diretório .i18n
+pnpm run i18n collect [-l <languages>] [-y]
+
+# Escrever traduções editadas de volta aos arquivos originais
+pnpm run i18n write-back [-l <languages>] [-y]
+
+# Criar novo idioma
+pnpm run i18n create [--language <code>] [-t <template>] [-y]
+```
+
+**Opções:**
+- `-l, --languages` - Especificar idiomas (separados por vírgula ou "all"), ex.: `-l en,zh` ou `-l all`
+- `-y, --yes` - Pular confirmações, usar valores padrão
+- `--language` - Código do idioma, ex.: `ja`, `ko`, `ar`
+- `-t, --template` - Tipo de modelo: `empty-template` (recomendado) ou `empty-file`
+
+**Fluxo de trabalho:**
+1. Executar `collect` para mesclar todas as traduções no diretório `.i18n`
+2. Editar arquivos de tradução no diretório `.i18n`
+3. Executar `write-back` para aplicar alterações a `locales/` e diretórios `locales/` específicos de ferramentas
 
 ### Suporte de tipo para importações `.vue` em TS
 

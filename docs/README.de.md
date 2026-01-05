@@ -126,14 +126,59 @@ pnpm test
 pnpm lint
 ```
 
-### Ein neues Tool hinzufügen
+### Entwicklungsskripte
 
-Erstellen Sie ein neues Tool mit unserem Generator:
+#### Neues Tool erstellen (create-tool.mjs)
+
+Ein neues Tool schnell erstellen:
+
+**Interaktiver Modus:**
+```bash
+pnpm run script:create:tool
+```
+
+**CLI-Modus:**
 ```bash
 pnpm run script:create:tool my-tool-name
 ```
 
-Dies generiert die Basisdateien in `src/tools/my-tool-name/`. Es wird ein Verzeichnis in `src/tools` mit den richtigen Dateien erstellen und den Import in `src/tools/index.ts` hinzufügen. Sie müssen das importierte Tool nur noch in die entsprechende Kategorie einfügen und das Tool entwickeln.
+Das Skript führt automatisch aus:
+- Erstellt Tool-Verzeichnis mit allen notwendigen Dateien (.vue, .service.ts, .test.ts, etc.)
+- Fügt Tool-Einträge zu allen Sprach-Locale-Dateien hinzu
+- Aktualisiert `src/tools/index.ts` mit Import
+- Generiert Grundgerüst-Code mit i18n-Unterstützung
+
+#### i18n-Übersetzungsverwaltung (i18n.mjs)
+
+Einheitliches Tool zur Verwaltung aller Übersetzungsdateien:
+
+**Interaktiver Modus:**
+```bash
+pnpm run i18n
+```
+
+**CLI-Modus:**
+```bash
+# Übersetzungen in .i18n-Verzeichnis sammeln
+pnpm run i18n collect [-l <languages>] [-y]
+
+# Bearbeitete Übersetzungen in Originaldateien zurückschreiben
+pnpm run i18n write-back [-l <languages>] [-y]
+
+# Neue Sprache erstellen
+pnpm run i18n create [--language <code>] [-t <template>] [-y]
+```
+
+**Optionen:**
+- `-l, --languages` - Sprachen angeben (kommagetrennt oder "all"), z.B. `-l en,zh` oder `-l all`
+- `-y, --yes` - Bestätigungsaufforderungen überspringen, Standardwerte verwenden
+- `--language` - Sprachcode, z.B. `ja`, `ko`, `ar`
+- `-t, --template` - Vorlagentyp: `empty-template` (empfohlen) oder `empty-file`
+
+**Arbeitsablauf:**
+1. `collect` ausführen, um alle Übersetzungen in `.i18n`-Verzeichnis zusammenzuführen
+2. Übersetzungsdateien im `.i18n`-Verzeichnis bearbeiten
+3. `write-back` ausführen, um Änderungen auf `locales/` und toolspezifische `locales/`-Verzeichnisse anzuwenden
 
 ### Typunterstützung für `.vue` Imports in TS
 

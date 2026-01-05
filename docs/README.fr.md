@@ -126,14 +126,59 @@ pnpm test
 pnpm lint
 ```
 
-### Ajouter un nouvel outil
+### Scripts de développement
 
-Créer un nouvel outil avec notre générateur :
+#### Créer un nouvel outil (create-tool.mjs)
+
+Générer rapidement un nouvel outil :
+
+**Mode interactif :**
+```bash
+pnpm run script:create:tool
+```
+
+**Mode CLI :**
 ```bash
 pnpm run script:create:tool my-tool-name
 ```
 
-Ceci générera les fichiers de base dans `src/tools/my-tool-name/`. Il créera un répertoire dans `src/tools` avec les fichiers corrects, et ajoutera l'import dans `src/tools/index.ts`. Vous devrez simplement ajouter l'outil importé dans la catégorie appropriée et développer l'outil.
+Le script effectue automatiquement :
+- Création du répertoire de l'outil avec tous les fichiers nécessaires (.vue, .service.ts, .test.ts, etc.)
+- Ajout des entrées de l'outil dans tous les fichiers de langue
+- Mise à jour de `src/tools/index.ts` avec l'import
+- Génération du code de base avec support i18n
+
+#### Gestion des traductions i18n (i18n.mjs)
+
+Outil unifié pour gérer tous les fichiers de traduction :
+
+**Mode interactif :**
+```bash
+pnpm run i18n
+```
+
+**Mode CLI :**
+```bash
+# Collecter les traductions dans le répertoire .i18n
+pnpm run i18n collect [-l <languages>] [-y]
+
+# Réécrire les traductions éditées dans les fichiers d'origine
+pnpm run i18n write-back [-l <languages>] [-y]
+
+# Créer une nouvelle langue
+pnpm run i18n create [--language <code>] [-t <template>] [-y]
+```
+
+**Options :**
+- `-l, --languages` - Spécifier les langues (séparées par des virgules ou "all"), ex. : `-l en,zh` ou `-l all`
+- `-y, --yes` - Ignorer les invites de confirmation, utiliser les valeurs par défaut
+- `--language` - Code de langue, ex. : `ja`, `ko`, `ar`
+- `-t, --template` - Type de modèle : `empty-template` (recommandé) ou `empty-file`
+
+**Flux de travail :**
+1. Exécuter `collect` pour fusionner toutes les traductions dans le répertoire `.i18n`
+2. Éditer les fichiers de traduction dans le répertoire `.i18n`
+3. Exécuter `write-back` pour appliquer les modifications aux répertoires `locales/` et `locales/` spécifiques aux outils
 
 ### Support de type pour les imports `.vue` en TS
 

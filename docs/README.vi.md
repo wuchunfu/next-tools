@@ -126,14 +126,59 @@ pnpm test
 pnpm lint
 ```
 
-### Thêm công cụ mới
+### Scripts phát triển
 
-Tạo công cụ mới với bộ tạo của chúng tôi:
+#### Tạo công cụ mới (create-tool.mjs)
+
+Nhanh chóng tạo công cụ mới:
+
+**Chế độ tương tác:**
+```bash
+pnpm run script:create:tool
+```
+
+**Chế độ CLI:**
 ```bash
 pnpm run script:create:tool my-tool-name
 ```
 
-Điều này sẽ tạo ra các tệp cơ bản trong `src/tools/my-tool-name/`. Nó sẽ tạo một thư mục trong `src/tools` với các tệp chính xác và thêm import vào `src/tools/index.ts`. Bạn chỉ cần thêm công cụ đã import vào danh mục thích hợp và phát triển công cụ.
+Script tự động:
+- Tạo thư mục công cụ với tất cả các tệp cần thiết (.vue, .service.ts, .test.ts, v.v.)
+- Thêm mục công cụ vào tất cả các tệp ngôn ngữ
+- Cập nhật `src/tools/index.ts` với import
+- Tạo mã cơ bản với hỗ trợ i18n
+
+#### Quản lý bản dịch i18n (i18n.mjs)
+
+Công cụ thống nhất để quản lý tất cả các tệp bản dịch:
+
+**Chế độ tương tác:**
+```bash
+pnpm run i18n
+```
+
+**Chế độ CLI:**
+```bash
+# Thu thập bản dịch vào thư mục .i18n
+pnpm run i18n collect [-l <languages>] [-y]
+
+# Ghi lại bản dịch đã chỉnh sửa vào các tệp gốc
+pnpm run i18n write-back [-l <languages>] [-y]
+
+# Tạo ngôn ngữ mới
+pnpm run i18n create [--language <code>] [-t <template>] [-y]
+```
+
+**Tùy chọn:**
+- `-l, --languages` - Chỉ định ngôn ngữ (phân tách bằng dấu phẩy hoặc "all"), ví dụ: `-l en,zh` hoặc `-l all`
+- `-y, --yes` - Bỏ qua xác nhận, sử dụng giá trị mặc định
+- `--language` - Mã ngôn ngữ, ví dụ: `ja`, `ko`, `ar`
+- `-t, --template` - Loại mẫu: `empty-template` (khuyến nghị) hoặc `empty-file`
+
+**Quy trình làm việc:**
+1. Chạy `collect` để hợp nhất tất cả bản dịch vào thư mục `.i18n`
+2. Chỉnh sửa các tệp bản dịch trong thư mục `.i18n`
+3. Chạy `write-back` để áp dụng thay đổi vào `locales/` và các thư mục `locales/` dành riêng cho công cụ
 
 ### Hỗ trợ kiểu cho import `.vue` trong TS
 

@@ -126,14 +126,59 @@ pnpm test
 pnpm lint
 ```
 
-### 添加新工具
+### 开发脚本
 
-使用我们的生成器创建新工具：
+#### 创建新工具 (create-tool.mjs)
+
+快速创建新工具的脚手架：
+
+**交互式模式：**
+```bash
+pnpm run script:create:tool
+```
+
+**命令行模式：**
 ```bash
 pnpm run script:create:tool my-tool-name
 ```
 
-这将在 `src/tools/my-tool-name/` 目录中生成基础文件。它会在 `src/tools` 中创建一个目录，包含正确的文件，并在 `src/tools/index.ts` 中添加导入。你只需要将导入的工具添加到适当的分类中并开发该工具。
+该脚本会自动：
+- 创建工具目录和所有必要文件（.vue、.service.ts、.test.ts 等）
+- 在所有语言的 locale 文件中添加工具条目
+- 更新 `src/tools/index.ts` 添加导入
+- 生成带有 i18n 支持的基础代码
+
+#### i18n 翻译管理 (i18n.mjs)
+
+统一管理所有翻译文件的工具：
+
+**交互式模式：**
+```bash
+pnpm run i18n
+```
+
+**命令行模式：**
+```bash
+# 收集翻译到 .i18n 目录
+pnpm run i18n collect [-l <languages>] [-y]
+
+# 将编辑后的翻译写回原文件
+pnpm run i18n write-back [-l <languages>] [-y]
+
+# 创建新语言
+pnpm run i18n create [--language <code>] [-t <template>] [-y]
+```
+
+**参数说明：**
+- `-l, --languages` - 指定语言（逗号分隔或 "all"），如：`-l en,zh` 或 `-l all`
+- `-y, --yes` - 跳过确认提示，自动使用默认值
+- `--language` - 语言代码，如：`ja`、`ko`、`ar`
+- `-t, --template` - 模板类型：`empty-template`（推荐）或 `empty-file`
+
+**使用流程：**
+1. 运行 `collect` 将所有翻译合并到 `.i18n` 目录
+2. 在 `.i18n` 目录中编辑翻译文件
+3. 运行 `write-back` 将修改写回到 `locales/` 和各工具的 `locales/` 目录
 
 ### TypeScript 中 `.vue` 导入的类型支持
 
