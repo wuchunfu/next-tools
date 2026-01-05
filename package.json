@@ -33,7 +33,8 @@
     "typecheck": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint src",
     "script:create:tool": "node scripts/create-tool.mjs",
-    "release": "node ./scripts/release.mjs"
+    "release": "node ./scripts/release.mjs",
+    "i18n": "node scripts/i18n.mjs"
   },
   "dependencies": {
     "@internationalized/date": "^3.10.1",
