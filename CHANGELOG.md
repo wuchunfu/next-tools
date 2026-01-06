@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.6.3
+
+### Features
+-  add contextual icons to card headers across all tools (6fab0a3)
+
+### Refactoring
+-  improve button layout and positioning across generator tools (52f04db)
+
 ## Version 1.6.2
 
 ### Features
