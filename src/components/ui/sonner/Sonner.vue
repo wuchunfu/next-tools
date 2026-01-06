@@ -19,11 +19,13 @@ const props = defineProps<ToasterProps>();
     }"
     v-bind="props"
     :toast-options="{
-      actionButtonStyle: {
-        backgroundColor: 'var(--color-primary)',
-        color: 'var(--color-primary-foreground)'
+      classes: {
+        toast: 'gap-2!',
+        title: 'text-sm!',
+        description: 'text-muted-foreground! text-xs!',
+        actionButton: 'bg-primary! text-primary-foreground! text-xs! hover:bg-primary/90! h-auto! rounded-md! py-1! px-2! transition-all!',
+        cancelButton: 'bg-secondary! text-secondary-foreground! hover:bg-secondary/80! text-xs! h-auto! rounded-md! py-1! px-2! transition-all!',
       },
-      descriptionClass: 'text-muted-foreground!',
     }"
   >
     <template #success-icon>
