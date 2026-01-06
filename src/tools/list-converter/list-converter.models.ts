@@ -2,11 +2,6 @@ import type { ConvertOptions } from './list-converter.types'
 import { isNull, reverse, trim, uniq, without } from 'lodash-es'
 import { byOrder } from '@/utils/array';
 
-function whenever<T, R>(condition: boolean, fn: (value: T) => R) {
-  return (value: T) =>
-    condition ? fn(value) : value;
-}
-
 export function convert(list: string, options: ConvertOptions): string {
   const lineBreak = options.keepLineBreaks ? '\n' : '';
 

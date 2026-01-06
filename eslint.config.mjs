@@ -26,11 +26,18 @@ export default antfu(
       'vue/no-empty-component-block': ['error'],
       'symbol-description': 'off',
       'no-restricted-imports': ['error', {
-        paths: [{
-          name: '@vueuse/core',
-          importNames: ['useClipboard'],
-          message: 'Please use local useCopy from src/composable/copy.ts instead of useClipboard.',
-        }],
+        paths: [
+          {
+            name: '@vueuse/core',
+            importNames: ['useClipboard'],
+            message: 'Please use local useCopy from src/composable/copy.ts instead of useClipboard.',
+          },
+          {
+            name: 'lodash-es',
+            importNames: ['chain'],
+            message: 'Do not use chain() from lodash-es. Use direct function calls instead to avoid production build issues.',
+          }
+        ],
       }],
     },
   },
