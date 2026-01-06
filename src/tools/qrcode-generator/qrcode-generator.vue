@@ -2,7 +2,7 @@
 import type { QRCodeErrorCorrectionLevel } from 'qrcode'
 import type { ColorObject } from '@/components/color-picker/utils/types';
 import { useStorage } from '@vueuse/core';
-import { Copy, Download, Palette, QrCode, Settings2, X } from 'lucide-vue-next';
+import { Code, Copy, Download, Palette, QrCode, Settings2, X } from 'lucide-vue-next';
 
 import ColorPickerWithTabs from '@/components/ColorPickerWithTabs.vue';
 import { Badge } from '@/components/ui/badge';
@@ -101,6 +101,7 @@ const charCount = computed(() => text.value.length)
               <Field orientation="vertical" class="gap-3">
                 <div class="flex items-center justify-between">
                   <FieldLabel class="text-sm font-medium flex items-center gap-2">
+                    <Code class="h-4 w-4 text-muted-foreground" />
                     {{ t('tools.qrcode-generator.text', 'Content') }}
                     <Badge variant="secondary" class="text-xs font-normal">
                       {{ charCount }} {{ t('tools.qrcode-generator.characters', 'chars') }}
@@ -267,7 +268,8 @@ const charCount = computed(() => text.value.length)
 
           <!-- Right: QR Code Preview -->
           <div class="flex flex-col items-center gap-4">
-            <div class="text-sm font-medium text-muted-foreground">
+            <div class="text-sm font-medium text-muted-foreground flex items-center gap-2">
+              <QrCode class="h-4 w-4" />
               {{ t('tools.qrcode-generator.preview', 'Preview') }}
             </div>
             <div class="flex h-54 w-54 items-center justify-center rounded-xl border-2 border-dashed bg-muted/20 transition-all hover:border-primary/50">

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useStorage } from '@vueuse/core'
-import { Copy, KeyRound, RefreshCw } from 'lucide-vue-next'
+import { Copy, Settings, KeyRound, RefreshCw } from 'lucide-vue-next'
 import { computed } from 'vue'
 
 import { Button } from '@/components/ui/button'
@@ -68,7 +68,7 @@ const privateLength = computed(() => privateKey.value.length);
     <Card>
       <CardHeader>
         <CardTitle class="flex items-center gap-2">
-          <KeyRound class="h-5 w-5 text-primary" />
+          <Settings class="h-5 w-5 text-primary" />
           {{ t('tools.rsa-key-pair-generator.configuration', 'RSA key options') }}
         </CardTitle>
       </CardHeader>
@@ -116,7 +116,10 @@ const privateLength = computed(() => privateKey.value.length);
     <!-- Output -->
     <Card class="flex flex-col">
       <CardHeader class="pb-2">
-        <CardTitle>{{ t('tools.rsa-key-pair-generator.generatedKeys', 'Generated keys') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <KeyRound class="h-5 w-5 text-primary" />
+          {{ t('tools.rsa-key-pair-generator.generatedKeys', 'Generated keys') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="flex flex-1 flex-col gap-4 overflow-hidden">
         <div class="flex flex-wrap items-center gap-2">

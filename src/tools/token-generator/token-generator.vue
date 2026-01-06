@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Copy, Key, RefreshCw } from 'lucide-vue-next';
+import { Copy, Key, RefreshCw, Settings } from 'lucide-vue-next';
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Field, FieldContent, FieldGroup, FieldLabel } from '@/components/ui/field'
@@ -51,7 +51,10 @@ const hasValidOptions = computed(() =>
   <div class="flex flex-col gap-6">
     <Card>
       <CardHeader>
-        <CardTitle>{{ t('tools.token-generator.cardOptionsTitle') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <Settings class="h-5 w-5 text-primary" />
+          {{ t('tools.token-generator.cardOptionsTitle') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="space-y-6 px-6">
         <!-- Character Type Options -->
@@ -128,7 +131,10 @@ const hasValidOptions = computed(() =>
     <!-- Token Display -->
     <Card v-if="hasValidOptions">
       <CardHeader>
-        <CardTitle>{{ t('tools.token-generator.cardOutputTitle', 'Generated token') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <Key class="h-5 w-5 text-primary" />
+          {{ t('tools.token-generator.cardOutputTitle', 'Generated token') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="space-y-4">
         <Textarea

@@ -8,7 +8,7 @@ import hwbPlugin from 'colord/plugins/hwb';
 import lchPlugin from 'colord/plugins/lch';
 import namesPlugin from 'colord/plugins/names';
 import { forEach } from 'lodash-es';
-import { Palette } from 'lucide-vue-next';
+import { Palette, Pipette } from 'lucide-vue-next';
 import ColorPickerWithTabs from '@/components/ColorPickerWithTabs.vue';
 import InputCopyable from '@/components/InputCopyable.vue';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -146,7 +146,10 @@ watch(pickerColor, (newColor) => {
     <Card class="lg:col-span-2">
       <CardHeader class="pb-4">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.color-converter.cardFormatsTitle', 'Color Formats') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Pipette class="h-5 w-5 text-primary" />
+            {{ t('tools.color-converter.cardFormatsTitle', 'Color Formats') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.color-converter.cardFormatsDescription', 'Convert between different color formats. Edit any field to update all formats.') }}
           </CardDescription>

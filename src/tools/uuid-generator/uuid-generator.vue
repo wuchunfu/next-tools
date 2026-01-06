@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Copy, RefreshCw } from 'lucide-vue-next';
+import { Copy, Settings, RefreshCw } from 'lucide-vue-next';
 import { v1 as generateUuidV1, v3 as generateUuidV3, v4 as generateUuidV4, v5 as generateUuidV5, NIL as nilUuid } from 'uuid';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -96,7 +96,10 @@ const namespaceError = computed(() => {
 <template>
   <Card>
     <CardHeader>
-      <CardTitle>{{ t('tools.uuid-generator.cardConfigTitle') }}</CardTitle>
+      <CardTitle class="flex items-center gap-2">
+        <Settings class="h-5 w-5 text-primary" />
+        {{ t('tools.uuid-generator.cardConfigTitle') }}
+      </CardTitle>
     </CardHeader>
     <CardContent class="space-y-6 px-6">
       <FieldGroup>

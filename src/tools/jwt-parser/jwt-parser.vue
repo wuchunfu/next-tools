@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Copy, Info, Key, X } from 'lucide-vue-next'
+import { Copy, Lock, Info, Key, X } from 'lucide-vue-next'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -51,7 +51,10 @@ function clearInput() {
     <Card>
       <CardHeader>
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.jwt-parser.cardTitle', 'JWT Parser') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Lock class="h-5 w-5 text-primary" />
+            {{ t('tools.jwt-parser.cardTitle', 'JWT Parser') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.jwt-parser.cardDescription', 'Decode and inspect JWT tokens to view header and payload information.') }}
           </CardDescription>

@@ -3,6 +3,7 @@ import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { ArrowLeftRight } from 'lucide-vue-next'
 import { Field, FieldDescription, FieldGroup, FieldLabel, FieldSet } from '@/components/ui/field'
 import { Input } from '@/components/ui/input'
 import { Separator } from '@/components/ui/separator'
@@ -74,7 +75,10 @@ function clearAll() {
       <CardHeader class="pb-3">
         <div class="flex items-start justify-between gap-3">
           <div class="space-y-1">
-            <CardTitle>{{ t('tools.base-converter.cardInputTitle', 'Number & bases') }}</CardTitle>
+            <CardTitle class="flex items-center gap-2">
+              <ArrowLeftRight class="h-5 w-5 text-primary" />
+              {{ t('tools.base-converter.cardInputTitle', 'Number & bases') }}
+            </CardTitle>
             <CardDescription>
               {{ t('tools.base-converter.cardInputDescription', 'Enter a value, pick input and output bases.') }}
             </CardDescription>
@@ -146,7 +150,10 @@ function clearAll() {
     <Card class="flex h-full flex-col gap-2">
       <CardHeader class="pb-3">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.base-converter.cardOutputTitle', 'Converted values') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <ArrowLeftRight class="h-5 w-5 text-primary" />
+            {{ t('tools.base-converter.cardOutputTitle', 'Converted values') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.base-converter.cardOutputDescription', 'Copy any base instantly.') }}
           </CardDescription>

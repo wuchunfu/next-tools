@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useWindowSize } from '@vueuse/core';
+import { Monitor, Smartphone } from 'lucide-vue-next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useToolI18n } from '@/composable/useToolI18n'
 
@@ -9,6 +10,7 @@ const { t } = useToolI18n();
 const sections = computed(() => [
   {
     name: t('tools.device-information.screen'),
+    icon: Monitor,
     information: [
       {
         label: t('tools.device-information.screenSize'),
@@ -38,6 +40,7 @@ const sections = computed(() => [
   },
   {
     name: t('tools.device-information.device'),
+    icon: Smartphone,
     information: [
       {
         label: t('tools.device-information.vendor'),
@@ -62,9 +65,10 @@ const sections = computed(() => [
 
 <template>
   <div class="space-y-4">
-    <Card v-for="{ name, information } in sections" :key="name" class="shadow-sm">
+    <Card v-for="{ name, icon: IconComponent, information } in sections" :key="name" class="shadow-sm">
       <CardHeader class="pb-3">
-        <CardTitle class="text-lg">
+        <CardTitle class="flex items-center gap-2 text-lg">
+          <component :is="IconComponent" class="h-5 w-5 text-primary" />
           {{ name }}
         </CardTitle>
       </CardHeader>

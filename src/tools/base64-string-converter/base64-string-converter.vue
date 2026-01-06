@@ -4,6 +4,7 @@ import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { FileText } from 'lucide-vue-next'
 import { Field, FieldContent, FieldDescription, FieldGroup, FieldLabel, FieldSet } from '@/components/ui/field'
 import { Separator } from '@/components/ui/separator'
 import { Switch } from '@/components/ui/switch'
@@ -48,7 +49,10 @@ function clearDecode() {
     <Card class="h-full gap-2">
       <CardHeader class="pb-4">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.base64-string-converter.cardEncodeTitle', 'String to Base64') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <FileText class="h-5 w-5 text-primary" />
+            {{ t('tools.base64-string-converter.cardEncodeTitle', 'String to Base64') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.base64-string-converter.cardEncodeDescription', 'Encode any text string into Base64 format.') }}
           </CardDescription>
@@ -121,7 +125,10 @@ function clearDecode() {
     <Card class="h-full gap-2">
       <CardHeader class="pb-4">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.base64-string-converter.cardDecodeTitle', 'Base64 to String') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <FileText class="h-5 w-5 text-primary" />
+            {{ t('tools.base64-string-converter.cardDecodeTitle', 'Base64 to String') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.base64-string-converter.cardDecodeDescription', 'Decode Base64 strings back to their original text.') }}
           </CardDescription>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { ColorObject } from '@/components/color-picker/utils/types';
 import { useStorage } from '@vueuse/core';
-import { Download, Eye, EyeOff, Lock, Palette, Settings2, User, Wifi } from 'lucide-vue-next';
+import { Download, Eye, EyeOff, Lock, Network, Palette, Settings2, User, Wifi } from 'lucide-vue-next';
 
 import ColorPickerWithTabs from '@/components/ColorPickerWithTabs.vue';
 import { Button } from '@/components/ui/button';
@@ -156,7 +156,8 @@ const canGenerate = computed(() => {
               <!-- SSID -->
               <Field orientation="vertical" class="gap-2 mb-4">
                 <div class="flex items-center justify-between">
-                  <FieldLabel class="text-sm">
+                  <FieldLabel class="text-sm flex items-center gap-2">
+                    <Network class="h-3.5 w-3.5 text-muted-foreground" />
                     {{ t('tools.wifi-qrcode-generator.ssidLabel', 'Network Name (SSID)') }}
                   </FieldLabel>
                   <div class="flex items-center gap-2">
@@ -382,7 +383,7 @@ const canGenerate = computed(() => {
 
           <!-- Right: QR Code Preview -->
           <div class="flex flex-col items-center gap-4">
-            <div class="text-sm font-medium text-muted-foreground">
+            <div class="text-sm font-medium text-muted-foreground flex items-center gap-2">
               {{ t('tools.wifi-qrcode-generator.preview', 'Preview') }}
             </div>
             <div class="flex h-54 w-54 items-center justify-center rounded-xl border-2 border-dashed bg-muted/20 transition-all hover:border-primary/50">

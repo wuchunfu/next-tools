@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { X } from 'lucide-vue-next';
+import { User, Key } from 'lucide-vue-next';
 import InputCopyable from '@/components/InputCopyable.vue';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -30,7 +30,10 @@ function clearInput() {
     <Card class="flex flex-col">
       <CardHeader class="pb-3">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.basic-auth-generator.inputTitle', 'Credentials') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <User class="h-5 w-5 text-primary" />
+            {{ t('tools.basic-auth-generator.inputTitle', 'Credentials') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.basic-auth-generator.inputDescription', 'Enter your username and password to generate a Basic Authentication header.') }}
           </CardDescription>
@@ -81,7 +84,10 @@ function clearInput() {
     <Card class="flex flex-col">
       <CardHeader class="pb-3">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.basic-auth-generator.outputTitle', 'Authorization Header') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Key class="h-5 w-5 text-primary" />
+            {{ t('tools.basic-auth-generator.outputTitle', 'Authorization Header') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.basic-auth-generator.outputDescription', 'The generated Basic Authentication header ready to use in your HTTP requests.') }}
           </CardDescription>

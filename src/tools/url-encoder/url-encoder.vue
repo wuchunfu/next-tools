@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { X } from 'lucide-vue-next'
+import { Link, ArrowUpDown } from 'lucide-vue-next'
 import InputCopyable from '@/components/InputCopyable.vue'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -56,7 +56,10 @@ function clearDecode() {
     <Card class="flex flex-col">
       <CardHeader class="pb-3">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.url-encoder.cardEncodeTitle', 'URL Encode') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <ArrowUpDown class="h-5 w-5 text-primary" />
+            {{ t('tools.url-encoder.cardEncodeTitle', 'URL Encode') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.url-encoder.cardEncodeDescription', 'Encode text to URL-encoded format (also known as "percent-encoded").') }}
           </CardDescription>
@@ -109,7 +112,10 @@ function clearDecode() {
     <Card class="flex flex-col">
       <CardHeader class="pb-3">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.url-encoder.cardDecodeTitle', 'URL Decode') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Link class="h-5 w-5 text-primary" />
+            {{ t('tools.url-encoder.cardDecodeTitle', 'URL Decode') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.url-encoder.cardDecodeDescription', 'Decode URL-encoded strings back to their original text.') }}
           </CardDescription>

@@ -17,6 +17,7 @@ import InputCopyable from '@/components/InputCopyable.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { CalendarClock } from 'lucide-vue-next';
 import { Field, FieldDescription, FieldGroup, FieldLabel, FieldSet, FieldTitle } from '@/components/ui/field';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -249,7 +250,10 @@ function clearInput() {
     <Card class="h-full gap-2">
       <CardHeader class="pb-4">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.date-converter.cardInputTitle', 'Date input & format') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <CalendarClock class="h-5 w-5 text-primary" />
+            {{ t('tools.date-converter.cardInputTitle', 'Date input & format') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.date-converter.cardInputDescription', 'Paste or type a date string, we will auto-detect the format for you.') }}
           </CardDescription>
@@ -321,7 +325,10 @@ function clearInput() {
     <Card class="flex h-full flex-col gap-2">
       <CardHeader class="pb-4">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.date-converter.cardOutputTitle', 'Converted results') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <CalendarClock class="h-5 w-5 text-primary" />
+            {{ t('tools.date-converter.cardOutputTitle', 'Converted results') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.date-converter.cardOutputDescription', 'Copy any format instantly. All outputs stay in sync.') }}
           </CardDescription>

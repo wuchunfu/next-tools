@@ -29,7 +29,7 @@ const rawYamlValidation = useValidation({
   rules: computed(() => [
     {
       validator: (v: string) => v === '' || yaml.parse(v),
-      message: t('tools.yaml-viewer.invalid', 'Invalid YAML'),
+      message: t('tools.yaml-prettify.invalid', 'Invalid YAML'),
     },
   ]),
 })
@@ -47,12 +47,12 @@ function clearInput() {
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Settings class="h-5 w-5 text-primary" />
-            {{ t('tools.yaml-viewer.cardOptionsTitle', 'Formatting options') }}
+            {{ t('tools.yaml-prettify.cardOptionsTitle', 'Formatting options') }}
           </CardTitle>
           <CardDescription>
             {{
               t(
-                'tools.yaml-viewer.cardOptionsDescription',
+                'tools.yaml-prettify.cardOptionsDescription',
                 'Tune indentation and key sorting behavior to match your preferred YAML style.',
               )
             }}
@@ -64,12 +64,12 @@ function clearInput() {
           <div class="flex items-center justify-between rounded-lg border p-3">
             <div class="space-y-0.5">
               <p class="text-sm font-medium">
-                {{ t('tools.yaml-viewer.sortKeys', 'Sort keys') }}
+                {{ t('tools.yaml-prettify.sortKeys', 'Sort keys') }}
               </p>
               <p class="text-xs text-muted-foreground">
                 {{
                   t(
-                    'tools.yaml-viewer.sortKeysHelp',
+                    'tools.yaml-prettify.sortKeysHelp',
                     'Sort object keys alphabetically for a more stable and readable output.',
                   )
                 }}
@@ -81,12 +81,12 @@ function clearInput() {
           <div class="flex items-center justify-between rounded-lg border p-3">
             <div class="space-y-0.5">
               <p class="text-sm font-medium">
-                {{ t('tools.yaml-viewer.indent', 'Indent size') }}
+                {{ t('tools.yaml-prettify.indent', 'Indent size') }}
               </p>
               <p class="text-xs text-muted-foreground">
                 {{
                   t(
-                    'tools.yaml-viewer.indentHint',
+                    'tools.yaml-prettify.indentHint',
                     'Number of spaces to use for indentation (1–10).',
                   )
                 }}
@@ -111,12 +111,12 @@ function clearInput() {
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <CodeXml class="h-5 w-5 text-primary" />
-            {{ t('tools.yaml-viewer.cardInputTitle', 'YAML input') }}
+            {{ t('tools.yaml-prettify.cardInputTitle', 'YAML input') }}
           </CardTitle>
           <CardDescription>
             {{
               t(
-                'tools.yaml-viewer.cardInputDescription',
+                'tools.yaml-prettify.cardInputDescription',
                 'Paste your YAML below. We will validate it and generate a formatted version.',
               )
             }}
@@ -131,7 +131,7 @@ function clearInput() {
                 id="yaml-input"
                 ref="inputElement"
                 v-model="rawYaml"
-                :placeholder="t('tools.yaml-viewer.inputPlaceholder', 'Paste your YAML here...')"
+                :placeholder="t('tools.yaml-prettify.inputPlaceholder', 'Paste your YAML here...')"
                 rows="16"
                 class="max-h-96 resize-y overflow-y-auto font-mono"
                 autocomplete="off"
@@ -151,7 +151,7 @@ function clearInput() {
                 class="border-destructive/40 bg-destructive/10"
               >
                 <AlertTitle class="text-sm">
-                  {{ t('tools.yaml-viewer.invalidYamlTitle', 'Invalid YAML') || t('tools.yaml-viewer.invalid', 'Invalid YAML') }}
+                  {{ t('tools.yaml-prettify.invalidYamlTitle', 'Invalid YAML') || t('tools.yaml-prettify.invalid', 'Invalid YAML') }}
                 </AlertTitle>
                 <AlertDescription class="text-xs">
                   {{ rawYamlValidation.message }}
@@ -169,12 +169,12 @@ function clearInput() {
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <CodeXml class="h-5 w-5 text-primary" />
-            {{ t('tools.yaml-viewer.cardOutputTitle', 'Formatted YAML') }}
+            {{ t('tools.yaml-prettify.cardOutputTitle', 'Formatted YAML') }}
           </CardTitle>
           <CardDescription>
             {{
               t(
-                'tools.yaml-viewer.cardOutputDescription',
+                'tools.yaml-prettify.cardOutputDescription',
                 'Review and copy the formatted YAML output.',
               )
             }}

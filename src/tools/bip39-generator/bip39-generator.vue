@@ -14,7 +14,7 @@ import {
   portugueseWordList,
   spanishWordList,
 } from '@it-tools/bip39'
-import { Copy, RefreshCw } from 'lucide-vue-next'
+import { Copy, Languages, Dices, Key, RefreshCw } from 'lucide-vue-next'
 
 import InputCopyable from '@/components/InputCopyable.vue';
 import { Alert, AlertTitle } from '@/components/ui/alert';
@@ -130,7 +130,10 @@ const getLanguageKey = (lang: string) => lang.replace(/\s+/g, '-').toLowerCase()
   <div class="flex flex-col gap-6">
     <Card>
       <CardHeader>
-        <CardTitle>{{ t('tools.bip39-generator.cardLanguageTitle') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <Languages class="h-5 w-5 text-primary" />
+          {{ t('tools.bip39-generator.cardLanguageTitle') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="space-y-6 px-6">
         <FieldSet>
@@ -163,7 +166,10 @@ const getLanguageKey = (lang: string) => lang.replace(/\s+/g, '-').toLowerCase()
       <!-- Entropy Section -->
       <Card>
         <CardHeader>
-          <CardTitle>{{ t('tools.bip39-generator.cardEntropyTitle') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Dices class="h-5 w-5 text-primary" />
+            {{ t('tools.bip39-generator.cardEntropyTitle') }}
+          </CardTitle>
         </CardHeader>
         <CardContent class="space-y-6">
           <FieldGroup>
@@ -205,7 +211,10 @@ const getLanguageKey = (lang: string) => lang.replace(/\s+/g, '-').toLowerCase()
       <!-- Passphrase Section -->
       <Card>
         <CardHeader>
-          <CardTitle>{{ t('tools.bip39-generator.cardPassphraseTitle') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Key class="h-5 w-5 text-primary" />
+            {{ t('tools.bip39-generator.cardPassphraseTitle') }}
+          </CardTitle>
         </CardHeader>
         <CardContent class="space-y-6">
           <FieldGroup>

@@ -3,6 +3,7 @@ import InputCopyable from '@/components/InputCopyable.vue'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Sigma } from 'lucide-vue-next'
 import { Field, FieldDescription, FieldGroup, FieldLabel } from '@/components/ui/field'
 import { Input } from '@/components/ui/input'
 import { Separator } from '@/components/ui/separator'
@@ -63,7 +64,10 @@ const validationRoman = useValidation({
     <Card class="h-full gap-2">
       <CardHeader class="pb-4">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.roman-numeral-converter.cardArabicTitle', 'Arabic to Roman') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Sigma class="h-5 w-5 text-primary" />
+            {{ t('tools.roman-numeral-converter.cardArabicTitle', 'Arabic to Roman') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.roman-numeral-converter.cardArabicDescription', 'Convert Arabic numbers to classic Roman numerals.') }}
           </CardDescription>
@@ -127,7 +131,10 @@ const validationRoman = useValidation({
     <Card class="h-full gap-2">
       <CardHeader class="pb-4">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.roman-numeral-converter.cardRomanTitle', 'Roman to Arabic') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Sigma class="h-5 w-5 text-primary" />
+            {{ t('tools.roman-numeral-converter.cardRomanTitle', 'Roman to Arabic') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.roman-numeral-converter.cardRomanDescription', 'Validate and convert Roman numerals back to Arabic numbers.') }}
           </CardDescription>

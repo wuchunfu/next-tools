@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Group, Scope } from './chmod-calculator.types'
-import { Shield } from 'lucide-vue-next'
+import { Shield, Code } from 'lucide-vue-next'
 import InputCopyable from '@/components/InputCopyable.vue'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Checkbox } from '@/components/ui/checkbox'
@@ -79,7 +79,10 @@ const symbolic = computed(() => computeChmodSymbolicRepresentation({ permissions
     <Card>
       <CardHeader>
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.chmod-calculator.resultsTitle', 'Results') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Code class="h-5 w-5 text-primary" />
+            {{ t('tools.chmod-calculator.resultsTitle', 'Results') }}
+</CardTitle>
           <CardDescription>
             {{ t('tools.chmod-calculator.resultsDescription', 'Octal and symbolic representations of the selected permissions.') }}
           </CardDescription>

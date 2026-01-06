@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { times } from 'lodash-es'
-import { Copy, RefreshCw } from 'lucide-vue-next'
+import { Copy, Settings, Barcode, RefreshCw } from 'lucide-vue-next'
 import { ulid } from 'ulid'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -52,7 +52,10 @@ const { copy } = useCopy({ source: ulids });
     <!-- Configuration Section -->
     <Card>
       <CardHeader>
-        <CardTitle>{{ t('tools.ulid-generator.cardConfigTitle') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <Settings class="h-5 w-5 text-primary" />
+          {{ t('tools.ulid-generator.cardConfigTitle') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="space-y-6">
         <FieldGroup>
@@ -121,7 +124,10 @@ const { copy } = useCopy({ source: ulids });
     <!-- Output Section -->
     <Card data-test-id="ulids" class="flex flex-col">
       <CardHeader>
-        <CardTitle>{{ t('tools.ulid-generator.cardOutputTitle') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <Barcode class="h-5 w-5 text-primary" />
+          {{ t('tools.ulid-generator.cardOutputTitle') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="flex flex-1 flex-col gap-4">
         <Textarea :model-value="ulids" readonly rows="8" class="m-0 whitespace-pre font-mono text-sm leading-relaxed w-full max-h-90.75 resize-none pt-1" />

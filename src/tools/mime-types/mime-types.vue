@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useElementSize } from '@vueuse/core';
-import { CheckIcon, ChevronsUpDownIcon } from 'lucide-vue-next';
+import { CheckIcon, FileType, ChevronsUpDownIcon } from 'lucide-vue-next';
 import { types as extensionToMimeType, extensions as mimeTypeToExtension } from 'mime-types';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -76,7 +76,10 @@ function clearExtensionSelection() {
     <div class="grid gap-6 lg:grid-cols-2">
       <Card>
         <CardHeader>
-          <CardTitle>{{ t('tools.mime-types.mimeToExt.title') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <FileType class="h-5 w-5 text-primary" />
+            {{ t('tools.mime-types.mimeToExt.title') }}
+          </CardTitle>
           <CardDescription>{{ t('tools.mime-types.mimeToExt.subtitle') }}</CardDescription>
         </CardHeader>
         <CardContent class="space-y-4">
@@ -157,7 +160,10 @@ function clearExtensionSelection() {
 
       <Card>
         <CardHeader>
-          <CardTitle>{{ t('tools.mime-types.extToMime.title') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <FileType class="h-5 w-5 text-primary" />
+            {{ t('tools.mime-types.extToMime.title') }}
+          </CardTitle>
           <CardDescription>{{ t('tools.mime-types.extToMime.subtitle') }}</CardDescription>
         </CardHeader>
         <CardContent class="space-y-4">
@@ -241,7 +247,10 @@ function clearExtensionSelection() {
       <CardHeader class="space-y-3">
         <div class="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
           <div class="space-y-1">
-            <CardTitle>{{ t('tools.mime-types.tableTitle', 'All MIME Types') }}</CardTitle>
+            <CardTitle class="flex items-center gap-2">
+              <FileType class="h-5 w-5 text-primary" />
+              {{ t('tools.mime-types.tableTitle', 'All MIME Types') }}
+            </CardTitle>
             <CardDescription>
               {{ t('tools.mime-types.tableSubtitle', 'Browse the complete list of MIME types and their extensions.') }}
             </CardDescription>

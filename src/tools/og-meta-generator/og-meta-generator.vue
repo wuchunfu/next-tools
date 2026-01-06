@@ -2,7 +2,7 @@
 import type { OGSchemaType, OGSchemaTypeElementSelect } from './OGSchemaType.type';
 import { generateMeta } from '@it-tools/oggen';
 import { mapKeys, pickBy } from 'lodash-es';
-import { Plus, X } from 'lucide-vue-next';
+import { Form, Code, Plus, X } from 'lucide-vue-next';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -124,7 +124,10 @@ function clearAll() {
     <Card>
       <CardHeader>
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.og-meta-generator.cardTitle', 'Meta Tag Generator') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Form class="h-5 w-5 text-primary" />
+            {{ t('tools.og-meta-generator.cardTitle', 'Meta Tag Generator') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.og-meta-generator.cardDescription', 'Generate Open Graph and Twitter meta tags for your website. Fill in the information below to create your meta tags.') }}
           </CardDescription>
@@ -256,7 +259,10 @@ function clearAll() {
     <Card>
       <CardHeader>
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.og-meta-generator.outputTitle', 'Generated Meta Tags') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Code class="h-5 w-5 text-primary" />
+            {{ t('tools.og-meta-generator.outputTitle', 'Generated Meta Tags') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.og-meta-generator.outputDescription', 'Copy the generated meta tags and paste them into the <head> section of your HTML.') }}
           </CardDescription>

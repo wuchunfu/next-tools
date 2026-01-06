@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useStorage } from '@vueuse/core';
 import { times } from 'lodash-es';
-import { Network, RefreshCw } from 'lucide-vue-next';
+import { Settings, RefreshCw, List } from 'lucide-vue-next';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
@@ -93,7 +93,7 @@ const showResult = computed(() => prefixValidation.isValid && macAddresses.value
       <CardHeader class="pb-4">
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
-            <Network class="h-5 w-5 text-primary" />
+            <Settings class="h-5 w-5 text-primary" />
             {{ t('tools.mac-address-generator.cardOptionsTitle', 'Generation options') }}
           </CardTitle>
           <CardDescription>
@@ -223,7 +223,7 @@ const showResult = computed(() => prefixValidation.isValid && macAddresses.value
       <CardHeader class="pb-4">
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
-            <Network class="h-5 w-5 text-primary" />
+            <List class="h-5 w-5 text-primary" />
             {{ t('tools.mac-address-generator.cardResultsTitle', 'Generated MAC addresses') }}
           </CardTitle>
           <CardDescription>

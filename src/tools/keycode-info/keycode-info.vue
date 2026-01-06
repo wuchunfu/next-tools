@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useEventListener } from '@vueuse/core'
-import { Keyboard } from 'lucide-vue-next'
+import { Keyboard, Info } from 'lucide-vue-next'
 import InputCopyable from '@/components/InputCopyable.vue'
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -161,7 +161,8 @@ const fields = computed(() => {
     <!-- Details Card -->
     <Card v-if="event">
       <CardHeader>
-        <CardTitle class="text-lg">
+        <CardTitle class="flex items-center gap-2">
+          <Info class="h-5 w-5 text-primary" />
           {{ t('tools.keycode-info.detailsTitle', 'Key Details') }}
         </CardTitle>
         <CardDescription>

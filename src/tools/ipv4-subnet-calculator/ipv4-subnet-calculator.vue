@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ChevronLeft, ChevronRight, Network } from 'lucide-vue-next';
+import { ChevronLeft, ChevronRight, Network, Table2 } from 'lucide-vue-next';
 
 import { Netmask } from 'netmask';
 import CopyableCell from '@/components/CopyableCell.vue';
@@ -171,7 +171,7 @@ const canGoNext = computed(() => {
       <CardHeader class="pb-4">
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
-            <Network class="h-5 w-5 text-primary" />
+            <Table2 class="h-5 w-5 text-primary" />
             {{ t('tools.ipv4-subnet-calculator.cardResultsTitle', 'Subnet information') }}
           </CardTitle>
           <CardDescription>

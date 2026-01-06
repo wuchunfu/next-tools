@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ArrowLeftRight, Network, X } from 'lucide-vue-next';
+import { ArrowLeftRight, Network, X, Expand } from 'lucide-vue-next';
 import CopyableCell from '@/components/CopyableCell.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
@@ -204,7 +204,7 @@ function clearInput() {
       <CardHeader class="pb-4">
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
-            <Network class="h-5 w-5 text-primary" />
+            <Expand class="h-5 w-5 text-primary" />
             {{ t('tools.ipv4-range-expander.cardResultsTitle', 'Range expansion results') }}
           </CardTitle>
           <CardDescription>

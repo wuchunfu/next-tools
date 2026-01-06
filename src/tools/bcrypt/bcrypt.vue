@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useStorage } from '@vueuse/core';
 import { compareSync, hashSync } from 'bcryptjs';
-import { CheckCircle2, XCircle } from 'lucide-vue-next';
+import { CheckCircle2, Lock, XCircle } from 'lucide-vue-next';
 import InputCopyable from '@/components/InputCopyable.vue';
 import { Alert, AlertTitle } from '@/components/ui/alert';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -46,7 +46,10 @@ const compareMatch = computed(() => {
     <!-- Hash Section -->
     <Card>
       <CardHeader>
-        <CardTitle>{{ t('tools.bcrypt.hash') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <Lock class="h-5 w-5 text-primary" />
+          {{ t('tools.bcrypt.hash') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="space-y-6">
         <FieldGroup>
@@ -116,7 +119,10 @@ const compareMatch = computed(() => {
     <!-- Compare Section -->
     <Card>
       <CardHeader>
-        <CardTitle>{{ t('tools.bcrypt.compareStringWithHash') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <CheckCircle2 class="h-5 w-5 text-primary" />
+          {{ t('tools.bcrypt.compareStringWithHash') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="space-y-6">
         <FieldGroup>

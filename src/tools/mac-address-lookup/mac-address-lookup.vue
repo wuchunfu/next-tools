@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Network, X } from 'lucide-vue-next';
+import { Network, X, Info } from 'lucide-vue-next';
 import db from 'oui-data';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
@@ -103,7 +103,7 @@ function clearInput() {
       <CardHeader class="pb-4">
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
-            <Network class="h-5 w-5 text-primary" />
+            <Info class="h-5 w-5 text-primary" />
             {{ t('tools.mac-address-lookup.cardResultsTitle', 'Vendor information') }}
           </CardTitle>
           <CardDescription>
@@ -125,7 +125,7 @@ function clearInput() {
       <CardHeader class="pb-4">
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
-            <Network class="h-5 w-5 text-primary" />
+            <Info class="h-5 w-5 text-primary" />
             {{ t('tools.mac-address-lookup.cardResultsTitle', 'Vendor information') }}
           </CardTitle>
           <CardDescription>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { lib } from 'crypto-js';
 import { enc, MD5, RIPEMD160, SHA1, SHA3, SHA224, SHA256, SHA384, SHA512 } from 'crypto-js';
-import { Hash } from 'lucide-vue-next';
+import { Hash, FileText } from 'lucide-vue-next';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import {
@@ -56,7 +56,10 @@ const hasInput = computed(() => clearText.value.trim().length > 0);
   <div class="flex flex-col gap-6">
     <Card>
       <CardHeader>
-        <CardTitle>{{ t('tools.hash-text.cardInputTitle') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <FileText class="h-5 w-5 text-primary" />
+          {{ t('tools.hash-text.cardInputTitle') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="space-y-6 px-6">
         <FieldGroup>
@@ -138,7 +141,10 @@ const hasInput = computed(() => clearText.value.trim().length > 0);
 
     <Card v-if="hasInput">
       <CardHeader>
-        <CardTitle>{{ t('tools.hash-text.cardOutputTitle') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <Hash class="h-5 w-5 text-primary" />
+          {{ t('tools.hash-text.cardOutputTitle') }}
+        </CardTitle>
       </CardHeader>
       <CardContent>
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">

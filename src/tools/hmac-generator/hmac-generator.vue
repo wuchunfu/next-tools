@@ -12,6 +12,7 @@ import {
   HmacSHA384,
   HmacSHA512,
 } from 'crypto-js'
+import { Lock, ShieldCheck } from 'lucide-vue-next'
 import { computed, ref } from 'vue'
 
 import InputCopyable from '@/components/InputCopyable.vue'
@@ -71,7 +72,10 @@ const outputLength = computed(() => hmac.value.length);
     <!-- Input Section -->
     <Card>
       <CardHeader>
-        <CardTitle>{{ t('tools.hmac-generator.cardInputTitle') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <Lock class="h-5 w-5 text-primary" />
+          {{ t('tools.hmac-generator.cardInputTitle') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="space-y-6">
         <FieldGroup>
@@ -168,7 +172,10 @@ const outputLength = computed(() => hmac.value.length);
     <!-- Output Section -->
     <Card>
       <CardHeader>
-        <CardTitle>{{ t('tools.hmac-generator.cardOutputTitle') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <ShieldCheck class="h-5 w-5 text-primary" />
+          {{ t('tools.hmac-generator.cardOutputTitle') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="flex flex-1 flex-col gap-4 overflow-hidden">
         <div class="flex flex-wrap items-center gap-2">

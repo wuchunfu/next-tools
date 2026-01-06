@@ -87,7 +87,7 @@ function resetAll() {
     <Card v-if="records.length">
       <CardHeader class="pb-2">
         <div class="flex items-center justify-between w-full">
-          <CardTitle class="flex items-center gap-2 text-sm">
+          <CardTitle class="flex items-center gap-2">
             <Flag class="h-4 w-4 text-primary" />
             {{ t('tools.chronometer.records.title', 'Records') }}
           </CardTitle>

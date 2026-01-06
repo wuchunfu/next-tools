@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { SHA1 } from 'crypto-js'
-import { Info, Network, X } from 'lucide-vue-next';
+import { Info, Network, X, Globe } from 'lucide-vue-next';
 import InputCopyable from '@/components/InputCopyable.vue';
 
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
@@ -132,7 +132,7 @@ function clearInput() {
       <CardHeader class="pb-4">
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
-            <Network class="h-5 w-5 text-primary" />
+            <Globe class="h-5 w-5 text-primary" />
             {{ t('tools.ipv6-ula-generator.cardResultsTitle', 'Generated IPv6 ULA prefixes') }}
           </CardTitle>
           <CardDescription>

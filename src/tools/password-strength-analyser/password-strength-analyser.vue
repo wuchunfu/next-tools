@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Shield } from 'lucide-vue-next';
+import { BarChart3, Shield } from 'lucide-vue-next';
 import { computed, ref } from 'vue';
 
 import { Badge } from '@/components/ui/badge'
@@ -83,7 +83,10 @@ const details = computed(() => [
     <!-- Result -->
     <Card class="flex flex-col">
       <CardHeader class="pb-3">
-        <CardTitle>{{ t('tools.password-strength-analyser.cardResultTitle', 'Crack time estimation') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <BarChart3 class="h-5 w-5 text-primary" />
+          {{ t('tools.password-strength-analyser.cardResultTitle', 'Crack time estimation') }}
+        </CardTitle>
       </CardHeader>
       <CardContent class="flex flex-1 flex-col gap-4">
         <div class="flex flex-col items-center justify-center rounded-lg border bg-muted/40 px-4 py-6 text-center">

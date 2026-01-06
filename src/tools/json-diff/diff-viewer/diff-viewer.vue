@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { isEqual, isUndefined } from 'lodash-es';
-import { CircleCheck } from 'lucide-vue-next'
+import { CircleCheck, Diff } from 'lucide-vue-next'
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { FieldLabel } from '@/components/ui/field'
@@ -154,7 +154,10 @@ const diffViewerClasses = computed(() => {
   <Card v-if="showResults" data-test-id="diff-result">
     <CardHeader>
       <div class="space-y-1">
-        <CardTitle>{{ t('tools.json-diff.resultsTitle', 'Comparison Results') }}</CardTitle>
+        <CardTitle class="flex items-center gap-2">
+          <Diff class="h-5 w-5 text-primary" />
+          {{ t('tools.json-diff.resultsTitle', 'Comparison Results') }}
+        </CardTitle>
         <CardDescription>
           {{ t('tools.json-diff.resultsDescription', 'Differences are highlighted in green (added) and red (removed).') }}
         </CardDescription>

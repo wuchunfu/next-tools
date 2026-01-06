@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Ref } from 'vue';
 import { useBase64 } from '@vueuse/core';
-import { Download, File, Image as ImageIcon, Upload } from 'lucide-vue-next';
+import { Download, File, FileUp, Image as ImageIcon, Upload } from 'lucide-vue-next';
 import InputCopyable from '@/components/InputCopyable.vue';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -162,7 +162,10 @@ const fileBase64Length = computed(() => fileBase64.value?.length ?? 0)
     <Card class="h-full min-w-0 gap-2">
       <CardHeader class="pb-4">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.base64-file-converter.cardDecodeTitle', 'Base64 to File') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <FileUp class="h-5 w-5 text-primary" />
+            {{ t('tools.base64-file-converter.cardDecodeTitle', 'Base64 to File') }}
+          </CardTitle>
           <CardDescription>
             {{
               t(
@@ -266,7 +269,10 @@ const fileBase64Length = computed(() => fileBase64.value?.length ?? 0)
     <Card class="h-full min-w-0 gap-2">
       <CardHeader class="pb-4">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.base64-file-converter.cardEncodeTitle', 'File to Base64') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Upload class="h-5 w-5 text-primary" />
+            {{ t('tools.base64-file-converter.cardEncodeTitle', 'File to Base64') }}
+          </CardTitle>
           <CardDescription>
             {{
               t('tools.base64-file-converter.cardEncodeDescription', 'Upload files and convert them to Base64 format.')

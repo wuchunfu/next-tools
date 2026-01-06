@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { escape, unescape } from 'lodash-es';
-import { X } from 'lucide-vue-next'
+import { Code, X } from 'lucide-vue-next'
 import InputCopyable from '@/components/InputCopyable.vue'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -32,7 +32,10 @@ function clearUnescape() {
     <Card class="flex flex-col">
       <CardHeader class="pb-3">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.html-entities.cardEscapeTitle', 'Escape HTML Entities') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Code class="h-5 w-5 text-primary" />
+            {{ t('tools.html-entities.cardEscapeTitle', 'Escape HTML Entities') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.html-entities.cardEscapeDescription', 'Escape HTML entities (replace characters like <, >, &, " and \' with their HTML version).') }}
           </CardDescription>
@@ -81,7 +84,10 @@ function clearUnescape() {
     <Card class="flex flex-col">
       <CardHeader class="pb-3">
         <div class="space-y-1">
-          <CardTitle>{{ t('tools.html-entities.cardUnescapeTitle', 'Unescape HTML Entities') }}</CardTitle>
+          <CardTitle class="flex items-center gap-2">
+            <Code class="h-5 w-5 text-primary" />
+            {{ t('tools.html-entities.cardUnescapeTitle', 'Unescape HTML Entities') }}
+          </CardTitle>
           <CardDescription>
             {{ t('tools.html-entities.cardUnescapeDescription', 'Unescape HTML entities (convert HTML entities back to their original characters).') }}
           </CardDescription>
