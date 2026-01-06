@@ -1,4 +1,4 @@
-import { chain, take } from 'lodash-es'
+import { groupBy, mapValues, take } from 'lodash-es'
 import { defineStore } from 'pinia'
 import { useI18n } from 'vue-i18n'
 import { Bug, Github, Info, Sun, Moon } from 'lucide-vue-next'
@@ -98,8 +98,10 @@ export const useCommandPaletteStore = defineStore('command-palette', () => {
     },
   });
 
-  const filteredSearchResult = computed(() =>
-    chain(searchResult.value).groupBy('category').mapValues(categoryOptions => take(categoryOptions, 5)).value());
+  const filteredSearchResult = computed(() => {
+    const grouped = groupBy(searchResult.value, 'category');
+    return mapValues(grouped, categoryOptions => take(categoryOptions, 5));
+  });
 
   return {
     filteredSearchResult,

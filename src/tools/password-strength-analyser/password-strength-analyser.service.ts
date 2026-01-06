@@ -1,4 +1,4 @@
-import { chain, identity } from 'lodash-es';
+import { compact, identity } from 'lodash-es';
 
 function prettifyExponentialNotation(exponentialNotation: number) {
   const parts = exponentialNotation.toString().split('e');
@@ -103,25 +103,22 @@ function getHumanFriendlyDuration({
   ];
 
   let remainingSeconds = seconds;
-  return chain(timeUnits)
-    .map(({ unit, secondsInUnit, plural, format = identity, translationKey, translationKeyPlural }) => {
-      const quantity = Math.floor(remainingSeconds / secondsInUnit);
-      remainingSeconds %= secondsInUnit;
+  const mapped = timeUnits.map(({ unit, secondsInUnit, plural, format = identity, translationKey, translationKeyPlural }) => {
+    const quantity = Math.floor(remainingSeconds / secondsInUnit);
+    remainingSeconds %= secondsInUnit;
 
-      if (quantity <= 0) {
-        return undefined;
-      }
+    if (quantity <= 0) {
+      return undefined;
+    }
 
-      const formattedQuantity = format(quantity);
-      const unitKey = quantity > 1 ? translationKeyPlural : translationKey;
-      const defaultUnitText = quantity > 1 ? plural : unit;
-      const unitText = translate(unitKey, defaultUnitText);
-      return `${formattedQuantity} ${unitText}`;
-    })
-    .compact()
-    .take(2)
-    .join(', ')
-    .value();
+    const formattedQuantity = format(quantity);
+    const unitKey = quantity > 1 ? translationKeyPlural : translationKey;
+    const defaultUnitText = quantity > 1 ? plural : unit;
+    const unitText = translate(unitKey, defaultUnitText);
+    return `${formattedQuantity} ${unitText}`;
+  });
+
+  return compact(mapped).slice(0, 2).join(', ');
 }
 
 export function getPasswordCrackTimeEstimation({

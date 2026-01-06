@@ -1,4 +1,4 @@
-import { chain } from 'lodash-es'
+import { chunk } from 'lodash-es'
 
 function ipv4ToInt({ ip }: { ip: string }) {
   if (!isValidIpv4({ ip })) {
@@ -16,17 +16,15 @@ function ipv4ToIpv6({ ip, prefix = '0000:0000:0000:0000:0000:ffff:' }: { ip: str
     return ''
   }
 
-  return (
-    prefix
-    + chain(ip)
-      .trim()
-      .split('.')
-      .map(part => Number.parseInt(part).toString(16).padStart(2, '0'))
-      .chunk(2)
-      .map(blocks => blocks.join(''))
-      .join(':')
-      .value()
-  )
+  const parts = ip
+    .trim()
+    .split('.')
+    .map(part => Number.parseInt(part).toString(16).padStart(2, '0'));
+
+  const chunks = chunk(parts, 2);
+  const hexBlocks = chunks.map(blocks => blocks.join(''));
+
+  return prefix + hexBlocks.join(':');
 }
 
 function isValidIpv4({ ip }: { ip: string }) {

@@ -1,7 +1,7 @@
 import type { MaybeRef, Ref } from 'vue';
 import type { Tool, ToolCategory, ToolWithCategory } from './tools.types';
 import { get, useStorage } from '@vueuse/core';
-import { chain, uniq } from 'lodash-es';
+import { groupBy, uniq } from 'lodash-es';
 import { defineStore } from 'pinia';
 import { toolsWithCategory } from './index'
 
@@ -21,14 +21,12 @@ export const useToolStore = defineStore('tools', () => {
   }))
 
   const toolsByCategory = computed<ToolCategory[]>(() => {
-    return chain(tools.value)
-      .groupBy('category')
-      .map((components, name, path) => ({
-        name,
-        path,
-        components,
-      }))
-      .value()
+    const grouped = groupBy(tools.value, 'category');
+    return Object.entries(grouped).map(([name, components]) => ({
+      name,
+      path: name,
+      components,
+    }));
   });
 
   const favoriteTools = computed(() => {

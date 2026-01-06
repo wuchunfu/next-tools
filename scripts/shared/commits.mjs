@@ -1,5 +1,5 @@
 import pkg from 'lodash';
-const { chain, capitalize } = pkg;
+const { capitalize, groupBy, sortBy } = pkg;
 
 export { rawCommitsToMarkdown };
 
@@ -42,23 +42,19 @@ function commitSectionsToMarkdown({ type, commits }) {
 }
 
 function rawCommitsToMarkdown({ rawCommits }) {
-  const commits = chain(rawCommits)
-    .trim()
-    .split('\n')
-    .filter(line => line.trim()) // Filter out empty lines
-    .map(parseCommitLine)
-    .value();
+  const trimmedCommits = rawCommits.trim();
+  const lines = trimmedCommits.split('\n').filter(line => line.trim());
+  const commits = lines.map(parseCommitLine);
 
   // If no valid commits, return empty string
   if (!commits.length) {
     return '';
   }
 
-  return chain(commits)
-    .groupBy('type')
-    .map((commits, type) => ({ type, commits }))
-    .sortBy(({ type }) => getCommitTypeSortIndex(type))
-    .map(commitSectionsToMarkdown)
-    .join('\n\n')
-    .value();
+  const grouped = groupBy(commits, 'type');
+  const sections = Object.entries(grouped).map(([type, commits]) => ({ type, commits }));
+  const sorted = sortBy(sections, ({ type }) => getCommitTypeSortIndex(type));
+  const markdown = sorted.map(commitSectionsToMarkdown);
+
+  return markdown.join('\n\n');
 }

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { OGSchemaType, OGSchemaTypeElementSelect } from './OGSchemaType.type';
 import { generateMeta } from '@it-tools/oggen';
-import { chain, pickBy } from 'lodash-es';
+import { mapKeys, pickBy } from 'lodash-es';
 import { Plus, X } from 'lucide-vue-next';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Button } from '@/components/ui/button';
@@ -82,10 +82,8 @@ function getSelectLabel(value: string, options: any[]): string {
 }
 
 const metaTags = computed(() => {
-  const twitterMeta = chain(metadata.value)
-    .pickBy((_value, k) => k.startsWith('twitter:'))
-    .mapKeys((_value, k) => k.replace(/^twitter:/, ''))
-    .value()
+  const twitterMetaWithPrefix = pickBy(metadata.value, (_value, k) => k.startsWith('twitter:'));
+  const twitterMeta = mapKeys(twitterMetaWithPrefix, (_value, k) => k.replace(/^twitter:/, ''));
 
   const otherMeta = pickBy(metadata.value, (_value, k) => !k.startsWith('twitter:'))
 

@@ -1,5 +1,5 @@
 import type { ConvertOptions } from './list-converter.types'
-import { chain, isNull, reverse, trim, uniq } from 'lodash-es'
+import { isNull, reverse, trim, uniq, without } from 'lodash-es'
 import { byOrder } from '@/utils/array';
 
 function whenever<T, R>(condition: boolean, fn: (value: T) => R) {
@@ -10,16 +10,43 @@ function whenever<T, R>(condition: boolean, fn: (value: T) => R) {
 export function convert(list: string, options: ConvertOptions): string {
   const lineBreak = options.keepLineBreaks ? '\n' : '';
 
-  return chain(list)
-    .thru(whenever(options.lowerCase, text => text.toLowerCase()))
-    .split('\n')
-    .thru(whenever(options.removeDuplicates, uniq))
-    .thru(whenever(options.reverseList, reverse))
-    .thru(whenever(!isNull(options.sortList), parts => parts.sort(byOrder({ order: options.sortList }))))
-    .map(whenever(options.trimItems, trim))
-    .without('')
-    .map(p => options.itemPrefix + p + options.itemSuffix)
-    .join(options.separator + lineBreak)
-    .thru(text => [options.listPrefix, text, options.listSuffix].join(lineBreak))
-    .value();
+  let text = list;
+
+  // Apply lowercase if needed
+  if (options.lowerCase) {
+    text = text.toLowerCase();
+  }
+
+  // Split into lines
+  let parts = text.split('\n');
+
+  // Remove duplicates if needed
+  if (options.removeDuplicates) {
+    parts = uniq(parts);
+  }
+
+  // Reverse if needed
+  if (options.reverseList) {
+    parts = reverse(parts);
+  }
+
+  // Sort if needed
+  if (!isNull(options.sortList)) {
+    parts = parts.sort(byOrder({ order: options.sortList }));
+  }
+
+  // Trim items if needed
+  if (options.trimItems) {
+    parts = parts.map(trim);
+  }
+
+  // Remove empty strings
+  parts = without(parts, '');
+
+  // Add prefix and suffix
+  parts = parts.map(p => options.itemPrefix + p + options.itemSuffix);
+
+  // Join and add list prefix/suffix
+  const joined = parts.join(options.separator + lineBreak);
+  return [options.listPrefix, joined, options.listSuffix].join(lineBreak);
 }

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { chain, identity } from 'lodash-es'
+import { forEach, identity, omit } from 'lodash-es'
 import { Card, CardContent } from '@/components/ui/card';
 import { Field, FieldContent, FieldGroup, FieldLabel } from '@/components/ui/field';
 import { Input } from '@/components/ui/input';
@@ -106,12 +106,10 @@ function update(key: TemperatureScale) {
 
   const kelvins = toKelvin(value) ?? 0
 
-  chain(units)
-    .omit(key)
-    .forEach(({ fromKelvin }, index) => {
-      units[index]!.ref = Math.floor((fromKelvin(kelvins) ?? 0) * 100) / 100
-    })
-    .value()
+  const otherUnits = omit(units, key);
+  forEach(otherUnits, ({ fromKelvin }, index) => {
+    units[index]!.ref = Math.floor((fromKelvin(kelvins) ?? 0) * 100) / 100
+  });
 }
 
 update('kelvin')

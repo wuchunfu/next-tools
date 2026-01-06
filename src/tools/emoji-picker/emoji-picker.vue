@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { EmojiInfo } from './emoji.types'
 import emojiKeywords from 'emojilib'
-import { capitalize, chain, map } from 'lodash-es'
+import { capitalize, groupBy, map } from 'lodash-es'
 import { Search } from 'lucide-vue-next'
 import emojiUnicodeData from 'unicode-emoji-json'
 import { Card, CardContent } from '@/components/ui/card'
@@ -32,10 +32,10 @@ const emojis = map(emojiUnicodeData, (emojiInfo, emoji) => ({
   unicode: escapeUnicode({ emoji }),
 }));
 
-const emojisGroups: { emojiInfos: EmojiInfo[], group: string }[] = chain(emojis)
-  .groupBy('group')
-  .map((emojiInfos, group) => ({ group, emojiInfos }))
-  .value();
+const emojisGroups: { emojiInfos: EmojiInfo[], group: string }[] = (() => {
+  const grouped = groupBy(emojis, 'group');
+  return Object.entries(grouped).map(([group, emojiInfos]) => ({ group, emojiInfos }));
+})();
 
 const searchQuery = useDebouncedRef('', 300);
 
