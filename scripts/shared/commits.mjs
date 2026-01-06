@@ -1,5 +1,4 @@
-import pkg from 'lodash';
-const { capitalize, groupBy, sortBy } = pkg;
+import { capitalize, groupBy, sortBy } from 'lodash-es';
 
 export { rawCommitsToMarkdown };
 

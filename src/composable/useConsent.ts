@@ -181,7 +181,7 @@ export function useConsent() {
 
   // Consent UI configuration - defines which options are available in current version
   const consentConfig = computed(() => ({
-    showAnalytics: config.vercelAnalytics.enabled || !!config.googleAnalytics.id || !!config.umamiAnalytics.websiteId,
+    showAnalytics: config.vercelAnalytics.enabled || config.vercelSpeedInsights.enabled || !!config.googleAnalytics.id || !!config.umamiAnalytics.websiteId,
     showMarketing: false, // Currently disabled - can be enabled in future versions
     showPreferences: false, // Currently disabled - can be enabled in future versions
   }));

@@ -31,6 +31,14 @@ export const config = defineConfig(
         env: 'VITE_DEBUG_VERCEL_ANALYTICS',
       },
     },
+    vercelSpeedInsights: {
+      enabled: {
+        doc: 'Enable Vercel Speed Insights',
+        schema: z.coerce.boolean(),
+        default: false,
+        env: 'VITE_ENABLE_VERCEL_SPEED_INSIGHTS',
+      },
+    },
     googleAnalytics: {
       id: {
         doc: 'Google analytics Measurement ID (G-XXXXXXXXXX). Presence enables GA.',
