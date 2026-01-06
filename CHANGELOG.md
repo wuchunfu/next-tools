@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.6.2
+
+### Features
+-  add Vercel Speed Insights for performance monitoring (3ec5e4f)
+-  add CLI argument support to i18n management tool (d550a60)
+-  add unified i18n translation management tool (66beeef)
+
+### Bug fixes
+-  replace lodash chain with direct function calls (6f6db84)
+
+### Refactoring
+-  enhance release script with interactive CLI support (046dc3e)
+-  enhance create-tool script with interactive mode and i18n support (6390e0d)
+-  adjust the i18n translation key of tools.categories to categories (a5b7c72)
+-  migrate from lodash to lodash-es and adapt scripts for Node.js (1077984)
+
+### Chores
+-  add eslint rule to prevent lodash-es chain usage (06f7e61)
+-  upgrade eslint config and fix linting issues (fed560c)
+
+### Documentation
+-  add development scripts usage to README files (c26b4b9)
+
+### Style
+-  hide scrollbar in collapsed sidebar mode (5fd86a7)
+
 ## Version 1.6.1
 
 ### Features
