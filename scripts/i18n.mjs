@@ -138,7 +138,7 @@ async function collectTranslations(options = {}) {
         type: 'confirm',
         name: 'confirm',
         message: 'Temporary directory .i18n already exists. Overwrite?',
-        initial: false,
+        initial: true,
       });
 
       if (!confirm) {
@@ -253,7 +253,7 @@ async function createNewLanguage(options = {}) {
         type: 'confirm',
         name: 'overwrite',
         message: 'Overwrite existing file?',
-        initial: false,
+        initial: true,
       });
 
       if (!overwrite) {
@@ -360,7 +360,7 @@ async function writeBackTranslations(options = {}) {
       type: 'confirm',
       name: 'confirm',
       message: `This will overwrite existing translation files for ${selectedLanguages.length} language(s). Continue?`,
-      initial: false,
+      initial: true,
     });
 
     if (!confirm) {
