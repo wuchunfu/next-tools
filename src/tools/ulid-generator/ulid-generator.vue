@@ -132,14 +132,14 @@ const { copy } = useCopy({ source: ulids });
       <CardContent class="flex flex-1 flex-col gap-4">
         <Textarea :model-value="ulids" readonly rows="8" class="m-0 whitespace-pre font-mono text-sm leading-relaxed w-full max-h-90.75 resize-none pt-1" />
 
-        <div class="flex gap-3 shrink-0">
-          <Button data-test-id="refresh" variant="outline" class="flex-1 gap-2" @click="refreshUlids()">
-            <RefreshCw class="h-4 w-4" />
-            {{ t('tools.ulid-generator.refresh') }}
-          </Button>
-          <Button class="flex-1 gap-2" :disabled="!ulids" @click="copy()">
+        <div class="flex justify-center gap-3">
+          <Button variant="default" class="gap-2" @click="copy()">
             <Copy class="h-4 w-4" />
             {{ t('tools.ulid-generator.copy') }}
+          </Button>
+          <Button variant="outline" class="gap-2" @click="refreshUlids()">
+            <RefreshCw class="h-4 w-4" />
+            {{ t('tools.ulid-generator.refresh') }}
           </Button>
         </div>
       </CardContent>

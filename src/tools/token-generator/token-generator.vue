@@ -144,12 +144,12 @@ const hasValidOptions = computed(() =>
           :rows="4"
           class="font-mono text-sm"
         />
-        <div class="flex gap-2">
-          <Button class="flex-1 gap-2" @click="copy()">
+        <div class="flex justify-center gap-3">
+          <Button variant="default" class="gap-2" @click="copy()">
             <Copy class="h-4 w-4" />
             {{ t('common.copyToClipboard', 'Copy') }}
           </Button>
-          <Button variant="outline" class="flex-1 gap-2" @click="refreshToken">
+          <Button variant="outline" class="gap-2" @click="refreshToken">
             <RefreshCw class="h-4 w-4" />
             {{ t('tools.token-generator.button.refresh') }}
           </Button>

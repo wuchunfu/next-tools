@@ -14,7 +14,6 @@ import {
   FieldTitle,
 } from '@/components/ui/field'
 import { ScrollArea } from '@/components/ui/scroll-area'
-import { Separator } from '@/components/ui/separator'
 import { Slider } from '@/components/ui/slider'
 import { Textarea } from '@/components/ui/textarea'
 import { computedRefreshableAsync } from '@/composable/computedRefreshable'
@@ -101,15 +100,6 @@ const privateLength = computed(() => privateKey.value.length);
             </FieldContent>
           </Field>
         </FieldGroup>
-
-        <Separator />
-
-        <div class="flex gap-3">
-          <Button variant="outline" class="flex-1 gap-2" @click="refreshCerts()">
-            <RefreshCw class="h-4 w-4" />
-            {{ t('tools.rsa-key-pair-generator.refresh') }}
-          </Button>
-        </div>
       </CardContent>
     </Card>
 
@@ -170,6 +160,13 @@ const privateLength = computed(() => privateKey.value.length);
               />
             </ScrollArea>
           </div>
+        </div>
+
+        <div class="flex justify-center gap-3">
+          <Button variant="outline" class="gap-2" @click="refreshCerts()">
+            <RefreshCw class="h-4 w-4" />
+            {{ t('tools.rsa-key-pair-generator.refresh') }}
+          </Button>
         </div>
       </CardContent>
     </Card>
