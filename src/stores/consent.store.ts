@@ -79,6 +79,86 @@ interface CachedRegionConsent extends RegionInfo {
   expiresAt: number;
 }
 
+// Unified geolocation response format
+interface GeoLocationResponse {
+  countryCode: string;
+  regionCode?: string;
+}
+
+// Geolocation provider: ipinfo.io
+const fetchFromIpInfo = async (): Promise<GeoLocationResponse> => {
+  const response = await fetch('https://ipinfo.io/json');
+  if (!response.ok) {
+    throw new Error(`ipinfo.io request failed with status ${response.status}`);
+  }
+
+  const data = await response.json();
+
+  // Parse region code from region field (e.g., "Hong Kong" -> region code)
+  // For most regions, we can extract state/province codes
+  const regionMatch = data.region?.match(/^[A-Z]{2}$/);
+
+  return {
+    countryCode: data.country || 'US',
+    regionCode: regionMatch ? data.region : undefined,
+  };
+};
+
+// Geolocation provider: ipapi.co
+const fetchFromIpApi = async (): Promise<GeoLocationResponse> => {
+  const response = await fetch('https://ipapi.co/json/');
+  if (!response.ok) {
+    throw new Error(`ipapi.co request failed with status ${response.status}`);
+  }
+
+  const data = await response.json();
+
+  return {
+    countryCode: data.country_code || 'US',
+    regionCode: data.region_code,
+  };
+};
+
+// Geolocation provider: geojs.io
+const fetchFromGeoJs = async (): Promise<GeoLocationResponse> => {
+  const response = await fetch('https://get.geojs.io/v1/ip/geo.json');
+  if (!response.ok) {
+    throw new Error(`geojs.io request failed with status ${response.status}`);
+  }
+
+  const data = await response.json();
+
+  return {
+    countryCode: data.country_code || 'US',
+    regionCode: undefined, // geojs.io doesn't provide region code
+  };
+};
+
+// Fetch geolocation with automatic fallback
+const fetchGeoLocation = async (): Promise<GeoLocationResponse> => {
+  const providers = [
+    { name: 'ipinfo.io', fetch: fetchFromIpInfo },
+    { name: 'ipapi.co', fetch: fetchFromIpApi },
+    { name: 'geojs.io', fetch: fetchFromGeoJs },
+  ];
+
+  const errors: Error[] = [];
+
+  for (const provider of providers) {
+    try {
+      const result = await provider.fetch();
+      console.debug(`Geolocation detected via ${provider.name}:`, result.countryCode);
+      return result;
+    } catch (error) {
+      const err = error instanceof Error ? error : new Error(String(error));
+      console.warn(`${provider.name} provider failed:`, err.message);
+      errors.push(err);
+    }
+  }
+
+  throw new Error(`All geolocation providers failed: ${errors.map(e => e.message).join('; ')}`);
+};
+
 export const useConsentStore = defineStore('consent', () => {
   // Store user consent state, cached for 1 year
   const rawConsentState = useStorage<ConsentState>('consent-state', null, localStorage, {
@@ -93,6 +173,9 @@ export const useConsentStore = defineStore('consent', () => {
   if (cachedRegionConsent.value && cachedRegionConsent.value.expiresAt < Date.now()) {
     cachedRegionConsent.value = null
   }
+
+  // Track region detection request state
+  let isDetectingRegion = false;
 
   // Compute region info from cached consent requirement
   const regionInfo = computed<RegionInfo | null>(() => {
@@ -142,13 +225,16 @@ export const useConsentStore = defineStore('consent', () => {
       return regionInfo.value;
     }
 
-    try {
-      // Use free geolocation API
-      const response = await fetch('https://ipapi.co/json/');
-      const data = await response.json();
+    // If a request is already in progress, prevent duplicate requests
+    if (isDetectingRegion) {
+      throw new Error('Region detection already in progress');
+    }
 
-      const countryCode = data.country_code || 'US';
-      const regionCode = data.region_code;
+    isDetectingRegion = true;
+
+    try {
+      // Fetch geolocation with automatic fallback (ipinfo.io -> ipapi.co)
+      const { countryCode, regionCode } = await fetchGeoLocation();
 
       // Calculate region type and consent requirement
       const region = getRegionFromCountryData(countryCode, regionCode);
@@ -171,6 +257,8 @@ export const useConsentStore = defineStore('consent', () => {
       // Don't set any fallback data - let regionInfo remain null
       // This will cause needsConsent to return true by default
       throw error;
+    } finally {
+      isDetectingRegion = false;
     }
   };
 
