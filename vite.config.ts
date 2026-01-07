@@ -9,7 +9,6 @@ import Components from 'unplugin-vue-components/vite';
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import Markdown from 'unplugin-vue-markdown/vite';
-import svgLoader from 'vite-svg-loader';
 import { configDefaults } from 'vitest/config';
 
 const baseUrl = process.env.BASE_URL ?? '/';
@@ -43,7 +42,6 @@ export default defineConfig({
     }),
     vueJsx(),
     Markdown({ markdownItOptions: { html: true } }),
-    svgLoader(),
     VitePWA({
       registerType: 'prompt',
       strategies: 'generateSW',
