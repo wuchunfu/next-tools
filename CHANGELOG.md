@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.6.4
+
+### Refactoring
+-  enhance region detection with multiple geolocation providers (fe42b7d)
+-  migrate consent management from composable to Pinia store (b210e35)
+-  replace PWA update toast styles with Tailwind CSS classes (8788692)
+
 ## Version 1.6.3
 
 ### Features
