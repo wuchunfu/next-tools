@@ -147,7 +147,6 @@ const fetchGeoLocation = async (): Promise<GeoLocationResponse> => {
   for (const provider of providers) {
     try {
       const result = await provider.fetch();
-      console.debug(`Geolocation detected via ${provider.name}:`, result.countryCode);
       return result;
     } catch (error) {
       const err = error instanceof Error ? error : new Error(String(error));

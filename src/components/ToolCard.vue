@@ -33,9 +33,9 @@ const { tool } = toRefs(props)
         </div>
 
         <!-- Title -->
-        <h3 class="text-md font-semibold text-foreground mb-2 line-clamp-1 group-hover:text-primary transition-colors duration-200">
+        <span class="text-md font-semibold text-foreground mb-2 line-clamp-1 group-hover:text-primary transition-colors duration-200">
           {{ tool.name }}
-        </h3>
+        </span>
 
         <!-- Description -->
         <p class="text-sm text-muted-foreground line-clamp-2 leading-relaxed">

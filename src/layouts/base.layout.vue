@@ -63,9 +63,9 @@ const tools = computed<ToolCategory[]>(() => [
           >
             <Wrench class="h-6 w-6 group-data-[collapsible=icon]:h-4 group-data-[collapsible=icon]:w-4" />
           </div>
-          <div class="mt-3 text-lg font-semibold tracking-tight text-foreground group-data-[collapsible=icon]:hidden">
+          <h1 class="mt-3 text-lg font-semibold tracking-tight text-foreground group-data-[collapsible=icon]:hidden">
             Next - Tools
-          </div>
+          </h1>
           <div
             class="mt-1 text-xs uppercase tracking-[0.2em] text-muted-foreground group-data-[collapsible=icon]:hidden"
           >
@@ -107,9 +107,11 @@ const tools = computed<ToolCategory[]>(() => [
                           :is="tool.icon"
                           class="h-5 w-5 text-muted-foreground transition-colors data-[active=true]:text-accent-foreground"
                         />
-                        <span
+                        <h2
                           class="truncate font-medium text-foreground/90 transition-colors data-[active=true]:text-accent-foreground group-data-[collapsible=icon]:hidden"
-                        >{{ tool.name }}</span>
+                        >
+{{ tool.name }}
+</h2>
                         <Star
                           v-if="favoriteTools.some((f) => f.path === tool.path)"
                           class="ml-auto h-4 w-4 text-amber-500 group-data-[collapsible=icon]:hidden"
