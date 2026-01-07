@@ -1,14 +1,14 @@
 <script lang="ts" setup>
 import { Analytics } from '@vercel/analytics/vue';
 import { config } from '@/config';
-import { useConsent } from '@/composable/useConsent';
+import { useConsentStore } from '@/stores/consent.store';
 import { computed } from 'vue';
 
-const { consentState } = useConsent();
+const consentStore = useConsentStore();
 
 // Only show Vercel analytics when user consents and it's enabled in config
 const showVercel = computed(() => {
-  return config.vercelAnalytics.enabled && consentState.value.analytics;
+  return config.vercelAnalytics.enabled && consentStore.consentState.analytics;
 });
 </script>
 

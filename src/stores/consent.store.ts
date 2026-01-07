@@ -1,8 +1,8 @@
+import { defineStore } from 'pinia';
+import { computed, ref, readonly } from 'vue';
 import { StorageSerializers, useStorage } from '@vueuse/core';
-import { computed, watch, readonly } from 'vue';
 import { isUndefined } from 'lodash-es';
 import { config } from '@/config';
-
 
 // Define user consent state
 export interface ConsentState {
@@ -79,7 +79,7 @@ interface CachedRegionConsent extends RegionInfo {
   expiresAt: number;
 }
 
-export function useConsent() {
+export const useConsentStore = defineStore('consent', () => {
   // Store user consent state, cached for 1 year
   const rawConsentState = useStorage<ConsentState>('consent-state', null, localStorage, {
     serializer: StorageSerializers.object
@@ -128,7 +128,7 @@ export function useConsent() {
       if (!current) {
         return defaultConsentState;
       }
-      
+
       return current;
     },
     set: (value) => {
@@ -191,21 +191,25 @@ export function useConsent() {
     return config.consent.enabled && Object.values(consentConfig.value).some(value => value);
   });
 
-
+  // Track if region detection has been initialized
+  const regionDetectionInitialized = ref(false);
 
   // Auto-detect region when consent is enabled and no cached data
-  const { stop: stopWatch } = watch(hasConsentEnabled, handleDetectRegion);
-
-  function handleDetectRegion(enabled: boolean) {
-    if (enabled) {
-      detectRegion().catch((error) => {
-        console.warn('Auto region detection failed:', error);
-      });
-      stopWatch();
+  const initRegionDetection = async () => {
+    if (regionDetectionInitialized.value) {
+      return;
     }
-  }
 
-  handleDetectRegion(hasConsentEnabled.value)
+    if (hasConsentEnabled.value) {
+      try {
+        await detectRegion();
+      } catch (error) {
+        console.warn('Auto region detection failed:', error);
+      }
+    }
+
+    regionDetectionInitialized.value = true;
+  };
 
   // Check if consent modal should be shown
   const needsConsent = computed(() => {
@@ -227,10 +231,9 @@ export function useConsent() {
     if (consentConfig.value.showAnalytics && isUndefined(current.analytics)) return true;
     if (consentConfig.value.showMarketing && isUndefined(current.marketing)) return true;
     if (consentConfig.value.showPreferences && isUndefined(current.preferences)) return true;
-    
+
     return false;
   });
-
 
   // Update consent state
   const updateConsent = (newState: Partial<ConsentState>) => {
@@ -310,12 +313,13 @@ export function useConsent() {
     hasConsented,
     needsConsent,
     hasConsentEnabled,
+    consentConfig,
     detectRegion,
     updateConsent,
     acceptAll,
     rejectAll,
     setCustomConsent,
     resetConsent,
-    consentConfig,
+    initRegionDetection,
   };
-}
+});

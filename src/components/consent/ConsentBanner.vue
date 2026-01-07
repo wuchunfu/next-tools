@@ -3,7 +3,7 @@ import { ref, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useVModel } from '@vueuse/core';
 import { X } from 'lucide-vue-next';
-import { useConsent } from '@/composable/useConsent';
+import { useConsentStore } from '@/stores/consent.store';
 
 // UI Components
 import { Button } from '@/components/ui/button';
@@ -20,13 +20,7 @@ const open = useVModel(props, 'open');
 
 
 const { t } = useI18n();
-const {
-  regionInfo,
-  acceptAll,
-  rejectAll,
-  setCustomConsent,
-  consentConfig,
-} = useConsent();
+const consentStore = useConsentStore();
 
 // Local state for custom settings
 const customAnalyticsEnabled = ref(true);
@@ -35,9 +29,9 @@ const customPreferences = ref(true);
 
 // Region-specific text content
 const getRegionText = () => {
-  if (!regionInfo.value) return {};
+  if (!consentStore.regionInfo) return {};
 
-  switch (regionInfo.value.region) {
+  switch (consentStore.regionInfo.region) {
     case 'gdpr':
       return {
         title: t('consent.gdpr.title', 'Cookie Preferences'),
@@ -73,24 +67,24 @@ const showCustomize = ref(false);
 
 // Handle accept all
 const handleAcceptAll = () => {
-  acceptAll();
+  consentStore.acceptAll();
   open.value = false;
   showCustomize.value = false;
 };
 
 // Handle reject all
 const handleRejectAll = () => {
-  rejectAll();
+  consentStore.rejectAll();
   open.value = false;
   showCustomize.value = false;
 };
 
 // Handle save custom settings
 const handleSaveCustom = () => {
-  setCustomConsent(
-    consentConfig.value.showAnalytics ? customAnalyticsEnabled.value : undefined,
-    consentConfig.value.showMarketing ? customMarketing.value : undefined,
-    consentConfig.value.showPreferences ? customPreferences.value : undefined
+  consentStore.setCustomConsent(
+    consentStore.consentConfig.showAnalytics ? customAnalyticsEnabled.value : undefined,
+    consentStore.consentConfig.showMarketing ? customMarketing.value : undefined,
+    consentStore.consentConfig.showPreferences ? customPreferences.value : undefined
   );
   open.value = false;
   showCustomize.value = false;
@@ -146,7 +140,7 @@ const regionText = computed(() => getRegionText());
 
       <CardContent v-if="showCustomize" class="space-y-4">
           <!-- 分析工具设置 -->
-          <div v-if="consentConfig.showAnalytics" class="space-y-3">
+          <div v-if="consentStore.consentConfig.showAnalytics" class="space-y-3">
             <h4 class="text-sm font-medium">
               {{ t('consent.customize.analytics', 'Analytics Cookies') }}
             </h4>
@@ -162,7 +156,7 @@ const regionText = computed(() => getRegionText());
           </div>
 
           <!-- 营销设置 -->
-          <div v-if="consentConfig.showMarketing" class="space-y-3">
+          <div v-if="consentStore.consentConfig.showMarketing" class="space-y-3">
             <h4 class="text-sm font-medium">
               {{ t('consent.customize.marketing', 'Marketing Cookies') }}
             </h4>
@@ -178,7 +172,7 @@ const regionText = computed(() => getRegionText());
           </div>
 
           <!-- 偏好设置 -->
-          <div v-if="consentConfig.showPreferences" class="space-y-3">
+          <div v-if="consentStore.consentConfig.showPreferences" class="space-y-3">
             <h4 class="text-sm font-medium">
               {{ t('consent.customize.preferences', 'Preference Cookies') }}
             </h4>

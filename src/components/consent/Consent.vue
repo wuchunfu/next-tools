@@ -1,15 +1,19 @@
 <script setup lang="ts">
 import { defineAsyncComponent, ref, watch } from 'vue';
-import { useConsent } from '@/composable/useConsent';
+import { useConsentStore } from '@/stores/consent.store';
 
 const ConsentBanner = defineAsyncComponent(() => import('./ConsentBanner.vue'));
 
-const { needsConsent, hasConsentEnabled } = useConsent();
+const consentStore = useConsentStore();
+const { hasConsentEnabled } = consentStore;
 
 const showConsentModal = ref(false);
 
+// Initialize region detection once on setup
+consentStore.initRegionDetection();
+
 watch(
-  needsConsent,
+  () => consentStore.needsConsent,
   (needs) => {
     showConsentModal.value = needs;
   },

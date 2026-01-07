@@ -1,32 +1,33 @@
 <script lang="ts" setup>
 import { config } from '@/config';
 import { addGtag, configure,  consent } from 'vue-gtag';
-import { useConsent } from '@/composable/useConsent';
-import { watch } from 'vue';
+import { useConsentStore } from '@/stores/consent.store';
+import { watch, computed } from 'vue';
 import { isUndefined } from 'lodash-es';
+import { whenever } from '@vueuse/core';
 
-const { consentState } = useConsent();
+const { consentState } = useConsentStore();
 const id = config.googleAnalytics.id;
 
 if (id) {
   const hasConsent = computed(() => {
-    return !isUndefined(consentState.value.analytics) || !isUndefined(consentState.value.marketing);
+    return !isUndefined(consentState.analytics) || !isUndefined(consentState.marketing);
   });
 
   const { stop } = whenever(hasConsent, () => {
     configure({
       tagId: id,
       config: {
-        ad_storage: consentState.value.analytics ? 'granted' : 'denied',
-        analytics_storage: consentState.value.marketing ? 'granted' : 'denied',
+        ad_storage: consentState.analytics ? 'granted' : 'denied',
+        analytics_storage: consentState.marketing ? 'granted' : 'denied',
       },
     });
     stop();
     addGtag();
     watch(
       () => ({
-        analytics: consentState.value.analytics,
-        marketing: consentState.value.marketing,
+        analytics: consentState.analytics,
+        marketing: consentState.marketing,
       }),
       ({ analytics, marketing }) => {
         consent('update', {
