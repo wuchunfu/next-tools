@@ -1,6 +1,6 @@
 import { resolve } from 'node:path';
 import { URL, fileURLToPath } from 'node:url';
-
+import process from 'node:process';
 import VueI18n from '@intlify/unplugin-vue-i18n/vite';
 import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';

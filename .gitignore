@@ -144,3 +144,7 @@ vite.config.ts.timestamp-*
 
 # i18n temporary directory
 .i18n/
+
+.claude/
+.cursor/
+.idea/
