@@ -50,7 +50,66 @@
     <meta name="twitter:image:alt" content="Next Tools - Handy online tools for developers" />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <style>
+        body {
+          margin: 0;
+        }
+        .app-loading {
+          --loading-bg: hsl(0 0% 100%);
+          --loading-color: hsl(123 19% 46%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+          background: var(--loading-bg);
+        }
+        .app-loading.dark {
+          --loading-bg: hsl(240 3% 6%);
+          --loading-color: hsl(123 19% 58%);
+        }
+        .app-loading svg {
+          width: 3rem;
+          height: 3rem;
+          color: var(--loading-color);
+          animation: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;
+        }
+        @keyframes pulse {
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50% { opacity: .5; transform: scale(0.95); }
+        }
+      </style>
+      <div class="app-loading">
+        <script>
+          (function() {
+            var el = document.currentScript.parentElement;
+            var mq = matchMedia('(prefers-color-scheme: dark)');
+            function update() {
+              var s = localStorage.getItem('vueuse-color-scheme');
+              var isDark = s === 'dark' || (s !== 'light' && mq.matches);
+              el.classList.toggle('dark', isDark);
+            }
+            function onStorage(e) {
+              if (e.key === 'vueuse-color-scheme') update();
+            }
+            update();
+            mq.addEventListener('change', update);
+            window.addEventListener('storage', onStorage);
+            new MutationObserver(function(_, obs) {
+              if (!document.contains(el)) {
+                mq.removeEventListener('change', update);
+                window.removeEventListener('storage', onStorage);
+                obs.disconnect();
+              }
+            }).observe(document.getElementById('app'), { childList: true });
+          })();
+        </script>
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"></path>
+        </svg>
+      </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
