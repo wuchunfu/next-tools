@@ -270,5 +270,7 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 ---
 
 <div align="center">
+<a href="https://www.producthunt.com/products/next-tools?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-next-tools" target="_blank" rel="noopener noreferrer"><img alt="Next Tools - A modern, actively maintained alternative to it-tools | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1060084&theme=light&t=1767866311737" /></a>
+
 Made with ❤️ by <a href="https://github.com/willjayyyy">Will Jay</a>
 </div>
