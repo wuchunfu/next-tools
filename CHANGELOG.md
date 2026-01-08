@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.6.5
+
+### Features
+-  add loading placeholder to prevent white screen during JS load (7de3f2a)
+-  add vite-plugin-sitemap for automatic sitemap and robots.txt generation (ae2018e)
+
 ## Version 1.6.4
 
 ### Refactoring
