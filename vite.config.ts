@@ -1,17 +1,21 @@
+import fs from 'node:fs';
 import { resolve } from 'node:path';
 import { URL, fileURLToPath } from 'node:url';
 import process from 'node:process';
 import VueI18n from '@intlify/unplugin-vue-i18n/vite';
 import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';
+import fg from 'fast-glob';
 import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
+import Sitemap from 'vite-plugin-sitemap';
 import Markdown from 'unplugin-vue-markdown/vite';
 import { configDefaults } from 'vitest/config';
 
 const baseUrl = process.env.BASE_URL ?? '/';
+const hostname = process.env.HOSTNAME ?? 'https://next-tools.dev';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -98,6 +102,26 @@ export default defineConfig({
       dirs: ['src/'],
       extensions: ['vue', 'md'],
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
+    }),
+    Sitemap({
+      hostname,
+      generateRobotsTxt: true,
+      robots: [{ userAgent: '*', allow: '/' }],
+      dynamicRoutes: (() => {
+        const paths = ['/', '/about'];
+        fg.sync('src/tools/*/index.ts').forEach((file) => {
+          const content = fs.readFileSync(file, 'utf-8');
+          const pathMatch = content.match(/path:\s*['"`]([^'"`]+)['"`]/);
+          if (pathMatch)
+            paths.push(pathMatch[1]);
+          const redirectMatch = content.match(/redirectFrom:\s*\[([^\]]+)\]/);
+          if (redirectMatch?.[1]) {
+            const redirectPaths = redirectMatch[1].match(/['"`]([^'"`]+)['"`]/g);
+            redirectPaths?.forEach(p => paths.push(p.replace(/['"`]/g, '')));
+          }
+        });
+        return paths;
+      })(),
     }),
   ],
   base: baseUrl,

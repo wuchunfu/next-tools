@@ -159,6 +159,7 @@
     "vite": "^7.2.7",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-pwa": "^1.2.0",
+    "vite-plugin-sitemap": "^0.8.2",
     "vitest": "^4.0.15",
     "vue-tsc": "^3.1.7",
     "workbox-window": "^7.4.0",
