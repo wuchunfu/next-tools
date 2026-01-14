@@ -1,8 +1,6 @@
 {
   "tools": {
     "percentage-calculator": {
-      "title": "Prosentkalkulator",
-      "description": "Beregn enkelt prosenter fra en verdi til en annen verdi, eller fra en prosent til en verdi.",
       "card1Title": "Hva er X% av Y?",
       "card1Description": "Beregn prosenten av en verdi. Skriv inn prosenten (X) og grunnverdien (Y) for å få resultatet.",
       "card2Title": "X er hva prosent av Y?",

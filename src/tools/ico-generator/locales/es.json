@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "ico-generator": {
+      "cardUploadTitle": "Subir imagen",
+      "cardConfigTitle": "Configuración y salida",
+      "uploadCta": "Haga clic o arrastre para subir una imagen",
+      "uploadHint": "Admite PNG, JPEG y otros formatos de imagen",
+      "statusLabel": "Estado",
+      "statusIdle": "Listo",
+      "statusGenerating": "Generando...",
+      "statusSuccess": "Éxito",
+      "statusError": "Error",
+      "fileInfo": "Información del archivo",
+      "noFileSelected": "Ningún archivo seleccionado",
+      "preview": "Vista previa",
+      "sizesLabel": "Tamaños de icono",
+      "selectedCount": "{count} seleccionado(s)",
+      "filenameLabel": "Nombre del archivo de salida",
+      "filename": "Nombre del archivo",
+      "fileSize": "Tamaño del archivo",
+      "sizes": "Tamaños",
+      "generate": "Generar ICO",
+      "generating": "Generando...",
+      "download": "Descargar ICO",
+      "reset": "Restablecer",
+      "generatedFileInfo": "Archivo generado",
+      "successMessage": "¡Archivo ICO generado con éxito! Haga clic para descargar.",
+      "errorNoFile": "Por favor, suba una imagen primero",
+      "errorNoSizes": "Por favor, seleccione al menos un tamaño de icono",
+      "errorInvalidFileType": "El archivo debe ser una imagen",
+      "errorFileTooLarge": "El tamaño del archivo debe ser menor a 10MB",
+      "customSizes": "Tamaños personalizados",
+      "customSizePlaceholder": "Ingrese el tamaño (ej: 64 o 64x64)",
+      "customSizeHint": "Formatos admitidos: 32, 32x32, o 32×32 (1-512px)",
+      "errorInvalidSize": "Formato de tamaño inválido. Use: 32 o 32x32",
+      "errorSizeRange": "El tamaño debe estar entre 1 y 512 píxeles",
+      "errorSizeExists": "Este tamaño ya existe",
+      "clearCustomSizes": "Limpiar todo"
+    }
+  }
+}

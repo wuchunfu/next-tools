@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-statistics": {
-      "title": "Thống kê văn bản",
-      "description": "Nhận thông tin về văn bản, số ký tự, số từ, kích thước tính bằng byte, ...",
       "cardInputTitle": "Đầu vào",
       "cardInputDescription": "Dán hoặc nhập văn bản để nhận thống kê ngay lập tức.",
       "cardResultsTitle": "Kết quả",

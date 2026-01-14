@@ -1,8 +1,6 @@
 {
   "tools": {
     "case-converter": {
-      "title": "Convertisseur de casse",
-      "description": "Transformez la casse d'une chaîne et choisissez entre différents formats",
       "cardTitle": "Convertisseur de casse",
       "cardDescription": "Transformez la casse d'une chaîne et choisissez entre différents formats.",
       "cardInputTitle": "Saisie de texte",

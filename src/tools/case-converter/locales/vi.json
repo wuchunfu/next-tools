@@ -1,8 +1,6 @@
 {
   "tools": {
     "case-converter": {
-      "title": "Bộ chuyển đổi chữ hoa/thường",
-      "description": "Chuyển đổi chữ hoa/thường của chuỗi và chọn giữa các định dạng khác nhau",
       "cardTitle": "Bộ chuyển đổi chữ hoa/thường",
       "cardDescription": "Chuyển đổi chữ hoa/thường của chuỗi và chọn giữa các định dạng khác nhau.",
       "cardInputTitle": "Nhập văn bản",

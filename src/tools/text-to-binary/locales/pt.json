@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-to-binary": {
-      "title": "Texto para binário ASCII",
-      "description": "Converta texto para sua representação binária ASCII e vice-versa.",
       "cardTextToBinaryTitle": "Texto para Binário",
       "cardTextToBinaryDescription": "Converta texto para sua representação binária ASCII.",
       "cardBinaryToTextTitle": "Binário para Texto",

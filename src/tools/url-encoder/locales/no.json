@@ -1,8 +1,6 @@
 {
   "tools": {
     "url-encoder": {
-      "title": "Kode/dekode URL-formaterte strenger",
-      "description": "Kode tekst til URL-kodet format (også kjent som \"prosentkodet\"), eller dekode fra det.",
       "cardEncodeTitle": "Kode URL",
       "cardEncodeDescription": "Kode tekst til URL-kodet format (også kjent som \"prosentkodet\").",
       "cardDecodeTitle": "Dekode URL",

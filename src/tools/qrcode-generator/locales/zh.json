@@ -1,8 +1,6 @@
 {
   "tools": {
     "qrcode-generator": {
-      "title": "二维码生成器",
-      "description": "生成并下载url或文本的QR代码，并自定义背景和前景颜色。",
       "cardTitle": "二维码生成器",
       "cardDescription": "生成可自定义颜色和纠错级别的二维码，支持 URL 或文本。",
       "text": "内容",

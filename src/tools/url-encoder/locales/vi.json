@@ -1,8 +1,6 @@
 {
   "tools": {
     "url-encoder": {
-      "title": "Mã hóa/giải mã chuỗi định dạng URL",
-      "description": "Mã hóa văn bản sang định dạng mã hóa URL (còn được gọi là \"mã hóa phần trăm\"), hoặc giải mã từ nó.",
       "cardEncodeTitle": "Mã hóa URL",
       "cardEncodeDescription": "Mã hóa văn bản sang định dạng mã hóa URL (còn được gọi là \"mã hóa phần trăm\").",
       "cardDecodeTitle": "Giải mã URL",

@@ -1,8 +1,6 @@
 {
   "tools": {
     "hash-text": {
-      "title": "Hash tekst",
-      "description": "Hash en tekststreng ved hjelp av funksjonen du trenger: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 eller RIPEMD160",
       "placeholder": "Din streng å hashe...",
       "yourTextToHash": "Din tekst å hashe:",
       "digestEncoding": "Sammendragskoding",

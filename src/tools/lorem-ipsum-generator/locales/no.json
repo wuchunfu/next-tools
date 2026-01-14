@@ -1,8 +1,6 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "title": "Lorem ipsum-generator",
-      "description": "Lorem ipsum er en plassholdertekst som vanligvis brukes til å demonstrere den visuelle formen til et dokument eller en skrifttype uten å stole på meningsfullt innhold",
       "optionsTitle": "Innstillinger",
       "optionsDescription": "Konfigurer hvordan Lorem Ipsum genereres",
       "resultsTitle": "Generert tekst",

@@ -1,8 +1,6 @@
 {
   "tools": {
     "base64-string-converter": {
-      "title": "Bộ mã hóa/giải mã chuỗi Base64",
-      "description": "Đơn giản mã hóa và giải mã chuỗi thành biểu diễn base64 của chúng.",
       "stringToBase64": "Chuỗi sang base64",
       "encodeUrlSafe": "Mã hóa URL an toàn",
       "putYourStringHere": "Đặt chuỗi của bạn ở đây...",

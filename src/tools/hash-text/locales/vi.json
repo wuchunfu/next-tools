@@ -1,8 +1,6 @@
 {
   "tools": {
     "hash-text": {
-      "title": "Băm văn bản",
-      "description": "Băm một chuỗi văn bản bằng hàm bạn cần: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 hoặc RIPEMD160",
       "placeholder": "Chuỗi của bạn để băm...",
       "yourTextToHash": "Văn bản của bạn để băm:",
       "digestEncoding": "Mã hóa tóm tắt",

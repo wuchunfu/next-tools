@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-to-unicode": {
-      "title": "Texto a Unicode",
-      "description": "Analice y convierta texto a unicode y viceversa",
       "cardTextToUnicodeTitle": "Texto a Unicode",
       "cardTextToUnicodeDescription": "Convierta texto a secuencias de escape Unicode (formato \\u0031).",
       "cardUnicodeToTextTitle": "Unicode a Texto",

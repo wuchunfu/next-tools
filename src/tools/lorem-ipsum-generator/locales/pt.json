@@ -1,8 +1,6 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "title": "Gerador de Lorem ipsum",
-      "description": "Lorem ipsum é um texto de espaço reservado comumente usado para demonstrar a forma visual de um documento ou uma fonte sem depender de conteúdo significativo",
       "optionsTitle": "Opções",
       "optionsDescription": "Configure como o Lorem Ipsum é gerado",
       "resultsTitle": "Texto gerado",

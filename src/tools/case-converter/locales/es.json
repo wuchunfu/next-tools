@@ -1,8 +1,6 @@
 {
   "tools": {
     "case-converter": {
-      "title": "Convertidor de mayúsculas/minúsculas",
-      "description": "Transforme las mayúsculas/minúsculas de una cadena y elija entre diferentes formatos",
       "cardTitle": "Convertidor de mayúsculas/minúsculas",
       "cardDescription": "Transforme las mayúsculas/minúsculas de una cadena y elija entre diferentes formatos.",
       "cardInputTitle": "Entrada de texto",

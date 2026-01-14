@@ -1,8 +1,6 @@
 {
   "tools": {
     "html-entities": {
-      "title": "转义html实体",
-      "description": "转义或unescape html实体（将<、>、&、\"和\\'替换为其html版本）",
       "cardEscapeTitle": "转义 HTML 实体",
       "cardEscapeDescription": "转义 HTML 实体（将字符如 <、>、&、\" 和 ' 替换为其 HTML 版本）。",
       "cardUnescapeTitle": "反转义 HTML 实体",

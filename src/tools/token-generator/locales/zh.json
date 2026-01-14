@@ -1,8 +1,6 @@
 {
   "tools": {
     "token-generator": {
-      "title": "Token 生成器",
-      "description": "使用您想要的字符生成随机字符串，可选择大写或小写字母、数字和/或符号。",
       "characterTypes": "字符类型",
       "uppercase": "大写字母",
       "lowercase": "小写字母",

@@ -1,8 +1,6 @@
 {
   "tools": {
     "percentage-calculator": {
-      "title": "Calculadora de porcentajes",
-      "description": "Calcule fácilmente porcentajes de un valor a otro valor, o de un porcentaje a un valor.",
       "card1Title": "¿Qué es X% de Y?",
       "card1Description": "Calcule el porcentaje de un valor. Ingrese el porcentaje (X) y el valor base (Y) para obtener el resultado.",
       "card2Title": "¿X es qué porcentaje de Y?",

@@ -1,8 +1,6 @@
 {
   "tools": {
     "bcrypt": {
-      "title": "Bcrypt",
-      "description": "Băm và so sánh chuỗi văn bản bằng bcrypt. Bcrypt là một hàm băm mật khẩu dựa trên mật mã Blowfish.",
       "hash": "Hash",
       "placeholder": "Chuỗi của bạn để bcrypt...",
       "yourString": "Chuỗi của bạn:",

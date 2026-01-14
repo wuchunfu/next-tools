@@ -1,8 +1,6 @@
 {
   "tools": {
     "qrcode-generator": {
-      "title": "QR-kode generator",
-      "description": "Generer og last ned en QR-kode for en URL (eller ren tekst), og tilpass bakgrunns- og forgrunnsfargene.",
       "cardTitle": "QR-kode Generator",
       "cardDescription": "Generer tilpassbare QR-koder for URLer eller tekst med justerbare farger og feilrettingsnivåer.",
       "text": "Innhold",

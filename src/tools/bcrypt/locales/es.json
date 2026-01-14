@@ -1,8 +1,6 @@
 {
   "tools": {
     "bcrypt": {
-      "title": "Bcrypt",
-      "description": "Hashear y comparar cadenas de texto usando bcrypt. Bcrypt es una función de hash de contraseñas basada en el cifrado Blowfish.",
       "hash": "Hash",
       "placeholder": "Su cadena para bcrypt...",
       "yourString": "Su cadena:",

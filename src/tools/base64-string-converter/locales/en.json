@@ -1,8 +1,6 @@
 {
   "tools": {
     "base64-string-converter": {
-      "title": "Base64 string encoder/decoder",
-      "description": "Simply encode and decode strings into their base64 representation.",
       "cardEncodeTitle": "String to Base64",
       "cardEncodeDescription": "Encode any text string into Base64 format.",
       "cardDecodeTitle": "Base64 to String",

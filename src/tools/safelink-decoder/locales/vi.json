@@ -1,8 +1,6 @@
 {
   "tools": {
     "safelink-decoder": {
-      "title": "Giải mã Outlook Safelink",
-      "description": "Giải mã liên kết Outlook SafeLink",
       "cardTitle": "Giải mã Outlook SafeLink",
       "cardDescription": "Giải mã URL Microsoft Outlook SafeLink để hiển thị URL đích gốc.",
       "cardInputTitle": "Đầu vào SafeLink",

@@ -1,8 +1,6 @@
 {
   "tools": {
     "safelink-decoder": {
-      "title": "Outlook Safelink decoder",
-      "description": "Decode Outlook SafeLink links",
       "cardTitle": "Outlook SafeLink Decoder",
       "cardDescription": "Decode Microsoft Outlook SafeLink URLs to reveal the original destination URL.",
       "cardInputTitle": "SafeLink input",

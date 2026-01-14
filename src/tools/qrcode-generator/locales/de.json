@@ -1,8 +1,6 @@
 {
   "tools": {
     "qrcode-generator": {
-      "title": "QR-Code Generator",
-      "description": "Generieren und laden Sie einen QR-Code für eine URL (oder einfachen Text) herunter und passen Sie die Hintergrund- und Vordergrundfarben an.",
       "cardTitle": "QR-Code Generator",
       "cardDescription": "Generieren Sie anpassbare QR-Codes für URLs oder Text mit einstellbaren Farben und Fehlerkorrekturstufen.",
       "text": "Inhalt",

@@ -1,8 +1,6 @@
 {
   "tools": {
     "case-converter": {
-      "title": "Groß-/Kleinschreibung-Konverter",
-      "description": "Transformieren Sie die Groß-/Kleinschreibung einer Zeichenkette und wählen Sie zwischen verschiedenen Formaten",
       "cardTitle": "Groß-/Kleinschreibung-Konverter",
       "cardDescription": "Transformieren Sie die Groß-/Kleinschreibung einer Zeichenkette und wählen Sie zwischen verschiedenen Formaten.",
       "cardInputTitle": "Texteingabe",

@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-statistics": {
-      "title": "Tekststatistikk",
-      "description": "Få informasjon om en tekst, antall tegn, antall ord, størrelse i byte, ...",
       "cardInputTitle": "Inndata",
       "cardInputDescription": "Lim inn eller skriv teksten for å få statistikk umiddelbart.",
       "cardResultsTitle": "Resultater",

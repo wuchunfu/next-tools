@@ -1,8 +1,6 @@
 {
   "tools": {
     "encryption": {
-      "title": "Text verschlüsseln / entschlüsseln",
-      "description": "Verschlüsseln Sie Klartext und entschlüsseln Sie verschlüsselten Text mit Kryptoalgorithmen wie AES, TripleDES, Rabbit oder RC4.",
       "encrypt": "Verschlüsseln",
       "yourText": "Ihr Text:",
       "stringToCypher": "Die zu verschlüsselnde Zeichenkette",

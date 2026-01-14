@@ -1,8 +1,6 @@
 {
   "tools": {
     "base64-string-converter": {
-      "title": "Codificador/decodificador de cadena Base64",
-      "description": "Simplemente codifique y decodifique cadenas en su representación base64.",
       "stringToBase64": "Cadena a base64",
       "encodeUrlSafe": "Codificar URL seguro",
       "putYourStringHere": "Ponga su cadena aquí...",

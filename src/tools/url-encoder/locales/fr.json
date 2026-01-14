@@ -1,8 +1,6 @@
 {
   "tools": {
     "url-encoder": {
-      "title": "Encoder/décoder les chaînes au format URL",
-      "description": "Encodez le texte au format codé URL (également appelé \"codé en pourcentage\"), ou décodez-le.",
       "cardEncodeTitle": "Encoder URL",
       "cardEncodeDescription": "Encodez le texte au format codé URL (également appelé \"codé en pourcentage\").",
       "cardDecodeTitle": "Décoder URL",

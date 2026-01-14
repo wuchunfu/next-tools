@@ -1,8 +1,6 @@
 {
   "tools": {
     "encryption": {
-      "title": "Cifrar / descifrar texto",
-      "description": "Cifre texto claro y descifre texto cifrado usando algoritmos criptográficos como AES, TripleDES, Rabbit o RC4.",
       "encrypt": "Cifrar",
       "yourText": "Su texto:",
       "stringToCypher": "La cadena a cifrar",

@@ -1,8 +1,6 @@
 {
   "tools": {
     "encryption": {
-      "title": "Criptografar / descriptografar texto",
-      "description": "Criptografe texto claro e descriptografe texto criptografado usando algoritmos criptográficos como AES, TripleDES, Rabbit ou RC4.",
       "encrypt": "Criptografar",
       "yourText": "Seu texto:",
       "stringToCypher": "A string a ser criptografada",

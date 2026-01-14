@@ -1,8 +1,6 @@
 {
   "tools": {
     "bcrypt": {
-      "title": "Bcrypt",
-      "description": "Хешування та порівняння текстових рядків за допомогою bcrypt. Bcrypt - це функція хешування паролів на основі шифру Blowfish.",
       "hash": "Хеш",
       "placeholder": "Ваш рядок для bcrypt...",
       "yourString": "Ваш рядок:",

@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-to-unicode": {
-      "title": "Текст до Unicode",
-      "description": "Розібрати та перетворити текст у unicode і навпаки",
       "cardTextToUnicodeTitle": "Текст до Unicode",
       "cardTextToUnicodeDescription": "Перетворіть текст на послідовності екранування Unicode (формат \\u0031).",
       "cardUnicodeToTextTitle": "Unicode до Тексту",

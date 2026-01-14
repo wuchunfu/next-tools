@@ -1,8 +1,6 @@
 {
   "tools": {
     "base64-string-converter": {
-      "title": "Base64-strengkoder/dekoder",
-      "description": "Kode og dekode enkelt strenger til deres base64-representasjon.",
       "stringToBase64": "Streng til base64",
       "encodeUrlSafe": "Kode URL-sikker",
       "putYourStringHere": "Legg inn strengen din her...",

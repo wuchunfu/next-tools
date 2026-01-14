@@ -1,8 +1,6 @@
 {
   "tools": {
     "base64-string-converter": {
-      "title": "Base64-Zeichenketten-Kodierer/Dekodierer",
-      "description": "Kodieren und dekodieren Sie Zeichenketten einfach in ihre Base64-Darstellung.",
       "stringToBase64": "Zeichenkette zu Base64",
       "encodeUrlSafe": "URL-sicher kodieren",
       "putYourStringHere": "Geben Sie hier Ihre Zeichenkette ein...",

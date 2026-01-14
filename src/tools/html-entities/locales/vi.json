@@ -1,8 +1,6 @@
 {
   "tools": {
     "html-entities": {
-      "title": "Escape thực thể HTML",
-      "description": "Escape hoặc unescape thực thể HTML (thay thế các ký tự như <,>, &, \" và \\' bằng phiên bản HTML của chúng)",
       "cardEscapeTitle": "Escape thực thể HTML",
       "cardEscapeDescription": "Escape thực thể HTML (thay thế các ký tự như <, >, &, \" và ' bằng phiên bản HTML của chúng).",
       "cardUnescapeTitle": "Unescape thực thể HTML",

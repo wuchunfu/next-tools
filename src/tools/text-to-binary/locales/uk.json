@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-to-binary": {
-      "title": "Текст до ASCII двійковий",
-      "description": "Перетворіть текст у його двійкове представлення ASCII і навпаки.",
       "cardTextToBinaryTitle": "Текст до Двійковий",
       "cardTextToBinaryDescription": "Перетворіть текст у його двійкове представлення ASCII.",
       "cardBinaryToTextTitle": "Двійковий до Текст",

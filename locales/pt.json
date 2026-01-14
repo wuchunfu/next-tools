@@ -7,6 +7,443 @@
     "maybe": "Talvez o cache esteja fazendo bobagem, que tal tentar forçar a atualização?",
     "backHome": "Voltar para o início"
   },
+  "tools": {
+    "ascii-text-drawer": {
+      "title": "Gerador de texto ASCII art",
+      "description": "Crie texto ASCII art com muitas fontes e estilos.",
+      "keywords": "ascii,arte ascii,texto,desenhador"
+    },
+    "base64-file-converter": {
+      "title": "Conversor de arquivo Base64",
+      "description": "Converta uma string, arquivo ou imagem em sua representação base64.",
+      "keywords": "base64,conversor,carregar,imagem,arquivo,conversão,web,dados,formato"
+    },
+    "base-converter": {
+      "title": "Conversor de base",
+      "description": "Converte números entre diferentes bases (decimal, hexadecimal, binário, octal, base64, ...).",
+      "keywords": "inteiro,número,base,conversão,decimal,hexadecimal,binário,octal,base64"
+    },
+    "basic-auth-generator": {
+      "title": "Gerador de autenticação básica",
+      "description": "Gera um cabeçalho de autenticação básica base64 a partir de um nome de usuário e senha.",
+      "keywords": "básico,autenticação,gerador,nome de usuário,senha,base64,autenticação,cabeçalho,autorização"
+    },
+    "base64-string-converter": {
+      "title": "Codificador/decodificador de string Base64",
+      "description": "Simplesmente codifique e decodifique strings em sua representação base64.",
+      "keywords": "base64,conversor,conversão,web,dados,formato,atob,btoa"
+    },
+    "benchmark-builder": {
+      "title": "Construtor de benchmark",
+      "description": "Compare facilmente o tempo de execução de tarefas com este construtor de benchmark online muito simples.",
+      "keywords": "benchmark,construtor,execução,duração,média,variância"
+    },
+    "bcrypt": {
+      "title": "Bcrypt",
+      "description": "Faça hash e compare strings de texto usando bcrypt. Bcrypt é uma função de hash de senha baseada na cifra Blowfish.",
+      "keywords": "bcrypt,hash,comparar,senha,sal,rodada,armazenamento,cripto"
+    },
+    "bip39-generator": {
+      "title": "Gerador de frase secreta BIP39",
+      "description": "Gere uma frase secreta BIP39 a partir de um mnemônico existente ou aleatório, ou obtenha o mnemônico da frase secreta.",
+      "keywords": "BIP39,frase secreta,gerador,mnemônico,entropia"
+    },
+    "camera-recorder": {
+      "title": "Gravador de câmera",
+      "description": "Tire uma foto ou grave um vídeo da sua webcam ou câmera.",
+      "keywords": "câmera,gravador"
+    },
+    "case-converter": {
+      "title": "Conversor de maiúsculas e minúsculas",
+      "description": "Transforme as maiúsculas e minúsculas de uma string e escolha entre diferentes formatos",
+      "keywords": "caso,conversor,camelCase,capitalCase,constantCase,dotCase,headerCase,noCase,paramCase,pascalCase,pathCase,sentenceCase,snakeCase"
+    },
+    "chmod-calculator": {
+      "title": "Calculadora chmod",
+      "description": "Calcule suas permissões e comandos chmod com esta calculadora chmod online.",
+      "keywords": "chmod,calculadora,arquivo,permissão,arquivos,diretório,pasta,recursivo,gerador,octal"
+    },
+    "color-converter": {
+      "title": "Conversor de cor",
+      "description": "Converta cores entre os diferentes formatos (hex, rgb, hsl e nome css)",
+      "keywords": "cor,conversor"
+    },
+    "crontab-generator": {
+      "title": "Gerador de crontab",
+      "description": "Valide e gere crontab e obtenha a descrição legível por humanos do agendamento cron.",
+      "keywords": "crontab,gerador,trabalho cron,cron,agendamento,analisar,expressão,ano,mês,semana,dia,minuto,segundo"
+    },
+    "device-information": {
+      "title": "Informações do dispositivo",
+      "description": "Obtém informações sobre o dispositivo atual (tamanho da tela, proporção de pixels, agente do usuário, ...)",
+      "keywords": "dispositivo,informação,tela,pixel,proporção,status,dados,computador,tamanho,usuário,agente"
+    },
+    "date-converter": {
+      "title": "Conversor de data e hora",
+      "description": "Converta data e hora nos vários formatos diferentes",
+      "keywords": "data,hora,conversor,iso,utc,fuso horário,ano,mês,dia,minuto,segundo"
+    },
+    "email-normalizer": {
+      "title": "Normalizador de email",
+      "description": "Normalize endereços de email para comparação, remoção de duplicação e limpeza de dados.",
+      "keywords": "email,normalizador"
+    },
+    "emoji-picker": {
+      "title": "Seletor de emoji",
+      "description": "Copie e cole emojis facilmente e obtenha o valor unicode e os pontos de código de cada emoji.",
+      "keywords": "emoji,seletor,unicode,copiar,colar"
+    },
+    "encryption": {
+      "title": "Criptografar / descriptografar texto",
+      "description": "Criptografe texto claro e descriptografe texto cifrado usando algoritmos criptográficos como AES, TripleDES, Rabbit ou RC4.",
+      "keywords": "cifra,cifrar,texto,AES,TripleDES,Rabbit,RC4"
+    },
+    "eta-calculator": {
+      "title": "Calculadora ETA",
+      "description": "Uma calculadora ETA (Tempo Estimado de Chegada) para determinar o tempo de término aproximado de uma tarefa, por exemplo, o tempo de término e duração de um download de arquivo.",
+      "keywords": "eta,calculadora,estimado,tempo,chegada,média"
+    },
+    "git-memo": {
+      "title": "Folha de referência Git",
+      "description": "Git é um software de gerenciamento de versão descentralizado. Com esta folha de referência, você terá acesso rápido aos comandos git mais comuns.",
+      "keywords": "git,empurrar,forçar,puxar,confirmar,emendar,rebase,mesclar,resetar,suave,duro,arrendamento"
+    },
+    "hmac-generator": {
+      "title": "Gerador HMAC",
+      "description": "Calcula um código de autenticação de mensagem baseado em hash (HMAC) usando uma chave secreta e sua função de hash favorita.",
+      "keywords": "hmac,gerador,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
+    },
+    "html-entities": {
+      "title": "Escapar entidades HTML",
+      "description": "Escape ou desescape entidades HTML (substitua caracteres como <,>, &, \" e \\' por sua versão HTML)",
+      "keywords": "html,entidades,escapar,desescapar,especial,caracteres,tags"
+    },
+    "chronometer": {
+      "title": "Cronômetro",
+      "description": "Monitore a duração de algo. Basicamente um cronômetro com recursos simples de cronômetro.",
+      "keywords": "cronômetro,tempo,volta,duração,medir,pausar,continuar,cronômetro"
+    },
+    "html-wysiwyg-editor": {
+      "title": "Editor HTML WYSIWYG",
+      "description": "Editor HTML online rico em recursos WYSIWYG que gera o código-fonte do conteúdo imediatamente.",
+      "keywords": "html,wysiwyg,editor,p,ul,ol,conversor,ao vivo"
+    },
+    "iban-validator-and-parser": {
+      "title": "Validador e analisador IBAN",
+      "description": "Valide e analise números IBAN. Verifique se um IBAN é válido e obtenha o país, BBAN, se é um QR-IBAN e o formato amigável IBAN.",
+      "keywords": "iban,validador,e,analisador,bic,banco"
+    },
+    "http-status-codes": {
+      "title": "Códigos de status HTTP",
+      "description": "A lista de todos os códigos de status HTTP, seus nomes e significados.",
+      "keywords": "http,status,códigos,códigos de status"
+    },
+    "ico-generator": {
+      "title": "Gerador ICO",
+      "description": "Gerar arquivos ICO a partir de imagens. Converter PNG, JPEG ou outros formatos de imagem em arquivos ICO com vários tamanhos de ícones para favicons e aplicativos Windows.",
+      "keywords": "ico,ícone,favicon,gerador,conversor,imagem,png,jpeg,windows,converter"
+    },
+    "ipv4-address-converter": {
+      "title": "Conversor de endereço IPv4",
+      "description": "Converte um endereço IP IPv4 em decimal, binário, hexadecimal ou até mesmo em uma representação IPv6.",
+      "keywords": "ipv4,endereço,conversor,decimal,hexadecimal,binário,ipv6"
+    },
+    "ipv4-range-expander": {
+      "title": "Expansor de intervalo IPv4",
+      "description": "Dado um endereço IPv4 de início e fim, este工具 calcula um intervalo IPv4 válido com sua notação CIDR.",
+      "keywords": "ipv4,intervalo,expansor,sub-rede,criador,cidr"
+    },
+    "ipv4-subnet-calculator": {
+      "title": "Calculadora de sub-rede IPv4",
+      "description": "Analisa um endereço IPv4 CIDR e obtém toda a informação necessária sobre a sub-rede.",
+      "keywords": "ipv4,sub-rede,calculadora,máscara,rede,cidr,máscara de rede,máscara de bits,broadcast,endereço"
+    },
+    "ipv6-ula-generator": {
+      "title": "Gerador de ULA IPv6",
+      "description": "Gera seu próprio endereço IP local não roteável para sua rede de acordo com RFC4193.",
+      "keywords": "ipv6,ula,gerador,rfc4193,rede,privado"
+    },
+    "hash-text": {
+      "title": "Hash de texto",
+      "description": "Hasheie uma string de texto usando a função necessária: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 ou RIPEMD160",
+      "keywords": "hash,digest,cripto,segurança,texto,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
+    },
+    "json-minify": {
+      "title": "Minificar JSON",
+      "description": "Minifica e comprime seu JSON removendo espaços inúteis.",
+      "keywords": "json,minificar,formato"
+    },
+    "json-to-toml": {
+      "title": "JSON para TOML",
+      "description": "Analise e converta JSON para TOML.",
+      "keywords": "json,analisar,toml,converter,transformar"
+    },
+    "json-prettify": {
+      "title": "Formatar e embelezar JSON",
+      "description": "Embeleze sua string JSON em um formato amigável e legível por humanos.",
+      "keywords": "json,visualizador,embelezar,formato"
+    },
+    "json-to-xml": {
+      "title": "JSON para XML",
+      "description": "Converter JSON em XML",
+      "keywords": "json,xml"
+    },
+    "json-to-yaml-converter": {
+      "title": "JSON para YAML",
+      "description": "Simplesmente converta JSON para YAML com este conversor online ao vivo.",
+      "keywords": "yaml,para,json"
+    },
+    "jwt-parser": {
+      "title": "Analisador JWT",
+      "description": "Analise e decodifique seu JSON Web Token (jwt) e exiba seu conteúdo.",
+      "keywords": "jwt,analisador,decodificar,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,token"
+    },
+    "json-to-csv": {
+      "title": "JSON para CSV",
+      "description": "Converta JSON para CSV com detecção automática de cabeçalhos.",
+      "keywords": "json,para,csv,converter"
+    },
+    "list-converter": {
+      "title": "Conversor de lista",
+      "description": "Esta ferramenta pode processar dados baseados em colunas e aplicar várias alterações (transpor, adicionar prefixo e sufixo, inverter lista, ordenar lista, valores em minúsculas, truncar valores) a cada linha.",
+      "keywords": "lista,conversor,ordenar,reverter,prefixo,sufixo,minúsculas,truncar"
+    },
+    "keycode-info": {
+      "title": "Informações de código de tecla",
+      "description": "Encontre o código de tecla javascript, código, localização e modificadores de qualquer tecla pressionada.",
+      "keywords": "código de tecla,info,código,javascript,evento,códigos de tecla,qual,teclado,pressionar,modificador,alt,ctrl,meta,shift"
+    },
+    "json-diff": {
+      "title": "Diferença JSON",
+      "description": "Compare dois objetos JSON e obtenha as diferenças entre eles.",
+      "keywords": "json,diferença,comparar,diferença,objeto,dados"
+    },
+    "lorem-ipsum-generator": {
+      "title": "Gerador Lorem ipsum",
+      "description": "Lorem ipsum é um texto placeholder comumente usado para demonstrar a forma visual de um documento ou fonte sem depender de conteúdo significativo",
+      "keywords": "lorem,ipsum,dolor,sit,amet,placeholder,texto,preenchimento,aleatório,gerador"
+    },
+    "math-evaluator": {
+      "title": "Avaliador matemático",
+      "description": "Uma calculadora para avaliar expressões matemáticas. Você pode usar funções como sqrt, cos, sin, abs, etc.",
+      "keywords": "matemática,avaliador,calculadora,expressão,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh"
+    },
+    "markdown-to-html": {
+      "title": "Markdown para HTML",
+      "description": "Converter Markdown em HTML e imprimir como PDF",
+      "keywords": "markdown,html,conversor,pdf"
+    },
+    "numeronym-generator": {
+      "title": "Gerador de numerônimo",
+      "description": "Um numerônimo é uma palavra onde um número é usado para formar uma abreviatura. Por exemplo, \"i18n\" é um numerônimo de \"internacionalização\" onde 18 representa o número de letras entre o primeiro i e o último n na palavra.",
+      "keywords": "numerônimo,gerador,abreviação,i18n,a11y,l10n"
+    },
+    "mac-address-generator": {
+      "title": "Gerador de endereços MAC",
+      "description": "Insira a quantidade e o prefixo. Os endereços MAC serão gerados no caso que você escolher (maiúsculas ou minúsculas)",
+      "keywords": "mac,endereço,gerador,aleatório,prefixo"
+    },
+    "mac-address-lookup": {
+      "title": "Pesquisa de endereço MAC",
+      "description": "Encontre o fornecedor e fabricante de um dispositivo pelo seu endereço MAC.",
+      "keywords": "mac,endereço,pesquisa,fornecedor,analisador, fabricante"
+    },
+    "og-meta-generator": {
+      "title": "Gerador de metas Open Graph",
+      "description": "Gera metas Open Graph e HTML de metas sociais para seu site.",
+      "keywords": "meta,tag,gerador,social,título,descrição,imagem,compartilhar,online,website,aberto,gráfico,og"
+    },
+    "otp-generator": {
+      "title": "Gerador de OTP",
+      "description": "Gera e valida códigos OTP (One Time Password) para autenticação de múltiplos fatores.",
+      "keywords": "otp,código,gerador,validador,um,tempo,senha,autenticação,mfa,móvel,dispositivo,segurança,totp,tempo,hmac"
+    },
+    "mime-types": {
+      "title": "Tipos MIME",
+      "description": "Converta tipos MIME em extensões de arquivo e vice-versa.",
+      "keywords": "mime,tipos,extensão,conteúdo,tipo"
+    },
+    "password-strength-analyser": {
+      "title": "Analisador de força de senha",
+      "description": "Descubra a força da sua senha com este analisador de força de senha apenas do lado do cliente e ferramenta de estimativa de tempo de quebra.",
+      "keywords": "senha,força,analisador,e,quebrar,tempo,estimação,brute,force,ataque,entropia,quebrando,hash,hashing,algoritmo,algoritmos,md5,sha1,sha256,sha512,bcrypt,scrypt,argon2,argon2id,argon2i,argon2d"
+    },
+    "percentage-calculator": {
+      "title": "Calculadora de porcentagem",
+      "description": "Calcule facilmente porcentagens de um valor para outro valor, ou de uma porcentagem para um valor.",
+      "keywords": "porcentagem,calculadora,calcular,valor,número,%"
+    },
+    "qrcode-generator": {
+      "title": "Gerador de código QR",
+      "description": "Gere e baixe um código QR para uma URL (ou apenas texto simples), e personalize as cores de fundo e primeiro plano.",
+      "keywords": "qr,código,gerador,quadrado,cor,link,baixo,médio,quartil,alto,transparente"
+    },
+    "regex-memo": {
+      "title": "Referência rápida de Regex",
+      "description": "Referência rápida de Regex/Expressão regular Javascript",
+      "keywords": "regex,regular,expressão,javascript,memória,colinha"
+    },
+    "random-port-generator": {
+      "title": "Gerador de porta aleatória",
+      "description": "Gere números de porta aleatórios fora do intervalo de portas \"conhecidas\" (0-1023).",
+      "keywords": "sistema,porta,lan,gerador,aleatório,desenvolvimento,computador"
+    },
+    "regex-tester": {
+      "title": "Testador de Regex",
+      "description": "Teste suas expressões regulares com texto de exemplo.",
+      "keywords": "regex,testador,amostra,expressão"
+    },
+    "pdf-signature-checker": {
+      "title": "Verificador de assinatura PDF",
+      "description": "Verifica se um arquivo PDF tem uma assinatura válida.",
+      "keywords": "pdf,assinatura,verificador,verificar,validar,assinar"
+    },
+    "safelink-decoder": {
+      "title": "Decodificador Outlook Safelink",
+      "description": "Decodifica links Outlook SafeLink",
+      "keywords": "outlook,safelink,decodificador"
+    },
+    "roman-numeral-converter": {
+      "title": "Conversor de algarismos romanos",
+      "description": "Converta algarismos romanos em números e converta números em algarismos romanos.",
+      "keywords": "romano,arábico,conversor,X,I,V,L,C,D,M"
+    },
+    "rsa-key-pair-generator": {
+      "title": "Gerador de par de chaves RSA",
+      "description": "Gere um novo par de chaves de certificado pem RSA privado e público aleatório.",
+      "keywords": "rsa,chave,par,gerador,público,privado,segredo,ssh,pem"
+    },
+    "phone-parser-and-formatter": {
+      "title": "Analitzador e formatejador de telefones",
+      "description": "Analisa, valida e formata números de telefone. Obtém informações sobre o número de telefone, como código de país, tipo, etc.",
+      "keywords": "telefone,analisador,formatador,validar,formato,número,telefone,móvel,celular,internacional,nacional"
+    },
+    "slugify-string": {
+      "title": "Slugify string",
+      "description": "Torne uma string segura para URL, nome de arquivo e ID.",
+      "keywords": "slugify,string,escapar,emoji,especial,caractere,espaço,cortar"
+    },
+    "sql-prettify": {
+      "title": "Formatar e embelezar SQL",
+      "description": "Formate e embeleze suas consultas SQL online (suporta vários dialetos SQL).",
+      "keywords": "sql,prettify,beautify,GCP BigQuery,IBM DB2,Apache Hive,MariaDB,MySQL,Couchbase N1QL,Oracle PL/SQL,PostgreSQL,Amazon Redshift,Spark,SQL Server Transact-SQL"
+    },
+    "svg-placeholder-generator": {
+      "title": "Gerador de placeholder SVG",
+      "description": "Gere imagens svg para usar como placeholder em suas aplicações.",
+      "keywords": "svg,placeholder,gerador,imagem,tamanho,maquete"
+    },
+    "string-obfuscator": {
+      "title": "Obfuscador de string",
+      "description": "Obfusca uma string (como um segredo, um IBAN ou um token) para torná-la compartível e identificável sem revelar seu conteúdo.",
+      "keywords": "string,obfuscador,segredo,token,esconder,obscurecer,máscara,mascaramento"
+    },
+    "temperature-converter": {
+      "title": "Conversor de temperatura",
+      "description": "Conversões de temperatura em graus para Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur e Rømer.",
+      "keywords": "temperatura,conversor,grau,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer"
+    },
+    "text-diff": {
+      "title": "Diferença de texto",
+      "description": "Compara dois textos e vê as diferenças entre eles.",
+      "keywords": "texto,diferença,comparar,string,diferença de texto,código"
+    },
+    "text-statistics": {
+      "title": "Estatísticas de texto",
+      "description": "Obtenha informações sobre um texto, o número de caracteres, o número de palavras, seu tamanho em bytes, etc.",
+      "keywords": "texto,estatísticas,comprimento,caracteres,contagem,tamanho,bytes"
+    },
+    "text-to-nato-alphabet": {
+      "title": "Texto para alfabeto NATO",
+      "description": "Transforma texto em alfabeto fonético NATO para transmissão oral.",
+      "keywords": "string,nato,alfabeto,fonético,oral,transmissão"
+    },
+    "text-to-unicode": {
+      "title": "Texto para Unicode",
+      "description": "Analisa e converte texto para unicode e vice-versa",
+      "keywords": "texto,para,unicode"
+    },
+    "toml-to-json": {
+      "title": "TOML para JSON",
+      "description": "Analise e converta TOML para JSON.",
+      "keywords": "toml,json,converter,online,transformar,analisador"
+    },
+    "token-generator": {
+      "title": "Gerador de token",
+      "description": "Gere uma string aleatória com os caracteres que você deseja, letras maiúsculas ou minúsculas, números e/ou símbolos.",
+      "keywords": "token,aleatório,string,alfanumérico,símbolos,número,letras,minúsculas,maiúsculas,senha"
+    },
+    "ulid-generator": {
+      "title": "Gerador ULID",
+      "description": "Gera um Universally Unique Lexicographically Sortable Identifier (ULID) aleatório.",
+      "keywords": "ulid,gerador,aleatório,id,alfanumérico,identidade,token,string,identificador,único"
+    },
+    "url-encoder": {
+      "title": "Codificador/decodificador de URL",
+      "description": "Codifica texto como URL (também conhecido como \"codificação de porcentagem\") ou decodifica.",
+      "keywords": "url,codificar,decodificar,porcento,%20,formato"
+    },
+    "toml-to-yaml": {
+      "title": "TOML para YAML",
+      "description": "Analise e converta TOML para YAML.",
+      "keywords": "toml,yaml,converter,online,transformar,analisar"
+    },
+    "text-to-binary": {
+      "title": "Texto para binário ASCII",
+      "description": "Converte texto para sua representação binária ASCII e vice-versa.",
+      "keywords": "texto,para,binário,conversor,codificar,decodificar,ascii"
+    },
+    "url-parser": {
+      "title": "Analisador de URL",
+      "description": "Analise uma URL em suas partes constituintes separadas (protocolo, origem, parâmetros, porta, nome de usuário-senha, ...)",
+      "keywords": "url,analisador,protocolo,origem,parâmetros,porta,nome de usuário,senha,href"
+    },
+    "user-agent-parser": {
+      "title": "Analisador de agente do usuário",
+      "description": "Detecte e analise o navegador, motor, SO, CPU e tipo/modelo de dispositivo de uma string de agente do usuário.",
+      "keywords": "usuário,agente,analisador,navegador,motor,sistema operacional,cpu,dispositivo,user-agent,cliente"
+    },
+    "uuid-generator": {
+      "title": "Gerador de UUID",
+      "description": "Um Universally Unique Identifier (UUID) é um número de 128 bits usado para identificar informações em sistemas computacionais. O número de UUIDs possíveis é 16^32, o que é aproximadamente 3,4x10^38 (o que é muito!).",
+      "keywords": "uuid,v4,aleatório,id,alfanumérico,identidade,token,string,identificador,único,v1,v3,v5,nil"
+    },
+    "xml-formatter": {
+      "title": "Formatador XML",
+      "description": "Embeleze sua string XML em um formato amigável e legível por humanos.",
+      "keywords": "xml,embelezar,formato"
+    },
+    "yaml-prettify": {
+      "title": "Formatar e embelezar YAML",
+      "description": "Embeleze sua string YAML em um formato amigável e legível por humanos.",
+      "keywords": "yaml,visualizador,embelezar,formato"
+    },
+    "xml-to-json": {
+      "title": "XML para JSON",
+      "description": "Converter XML em JSON",
+      "keywords": "xml,json"
+    },
+    "wifi-qrcode-generator": {
+      "title": "Gerador de código QR WiFi",
+      "description": "Gere e baixe códigos QR para conexões rápidas a redes WiFi.",
+      "keywords": "qr,código,gerador,quadrado,cor,link,baixo,médio,quartil,alto,transparente,wifi"
+    },
+    "yaml-to-toml": {
+      "title": "YAML para TOML",
+      "description": "Analise e converta YAML para TOML.",
+      "keywords": "yaml,para,toml,converter,transformar"
+    },
+    "docker-run-to-docker-compose-converter": {
+      "title": "Conversor Docker run para Docker compose",
+      "description": "Transforma comandos \"docker run\" em arquivos docker-compose!",
+      "keywords": "docker,executar,compose,yaml,yml,converter,daemon"
+    },
+    "yaml-to-json-converter": {
+      "title": "YAML para JSON",
+      "description": "Simplesmente converta YAML para JSON com este conversor online ao vivo.",
+      "keywords": "yaml,para,json"
+    }
+  },
   "home": {
     "title": "Next-Tools - Ferramentas online práticas para desenvolvedores",
     "description": "Next-Tools é uma coleção de ferramentas online úteis para desenvolvedores, com excelente experiência do usuário.",
@@ -151,438 +588,6 @@
     "measurement": "Medidas",
     "text": "Texto",
     "data": "Dados"
-  },
-  "tools": {
-    "safelink-decoder": {
-      "title": "Decodificador Outlook Safelink",
-      "description": "Decodifica links Outlook SafeLink",
-      "keywords": "outlook,safelink,decodificador"
-    },
-    "password-strength-analyser": {
-      "title": "Analisador de força de senha",
-      "description": "Descubra a força da sua senha com este analisador de força de senha apenas do lado do cliente e ferramenta de estimativa de tempo de quebra.",
-      "keywords": "senha,força,analisador,e,quebrar,tempo,estimação,brute,force,ataque,entropia,quebrando,hash,hashing,algoritmo,algoritmos,md5,sha1,sha256,sha512,bcrypt,scrypt,argon2,argon2id,argon2i,argon2d"
-    },
-    "chronometer": {
-      "title": "Cronômetro",
-      "description": "Monitore a duração de algo. Basicamente um cronômetro com recursos simples de cronômetro.",
-      "keywords": "cronômetro,tempo,volta,duração,medir,pausar,continuar,cronômetro"
-    },
-    "ascii-text-drawer": {
-      "title": "Gerador de texto ASCII art",
-      "description": "Crie texto ASCII art com muitas fontes e estilos.",
-      "keywords": "ascii,arte ascii,texto,desenhador"
-    },
-    "regex-memo": {
-      "title": "Referência rápida de Regex",
-      "description": "Referência rápida de Regex/Expressão regular Javascript",
-      "keywords": "regex,regular,expressão,javascript,memória,colinha"
-    },
-    "email-normalizer": {
-      "title": "Normalizador de email",
-      "description": "Normalize endereços de email para comparação, remoção de duplicação e limpeza de dados.",
-      "keywords": "email,normalizador"
-    },
-    "regex-tester": {
-      "title": "Testador de Regex",
-      "description": "Teste suas expressões regulares com texto de exemplo.",
-      "keywords": "regex,testador,amostra,expressão"
-    },
-    "token-generator": {
-      "title": "Gerador de token",
-      "description": "Gere uma string aleatória com os caracteres que você deseja, letras maiúsculas ou minúsculas, números e/ou símbolos.",
-      "keywords": "token,aleatório,string,alfanumérico,símbolos,número,letras,minúsculas,maiúsculas,senha"
-    },
-    "base-converter": {
-      "title": "Conversor de base",
-      "description": "Converte números entre diferentes bases (decimal, hexadecimal, binário, octal, base64, ...).",
-      "keywords": "inteiro,número,base,conversão,decimal,hexadecimal,binário,octal,base64"
-    },
-    "uuid-generator": {
-      "title": "Gerador de UUID",
-      "description": "Um Universally Unique Identifier (UUID) é um número de 128 bits usado para identificar informações em sistemas computacionais. O número de UUIDs possíveis é 16^32, o que é aproximadamente 3,4x10^38 (o que é muito!).",
-      "keywords": "uuid,v4,aleatório,id,alfanumérico,identidade,token,string,identificador,único,v1,v3,v5,nil"
-    },
-    "ipv4-address-converter": {
-      "title": "Conversor de endereço IPv4",
-      "description": "Converte um endereço IP IPv4 em decimal, binário, hexadecimal ou até mesmo em uma representação IPv6.",
-      "keywords": "ipv4,endereço,conversor,decimal,hexadecimal,binário,ipv6"
-    },
-    "text-statistics": {
-      "title": "Estatísticas de texto",
-      "description": "Obtenha informações sobre um texto, o número de caracteres, o número de palavras, seu tamanho em bytes, etc.",
-      "keywords": "texto,estatísticas,comprimento,caracteres,contagem,tamanho,bytes"
-    },
-    "text-to-nato-alphabet": {
-      "title": "Texto para alfabeto NATO",
-      "description": "Transforma texto em alfabeto fonético NATO para transmissão oral.",
-      "keywords": "string,nato,alfabeto,fonético,oral,transmissão"
-    },
-    "basic-auth-generator": {
-      "title": "Gerador de autenticação básica",
-      "description": "Gera um cabeçalho de autenticação básica base64 a partir de um nome de usuário e senha.",
-      "keywords": "básico,autenticação,gerador,nome de usuário,senha,base64,autenticação,cabeçalho,autorização"
-    },
-    "text-to-unicode": {
-      "title": "Texto para Unicode",
-      "description": "Analisa e converte texto para unicode e vice-versa",
-      "keywords": "texto,para,unicode"
-    },
-    "ipv4-range-expander": {
-      "title": "Expansor de intervalo IPv4",
-      "description": "Dado um endereço IPv4 de início e fim, este工具 calcula um intervalo IPv4 válido com sua notação CIDR.",
-      "keywords": "ipv4,intervalo,expansor,sub-rede,criador,cidr"
-    },
-    "text-diff": {
-      "title": "Diferença de texto",
-      "description": "Compara dois textos e vê as diferenças entre eles.",
-      "keywords": "texto,diferença,comparar,string,diferença de texto,código"
-    },
-    "otp-generator": {
-      "title": "Gerador de OTP",
-      "description": "Gera e valida códigos OTP (One Time Password) para autenticação de múltiplos fatores.",
-      "keywords": "otp,código,gerador,validador,um,tempo,senha,autenticação,mfa,móvel,dispositivo,segurança,totp,tempo,hmac"
-    },
-    "url-encoder": {
-      "title": "Codificador/decodificador de URL",
-      "description": "Codifica texto como URL (também conhecido como \"codificação de porcentagem\") ou decodifica.",
-      "keywords": "url,codificar,decodificar,porcento,%20,formato"
-    },
-    "text-to-binary": {
-      "title": "Texto para binário ASCII",
-      "description": "Converte texto para sua representação binária ASCII e vice-versa.",
-      "keywords": "texto,para,binário,conversor,codificar,decodificar,ascii"
-    },
-    "string-obfuscator": {
-      "title": "Obfuscador de string",
-      "description": "Obfusca uma string (como um segredo, um IBAN ou um token) para torná-la compartível e identificável sem revelar seu conteúdo.",
-      "keywords": "string,obfuscador,segredo,token,esconder,obscurecer,máscara,mascaramento"
-    },
-    "ipv4-subnet-calculator": {
-      "title": "Calculadora de sub-rede IPv4",
-      "description": "Analisa um endereço IPv4 CIDR e obtém toda a informação necessária sobre a sub-rede.",
-      "keywords": "ipv4,sub-rede,calculadora,máscara,rede,cidr,máscara de rede,máscara de bits,broadcast,endereço"
-    },
-    "og-meta-generator": {
-      "title": "Gerador de metas Open Graph",
-      "description": "Gera metas Open Graph e HTML de metas sociais para seu site.",
-      "keywords": "meta,tag,gerador,social,título,descrição,imagem,compartilhar,online,website,aberto,gráfico,og"
-    },
-    "ipv6-ula-generator": {
-      "title": "Gerador de ULA IPv6",
-      "description": "Gera seu próprio endereço IP local não roteável para sua rede de acordo com RFC4193.",
-      "keywords": "ipv6,ula,gerador,rfc4193,rede,privado"
-    },
-    "json-minify": {
-      "title": "Minificar JSON",
-      "description": "Minifica e comprime seu JSON removendo espaços inúteis.",
-      "keywords": "json,minificar,formato"
-    },
-    "ulid-generator": {
-      "title": "Gerador ULID",
-      "description": "Gera um Universally Unique Lexicographically Sortable Identifier (ULID) aleatório.",
-      "keywords": "ulid,gerador,aleatório,id,alfanumérico,identidade,token,string,identificador,único"
-    },
-    "phone-parser-and-formatter": {
-      "title": "Analitzador e formatejador de telefones",
-      "description": "Analisa, valida e formata números de telefone. Obtém informações sobre o número de telefone, como código de país, tipo, etc.",
-      "keywords": "telefone,analisador,formatador,validar,formato,número,telefone,móvel,celular,internacional,nacional"
-    },
-    "device-information": {
-      "title": "Informações do dispositivo",
-      "description": "Obtém informações sobre o dispositivo atual (tamanho da tela, proporção de pixels, agente do usuário, ...)",
-      "keywords": "dispositivo,informação,tela,pixel,proporção,status,dados,computador,tamanho,usuário,agente"
-    },
-    "pdf-signature-checker": {
-      "title": "Verificador de assinatura PDF",
-      "description": "Verifica se um arquivo PDF tem uma assinatura válida.",
-      "keywords": "pdf,assinatura,verificador,verificar,validar,assinar"
-    },
-    "percentage-calculator": {
-      "title": "Calculadora de porcentagem",
-      "description": "Calcule facilmente porcentagens de um valor para outro valor, ou de uma porcentagem para um valor.",
-      "keywords": "porcentagem,calculadora,calcular,valor,número,%"
-    },
-    "svg-placeholder-generator": {
-      "title": "Gerador de placeholder SVG",
-      "description": "Gere imagens svg para usar como placeholder em suas aplicações.",
-      "keywords": "svg,placeholder,gerador,imagem,tamanho,maquete"
-    },
-    "json-to-csv": {
-      "title": "JSON para CSV",
-      "description": "Converta JSON para CSV com detecção automática de cabeçalhos.",
-      "keywords": "json,para,csv,converter"
-    },
-    "camera-recorder": {
-      "title": "Gravador de câmera",
-      "description": "Tire uma foto ou grave um vídeo da sua webcam ou câmera.",
-      "keywords": "câmera,gravador"
-    },
-    "keycode-info": {
-      "title": "Informações de código de tecla",
-      "description": "Encontre o código de tecla javascript, código, localização e modificadores de qualquer tecla pressionada.",
-      "keywords": "código de tecla,info,código,javascript,evento,códigos de tecla,qual,teclado,pressionar,modificador,alt,ctrl,meta,shift"
-    },
-    "emoji-picker": {
-      "title": "Seletor de emoji",
-      "description": "Copie e cole emojis facilmente e obtenha o valor unicode e os pontos de código de cada emoji.",
-      "keywords": "emoji,seletor,unicode,copiar,colar"
-    },
-    "color-converter": {
-      "title": "Conversor de cor",
-      "description": "Converta cores entre os diferentes formatos (hex, rgb, hsl e nome css)",
-      "keywords": "cor,conversor"
-    },
-    "bcrypt": {
-      "title": "Bcrypt",
-      "description": "Faça hash e compare strings de texto usando bcrypt. Bcrypt é uma função de hash de senha baseada na cifra Blowfish.",
-      "keywords": "bcrypt,hash,comparar,senha,sal,rodada,armazenamento,cripto"
-    },
-    "crontab-generator": {
-      "title": "Gerador de crontab",
-      "description": "Valide e gere crontab e obtenha a descrição legível por humanos do agendamento cron.",
-      "keywords": "crontab,gerador,trabalho cron,cron,agendamento,analisar,expressão,ano,mês,semana,dia,minuto,segundo"
-    },
-    "http-status-codes": {
-      "title": "Códigos de status HTTP",
-      "description": "A lista de todos os códigos de status HTTP, seus nomes e significados.",
-      "keywords": "http,status,códigos,códigos de status"
-    },
-    "sql-prettify": {
-      "title": "Formatar e embelezar SQL",
-      "description": "Formate e embeleze suas consultas SQL online (suporta vários dialetos SQL).",
-      "keywords": "sql,prettify,beautify,GCP BigQuery,IBM DB2,Apache Hive,MariaDB,MySQL,Couchbase N1QL,Oracle PL/SQL,PostgreSQL,Amazon Redshift,Spark,SQL Server Transact-SQL"
-    },
-    "benchmark-builder": {
-      "title": "Construtor de benchmark",
-      "description": "Compare facilmente o tempo de execução de tarefas com este construtor de benchmark online muito simples.",
-      "keywords": "benchmark,construtor,execução,duração,média,variância"
-    },
-    "git-memo": {
-      "title": "Folha de referência Git",
-      "description": "Git é um software de gerenciamento de versão descentralizado. Com esta folha de referência, você terá acesso rápido aos comandos git mais comuns.",
-      "keywords": "git,empurrar,forçar,puxar,confirmar,emendar,rebase,mesclar,resetar,suave,duro,arrendamento"
-    },
-    "hash-text": {
-      "title": "Hash de texto",
-      "description": "Hasheie uma string de texto usando a função necessária: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 ou RIPEMD160",
-      "keywords": "hash,digest,cripto,segurança,texto,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
-    },
-    "slugify-string": {
-      "title": "Slugify string",
-      "description": "Torne uma string segura para URL, nome de arquivo e ID.",
-      "keywords": "slugify,string,escapar,emoji,especial,caractere,espaço,cortar"
-    },
-    "encryption": {
-      "title": "Criptografar / descriptografar texto",
-      "description": "Criptografe texto claro e descriptografe texto cifrado usando algoritmos criptográficos como AES, TripleDES, Rabbit ou RC4.",
-      "keywords": "cifra,cifrar,texto,AES,TripleDES,Rabbit,RC4"
-    },
-    "random-port-generator": {
-      "title": "Gerador de porta aleatória",
-      "description": "Gere números de porta aleatórios fora do intervalo de portas \"conhecidas\" (0-1023).",
-      "keywords": "sistema,porta,lan,gerador,aleatório,desenvolvimento,computador"
-    },
-    "yaml-prettify": {
-      "title": "Formatar e embelezar YAML",
-      "description": "Embeleze sua string YAML em um formato amigável e legível por humanos.",
-      "keywords": "yaml,visualizador,embelezar,formato"
-    },
-    "eta-calculator": {
-      "title": "Calculadora ETA",
-      "description": "Uma calculadora ETA (Tempo Estimado de Chegada) para determinar o tempo de término aproximado de uma tarefa, por exemplo, o tempo de término e duração de um download de arquivo.",
-      "keywords": "eta,calculadora,estimado,tempo,chegada,média"
-    },
-    "roman-numeral-converter": {
-      "title": "Conversor de algarismos romanos",
-      "description": "Converta algarismos romanos em números e converta números em algarismos romanos.",
-      "keywords": "romano,arábico,conversor,X,I,V,L,C,D,M"
-    },
-    "hmac-generator": {
-      "title": "Gerador HMAC",
-      "description": "Calcula um código de autenticação de mensagem baseado em hash (HMAC) usando uma chave secreta e sua função de hash favorita.",
-      "keywords": "hmac,gerador,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
-    },
-    "bip39-generator": {
-      "title": "Gerador de frase secreta BIP39",
-      "description": "Gere uma frase secreta BIP39 a partir de um mnemônico existente ou aleatório, ou obtenha o mnemônico da frase secreta.",
-      "keywords": "BIP39,frase secreta,gerador,mnemônico,entropia"
-    },
-    "base64-file-converter": {
-      "title": "Conversor de arquivo Base64",
-      "description": "Converta uma string, arquivo ou imagem em sua representação base64.",
-      "keywords": "base64,conversor,carregar,imagem,arquivo,conversão,web,dados,formato"
-    },
-    "list-converter": {
-      "title": "Conversor de lista",
-      "description": "Esta ferramenta pode processar dados baseados em colunas e aplicar várias alterações (transpor, adicionar prefixo e sufixo, inverter lista, ordenar lista, valores em minúsculas, truncar valores) a cada linha.",
-      "keywords": "lista,conversor,ordenar,reverter,prefixo,sufixo,minúsculas,truncar"
-    },
-    "base64-string-converter": {
-      "title": "Codificador/decodificador de string Base64",
-      "description": "Simplesmente codifique e decodifique strings em sua representação base64.",
-      "keywords": "base64,conversor,conversão,web,dados,formato,atob,btoa"
-    },
-    "toml-to-yaml": {
-      "title": "TOML para YAML",
-      "description": "Analise e converta TOML para YAML.",
-      "keywords": "toml,yaml,converter,online,transformar,analisar"
-    },
-    "math-evaluator": {
-      "title": "Avaliador matemático",
-      "description": "Uma calculadora para avaliar expressões matemáticas. Você pode usar funções como sqrt, cos, sin, abs, etc.",
-      "keywords": "matemática,avaliador,calculadora,expressão,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh"
-    },
-    "json-to-yaml-converter": {
-      "title": "JSON para YAML",
-      "description": "Simplesmente converta JSON para YAML com este conversor online ao vivo.",
-      "keywords": "yaml,para,json"
-    },
-    "url-parser": {
-      "title": "Analisador de URL",
-      "description": "Analise uma URL em suas partes constituintes separadas (protocolo, origem, parâmetros, porta, nome de usuário-senha, ...)",
-      "keywords": "url,analisador,protocolo,origem,parâmetros,porta,nome de usuário,senha,href"
-    },
-    "iban-validator-and-parser": {
-      "title": "Validador e analisador IBAN",
-      "description": "Valide e analise números IBAN. Verifique se um IBAN é válido e obtenha o país, BBAN, se é um QR-IBAN e o formato amigável IBAN.",
-      "keywords": "iban,validador,e,analisador,bic,banco"
-    },
-    "user-agent-parser": {
-      "title": "Analisador de agente do usuário",
-      "description": "Detecte e analise o navegador, motor, SO, CPU e tipo/modelo de dispositivo de uma string de agente do usuário.",
-      "keywords": "usuário,agente,analisador,navegador,motor,sistema operacional,cpu,dispositivo,user-agent,cliente"
-    },
-    "numeronym-generator": {
-      "title": "Gerador de numerônimo",
-      "description": "Um numerônimo é uma palavra onde um número é usado para formar uma abreviatura. Por exemplo, \"i18n\" é um numerônimo de \"internacionalização\" onde 18 representa o número de letras entre o primeiro i e o último n na palavra.",
-      "keywords": "numerônimo,gerador,abreviação,i18n,a11y,l10n"
-    },
-    "case-converter": {
-      "title": "Conversor de maiúsculas e minúsculas",
-      "description": "Transforme as maiúsculas e minúsculas de uma string e escolha entre diferentes formatos",
-      "keywords": "caso,conversor,camelCase,capitalCase,constantCase,dotCase,headerCase,noCase,paramCase,pascalCase,pathCase,sentenceCase,snakeCase"
-    },
-    "html-entities": {
-      "title": "Escapar entidades HTML",
-      "description": "Escape ou desescape entidades HTML (substitua caracteres como <,>, &, \" e \\' por sua versão HTML)",
-      "keywords": "html,entidades,escapar,desescapar,especial,caracteres,tags"
-    },
-    "json-prettify": {
-      "title": "Formatar e embelezar JSON",
-      "description": "Embeleze sua string JSON em um formato amigável e legível por humanos.",
-      "keywords": "json,visualizador,embelezar,formato"
-    },
-    "docker-run-to-docker-compose-converter": {
-      "title": "Conversor Docker run para Docker compose",
-      "description": "Transforma comandos \"docker run\" em arquivos docker-compose!",
-      "keywords": "docker,executar,compose,yaml,yml,converter,daemon"
-    },
-    "mac-address-lookup": {
-      "title": "Pesquisa de endereço MAC",
-      "description": "Encontre o fornecedor e fabricante de um dispositivo pelo seu endereço MAC.",
-      "keywords": "mac,endereço,pesquisa,fornecedor,analisador, fabricante"
-    },
-    "mime-types": {
-      "title": "Tipos MIME",
-      "description": "Converta tipos MIME em extensões de arquivo e vice-versa.",
-      "keywords": "mime,tipos,extensão,conteúdo,tipo"
-    },
-    "toml-to-json": {
-      "title": "TOML para JSON",
-      "description": "Analise e converta TOML para JSON.",
-      "keywords": "toml,json,converter,online,transformar,analisador"
-    },
-    "lorem-ipsum-generator": {
-      "title": "Gerador Lorem ipsum",
-      "description": "Lorem ipsum é um texto placeholder comumente usado para demonstrar a forma visual de um documento ou fonte sem depender de conteúdo significativo",
-      "keywords": "lorem,ipsum,dolor,sit,amet,placeholder,texto,preenchimento,aleatório,gerador"
-    },
-    "qrcode-generator": {
-      "title": "Gerador de código QR",
-      "description": "Gere e baixe um código QR para uma URL (ou apenas texto simples), e personalize as cores de fundo e primeiro plano.",
-      "keywords": "qr,código,gerador,quadrado,cor,link,baixo,médio,quartil,alto,transparente"
-    },
-    "wifi-qrcode-generator": {
-      "title": "Gerador de código QR WiFi",
-      "description": "Gere e baixe códigos QR para conexões rápidas a redes WiFi.",
-      "keywords": "qr,código,gerador,quadrado,cor,link,baixo,médio,quartil,alto,transparente,wifi"
-    },
-    "xml-formatter": {
-      "title": "Formatador XML",
-      "description": "Embeleze sua string XML em um formato amigável e legível por humanos.",
-      "keywords": "xml,embelezar,formato"
-    },
-    "temperature-converter": {
-      "title": "Conversor de temperatura",
-      "description": "Conversões de temperatura em graus para Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur e Rømer.",
-      "keywords": "temperatura,conversor,grau,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer"
-    },
-    "chmod-calculator": {
-      "title": "Calculadora chmod",
-      "description": "Calcule suas permissões e comandos chmod com esta calculadora chmod online.",
-      "keywords": "chmod,calculadora,arquivo,permissão,arquivos,diretório,pasta,recursivo,gerador,octal"
-    },
-    "rsa-key-pair-generator": {
-      "title": "Gerador de par de chaves RSA",
-      "description": "Gere um novo par de chaves de certificado pem RSA privado e público aleatório.",
-      "keywords": "rsa,chave,par,gerador,público,privado,segredo,ssh,pem"
-    },
-    "html-wysiwyg-editor": {
-      "title": "Editor HTML WYSIWYG",
-      "description": "Editor HTML online rico em recursos WYSIWYG que gera o código-fonte do conteúdo imediatamente.",
-      "keywords": "html,wysiwyg,editor,p,ul,ol,conversor,ao vivo"
-    },
-    "markdown-to-html": {
-      "title": "Markdown para HTML",
-      "description": "Converter Markdown em HTML e imprimir como PDF",
-      "keywords": "markdown,html,conversor,pdf"
-    },
-    "yaml-to-toml": {
-      "title": "YAML para TOML",
-      "description": "Analise e converta YAML para TOML.",
-      "keywords": "yaml,para,toml,converter,transformar"
-    },
-    "yaml-to-json-converter": {
-      "title": "YAML para JSON",
-      "description": "Simplesmente converta YAML para JSON com este conversor online ao vivo.",
-      "keywords": "yaml,para,json"
-    },
-    "mac-address-generator": {
-      "title": "Gerador de endereços MAC",
-      "description": "Insira a quantidade e o prefixo. Os endereços MAC serão gerados no caso que você escolher (maiúsculas ou minúsculas)",
-      "keywords": "mac,endereço,gerador,aleatório,prefixo"
-    },
-    "json-diff": {
-      "title": "Diferença JSON",
-      "description": "Compare dois objetos JSON e obtenha as diferenças entre eles.",
-      "keywords": "json,diferença,comparar,diferença,objeto,dados"
-    },
-    "jwt-parser": {
-      "title": "Analisador JWT",
-      "description": "Analise e decodifique seu JSON Web Token (jwt) e exiba seu conteúdo.",
-      "keywords": "jwt,analisador,decodificar,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,token"
-    },
-    "date-converter": {
-      "title": "Conversor de data e hora",
-      "description": "Converta data e hora nos vários formatos diferentes",
-      "keywords": "data,hora,conversor,iso,utc,fuso horário,ano,mês,dia,minuto,segundo"
-    },
-    "json-to-toml": {
-      "title": "JSON para TOML",
-      "description": "Analise e converta JSON para TOML.",
-      "keywords": "json,analisar,toml,converter,transformar"
-    },
-    "json-to-xml": {
-      "title": "JSON para XML",
-      "description": "Converter JSON em XML",
-      "keywords": "json,xml"
-    },
-    "xml-to-json": {
-      "title": "XML para JSON",
-      "description": "Converter XML em JSON",
-      "keywords": "xml,json"
-    }
   },
   "commandPalette": {
     "categories": {

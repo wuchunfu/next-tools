@@ -1,8 +1,6 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "title": "Генератор Lorem ipsum",
-      "description": "Lorem ipsum — це текст-заповнювач, який зазвичай використовується для демонстрації візуальної форми документа або шрифту без опори на значущий контент",
       "optionsTitle": "Параметри",
       "optionsDescription": "Налаштуйте параметри генерації Lorem Ipsum",
       "resultsTitle": "Згенерований текст",

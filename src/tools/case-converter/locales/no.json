@@ -1,8 +1,6 @@
 {
   "tools": {
     "case-converter": {
-      "title": "Store/små bokstaver-konverter",
-      "description": "Transformer store/små bokstaver i en streng og velg mellom forskjellige formater",
       "cardTitle": "Store/små bokstaver-konverter",
       "cardDescription": "Transformer store/små bokstaver i en streng og velg mellom forskjellige formater.",
       "cardInputTitle": "Tekstinndata",

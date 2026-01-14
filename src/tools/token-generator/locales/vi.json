@@ -1,8 +1,6 @@
 {
   "tools": {
     "token-generator": {
-      "title": "Trình tạo mã thông báo",
-      "description": "Tạo chuỗi ngẫu nhiên với các ký tự bạn muốn, chữ hoa hoặc chữ thường, số và/hoặc ký tự đặc biệt.",
       "characterTypes": "Loại ký tự",
       "uppercase": "Chữ hoa (ABC...)",
       "lowercase": "Chữ thường (abc...)",

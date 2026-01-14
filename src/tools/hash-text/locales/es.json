@@ -1,8 +1,6 @@
 {
   "tools": {
     "hash-text": {
-      "title": "Hash de texto",
-      "description": "Hasee una cadena de texto usando la función que necesite: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 o RIPEMD160",
       "placeholder": "Su cadena para hashear...",
       "yourTextToHash": "Su texto para hashear:",
       "digestEncoding": "Codificación de resumen",

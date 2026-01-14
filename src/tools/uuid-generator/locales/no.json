@@ -1,8 +1,6 @@
 {
   "tools": {
     "uuid-generator": {
-      "title": "UUID-generator",
-      "description": "En Universally Unique Identifier (UUID) er et 128-bits nummer som brukes til å identifisere informasjon i datasystemer. Antallet mulige UUIDs er 16^32, som er 2^128 eller omtrent 3,4x10^38 (det er mye!).",
       "uuidVersion": "UUID-versjon",
       "uuidVersionDescription": "Velg UUID-versjonen som skal genereres.",
       "versionNIL": "NIL",

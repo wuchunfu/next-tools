@@ -1,8 +1,6 @@
 {
   "tools": {
     "token-generator": {
-      "title": "Token generator",
-      "description": "Generate random string with the chars you want, uppercase or lowercase letters, numbers and/or symbols.",
       "characterTypes": "Character types",
       "uppercase": "Uppercase",
       "lowercase": "Lowercase",

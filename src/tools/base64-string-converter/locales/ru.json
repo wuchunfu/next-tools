@@ -1,8 +1,6 @@
 {
   "tools": {
     "base64-string-converter": {
-      "title": "Кодировщик/декодировщик строк Base64",
-      "description": "Просто кодируйте и декодируйте строки в их представление base64.",
       "stringToBase64": "Строка в base64",
       "encodeUrlSafe": "Кодировать URL безопасно",
       "putYourStringHere": "Вставьте вашу строку здесь...",

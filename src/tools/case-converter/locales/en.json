@@ -1,8 +1,6 @@
 {
   "tools": {
     "case-converter": {
-      "title": "Case converter",
-      "description": "Transform the case of a string and choose between different formats",
       "cardTitle": "Case Converter",
       "cardDescription": "Transform the case of a string and choose between different formats.",
       "cardInputTitle": "Text input",

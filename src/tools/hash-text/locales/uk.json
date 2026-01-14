@@ -1,8 +1,6 @@
 {
   "tools": {
     "hash-text": {
-      "title": "Хешувати текст",
-      "description": "Хешуйте текстовий рядок, використовуючи потрібну функцію: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 або RIPEMD160",
       "placeholder": "Ваш рядок для хешування...",
       "yourTextToHash": "Ваш текст для хешування:",
       "digestEncoding": "Кодування дайджесту",

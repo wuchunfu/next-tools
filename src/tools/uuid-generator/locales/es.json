@@ -1,8 +1,6 @@
 {
   "tools": {
     "uuid-generator": {
-      "title": "Generador de UUIDs",
-      "description": "Un Identificador Único Universal (UUID) es un número de 128 bits utilizado para identificar información en sistemas informáticos. El número de UUIDs posibles es 16^32, que es 2^128 o aproximadamente 3,4x10^38 (¡eso es mucho!).",
       "uuidVersion": "Versión UUID",
       "uuidVersionDescription": "Seleccione la versión UUID a generar.",
       "versionNIL": "NIL",

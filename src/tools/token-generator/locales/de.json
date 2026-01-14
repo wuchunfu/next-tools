@@ -1,8 +1,6 @@
 {
   "tools": {
     "token-generator": {
-      "title": "Token-Generator",
-      "description": "Generiere eine zufällige Zeichenfolge mit den von dir gewünschten Zeichen, Groß- oder Kleinbuchstaben, Zahlen und/oder Symbolen.",
       "characterTypes": "Zeichentypen",
       "uppercase": "Großbuchstaben (ABC...)",
       "lowercase": "Kleinbuchstaben (abc...)",

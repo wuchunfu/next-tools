@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-statistics": {
-      "title": "文本统计",
-      "description": "获取文本信息：字符数、单词数、字节大小等。",
       "cardInputTitle": "输入",
       "cardInputDescription": "粘贴或输入文本以即时查看统计信息。",
       "cardResultsTitle": "结果",

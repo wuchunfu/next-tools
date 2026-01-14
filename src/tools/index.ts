@@ -1,6 +1,7 @@
 import type { ToolCategory } from './tools.types';
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
 import { tool as base64FileConverter } from './base64-file-converter';
+import { tool as icoGenerator } from './ico-generator';
 import { tool as base64StringConverter } from './base64-string-converter';
 
 import { tool as basicAuthGenerator } from './basic-auth-generator';
@@ -141,7 +142,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Images and videos',
-    components: [qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator, cameraRecorder],
+    components: [qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator, icoGenerator, cameraRecorder],
   },
   {
     name: 'Development',

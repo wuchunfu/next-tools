@@ -1,8 +1,6 @@
 {
   "tools": {
     "percentage-calculator": {
-      "title": "Máy tính phần trăm",
-      "description": "Dễ dàng tính toán phần trăm từ một giá trị sang giá trị khác, hoặc từ phần trăm sang giá trị.",
       "card1Title": "X% của Y là bao nhiêu?",
       "card1Description": "Tính phần trăm của một giá trị. Nhập phần trăm (X) và giá trị cơ sở (Y) để có kết quả.",
       "card2Title": "X là bao nhiêu phần trăm của Y?",

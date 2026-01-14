@@ -1,8 +1,6 @@
 {
   "tools": {
     "json-prettify": {
-      "title": "JSON prettify and format",
-      "description": "Prettify your JSON string into a friendly, human-readable format.",
       "cardOptionsTitle": "Formatting options",
       "cardOptionsDescription": "Tune indentation and key sorting behavior to match your preferred JSON style.",
       "sortKeys": "Sort keys",

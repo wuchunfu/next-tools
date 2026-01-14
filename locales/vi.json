@@ -7,6 +7,443 @@
     "maybe": "Lỗi xảy ra có thể do bộ nhớ đệm, hãy (CTRL + F5) để tải lại trang?",
     "backHome": "Quay về trang chủ"
   },
+  "tools": {
+    "ascii-text-drawer": {
+      "title": "Trình tạo văn bản ASCII art",
+      "description": "Tạo văn bản ASCII art với nhiều phông chữ và kiểu dáng.",
+      "keywords": "ascii,nghệ thuật ascii,văn bản,trình vẽ"
+    },
+    "base-converter": {
+      "title": "Chuyển đổi cơ số số nguyên",
+      "description": "Chuyển đổi số giữa các cơ số khác nhau (thập phân, thập lục phân, nhị phân, bát phân, base64, ...)",
+      "keywords": "số nguyên,số,cơ số,chuyển đổi,thập phân,thập lục phân,nhị phân,bát phân,base64"
+    },
+    "base64-file-converter": {
+      "title": "Trình chuyển đổi tệp Base64",
+      "description": "Chuyển đổi chuỗi, tệp hoặc hình ảnh thành mã Base64.",
+      "keywords": "base64,trình chuyển đổi,tải lên,hình ảnh,tệp,chuyển đổi,web,dữ liệu,định dạng"
+    },
+    "basic-auth-generator": {
+      "title": "Tạo mã xác thực cơ bản",
+      "description": "Tạo một tiêu đề xác thực cơ bản base64 từ tên người dùng và mật khẩu.",
+      "keywords": "cơ bản,xác thực,trình tạo,tên người dùng,mật khẩu,base64,xác thực,tiêu đề,ủy quyền"
+    },
+    "benchmark-builder": {
+      "title": "Trình tạo bảng đánh giá",
+      "description": "Dễ dàng so sánh thời gian thực thi của các nhiệm vụ với trình tạo bảng đánh giá trực tuyến đơn giản này.",
+      "keywords": "điểm chuẩn,trình xây dựng,thực thi,thời lượng,trung bình,phương sai"
+    },
+    "base64-string-converter": {
+      "title": "Trình mã hóa/giải mã chuỗi Base64",
+      "description": "Đơn giản mã hóa và giải mã chuỗi thành mã Base64.",
+      "keywords": "base64,trình chuyển đổi,chuyển đổi,web,dữ liệu,định dạng,atob,btoa"
+    },
+    "bip39-generator": {
+      "title": "Trình tạo BIP39 passphrase",
+      "description": "Tạo BIP39 passphrase từ mnemonic hiện có hoặc ngẫu nhiên, hoặc lấy mnemonic từ passphrase.",
+      "keywords": "BIP39,cụm mật khẩu,trình tạo,nhớ,mạch"
+    },
+    "camera-recorder": {
+      "title": "Ghi lại camera",
+      "description": "Chụp ảnh hoặc quay video từ webcam hoặc máy ảnh của bạn.",
+      "keywords": "máy ảnh,trình ghi"
+    },
+    "case-converter": {
+      "title": "Chuyển đổi chữ hoa/chữ thường",
+      "description": "Thay đổi kiểu chữ của một chuỗi và chọn giữa các định dạng khác nhau",
+      "keywords": "chữ,trình chuyển đổi,camelCase,capitalCase,constantCase,dotCase,headerCase,noCase,paramCase,pascalCase,pathCase,sentenceCase,snakeCase"
+    },
+    "bcrypt": {
+      "title": "Bcrypt",
+      "description": "Mã hóa và so sánh chuỗi văn bản sử dụng bcrypt. Bcrypt là một hàm mã hóa mật khẩu dựa trên thuật toán Blowfish.",
+      "keywords": "bcrypt,hash,so sánh,mật khẩu,muối,vòng,lưu trữ,mã hóa"
+    },
+    "chronometer": {
+      "title": "Đồng hồ bấm giờ",
+      "description": "Giám sát thời gian của một sự việc. Cơ bản là một đồng hồ bấm giờ với các tính năng đơn giản.",
+      "keywords": "đồng hồ bấm giờ,thời gian,chặng,thời lượng,đo,l tạm dừng,tiếp tục,đồng hồ bấm giờ"
+    },
+    "color-converter": {
+      "title": "Trình chuyển đổi màu",
+      "description": "Chuyển đổi màu giữa các định dạng khác nhau (hex, rgb, hsl và tên css)",
+      "keywords": "màu sắc,trình chuyển đổi"
+    },
+    "chmod-calculator": {
+      "title": "Máy tính Chmod",
+      "description": "Tính toán quyền và lệnh chmod của bạn với máy tính Chmod trực tuyến này.",
+      "keywords": "chmod,máy tính,tệp,quyền,tệp,thư mục,thư mục,đệ quy,trình tạo,bát phân"
+    },
+    "date-converter": {
+      "title": "Chuyển đổi ngày-tháng",
+      "description": "Chuyển đổi ngày và thời gian sang các định dạng khác nhau",
+      "keywords": "ngày,thời gian,trình chuyển đổi,iso,utc,múi giờ,năm,tháng,ngày,phút,giây"
+    },
+    "crontab-generator": {
+      "title": "Trình tạo Crontab",
+      "description": "Xác thực và tạo crontab và lấy mô tả đọc được của lịch trình cron.",
+      "keywords": "crontab,trình tạo,công việc cron,cron,lịch trình,phân tích,biểu thức,năm,tháng,tuần,ngày,phút,giây"
+    },
+    "eta-calculator": {
+      "title": "Máy tính ETA",
+      "description": "Một máy tính ETA (Thời gian dự kiến đến) để biết thời gian kết thúc xấp xỉ của một nhiệm vụ, ví dụ như thời điểm kết thúc của một quá trình tải xuống.",
+      "keywords": "eta,máy tính,ước tính,thời gian,đến,trung bình"
+    },
+    "device-information": {
+      "title": "Thông tin thiết bị",
+      "description": "Lấy thông tin về thiết bị hiện tại của bạn (kích thước màn hình, tỷ lệ pixel, user agent, ...)",
+      "keywords": "thiết bị,thông tin,màn hình,pixel,tỷ lệ,trạng thái,dữ liệu,máy tính,kích thước,người dùng,đại lý"
+    },
+    "git-memo": {
+      "title": "Lệnh Git",
+      "description": "Git là một phần mềm quản lý phiên bản phân tán. Với bảng ghi chú này, bạn sẽ có thể truy cập nhanh vào các lệnh Git phổ biến nhất.",
+      "keywords": "git,đẩy,bắt buộc,kéo,commit,sửa đổi,rebase,hợp nhất,đặt lại,mềm,cứng,thuê"
+    },
+    "hash-text": {
+      "title": "Mã hóa văn bản",
+      "description": "Mã hóa một chuỗi văn bản bằng cách sử dụng các hàm bạn cần: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 hoặc RIPEMD160",
+      "keywords": "hash,tóm tắt,mã hóa,bảo mật,văn bản,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
+    },
+    "emoji-picker": {
+      "title": "Bộ chọn biểu tượng cảm xúc",
+      "description": "Sao chép và dán biểu tượng cảm xúc một cách dễ dàng và nhận giá trị unicode và mã điểm của mỗi biểu tượng cảm xúc.",
+      "keywords": "biểu tượng cảm xúc,trình chọn,unicode,sao chép,dán"
+    },
+    "html-entities": {
+      "title": "Thay thế các ký tự HTML",
+      "description": "Thay thế hoặc bỏ thẻ các ký tự HTML (thay thế <,>, &, \" và \\' thành phiên bản HTML tương ứng)",
+      "keywords": "html,thực thể,thoát,bỏ thoát,đặc biệt,ký tự,thẻ"
+    },
+    "encryption": {
+      "title": "Mã hóa / giải mã văn bản",
+      "description": "Mã hóa và giải mã văn bản rõ bằng cách sử dụng thuật toán mã hóa như AES, TripleDES, Rabbit hoặc RC4.",
+      "keywords": "mật mã,mã hóa,văn bản,AES,TripleDES,Rabbit,RC4"
+    },
+    "hmac-generator": {
+      "title": "Máy tạo HMAC",
+      "description": "Tính toán mã xác thực thông điệp dựa trên hash (HMAC) sử dụng một khóa bí mật và hàm băm yêu thích của bạn.",
+      "keywords": "hmac,trình tạo,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
+    },
+    "http-status-codes": {
+      "title": "Mã trạng thái HTTP",
+      "description": "Danh sách tất cả các mã trạng thái HTTP, tên và ý nghĩa của chúng.",
+      "keywords": "http,trạng thái,mã,mã trạng thái"
+    },
+    "iban-validator-and-parser": {
+      "title": "Kiểm tra và phân tích số IBAN",
+      "description": "Xác thực và phân tích số IBAN. Kiểm tra tính hợp lệ của IBAN và lấy thông tin về quốc gia, BBAN, xem có phải là QR-IBAN và định dạng thân thiện của IBAN.",
+      "keywords": "iban,trình xác thực,và,trình phân tích,bic,ngân hàng"
+    },
+    "ico-generator": {
+      "title": "Trình tạo ICO",
+      "description": "Tạo tệp ICO từ hình ảnh. Chuyển đổi PNG, JPEG hoặc các định dạng hình ảnh khác thành tệp ICO với nhiều kích thước biểu tượng cho favicon và ứng dụng Windows.",
+      "keywords": "ico,biểu tượng,favicon,trình tạo,chuyển đổi,hình ảnh,png,jpeg,windows,chuyển đổi"
+    },
+    "email-normalizer": {
+      "title": "Bộ chuẩn hóa email",
+      "description": "Chuẩn hóa địa chỉ email sang định dạng chuẩn để dễ so sánh. Hữu ích cho việc loại bỏ trùng lặp và làm sạch dữ liệu.",
+      "keywords": "email,bộ chuẩn hóa"
+    },
+    "html-wysiwyg-editor": {
+      "title": "Trình soạn thảo HTML WYSIWYG",
+      "description": "Trình soạn thảo HTML trực tuyến với trình soạn thảo WYSIWYG đa chức năng, lấy mã nguồn của nội dung ngay lập tức.",
+      "keywords": "html,wysiwyg,trình soạn thảo,p,ul,ol,trình chuyển đổi,sống"
+    },
+    "ipv4-address-converter": {
+      "title": "Chuyển đổi địa chỉ Ipv4",
+      "description": "Chuyển đổi địa chỉ ip thành số thập phân, nhị phân, thập lục phân hoặc thậm chí thành ipv6",
+      "keywords": "ipv4,địa chỉ,trình chuyển đổi,thập phân,thập lục phân,nhị phân,ipv6"
+    },
+    "ipv4-range-expander": {
+      "title": "Mở rộng dải IPv4",
+      "description": "Cho một địa chỉ IPv4 bắt đầu và kết thúc, công cụ này tính toán một mạng IPv4 hợp lệ với ký hiệu CIDR của nó.",
+      "keywords": "ipv4,phạm vi,mở rộng,mạng con,trình tạo,cidr"
+    },
+    "json-minify": {
+      "title": "Giảm kích thước JSON",
+      "description": "Giảm kích thước và nén JSON của bạn bằng cách loại bỏ khoảng trắng không cần thiết.",
+      "keywords": "json,giảm kích thước,định dạng"
+    },
+    "ipv6-ula-generator": {
+      "title": "Trình tạo địa chỉ IPv6 ULA",
+      "description": "Tạo địa chỉ IP cục bộ, không thể định tuyến trên mạng của bạn theo RFC4193.",
+      "keywords": "ipv6,ula,trình tạo,rfc4193,mạng,riêng tư"
+    },
+    "json-to-csv": {
+      "title": "Chuyển đổi JSON thành CSV",
+      "description": "Chuyển đổi JSON thành CSV với việc tự động phát hiện tiêu đề.",
+      "keywords": "json,sang,csv,chuyển đổi"
+    },
+    "json-to-toml": {
+      "title": "Chuyển đổi JSON sang TOML",
+      "description": "Phân tích và chuyển đổi JSON sang TOML.",
+      "keywords": "json,phân tích,toml,chuyển đổi,chuyển đổi"
+    },
+    "json-prettify": {
+      "title": "Định dạng và làm đẹp JSON",
+      "description": "Định dạng chuỗi JSON của bạn thành một định dạng dễ đọc và thân thiện với con người.",
+      "keywords": "json,trình xem,làm đẹp,định dạng"
+    },
+    "json-diff": {
+      "title": "So sánh JSON",
+      "description": "So sánh hai đối tượng JSON và lấy ra sự khác biệt giữa chúng.",
+      "keywords": "json,khác biệt,so sánh,khác biệt,đối tượng,dữ liệu"
+    },
+    "json-to-yaml-converter": {
+      "title": "JSON sang YAML",
+      "description": "Chuyển đổi đơn giản JSON sang YAML với công cụ chuyển đổi trực tuyến này.",
+      "keywords": "yaml,sang,json"
+    },
+    "jwt-parser": {
+      "title": "Giải mã JWT",
+      "description": "Giải mã và hiển thị nội dung của JSON Web Token (jwt).",
+      "keywords": "jwt,trình phân tích,giải mã,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,mã thông báo"
+    },
+    "ipv4-subnet-calculator": {
+      "title": "Máy tính mạng con IPv4",
+      "description": "Phân tích các khối CIDR IPv4 của bạn và nhận thông tin về mạng con của bạn.",
+      "keywords": "ipv4,mạng con,máy tính,mặt nạ,mạng,cidr,mặt nạ mạng,mặt nạ bit,phát sóng,địa chỉ"
+    },
+    "keycode-info": {
+      "title": "Thông tin Keycode",
+      "description": "Tìm mã keycode, mã, vị trí và các phím điều khiển của bất kỳ phím nào được nhấn.",
+      "keywords": "mã phím,thông tin,mã,javascript,sự kiện,mã phím,nào,bàn phím,nhấn,sửa đổi,alt,ctrl,meta,shift"
+    },
+    "lorem-ipsum-generator": {
+      "title": "Máy tạo văn bản Lorem ipsum",
+      "description": "Lorem ipsum là một đoạn văn bản giả được sử dụng phổ biến để thể hiện hình thức của một tài liệu hoặc một kiểu chữ mà không cần dựa vào nội dung có ý nghĩa",
+      "keywords": "lorem,ipsum,dolor,sit,amet,trình giữ chỗ,văn bản,điền,ngẫu nhiên,trình tạo"
+    },
+    "mac-address-lookup": {
+      "title": "Tra cứu địa chỉ MAC",
+      "description": "Tìm nhà sản xuất và nhà cung cấp của thiết bị dựa trên địa chỉ MAC.",
+      "keywords": "mac,địa chỉ,tra cứu,nhà cung cấp,trình phân tích,nhà sản xuất"
+    },
+    "list-converter": {
+      "title": "Trình chuyển đổi danh sách",
+      "description": "Công cụ này có thể xử lý dữ liệu dựa trên cột và áp dụng các thay đổi khác nhau (đảo ngược, thêm tiền tố và hậu tố, đảo danh sách, sắp xếp danh sách, giảm giá trị thành chữ thường, cắt giá trị) cho mỗi hàng.",
+      "keywords": "danh sách,trình chuyển đổi,sắp xếp,đảo ngược,tiền tố,hậu tố,chữ thường,cắt ngắn"
+    },
+    "json-to-xml": {
+      "title": "JSON sang XML",
+      "description": "Chuyển JSON sang XML",
+      "keywords": "json,xml"
+    },
+    "markdown-to-html": {
+      "title": "Markdown sang HTML",
+      "description": "Chuyển Markdown sang HTML và in ra PDF",
+      "keywords": "markdown,html,trình chuyển đổi,pdf"
+    },
+    "numeronym-generator": {
+      "title": "Trình tạo Numeronym",
+      "description": "Numeronym là một từ mà một số được sử dụng để tạo thành một từ viết tắt. Ví dụ, \"i18n\" là một numeronym của \"internationalization\" trong đó số 18 đại diện cho số chữ cái giữa chữ i đầu tiên và chữ n cuối cùng trong từ.",
+      "keywords": "numeronym,trình tạo,từ viết tắt,i18n,a11y,l10n"
+    },
+    "otp-generator": {
+      "title": "Tạo mã OTP",
+      "description": "Tạo và xác thực mã OTP (mật khẩu một lần) dựa trên thời gian cho xác thực đa yếu tố.",
+      "keywords": "otp,mã,trình tạo,trình xác thực,một,thời gian,mật khẩu,xác thực,mfa,di động,thiết bị,bảo mật,TOTP,thời gian,hmac"
+    },
+    "math-evaluator": {
+      "title": "Trình đánh giá toán học",
+      "description": "Một máy tính để tính toán biểu thức toán học. Bạn có thể sử dụng các hàm như sqrt, cos, sin, abs, v.v.",
+      "keywords": "toán học,trình đánh giá,máy tính,biểu thức,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh"
+    },
+    "mime-types": {
+      "title": "Loại Mime",
+      "description": "Chuyển đổi loại mime thành phần mở rộng và ngược lại.",
+      "keywords": "mime,loại,phần mở rộng,nội dung,loại"
+    },
+    "og-meta-generator": {
+      "title": "Trình tạo meta Open Graph",
+      "description": "Tạo các thẻ meta HTML Open Graph và mạng xã hội cho trang web của bạn.",
+      "keywords": "meta,thẻ,trình tạo,xã hội,tiêu đề,mô tả,hình ảnh,chia sẻ,trực tuyến,trang web,mở,biểu đồ,og"
+    },
+    "mac-address-generator": {
+      "title": "Trình tạo địa chỉ MAC",
+      "description": "Nhập số lượng và tiền tố. Địa chỉ MAC sẽ được tạo ra theo kiểu chữ hoa hoặc chữ thường theo lựa chọn của bạn",
+      "keywords": "mac,địa chỉ,trình tạo,ngẫu nhiên,tiền tố"
+    },
+    "pdf-signature-checker": {
+      "title": "Kiểm tra chữ ký PDF",
+      "description": "Xác minh chữ ký của một tệp PDF. Một tệp PDF đã được ký có chứa một hoặc nhiều chữ ký có thể được sử dụng để xác định xem nội dung của tệp đã được thay đổi kể từ khi tệp được ký.",
+      "keywords": "pdf,chữ ký,trình kiểm tra,xác minh,xác minh,ký"
+    },
+    "password-strength-analyser": {
+      "title": "Bộ phân tích độ mạnh mật khẩu",
+      "description": "Khám phá độ mạnh của mật khẩu của bạn với công cụ phân tích độ mạnh mật khẩu chỉ chạy trên phía máy khách và ước tính thời gian phá mật khẩu.",
+      "keywords": "mật khẩu,độ mạnh,bộ phân tích,và,phá,thời gian,ước tính,brute,force,attack,entropy,cracking,hash,hashing,thuật toán,thuật toán,md5,sha1,sha256,sha512,bcrypt,scrypt,argon2,argon2id,argon2i,argon2d"
+    },
+    "phone-parser-and-formatter": {
+      "title": "Trình phân tích và định dạng số điện thoại",
+      "description": "Phân tích, xác thực và định dạng số điện thoại. Lấy thông tin về số điện thoại, như mã quốc gia, loại, v.v.",
+      "keywords": "điện thoại,trình phân tích,trình định dạng,xác thực,định dạng,số,điện thoại,di động,di động,quốc tế,quốc gia"
+    },
+    "qrcode-generator": {
+      "title": "Tạo mã QR",
+      "description": "Tạo và tải xuống mã QR cho một URL hoặc chỉ một đoạn văn bản và tùy chỉnh màu nền và màu chữ.",
+      "keywords": "qr,mã,trình tạo,vuông,màu,sắc,liên kết,thấp,trung bình,phân vị,cao,trong suốt"
+    },
+    "percentage-calculator": {
+      "title": "Máy tính phần trăm",
+      "description": "Dễ dàng tính toán phần trăm từ một giá trị đến giá trị khác, hoặc từ một phần trăm đến một giá trị.",
+      "keywords": "phần trăm,máy tính,tính toán,giá trị,số,%"
+    },
+    "roman-numeral-converter": {
+      "title": "Bộ chuyển đổi số La Mã",
+      "description": "Chuyển đổi số La Mã thành số và chuyển đổi số thành số La Mã.",
+      "keywords": "La Mã,Ả Rập,trình chuyển đổi,X,I,V,L,C,D,M"
+    },
+    "regex-tester": {
+      "title": "Trình kiểm tra Regex",
+      "description": "Kiểm tra biểu thức chính quy của bạn với văn bản mẫu.",
+      "keywords": "biểu thức chính quy,trình kiểm tra,mẫu,biểu thức"
+    },
+    "regex-memo": {
+      "title": "Bảng tham khảo Regex",
+      "description": "Bảng tham khảo Regex/Biểu thức chính quy Javascript",
+      "keywords": "biểu thức chính quy,thường xuyên,biểu thức,javascript,bản ghi nhớ,bảng cheat"
+    },
+    "random-port-generator": {
+      "title": "Trình tạo số cổng ngẫu nhiên",
+      "description": "Tạo số cổng ngẫu nhiên nằm ngoài phạm vi của các cổng \"biết được\" (0-1023).",
+      "keywords": "hệ thống,cổng,mạng cục bộ,trình tạo,ngẫu nhiên,phát triển,máy tính"
+    },
+    "rsa-key-pair-generator": {
+      "title": "Trình tạo cặp khóa RSA",
+      "description": "Tạo các chứng chỉ pem khóa riêng tư và khóa công khai RSA ngẫu nhiên mới.",
+      "keywords": "rsa,khóa,cặp,trình tạo,công khai,riêng tư,bí mật,ssh,pem"
+    },
+    "sql-prettify": {
+      "title": "Định dạng và làm đẹp SQL",
+      "description": "Định dạng và làm đẹp các truy vấn SQL của bạn trực tuyến (hỗ trợ nhiều ngôn ngữ SQL khác nhau).",
+      "keywords": "sql,làm đẹp,làm đẹp,GCP BigQuery,IBM DB2,Apache Hive,MariaDB,MySQL,Couchbase N1QL,Oracle PL/SQL,PostgreSQL,Amazon Redshift,Spark,SQL Server Transact-SQL"
+    },
+    "safelink-decoder": {
+      "title": "Outlook Safelink Giải mã",
+      "description": "Giải mã liên kết Outlook SafeLink",
+      "keywords": "outlook,safelink,giải mã"
+    },
+    "svg-placeholder-generator": {
+      "title": "Trình tạo hình ảnh SVG giả định",
+      "description": "Tạo hình ảnh svg để sử dụng làm giả định trong ứng dụng của bạn.",
+      "keywords": "svg,trình giữ chỗ,trình tạo,hình ảnh,kích thước,mô hình"
+    },
+    "string-obfuscator": {
+      "title": "Mã hóa chuỗi",
+      "description": "Mã hóa một chuỗi (như một bí mật, một IBAN hoặc một mã thông báo) để có thể chia sẻ và nhận dạng mà không tiết lộ nội dung.",
+      "keywords": "chuỗi,trình làm mờ,bí mật,mã thông báo,ẩn,che khuất,mặt nạ,che mặt"
+    },
+    "temperature-converter": {
+      "title": "Bộ chuyển đổi nhiệt độ",
+      "description": "Chuyển đổi độ nhiệt độ cho Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur và Rømer.",
+      "keywords": "nhiệt độ,trình chuyển đổi,độ,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer"
+    },
+    "slugify-string": {
+      "title": "Chuyển đổi chuỗi thành slug",
+      "description": "Biến đổi chuỗi thành dạng an toàn để sử dụng trong URL, tên file và ID.",
+      "keywords": "slugify,chuỗi,thoát,biểu tượng cảm xúc,đặc biệt,ký tự,khoảng trắng,cắt"
+    },
+    "text-diff": {
+      "title": "So sánh văn bản",
+      "description": "So sánh hai văn bản và xem sự khác biệt giữa chúng.",
+      "keywords": "văn bản,khác biệt,so sánh,chuỗi,khác biệt văn bản,mã"
+    },
+    "text-statistics": {
+      "title": "Thống kê văn bản",
+      "description": "Lấy thông tin về một văn bản, số ký tự, số từ, kích thước của nó, ...",
+      "keywords": "văn bản,thống kê,độ dài,ký tự,đếm,kích thước,byte"
+    },
+    "text-to-binary": {
+      "title": "Chuyển đổi văn bản thành nhị phân ASCII",
+      "description": "Chuyển đổi văn bản thành biểu diễn nhị phân ASCII và ngược lại.",
+      "keywords": "văn bản,sang,nhị phân,trình chuyển đổi,mã hóa,giải mã,ascii"
+    },
+    "text-to-nato-alphabet": {
+      "title": "Chuyển đổi văn bản thành bảng chữ cái NATO",
+      "description": "Chuyển đổi văn bản thành bảng chữ cái phiên âm NATO để truyền tải bằng miệng.",
+      "keywords": "chuỗi,nato,bảng chữ cái,phiên âm,bằng lời,truyền tải"
+    },
+    "text-to-unicode": {
+      "title": "Chuyển đổi văn bản thành Unicode",
+      "description": "Phân tích và chuyển đổi văn bản thành Unicode và ngược lại",
+      "keywords": "văn bản,sang,unicode"
+    },
+    "token-generator": {
+      "title": "Trình tạo mã thông báo",
+      "description": "Tạo chuỗi ngẫu nhiên với các ký tự bạn muốn, chữ hoa hoặc chữ thường, số và/hoặc ký tự đặc biệt.",
+      "keywords": "mã thông báo,ngẫu nhiên,chuỗi,chữ và số,ký hiệu,số,chữ,chữ thường,chữ hoa,mật khẩu"
+    },
+    "toml-to-yaml": {
+      "title": "TOML sang YAML",
+      "description": "Phân tích và chuyển đổi TOML thành YAML.",
+      "keywords": "toml,yaml,chuyển đổi,trực tuyến,chuyển đổi,phân tích"
+    },
+    "toml-to-json": {
+      "title": "TOML sang JSON",
+      "description": "Phân tích và chuyển đổi TOML thành JSON.",
+      "keywords": "toml,json,chuyển đổi,trực tuyến,chuyển đổi,trình phân tích"
+    },
+    "url-encoder": {
+      "title": "Mã hóa/giải mã chuỗi định dạng URL",
+      "description": "Mã hóa thành định dạng URL (còn được gọi là \"percent-encoded\") hoặc giải mã từ đó.",
+      "keywords": "url,mã hóa,giải mã,phần trăm,%20,định dạng"
+    },
+    "user-agent-parser": {
+      "title": "Trình phân tích User-agent",
+      "description": "Phát hiện và phân tích trình duyệt, engine, hệ điều hành, CPU và kiểu/mô hình thiết bị từ chuỗi user-agent.",
+      "keywords": "người dùng,đại lý,trình phân tích,trình duyệt,công cụ,hệ điều hành,cpu,thiết bị,user-agent,ứng dụng khách"
+    },
+    "xml-formatter": {
+      "title": "Định dạng XML",
+      "description": "Định dạng chuỗi XML của bạn thành một định dạng dễ đọc và thân thiện với con người.",
+      "keywords": "xml,làm đẹp,định dạng"
+    },
+    "wifi-qrcode-generator": {
+      "title": "Tạo mã QR WiFi",
+      "description": "Tạo và tải xuống mã QR để kết nối nhanh đến mạng WiFi.",
+      "keywords": "qr,mã,trình tạo,vuông,màu,sắc,liên kết,thấp,trung bình,phân vị,cao,trong suốt,wifi"
+    },
+    "uuid-generator": {
+      "title": "Trình tạo UUID",
+      "description": "Một UUID (Universally Unique Identifier) là một số 128 bit được sử dụng để xác định thông tin trong hệ thống máy tính. Số lượng UUID có thể có là 16^32, tương đương với 2^128 hoặc khoảng 3.4x10^38 (rất lớn!).",
+      "keywords": "uuid,v4,ngẫu nhiên,id,chữ và số,danh tính,mã thông báo,chuỗi,định danh,duy nhất,v1,v3,v5,nil"
+    },
+    "yaml-prettify": {
+      "title": "Định dạng và làm đẹp YAML",
+      "description": "Định dạng chuỗi YAML của bạn thành một định dạng dễ đọc và thân thiện với con người.",
+      "keywords": "yaml,trình xem,làm đẹp,định dạng"
+    },
+    "xml-to-json": {
+      "title": "XML sang JSON",
+      "description": "Chuyển XML sang JSON",
+      "keywords": "xml,json"
+    },
+    "url-parser": {
+      "title": "Trình phân tích URL",
+      "description": "Phân tích một chuỗi URL để lấy tất cả các phần khác nhau (giao thức, nguồn gốc, tham số, cổng, tên người dùng-mật khẩu, ...)",
+      "keywords": "url,trình phân tích,giao thức,nguồn gốc,tham số,cổng,tên người dùng,mật khẩu,href"
+    },
+    "yaml-to-toml": {
+      "title": "YAML sang TOML",
+      "description": "Phân tích và chuyển đổi YAML sang TOML.",
+      "keywords": "yaml,sang,toml,chuyển đổi,chuyển đổi"
+    },
+    "ulid-generator": {
+      "title": "Tạo ULID",
+      "description": "Tạo ngẫu nhiên mã định danh duy nhất có thể sắp xếp theo thứ tự từ điển (ULID).",
+      "keywords": "ulid,trình tạo,ngẫu nhiên,id,chữ và số,danh tính,mã thông báo,chuỗi,định danh,duy nhất"
+    },
+    "docker-run-to-docker-compose-converter": {
+      "title": "Chuyển đổi lệnh docker run thành tệp docker-compose",
+      "description": "Chuyển đổi các lệnh docker run thành tệp docker-compose!",
+      "keywords": "docker,chạy,compose,yaml,yml,chuyển đổi,daemon"
+    },
+    "yaml-to-json-converter": {
+      "title": "YAML sang JSON",
+      "description": "Chuyển đổi YAML sang JSON một cách đơn giản với công cụ chuyển đổi trực tuyến này.",
+      "keywords": "yaml,sang,json"
+    }
+  },
   "home": {
     "title": "Next-Tools - Công cụ trực tuyến hữu ích cho nhà phát triển",
     "description": "Next-Tools là bộ sưu tập các công cụ trực tuyến hữu ích cho nhà phát triển, với trải nghiệm người dùng tuyệt vời.",
@@ -151,438 +588,6 @@
     "measurement": "Đo lường",
     "text": "Văn bản",
     "data": "Dữ liệu"
-  },
-  "tools": {
-    "markdown-to-html": {
-      "title": "Markdown sang HTML",
-      "description": "Chuyển Markdown sang HTML và in ra PDF",
-      "keywords": "markdown,html,trình chuyển đổi,pdf"
-    },
-    "json-to-xml": {
-      "title": "JSON sang XML",
-      "description": "Chuyển JSON sang XML",
-      "keywords": "json,xml"
-    },
-    "xml-to-json": {
-      "title": "XML sang JSON",
-      "description": "Chuyển XML sang JSON",
-      "keywords": "xml,json"
-    },
-    "password-strength-analyser": {
-      "title": "Bộ phân tích độ mạnh mật khẩu",
-      "description": "Khám phá độ mạnh của mật khẩu của bạn với công cụ phân tích độ mạnh mật khẩu chỉ chạy trên phía máy khách và ước tính thời gian phá mật khẩu.",
-      "keywords": "mật khẩu,độ mạnh,bộ phân tích,và,phá,thời gian,ước tính,brute,force,attack,entropy,cracking,hash,hashing,thuật toán,thuật toán,md5,sha1,sha256,sha512,bcrypt,scrypt,argon2,argon2id,argon2i,argon2d"
-    },
-    "chronometer": {
-      "title": "Đồng hồ bấm giờ",
-      "description": "Giám sát thời gian của một sự việc. Cơ bản là một đồng hồ bấm giờ với các tính năng đơn giản.",
-      "keywords": "đồng hồ bấm giờ,thời gian,chặng,thời lượng,đo,l tạm dừng,tiếp tục,đồng hồ bấm giờ"
-    },
-    "token-generator": {
-      "title": "Trình tạo mã thông báo",
-      "description": "Tạo chuỗi ngẫu nhiên với các ký tự bạn muốn, chữ hoa hoặc chữ thường, số và/hoặc ký tự đặc biệt.",
-      "keywords": "mã thông báo,ngẫu nhiên,chuỗi,chữ và số,ký hiệu,số,chữ,chữ thường,chữ hoa,mật khẩu"
-    },
-    "percentage-calculator": {
-      "title": "Máy tính phần trăm",
-      "description": "Dễ dàng tính toán phần trăm từ một giá trị đến giá trị khác, hoặc từ một phần trăm đến một giá trị.",
-      "keywords": "phần trăm,máy tính,tính toán,giá trị,số,%"
-    },
-    "svg-placeholder-generator": {
-      "title": "Trình tạo hình ảnh SVG giả định",
-      "description": "Tạo hình ảnh svg để sử dụng làm giả định trong ứng dụng của bạn.",
-      "keywords": "svg,trình giữ chỗ,trình tạo,hình ảnh,kích thước,mô hình"
-    },
-    "json-to-csv": {
-      "title": "Chuyển đổi JSON thành CSV",
-      "description": "Chuyển đổi JSON thành CSV với việc tự động phát hiện tiêu đề.",
-      "keywords": "json,sang,csv,chuyển đổi"
-    },
-    "camera-recorder": {
-      "title": "Ghi lại camera",
-      "description": "Chụp ảnh hoặc quay video từ webcam hoặc máy ảnh của bạn.",
-      "keywords": "máy ảnh,trình ghi"
-    },
-    "keycode-info": {
-      "title": "Thông tin Keycode",
-      "description": "Tìm mã keycode, mã, vị trí và các phím điều khiển của bất kỳ phím nào được nhấn.",
-      "keywords": "mã phím,thông tin,mã,javascript,sự kiện,mã phím,nào,bàn phím,nhấn,sửa đổi,alt,ctrl,meta,shift"
-    },
-    "regex-memo": {
-      "title": "Bảng tham khảo Regex",
-      "description": "Bảng tham khảo Regex/Biểu thức chính quy Javascript",
-      "keywords": "biểu thức chính quy,thường xuyên,biểu thức,javascript,bản ghi nhớ,bảng cheat"
-    },
-    "emoji-picker": {
-      "title": "Bộ chọn biểu tượng cảm xúc",
-      "description": "Sao chép và dán biểu tượng cảm xúc một cách dễ dàng và nhận giá trị unicode và mã điểm của mỗi biểu tượng cảm xúc.",
-      "keywords": "biểu tượng cảm xúc,trình chọn,unicode,sao chép,dán"
-    },
-    "color-converter": {
-      "title": "Trình chuyển đổi màu",
-      "description": "Chuyển đổi màu giữa các định dạng khác nhau (hex, rgb, hsl và tên css)",
-      "keywords": "màu sắc,trình chuyển đổi"
-    },
-    "bcrypt": {
-      "title": "Bcrypt",
-      "description": "Mã hóa và so sánh chuỗi văn bản sử dụng bcrypt. Bcrypt là một hàm mã hóa mật khẩu dựa trên thuật toán Blowfish.",
-      "keywords": "bcrypt,hash,so sánh,mật khẩu,muối,vòng,lưu trữ,mã hóa"
-    },
-    "crontab-generator": {
-      "title": "Trình tạo Crontab",
-      "description": "Xác thực và tạo crontab và lấy mô tả đọc được của lịch trình cron.",
-      "keywords": "crontab,trình tạo,công việc cron,cron,lịch trình,phân tích,biểu thức,năm,tháng,tuần,ngày,phút,giây"
-    },
-    "http-status-codes": {
-      "title": "Mã trạng thái HTTP",
-      "description": "Danh sách tất cả các mã trạng thái HTTP, tên và ý nghĩa của chúng.",
-      "keywords": "http,trạng thái,mã,mã trạng thái"
-    },
-    "sql-prettify": {
-      "title": "Định dạng và làm đẹp SQL",
-      "description": "Định dạng và làm đẹp các truy vấn SQL của bạn trực tuyến (hỗ trợ nhiều ngôn ngữ SQL khác nhau).",
-      "keywords": "sql,làm đẹp,làm đẹp,GCP BigQuery,IBM DB2,Apache Hive,MariaDB,MySQL,Couchbase N1QL,Oracle PL/SQL,PostgreSQL,Amazon Redshift,Spark,SQL Server Transact-SQL"
-    },
-    "benchmark-builder": {
-      "title": "Trình tạo bảng đánh giá",
-      "description": "Dễ dàng so sánh thời gian thực thi của các nhiệm vụ với trình tạo bảng đánh giá trực tuyến đơn giản này.",
-      "keywords": "điểm chuẩn,trình xây dựng,thực thi,thời lượng,trung bình,phương sai"
-    },
-    "git-memo": {
-      "title": "Lệnh Git",
-      "description": "Git là một phần mềm quản lý phiên bản phân tán. Với bảng ghi chú này, bạn sẽ có thể truy cập nhanh vào các lệnh Git phổ biến nhất.",
-      "keywords": "git,đẩy,bắt buộc,kéo,commit,sửa đổi,rebase,hợp nhất,đặt lại,mềm,cứng,thuê"
-    },
-    "safelink-decoder": {
-      "title": "Outlook Safelink Giải mã",
-      "description": "Giải mã liên kết Outlook SafeLink",
-      "keywords": "outlook,safelink,giải mã"
-    },
-    "slugify-string": {
-      "title": "Chuyển đổi chuỗi thành slug",
-      "description": "Biến đổi chuỗi thành dạng an toàn để sử dụng trong URL, tên file và ID.",
-      "keywords": "slugify,chuỗi,thoát,biểu tượng cảm xúc,đặc biệt,ký tự,khoảng trắng,cắt"
-    },
-    "encryption": {
-      "title": "Mã hóa / giải mã văn bản",
-      "description": "Mã hóa và giải mã văn bản rõ bằng cách sử dụng thuật toán mã hóa như AES, TripleDES, Rabbit hoặc RC4.",
-      "keywords": "mật mã,mã hóa,văn bản,AES,TripleDES,Rabbit,RC4"
-    },
-    "random-port-generator": {
-      "title": "Trình tạo số cổng ngẫu nhiên",
-      "description": "Tạo số cổng ngẫu nhiên nằm ngoài phạm vi của các cổng \"biết được\" (0-1023).",
-      "keywords": "hệ thống,cổng,mạng cục bộ,trình tạo,ngẫu nhiên,phát triển,máy tính"
-    },
-    "yaml-prettify": {
-      "title": "Định dạng và làm đẹp YAML",
-      "description": "Định dạng chuỗi YAML của bạn thành một định dạng dễ đọc và thân thiện với con người.",
-      "keywords": "yaml,trình xem,làm đẹp,định dạng"
-    },
-    "email-normalizer": {
-      "title": "Bộ chuẩn hóa email",
-      "description": "Chuẩn hóa địa chỉ email sang định dạng chuẩn để dễ so sánh. Hữu ích cho việc loại bỏ trùng lặp và làm sạch dữ liệu.",
-      "keywords": "email,bộ chuẩn hóa"
-    },
-    "ascii-text-drawer": {
-      "title": "Trình tạo văn bản ASCII art",
-      "description": "Tạo văn bản ASCII art với nhiều phông chữ và kiểu dáng.",
-      "keywords": "ascii,nghệ thuật ascii,văn bản,trình vẽ"
-    },
-    "regex-tester": {
-      "title": "Trình kiểm tra Regex",
-      "description": "Kiểm tra biểu thức chính quy của bạn với văn bản mẫu.",
-      "keywords": "biểu thức chính quy,trình kiểm tra,mẫu,biểu thức"
-    },
-    "eta-calculator": {
-      "title": "Máy tính ETA",
-      "description": "Một máy tính ETA (Thời gian dự kiến đến) để biết thời gian kết thúc xấp xỉ của một nhiệm vụ, ví dụ như thời điểm kết thúc của một quá trình tải xuống.",
-      "keywords": "eta,máy tính,ước tính,thời gian,đến,trung bình"
-    },
-    "roman-numeral-converter": {
-      "title": "Bộ chuyển đổi số La Mã",
-      "description": "Chuyển đổi số La Mã thành số và chuyển đổi số thành số La Mã.",
-      "keywords": "La Mã,Ả Rập,trình chuyển đổi,X,I,V,L,C,D,M"
-    },
-    "hmac-generator": {
-      "title": "Máy tạo HMAC",
-      "description": "Tính toán mã xác thực thông điệp dựa trên hash (HMAC) sử dụng một khóa bí mật và hàm băm yêu thích của bạn.",
-      "keywords": "hmac,trình tạo,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
-    },
-    "bip39-generator": {
-      "title": "Trình tạo BIP39 passphrase",
-      "description": "Tạo BIP39 passphrase từ mnemonic hiện có hoặc ngẫu nhiên, hoặc lấy mnemonic từ passphrase.",
-      "keywords": "BIP39,cụm mật khẩu,trình tạo,nhớ,mạch"
-    },
-    "base64-file-converter": {
-      "title": "Trình chuyển đổi tệp Base64",
-      "description": "Chuyển đổi chuỗi, tệp hoặc hình ảnh thành mã Base64.",
-      "keywords": "base64,trình chuyển đổi,tải lên,hình ảnh,tệp,chuyển đổi,web,dữ liệu,định dạng"
-    },
-    "list-converter": {
-      "title": "Trình chuyển đổi danh sách",
-      "description": "Công cụ này có thể xử lý dữ liệu dựa trên cột và áp dụng các thay đổi khác nhau (đảo ngược, thêm tiền tố và hậu tố, đảo danh sách, sắp xếp danh sách, giảm giá trị thành chữ thường, cắt giá trị) cho mỗi hàng.",
-      "keywords": "danh sách,trình chuyển đổi,sắp xếp,đảo ngược,tiền tố,hậu tố,chữ thường,cắt ngắn"
-    },
-    "base64-string-converter": {
-      "title": "Trình mã hóa/giải mã chuỗi Base64",
-      "description": "Đơn giản mã hóa và giải mã chuỗi thành mã Base64.",
-      "keywords": "base64,trình chuyển đổi,chuyển đổi,web,dữ liệu,định dạng,atob,btoa"
-    },
-    "toml-to-yaml": {
-      "title": "TOML sang YAML",
-      "description": "Phân tích và chuyển đổi TOML thành YAML.",
-      "keywords": "toml,yaml,chuyển đổi,trực tuyến,chuyển đổi,phân tích"
-    },
-    "math-evaluator": {
-      "title": "Trình đánh giá toán học",
-      "description": "Một máy tính để tính toán biểu thức toán học. Bạn có thể sử dụng các hàm như sqrt, cos, sin, abs, v.v.",
-      "keywords": "toán học,trình đánh giá,máy tính,biểu thức,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh"
-    },
-    "json-to-yaml-converter": {
-      "title": "JSON sang YAML",
-      "description": "Chuyển đổi đơn giản JSON sang YAML với công cụ chuyển đổi trực tuyến này.",
-      "keywords": "yaml,sang,json"
-    },
-    "url-parser": {
-      "title": "Trình phân tích URL",
-      "description": "Phân tích một chuỗi URL để lấy tất cả các phần khác nhau (giao thức, nguồn gốc, tham số, cổng, tên người dùng-mật khẩu, ...)",
-      "keywords": "url,trình phân tích,giao thức,nguồn gốc,tham số,cổng,tên người dùng,mật khẩu,href"
-    },
-    "iban-validator-and-parser": {
-      "title": "Kiểm tra và phân tích số IBAN",
-      "description": "Xác thực và phân tích số IBAN. Kiểm tra tính hợp lệ của IBAN và lấy thông tin về quốc gia, BBAN, xem có phải là QR-IBAN và định dạng thân thiện của IBAN.",
-      "keywords": "iban,trình xác thực,và,trình phân tích,bic,ngân hàng"
-    },
-    "user-agent-parser": {
-      "title": "Trình phân tích User-agent",
-      "description": "Phát hiện và phân tích trình duyệt, engine, hệ điều hành, CPU và kiểu/mô hình thiết bị từ chuỗi user-agent.",
-      "keywords": "người dùng,đại lý,trình phân tích,trình duyệt,công cụ,hệ điều hành,cpu,thiết bị,user-agent,ứng dụng khách"
-    },
-    "numeronym-generator": {
-      "title": "Trình tạo Numeronym",
-      "description": "Numeronym là một từ mà một số được sử dụng để tạo thành một từ viết tắt. Ví dụ, \"i18n\" là một numeronym của \"internationalization\" trong đó số 18 đại diện cho số chữ cái giữa chữ i đầu tiên và chữ n cuối cùng trong từ.",
-      "keywords": "numeronym,trình tạo,từ viết tắt,i18n,a11y,l10n"
-    },
-    "case-converter": {
-      "title": "Chuyển đổi chữ hoa/chữ thường",
-      "description": "Thay đổi kiểu chữ của một chuỗi và chọn giữa các định dạng khác nhau",
-      "keywords": "chữ,trình chuyển đổi,camelCase,capitalCase,constantCase,dotCase,headerCase,noCase,paramCase,pascalCase,pathCase,sentenceCase,snakeCase"
-    },
-    "html-entities": {
-      "title": "Thay thế các ký tự HTML",
-      "description": "Thay thế hoặc bỏ thẻ các ký tự HTML (thay thế <,>, &, \" và \\' thành phiên bản HTML tương ứng)",
-      "keywords": "html,thực thể,thoát,bỏ thoát,đặc biệt,ký tự,thẻ"
-    },
-    "json-prettify": {
-      "title": "Định dạng và làm đẹp JSON",
-      "description": "Định dạng chuỗi JSON của bạn thành một định dạng dễ đọc và thân thiện với con người.",
-      "keywords": "json,trình xem,làm đẹp,định dạng"
-    },
-    "docker-run-to-docker-compose-converter": {
-      "title": "Chuyển đổi lệnh docker run thành tệp docker-compose",
-      "description": "Chuyển đổi các lệnh docker run thành tệp docker-compose!",
-      "keywords": "docker,chạy,compose,yaml,yml,chuyển đổi,daemon"
-    },
-    "mac-address-lookup": {
-      "title": "Tra cứu địa chỉ MAC",
-      "description": "Tìm nhà sản xuất và nhà cung cấp của thiết bị dựa trên địa chỉ MAC.",
-      "keywords": "mac,địa chỉ,tra cứu,nhà cung cấp,trình phân tích,nhà sản xuất"
-    },
-    "mime-types": {
-      "title": "Loại Mime",
-      "description": "Chuyển đổi loại mime thành phần mở rộng và ngược lại.",
-      "keywords": "mime,loại,phần mở rộng,nội dung,loại"
-    },
-    "toml-to-json": {
-      "title": "TOML sang JSON",
-      "description": "Phân tích và chuyển đổi TOML thành JSON.",
-      "keywords": "toml,json,chuyển đổi,trực tuyến,chuyển đổi,trình phân tích"
-    },
-    "lorem-ipsum-generator": {
-      "title": "Máy tạo văn bản Lorem ipsum",
-      "description": "Lorem ipsum là một đoạn văn bản giả được sử dụng phổ biến để thể hiện hình thức của một tài liệu hoặc một kiểu chữ mà không cần dựa vào nội dung có ý nghĩa",
-      "keywords": "lorem,ipsum,dolor,sit,amet,trình giữ chỗ,văn bản,điền,ngẫu nhiên,trình tạo"
-    },
-    "qrcode-generator": {
-      "title": "Tạo mã QR",
-      "description": "Tạo và tải xuống mã QR cho một URL hoặc chỉ một đoạn văn bản và tùy chỉnh màu nền và màu chữ.",
-      "keywords": "qr,mã,trình tạo,vuông,màu,sắc,liên kết,thấp,trung bình,phân vị,cao,trong suốt"
-    },
-    "wifi-qrcode-generator": {
-      "title": "Tạo mã QR WiFi",
-      "description": "Tạo và tải xuống mã QR để kết nối nhanh đến mạng WiFi.",
-      "keywords": "qr,mã,trình tạo,vuông,màu,sắc,liên kết,thấp,trung bình,phân vị,cao,trong suốt,wifi"
-    },
-    "xml-formatter": {
-      "title": "Định dạng XML",
-      "description": "Định dạng chuỗi XML của bạn thành một định dạng dễ đọc và thân thiện với con người.",
-      "keywords": "xml,làm đẹp,định dạng"
-    },
-    "temperature-converter": {
-      "title": "Bộ chuyển đổi nhiệt độ",
-      "description": "Chuyển đổi độ nhiệt độ cho Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur và Rømer.",
-      "keywords": "nhiệt độ,trình chuyển đổi,độ,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer"
-    },
-    "chmod-calculator": {
-      "title": "Máy tính Chmod",
-      "description": "Tính toán quyền và lệnh chmod của bạn với máy tính Chmod trực tuyến này.",
-      "keywords": "chmod,máy tính,tệp,quyền,tệp,thư mục,thư mục,đệ quy,trình tạo,bát phân"
-    },
-    "rsa-key-pair-generator": {
-      "title": "Trình tạo cặp khóa RSA",
-      "description": "Tạo các chứng chỉ pem khóa riêng tư và khóa công khai RSA ngẫu nhiên mới.",
-      "keywords": "rsa,khóa,cặp,trình tạo,công khai,riêng tư,bí mật,ssh,pem"
-    },
-    "html-wysiwyg-editor": {
-      "title": "Trình soạn thảo HTML WYSIWYG",
-      "description": "Trình soạn thảo HTML trực tuyến với trình soạn thảo WYSIWYG đa chức năng, lấy mã nguồn của nội dung ngay lập tức.",
-      "keywords": "html,wysiwyg,trình soạn thảo,p,ul,ol,trình chuyển đổi,sống"
-    },
-    "yaml-to-toml": {
-      "title": "YAML sang TOML",
-      "description": "Phân tích và chuyển đổi YAML sang TOML.",
-      "keywords": "yaml,sang,toml,chuyển đổi,chuyển đổi"
-    },
-    "mac-address-generator": {
-      "title": "Trình tạo địa chỉ MAC",
-      "description": "Nhập số lượng và tiền tố. Địa chỉ MAC sẽ được tạo ra theo kiểu chữ hoa hoặc chữ thường theo lựa chọn của bạn",
-      "keywords": "mac,địa chỉ,trình tạo,ngẫu nhiên,tiền tố"
-    },
-    "json-diff": {
-      "title": "So sánh JSON",
-      "description": "So sánh hai đối tượng JSON và lấy ra sự khác biệt giữa chúng.",
-      "keywords": "json,khác biệt,so sánh,khác biệt,đối tượng,dữ liệu"
-    },
-    "jwt-parser": {
-      "title": "Giải mã JWT",
-      "description": "Giải mã và hiển thị nội dung của JSON Web Token (jwt).",
-      "keywords": "jwt,trình phân tích,giải mã,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,mã thông báo"
-    },
-    "date-converter": {
-      "title": "Chuyển đổi ngày-tháng",
-      "description": "Chuyển đổi ngày và thời gian sang các định dạng khác nhau",
-      "keywords": "ngày,thời gian,trình chuyển đổi,iso,utc,múi giờ,năm,tháng,ngày,phút,giây"
-    },
-    "phone-parser-and-formatter": {
-      "title": "Trình phân tích và định dạng số điện thoại",
-      "description": "Phân tích, xác thực và định dạng số điện thoại. Lấy thông tin về số điện thoại, như mã quốc gia, loại, v.v.",
-      "keywords": "điện thoại,trình phân tích,trình định dạng,xác thực,định dạng,số,điện thoại,di động,di động,quốc tế,quốc gia"
-    },
-    "ipv4-subnet-calculator": {
-      "title": "Máy tính mạng con IPv4",
-      "description": "Phân tích các khối CIDR IPv4 của bạn và nhận thông tin về mạng con của bạn.",
-      "keywords": "ipv4,mạng con,máy tính,mặt nạ,mạng,cidr,mặt nạ mạng,mặt nạ bit,phát sóng,địa chỉ"
-    },
-    "og-meta-generator": {
-      "title": "Trình tạo meta Open Graph",
-      "description": "Tạo các thẻ meta HTML Open Graph và mạng xã hội cho trang web của bạn.",
-      "keywords": "meta,thẻ,trình tạo,xã hội,tiêu đề,mô tả,hình ảnh,chia sẻ,trực tuyến,trang web,mở,biểu đồ,og"
-    },
-    "ipv6-ula-generator": {
-      "title": "Trình tạo địa chỉ IPv6 ULA",
-      "description": "Tạo địa chỉ IP cục bộ, không thể định tuyến trên mạng của bạn theo RFC4193.",
-      "keywords": "ipv6,ula,trình tạo,rfc4193,mạng,riêng tư"
-    },
-    "hash-text": {
-      "title": "Mã hóa văn bản",
-      "description": "Mã hóa một chuỗi văn bản bằng cách sử dụng các hàm bạn cần: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 hoặc RIPEMD160",
-      "keywords": "hash,tóm tắt,mã hóa,bảo mật,văn bản,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
-    },
-    "json-to-toml": {
-      "title": "Chuyển đổi JSON sang TOML",
-      "description": "Phân tích và chuyển đổi JSON sang TOML.",
-      "keywords": "json,phân tích,toml,chuyển đổi,chuyển đổi"
-    },
-    "device-information": {
-      "title": "Thông tin thiết bị",
-      "description": "Lấy thông tin về thiết bị hiện tại của bạn (kích thước màn hình, tỷ lệ pixel, user agent, ...)",
-      "keywords": "thiết bị,thông tin,màn hình,pixel,tỷ lệ,trạng thái,dữ liệu,máy tính,kích thước,người dùng,đại lý"
-    },
-    "pdf-signature-checker": {
-      "title": "Kiểm tra chữ ký PDF",
-      "description": "Xác minh chữ ký của một tệp PDF. Một tệp PDF đã được ký có chứa một hoặc nhiều chữ ký có thể được sử dụng để xác định xem nội dung của tệp đã được thay đổi kể từ khi tệp được ký.",
-      "keywords": "pdf,chữ ký,trình kiểm tra,xác minh,xác minh,ký"
-    },
-    "json-minify": {
-      "title": "Giảm kích thước JSON",
-      "description": "Giảm kích thước và nén JSON của bạn bằng cách loại bỏ khoảng trắng không cần thiết.",
-      "keywords": "json,giảm kích thước,định dạng"
-    },
-    "ulid-generator": {
-      "title": "Tạo ULID",
-      "description": "Tạo ngẫu nhiên mã định danh duy nhất có thể sắp xếp theo thứ tự từ điển (ULID).",
-      "keywords": "ulid,trình tạo,ngẫu nhiên,id,chữ và số,danh tính,mã thông báo,chuỗi,định danh,duy nhất"
-    },
-    "string-obfuscator": {
-      "title": "Mã hóa chuỗi",
-      "description": "Mã hóa một chuỗi (như một bí mật, một IBAN hoặc một mã thông báo) để có thể chia sẻ và nhận dạng mà không tiết lộ nội dung.",
-      "keywords": "chuỗi,trình làm mờ,bí mật,mã thông báo,ẩn,che khuất,mặt nạ,che mặt"
-    },
-    "base-converter": {
-      "title": "Chuyển đổi cơ số số nguyên",
-      "description": "Chuyển đổi số giữa các cơ số khác nhau (thập phân, thập lục phân, nhị phân, bát phân, base64, ...)",
-      "keywords": "số nguyên,số,cơ số,chuyển đổi,thập phân,thập lục phân,nhị phân,bát phân,base64"
-    },
-    "yaml-to-json-converter": {
-      "title": "YAML sang JSON",
-      "description": "Chuyển đổi YAML sang JSON một cách đơn giản với công cụ chuyển đổi trực tuyến này.",
-      "keywords": "yaml,sang,json"
-    },
-    "uuid-generator": {
-      "title": "Trình tạo UUID",
-      "description": "Một UUID (Universally Unique Identifier) là một số 128 bit được sử dụng để xác định thông tin trong hệ thống máy tính. Số lượng UUID có thể có là 16^32, tương đương với 2^128 hoặc khoảng 3.4x10^38 (rất lớn!).",
-      "keywords": "uuid,v4,ngẫu nhiên,id,chữ và số,danh tính,mã thông báo,chuỗi,định danh,duy nhất,v1,v3,v5,nil"
-    },
-    "ipv4-address-converter": {
-      "title": "Chuyển đổi địa chỉ Ipv4",
-      "description": "Chuyển đổi địa chỉ ip thành số thập phân, nhị phân, thập lục phân hoặc thậm chí thành ipv6",
-      "keywords": "ipv4,địa chỉ,trình chuyển đổi,thập phân,thập lục phân,nhị phân,ipv6"
-    },
-    "text-statistics": {
-      "title": "Thống kê văn bản",
-      "description": "Lấy thông tin về một văn bản, số ký tự, số từ, kích thước của nó, ...",
-      "keywords": "văn bản,thống kê,độ dài,ký tự,đếm,kích thước,byte"
-    },
-    "text-to-nato-alphabet": {
-      "title": "Chuyển đổi văn bản thành bảng chữ cái NATO",
-      "description": "Chuyển đổi văn bản thành bảng chữ cái phiên âm NATO để truyền tải bằng miệng.",
-      "keywords": "chuỗi,nato,bảng chữ cái,phiên âm,bằng lời,truyền tải"
-    },
-    "basic-auth-generator": {
-      "title": "Tạo mã xác thực cơ bản",
-      "description": "Tạo một tiêu đề xác thực cơ bản base64 từ tên người dùng và mật khẩu.",
-      "keywords": "cơ bản,xác thực,trình tạo,tên người dùng,mật khẩu,base64,xác thực,tiêu đề,ủy quyền"
-    },
-    "text-to-unicode": {
-      "title": "Chuyển đổi văn bản thành Unicode",
-      "description": "Phân tích và chuyển đổi văn bản thành Unicode và ngược lại",
-      "keywords": "văn bản,sang,unicode"
-    },
-    "ipv4-range-expander": {
-      "title": "Mở rộng dải IPv4",
-      "description": "Cho một địa chỉ IPv4 bắt đầu và kết thúc, công cụ này tính toán một mạng IPv4 hợp lệ với ký hiệu CIDR của nó.",
-      "keywords": "ipv4,phạm vi,mở rộng,mạng con,trình tạo,cidr"
-    },
-    "text-diff": {
-      "title": "So sánh văn bản",
-      "description": "So sánh hai văn bản và xem sự khác biệt giữa chúng.",
-      "keywords": "văn bản,khác biệt,so sánh,chuỗi,khác biệt văn bản,mã"
-    },
-    "otp-generator": {
-      "title": "Tạo mã OTP",
-      "description": "Tạo và xác thực mã OTP (mật khẩu một lần) dựa trên thời gian cho xác thực đa yếu tố.",
-      "keywords": "otp,mã,trình tạo,trình xác thực,một,thời gian,mật khẩu,xác thực,mfa,di động,thiết bị,bảo mật,TOTP,thời gian,hmac"
-    },
-    "url-encoder": {
-      "title": "Mã hóa/giải mã chuỗi định dạng URL",
-      "description": "Mã hóa thành định dạng URL (còn được gọi là \"percent-encoded\") hoặc giải mã từ đó.",
-      "keywords": "url,mã hóa,giải mã,phần trăm,%20,định dạng"
-    },
-    "text-to-binary": {
-      "title": "Chuyển đổi văn bản thành nhị phân ASCII",
-      "description": "Chuyển đổi văn bản thành biểu diễn nhị phân ASCII và ngược lại.",
-      "keywords": "văn bản,sang,nhị phân,trình chuyển đổi,mã hóa,giải mã,ascii"
-    }
   },
   "commandPalette": {
     "categories": {

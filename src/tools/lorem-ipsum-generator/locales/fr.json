@@ -1,8 +1,6 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "title": "Générateur de Lorem ipsum",
-      "description": "Lorem ipsum est un texte de substitution couramment utilisé pour démontrer la forme visuelle d'un document ou d'une police sans dépendre d'un contenu significatif",
       "optionsTitle": "Options",
       "optionsDescription": "Configurer les paramètres de génération du Lorem Ipsum",
       "resultsTitle": "Texte généré",

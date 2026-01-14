@@ -1,8 +1,6 @@
 {
   "tools": {
     "json-prettify": {
-      "title": "Formater og gjøre JSON penere",
-      "description": "Formater JSON-strengen din til et vennlig, lesbart format.",
       "cardOptionsTitle": "Formateringsalternativer",
       "cardOptionsDescription": "Juster innrykk og nøkkelsortering slik at det passer din foretrukne JSON-stil.",
       "sortKeys": "Sorter nøkler",

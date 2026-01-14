@@ -1,8 +1,6 @@
 {
   "tools": {
     "safelink-decoder": {
-      "title": "Outlook Safelink 解码器",
-      "description": "解码 Outlook SafeLink 链接",
       "cardTitle": "Outlook SafeLink 解码器",
       "cardDescription": "解码 Microsoft Outlook SafeLink 链接，显示原始目标 URL。",
       "cardInputTitle": "SafeLink 输入",

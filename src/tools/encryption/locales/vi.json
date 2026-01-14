@@ -1,8 +1,6 @@
 {
   "tools": {
     "encryption": {
-      "title": "Mã hóa / giải mã văn bản",
-      "description": "Mã hóa văn bản rõ và giải mã văn bản đã mã hóa bằng các thuật toán mật mã như AES, TripleDES, Rabbit hoặc RC4.",
       "encrypt": "Mã hóa",
       "yourText": "Văn bản của bạn:",
       "stringToCypher": "Chuỗi cần mã hóa",

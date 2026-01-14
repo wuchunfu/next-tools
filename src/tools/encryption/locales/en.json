@@ -1,8 +1,6 @@
 {
   "tools": {
     "encryption": {
-      "title": "Encrypt / decrypt text",
-      "description": "Encrypt clear text and decrypt ciphertext using crypto algorithms like AES, TripleDES, Rabbit or RC4.",
       "encrypt": "Encrypt",
       "yourText": "Your text:",
       "stringToCypher": "The string to cypher",

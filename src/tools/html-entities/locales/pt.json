@@ -1,8 +1,6 @@
 {
   "tools": {
     "html-entities": {
-      "title": "Escapar entidades HTML",
-      "description": "Escapar ou remover escape de entidades HTML (substituir caracteres como <,>, &, \" e \\' por sua versão HTML)",
       "cardEscapeTitle": "Escapar entidades HTML",
       "cardEscapeDescription": "Escapar entidades HTML (substituir caracteres como <, >, &, \" e ' por sua versão HTML).",
       "cardUnescapeTitle": "Remover escape de entidades HTML",

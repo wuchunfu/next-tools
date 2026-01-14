@@ -1,8 +1,6 @@
 {
   "tools": {
     "percentage-calculator": {
-      "title": "Prozentrechner",
-      "description": "Berechnen Sie einfach Prozentsätze von einem Wert zu einem anderen Wert oder von einem Prozentsatz zu einem Wert.",
       "card1Title": "Was ist X% von Y?",
       "card1Description": "Berechnen Sie den Prozentsatz eines Werts. Geben Sie den Prozentsatz (X) und den Basiswert (Y) ein, um das Ergebnis zu erhalten.",
       "card2Title": "X ist wie viel Prozent von Y?",

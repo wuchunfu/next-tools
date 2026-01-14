@@ -1,8 +1,6 @@
 {
   "tools": {
     "url-encoder": {
-      "title": "URL-formatierte Zeichenketten kodieren/dekodieren",
-      "description": "Kodieren Sie Text in URL-kodiertes Format (auch bekannt als \"prozentkodiert\"), oder dekodieren Sie daraus.",
       "cardEncodeTitle": "URL kodieren",
       "cardEncodeDescription": "Kodieren Sie Text in URL-kodiertes Format (auch bekannt als \"prozentkodiert\").",
       "cardDecodeTitle": "URL dekodieren",

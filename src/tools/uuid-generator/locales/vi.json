@@ -1,8 +1,6 @@
 {
   "tools": {
     "uuid-generator": {
-      "title": "Trình tạo UUID",
-      "description": "Một Universal Unique Identifier (UUID) là một số 128 bit được sử dụng để xác định thông tin trong hệ thống máy tính. Số lượng UUID có thể là 16^32, tức là 2^128 hoặc khoảng 3,4x10^38 (đó là rất nhiều!).",
       "uuidVersion": "Phiên bản UUID",
       "uuidVersionDescription": "Chọn phiên bản UUID để tạo.",
       "versionNIL": "NIL",

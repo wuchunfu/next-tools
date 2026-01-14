@@ -1,8 +1,6 @@
 {
   "tools": {
     "json-prettify": {
-      "title": "Formater et embellir JSON",
-      "description": "Formatez votre chaîne JSON dans un format convivial et lisible.",
       "cardOptionsTitle": "Options de formatage",
       "cardOptionsDescription": "Ajustez l'indentation et le tri des clés pour correspondre à votre style JSON préféré.",
       "sortKeys": "Trier les clés",

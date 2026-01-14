@@ -1,8 +1,6 @@
 {
   "tools": {
     "json-prettify": {
-      "title": "JSON formatieren und schöner machen",
-      "description": "Formatieren Sie Ihre JSON-Zeichenkette in ein benutzerfreundliches, lesbares Format.",
       "cardOptionsTitle": "Formatierungsoptionen",
       "cardOptionsDescription": "Passen Sie Einrückung und Schlüsselsortierung an Ihren bevorzugten JSON-Stil an.",
       "sortKeys": "Schlüssel sortieren",

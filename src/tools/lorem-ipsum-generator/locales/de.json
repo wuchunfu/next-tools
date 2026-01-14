@@ -1,8 +1,6 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "title": "Lorem-ipsum-Generator",
-      "description": "Lorem ipsum ist ein Platzhaltertext, der häufig verwendet wird, um die visuelle Form eines Dokuments oder einer Schriftart zu demonstrieren, ohne auf aussagekräftigen Inhalt angewiesen zu sein",
       "optionsTitle": "Optionen",
       "optionsDescription": "Konfigurieren, wie Lorem Ipsum generiert wird",
       "resultsTitle": "Generierter Text",

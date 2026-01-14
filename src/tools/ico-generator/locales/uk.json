@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "ico-generator": {
+      "cardUploadTitle": "Завантажити зображення",
+      "cardConfigTitle": "Конфігурація та вивід",
+      "uploadCta": "Натисніть або перетягніть зображення",
+      "uploadHint": "Підтримує PNG, JPEG та інші формати зображень",
+      "statusLabel": "Статус",
+      "statusIdle": "Готовий",
+      "statusGenerating": "Генерація...",
+      "statusSuccess": "Успішно",
+      "statusError": "Помилка",
+      "fileInfo": "Інформація про файл",
+      "noFileSelected": "Файл не вибрано",
+      "preview": "Попередній перегляд",
+      "sizesLabel": "Розміри іконок",
+      "selectedCount": "Вибрано: {count}",
+      "filenameLabel": "Назва вихідного файлу",
+      "filename": "Назва файлу",
+      "fileSize": "Розмір файлу",
+      "sizes": "Розміри",
+      "generate": "Створити ICO",
+      "generating": "Генерація...",
+      "download": "Завантажити ICO",
+      "reset": "Скинути",
+      "generatedFileInfo": "Створений файл",
+      "successMessage": "ICO файл успішно створено! Натисніть для завантаження.",
+      "errorNoFile": "Будь ласка, спочатку завантажте зображення",
+      "errorNoSizes": "Будь ласка, виберіть хоча б один розмір іконки",
+      "errorInvalidFileType": "Файл повинен бути зображенням",
+      "errorFileTooLarge": "Розмір файлу повинен бути менше 10МБ",
+      "customSizes": "Користувацькі розміри",
+      "customSizePlaceholder": "Введіть розмір (наприклад: 64 або 64x64)",
+      "customSizeHint": "Підтримувані формати: 32, 32x32, або 32×32 (1-512px)",
+      "errorInvalidSize": "Невірний формат розміру. Використовуйте: 32 або 32x32",
+      "errorSizeRange": "Розмір повинен бути від 1 до 512 пікселів",
+      "errorSizeExists": "Цей розмір вже існує",
+      "clearCustomSizes": "Очистити все"
+    }
+  }
+}

@@ -1,8 +1,6 @@
 {
   "tools": {
     "chronometer": {
-      "title": "Đồng hồ bấm giờ",
-      "description": "Theo dõi thời lượng của một thứ. Về cơ bản là một đồng hồ bấm giờ với các tính năng đơn giản.",
       "button": {
         "start": "Bắt đầu",
         "stop": "Dừng",

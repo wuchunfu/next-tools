@@ -1,8 +1,6 @@
 {
   "tools": {
     "html-entities": {
-      "title": "Escape HTML-enheter",
-      "description": "Escape eller unescape HTML-enheter (erstatt tegn som <,>, &, \" og \\' med deres HTML-versjon)",
       "cardEscapeTitle": "Escape HTML-enheter",
       "cardEscapeDescription": "Escape HTML-enheter (erstatt tegn som <, >, &, \" og ' med deres HTML-versjon).",
       "cardUnescapeTitle": "Unescape HTML-enheter",

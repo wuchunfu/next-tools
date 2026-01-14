@@ -1,8 +1,6 @@
 {
   "tools": {
     "bcrypt": {
-      "title": "Bcrypt",
-      "description": "Hashen und Vergleichen von Textzeichenketten mit bcrypt. Bcrypt ist eine Passwort-Hashing-Funktion basierend auf dem Blowfish-Verschlüsselungsalgorithmus.",
       "hash": "Hash",
       "placeholder": "Ihre zu bcryptende Zeichenkette...",
       "yourString": "Ihre Zeichenkette:",

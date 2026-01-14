@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-to-unicode": {
-      "title": "Văn bản sang Unicode",
-      "description": "Phân tích và chuyển đổi văn bản sang unicode và ngược lại",
       "cardTextToUnicodeTitle": "Văn bản sang Unicode",
       "cardTextToUnicodeDescription": "Chuyển đổi văn bản sang chuỗi escape Unicode (định dạng \\u0031).",
       "cardUnicodeToTextTitle": "Unicode sang Văn bản",

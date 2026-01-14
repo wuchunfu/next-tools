@@ -7,6 +7,443 @@
     "maybe": "Возможно, возникли проблемы с кешем, попробуйте принудительно обновить страницу?",
     "backHome": "Вернуться на главную"
   },
+  "tools": {
+    "ascii-text-drawer": {
+      "title": "Генератор ASCII искусства",
+      "description": "Создание ASCII искусства с использованием различных шрифтов и стилей.",
+      "keywords": "ascii,asciiart,текст,рисовальщик"
+    },
+    "base64-file-converter": {
+      "title": "Конвертер файлов Base64",
+      "description": "Преобразование строк, файлов или изображений в их представление Base64.",
+      "keywords": "base64,конвертер,загрузить,изображение,файл,конверсия,web,данные,формат"
+    },
+    "base-converter": {
+      "title": "Конвертер систем счисления",
+      "description": "Преобразование чисел между различными системами счисления (десятичная, шестнадцатеричная, двоичная, восьмеричная, base64...)",
+      "keywords": "целое число,число,основание,конверсия,десятичный,шестнадцатеричный,двоичный,восьмеричный,base64"
+    },
+    "basic-auth-generator": {
+      "title": "Генератор базовой аутентификации",
+      "description": "Генерация заголовка базовой аутентификации base64 из имени пользователя и пароля.",
+      "keywords": "основной,аутентификация,генератор,имя пользователя,пароль,base64,аутентификация,заголовок,авторизация"
+    },
+    "base64-string-converter": {
+      "title": "Кодирование/декодирование строк Base64",
+      "description": "Кодирование и декодирование строк в их представление Base64.",
+      "keywords": "base64,конвертер,конверсия,web,данные,формат,atob,btoa"
+    },
+    "bcrypt": {
+      "title": "Хэширование",
+      "description": "Хэширование и сравнение текстовых строк с помощью bcrypt. Bcrypt - это функция хэширования паролей на основе Blowfish.",
+      "keywords": "bcrypt,хеш,сравнить,пароль,соль,раунд,хранение,крипто"
+    },
+    "benchmark-builder": {
+      "title": "Генератор бенчмарков",
+      "description": "Простой онлайн конструктор бенчмарков для легкого сравнения времени выполнения задач.",
+      "keywords": "бенчмарк,строитель,исполнение,продолжительность,среднее,дисперсия"
+    },
+    "bip39-generator": {
+      "title": "Генератор паролей BIP39",
+      "description": "Генерация парольных фраз BIP39 из существующих или случайных мнемоник, или получение мнемоник из парольных фраз.",
+      "keywords": "BIP39,парольная фраза,генератор,мнемоника,энтропия"
+    },
+    "camera-recorder": {
+      "title": "Запись с камеры",
+      "description": "Съемка фото или запись видео с веб-камеры или камеры.",
+      "keywords": "камера,запись"
+    },
+    "case-converter": {
+      "title": "Конвертер регистра",
+      "description": "Изменение регистра строки и выбор между разными форматами",
+      "keywords": "регистр,конвертер,camelCase,capitalCase,constantCase,dotCase,headerCase,noCase,paramCase,pascalCase,pathCase,sentenceCase,snakeCase"
+    },
+    "chronometer": {
+      "title": "Хронометр",
+      "description": "Отслеживание продолжительности событий. По сути, таймер с простой функцией секундомера.",
+      "keywords": "хронометр,время,круг,продолжительность,измерять,пауза,возобновить,секундомер"
+    },
+    "chmod-calculator": {
+      "title": "Калькулятор Chmod",
+      "description": "Используйте этот онлайн калькулятор chmod для расчета прав доступа и команд chmod.",
+      "keywords": "chmod,калькулятор,файл,разрешения,файлы,директория,папка,рекурсивный,генератор,восьмеричный"
+    },
+    "color-converter": {
+      "title": "Выбор цвета",
+      "description": "Преобразование цветов между разными форматами (hex, rgb, hsl и названия CSS)",
+      "keywords": "цвет,конвертер"
+    },
+    "date-converter": {
+      "title": "Конвертер даты и времени",
+      "description": "Преобразование даты и времени в различные форматы",
+      "keywords": "дата,время,конвертер,iso,utc,часовой пояс,год,месяц,день,минута,секунда"
+    },
+    "device-information": {
+      "title": "Информация об устройстве",
+      "description": "Получение информации о текущем устройстве (размер экрана, пиксельное соотношение, user agent...)",
+      "keywords": "устройство,информация,экран,пиксель,соотношение,статус,данные,компьютер,размер,пользователь,агент"
+    },
+    "emoji-picker": {
+      "title": "Выбор эмодзи",
+      "description": "Легко копируйте и вставляйте эмодзи, получайте unicode и code points значения для каждого эмодзи.",
+      "keywords": "эмодзи,выборщик,unicode,копировать,вставить"
+    },
+    "encryption": {
+      "title": "Шифрование/дешифрование текста",
+      "description": "Шифрование и дешифрование текста с использованием алгоритмов шифрования (таких как AES, TripleDES, Rabbit или RC4).",
+      "keywords": "шифр,зашифровать,текст,AES,TripleDES,Rabbit,RC4"
+    },
+    "crontab-generator": {
+      "title": "Генератор выражений Crontab",
+      "description": "Валидация и генерация crontab с читаемым описанием расписания cron.",
+      "keywords": "crontab,генератор,задание cron,cron,расписание,парсить,выражение,год,месяц,неделя,день,минута,секунда"
+    },
+    "eta-calculator": {
+      "title": "Калькулятор ETA",
+      "description": "Калькулятор ETA (Estimated Time of Arrival) для определения примерного времени окончания задачи, например, окончания загрузки.",
+      "keywords": "eta,калькулятор,оцененный,время,прибытие,средний"
+    },
+    "git-memo": {
+      "title": "Шпаргалка по Git",
+      "description": "Git - это децентрализованное ПО для управления версиями. С этой шпаргалкой вы можете быстро получить доступ к наиболее распространенным командам git.",
+      "keywords": "git,отправить,сила,вытянуть,коммит,исправить,перебазировать,слияние,сброс,мягкий,жесткий,аренда"
+    },
+    "hash-text": {
+      "title": "Хэширование текста",
+      "description": "Хэширование текстовых строк с использованием нужной функции: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 или RIPEMD160",
+      "keywords": "хеш,дайджест,крипто,безопасность,текст,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
+    },
+    "email-normalizer": {
+      "title": "Нормализатор email",
+      "description": "Нормализация email адресов для сравнения, дедупликации и очистки данных.",
+      "keywords": "email,нормализатор"
+    },
+    "hmac-generator": {
+      "title": "Генератор HMAC",
+      "description": "Вычисление кода аутентификации сообщений на основе хэша (HMAC) с использованием ключа и предпочитаемой хэш-функции.",
+      "keywords": "hmac,генератор,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
+    },
+    "html-entities": {
+      "title": "Экранирование HTML сущностей",
+      "description": "Экранирование или снятие экранирования HTML сущностей (замена <, >, &, \" и ' на их HTML версии)",
+      "keywords": "html,сущности,экранировать,разэкранировать,специальные,символы,теги"
+    },
+    "html-wysiwyg-editor": {
+      "title": "HTML WYSIWYG редактор",
+      "description": "Онлайн HTML редактор с многофункциональным WYSIWYG редактором, мгновенное получение исходного кода содержимого.",
+      "keywords": "html,wysiwyg,редактор,p,ul,ol,конвертер,живой"
+    },
+    "iban-validator-and-parser": {
+      "title": "Валидатор и парсер IBAN",
+      "description": "Валидация и анализ номеров IBAN. Проверка валидности IBAN и получение BBAN страны, является ли он QR-IBAN и удобочитаемого формата IBAN.",
+      "keywords": "iban,валидатор,и,парсер,bic,банк"
+    },
+    "ipv4-address-converter": {
+      "title": "Конвертер IPv4 адресов",
+      "description": "В IPv6 преобразование IP адресов в десятичный, двоичный, шестнадцатеричный или другие форматы",
+      "keywords": "ipv4,адрес,конвертер,десятичный,шестнадцатеричный,двоичный,ipv6"
+    },
+    "ipv4-range-expander": {
+      "title": "Расширитель диапазона IPv4",
+      "description": "При заданных начальном и конечном IPv4 адресах этот инструмент вычисляет допустимые IPv4 сети с использованием их CIDR нотации.",
+      "keywords": "ipv4,диапазон,расширитель,подсеть,создатель,cidr"
+    },
+    "ipv4-subnet-calculator": {
+      "title": "Калькулятор IPv4 подсетей",
+      "description": "Парсинг блоков IPv4 CIDR и получение всей необходимой информации о подсети.",
+      "keywords": "ipv4,подсеть,калькулятор,маска,сеть,cidr,маска сети,битовая маска,широковещательный,адрес"
+    },
+    "http-status-codes": {
+      "title": "HTTP статус коды",
+      "description": "Список всех HTTP статусов с объяснением их названий и значений.",
+      "keywords": "http,статус,коды,100 Continue,101 Switching Protocols,102 Processing,103 Early Hints,200 OK,201 Created,202 Accepted,203 Non-Authoritative Information,204 No Content,205 Reset Content,206 Partial Content,207 Multi-Status,208 Already Reported,226 IM Used,300 Multiple Choices,301 Moved Permanently,302 Found,303 See Other,304 Not Modified,305 Use Proxy,307 Temporary Redirect,308 Permanent Redirect,400 Bad Request,401 Unauthorized,402 Payment Required,403 Forbidden,404 Not Found,405 Method Not Allowed,406 Not Acceptable,407 Proxy Authentication Required,408 Request Timeout,409 Conflict,410 Gone,411 Length Required,412 Precondition Failed,413 Payload Too Large,414 URI Too Long,415 Unsupported Media Type,416 Range Not Satisfiable,417 Expectation Failed,418 I'm a teapot,421 Misdirected Request,422 Unprocessable Entity,423 Locked,424 Failed Dependency,425 Too Early,426 Upgrade Required,428 Precondition Required,429 Too Many Requests,431 Request Header Fields Too Large,451 Unavailable For Legal Reasons,500 Internal Server Error,501 Not Implemented,502 Bad Gateway,503 Service Unavailable,504 Gateway Timeout,505 HTTP Version Not Supported,506 Variant Also Negotiates,507 Insufficient Storage,508 Loop Detected,510 Not Extended,511 Network Authentication Required"
+    },
+    "ipv6-ula-generator": {
+      "title": "Генератор IPv6 ULA",
+      "description": "Генерация собственных локальных немаршрутизируемых IP адресов в сети согласно RFC4193.",
+      "keywords": "ipv6,ula,генератор,rfc4193,сеть,приватный"
+    },
+    "json-minify": {
+      "title": "Минификация JSON",
+      "description": "Уменьшение и сжатие JSON путем удаления ненужных пробелов.",
+      "keywords": "json,минимизировать,формат"
+    },
+    "json-to-csv": {
+      "title": "JSON в CSV",
+      "description": "Преобразование JSON в CSV с автоматическим обнаружением заголовков.",
+      "keywords": "json,в,csv,конвертировать"
+    },
+    "json-to-toml": {
+      "title": "JSON в TOML",
+      "description": "Парсинг JSON и преобразование в TOML.",
+      "keywords": "json,парсить,toml,конвертировать,трансформировать"
+    },
+    "ico-generator": {
+      "title": "Генератор ICO",
+      "description": "Создание ICO файлов из изображений. Конвертация PNG, JPEG или других форматов изображений в ICO файлы с несколькими размерами иконок для favicon и приложений Windows.",
+      "keywords": "ico,иконка,favicon,генератор,конвертер,изображение,png,jpeg,windows,конвертировать"
+    },
+    "jwt-parser": {
+      "title": "Парсер JWT",
+      "description": "Парсинг и декодирование JSON Web Token (JWT) с отображением содержимого.",
+      "keywords": "jwt,парсер,декодировать,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,токен"
+    },
+    "json-to-yaml-converter": {
+      "title": "JSON в YAML",
+      "description": "Онлайн преобразование JSON в YAML",
+      "keywords": "yaml,в,json"
+    },
+    "json-diff": {
+      "title": "Сравнение JSON",
+      "description": "Сравнение двух JSON объектов и получение различий между ними.",
+      "keywords": "json,разница,сравнить,отличие,объект,данные"
+    },
+    "json-prettify": {
+      "title": "Форматирование JSON",
+      "description": "Форматирование строк JSON в удобочитаемый вид.",
+      "keywords": "json,просмотрщик,улучшить,формат"
+    },
+    "keycode-info": {
+      "title": "Информация о Keycode",
+      "description": "Поиск JavaScript keycode, code, location и модификаторов любой нажатой клавиши.",
+      "keywords": "код клавиши,информация,код,javascript,событие,коды клавиш,который,клавиатура,нажатие,модификатор,alt,ctrl,meta,shift"
+    },
+    "list-converter": {
+      "title": "Конвертер списков",
+      "description": "Этот инструмент обрабатывает данные на основе массивов и применяет различные изменения (транспонирование, добавление префиксов и суффиксов, реверс списков, сортировка списков, нижний регистр значений, усечение значений) к каждой строке.",
+      "keywords": "список,конвертер,сортировать,реверс,префикс,суффикс,нижний регистр,усечь"
+    },
+    "mac-address-generator": {
+      "title": "Генератор MAC адресов",
+      "description": "Введите количество и префикс. MAC адреса будут сгенерированы в выбранном регистре (верхний или нижний)",
+      "keywords": "mac,адрес,генератор,случайный,префикс"
+    },
+    "json-to-xml": {
+      "title": "JSON в XML",
+      "description": "Преобразование JSON в XML",
+      "keywords": "json,xml"
+    },
+    "mac-address-lookup": {
+      "title": "Поиск MAC адресов",
+      "description": "Поиск производителя и поставщика устройства по его MAC адресу.",
+      "keywords": "mac,адрес,поиск,поставщик,парсер,производитель"
+    },
+    "mime-types": {
+      "title": "MIME типы",
+      "description": "Преобразование MIME типов в расширения и наоборот.",
+      "keywords": "mime,типы,расширение,содержимое,тип"
+    },
+    "og-meta-generator": {
+      "title": "Генератор Open Graph мета-тегов",
+      "description": "Генерация Open Graph и социальных HTML мета-тегов для вашего сайта.",
+      "keywords": "meta,тег,генератор,социальный,заголовок,описание,изображение,поделиться,онлайн,сайт,открытый,граф,og"
+    },
+    "numeronym-generator": {
+      "title": "Генератор числовых имен",
+      "description": "Числовое имя - это слово, сокращенное с помощью цифр. Например, \"i18n\" является числовым именем \"internationalization\", где 18 обозначает количество букв между первой i и последней n в слове.",
+      "keywords": "числовой,генератор,аббревиатура,i18n,a11y,l10n"
+    },
+    "markdown-to-html": {
+      "title": "Markdown в HTML",
+      "description": "Преобразование Markdown в HTML с возможностью печати в PDF",
+      "keywords": "markdown,html,конвертер,pdf"
+    },
+    "lorem-ipsum-generator": {
+      "title": "Генератор Lorem ipsum",
+      "description": "Lorem ipsum - это текст-заполнитель, обычно используемый для демонстрации визуального вида документа или шрифта без зависимости от осмысленного содержания",
+      "keywords": "lorem,ipsum,dolor,sit,amet,заполнитель,текст,наполнитель,случайный,генератор"
+    },
+    "password-strength-analyser": {
+      "title": "Анализатор силы пароля",
+      "description": "Используйте этот анализатор силы пароля и инструмент оценки времени взлома, чтобы узнать силу пароля.",
+      "keywords": "пароль,сила,анализатор,и,взлом,время,оценка,грубый,сила,атака,энтропия,взлом,хеш,хеширование,алгоритм,алгоритмы,md5,sha1,sha256,sha512,bcrypt,scrypt,argon2,argon2id,argon2i,argon2d"
+    },
+    "pdf-signature-checker": {
+      "title": "Проверка подписей PDF",
+      "description": "Валидация подписей PDF файлов. Подписанные PDF файлы содержат одну или несколько подписей, которые можно использовать для определения, был ли изменен контент файла после подписания.",
+      "keywords": "pdf,подпись,проверщик,проверить,валидировать,подписать"
+    },
+    "math-evaluator": {
+      "title": "Математический калькулятор",
+      "description": "Калькулятор для вычисления математических выражений. Вы можете использовать функции sqrt, cos, sin, abs и другие.",
+      "keywords": "математика,вычислитель,калькулятор,выражение,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh"
+    },
+    "phone-parser-and-formatter": {
+      "title": "Парсер и форматировщик телефонов",
+      "description": "Парсинг, валидация и форматирование телефонных номеров. Получение информации о номерах, такой как код страны, тип и т.д.",
+      "keywords": "телефон,парсер,форматер,валидировать,формат,номер,телефон,мобильный,сотовый,международный,национальный"
+    },
+    "otp-generator": {
+      "title": "Генератор OTP кодов",
+      "description": "Генерация и валидация OTP (одноразовых паролей) на основе времени для многофакторной аутентификации.",
+      "keywords": "otp,код,генератор,валидатор,один,время,пароль,аутентификация,MFA,мобильный,устройство,безопасность,TOTP,Время,HMAC"
+    },
+    "random-port-generator": {
+      "title": "Генератор случайных портов",
+      "description": "Генерация случайных номеров портов вне диапазона \"известных\" портов (0-1023).",
+      "keywords": "система,порт,lan,генератор,случайный,разработка,компьютер"
+    },
+    "qrcode-generator": {
+      "title": "Генератор QR кодов",
+      "description": "Генерация и скачивание QR кодов для URL или текста с настройкой цветов фона и переднего плана.",
+      "keywords": "qr,код,генератор,квадрат,цвет,ссылка,низкий,средний,квартиль,высокий,прозрачный"
+    },
+    "percentage-calculator": {
+      "title": "Калькулятор процентов",
+      "description": "Легко рассчитайте процент от одного значения к другому, или от процента к значению.",
+      "keywords": "процент,калькулятор,вычислить,значение,число,%"
+    },
+    "regex-memo": {
+      "title": "Шпаргалка по Git",
+      "description": "Часто используемые команды и подсказки Git",
+      "keywords": "регулярное выражение,регулярное,выражение,javascript,шпаргалка,шпаргалка"
+    },
+    "regex-tester": {
+      "title": "Тестер регулярных выражений",
+      "description": "Тестирование ваших регулярных выражений с примерным текстом.",
+      "keywords": "регулярное выражение,тестер,пример,выражение"
+    },
+    "roman-numeral-converter": {
+      "title": "Конвертер римских цифр",
+      "description": "Преобразование римских цифр в числа и чисел в римские цифры.",
+      "keywords": "римский,арабский,конвертер,X,I,V,L,C,D,M"
+    },
+    "rsa-key-pair-generator": {
+      "title": "Генератор пар ключей RSA",
+      "description": "Генерация новых случайных закрытых и открытых ключей RSA в формате PEM.",
+      "keywords": "rsa,ключ,пара,генератор,публичный,приватный,секрет,ssh,pem"
+    },
+    "safelink-decoder": {
+      "title": "Декодер Outlook Safelink",
+      "description": "Декодирование ссылок Outlook SafeLink",
+      "keywords": "outlook,safelink,декодер"
+    },
+    "slugify-string": {
+      "title": "Строка в Slug",
+      "description": "Обеспечение безопасности строк для URL, имен файлов и ID.",
+      "keywords": "slugify,строка,экранировать,эмодзи,специальный,символ,пробел,обрезать"
+    },
+    "svg-placeholder-generator": {
+      "title": "Генератор SVG-заполнителей",
+      "description": "Генерация SVG изображений для использования в качестве заполнителей в приложениях.",
+      "keywords": "svg,заполнитель,генератор,изображение,размер,макет"
+    },
+    "temperature-converter": {
+      "title": "Конвертер температуры",
+      "description": "Преобразование между шкалами температуры Кельвина, Цельсия, Фаренгейта, Ранкина, Делайла, Ньютона, Реомюра и Рёмера.",
+      "keywords": "температура,конвертер,градус,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer"
+    },
+    "text-to-binary": {
+      "title": "Текст в ASCII двоичный",
+      "description": "Преобразование текста в его ASCII двоичное представление и наоборот.",
+      "keywords": "текст,в,двоичный,конвертер,кодировать,декодировать,ascii"
+    },
+    "text-to-nato-alphabet": {
+      "title": "Текст в алфавит НАТО",
+      "description": "Преобразование текста в фонетический алфавит НАТО для устной передачи.",
+      "keywords": "строка,nato,алфавит,фонетический,устный,передача"
+    },
+    "sql-prettify": {
+      "title": "Форматирование SQL",
+      "description": "Онлайн форматирование и улучшение ваших SQL запросов (поддерживает различные диалекты SQL).",
+      "keywords": "sql,улучшить,форматировать,GCP BigQuery,IBM DB2,Apache Hive,MariaDB,MySQL,Couchbase N1QL,Oracle PL/SQL,PostgreSQL,Amazon Redshift,Spark,SQL Server Transact-SQL"
+    },
+    "text-diff": {
+      "title": "Сравнение текста",
+      "description": "Сравнение двух текстов и просмотр различий между ними.",
+      "keywords": "текст,разница,сравнить,строка,разница текста,код"
+    },
+    "text-to-unicode": {
+      "title": "Текст в Unicode",
+      "description": "Парсинг текста и преобразование в unicode и наоборот",
+      "keywords": "текст,в,unicode"
+    },
+    "string-obfuscator": {
+      "title": "Обфускатор строк",
+      "description": "Обфускация строк (таких как секреты, IBAN или токены), делая их доступными для совместного использования и распознавания без раскрытия содержимого.",
+      "keywords": "строка,обфускатор,секрет,токен,скрыть,затемнить,маска,маскировка"
+    },
+    "text-statistics": {
+      "title": "Статистика текста",
+      "description": "Получение информации о тексте, количестве символов, слов, размере и т.д.",
+      "keywords": "текст,статистика,длина,символы,подсчет,размер,байты"
+    },
+    "url-encoder": {
+      "title": "Кодирование/декодирование URL",
+      "description": "Кодирование в формат URL (также известный как \"процентное кодирование\") или декодирование из него.",
+      "keywords": "url,кодировать,декодировать,процент,%20,формат"
+    },
+    "toml-to-yaml": {
+      "title": "TOML в YAML",
+      "description": "Парсинг и преобразование TOML в YAML",
+      "keywords": "toml,yaml,конвертировать,онлайн,трансформировать,парсить"
+    },
+    "token-generator": {
+      "title": "Генератор токенов",
+      "description": "Генерация случайных строк с желаемыми символами, заглавными или строчными буквами, цифрами и/или символами.",
+      "keywords": "токен,случайный,строка,буквенно-цифровой,символы,число,буквы,нижний регистр,верхний регистр,пароль"
+    },
+    "user-agent-parser": {
+      "title": "Парсер User Agent",
+      "description": "Обнаружение и анализ браузера, движка, ОС, CPU и типа/модели устройства из строки user agent.",
+      "keywords": "пользователь,агент,парсер,браузер,движок,ос,cpu,устройство,user-agent,клиент"
+    },
+    "uuid-generator": {
+      "title": "Генератор UUID",
+      "description": "Универсальный уникальный идентификатор (UUID) - это 128-битное число, используемое для идентификации информации в компьютерных системах. Возможное количество UUID составляет 16^32, т.е. 2^128 или около 3.4x10^38 (это очень большое число!).",
+      "keywords": "uuid,v4,случайный,id,буквенно-цифровой,идентичность,токен,строка,идентификатор,уникальный,v1,v3,v5,nil"
+    },
+    "toml-to-json": {
+      "title": "TOML в JSON",
+      "description": "Парсинг TOML и преобразование в JSON.",
+      "keywords": "toml,json,конвертировать,онлайн,трансформировать,парсер"
+    },
+    "ulid-generator": {
+      "title": "Генератор ULID",
+      "description": "Генерация случайных универсальных уникальных лексикографически сортируемых идентификаторов (ULID).",
+      "keywords": "ulid,генератор,случайный,id,буквенно-цифровой,идентичность,токен,строка,идентификатор,уникальный"
+    },
+    "url-parser": {
+      "title": "Парсер URL",
+      "description": "Парсинг URL строки для получения всех различных частей (протокол, источник, параметры, порт, имя пользователя и пароль...)",
+      "keywords": "url,парсер,протокол,источник,параметры,порт,имя пользователя,пароль,href"
+    },
+    "wifi-qrcode-generator": {
+      "title": "Генератор QR кодов WiFi",
+      "description": "Генерация и скачивание QR кодов для быстрого подключения к WiFi сетям.",
+      "keywords": "qr,код,генератор,квадрат,цвет,ссылка,низкий,средний,квартиль,высокий,прозрачный,wifi"
+    },
+    "xml-formatter": {
+      "title": "Форматирование XML",
+      "description": "Форматирование строк XML в удобочитаемый вид.",
+      "keywords": "xml,форматировать,формат"
+    },
+    "xml-to-json": {
+      "title": "XML в JSON",
+      "description": "Преобразование XML в JSON",
+      "keywords": "xml,json"
+    },
+    "yaml-to-toml": {
+      "title": "YAML в TOML",
+      "description": "Парсинг YAML и преобразование в TOML.",
+      "keywords": "yaml,в,toml,конвертировать,трансформировать"
+    },
+    "yaml-prettify": {
+      "title": "Форматирование YAML",
+      "description": "Форматирование строк YAML в удобочитаемый вид.",
+      "keywords": "yaml,просмотрщик,улучшить,формат"
+    },
+    "docker-run-to-docker-compose-converter": {
+      "title": "Docker Run в docker-compose",
+      "description": "Преобразование команд docker run в файлы docker-compose!",
+      "keywords": "docker,запустить,compose,yaml,yml,конвертировать,демон"
+    },
+    "yaml-to-json-converter": {
+      "title": "YAML в JSON",
+      "description": "Используйте этот онлайн конвертер для преобразования YAML в JSON.",
+      "keywords": "yaml,в,json"
+    }
+  },
   "home": {
     "title": "Next-Tools - Полезные онлайн-инструменты для разработчиков",
     "description": "Next-Tools - это коллекция полезных онлайн-инструментов для разработчиков с отличным пользовательским интерфейсом.",
@@ -151,438 +588,6 @@
     "measurement": "Измерения",
     "text": "Текст",
     "data": "Данные"
-  },
-  "tools": {
-    "safelink-decoder": {
-      "title": "Декодер Outlook Safelink",
-      "description": "Декодирование ссылок Outlook SafeLink",
-      "keywords": "outlook,safelink,декодер"
-    },
-    "password-strength-analyser": {
-      "title": "Анализатор силы пароля",
-      "description": "Используйте этот анализатор силы пароля и инструмент оценки времени взлома, чтобы узнать силу пароля.",
-      "keywords": "пароль,сила,анализатор,и,взлом,время,оценка,грубый,сила,атака,энтропия,взлом,хеш,хеширование,алгоритм,алгоритмы,md5,sha1,sha256,sha512,bcrypt,scrypt,argon2,argon2id,argon2i,argon2d"
-    },
-    "chronometer": {
-      "title": "Хронометр",
-      "description": "Отслеживание продолжительности событий. По сути, таймер с простой функцией секундомера.",
-      "keywords": "хронометр,время,круг,продолжительность,измерять,пауза,возобновить,секундомер"
-    },
-    "token-generator": {
-      "title": "Генератор токенов",
-      "description": "Генерация случайных строк с желаемыми символами, заглавными или строчными буквами, цифрами и/или символами.",
-      "keywords": "токен,случайный,строка,буквенно-цифровой,символы,число,буквы,нижний регистр,верхний регистр,пароль"
-    },
-    "percentage-calculator": {
-      "title": "Калькулятор процентов",
-      "description": "Легко рассчитайте процент от одного значения к другому, или от процента к значению.",
-      "keywords": "процент,калькулятор,вычислить,значение,число,%"
-    },
-    "svg-placeholder-generator": {
-      "title": "Генератор SVG-заполнителей",
-      "description": "Генерация SVG изображений для использования в качестве заполнителей в приложениях.",
-      "keywords": "svg,заполнитель,генератор,изображение,размер,макет"
-    },
-    "json-to-csv": {
-      "title": "JSON в CSV",
-      "description": "Преобразование JSON в CSV с автоматическим обнаружением заголовков.",
-      "keywords": "json,в,csv,конвертировать"
-    },
-    "camera-recorder": {
-      "title": "Запись с камеры",
-      "description": "Съемка фото или запись видео с веб-камеры или камеры.",
-      "keywords": "камера,запись"
-    },
-    "keycode-info": {
-      "title": "Информация о Keycode",
-      "description": "Поиск JavaScript keycode, code, location и модификаторов любой нажатой клавиши.",
-      "keywords": "код клавиши,информация,код,javascript,событие,коды клавиш,который,клавиатура,нажатие,модификатор,alt,ctrl,meta,shift"
-    },
-    "emoji-picker": {
-      "title": "Выбор эмодзи",
-      "description": "Легко копируйте и вставляйте эмодзи, получайте unicode и code points значения для каждого эмодзи.",
-      "keywords": "эмодзи,выборщик,unicode,копировать,вставить"
-    },
-    "regex-memo": {
-      "title": "Шпаргалка по Git",
-      "description": "Часто используемые команды и подсказки Git",
-      "keywords": "регулярное выражение,регулярное,выражение,javascript,шпаргалка,шпаргалка"
-    },
-    "color-converter": {
-      "title": "Выбор цвета",
-      "description": "Преобразование цветов между разными форматами (hex, rgb, hsl и названия CSS)",
-      "keywords": "цвет,конвертер"
-    },
-    "bcrypt": {
-      "title": "Хэширование",
-      "description": "Хэширование и сравнение текстовых строк с помощью bcrypt. Bcrypt - это функция хэширования паролей на основе Blowfish.",
-      "keywords": "bcrypt,хеш,сравнить,пароль,соль,раунд,хранение,крипто"
-    },
-    "crontab-generator": {
-      "title": "Генератор выражений Crontab",
-      "description": "Валидация и генерация crontab с читаемым описанием расписания cron.",
-      "keywords": "crontab,генератор,задание cron,cron,расписание,парсить,выражение,год,месяц,неделя,день,минута,секунда"
-    },
-    "http-status-codes": {
-      "title": "HTTP статус коды",
-      "description": "Список всех HTTP статусов с объяснением их названий и значений.",
-      "keywords": "http,статус,коды,100 Continue,101 Switching Protocols,102 Processing,103 Early Hints,200 OK,201 Created,202 Accepted,203 Non-Authoritative Information,204 No Content,205 Reset Content,206 Partial Content,207 Multi-Status,208 Already Reported,226 IM Used,300 Multiple Choices,301 Moved Permanently,302 Found,303 See Other,304 Not Modified,305 Use Proxy,307 Temporary Redirect,308 Permanent Redirect,400 Bad Request,401 Unauthorized,402 Payment Required,403 Forbidden,404 Not Found,405 Method Not Allowed,406 Not Acceptable,407 Proxy Authentication Required,408 Request Timeout,409 Conflict,410 Gone,411 Length Required,412 Precondition Failed,413 Payload Too Large,414 URI Too Long,415 Unsupported Media Type,416 Range Not Satisfiable,417 Expectation Failed,418 I'm a teapot,421 Misdirected Request,422 Unprocessable Entity,423 Locked,424 Failed Dependency,425 Too Early,426 Upgrade Required,428 Precondition Required,429 Too Many Requests,431 Request Header Fields Too Large,451 Unavailable For Legal Reasons,500 Internal Server Error,501 Not Implemented,502 Bad Gateway,503 Service Unavailable,504 Gateway Timeout,505 HTTP Version Not Supported,506 Variant Also Negotiates,507 Insufficient Storage,508 Loop Detected,510 Not Extended,511 Network Authentication Required"
-    },
-    "sql-prettify": {
-      "title": "Форматирование SQL",
-      "description": "Онлайн форматирование и улучшение ваших SQL запросов (поддерживает различные диалекты SQL).",
-      "keywords": "sql,улучшить,форматировать,GCP BigQuery,IBM DB2,Apache Hive,MariaDB,MySQL,Couchbase N1QL,Oracle PL/SQL,PostgreSQL,Amazon Redshift,Spark,SQL Server Transact-SQL"
-    },
-    "benchmark-builder": {
-      "title": "Генератор бенчмарков",
-      "description": "Простой онлайн конструктор бенчмарков для легкого сравнения времени выполнения задач.",
-      "keywords": "бенчмарк,строитель,исполнение,продолжительность,среднее,дисперсия"
-    },
-    "git-memo": {
-      "title": "Шпаргалка по Git",
-      "description": "Git - это децентрализованное ПО для управления версиями. С этой шпаргалкой вы можете быстро получить доступ к наиболее распространенным командам git.",
-      "keywords": "git,отправить,сила,вытянуть,коммит,исправить,перебазировать,слияние,сброс,мягкий,жесткий,аренда"
-    },
-    "slugify-string": {
-      "title": "Строка в Slug",
-      "description": "Обеспечение безопасности строк для URL, имен файлов и ID.",
-      "keywords": "slugify,строка,экранировать,эмодзи,специальный,символ,пробел,обрезать"
-    },
-    "encryption": {
-      "title": "Шифрование/дешифрование текста",
-      "description": "Шифрование и дешифрование текста с использованием алгоритмов шифрования (таких как AES, TripleDES, Rabbit или RC4).",
-      "keywords": "шифр,зашифровать,текст,AES,TripleDES,Rabbit,RC4"
-    },
-    "random-port-generator": {
-      "title": "Генератор случайных портов",
-      "description": "Генерация случайных номеров портов вне диапазона \"известных\" портов (0-1023).",
-      "keywords": "система,порт,lan,генератор,случайный,разработка,компьютер"
-    },
-    "yaml-prettify": {
-      "title": "Форматирование YAML",
-      "description": "Форматирование строк YAML в удобочитаемый вид.",
-      "keywords": "yaml,просмотрщик,улучшить,формат"
-    },
-    "eta-calculator": {
-      "title": "Калькулятор ETA",
-      "description": "Калькулятор ETA (Estimated Time of Arrival) для определения примерного времени окончания задачи, например, окончания загрузки.",
-      "keywords": "eta,калькулятор,оцененный,время,прибытие,средний"
-    },
-    "roman-numeral-converter": {
-      "title": "Конвертер римских цифр",
-      "description": "Преобразование римских цифр в числа и чисел в римские цифры.",
-      "keywords": "римский,арабский,конвертер,X,I,V,L,C,D,M"
-    },
-    "hmac-generator": {
-      "title": "Генератор HMAC",
-      "description": "Вычисление кода аутентификации сообщений на основе хэша (HMAC) с использованием ключа и предпочитаемой хэш-функции.",
-      "keywords": "hmac,генератор,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
-    },
-    "bip39-generator": {
-      "title": "Генератор паролей BIP39",
-      "description": "Генерация парольных фраз BIP39 из существующих или случайных мнемоник, или получение мнемоник из парольных фраз.",
-      "keywords": "BIP39,парольная фраза,генератор,мнемоника,энтропия"
-    },
-    "base64-file-converter": {
-      "title": "Конвертер файлов Base64",
-      "description": "Преобразование строк, файлов или изображений в их представление Base64.",
-      "keywords": "base64,конвертер,загрузить,изображение,файл,конверсия,web,данные,формат"
-    },
-    "list-converter": {
-      "title": "Конвертер списков",
-      "description": "Этот инструмент обрабатывает данные на основе массивов и применяет различные изменения (транспонирование, добавление префиксов и суффиксов, реверс списков, сортировка списков, нижний регистр значений, усечение значений) к каждой строке.",
-      "keywords": "список,конвертер,сортировать,реверс,префикс,суффикс,нижний регистр,усечь"
-    },
-    "base64-string-converter": {
-      "title": "Кодирование/декодирование строк Base64",
-      "description": "Кодирование и декодирование строк в их представление Base64.",
-      "keywords": "base64,конвертер,конверсия,web,данные,формат,atob,btoa"
-    },
-    "toml-to-yaml": {
-      "title": "TOML в YAML",
-      "description": "Парсинг и преобразование TOML в YAML",
-      "keywords": "toml,yaml,конвертировать,онлайн,трансформировать,парсить"
-    },
-    "math-evaluator": {
-      "title": "Математический калькулятор",
-      "description": "Калькулятор для вычисления математических выражений. Вы можете использовать функции sqrt, cos, sin, abs и другие.",
-      "keywords": "математика,вычислитель,калькулятор,выражение,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh"
-    },
-    "json-to-yaml-converter": {
-      "title": "JSON в YAML",
-      "description": "Онлайн преобразование JSON в YAML",
-      "keywords": "yaml,в,json"
-    },
-    "url-parser": {
-      "title": "Парсер URL",
-      "description": "Парсинг URL строки для получения всех различных частей (протокол, источник, параметры, порт, имя пользователя и пароль...)",
-      "keywords": "url,парсер,протокол,источник,параметры,порт,имя пользователя,пароль,href"
-    },
-    "iban-validator-and-parser": {
-      "title": "Валидатор и парсер IBAN",
-      "description": "Валидация и анализ номеров IBAN. Проверка валидности IBAN и получение BBAN страны, является ли он QR-IBAN и удобочитаемого формата IBAN.",
-      "keywords": "iban,валидатор,и,парсер,bic,банк"
-    },
-    "user-agent-parser": {
-      "title": "Парсер User Agent",
-      "description": "Обнаружение и анализ браузера, движка, ОС, CPU и типа/модели устройства из строки user agent.",
-      "keywords": "пользователь,агент,парсер,браузер,движок,ос,cpu,устройство,user-agent,клиент"
-    },
-    "numeronym-generator": {
-      "title": "Генератор числовых имен",
-      "description": "Числовое имя - это слово, сокращенное с помощью цифр. Например, \"i18n\" является числовым именем \"internationalization\", где 18 обозначает количество букв между первой i и последней n в слове.",
-      "keywords": "числовой,генератор,аббревиатура,i18n,a11y,l10n"
-    },
-    "case-converter": {
-      "title": "Конвертер регистра",
-      "description": "Изменение регистра строки и выбор между разными форматами",
-      "keywords": "регистр,конвертер,camelCase,capitalCase,constantCase,dotCase,headerCase,noCase,paramCase,pascalCase,pathCase,sentenceCase,snakeCase"
-    },
-    "html-entities": {
-      "title": "Экранирование HTML сущностей",
-      "description": "Экранирование или снятие экранирования HTML сущностей (замена <, >, &, \" и ' на их HTML версии)",
-      "keywords": "html,сущности,экранировать,разэкранировать,специальные,символы,теги"
-    },
-    "json-prettify": {
-      "title": "Форматирование JSON",
-      "description": "Форматирование строк JSON в удобочитаемый вид.",
-      "keywords": "json,просмотрщик,улучшить,формат"
-    },
-    "docker-run-to-docker-compose-converter": {
-      "title": "Docker Run в docker-compose",
-      "description": "Преобразование команд docker run в файлы docker-compose!",
-      "keywords": "docker,запустить,compose,yaml,yml,конвертировать,демон"
-    },
-    "mac-address-lookup": {
-      "title": "Поиск MAC адресов",
-      "description": "Поиск производителя и поставщика устройства по его MAC адресу.",
-      "keywords": "mac,адрес,поиск,поставщик,парсер,производитель"
-    },
-    "mime-types": {
-      "title": "MIME типы",
-      "description": "Преобразование MIME типов в расширения и наоборот.",
-      "keywords": "mime,типы,расширение,содержимое,тип"
-    },
-    "toml-to-json": {
-      "title": "TOML в JSON",
-      "description": "Парсинг TOML и преобразование в JSON.",
-      "keywords": "toml,json,конвертировать,онлайн,трансформировать,парсер"
-    },
-    "lorem-ipsum-generator": {
-      "title": "Генератор Lorem ipsum",
-      "description": "Lorem ipsum - это текст-заполнитель, обычно используемый для демонстрации визуального вида документа или шрифта без зависимости от осмысленного содержания",
-      "keywords": "lorem,ipsum,dolor,sit,amet,заполнитель,текст,наполнитель,случайный,генератор"
-    },
-    "qrcode-generator": {
-      "title": "Генератор QR кодов",
-      "description": "Генерация и скачивание QR кодов для URL или текста с настройкой цветов фона и переднего плана.",
-      "keywords": "qr,код,генератор,квадрат,цвет,ссылка,низкий,средний,квартиль,высокий,прозрачный"
-    },
-    "wifi-qrcode-generator": {
-      "title": "Генератор QR кодов WiFi",
-      "description": "Генерация и скачивание QR кодов для быстрого подключения к WiFi сетям.",
-      "keywords": "qr,код,генератор,квадрат,цвет,ссылка,низкий,средний,квартиль,высокий,прозрачный,wifi"
-    },
-    "xml-formatter": {
-      "title": "Форматирование XML",
-      "description": "Форматирование строк XML в удобочитаемый вид.",
-      "keywords": "xml,форматировать,формат"
-    },
-    "temperature-converter": {
-      "title": "Конвертер температуры",
-      "description": "Преобразование между шкалами температуры Кельвина, Цельсия, Фаренгейта, Ранкина, Делайла, Ньютона, Реомюра и Рёмера.",
-      "keywords": "температура,конвертер,градус,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer"
-    },
-    "chmod-calculator": {
-      "title": "Калькулятор Chmod",
-      "description": "Используйте этот онлайн калькулятор chmod для расчета прав доступа и команд chmod.",
-      "keywords": "chmod,калькулятор,файл,разрешения,файлы,директория,папка,рекурсивный,генератор,восьмеричный"
-    },
-    "rsa-key-pair-generator": {
-      "title": "Генератор пар ключей RSA",
-      "description": "Генерация новых случайных закрытых и открытых ключей RSA в формате PEM.",
-      "keywords": "rsa,ключ,пара,генератор,публичный,приватный,секрет,ssh,pem"
-    },
-    "html-wysiwyg-editor": {
-      "title": "HTML WYSIWYG редактор",
-      "description": "Онлайн HTML редактор с многофункциональным WYSIWYG редактором, мгновенное получение исходного кода содержимого.",
-      "keywords": "html,wysiwyg,редактор,p,ul,ol,конвертер,живой"
-    },
-    "markdown-to-html": {
-      "title": "Markdown в HTML",
-      "description": "Преобразование Markdown в HTML с возможностью печати в PDF",
-      "keywords": "markdown,html,конвертер,pdf"
-    },
-    "yaml-to-toml": {
-      "title": "YAML в TOML",
-      "description": "Парсинг YAML и преобразование в TOML.",
-      "keywords": "yaml,в,toml,конвертировать,трансформировать"
-    },
-    "mac-address-generator": {
-      "title": "Генератор MAC адресов",
-      "description": "Введите количество и префикс. MAC адреса будут сгенерированы в выбранном регистре (верхний или нижний)",
-      "keywords": "mac,адрес,генератор,случайный,префикс"
-    },
-    "json-diff": {
-      "title": "Сравнение JSON",
-      "description": "Сравнение двух JSON объектов и получение различий между ними.",
-      "keywords": "json,разница,сравнить,отличие,объект,данные"
-    },
-    "jwt-parser": {
-      "title": "Парсер JWT",
-      "description": "Парсинг и декодирование JSON Web Token (JWT) с отображением содержимого.",
-      "keywords": "jwt,парсер,декодировать,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,токен"
-    },
-    "date-converter": {
-      "title": "Конвертер даты и времени",
-      "description": "Преобразование даты и времени в различные форматы",
-      "keywords": "дата,время,конвертер,iso,utc,часовой пояс,год,месяц,день,минута,секунда"
-    },
-    "json-to-xml": {
-      "title": "JSON в XML",
-      "description": "Преобразование JSON в XML",
-      "keywords": "json,xml"
-    },
-    "xml-to-json": {
-      "title": "XML в JSON",
-      "description": "Преобразование XML в JSON",
-      "keywords": "xml,json"
-    },
-    "phone-parser-and-formatter": {
-      "title": "Парсер и форматировщик телефонов",
-      "description": "Парсинг, валидация и форматирование телефонных номеров. Получение информации о номерах, такой как код страны, тип и т.д.",
-      "keywords": "телефон,парсер,форматер,валидировать,формат,номер,телефон,мобильный,сотовый,международный,национальный"
-    },
-    "ipv4-subnet-calculator": {
-      "title": "Калькулятор IPv4 подсетей",
-      "description": "Парсинг блоков IPv4 CIDR и получение всей необходимой информации о подсети.",
-      "keywords": "ipv4,подсеть,калькулятор,маска,сеть,cidr,маска сети,битовая маска,широковещательный,адрес"
-    },
-    "og-meta-generator": {
-      "title": "Генератор Open Graph мета-тегов",
-      "description": "Генерация Open Graph и социальных HTML мета-тегов для вашего сайта.",
-      "keywords": "meta,тег,генератор,социальный,заголовок,описание,изображение,поделиться,онлайн,сайт,открытый,граф,og"
-    },
-    "ipv6-ula-generator": {
-      "title": "Генератор IPv6 ULA",
-      "description": "Генерация собственных локальных немаршрутизируемых IP адресов в сети согласно RFC4193.",
-      "keywords": "ipv6,ula,генератор,rfc4193,сеть,приватный"
-    },
-    "hash-text": {
-      "title": "Хэширование текста",
-      "description": "Хэширование текстовых строк с использованием нужной функции: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 или RIPEMD160",
-      "keywords": "хеш,дайджест,крипто,безопасность,текст,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
-    },
-    "json-to-toml": {
-      "title": "JSON в TOML",
-      "description": "Парсинг JSON и преобразование в TOML.",
-      "keywords": "json,парсить,toml,конвертировать,трансформировать"
-    },
-    "device-information": {
-      "title": "Информация об устройстве",
-      "description": "Получение информации о текущем устройстве (размер экрана, пиксельное соотношение, user agent...)",
-      "keywords": "устройство,информация,экран,пиксель,соотношение,статус,данные,компьютер,размер,пользователь,агент"
-    },
-    "regex-tester": {
-      "title": "Тестер регулярных выражений",
-      "description": "Тестирование ваших регулярных выражений с примерным текстом.",
-      "keywords": "регулярное выражение,тестер,пример,выражение"
-    },
-    "ascii-text-drawer": {
-      "title": "Генератор ASCII искусства",
-      "description": "Создание ASCII искусства с использованием различных шрифтов и стилей.",
-      "keywords": "ascii,asciiart,текст,рисовальщик"
-    },
-    "email-normalizer": {
-      "title": "Нормализатор email",
-      "description": "Нормализация email адресов для сравнения, дедупликации и очистки данных.",
-      "keywords": "email,нормализатор"
-    },
-    "pdf-signature-checker": {
-      "title": "Проверка подписей PDF",
-      "description": "Валидация подписей PDF файлов. Подписанные PDF файлы содержат одну или несколько подписей, которые можно использовать для определения, был ли изменен контент файла после подписания.",
-      "keywords": "pdf,подпись,проверщик,проверить,валидировать,подписать"
-    },
-    "json-minify": {
-      "title": "Минификация JSON",
-      "description": "Уменьшение и сжатие JSON путем удаления ненужных пробелов.",
-      "keywords": "json,минимизировать,формат"
-    },
-    "ulid-generator": {
-      "title": "Генератор ULID",
-      "description": "Генерация случайных универсальных уникальных лексикографически сортируемых идентификаторов (ULID).",
-      "keywords": "ulid,генератор,случайный,id,буквенно-цифровой,идентичность,токен,строка,идентификатор,уникальный"
-    },
-    "string-obfuscator": {
-      "title": "Обфускатор строк",
-      "description": "Обфускация строк (таких как секреты, IBAN или токены), делая их доступными для совместного использования и распознавания без раскрытия содержимого.",
-      "keywords": "строка,обфускатор,секрет,токен,скрыть,затемнить,маска,маскировка"
-    },
-    "base-converter": {
-      "title": "Конвертер систем счисления",
-      "description": "Преобразование чисел между различными системами счисления (десятичная, шестнадцатеричная, двоичная, восьмеричная, base64...)",
-      "keywords": "целое число,число,основание,конверсия,десятичный,шестнадцатеричный,двоичный,восьмеричный,base64"
-    },
-    "yaml-to-json-converter": {
-      "title": "YAML в JSON",
-      "description": "Используйте этот онлайн конвертер для преобразования YAML в JSON.",
-      "keywords": "yaml,в,json"
-    },
-    "uuid-generator": {
-      "title": "Генератор UUID",
-      "description": "Универсальный уникальный идентификатор (UUID) - это 128-битное число, используемое для идентификации информации в компьютерных системах. Возможное количество UUID составляет 16^32, т.е. 2^128 или около 3.4x10^38 (это очень большое число!).",
-      "keywords": "uuid,v4,случайный,id,буквенно-цифровой,идентичность,токен,строка,идентификатор,уникальный,v1,v3,v5,nil"
-    },
-    "ipv4-address-converter": {
-      "title": "Конвертер IPv4 адресов",
-      "description": "В IPv6 преобразование IP адресов в десятичный, двоичный, шестнадцатеричный или другие форматы",
-      "keywords": "ipv4,адрес,конвертер,десятичный,шестнадцатеричный,двоичный,ipv6"
-    },
-    "text-statistics": {
-      "title": "Статистика текста",
-      "description": "Получение информации о тексте, количестве символов, слов, размере и т.д.",
-      "keywords": "текст,статистика,длина,символы,подсчет,размер,байты"
-    },
-    "text-to-nato-alphabet": {
-      "title": "Текст в алфавит НАТО",
-      "description": "Преобразование текста в фонетический алфавит НАТО для устной передачи.",
-      "keywords": "строка,nato,алфавит,фонетический,устный,передача"
-    },
-    "basic-auth-generator": {
-      "title": "Генератор базовой аутентификации",
-      "description": "Генерация заголовка базовой аутентификации base64 из имени пользователя и пароля.",
-      "keywords": "основной,аутентификация,генератор,имя пользователя,пароль,base64,аутентификация,заголовок,авторизация"
-    },
-    "text-to-unicode": {
-      "title": "Текст в Unicode",
-      "description": "Парсинг текста и преобразование в unicode и наоборот",
-      "keywords": "текст,в,unicode"
-    },
-    "ipv4-range-expander": {
-      "title": "Расширитель диапазона IPv4",
-      "description": "При заданных начальном и конечном IPv4 адресах этот инструмент вычисляет допустимые IPv4 сети с использованием их CIDR нотации.",
-      "keywords": "ipv4,диапазон,расширитель,подсеть,создатель,cidr"
-    },
-    "text-diff": {
-      "title": "Сравнение текста",
-      "description": "Сравнение двух текстов и просмотр различий между ними.",
-      "keywords": "текст,разница,сравнить,строка,разница текста,код"
-    },
-    "otp-generator": {
-      "title": "Генератор OTP кодов",
-      "description": "Генерация и валидация OTP (одноразовых паролей) на основе времени для многофакторной аутентификации.",
-      "keywords": "otp,код,генератор,валидатор,один,время,пароль,аутентификация,MFA,мобильный,устройство,безопасность,TOTP,Время,HMAC"
-    },
-    "url-encoder": {
-      "title": "Кодирование/декодирование URL",
-      "description": "Кодирование в формат URL (также известный как \"процентное кодирование\") или декодирование из него.",
-      "keywords": "url,кодировать,декодировать,процент,%20,формат"
-    },
-    "text-to-binary": {
-      "title": "Текст в ASCII двоичный",
-      "description": "Преобразование текста в его ASCII двоичное представление и наоборот.",
-      "keywords": "текст,в,двоичный,конвертер,кодировать,декодировать,ascii"
-    }
   },
   "commandPalette": {
     "categories": {

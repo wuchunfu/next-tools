@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-to-binary": {
-      "title": "Văn bản sang nhị phân ASCII",
-      "description": "Chuyển đổi văn bản sang biểu diễn nhị phân ASCII của nó và ngược lại.",
       "cardTextToBinaryTitle": "Văn bản sang Nhị phân",
       "cardTextToBinaryDescription": "Chuyển đổi văn bản sang biểu diễn nhị phân ASCII của nó.",
       "cardBinaryToTextTitle": "Nhị phân sang Văn bản",

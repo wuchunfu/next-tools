@@ -1,8 +1,6 @@
 {
   "tools": {
     "html-entities": {
-      "title": "Échapper les entités HTML",
-      "description": "Échapper ou déséchapper les entités HTML (remplacer des caractères comme <,>, &, \" et \\' par leur version HTML)",
       "cardEscapeTitle": "Échapper les entités HTML",
       "cardEscapeDescription": "Échapper les entités HTML (remplacer des caractères comme <, >, &, \" et ' par leur version HTML).",
       "cardUnescapeTitle": "Déséchapper les entités HTML",

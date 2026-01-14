@@ -1,8 +1,6 @@
 {
   "tools": {
     "hash-text": {
-      "title": "Text hashen",
-      "description": "Hashen Sie eine Textzeichenkette mit der benötigten Funktion: MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 oder RIPEMD160",
       "placeholder": "Ihre zu hashende Zeichenkette...",
       "yourTextToHash": "Ihr zu hashender Text:",
       "digestEncoding": "Digest-Kodierung",

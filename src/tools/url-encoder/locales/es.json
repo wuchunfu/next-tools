@@ -1,8 +1,6 @@
 {
   "tools": {
     "url-encoder": {
-      "title": "Codificar/decodificar cadenas con formato URL",
-      "description": "Codifique texto a formato codificado URL (también conocido como \"codificado por porcentaje\"), o decodifique desde él.",
       "cardEncodeTitle": "Codificar URL",
       "cardEncodeDescription": "Codifique texto a formato codificado URL (también conocido como \"codificado por porcentaje\").",
       "cardDecodeTitle": "Decodificar URL",

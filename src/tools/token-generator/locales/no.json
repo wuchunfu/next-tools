@@ -1,8 +1,6 @@
 {
   "tools": {
     "token-generator": {
-      "title": "Token generator",
-      "description": "Generer en tilfeldig streng med store og/eller små bokstaver, siffer og/eller symboler.",
       "characterTypes": "Tegntyper",
       "uppercase": "Store bokstaver (ABC...)",
       "lowercase": "Små bokstaver (abc...)",

@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-statistics": {
-      "title": "Estatísticas de texto",
-      "description": "Obtenha informações sobre um texto, o número de caracteres, o número de palavras, seu tamanho em bytes, ...",
       "cardInputTitle": "Entrada",
       "cardInputDescription": "Cole ou digite seu texto para obter estatísticas instantâneas.",
       "cardResultsTitle": "Resultados",

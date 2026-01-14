@@ -1,8 +1,6 @@
 {
   "tools": {
     "token-generator": {
-      "title": "Gerador de token",
-      "description": "Gere uma string aleatória com os caracteres que você deseja, letras maiúsculas ou minúsculas, números e/ou símbolos.",
       "characterTypes": "Tipos de caracteres",
       "uppercase": "Maiúsculas (ABC...)",
       "lowercase": "Minúsculas (abc...)",

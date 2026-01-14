@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "ico-generator": {
+      "cardUploadTitle": "Загрузить изображение",
+      "cardConfigTitle": "Конфигурация и вывод",
+      "uploadCta": "Нажмите или перетащите изображение",
+      "uploadHint": "Поддерживает PNG, JPEG и другие форматы изображений",
+      "statusLabel": "Статус",
+      "statusIdle": "Готов",
+      "statusGenerating": "Генерация...",
+      "statusSuccess": "Успешно",
+      "statusError": "Ошибка",
+      "fileInfo": "Информация о файле",
+      "noFileSelected": "Файл не выбран",
+      "preview": "Предпросмотр",
+      "sizesLabel": "Размеры иконок",
+      "selectedCount": "Выбрано: {count}",
+      "filenameLabel": "Имя выходного файла",
+      "filename": "Имя файла",
+      "fileSize": "Размер файла",
+      "sizes": "Размеры",
+      "generate": "Создать ICO",
+      "generating": "Генерация...",
+      "download": "Скачать ICO",
+      "reset": "Сбросить",
+      "generatedFileInfo": "Созданный файл",
+      "successMessage": "ICO файл успешно создан! Нажмите для загрузки.",
+      "errorNoFile": "Пожалуйста, сначала загрузите изображение",
+      "errorNoSizes": "Пожалуйста, выберите хотя бы один размер иконки",
+      "errorInvalidFileType": "Файл должен быть изображением",
+      "errorFileTooLarge": "Размер файла должен быть менее 10МБ",
+      "customSizes": "Пользовательские размеры",
+      "customSizePlaceholder": "Введите размер (например: 64 или 64x64)",
+      "customSizeHint": "Поддерживаемые форматы: 32, 32x32, или 32×32 (1-512px)",
+      "errorInvalidSize": "Неверный формат размера. Используйте: 32 или 32x32",
+      "errorSizeRange": "Размер должен быть от 1 до 512 пикселей",
+      "errorSizeExists": "Этот размер уже существует",
+      "clearCustomSizes": "Очистить все"
+    }
+  }
+}

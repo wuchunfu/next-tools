@@ -1,0 +1,41 @@
+{
+  "tools": {
+    "ico-generator": {
+      "cardUploadTitle": "Tải lên hình ảnh",
+      "cardConfigTitle": "Cấu hình và đầu ra",
+      "uploadCta": "Nhấp hoặc kéo để tải lên hình ảnh",
+      "uploadHint": "Hỗ trợ PNG, JPEG và các định dạng hình ảnh khác",
+      "statusLabel": "Trạng thái",
+      "statusIdle": "Sẵn sàng",
+      "statusGenerating": "Đang tạo...",
+      "statusSuccess": "Thành công",
+      "statusError": "Lỗi",
+      "fileInfo": "Thông tin tệp",
+      "noFileSelected": "Chưa chọn tệp",
+      "preview": "Xem trước",
+      "sizesLabel": "Kích thước biểu tượng",
+      "selectedCount": "Đã chọn {count}",
+      "filenameLabel": "Tên tệp đầu ra",
+      "filename": "Tên tệp",
+      "fileSize": "Kích thước tệp",
+      "sizes": "Kích thước",
+      "generate": "Tạo ICO",
+      "generating": "Đang tạo...",
+      "download": "Tải xuống ICO",
+      "reset": "Đặt lại",
+      "generatedFileInfo": "Tệp đã tạo",
+      "successMessage": "Tệp ICO đã được tạo thành công! Nhấp để tải xuống.",
+      "errorNoFile": "Vui lòng tải lên hình ảnh trước",
+      "errorNoSizes": "Vui lòng chọn ít nhất một kích thước biểu tượng",
+      "errorInvalidFileType": "Tệp phải là hình ảnh",
+      "errorFileTooLarge": "Kích thước tệp phải nhỏ hơn 10MB",
+      "customSizes": "Kích thước tùy chỉnh",
+      "customSizePlaceholder": "Nhập kích thước (vd: 64 hoặc 64x64)",
+      "customSizeHint": "Định dạng hỗ trợ: 32, 32x32, hoặc 32×32 (1-512px)",
+      "errorInvalidSize": "Định dạng kích thước không hợp lệ. Sử dụng: 32 hoặc 32x64",
+      "errorSizeRange": "Kích thước phải từ 1 đến 512 pixel",
+      "errorSizeExists": "Kích thước này đã tồn tại",
+      "clearCustomSizes": "Xóa tất cả"
+    }
+  }
+}

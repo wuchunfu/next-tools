@@ -1,8 +1,6 @@
 {
   "tools": {
     "text-to-unicode": {
-      "title": "文本转 Unicode",
-      "description": "解析文本并将其转换为 unicode，反之亦然",
       "cardTextToUnicodeTitle": "文本转 Unicode",
       "cardTextToUnicodeDescription": "将文本转换为 Unicode 转义序列（\\u0031 格式）。",
       "cardUnicodeToTextTitle": "Unicode 转文本",

@@ -8,8 +8,7 @@
       "delisle": "德利尔度",
       "newton": "牛顿度",
       "reaumur": "列氏度",
-      "romer": "罗默度",
-      "description": "快速在温度计量尺度之间转换"
+      "romer": "罗默度"
     }
   }
 }
