@@ -303,10 +303,10 @@ onUnmounted(() => {
         <!-- Status -->
         <FieldGroup class="space-y-3">
           <Field orientation="horizontal">
-            <FieldLabel class="w-28 text-right text-sm text-muted-foreground">
+            <FieldLabel class="w-28 text-right text-sm text-muted-foreground" data-test-id="status-label">
               {{ t('tools.ico-generator.statusLabel') }}
             </FieldLabel>
-            <FieldContent>
+            <FieldContent data-test-id="status-value">
               <Badge class="self-end" :variant="status === 'error' ? 'destructive' : status === 'success' ? 'default' : 'secondary'">
                 {{ statusLabel }}
               </Badge>
@@ -315,15 +315,15 @@ onUnmounted(() => {
 
           <!-- File Info -->
           <Field orientation="vertical">
-            <FieldLabel>{{ t('tools.ico-generator.fileInfo') }}</FieldLabel>
+            <FieldLabel data-test-id="file-info-label">{{ t('tools.ico-generator.fileInfo') }}</FieldLabel>
             <FieldContent>
-              <div v-if="sourceFile" class="rounded-lg border bg-muted/40 p-3">
+              <div v-if="sourceFile" class="rounded-lg border bg-muted/40 p-3" data-test-id="file-info-content">
                 <div class="flex items-center justify-between">
-                  <FieldTitle>{{ sourceFile.name }}</FieldTitle>
-                  <span class="text-sm text-muted-foreground">{{ formatBytes(sourceFile.size) }}</span>
+                  <FieldTitle data-test-id="file-name">{{ sourceFile.name }}</FieldTitle>
+                  <span class="text-sm text-muted-foreground" data-test-id="file-size">{{ formatBytes(sourceFile.size) }}</span>
                 </div>
               </div>
-              <div v-else class="rounded-lg border border-dashed bg-muted/20 p-3 text-sm text-muted-foreground">
+              <div v-else class="rounded-lg border border-dashed bg-muted/20 p-3 text-sm text-muted-foreground" data-test-id="no-file-message">
                 {{ t('tools.ico-generator.noFileSelected') }}
               </div>
             </FieldContent>
@@ -358,16 +358,16 @@ onUnmounted(() => {
       <CardContent class="flex flex-1 flex-col gap-4">
         <!-- Size Selection -->
         <Field orientation="vertical">
-          <FieldLabel>
+          <FieldLabel data-test-id="icon-sizes-label">
             {{ t('tools.ico-generator.sizesLabel') }}
-            <span class="ml-2 text-xs text-muted-foreground">
+            <span class="ml-2 text-xs text-muted-foreground" data-test-id="selected-count">
               ({{ t('tools.ico-generator.selectedCount', { count: selectedSizesCount }) }})
             </span>
           </FieldLabel>
           <FieldContent>
             <!-- Standard Sizes -->
             <div class="space-y-3">
-              <div class="grid grid-cols-2 gap-3 rounded-lg border bg-muted/20 p-3">
+              <div class="grid grid-cols-2 gap-3 rounded-lg border bg-muted/20 p-3" data-test-id="standard-sizes-grid">
                 <div
                   v-for="size in STANDARD_ICO_SIZES"
                   :key="`${size.width}x${size.height}`"
@@ -375,6 +375,7 @@ onUnmounted(() => {
                 >
                   <Checkbox
                     :id="`size-${size.width}`"
+                    :data-test-id="`checkbox-size-${size.width}`"
                     :model-value="isSizeSelected(size.width, size.height)"
                     @update:model-value="(checked) => toggleSizeEnabled(size.width, size.height, checked as boolean)"
                   />
@@ -385,24 +386,26 @@ onUnmounted(() => {
               </div>
 
               <!-- Custom Sizes -->
-              <div v-if="customSizes.length > 0" class="space-y-2">
+              <div v-if="customSizes.length > 0" class="space-y-2" data-test-id="custom-sizes-section">
                 <div class="flex items-center justify-between">
                   <div class="text-xs font-medium text-muted-foreground">
                     {{ t('tools.ico-generator.customSizes') }}
                   </div>
-                  <Button type="button" variant="ghost" size="sm" class="h-6 px-2 text-xs" @click="clearAllCustomSizes">
+                  <Button type="button" variant="ghost" size="sm" class="h-6 px-2 text-xs" data-test-id="clear-all-custom-sizes-btn" @click="clearAllCustomSizes">
                     <Trash2 class="mr-1 h-3 w-3" />
                     {{ t('tools.ico-generator.clearCustomSizes') }}
                   </Button>
                 </div>
-                <div class="flex flex-wrap gap-2">
+                <div class="flex flex-wrap gap-2" data-test-id="custom-sizes-list">
                   <div
                     v-for="size in customSizes"
                     :key="`custom-${size.width}x${size.height}`"
+                    :data-test-id="`custom-size-item-${size.width}x${size.height}`"
                     class="flex items-center gap-2 rounded-md border bg-muted/40 px-2.5 py-1"
                   >
                     <Checkbox
                       :id="`custom-size-${size.width}-${size.height}`"
+                      :data-test-id="`checkbox-custom-${size.width}x${size.height}`"
                       :model-value="isSizeSelected(size.width, size.height)"
                       @update:model-value="(checked) => toggleSizeEnabled(size.width, size.height, checked as boolean)"
                     />
@@ -411,6 +414,7 @@ onUnmounted(() => {
                     </label>
                     <button
                       type="button"
+                      :data-test-id="`remove-custom-size-${size.width}x${size.height}`"
                       class="ml-1 text-muted-foreground hover:text-destructive transition-colors"
                       @click="removeCustomSize(size.width, size.height)"
                     >
@@ -426,9 +430,10 @@ onUnmounted(() => {
                   v-model="customSizeInput"
                   :placeholder="t('tools.ico-generator.customSizePlaceholder')"
                   class="flex-1"
+                  data-test-id="custom-size-input"
                   @keydown.enter="addCustomSize"
                 />
-                <Button type="button" variant="outline" size="sm" @click="addCustomSize">
+                <Button type="button" variant="outline" size="sm" data-test-id="add-custom-size-btn" @click="addCustomSize">
                   <Plus class="h-4 w-4" />
                 </Button>
               </div>
@@ -443,10 +448,10 @@ onUnmounted(() => {
 
         <!-- Output Filename -->
         <Field orientation="vertical">
-          <FieldLabel>{{ t('tools.ico-generator.filenameLabel') }}</FieldLabel>
+          <FieldLabel data-test-id="output-filename-label">{{ t('tools.ico-generator.filenameLabel') }}</FieldLabel>
           <FieldContent>
             <div class="flex items-center gap-2">
-              <Input v-model="outputFilename" placeholder="favicon" class="flex-1" />
+              <Input v-model="outputFilename" placeholder="favicon" class="flex-1" data-test-id="output-filename-input" />
               <span class="text-sm text-muted-foreground">.ico</span>
             </div>
           </FieldContent>
@@ -456,17 +461,17 @@ onUnmounted(() => {
 
         <!-- Actions -->
         <div class="flex flex-col gap-2">
-          <Button :disabled="!sourceFile || selectedSizesCount === 0 || status === 'generating'" @click="generateIco">
+          <Button :disabled="!sourceFile || selectedSizesCount === 0 || status === 'generating'" data-test-id="generate-btn" @click="generateIco">
             <FileImage class="mr-2 h-4 w-4" />
             {{ status === 'generating' ? t('tools.ico-generator.generating') : t('tools.ico-generator.generate') }}
           </Button>
 
-          <Button v-if="generatedIcoData" variant="default" @click="downloadIco">
+          <Button v-if="generatedIcoData" variant="default" data-test-id="download-btn" @click="downloadIco">
             <Download class="mr-2 h-4 w-4" />
             {{ t('tools.ico-generator.download') }}
           </Button>
 
-          <Button v-if="sourceFile" variant="outline" @click="reset">
+          <Button v-if="sourceFile" variant="outline" data-test-id="reset-btn" @click="reset">
             {{ t('tools.ico-generator.reset') }}
           </Button>
         </div>

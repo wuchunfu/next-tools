@@ -14,164 +14,180 @@ test.describe('Tool - ICO Generator', () => {
   })
 
   test('displays upload and configuration cards', async ({ page }) => {
-    // Check for upload card
-    await expect(page.getByText('Upload Image')).toBeVisible()
+    // Upload card
+    await expect(page.getByRole('heading', { name: 'Upload Image' })).toBeVisible()
 
-    // Check for configuration card
-    await expect(page.getByText('Configuration & Output')).toBeVisible()
+    // Configuration card
+    await expect(page.getByRole('heading', { name: 'Configuration & Output' })).toBeVisible()
   })
 
   test('displays status as Ready initially', async ({ page }) => {
-    // Check initial status
-    await expect(page.getByText('Ready')).toBeVisible()
+    const statusValue = page.getByTestId('status-value')
+    await expect(statusValue).toContainText('Ready')
   })
 
   test('displays all icon size checkboxes', async ({ page }) => {
-    // Check for standard icon sizes
-    await expect(page.getByText('16×16')).toBeVisible()
-    await expect(page.getByText('24×24')).toBeVisible()
-    await expect(page.getByText('32×32')).toBeVisible()
-    await expect(page.getByText('48×48')).toBeVisible()
-    await expect(page.getByText('64×64')).toBeVisible()
-    await expect(page.getByText('128×128')).toBeVisible()
-    await expect(page.getByText('256×256')).toBeVisible()
+    const grid = page.getByTestId('standard-sizes-grid')
+
+    // Check for all 7 standard sizes
+    await expect(grid.getByTestId('checkbox-size-16')).toBeVisible()
+    await expect(grid.getByTestId('checkbox-size-24')).toBeVisible()
+    await expect(grid.getByTestId('checkbox-size-32')).toBeVisible()
+    await expect(grid.getByTestId('checkbox-size-48')).toBeVisible()
+    await expect(grid.getByTestId('checkbox-size-64')).toBeVisible()
+    await expect(grid.getByTestId('checkbox-size-128')).toBeVisible()
+    await expect(grid.getByTestId('checkbox-size-256')).toBeVisible()
   })
 
   test('has default filename input', async ({ page }) => {
-    const filenameInput = page.locator('input[placeholder="favicon"]')
+    const filenameInput = page.getByTestId('output-filename-input')
     await expect(filenameInput).toBeVisible()
-    await expect(filenameInput).toHaveValue('favicon')
+    await expect(filenameInput).toHaveAttribute('placeholder', 'favicon')
   })
 
   test('generate button is disabled initially', async ({ page }) => {
-    const generateButton = page.getByRole('button', { name: /Generate ICO/i })
-    await expect(generateButton).toBeDisabled()
+    const generateBtn = page.getByTestId('generate-btn')
+    await expect(generateBtn).toBeDisabled()
   })
 
   test('shows upload hint text', async ({ page }) => {
-    await expect(page.getByText(/Click or drag to upload/i)).toBeVisible()
-    await expect(page.getByText(/Supports PNG, JPEG/i)).toBeVisible()
+    await expect(page.getByText('Click or drag to upload an image')).toBeVisible()
+    await expect(page.getByText('Supports PNG, JPEG, and other image formats')).toBeVisible()
   })
 
   test('displays no file selected message initially', async ({ page }) => {
-    await expect(page.getByText('No file selected')).toBeVisible()
+    const noFileMsg = page.getByTestId('no-file-message')
+    await expect(noFileMsg).toBeVisible()
+    await expect(noFileMsg).toContainText('No file selected')
   })
 
   test('shows selected count for icon sizes', async ({ page }) => {
-    // Should show default selected count (4 sizes: 16, 32, 48, 256)
-    await expect(page.getByText(/4 selected/i)).toBeVisible()
+    const selectedCount = page.getByTestId('selected-count')
+    await expect(selectedCount).toContainText('4 selected')
   })
 
   test('can change filename', async ({ page }) => {
-    const filenameInput = page.locator('input[placeholder="favicon"]')
+    const filenameInput = page.getByTestId('output-filename-input')
     await filenameInput.fill('my-icon')
     await expect(filenameInput).toHaveValue('my-icon')
   })
 
   test('can toggle icon size checkboxes', async ({ page }) => {
-    // Find the 24x24 checkbox (which is disabled by default)
-    const checkbox24 = page.locator('input[id="size-24"]')
+    const checkbox24 = page.getByTestId('checkbox-size-24')
+    const selectedCount = page.getByTestId('selected-count')
 
-    // Check if initially unchecked
+    // Initially unchecked
     await expect(checkbox24).not.toBeChecked()
+    await expect(selectedCount).toContainText('4 selected')
 
-    // Click the checkbox
+    // Check it
     await checkbox24.check()
-
-    // Verify it's now checked
     await expect(checkbox24).toBeChecked()
-
-    // Verify selected count increased
-    await expect(page.getByText(/5 selected/i)).toBeVisible()
+    await expect(selectedCount).toContainText('5 selected')
   })
 
   test('displays file info section', async ({ page }) => {
-    await expect(page.getByText('File Information')).toBeVisible()
+    const fileInfoLabel = page.getByTestId('file-info-label')
+    await expect(fileInfoLabel).toContainText('File Information')
   })
 
   test('displays icon sizes section', async ({ page }) => {
-    await expect(page.getByText('Icon Sizes')).toBeVisible()
+    const iconSizesLabel = page.getByTestId('icon-sizes-label')
+    await expect(iconSizesLabel).toContainText('Icon Sizes')
   })
 
   test('displays output filename section', async ({ page }) => {
-    await expect(page.getByText('Output Filename')).toBeVisible()
+    const filenameLabel = page.getByTestId('output-filename-label')
+    await expect(filenameLabel).toContainText('Output Filename')
   })
 
   test('displays custom size input field', async ({ page }) => {
-    const customSizeInput = page.locator('input[placeholder*="32"]')
+    const customSizeInput = page.getByTestId('custom-size-input')
     await expect(customSizeInput).toBeVisible()
   })
 
   test('can add a custom size', async ({ page }) => {
-    const customSizeInput = page.locator('input[placeholder*="32"]')
-    const addButton = page.getByRole('button').filter({ has: page.locator('svg') }).first()
+    const customSizeInput = page.getByTestId('custom-size-input')
+    const addButton = page.getByTestId('add-custom-size-btn')
+    const selectedCount = page.getByTestId('selected-count')
 
-    // Add a custom size
-    await customSizeInput.fill('64')
+    // Add a custom size (use a size not in standard list)
+    await customSizeInput.fill('80')
     await addButton.click()
 
     // Verify the custom size appears
-    await expect(page.getByText('64×64')).toBeVisible()
+    const customSizesList = page.getByTestId('custom-sizes-list')
+    await expect(customSizesList).toBeVisible()
+    const customSizeItem = page.getByTestId('custom-size-item-80x80')
+    await expect(customSizeItem).toBeVisible()
 
     // Verify selected count increased (4 default + 1 custom = 5)
-    await expect(page.getByText(/5 selected/i)).toBeVisible()
+    await expect(selectedCount).toContainText('5 selected')
   })
 
   test('can add custom size with width x height format', async ({ page }) => {
-    const customSizeInput = page.locator('input[placeholder*="32"]')
-    const addButton = page.getByRole('button').filter({ has: page.locator('svg') }).first()
+    const customSizeInput = page.getByTestId('custom-size-input')
+    const addButton = page.getByTestId('add-custom-size-btn')
 
-    // Add a custom size with width x height
+    // Add a custom size with width x height (use non-square size)
     await customSizeInput.fill('80x60')
     await addButton.click()
 
     // Verify the custom size appears
-    await expect(page.getByText('80×60')).toBeVisible()
+    const customSizeItem = page.getByTestId('custom-size-item-80x60')
+    await expect(customSizeItem).toBeVisible()
   })
 
   test('can remove a custom size', async ({ page }) => {
-    const customSizeInput = page.locator('input[placeholder*="32"]')
-    const addButton = page.getByRole('button').filter({ has: page.locator('svg') }).first()
+    const customSizeInput = page.getByTestId('custom-size-input')
+    const addButton = page.getByTestId('add-custom-size-btn')
 
     // Add a custom size
     await customSizeInput.fill('72')
     await addButton.click()
 
     // Verify it appears
-    await expect(page.getByText('72×72')).toBeVisible()
+    const customSizeItem = page.getByTestId('custom-size-item-72x72')
+    await expect(customSizeItem).toBeVisible()
 
-    // Find and click the remove button (X icon) for this custom size
-    const customSizeContainer = page.locator('div').filter({ hasText: /^72×72$/ }).first()
-    const removeButton = customSizeContainer.locator('button').last()
+    // Click remove button
+    const removeButton = page.getByTestId('remove-custom-size-72x72')
     await removeButton.click()
 
     // Verify the custom size is removed
-    await expect(page.getByText('72×72')).not.toBeVisible()
+    await expect(customSizeItem).not.toBeVisible()
   })
 
   test('can toggle custom size checkbox', async ({ page }) => {
-    const customSizeInput = page.locator('input[placeholder*="32"]')
-    const addButton = page.getByRole('button').filter({ has: page.locator('svg') }).first()
+    const customSizeInput = page.getByTestId('custom-size-input')
+    const addButton = page.getByTestId('add-custom-size-btn')
+    const selectedCount = page.getByTestId('selected-count')
 
     // Add a custom size (it's selected by default)
     await customSizeInput.fill('96')
     await addButton.click()
 
+    // Wait for the custom size to appear
+    const customSizeItem = page.getByTestId('custom-size-item-96x96')
+    await expect(customSizeItem).toBeVisible()
+
     // Find the checkbox for the custom size
-    const customCheckbox = page.locator('input[id*="custom-size-96"]')
+    const customCheckbox = page.getByTestId('checkbox-custom-96x96')
     await expect(customCheckbox).toBeChecked()
+    await expect(selectedCount).toContainText('5 selected')
 
     // Uncheck it
     await customCheckbox.uncheck()
     await expect(customCheckbox).not.toBeChecked()
 
-    // Verify selected count decreased
-    await expect(page.getByText(/3 selected/i)).toBeVisible()
+    // Verify selected count decreased (back to 4 default)
+    await expect(selectedCount).toContainText('4 selected')
   })
 
   test('can clear all custom sizes', async ({ page }) => {
-    const customSizeInput = page.locator('input[placeholder*="32"]')
-    const addButton = page.getByRole('button').filter({ has: page.locator('svg') }).first()
+    const customSizeInput = page.getByTestId('custom-size-input')
+    const addButton = page.getByTestId('add-custom-size-btn')
+    const selectedCount = page.getByTestId('selected-count')
 
     // Add multiple custom sizes
     await customSizeInput.fill('100')
@@ -180,18 +196,18 @@ test.describe('Tool - ICO Generator', () => {
     await addButton.click()
 
     // Verify they appear
-    await expect(page.getByText('100×100')).toBeVisible()
-    await expect(page.getByText('200×200')).toBeVisible()
+    await expect(page.getByTestId('custom-size-item-100x100')).toBeVisible()
+    await expect(page.getByTestId('custom-size-item-200x200')).toBeVisible()
+    await expect(selectedCount).toContainText('6 selected')
 
     // Click clear all button
-    const clearButton = page.getByRole('button', { name: /clear/i })
+    const clearButton = page.getByTestId('clear-all-custom-sizes-btn')
     await clearButton.click()
 
     // Verify custom sizes are removed
-    await expect(page.getByText('100×100')).not.toBeVisible()
-    await expect(page.getByText('200×200')).not.toBeVisible()
+    await expect(page.getByTestId('custom-sizes-section')).not.toBeVisible()
 
     // Verify selected count is back to default (4)
-    await expect(page.getByText(/4 selected/i)).toBeVisible()
+    await expect(selectedCount).toContainText('4 selected')
   })
 })
