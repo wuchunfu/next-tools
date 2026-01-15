@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.7.0
+
+### Features
+-  add ICO generator tool (1ab0ee9)
+
+### Bug fixes
+- **sitemap**: exclude redirect routes from sitemap generation (689d542)
+
+### Refactoring
+- **ico-generator**: use status enum, add reactive error messages and real-time validation (72523fb)
+
+### Tests
+- **ico-generator**: improve e2e test reliability with data-test-id (845599b)
+
+### Other
+-  Add Product Hunt badge to all README files (6033abe)
+
+### Improve
+-  add 200ms delay and fade-in transition to loading placeholder (543e720)
+
 ## Version 1.6.5
 
 ### Features
