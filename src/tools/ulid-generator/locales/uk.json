@@ -1,23 +1,23 @@
 {
   "tools": {
     "ulid-generator": {
+      "cardConfigTitle": "Конфігурація ULID",
+      "cardOutputTitle": "Результати ULID",
+      "copied": "ULID скопійовано в буфер обміну",
+      "copy": "Копіювати",
       "format": {
-        "label": "Формат",
         "description": "Виберіть формат виводу ULID.",
-        "raw": "Без форматування",
-        "rawDescription": "Звичайний текст, один ULID у рядку.",
         "json": "JSON",
-        "jsonDescription": "Формат JSON-масиву, зручно для API."
+        "jsonDescription": "Формат JSON-масиву, зручно для API.",
+        "label": "Формат",
+        "raw": "Без форматування",
+        "rawDescription": "Звичайний текст, один ULID у рядку."
       },
+      "generatedUlids": "Згенеровані ULID",
+      "noUlids": "Натисніть «Оновити», щоб згенерувати ULID",
       "quantity": "Кількість",
       "quantityDescription": "Скільки ULID згенерувати (1-100).",
-      "generatedUlids": "Згенеровані ULID",
-      "refresh": "Оновити",
-      "copy": "Копіювати",
-      "copied": "ULID скопійовано в буфер обміну",
-      "noUlids": "Натисніть «Оновити», щоб згенерувати ULID",
-      "cardConfigTitle": "Конфігурація ULID",
-      "cardOutputTitle": "Результати ULID"
+      "refresh": "Оновити"
     }
   }
 }

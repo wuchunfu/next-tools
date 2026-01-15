@@ -1,13 +1,13 @@
 {
   "tools": {
     "rsa-key-pair-generator": {
-      "bitsRule": "Bits phải là 256 <= bits <= 16384 và là bội số của 8",
       "bits": "Bits :",
-      "refresh": "Làm mới cặp khóa",
-      "public": "Khóa công khai",
-      "private": "Khóa riêng tư",
+      "bitsRule": "Bits phải là 256 <= bits <= 16384 và là bội số của 8",
       "configuration": "Tùy chọn khóa RSA",
-      "generatedKeys": "Khóa đã tạo"
+      "generatedKeys": "Khóa đã tạo",
+      "private": "Khóa riêng tư",
+      "public": "Khóa công khai",
+      "refresh": "Làm mới cặp khóa"
     }
   }
 }

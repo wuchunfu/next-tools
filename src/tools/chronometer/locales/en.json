@@ -2,15 +2,15 @@
   "tools": {
     "chronometer": {
       "button": {
-        "start": "Start",
-        "stop": "Stop",
-        "reset": "Reset",
+        "clearRecords": "Clear records",
         "record": "Record",
-        "clearRecords": "Clear records"
+        "reset": "Reset",
+        "start": "Start",
+        "stop": "Stop"
       },
       "records": {
-        "title": "Records",
-        "empty": "No records yet"
+        "empty": "No records yet",
+        "title": "Records"
       }
     }
   }

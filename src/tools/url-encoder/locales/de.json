@@ -1,20 +1,20 @@
 {
   "tools": {
     "url-encoder": {
-      "cardEncodeTitle": "URL kodieren",
-      "cardEncodeDescription": "Kodieren Sie Text in URL-kodiertes Format (auch bekannt als \"prozentkodiert\").",
-      "cardDecodeTitle": "URL dekodieren",
       "cardDecodeDescription": "Dekodieren Sie URL-kodierte Zeichenketten zurück in ihren ursprünglichen Text.",
-      "inputLabel": "Ihre Zeichenkette",
-      "inputPlaceholder": "Geben Sie die zu kodierende Zeichenkette ein...",
-      "outputLabel": "Kodierte Zeichenkette",
-      "outputPlaceholder": "Kodierte Zeichenkette wird hier angezeigt...",
+      "cardDecodeTitle": "URL dekodieren",
+      "cardEncodeDescription": "Kodieren Sie Text in URL-kodiertes Format (auch bekannt als \"prozentkodiert\").",
+      "cardEncodeTitle": "URL kodieren",
+      "clear": "Löschen",
       "decodeInputLabel": "Ihre kodierte Zeichenkette",
       "decodeInputPlaceholder": "Geben Sie die zu dekodierende URL-kodierte Zeichenkette ein...",
       "decodeOutputLabel": "Dekodierte Zeichenkette",
       "decodeOutputPlaceholder": "Dekodierte Zeichenkette wird hier angezeigt...",
-      "clear": "Löschen",
-      "impossibleToParse": "Diese Zeichenkette kann nicht analysiert werden"
+      "impossibleToParse": "Diese Zeichenkette kann nicht analysiert werden",
+      "inputLabel": "Ihre Zeichenkette",
+      "inputPlaceholder": "Geben Sie die zu kodierende Zeichenkette ein...",
+      "outputLabel": "Kodierte Zeichenkette",
+      "outputPlaceholder": "Kodierte Zeichenkette wird hier angezeigt..."
     }
   }
 }

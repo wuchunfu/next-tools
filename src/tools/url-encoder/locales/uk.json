@@ -1,20 +1,20 @@
 {
   "tools": {
     "url-encoder": {
-      "cardEncodeTitle": "Кодувати URL",
-      "cardEncodeDescription": "Кодуйте текст у URL-кодований формат (також відомий як \"відсотково-кодований\").",
-      "cardDecodeTitle": "Декодувати URL",
       "cardDecodeDescription": "Декодуйте URL-кодовані рядки назад до їх оригінального тексту.",
-      "inputLabel": "Ваш рядок",
-      "inputPlaceholder": "Введіть рядок для кодування...",
-      "outputLabel": "Закодований рядок",
-      "outputPlaceholder": "Закодований рядок з'явиться тут...",
+      "cardDecodeTitle": "Декодувати URL",
+      "cardEncodeDescription": "Кодуйте текст у URL-кодований формат (також відомий як \"відсотково-кодований\").",
+      "cardEncodeTitle": "Кодувати URL",
+      "clear": "Очистити",
       "decodeInputLabel": "Ваш закодований рядок",
       "decodeInputPlaceholder": "Введіть URL-кодований рядок для декодування...",
       "decodeOutputLabel": "Декодований рядок",
       "decodeOutputPlaceholder": "Декодований рядок з'явиться тут...",
-      "clear": "Очистити",
-      "impossibleToParse": "Неможливо розібрати цей рядок"
+      "impossibleToParse": "Неможливо розібрати цей рядок",
+      "inputLabel": "Ваш рядок",
+      "inputPlaceholder": "Введіть рядок для кодування...",
+      "outputLabel": "Закодований рядок",
+      "outputPlaceholder": "Закодований рядок з'явиться тут..."
     }
   }
 }

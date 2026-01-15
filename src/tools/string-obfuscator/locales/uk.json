@@ -1,16 +1,16 @@
 {
   "tools": {
     "string-obfuscator": {
-      "copied": "Замаскований рядок скопійовано",
-      "cardInputTitle": "Параметри",
       "cardInputDescription": "Налаштуйте, як має маскуватися рядок",
-      "cardResultsTitle": "Замасковано",
+      "cardInputTitle": "Параметри",
       "cardResultsDescription": "Попередній перегляд замаскованого рядка",
-      "placeholder": "Введіть рядок для маскування",
-      "label": "Рядок для маскування:",
+      "cardResultsTitle": "Замасковано",
+      "copied": "Замаскований рядок скопійовано",
       "keepFirst": "Зберегти перші:",
       "keepLast": "Зберегти останні:",
-      "keepSpaces": "Зберегти пробіли:"
+      "keepSpaces": "Зберегти пробіли:",
+      "label": "Рядок для маскування:",
+      "placeholder": "Введіть рядок для маскування"
     }
   }
 }

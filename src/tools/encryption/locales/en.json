@@ -1,18 +1,18 @@
 {
   "tools": {
     "encryption": {
-      "encrypt": "Encrypt",
-      "yourText": "Your text:",
-      "stringToCypher": "The string to cypher",
-      "yourSecretKey": "Your secret key:",
-      "encryptionAlgorithm": "Encryption algorithm:",
-      "yourTextEncrypted": "Your text encrypted:",
-      "stringHash": "Your string hash",
       "decrypt": "Decrypt",
-      "yourEncryptedText": "Your encrypted text:",
-      "yourDecryptedText": "Your decrypted text:",
+      "encrypt": "Encrypt",
+      "encryptionAlgorithm": "Encryption algorithm:",
       "errorWhileDecrypting": "Error while decrypting",
-      "unableToDecrypt": "Unable to decrypt your text"
+      "stringHash": "Your string hash",
+      "stringToCypher": "The string to cypher",
+      "unableToDecrypt": "Unable to decrypt your text",
+      "yourDecryptedText": "Your decrypted text:",
+      "yourEncryptedText": "Your encrypted text:",
+      "yourSecretKey": "Your secret key:",
+      "yourText": "Your text:",
+      "yourTextEncrypted": "Your text encrypted:"
     }
   }
 }

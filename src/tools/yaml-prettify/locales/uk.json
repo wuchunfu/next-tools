@@ -1,19 +1,19 @@
 {
   "tools": {
     "yaml-prettify": {
-      "invalid": "Наданий YAML недійсний.",
-      "cardOptionsTitle": "Параметри форматування",
+      "cardInputDescription": "Вставте ваш YAML нижче. Ми перевіримо його та згенеруємо відформатовану версію.",
+      "cardInputTitle": "Ввід YAML",
       "cardOptionsDescription": "Налаштуйте відступи та сортування ключів відповідно до вашого стилю YAML.",
-      "sortKeys": "Сортувати ключі",
-      "sortKeysHelp": "Сортуйте ключі об’єктів у алфавітному порядку для більш стабільного та читабельного виводу.",
+      "cardOptionsTitle": "Параметри форматування",
+      "cardOutputDescription": "Перегляньте та скопіюйте відформатований вивід YAML.",
+      "cardOutputTitle": "Відформатований YAML",
       "indent": "Розмір відступу",
       "indentHint": "Кількість пробілів для відступу (1–10).",
-      "cardInputTitle": "Ввід YAML",
-      "cardInputDescription": "Вставте ваш YAML нижче. Ми перевіримо його та згенеруємо відформатовану версію.",
       "inputPlaceholder": "Вставте ваш YAML тут...",
-      "cardOutputTitle": "Відформатований YAML",
-      "cardOutputDescription": "Перегляньте та скопіюйте відформатований вивід YAML.",
-      "invalidYamlTitle": "Недійсний YAML"
+      "invalid": "Наданий YAML недійсний.",
+      "invalidYamlTitle": "Недійсний YAML",
+      "sortKeys": "Сортувати ключі",
+      "sortKeysHelp": "Сортуйте ключі об’єктів у алфавітному порядку для більш стабільного та читабельного виводу."
     }
   }
 }

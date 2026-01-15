@@ -1,33 +1,33 @@
 {
   "tools": {
     "html-wysiwyg-editor": {
-      "cardTitle": "Editor",
       "cardDescription": "Schreibe Rich-Text und sieh das formatierte HTML nebeneinander.",
-      "initial": "<h1>Hey!</h1><p>Willkommen in diesem HTML-WYSIWYG-Editor</p>",
-      "formattedTitle": "Formatiertes HTML",
+      "cardTitle": "Editor",
+      "charactersLabel": "Zeichen",
+      "clearContent": "Leeren",
+      "copiedFormatted": "Formatiertes HTML kopiert",
+      "copyFormatted": "Formatiertes kopieren",
       "formattedDescription": "Mit Prettier formatiertes Markup zum Kopieren.",
       "formattedPlaceholder": "Formatiertes HTML erscheint hier",
-      "copyFormatted": "Formatiertes kopieren",
-      "copiedFormatted": "Formatiertes HTML kopiert",
-      "clearContent": "Leeren",
-      "charactersLabel": "Zeichen",
+      "formattedTitle": "Formatiertes HTML",
+      "initial": "<h1>Hey!</h1><p>Willkommen in diesem HTML-WYSIWYG-Editor</p>",
       "toolbar": {
+        "blockquote": "Blockzitat",
         "bold": "Fett",
-        "italic": "Kursiv",
-        "strike": "Durchgestrichen",
-        "inline": "Inline-Code",
+        "bullet": "Aufzählungsliste",
+        "clear": "Formatierung löschen",
+        "codeBlock": "Codeblock",
         "h1": "Überschrift 1",
         "h2": "Überschrift 2",
         "h3": "Überschrift 3",
         "h4": "Überschrift 4",
-        "bullet": "Aufzählungsliste",
-        "ordered": "Nummerierte Liste",
-        "codeBlock": "Codeblock",
-        "blockquote": "Blockzitat",
         "hardBreak": "Zeilenumbruch",
-        "clear": "Formatierung löschen",
-        "undo": "Rückgängig",
-        "redo": "Wiederholen"
+        "inline": "Inline-Code",
+        "italic": "Kursiv",
+        "ordered": "Nummerierte Liste",
+        "redo": "Wiederholen",
+        "strike": "Durchgestrichen",
+        "undo": "Rückgängig"
       }
     }
   }

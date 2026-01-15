@@ -1,13 +1,6 @@
 {
   "tools": {
     "http-status-codes": {
-      "searchPlaceholder": "Buscar estado HTTP...",
-      "searchResults": "Resultados de búsqueda",
-      "forType": "Para {type}.",
-      "types": {
-        "http": "HTTP",
-        "webdav": "WebDav"
-      },
       "categories": {
         "1xx-informational-response": "Respuesta informativa 1xx",
         "2xx-success": "Éxito 2xx",
@@ -17,257 +10,264 @@
       },
       "codes": {
         "100": {
-          "name": "Continuar",
-          "description": "Esperando a que el cliente envíe el cuerpo de la solicitud."
+          "description": "Esperando a que el cliente envíe el cuerpo de la solicitud.",
+          "name": "Continuar"
         },
         "101": {
-          "name": "Cambio de protocolo",
-          "description": "El servidor ha acordado cambiar el protocolo."
+          "description": "El servidor ha acordado cambiar el protocolo.",
+          "name": "Cambio de protocolo"
         },
         "102": {
-          "name": "Procesando",
-          "description": "El servidor está procesando la solicitud, pero aún no hay respuesta disponible."
+          "description": "El servidor está procesando la solicitud, pero aún no hay respuesta disponible.",
+          "name": "Procesando"
         },
         "103": {
-          "name": "Indicaciones tempranas",
-          "description": "El servidor devuelve algunos encabezados de respuesta antes del mensaje HTTP final."
+          "description": "El servidor devuelve algunos encabezados de respuesta antes del mensaje HTTP final.",
+          "name": "Indicaciones tempranas"
         },
         "200": {
-          "name": "OK",
-          "description": "Respuesta estándar para solicitudes HTTP exitosas."
+          "description": "Respuesta estándar para solicitudes HTTP exitosas.",
+          "name": "OK"
         },
         "201": {
-          "name": "Creado",
-          "description": "La solicitud se ha cumplido, resultando en la creación de un nuevo recurso."
+          "description": "La solicitud se ha cumplido, resultando en la creación de un nuevo recurso.",
+          "name": "Creado"
         },
         "202": {
-          "name": "Aceptado",
-          "description": "La solicitud ha sido aceptada para procesamiento, pero el procesamiento no se ha completado."
+          "description": "La solicitud ha sido aceptada para procesamiento, pero el procesamiento no se ha completado.",
+          "name": "Aceptado"
         },
         "203": {
-          "name": "Información no autorizada",
-          "description": "La solicitud es exitosa pero el contenido de la solicitud original ha sido modificado por un proxy transformador."
+          "description": "La solicitud es exitosa pero el contenido de la solicitud original ha sido modificado por un proxy transformador.",
+          "name": "Información no autorizada"
         },
         "204": {
-          "name": "Sin contenido",
-          "description": "El servidor procesó exitosamente la solicitud y no está devolviendo ningún contenido."
+          "description": "El servidor procesó exitosamente la solicitud y no está devolviendo ningún contenido.",
+          "name": "Sin contenido"
         },
         "205": {
-          "name": "Restablecer contenido",
-          "description": "El servidor indica reinicializar la vista del documento que envió esta solicitud."
+          "description": "El servidor indica reinicializar la vista del documento que envió esta solicitud.",
+          "name": "Restablecer contenido"
         },
         "206": {
-          "name": "Contenido parcial",
-          "description": "El servidor está entregando solo una parte del recurso debido a un encabezado de rango enviado por el cliente."
+          "description": "El servidor está entregando solo una parte del recurso debido a un encabezado de rango enviado por el cliente.",
+          "name": "Contenido parcial"
         },
         "207": {
-          "name": "Multiestado",
-          "description": "El cuerpo del mensaje que sigue es un mensaje XML y puede contener varios códigos de respuesta separados."
+          "description": "El cuerpo del mensaje que sigue es un mensaje XML y puede contener varios códigos de respuesta separados.",
+          "name": "Multiestado"
         },
         "208": {
-          "name": "Ya reportado",
-          "description": "Los miembros de un enlace DAV ya han sido enumerados en una parte anterior de la respuesta (multiestado)."
+          "description": "Los miembros de un enlace DAV ya han sido enumerados en una parte anterior de la respuesta (multiestado).",
+          "name": "Ya reportado"
         },
         "226": {
-          "name": "IM usado",
-          "description": "El servidor ha cumplido una solicitud para el recurso, y la respuesta es una representación del resultado."
+          "description": "El servidor ha cumplido una solicitud para el recurso, y la respuesta es una representación del resultado.",
+          "name": "IM usado"
         },
         "300": {
-          "name": "Múltiples opciones",
-          "description": "Indica múltiples opciones para el recurso que el cliente puede seguir."
+          "description": "Indica múltiples opciones para el recurso que el cliente puede seguir.",
+          "name": "Múltiples opciones"
         },
         "301": {
-          "name": "Movido permanentemente",
-          "description": "Esta y todas las solicitudes futuras deben dirigirse al URI dado."
+          "description": "Esta y todas las solicitudes futuras deben dirigirse al URI dado.",
+          "name": "Movido permanentemente"
         },
         "302": {
-          "name": "Encontrado",
-          "description": "Redirigir a otra URL. Este es un ejemplo de práctica de la industria que contradice el estándar."
+          "description": "Redirigir a otra URL. Este es un ejemplo de práctica de la industria que contradice el estándar.",
+          "name": "Encontrado"
         },
         "303": {
-          "name": "Ver otro",
-          "description": "La respuesta a la solicitud se puede encontrar bajo otro URI usando un método GET."
+          "description": "La respuesta a la solicitud se puede encontrar bajo otro URI usando un método GET.",
+          "name": "Ver otro"
         },
         "304": {
-          "name": "No modificado",
-          "description": "Indica que el recurso no ha sido modificado desde la versión especificada por los encabezados de solicitud."
+          "description": "Indica que el recurso no ha sido modificado desde la versión especificada por los encabezados de solicitud.",
+          "name": "No modificado"
         },
         "305": {
-          "name": "Usar proxy",
-          "description": "El recurso solicitado está disponible solo a través de un proxy, cuya dirección se proporciona en la respuesta."
+          "description": "El recurso solicitado está disponible solo a través de un proxy, cuya dirección se proporciona en la respuesta.",
+          "name": "Usar proxy"
         },
         "306": {
-          "name": "Cambiar proxy",
-          "description": "Ya no se usa. Originalmente significaba \"Las solicitudes posteriores deben usar el proxy especificado.\""
+          "description": "Ya no se usa. Originalmente significaba \"Las solicitudes posteriores deben usar el proxy especificado.\"",
+          "name": "Cambiar proxy"
         },
         "307": {
-          "name": "Redirección temporal",
-          "description": "En este caso, la solicitud debe repetirse con otro URI; sin embargo, las solicitudes futuras aún deben usar el URI original."
+          "description": "En este caso, la solicitud debe repetirse con otro URI; sin embargo, las solicitudes futuras aún deben usar el URI original.",
+          "name": "Redirección temporal"
         },
         "308": {
-          "name": "Redirección permanente",
-          "description": "La solicitud y todas las solicitudes futuras deben repetirse usando otro URI."
+          "description": "La solicitud y todas las solicitudes futuras deben repetirse usando otro URI.",
+          "name": "Redirección permanente"
         },
         "400": {
-          "name": "Solicitud incorrecta",
-          "description": "El servidor no puede o no procesará la solicitud debido a un error aparente del cliente."
+          "description": "El servidor no puede o no procesará la solicitud debido a un error aparente del cliente.",
+          "name": "Solicitud incorrecta"
         },
         "401": {
-          "name": "No autorizado",
-          "description": "Similar a 403 Prohibido, pero específicamente para usar cuando se requiere autenticación y ha fallado o aún no se ha proporcionado."
+          "description": "Similar a 403 Prohibido, pero específicamente para usar cuando se requiere autenticación y ha fallado o aún no se ha proporcionado.",
+          "name": "No autorizado"
         },
         "402": {
-          "name": "Pago requerido",
-          "description": "Reservado para uso futuro. La intención original era que este código podría usarse como parte de alguna forma de dinero digital o esquema de micropago."
+          "description": "Reservado para uso futuro. La intención original era que este código podría usarse como parte de alguna forma de dinero digital o esquema de micropago.",
+          "name": "Pago requerido"
         },
         "403": {
-          "name": "Prohibido",
-          "description": "La solicitud era válida, pero el servidor se niega a actuar. El usuario podría no tener los permisos necesarios para un recurso."
+          "description": "La solicitud era válida, pero el servidor se niega a actuar. El usuario podría no tener los permisos necesarios para un recurso.",
+          "name": "Prohibido"
         },
         "404": {
-          "name": "No encontrado",
-          "description": "El recurso solicitado no se pudo encontrar pero puede estar disponible en el futuro."
+          "description": "El recurso solicitado no se pudo encontrar pero puede estar disponible en el futuro.",
+          "name": "No encontrado"
         },
         "405": {
-          "name": "Método no permitido",
-          "description": "Un método de solicitud no es compatible con el recurso solicitado."
+          "description": "Un método de solicitud no es compatible con el recurso solicitado.",
+          "name": "Método no permitido"
         },
         "406": {
-          "name": "No aceptable",
-          "description": "El recurso solicitado es capaz de generar solo contenido no aceptable según los encabezados Accept enviados en la solicitud."
+          "description": "El recurso solicitado es capaz de generar solo contenido no aceptable según los encabezados Accept enviados en la solicitud.",
+          "name": "No aceptable"
         },
         "407": {
-          "name": "Autenticación de proxy requerida",
-          "description": "El cliente debe autenticarse primero con el proxy."
+          "description": "El cliente debe autenticarse primero con el proxy.",
+          "name": "Autenticación de proxy requerida"
         },
         "408": {
-          "name": "Tiempo de espera de solicitud",
-          "description": "El servidor agotó el tiempo de espera esperando la solicitud."
+          "description": "El servidor agotó el tiempo de espera esperando la solicitud.",
+          "name": "Tiempo de espera de solicitud"
         },
         "409": {
-          "name": "Conflicto",
-          "description": "Indica que la solicitud no se pudo procesar debido a un conflicto en la solicitud, como un conflicto de edición."
+          "description": "Indica que la solicitud no se pudo procesar debido a un conflicto en la solicitud, como un conflicto de edición.",
+          "name": "Conflicto"
         },
         "410": {
-          "name": "Desaparecido",
-          "description": "Indica que el recurso solicitado ya no está disponible y no volverá a estar disponible."
+          "description": "Indica que el recurso solicitado ya no está disponible y no volverá a estar disponible.",
+          "name": "Desaparecido"
         },
         "411": {
-          "name": "Longitud requerida",
-          "description": "La solicitud no especificó la longitud de su contenido, que es requerida por el recurso solicitado."
+          "description": "La solicitud no especificó la longitud de su contenido, que es requerida por el recurso solicitado.",
+          "name": "Longitud requerida"
         },
         "412": {
-          "name": "Precondición fallida",
-          "description": "El servidor no cumple con una de las precondiciones que el solicitante puso en la solicitud."
+          "description": "El servidor no cumple con una de las precondiciones que el solicitante puso en la solicitud.",
+          "name": "Precondición fallida"
         },
         "413": {
-          "name": "Carga útil demasiado grande",
-          "description": "La solicitud es más grande de lo que el servidor está dispuesto o puede procesar."
+          "description": "La solicitud es más grande de lo que el servidor está dispuesto o puede procesar.",
+          "name": "Carga útil demasiado grande"
         },
         "414": {
-          "name": "URI demasiado largo",
-          "description": "El URI proporcionado era demasiado largo para que el servidor lo procesara."
+          "description": "El URI proporcionado era demasiado largo para que el servidor lo procesara.",
+          "name": "URI demasiado largo"
         },
         "415": {
-          "name": "Tipo de medio no compatible",
-          "description": "La entidad de solicitud tiene un tipo de medio que el servidor o recurso no admite."
+          "description": "La entidad de solicitud tiene un tipo de medio que el servidor o recurso no admite.",
+          "name": "Tipo de medio no compatible"
         },
         "416": {
-          "name": "Rango no satisfacible",
-          "description": "El cliente ha solicitado una porción del archivo, pero el servidor no puede suministrar esa porción."
+          "description": "El cliente ha solicitado una porción del archivo, pero el servidor no puede suministrar esa porción.",
+          "name": "Rango no satisfacible"
         },
         "417": {
-          "name": "Expectativa fallida",
-          "description": "El servidor no puede cumplir con los requisitos del campo de encabezado de solicitud Expect."
+          "description": "El servidor no puede cumplir con los requisitos del campo de encabezado de solicitud Expect.",
+          "name": "Expectativa fallida"
         },
         "418": {
-          "name": "Soy una tetera",
-          "description": "El servidor rechaza el intento de preparar café con una tetera."
+          "description": "El servidor rechaza el intento de preparar café con una tetera.",
+          "name": "Soy una tetera"
         },
         "421": {
-          "name": "Solicitud mal dirigida",
-          "description": "La solicitud se dirigió a un servidor que no puede producir una respuesta."
+          "description": "La solicitud se dirigió a un servidor que no puede producir una respuesta.",
+          "name": "Solicitud mal dirigida"
         },
         "422": {
-          "name": "Entidad no procesable",
-          "description": "La solicitud estaba bien formada pero no se pudo seguir debido a errores semánticos."
+          "description": "La solicitud estaba bien formada pero no se pudo seguir debido a errores semánticos.",
+          "name": "Entidad no procesable"
         },
         "423": {
-          "name": "Bloqueado",
-          "description": "El recurso al que se está accediendo está bloqueado."
+          "description": "El recurso al que se está accediendo está bloqueado.",
+          "name": "Bloqueado"
         },
         "424": {
-          "name": "Dependencia fallida",
-          "description": "La solicitud falló debido al fallo de una solicitud anterior."
+          "description": "La solicitud falló debido al fallo de una solicitud anterior.",
+          "name": "Dependencia fallida"
         },
         "425": {
-          "name": "Demasiado temprano",
-          "description": "Indica que el servidor no está dispuesto a arriesgarse a procesar una solicitud que podría ser reproducida."
+          "description": "Indica que el servidor no está dispuesto a arriesgarse a procesar una solicitud que podría ser reproducida.",
+          "name": "Demasiado temprano"
         },
         "426": {
-          "name": "Actualización requerida",
-          "description": "El cliente debe cambiar a un protocolo diferente como TLS/1.0."
+          "description": "El cliente debe cambiar a un protocolo diferente como TLS/1.0.",
+          "name": "Actualización requerida"
         },
         "428": {
-          "name": "Precondición requerida",
-          "description": "El servidor de origen requiere que la solicitud sea condicional."
+          "description": "El servidor de origen requiere que la solicitud sea condicional.",
+          "name": "Precondición requerida"
         },
         "429": {
-          "name": "Demasiadas solicitudes",
-          "description": "El usuario ha enviado demasiadas solicitudes en una cantidad determinada de tiempo."
+          "description": "El usuario ha enviado demasiadas solicitudes en una cantidad determinada de tiempo.",
+          "name": "Demasiadas solicitudes"
         },
         "431": {
-          "name": "Campos de encabezado de solicitud demasiado grandes",
-          "description": "El servidor no está dispuesto a procesar la solicitud porque un campo de encabezado individual, o todos los campos de encabezado colectivamente, son demasiado grandes."
+          "description": "El servidor no está dispuesto a procesar la solicitud porque un campo de encabezado individual, o todos los campos de encabezado colectivamente, son demasiado grandes.",
+          "name": "Campos de encabezado de solicitud demasiado grandes"
         },
         "451": {
-          "name": "No disponible por razones legales",
-          "description": "Un operador del servidor ha recibido una demanda legal para denegar el acceso a un recurso o a un conjunto de recursos que incluye el recurso solicitado."
+          "description": "Un operador del servidor ha recibido una demanda legal para denegar el acceso a un recurso o a un conjunto de recursos que incluye el recurso solicitado.",
+          "name": "No disponible por razones legales"
         },
         "500": {
-          "name": "Error interno del servidor",
-          "description": "Un mensaje de error genérico, dado cuando se encontró una condición inesperada y no hay un mensaje más específico adecuado."
+          "description": "Un mensaje de error genérico, dado cuando se encontró una condición inesperada y no hay un mensaje más específico adecuado.",
+          "name": "Error interno del servidor"
         },
         "501": {
-          "name": "No implementado",
-          "description": "El servidor no reconoce el método de solicitud, o carece de la capacidad para cumplir la solicitud."
+          "description": "El servidor no reconoce el método de solicitud, o carece de la capacidad para cumplir la solicitud.",
+          "name": "No implementado"
         },
         "502": {
-          "name": "Puerta de enlace incorrecta",
-          "description": "El servidor estaba actuando como puerta de enlace o proxy y recibió una respuesta inválida del servidor ascendente."
+          "description": "El servidor estaba actuando como puerta de enlace o proxy y recibió una respuesta inválida del servidor ascendente.",
+          "name": "Puerta de enlace incorrecta"
         },
         "503": {
-          "name": "Servicio no disponible",
-          "description": "El servidor no está disponible actualmente (porque está sobrecargado o fuera de servicio por mantenimiento)."
+          "description": "El servidor no está disponible actualmente (porque está sobrecargado o fuera de servicio por mantenimiento).",
+          "name": "Servicio no disponible"
         },
         "504": {
-          "name": "Tiempo de espera de puerta de enlace",
-          "description": "El servidor estaba actuando como puerta de enlace o proxy y no recibió una respuesta oportuna del servidor ascendente."
+          "description": "El servidor estaba actuando como puerta de enlace o proxy y no recibió una respuesta oportuna del servidor ascendente.",
+          "name": "Tiempo de espera de puerta de enlace"
         },
         "505": {
-          "name": "Versión HTTP no compatible",
-          "description": "El servidor no admite la versión del protocolo HTTP utilizada en la solicitud."
+          "description": "El servidor no admite la versión del protocolo HTTP utilizada en la solicitud.",
+          "name": "Versión HTTP no compatible"
         },
         "506": {
-          "name": "Variante también negocia",
-          "description": "La negociación transparente de contenido para la solicitud resulta en una referencia circular."
+          "description": "La negociación transparente de contenido para la solicitud resulta en una referencia circular.",
+          "name": "Variante también negocia"
         },
         "507": {
-          "name": "Almacenamiento insuficiente",
-          "description": "El servidor no puede almacenar la representación necesaria para completar la solicitud."
+          "description": "El servidor no puede almacenar la representación necesaria para completar la solicitud.",
+          "name": "Almacenamiento insuficiente"
         },
         "508": {
-          "name": "Bucle detectado",
-          "description": "El servidor detectó un bucle infinito mientras procesaba la solicitud."
+          "description": "El servidor detectó un bucle infinito mientras procesaba la solicitud.",
+          "name": "Bucle detectado"
         },
         "510": {
-          "name": "No extendido",
-          "description": "Se requieren más extensiones a la solicitud para que el servidor la cumpla."
+          "description": "Se requieren más extensiones a la solicitud para que el servidor la cumpla.",
+          "name": "No extendido"
         },
         "511": {
-          "name": "Autenticación de red requerida",
-          "description": "El cliente necesita autenticarse para obtener acceso a la red."
+          "description": "El cliente necesita autenticarse para obtener acceso a la red.",
+          "name": "Autenticación de red requerida"
         }
+      },
+      "forType": "Para {type}.",
+      "searchPlaceholder": "Buscar estado HTTP...",
+      "searchResults": "Resultados de búsqueda",
+      "types": {
+        "http": "HTTP",
+        "webdav": "WebDav"
       }
     }
   }

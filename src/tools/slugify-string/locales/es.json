@@ -1,14 +1,14 @@
 {
   "tools": {
     "slugify-string": {
-      "cardTitle": "Convertidor de Slug",
       "cardDescription": "Convierte cadenas en slugs aptos para URL. Perfecto para nombres de archivo, URLs e identificadores.",
-      "inputPlaceholder": "Ponga su cadena aquí (ej: Mi ruta de archivo)",
-      "outputPlaceholder": "Su slug se generará aquí (ej: mi-ruta-de-archivo)",
-      "cardInputTitle": "Texto original",
       "cardInputDescription": "Pegue un texto para generar un slug compatible con URL. Ideal para URLs, nombres de archivo e identificadores.",
+      "cardInputTitle": "Texto original",
+      "cardOutputDescription": "Copie el slug generado y úselo en sus URLs, nombres de archivo o IDs.",
       "cardOutputTitle": "Slug generado",
-      "cardOutputDescription": "Copie el slug generado y úselo en sus URLs, nombres de archivo o IDs."
+      "cardTitle": "Convertidor de Slug",
+      "inputPlaceholder": "Ponga su cadena aquí (ej: Mi ruta de archivo)",
+      "outputPlaceholder": "Su slug se generará aquí (ej: mi-ruta-de-archivo)"
     }
   }
 }

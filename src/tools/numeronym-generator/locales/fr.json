@@ -1,12 +1,12 @@
 {
   "tools": {
     "numeronym-generator": {
-      "placeholder": "Entrez un mot, ex. 'internationalization'",
-      "outputPlaceholder": "Votre numéronyme apparaîtra ici, ex. 'i18n'",
-      "cardInputTitle": "Entrée",
       "cardInputDescription": "Entrez le mot que vous souhaitez convertir en numéronyme.",
+      "cardInputTitle": "Entrée",
+      "cardResultsDescription": "Le numéronyme pour le mot fourni.",
       "cardResultsTitle": "Résultat",
-      "cardResultsDescription": "Le numéronyme pour le mot fourni."
+      "outputPlaceholder": "Votre numéronyme apparaîtra ici, ex. 'i18n'",
+      "placeholder": "Entrez un mot, ex. 'internationalization'"
     }
   }
 }

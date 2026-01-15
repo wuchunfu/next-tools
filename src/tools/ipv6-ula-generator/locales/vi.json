@@ -1,20 +1,20 @@
 {
   "tools": {
     "ipv6-ula-generator": {
-      "cardInputTitle": "Địa chỉ MAC",
       "cardInputDescription": "Nhập địa chỉ MAC để tạo tiền tố IPv6 ULA (Unique Local Address) bằng phương pháp được IETF khuyến nghị.",
-      "cardResultsTitle": "Tiền tố IPv6 ULA đã tạo",
+      "cardInputTitle": "Địa chỉ MAC",
       "cardResultsDescription": "Tiền tố IPv6 ULA được tạo dựa trên địa chỉ MAC của bạn. Nhấp vào bất kỳ giá trị nào để sao chép vào clipboard.",
+      "cardResultsTitle": "Tiền tố IPv6 ULA đã tạo",
+      "first": "Khối định tuyến đầu tiên",
+      "info": "Công cụ này sử dụng phương pháp đầu tiên được IETF đề xuất bằng cách sử dụng dấu thời gian hiện tại cộng với địa chỉ MAC, băm SHA1, và 40 bit thấp hơn để tạo ULA ngẫu nhiên của bạn.",
+      "infoTitle": "Thông tin",
       "invalidAddressTitle": "Địa chỉ MAC không hợp lệ",
       "invalidMacAddress": "Địa chỉ MAC không hợp lệ",
       "label": "Nhãn",
-      "value": "Giá trị",
-      "ula": "IPv6 ULA",
-      "first": "Khối định tuyến đầu tiên",
       "last": "Khối định tuyến cuối cùng",
-      "infoTitle": "Thông tin",
-      "info": "Công cụ này sử dụng phương pháp đầu tiên được IETF đề xuất bằng cách sử dụng dấu thời gian hiện tại cộng với địa chỉ MAC, băm SHA1, và 40 bit thấp hơn để tạo ULA ngẫu nhiên của bạn.",
-      "placeholder": "Nhập địa chỉ MAC"
+      "placeholder": "Nhập địa chỉ MAC",
+      "ula": "IPv6 ULA",
+      "value": "Giá trị"
     }
   }
 }

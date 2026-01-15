@@ -1,23 +1,23 @@
 {
   "tools": {
     "ipv4-range-expander": {
-      "cardInputTitle": "Діапазон адрес IPv4",
+      "addressesInRange": "Адреси в діапазоні",
       "cardInputDescription": "Введіть початкову та кінцеву адреси IPv4 для розрахунку діапазону CIDR та розширеної інформації про адреси.",
-      "cardResultsTitle": "Результати розширення діапазону",
+      "cardInputTitle": "Діапазон адрес IPv4",
       "cardResultsDescription": "Перегляньте розрахований діапазон CIDR та розширену інформацію про адреси.",
-      "invalidAddressTitle": "Невірна адреса",
-      "startAddress": "Початкова адреса",
-      "startAddressPlaceholder": "Початкова адреса IPv4...",
+      "cardResultsTitle": "Результати розширення діапазону",
+      "cidr": "CIDR",
       "endAddress": "Кінцева адреса",
       "endAddressPlaceholder": "Кінцева адреса IPv4...",
-      "invalidIpv4": "Невірна адреса IPv4",
-      "addressesInRange": "Адреси в діапазоні",
-      "cidr": "CIDR",
-      "label": "Мітка",
-      "oldValue": "старе значення",
-      "newValue": "нове значення",
+      "invalidAddressTitle": "Невірна адреса",
       "invalidCombination": "Невірна комбінація адрес",
       "invalidCombinationDescription": "Кінцева адреса IPv4 менша за початкову адресу IPv4. Це недійсно, і результат не може бути обчислений.",
+      "invalidIpv4": "Невірна адреса IPv4",
+      "label": "Мітка",
+      "newValue": "нове значення",
+      "oldValue": "старе значення",
+      "startAddress": "Початкова адреса",
+      "startAddressPlaceholder": "Початкова адреса IPv4...",
       "switchAddresses": "Поміняти адреси місцями"
     }
   }

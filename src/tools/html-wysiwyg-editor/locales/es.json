@@ -1,33 +1,33 @@
 {
   "tools": {
     "html-wysiwyg-editor": {
-      "cardTitle": "Editor",
       "cardDescription": "Escribe texto enriquecido y ve el HTML formateado en paralelo.",
-      "initial": "<h1>¡Hola!</h1><p>Bienvenido a este editor HTML wysiwyg</p>",
-      "formattedTitle": "HTML formateado",
+      "cardTitle": "Editor",
+      "charactersLabel": "Caracteres",
+      "clearContent": "Limpiar",
+      "copiedFormatted": "HTML formateado copiado",
+      "copyFormatted": "Copiar formateado",
       "formattedDescription": "Markup formateado con Prettier listo para copiar.",
       "formattedPlaceholder": "El HTML formateado aparecerá aquí",
-      "copyFormatted": "Copiar formateado",
-      "copiedFormatted": "HTML formateado copiado",
-      "clearContent": "Limpiar",
-      "charactersLabel": "Caracteres",
+      "formattedTitle": "HTML formateado",
+      "initial": "<h1>¡Hola!</h1><p>Bienvenido a este editor HTML wysiwyg</p>",
       "toolbar": {
+        "blockquote": "Cita en bloque",
         "bold": "Negrita",
-        "italic": "Cursiva",
-        "strike": "Tachado",
-        "inline": "Código en línea",
+        "bullet": "Lista con viñetas",
+        "clear": "Limpiar formato",
+        "codeBlock": "Bloque de código",
         "h1": "Encabezado 1",
         "h2": "Encabezado 2",
         "h3": "Encabezado 3",
         "h4": "Encabezado 4",
-        "bullet": "Lista con viñetas",
-        "ordered": "Lista ordenada",
-        "codeBlock": "Bloque de código",
-        "blockquote": "Cita en bloque",
         "hardBreak": "Salto de línea",
-        "clear": "Limpiar formato",
-        "undo": "Deshacer",
-        "redo": "Rehacer"
+        "inline": "Código en línea",
+        "italic": "Cursiva",
+        "ordered": "Lista ordenada",
+        "redo": "Rehacer",
+        "strike": "Tachado",
+        "undo": "Deshacer"
       }
     }
   }

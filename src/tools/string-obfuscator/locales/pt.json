@@ -1,16 +1,16 @@
 {
   "tools": {
     "string-obfuscator": {
-      "copied": "String ofuscada copiada",
-      "cardInputTitle": "Opções",
       "cardInputDescription": "Configure como a string deve ser ofuscada",
-      "cardResultsTitle": "Ofuscado",
+      "cardInputTitle": "Opções",
       "cardResultsDescription": "Visualização da string ofuscada",
-      "placeholder": "Digite uma string para ofuscar",
-      "label": "String para ofuscar:",
+      "cardResultsTitle": "Ofuscado",
+      "copied": "String ofuscada copiada",
       "keepFirst": "Manter primeiro:",
       "keepLast": "Manter último:",
-      "keepSpaces": "Manter espaços:"
+      "keepSpaces": "Manter espaços:",
+      "label": "String para ofuscar:",
+      "placeholder": "Digite uma string para ofuscar"
     }
   }
 }

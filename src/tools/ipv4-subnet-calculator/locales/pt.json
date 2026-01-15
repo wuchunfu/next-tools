@@ -1,31 +1,31 @@
 {
   "tools": {
     "ipv4-subnet-calculator": {
+      "broadcastAddress": "Endereço de broadcast",
+      "cannotParseAddress": "Não podemos analisar este endereço, verifique o formato",
+      "cardInputDescription": "Digite um endereço IPv4 com ou sem notação CIDR para calcular informações de sub-rede.",
+      "cardInputTitle": "Endereço IPv4",
+      "cardResultsDescription": "Informações detalhadas de rede e sub-rede para o endereço IPv4 inserido.",
+      "cardResultsTitle": "Informações de sub-rede",
+      "cidrNotation": "Notação CIDR",
+      "firstAddress": "Primeiro endereço",
       "inputLabel": "Um endereço IPv4 com ou sem máscara",
       "inputPlaceholder": "O endereço IPv4...",
-      "cannotParseAddress": "Não podemos analisar este endereço, verifique o formato",
+      "invalidAddressTitle": "Endereço inválido",
+      "ipClass": "Classe IP",
+      "lastAddress": "Último endereço",
       "netmask": "Máscara de rede",
       "networkAddress": "Endereço de rede",
       "networkMask": "Máscara de rede",
       "networkMaskInBinary": "Máscara de rede em binário",
-      "cidrNotation": "Notação CIDR",
-      "wildcardMask": "Máscara curinga",
       "networkSize": "Tamanho da rede",
-      "firstAddress": "Primeiro endereço",
-      "lastAddress": "Último endereço",
-      "broadcastAddress": "Endereço de broadcast",
-      "noBroadcastAddress": "Nenhum endereço de broadcast com esta máscara",
-      "ipClass": "Classe IP",
-      "unknownClassType": "Tipo de classe desconhecido",
-      "previousBlock": "Bloco anterior",
       "nextBlock": "Bloco seguinte",
-      "cardInputTitle": "Endereço IPv4",
-      "cardInputDescription": "Digite um endereço IPv4 com ou sem notação CIDR para calcular informações de sub-rede.",
-      "cardResultsTitle": "Informações de sub-rede",
-      "cardResultsDescription": "Informações detalhadas de rede e sub-rede para o endereço IPv4 inserido.",
-      "invalidAddressTitle": "Endereço inválido",
+      "noBroadcastAddress": "Nenhum endereço de broadcast com esta máscara",
+      "previousBlock": "Bloco anterior",
       "property": "Propriedade",
-      "value": "Valor"
+      "unknownClassType": "Tipo de classe desconhecido",
+      "value": "Valor",
+      "wildcardMask": "Máscara curinga"
     }
   }
 }

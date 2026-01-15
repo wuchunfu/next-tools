@@ -1,26 +1,26 @@
 {
   "tools": {
     "qrcode-generator": {
-      "cardTitle": "Generador de código QR",
-      "cardDescription": "Genera códigos QR personalizables para URLs o texto con colores y niveles de corrección de errores ajustables.",
-      "text": "Contenido",
-      "yourLinkOrText": "Ingresa URL o texto para codificar...",
-      "foregroundColor": "Primer plano",
       "backgroundColor": "Fondo",
-      "errorResistance": "Nivel de corrección de errores",
-      "downloadQrCode": "Descargar PNG",
+      "cardDescription": "Genera códigos QR personalizables para URLs o texto con colores y niveles de corrección de errores ajustables.",
+      "cardTitle": "Generador de código QR",
       "characters": "caracteres",
       "colorSettings": "Configuración de colores",
-      "resetColors": "Restablecer",
-      "resetColorsTooltip": "Restablecer a colores predeterminados",
+      "downloadQrCode": "Descargar PNG",
+      "emptyPreview": "Ingresa texto para generar código QR",
+      "errorResistance": "Nivel de corrección de errores",
+      "errorResistanceHint": "Niveles más altos permiten más tolerancia a daños pero aumentan la densidad del código QR.",
+      "foregroundColor": "Primer plano",
+      "levelHigh": "Alto (~30%)",
       "levelLow": "Bajo (~7%)",
       "levelMedium": "Medio (~15%)",
       "levelQuartile": "Cuartil (~25%)",
-      "levelHigh": "Alto (~30%)",
-      "selectLevel": "Seleccionar nivel",
-      "errorResistanceHint": "Niveles más altos permiten más tolerancia a daños pero aumentan la densidad del código QR.",
       "preview": "Vista previa",
-      "emptyPreview": "Ingresa texto para generar código QR"
+      "resetColors": "Restablecer",
+      "resetColorsTooltip": "Restablecer a colores predeterminados",
+      "selectLevel": "Seleccionar nivel",
+      "text": "Contenido",
+      "yourLinkOrText": "Ingresa URL o texto para codificar..."
     }
   }
 }

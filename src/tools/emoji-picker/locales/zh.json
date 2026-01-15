@@ -1,13 +1,13 @@
 {
   "tools": {
     "emoji-picker": {
-      "searchPlaceholder": "搜索表情（例如 “smile”）...",
+      "copyCodePoints": "代码点“{value}”已复制到剪贴板",
+      "copyEmoji": "表情 {emoji} 已复制到剪贴板",
+      "copyUnicode": "Unicode “{value}”已复制到剪贴板",
       "noResults": "没有结果",
       "noResultsDescription": "尝试其他关键词或浏览分类",
-      "searchResult": "搜索结果",
-      "copyEmoji": "表情 {emoji} 已复制到剪贴板",
-      "copyCodePoints": "代码点“{value}”已复制到剪贴板",
-      "copyUnicode": "Unicode “{value}”已复制到剪贴板"
+      "searchPlaceholder": "搜索表情（例如 “smile”）...",
+      "searchResult": "搜索结果"
     }
   }
 }

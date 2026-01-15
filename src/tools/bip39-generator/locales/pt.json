@@ -1,35 +1,35 @@
 {
   "tools": {
     "bip39-generator": {
-      "entropyLength": "O comprimento da entropia deve ser ≥ 16, ≤ 32 e múltiplo de 4",
-      "entropyHex": "A entropia deve ser uma cadeia hexadecimal",
-      "invalidMnemonic": "Mnemônico inválido",
+      "cardEntropyTitle": "Fonte de entropia",
+      "cardLanguageTitle": "Idioma do mnemônico",
+      "cardPassphraseTitle": "Frase mnemônica",
       "copyEntropy": "Entropia copiada para a área de transferência",
       "copyPassphrase": "Frase copiada para a área de transferência",
-      "generateNewEntropy": "Gerar nova entropia",
-      "languageLabel": "Idioma",
-      "languageDescription": "Selecione o idioma da lista de palavras para gerar o mnemônico BIP39.",
-      "entropyLabel": "Entropia",
       "entropyDescription": "Valor seed em hexadecimal (16–32 caracteres, múltiplo de 4).",
+      "entropyHex": "A entropia deve ser uma cadeia hexadecimal",
+      "entropyLabel": "Entropia",
+      "entropyLength": "O comprimento da entropia deve ser ≥ 16, ≤ 32 e múltiplo de 4",
       "entropyPlaceholder": "Digite a entropia em hexadecimal...",
-      "passphraseLabel": "Frase mnemônica",
-      "passphraseDescription": "Frase mnemônica BIP39 (12 ou 24 palavras).",
-      "passphrasePlaceholder": "Digite a frase mnemônica...",
-      "cardLanguageTitle": "Idioma do mnemônico",
-      "cardEntropyTitle": "Fonte de entropia",
-      "cardPassphraseTitle": "Frase mnemônica",
+      "generateNewEntropy": "Gerar nova entropia",
+      "invalidMnemonic": "Mnemônico inválido",
+      "languageDescription": "Selecione o idioma da lista de palavras para gerar o mnemônico BIP39.",
+      "languageLabel": "Idioma",
       "languages": {
-        "english": "Inglês",
         "chinese-simplified": "Chinês simplificado",
         "chinese-traditional": "Chinês tradicional",
         "czech": "Checo",
+        "english": "Inglês",
         "french": "Francês",
         "italian": "Italiano",
         "japanese": "Japonês",
         "korean": "Coreano",
         "portuguese": "Português",
         "spanish": "Espanhol"
-      }
+      },
+      "passphraseDescription": "Frase mnemônica BIP39 (12 ou 24 palavras).",
+      "passphraseLabel": "Frase mnemônica",
+      "passphrasePlaceholder": "Digite a frase mnemônica..."
     }
   }
 }

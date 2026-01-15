@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import process from 'node:process'
 
 const isCI = !!process.env.CI;
 const baseUrl = process.env.BASE_URL || 'http://localhost:5050';
@@ -28,7 +29,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
 
-    testIdAttribute: 'data-test-id',
+    testIdAttribute: 'data-testid',
     locale: 'en-GB',
     timezoneId: 'Europe/Paris',
   },

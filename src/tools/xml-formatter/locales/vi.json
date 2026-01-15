@@ -1,20 +1,20 @@
 {
   "tools": {
     "xml-formatter": {
-      "invalid": "XML được cung cấp không hợp lệ.",
-      "invalidXmlTitle": "XML không hợp lệ",
+      "cardInputDescription": "Dán XML bên dưới. Chúng tôi sẽ xác thực và tạo phiên bản đã định dạng.",
+      "cardInputTitle": "XML đầu vào",
+      "cardOptionsDescription": "Điều chỉnh thụt lề và thu gọn nội dung để phù hợp với phong cách XML bạn muốn.",
+      "cardOptionsTitle": "Tùy chọn định dạng",
+      "cardOutputDescription": "Xem và sao chép kết quả XML đã định dạng.",
+      "cardOutputTitle": "XML đã định dạng",
       "collapse": "Thu gọn nội dung:",
       "collapseHint": "Thu gọn nội dung văn bản thành một dòng khi có thể.",
       "indent": "Kích thước thụt lề:",
       "indentHint": "Số khoảng trắng dùng để thụt lề (0–10).",
-      "cardOptionsTitle": "Tùy chọn định dạng",
-      "cardOptionsDescription": "Điều chỉnh thụt lề và thu gọn nội dung để phù hợp với phong cách XML bạn muốn.",
-      "cardInputTitle": "XML đầu vào",
-      "cardInputDescription": "Dán XML bên dưới. Chúng tôi sẽ xác thực và tạo phiên bản đã định dạng.",
-      "cardOutputTitle": "XML đã định dạng",
-      "cardOutputDescription": "Xem và sao chép kết quả XML đã định dạng.",
       "inputLabel": "XML của bạn",
       "inputPlaceholder": "Dán XML của bạn vào đây...",
+      "invalid": "XML được cung cấp không hợp lệ.",
+      "invalidXmlTitle": "XML không hợp lệ",
       "outputLabel": "XML đã định dạng từ XML của bạn"
     }
   }

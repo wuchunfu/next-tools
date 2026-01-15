@@ -1,22 +1,22 @@
 {
   "tools": {
     "hash-text": {
-      "placeholder": "Din streng å hashe...",
-      "yourTextToHash": "Din tekst å hashe:",
-      "digestEncoding": "Sammendragskoding",
-      "digestEncodingDescription": "Velg utdataformatet for hash-verdier.",
-      "binary": "Binær",
-      "binaryDescription": "Binært format (base 2).",
-      "hexadecimal": "Heksadesimal",
-      "hexadecimalDescription": "Heksadesimalt format (base 16), mest brukt.",
       "base64": "Base64",
       "base64Description": "Base64-format (base 64), kompakt representasjon.",
       "base64url": "Base64 URL",
       "base64urlDescription": "Base64 URL-sikkert format, egnet for URLer.",
-      "hashResults": "Hash-resultater",
-      "noInput": "Skriv inn tekst over for å generere hasher",
+      "binary": "Binær",
+      "binaryDescription": "Binært format (base 2).",
       "cardInputTitle": "Hash-inndata og koding",
-      "cardOutputTitle": "Hash-resultater"
+      "cardOutputTitle": "Hash-resultater",
+      "digestEncoding": "Sammendragskoding",
+      "digestEncodingDescription": "Velg utdataformatet for hash-verdier.",
+      "hashResults": "Hash-resultater",
+      "hexadecimal": "Heksadesimal",
+      "hexadecimalDescription": "Heksadesimalt format (base 16), mest brukt.",
+      "noInput": "Skriv inn tekst over for å generere hasher",
+      "placeholder": "Din streng å hashe...",
+      "yourTextToHash": "Din tekst å hashe:"
     }
   }
 }

@@ -1,16 +1,16 @@
 {
   "tools": {
     "string-obfuscator": {
-      "copied": "Chaîne obfusquée copiée",
-      "cardInputTitle": "Options",
       "cardInputDescription": "Configurez comment la chaîne doit être obfusquée",
-      "cardResultsTitle": "Obfusqué",
+      "cardInputTitle": "Options",
       "cardResultsDescription": "Aperçu de la chaîne obfusquée",
-      "placeholder": "Entrez une chaîne à obfusquer",
-      "label": "Chaîne à obfusquer :",
+      "cardResultsTitle": "Obfusqué",
+      "copied": "Chaîne obfusquée copiée",
       "keepFirst": "Garder le premier :",
       "keepLast": "Garder le dernier :",
-      "keepSpaces": "Garder les espaces :"
+      "keepSpaces": "Garder les espaces :",
+      "label": "Chaîne à obfusquer :",
+      "placeholder": "Entrez une chaîne à obfusquer"
     }
   }
 }

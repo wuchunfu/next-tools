@@ -151,7 +151,7 @@ const diffViewerClasses = computed(() => {
 </script>
 
 <template>
-  <Card v-if="showResults" data-test-id="diff-result">
+  <Card v-if="showResults" data-testid="diff-result">
     <CardHeader>
       <div class="space-y-1">
         <CardTitle class="flex items-center gap-2">

@@ -1,13 +1,13 @@
 {
   "tools": {
     "rsa-key-pair-generator": {
-      "bitsRule": "Los bits deben ser 256 <= bits <= 16384 y ser un múltiplo de 8",
       "bits": "Bits :",
-      "refresh": "Actualizar par de claves",
-      "public": "Clave pública",
-      "private": "Clave privada",
+      "bitsRule": "Los bits deben ser 256 <= bits <= 16384 y ser un múltiplo de 8",
       "configuration": "Opciones de clave RSA",
-      "generatedKeys": "Claves generadas"
+      "generatedKeys": "Claves generadas",
+      "private": "Clave privada",
+      "public": "Clave pública",
+      "refresh": "Actualizar par de claves"
     }
   }
 }

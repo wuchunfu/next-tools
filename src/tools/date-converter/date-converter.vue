@@ -270,7 +270,7 @@ function clearInput() {
             autofocus
             :placeholder="t('tools.date-converter.inputPlaceholder')"
             :aria-invalid="validation.status === 'error'"
-            data-test-id="date-time-converter-input"
+            data-testid="date-time-converter-input"
             @update:model-value="onDateInputChanged"
           />
           <p v-if="validation.status === 'error'" class="text-xs text-destructive">
@@ -300,7 +300,7 @@ function clearInput() {
           <RadioGroup
             v-model="formatIndexModel"
             class="grid grid-cols-1 gap-3 sm:grid-cols-2"
-            data-test-id="date-time-converter-format-select"
+            data-testid="date-time-converter-format-select"
           >
             <Label
               v-for="option in formatOptions"

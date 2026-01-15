@@ -1,10 +1,11 @@
 {
   "tools": {
     "html-entities": {
-      "cardEscapeTitle": "Échapper les entités HTML",
       "cardEscapeDescription": "Échapper les entités HTML (remplacer des caractères comme <, >, &, \" et ' par leur version HTML).",
-      "cardUnescapeTitle": "Déséchapper les entités HTML",
+      "cardEscapeTitle": "Échapper les entités HTML",
       "cardUnescapeDescription": "Déséchapper les entités HTML (convertir les entités HTML en leurs caractères originaux).",
+      "cardUnescapeTitle": "Déséchapper les entités HTML",
+      "clear": "Effacer",
       "inputLabel": "Votre chaîne",
       "inputPlaceholder": "Entrez la chaîne à échapper...",
       "outputLabel": "Chaîne échappée",
@@ -12,8 +13,7 @@
       "unescapeInputLabel": "Votre chaîne échappée",
       "unescapeInputPlaceholder": "Entrez la chaîne HTML échappée à déséchapper...",
       "unescapeOutputLabel": "Chaîne déséchappée",
-      "unescapeOutputPlaceholder": "La chaîne déséchappée apparaîtra ici...",
-      "clear": "Effacer"
+      "unescapeOutputPlaceholder": "La chaîne déséchappée apparaîtra ici..."
     }
   }
 }

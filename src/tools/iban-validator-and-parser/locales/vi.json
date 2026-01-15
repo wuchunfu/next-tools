@@ -1,22 +1,22 @@
 {
   "tools": {
     "iban-validator-and-parser": {
-      "cardTitle": "Trình xác thực và phân tích IBAN",
-      "cardDescription": "Xác thực và phân tích Số tài khoản ngân hàng quốc tế (IBAN)",
-      "cardResultsTitle": "Kết quả",
-      "cardResultsDescription": "Thông tin IBAN đã phân tích và kết quả xác thực",
-      "examplesDescription": "Ví dụ IBAN để kiểm tra",
-      "label": "IBAN",
-      "isValid": "IBAN có hợp lệ?",
-      "errors": "Lỗi IBAN",
-      "isQrIban": "IBAN có phải là QR-IBAN?",
-      "countryCode": "Mã quốc gia",
       "bban": "BBAN",
-      "friendlyFormat": "Định dạng IBAN thân thiện",
-      "placeholder": "Nhập IBAN để kiểm tra tính hợp lệ...",
+      "cardDescription": "Xác thực và phân tích Số tài khoản ngân hàng quốc tế (IBAN)",
+      "cardResultsDescription": "Thông tin IBAN đã phân tích và kết quả xác thực",
+      "cardResultsTitle": "Kết quả",
+      "cardTitle": "Trình xác thực và phân tích IBAN",
+      "countryCode": "Mã quốc gia",
+      "errors": "Lỗi IBAN",
+      "examplesDescription": "Ví dụ IBAN để kiểm tra",
       "examplesTitle": "Ví dụ IBAN hợp lệ",
+      "formatted": "Đã định dạng",
+      "friendlyFormat": "Định dạng IBAN thân thiện",
       "iban": "IBAN",
-      "formatted": "Đã định dạng"
+      "isQrIban": "IBAN có phải là QR-IBAN?",
+      "isValid": "IBAN có hợp lệ?",
+      "label": "IBAN",
+      "placeholder": "Nhập IBAN để kiểm tra tính hợp lệ..."
     }
   }
 }

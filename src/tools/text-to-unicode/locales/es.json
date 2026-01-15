@@ -1,23 +1,23 @@
 {
   "tools": {
     "text-to-unicode": {
-      "cardTextToUnicodeTitle": "Texto a Unicode",
       "cardTextToUnicodeDescription": "Convierta texto a secuencias de escape Unicode (formato \\u0031).",
-      "cardUnicodeToTextTitle": "Unicode a Texto",
+      "cardTextToUnicodeTitle": "Texto a Unicode",
       "cardUnicodeToTextDescription": "Convierta secuencias de escape Unicode de vuelta a texto.",
-      "textPlaceholder": "ej. 'Hello Avengers'",
+      "cardUnicodeToTextTitle": "Unicode a Texto",
+      "characters": "Caracteres",
+      "clear": "Limpiar",
       "enterTextToConvert": "Ingrese texto para convertir",
+      "enterUnicodeToConvert": "Ingrese unicode para convertir",
+      "entities": "Entidades",
       "inputLength": "Longitud",
       "outputLength": "Longitud",
-      "characters": "Caracteres",
-      "entities": "Entidades",
-      "clear": "Limpiar",
-      "unicodeFromText": "Salida Unicode",
-      "unicodePlaceholder": "La representación unicode de su texto aparecerá aquí",
-      "unicodeInputPlaceholder": "Ingresar Unicode",
-      "enterUnicodeToConvert": "Ingrese unicode para convertir",
       "textFromUnicode": "Salida de texto",
-      "textOutputPlaceholder": "La representación de texto de su unicode aparecerá aquí"
+      "textOutputPlaceholder": "La representación de texto de su unicode aparecerá aquí",
+      "textPlaceholder": "ej. 'Hello Avengers'",
+      "unicodeFromText": "Salida Unicode",
+      "unicodeInputPlaceholder": "Ingresar Unicode",
+      "unicodePlaceholder": "La representación unicode de su texto aparecerá aquí"
     }
   }
 }

@@ -1,24 +1,24 @@
 {
   "tools": {
     "hmac-generator": {
-      "copied": "HMAC copiado al portapapeles",
-      "plainPlaceholder": "Texto plano para calcular el hash...",
-      "plainLabel": "Texto plano para calcular el hash",
-      "secretPlaceholder": "Ingrese la clave secreta...",
-      "secretLabel": "Clave secreta",
-      "hashFunction": "Función de hash",
-      "hashPlaceholder": "Seleccione una función de hash...",
-      "encoding": "Codificación de salida",
-      "encodingPlaceholder": "Seleccione la codificación del resultado...",
-      "binary": "Binario (base 2)",
-      "hex": "Hexadecimal (base 16)",
       "base64": "Base64 (base 64)",
       "base64url": "Base64-url (base 64 con caracteres seguros para URL)",
-      "resultPlaceholder": "El resultado del HMAC...",
-      "resultLabel": "HMAC de su texto",
-      "copy": "Copiar HMAC",
+      "binary": "Binario (base 2)",
       "cardInputTitle": "Entrada y opciones de HMAC",
-      "cardOutputTitle": "Resultado de HMAC"
+      "cardOutputTitle": "Resultado de HMAC",
+      "copied": "HMAC copiado al portapapeles",
+      "copy": "Copiar HMAC",
+      "encoding": "Codificación de salida",
+      "encodingPlaceholder": "Seleccione la codificación del resultado...",
+      "hashFunction": "Función de hash",
+      "hashPlaceholder": "Seleccione una función de hash...",
+      "hex": "Hexadecimal (base 16)",
+      "plainLabel": "Texto plano para calcular el hash",
+      "plainPlaceholder": "Texto plano para calcular el hash...",
+      "resultLabel": "HMAC de su texto",
+      "resultPlaceholder": "El resultado del HMAC...",
+      "secretLabel": "Clave secreta",
+      "secretPlaceholder": "Ingrese la clave secreta..."
     }
   }
 }

@@ -1,13 +1,13 @@
 {
   "tools": {
     "json-to-csv": {
-      "cardInputTitle": "Nhập mảng JSON",
       "cardInputDescription": "Dán bên dưới một mảng JSON hợp lệ. Mỗi đối tượng sẽ trở thành một dòng trong đầu ra CSV.",
-      "cardOutputTitle": "Kết quả CSV",
+      "cardInputTitle": "Nhập mảng JSON",
       "cardOutputDescription": "Xem và sao chép biểu diễn CSV được tạo từ mảng JSON của bạn.",
+      "cardOutputTitle": "Kết quả CSV",
+      "inputPlaceholder": "Dán mảng JSON của bạn vào đây...",
       "invalid": "JSON được cung cấp không hợp lệ hoặc không phải là mảng.",
-      "invalidJsonTitle": "JSON không hợp lệ",
-      "inputPlaceholder": "Dán mảng JSON của bạn vào đây..."
+      "invalidJsonTitle": "JSON không hợp lệ"
     }
   }
 }

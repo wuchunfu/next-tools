@@ -210,7 +210,7 @@ const showResult = computed(() => prefixValidation.isValid && macAddresses.value
           </Field>
 
           <div class="flex justify-end gap-2 pt-2">
-            <Button data-test-id="refresh" variant="secondary" @click="refreshMacAddresses()">
+            <Button data-testid="refresh" variant="secondary" @click="refreshMacAddresses()">
               <RefreshCw class="mr-2 h-4 w-4" />
               {{ t('tools.mac-address-generator.refresh', 'Refresh') }}
             </Button>

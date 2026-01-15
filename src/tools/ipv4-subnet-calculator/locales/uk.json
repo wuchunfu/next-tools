@@ -1,31 +1,31 @@
 {
   "tools": {
     "ipv4-subnet-calculator": {
+      "broadcastAddress": "Широкомовна адреса",
+      "cannotParseAddress": "Ми не можемо розібрати цю адресу, перевірте формат",
+      "cardInputDescription": "Введіть адресу IPv4 з позначенням CIDR або без нього для розрахунку інформації про підмережу.",
+      "cardInputTitle": "Адреса IPv4",
+      "cardResultsDescription": "Детальна інформація про мережу та підмережу для введеної адреси IPv4.",
+      "cardResultsTitle": "Інформація про підмережу",
+      "cidrNotation": "Позначення CIDR",
+      "firstAddress": "Перша адреса",
       "inputLabel": "Адреса IPv4 з маскою або без",
       "inputPlaceholder": "Адреса IPv4...",
-      "cannotParseAddress": "Ми не можемо розібрати цю адресу, перевірте формат",
+      "invalidAddressTitle": "Недійсна адреса",
+      "ipClass": "Клас IP",
+      "lastAddress": "Остання адреса",
       "netmask": "Маска мережі",
       "networkAddress": "Адреса мережі",
       "networkMask": "Маска мережі",
       "networkMaskInBinary": "Маска мережі в двійковому вигляді",
-      "cidrNotation": "Позначення CIDR",
-      "wildcardMask": "Маска підстановки",
       "networkSize": "Розмір мережі",
-      "firstAddress": "Перша адреса",
-      "lastAddress": "Остання адреса",
-      "broadcastAddress": "Широкомовна адреса",
-      "noBroadcastAddress": "Немає широкомовної адреси з цією маскою",
-      "ipClass": "Клас IP",
-      "unknownClassType": "Невідомий тип класу",
-      "previousBlock": "Попередній блок",
       "nextBlock": "Наступний блок",
-      "cardInputTitle": "Адреса IPv4",
-      "cardInputDescription": "Введіть адресу IPv4 з позначенням CIDR або без нього для розрахунку інформації про підмережу.",
-      "cardResultsTitle": "Інформація про підмережу",
-      "cardResultsDescription": "Детальна інформація про мережу та підмережу для введеної адреси IPv4.",
-      "invalidAddressTitle": "Недійсна адреса",
+      "noBroadcastAddress": "Немає широкомовної адреси з цією маскою",
+      "previousBlock": "Попередній блок",
       "property": "Властивість",
-      "value": "Значення"
+      "unknownClassType": "Невідомий тип класу",
+      "value": "Значення",
+      "wildcardMask": "Маска підстановки"
     }
   }
 }

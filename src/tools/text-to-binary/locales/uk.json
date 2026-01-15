@@ -1,23 +1,23 @@
 {
   "tools": {
     "text-to-binary": {
-      "cardTextToBinaryTitle": "Текст до Двійковий",
-      "cardTextToBinaryDescription": "Перетворіть текст у його двійкове представлення ASCII.",
-      "cardBinaryToTextTitle": "Двійковий до Текст",
+      "binaryFromText": "Двійковий вивід",
+      "binaryInputPlaceholder": "напр. '01001000 01100101 01101100 01101100 01101111'",
+      "binaryPlaceholder": "Двійкове представлення вашого тексту з'явиться тут",
+      "bytes": "Байти",
       "cardBinaryToTextDescription": "Перетворіть двійкове представлення ASCII назад на текст.",
-      "textPlaceholder": "напр. 'Hello world'",
+      "cardBinaryToTextTitle": "Двійковий до Текст",
+      "cardTextToBinaryDescription": "Перетворіть текст у його двійкове представлення ASCII.",
+      "cardTextToBinaryTitle": "Текст до Двійковий",
+      "clear": "Очистити",
+      "enterBinaryToConvert": "Введіть двійковий для перетворення",
       "enterTextToConvert": "Введіть текст для перетворення",
       "inputLength": "Довжина",
+      "invalidBinary": "Двійковий повинен бути дійсним ASCII двійковим рядком з кратними 8 бітам",
       "outputLength": "Довжина",
-      "bytes": "Байти",
-      "clear": "Очистити",
-      "binaryFromText": "Двійковий вивід",
-      "binaryPlaceholder": "Двійкове представлення вашого тексту з'явиться тут",
-      "binaryInputPlaceholder": "напр. '01001000 01100101 01101100 01101100 01101111'",
-      "enterBinaryToConvert": "Введіть двійковий для перетворення",
       "textFromBinary": "Текстовий вивід",
       "textOutputPlaceholder": "Текстове представлення вашого двійкового з'явиться тут",
-      "invalidBinary": "Двійковий повинен бути дійсним ASCII двійковим рядком з кратними 8 бітам"
+      "textPlaceholder": "напр. 'Hello world'"
     }
   }
 }

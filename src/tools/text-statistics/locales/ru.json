@@ -1,15 +1,15 @@
 {
   "tools": {
     "text-statistics": {
-      "cardInputTitle": "Ввод",
+      "byteSize": "Размер в байтах",
       "cardInputDescription": "Вставьте или введите текст, чтобы получить статистику сразу.",
-      "cardResultsTitle": "Результаты",
+      "cardInputTitle": "Ввод",
       "cardResultsDescription": "Сводка статистики текста",
-      "placeholder": "Ваш текст...",
+      "cardResultsTitle": "Результаты",
       "characterCount": "Количество символов",
-      "wordCount": "Количество слов",
       "lineCount": "Количество строк",
-      "byteSize": "Размер в байтах"
+      "placeholder": "Ваш текст...",
+      "wordCount": "Количество слов"
     }
   }
 }

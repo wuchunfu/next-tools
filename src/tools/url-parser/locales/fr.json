@@ -1,29 +1,29 @@
 {
   "tools": {
     "url-parser": {
-      "invalid": "URL invalide",
-      "cardTitle": "Analyseur d'URL",
       "cardDescription": "Analyser les URLs pour extraire leurs composants (protocole, nom d'hôte, chemin, paramètres de requête, etc.).",
-      "cardInputTitle": "Saisie d'URL",
       "cardInputDescription": "Collez une URL ci-dessous. Nous la validerons et afficherons ses composants et paramètres de requête.",
-      "cardOutputTitle": "Résultat analysé",
+      "cardInputTitle": "Saisie d'URL",
       "cardOutputDescription": "Consultez et copiez les composants d'URL extraits de votre saisie.",
-      "inputPlaceholder": "Entrez l'URL à analyser...",
+      "cardOutputTitle": "Résultat analysé",
+      "cardTitle": "Analyseur d'URL",
       "clear": "Effacer",
-      "invalidUrlTitle": "URL invalide",
-      "urlComponents": "Composants d'URL",
-      "protocol": "Protocole",
-      "username": "Nom d'utilisateur",
-      "password": "Mot de passe",
-      "hostname": "Nom d'hôte",
-      "port": "Port",
-      "path": "Chemin",
-      "search": "Recherche",
+      "enterUrlToParse": "Entrez une URL valide pour voir ses composants.",
       "hash": "Hash",
-      "queryParameters": "Paramètres de requête",
+      "hostname": "Nom d'hôte",
+      "inputPlaceholder": "Entrez l'URL à analyser...",
+      "invalid": "URL invalide",
+      "invalidUrlTitle": "URL invalide",
       "parameterName": "Paramètre",
       "parameterValue": "Valeur",
-      "enterUrlToParse": "Entrez une URL valide pour voir ses composants."
+      "password": "Mot de passe",
+      "path": "Chemin",
+      "port": "Port",
+      "protocol": "Protocole",
+      "queryParameters": "Paramètres de requête",
+      "search": "Recherche",
+      "urlComponents": "Composants d'URL",
+      "username": "Nom d'utilisateur"
     }
   }
 }

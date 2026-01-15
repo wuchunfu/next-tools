@@ -1,10 +1,11 @@
 {
   "tools": {
     "html-entities": {
-      "cardEscapeTitle": "Екранувати HTML-сутності",
       "cardEscapeDescription": "Екранувати HTML-сутності (замінювати символи на кшталт <, >, &, \" та ' на їх HTML-версії).",
-      "cardUnescapeTitle": "Розекранувати HTML-сутності",
+      "cardEscapeTitle": "Екранувати HTML-сутності",
       "cardUnescapeDescription": "Розекранувати HTML-сутності (перетворювати HTML-сутності назад на їх оригінальні символи).",
+      "cardUnescapeTitle": "Розекранувати HTML-сутності",
+      "clear": "Очистити",
       "inputLabel": "Ваш рядок",
       "inputPlaceholder": "Введіть рядок для екранування...",
       "outputLabel": "Екранований рядок",
@@ -12,8 +13,7 @@
       "unescapeInputLabel": "Ваш екранований рядок",
       "unescapeInputPlaceholder": "Введіть HTML-екранований рядок для розекранування...",
       "unescapeOutputLabel": "Розекранований рядок",
-      "unescapeOutputPlaceholder": "Розекранований рядок з'явиться тут...",
-      "clear": "Очистити"
+      "unescapeOutputPlaceholder": "Розекранований рядок з'явиться тут..."
     }
   }
 }

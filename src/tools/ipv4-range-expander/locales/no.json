@@ -1,23 +1,23 @@
 {
   "tools": {
     "ipv4-range-expander": {
-      "cardInputTitle": "IPv4-adresseområde",
+      "addressesInRange": "Adresser i området",
       "cardInputDescription": "Skriv inn start- og slutt IPv4-adressene for å beregne CIDR-området og utvidede adresseinformasjon.",
-      "cardResultsTitle": "Områdeutvidelsesresultater",
+      "cardInputTitle": "IPv4-adresseområde",
       "cardResultsDescription": "Vis det beregnede CIDR-området og utvidede adresseinformasjon.",
-      "invalidAddressTitle": "Ugyldig adresse",
-      "startAddress": "Startadresse",
-      "startAddressPlaceholder": "Start IPv4-adresse...",
+      "cardResultsTitle": "Områdeutvidelsesresultater",
+      "cidr": "CIDR",
       "endAddress": "Sluttadresse",
       "endAddressPlaceholder": "Slutt IPv4-adresse...",
-      "invalidIpv4": "Ugyldig IPv4-adresse",
-      "addressesInRange": "Adresser i området",
-      "cidr": "CIDR",
-      "label": "Etikett",
-      "oldValue": "gammel verdi",
-      "newValue": "ny verdi",
+      "invalidAddressTitle": "Ugyldig adresse",
       "invalidCombination": "Ugyldig adressekombinasjon",
       "invalidCombinationDescription": "Slutt IPv4-adressen er lavere enn start IPv4-adressen. Dette er ikke gyldig og ingen resultat kunne beregnes.",
+      "invalidIpv4": "Ugyldig IPv4-adresse",
+      "label": "Etikett",
+      "newValue": "ny verdi",
+      "oldValue": "gammel verdi",
+      "startAddress": "Startadresse",
+      "startAddressPlaceholder": "Start IPv4-adresse...",
       "switchAddresses": "Bytt adresser"
     }
   }

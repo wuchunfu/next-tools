@@ -1,13 +1,6 @@
 {
   "tools": {
     "http-status-codes": {
-      "searchPlaceholder": "搜索 HTTP 状态码...",
-      "searchResults": "搜索结果",
-      "forType": "适用于 {type}。",
-      "types": {
-        "http": "HTTP",
-        "webdav": "WebDav"
-      },
       "categories": {
         "1xx-informational-response": "1xx 信息性响应",
         "2xx-success": "2xx 成功",
@@ -17,257 +10,264 @@
       },
       "codes": {
         "100": {
-          "name": "继续",
-          "description": "等待客户端发送请求体。"
+          "description": "等待客户端发送请求体。",
+          "name": "继续"
         },
         "101": {
-          "name": "切换协议",
-          "description": "服务器同意更改协议。"
+          "description": "服务器同意更改协议。",
+          "name": "切换协议"
         },
         "102": {
-          "name": "处理中",
-          "description": "服务器正在处理请求，但尚无可用响应。"
+          "description": "服务器正在处理请求，但尚无可用响应。",
+          "name": "处理中"
         },
         "103": {
-          "name": "早期提示",
-          "description": "在最终响应前提前返回部分响应头。"
+          "description": "在最终响应前提前返回部分响应头。",
+          "name": "早期提示"
         },
         "200": {
-          "name": "成功",
-          "description": "标准的成功响应。"
+          "description": "标准的成功响应。",
+          "name": "成功"
         },
         "201": {
-          "name": "已创建",
-          "description": "请求已完成并创建了新资源。"
+          "description": "请求已完成并创建了新资源。",
+          "name": "已创建"
         },
         "202": {
-          "name": "已接受",
-          "description": "请求已被接受处理，但尚未完成。"
+          "description": "请求已被接受处理，但尚未完成。",
+          "name": "已接受"
         },
         "203": {
-          "name": "非权威信息",
-          "description": "请求成功，但内容被中间代理修改。"
+          "description": "请求成功，但内容被中间代理修改。",
+          "name": "非权威信息"
         },
         "204": {
-          "name": "无内容",
-          "description": "请求成功处理，未返回内容。"
+          "description": "请求成功处理，未返回内容。",
+          "name": "无内容"
         },
         "205": {
-          "name": "重置内容",
-          "description": "指示重新初始化发送本请求的文档视图。"
+          "description": "指示重新初始化发送本请求的文档视图。",
+          "name": "重置内容"
         },
         "206": {
-          "name": "部分内容",
-          "description": "按客户端范围请求，仅返回部分资源。"
+          "description": "按客户端范围请求，仅返回部分资源。",
+          "name": "部分内容"
         },
         "207": {
-          "name": "多状态",
-          "description": "XML 消息体中包含多个独立的状态码。"
+          "description": "XML 消息体中包含多个独立的状态码。",
+          "name": "多状态"
         },
         "208": {
-          "name": "已报告",
-          "description": "DAV 绑定成员已在前面的多状态响应中列出。"
+          "description": "DAV 绑定成员已在前面的多状态响应中列出。",
+          "name": "已报告"
         },
         "226": {
-          "name": "IM 已使用",
-          "description": "请求已完成，响应是结果的表示。"
+          "description": "请求已完成，响应是结果的表示。",
+          "name": "IM 已使用"
         },
         "300": {
-          "name": "多种选择",
-          "description": "资源有多种可供选择的定位。"
+          "description": "资源有多种可供选择的定位。",
+          "name": "多种选择"
         },
         "301": {
-          "name": "永久移动",
-          "description": "资源已永久移动到新的 URI。"
+          "description": "资源已永久移动到新的 URI。",
+          "name": "永久移动"
         },
         "302": {
-          "name": "临时重定向",
-          "description": "暂时重定向到其他 URL。"
+          "description": "暂时重定向到其他 URL。",
+          "name": "临时重定向"
         },
         "303": {
-          "name": "查看其他位置",
-          "description": "响应可在另一个 URI（GET）获取。"
+          "description": "响应可在另一个 URI（GET）获取。",
+          "name": "查看其他位置"
         },
         "304": {
-          "name": "未修改",
-          "description": "自指定版本后资源未修改。"
+          "description": "自指定版本后资源未修改。",
+          "name": "未修改"
         },
         "305": {
-          "name": "使用代理",
-          "description": "请求资源只能通过响应中提供的代理访问。"
+          "description": "请求资源只能通过响应中提供的代理访问。",
+          "name": "使用代理"
         },
         "306": {
-          "name": "切换代理",
-          "description": "已废弃。"
+          "description": "已废弃。",
+          "name": "切换代理"
         },
         "307": {
-          "name": "临时重定向",
-          "description": "请求应使用另一个 URI，未来仍用原 URI。"
+          "description": "请求应使用另一个 URI，未来仍用原 URI。",
+          "name": "临时重定向"
         },
         "308": {
-          "name": "永久重定向",
-          "description": "请求及未来请求应使用新的 URI。"
+          "description": "请求及未来请求应使用新的 URI。",
+          "name": "永久重定向"
         },
         "400": {
-          "name": "错误请求",
-          "description": "因明显的客户端错误，服务器无法处理。"
+          "description": "因明显的客户端错误，服务器无法处理。",
+          "name": "错误请求"
         },
         "401": {
-          "name": "未授权",
-          "description": "需要认证但失败或未提供。"
+          "description": "需要认证但失败或未提供。",
+          "name": "未授权"
         },
         "402": {
-          "name": "需要付款",
-          "description": "预留，最初用于数字支付场景。"
+          "description": "预留，最初用于数字支付场景。",
+          "name": "需要付款"
         },
         "403": {
-          "name": "禁止访问",
-          "description": "请求有效但被拒绝，可能权限不足。"
+          "description": "请求有效但被拒绝，可能权限不足。",
+          "name": "禁止访问"
         },
         "404": {
-          "name": "未找到",
-          "description": "未找到请求资源。"
+          "description": "未找到请求资源。",
+          "name": "未找到"
         },
         "405": {
-          "name": "方法不被允许",
-          "description": "该资源不支持此请求方法。"
+          "description": "该资源不支持此请求方法。",
+          "name": "方法不被允许"
         },
         "406": {
-          "name": "不可接受",
-          "description": "根据 Accept 头，资源无法返回可接受的内容。"
+          "description": "根据 Accept 头，资源无法返回可接受的内容。",
+          "name": "不可接受"
         },
         "407": {
-          "name": "需要代理认证",
-          "description": "客户端必须先通过代理认证。"
+          "description": "客户端必须先通过代理认证。",
+          "name": "需要代理认证"
         },
         "408": {
-          "name": "请求超时",
-          "description": "服务器等待请求超时。"
+          "description": "服务器等待请求超时。",
+          "name": "请求超时"
         },
         "409": {
-          "name": "冲突",
-          "description": "请求因冲突无法处理，例如编辑冲突。"
+          "description": "请求因冲突无法处理，例如编辑冲突。",
+          "name": "冲突"
         },
         "410": {
-          "name": "已删除",
-          "description": "资源已不存在且不会再提供。"
+          "description": "资源已不存在且不会再提供。",
+          "name": "已删除"
         },
         "411": {
-          "name": "需要长度",
-          "description": "未指定内容长度而资源需要。"
+          "description": "未指定内容长度而资源需要。",
+          "name": "需要长度"
         },
         "412": {
-          "name": "前置条件失败",
-          "description": "不满足请求设定的前置条件。"
+          "description": "不满足请求设定的前置条件。",
+          "name": "前置条件失败"
         },
         "413": {
-          "name": "负载过大",
-          "description": "请求体过大，服务器不愿或无法处理。"
+          "description": "请求体过大，服务器不愿或无法处理。",
+          "name": "负载过大"
         },
         "414": {
-          "name": "URI 过长",
-          "description": "URI 过长，无法处理。"
+          "description": "URI 过长，无法处理。",
+          "name": "URI 过长"
         },
         "415": {
-          "name": "不支持的媒体类型",
-          "description": "请求实体的媒体类型不被支持。"
+          "description": "请求实体的媒体类型不被支持。",
+          "name": "不支持的媒体类型"
         },
         "416": {
-          "name": "范围无法满足",
-          "description": "请求的文件范围无法提供。"
+          "description": "请求的文件范围无法提供。",
+          "name": "范围无法满足"
         },
         "417": {
-          "name": "期望失败",
-          "description": "无法满足 Expect 头的要求。"
+          "description": "无法满足 Expect 头的要求。",
+          "name": "期望失败"
         },
         "418": {
-          "name": "我是茶壶",
-          "description": "服务器拒绝用茶壶煮咖啡（愚人节梗）。"
+          "description": "服务器拒绝用茶壶煮咖啡（愚人节梗）。",
+          "name": "我是茶壶"
         },
         "421": {
-          "name": "错发请求",
-          "description": "请求发送到无法响应的服务器。"
+          "description": "请求发送到无法响应的服务器。",
+          "name": "错发请求"
         },
         "422": {
-          "name": "不可处理的实体",
-          "description": "请求格式正确但语义错误无法处理。"
+          "description": "请求格式正确但语义错误无法处理。",
+          "name": "不可处理的实体"
         },
         "423": {
-          "name": "已锁定",
-          "description": "访问的资源被锁定。"
+          "description": "访问的资源被锁定。",
+          "name": "已锁定"
         },
         "424": {
-          "name": "依赖失败",
-          "description": "因前序请求失败导致本请求失败。"
+          "description": "因前序请求失败导致本请求失败。",
+          "name": "依赖失败"
         },
         "425": {
-          "name": "过早",
-          "description": "服务器不愿处理可能被重放的请求。"
+          "description": "服务器不愿处理可能被重放的请求。",
+          "name": "过早"
         },
         "426": {
-          "name": "需要升级",
-          "description": "客户端应切换到更高协议。"
+          "description": "客户端应切换到更高协议。",
+          "name": "需要升级"
         },
         "428": {
-          "name": "需要前置条件",
-          "description": "源服务器要求请求具备条件。"
+          "description": "源服务器要求请求具备条件。",
+          "name": "需要前置条件"
         },
         "429": {
-          "name": "请求过多",
-          "description": "在给定时间内请求过多。"
+          "description": "在给定时间内请求过多。",
+          "name": "请求过多"
         },
         "431": {
-          "name": "请求头过大",
-          "description": "单个或全部请求头过大，服务器拒绝处理。"
+          "description": "单个或全部请求头过大，服务器拒绝处理。",
+          "name": "请求头过大"
         },
         "451": {
-          "name": "因法律原因不可用",
-          "description": "因法律要求拒绝访问该资源。"
+          "description": "因法律要求拒绝访问该资源。",
+          "name": "因法律原因不可用"
         },
         "500": {
-          "name": "服务器内部错误",
-          "description": "通用错误，遇到未预期情况。"
+          "description": "通用错误，遇到未预期情况。",
+          "name": "服务器内部错误"
         },
         "501": {
-          "name": "未实现",
-          "description": "不支持的请求方法或无法完成。"
+          "description": "不支持的请求方法或无法完成。",
+          "name": "未实现"
         },
         "502": {
-          "name": "网关错误",
-          "description": "作为网关/代理收到无效上游响应。"
+          "description": "作为网关/代理收到无效上游响应。",
+          "name": "网关错误"
         },
         "503": {
-          "name": "服务不可用",
-          "description": "服务器过载或维护中。"
+          "description": "服务器过载或维护中。",
+          "name": "服务不可用"
         },
         "504": {
-          "name": "网关超时",
-          "description": "作为网关/代理未及时获得上游响应。"
+          "description": "作为网关/代理未及时获得上游响应。",
+          "name": "网关超时"
         },
         "505": {
-          "name": "不支持的 HTTP 版本",
-          "description": "不支持请求使用的 HTTP 版本。"
+          "description": "不支持请求使用的 HTTP 版本。",
+          "name": "不支持的 HTTP 版本"
         },
         "506": {
-          "name": "变体也在协商",
-          "description": "透明协商导致循环引用。"
+          "description": "透明协商导致循环引用。",
+          "name": "变体也在协商"
         },
         "507": {
-          "name": "存储空间不足",
-          "description": "无法存储完成请求所需的表示。"
+          "description": "无法存储完成请求所需的表示。",
+          "name": "存储空间不足"
         },
         "508": {
-          "name": "检测到循环",
-          "description": "处理请求时检测到无限循环。"
+          "description": "处理请求时检测到无限循环。",
+          "name": "检测到循环"
         },
         "510": {
-          "name": "未扩展",
-          "description": "需要进一步扩展才能完成请求。"
+          "description": "需要进一步扩展才能完成请求。",
+          "name": "未扩展"
         },
         "511": {
-          "name": "需要网络认证",
-          "description": "客户端需认证以获取网络访问。"
+          "description": "客户端需认证以获取网络访问。",
+          "name": "需要网络认证"
         }
+      },
+      "forType": "适用于 {type}。",
+      "searchPlaceholder": "搜索 HTTP 状态码...",
+      "searchResults": "搜索结果",
+      "types": {
+        "http": "HTTP",
+        "webdav": "WebDav"
       }
     }
   }

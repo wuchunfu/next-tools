@@ -1,21 +1,21 @@
 {
   "tools": {
     "bcrypt": {
+      "compareStringWithHash": "Comparer la chaîne avec le hash",
+      "copied": "Chaîne hachée copiée dans le presse-papiers",
+      "copyHash": "Copier le hash",
+      "doTheyMatch": "Correspondent-ils ?",
+      "enterBothFields": "Entrez les deux champs pour comparer",
       "hash": "Hash",
+      "hashToCompare": "Votre hash à comparer...",
+      "no": "Non",
       "placeholder": "Votre chaîne à bcrypter...",
-      "yourString": "Votre chaîne :",
       "saltCount": "Nombre de sel :",
       "saltRounds": "Tours de sel...",
-      "copyHash": "Copier le hash",
-      "copied": "Chaîne hachée copiée dans le presse-papiers",
-      "compareStringWithHash": "Comparer la chaîne avec le hash",
       "stringToCompare": "Votre chaîne à comparer...",
-      "yourHash": "Votre hash :",
-      "hashToCompare": "Votre hash à comparer...",
-      "doTheyMatch": "Correspondent-ils ?",
       "yes": "Oui",
-      "no": "Non",
-      "enterBothFields": "Entrez les deux champs pour comparer"
+      "yourHash": "Votre hash :",
+      "yourString": "Votre chaîne :"
     }
   }
 }

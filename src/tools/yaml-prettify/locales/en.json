@@ -1,19 +1,19 @@
 {
   "tools": {
     "yaml-prettify": {
-      "invalid": "Provided YAML is not valid.",
-      "cardOptionsTitle": "Formatting options",
+      "cardInputDescription": "Paste your YAML below. We will validate it and generate a formatted version.",
+      "cardInputTitle": "YAML input",
       "cardOptionsDescription": "Tune indentation and key sorting behavior to match your preferred YAML style.",
-      "sortKeys": "Sort keys",
-      "sortKeysHelp": "Sort object keys alphabetically for a more stable and readable output.",
+      "cardOptionsTitle": "Formatting options",
+      "cardOutputDescription": "Review and copy the formatted YAML output.",
+      "cardOutputTitle": "Formatted YAML",
       "indent": "Indent size",
       "indentHint": "Number of spaces to use for indentation (1–10).",
-      "cardInputTitle": "YAML input",
-      "cardInputDescription": "Paste your YAML below. We will validate it and generate a formatted version.",
       "inputPlaceholder": "Paste your YAML here...",
-      "cardOutputTitle": "Formatted YAML",
-      "cardOutputDescription": "Review and copy the formatted YAML output.",
-      "invalidYamlTitle": "Invalid YAML"
+      "invalid": "Provided YAML is not valid.",
+      "invalidYamlTitle": "Invalid YAML",
+      "sortKeys": "Sort keys",
+      "sortKeysHelp": "Sort object keys alphabetically for a more stable and readable output."
     }
   }
 }

@@ -1,19 +1,19 @@
 {
   "tools": {
     "ascii-text-drawer": {
-      "yourText": "Văn bản của bạn:",
-      "yourTextToDraw": "Văn bản của bạn để vẽ",
+      "asciiArtText": "Văn bản ASCII art:",
+      "cardOptionsDescription": "Cấu hình văn bản đầu vào, phông chữ và chiều rộng cho nghệ thuật ASCII.",
+      "cardOptionsTitle": "Tùy chọn",
+      "cardResultsDescription": "Xem trước và sao chép nghệ thuật ASCII đã tạo.",
+      "cardResultsTitle": "Kết quả",
+      "error": "Cài đặt hiện tại đã dẫn đến lỗi.",
       "font": "Phông chữ:",
+      "loadingFont": "Đang tải phông chữ...",
       "selectFont": "Chọn phông chữ để sử dụng",
       "width": "Chiều rộng:",
       "widthPlaceholder": "Chiều rộng của văn bản",
-      "loadingFont": "Đang tải phông chữ...",
-      "error": "Cài đặt hiện tại đã dẫn đến lỗi.",
-      "asciiArtText": "Văn bản ASCII art:",
-      "cardOptionsTitle": "Tùy chọn",
-      "cardOptionsDescription": "Cấu hình văn bản đầu vào, phông chữ và chiều rộng cho nghệ thuật ASCII.",
-      "cardResultsTitle": "Kết quả",
-      "cardResultsDescription": "Xem trước và sao chép nghệ thuật ASCII đã tạo."
+      "yourText": "Văn bản của bạn:",
+      "yourTextToDraw": "Văn bản của bạn để vẽ"
     }
   }
 }

@@ -1,20 +1,20 @@
 {
   "tools": {
     "xml-formatter": {
-      "invalid": "Bereitgestelltes XML ist nicht gültig.",
-      "invalidXmlTitle": "Ungültiges XML",
+      "cardInputDescription": "Fügen Sie unten Ihr XML ein. Wir validieren es und erzeugen eine formatierte Version.",
+      "cardInputTitle": "XML-Eingabe",
+      "cardOptionsDescription": "Passen Sie Einrückung und Inhaltsreduzierung an Ihren bevorzugten XML-Stil an.",
+      "cardOptionsTitle": "Formatierungsoptionen",
+      "cardOutputDescription": "Prüfen und kopieren Sie die formatierte XML-Ausgabe.",
+      "cardOutputTitle": "Formatiertes XML",
       "collapse": "Inhalt reduzieren:",
       "collapseHint": "Textinhalt wenn möglich zu einer einzelnen Zeile zusammenfassen.",
       "indent": "Einrückungsgröße:",
       "indentHint": "Anzahl der Leerzeichen für die Einrückung (0–10).",
-      "cardOptionsTitle": "Formatierungsoptionen",
-      "cardOptionsDescription": "Passen Sie Einrückung und Inhaltsreduzierung an Ihren bevorzugten XML-Stil an.",
-      "cardInputTitle": "XML-Eingabe",
-      "cardInputDescription": "Fügen Sie unten Ihr XML ein. Wir validieren es und erzeugen eine formatierte Version.",
-      "cardOutputTitle": "Formatiertes XML",
-      "cardOutputDescription": "Prüfen und kopieren Sie die formatierte XML-Ausgabe.",
       "inputLabel": "Ihr XML",
       "inputPlaceholder": "Fügen Sie hier Ihr XML ein...",
+      "invalid": "Bereitgestelltes XML ist nicht gültig.",
+      "invalidXmlTitle": "Ungültiges XML",
       "outputLabel": "Formatiertes XML aus Ihrem XML"
     }
   }

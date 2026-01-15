@@ -1,23 +1,23 @@
 {
   "tools": {
     "ipv4-range-expander": {
-      "cardInputTitle": "IPv4-Adressbereich",
+      "addressesInRange": "Adressen im Bereich",
       "cardInputDescription": "Geben Sie die Start- und End-IPv4-Adressen ein, um den CIDR-Bereich und erweiterte Adressinformationen zu berechnen.",
-      "cardResultsTitle": "Bereichserweiterungsergebnisse",
+      "cardInputTitle": "IPv4-Adressbereich",
       "cardResultsDescription": "Zeigen Sie den berechneten CIDR-Bereich und erweiterte Adressinformationen an.",
-      "invalidAddressTitle": "Ungültige Adresse",
-      "startAddress": "Startadresse",
-      "startAddressPlaceholder": "Start-IPv4-Adresse...",
+      "cardResultsTitle": "Bereichserweiterungsergebnisse",
+      "cidr": "CIDR",
       "endAddress": "Endadresse",
       "endAddressPlaceholder": "End-IPv4-Adresse...",
-      "invalidIpv4": "Ungültige IPv4-Adresse",
-      "addressesInRange": "Adressen im Bereich",
-      "cidr": "CIDR",
-      "label": "Bezeichnung",
-      "oldValue": "alter Wert",
-      "newValue": "neuer Wert",
+      "invalidAddressTitle": "Ungültige Adresse",
       "invalidCombination": "Ungültige Adresskombination",
       "invalidCombinationDescription": "Die End-IPv4-Adresse ist niedriger als die Start-IPv4-Adresse. Dies ist nicht gültig und es konnte kein Ergebnis berechnet werden.",
+      "invalidIpv4": "Ungültige IPv4-Adresse",
+      "label": "Bezeichnung",
+      "newValue": "neuer Wert",
+      "oldValue": "alter Wert",
+      "startAddress": "Startadresse",
+      "startAddressPlaceholder": "Start-IPv4-Adresse...",
       "switchAddresses": "Adressen tauschen"
     }
   }

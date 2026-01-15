@@ -1,8 +1,8 @@
 {
   "tools": {
     "git-memo": {
-      "cardTitle": "Git huskeliste",
-      "cardDescription": "Ofte brukte Git-kommandoer og arbeidsflyter, organisert for rask oppslag."
+      "cardDescription": "Ofte brukte Git-kommandoer og arbeidsflyter, organisert for rask oppslag.",
+      "cardTitle": "Git huskeliste"
     }
   }
 }

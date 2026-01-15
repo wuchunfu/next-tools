@@ -1,31 +1,31 @@
 {
   "tools": {
     "ipv4-subnet-calculator": {
+      "broadcastAddress": "Широковещательный адрес",
+      "cannotParseAddress": "Мы не можем разобрать этот адрес, проверьте формат",
+      "cardInputDescription": "Введите адрес IPv4 с обозначением CIDR или без него для расчета информации о подсети.",
+      "cardInputTitle": "Адрес IPv4",
+      "cardResultsDescription": "Подробная информация о сети и подсети для введенного адреса IPv4.",
+      "cardResultsTitle": "Информация о подсети",
+      "cidrNotation": "Обозначение CIDR",
+      "firstAddress": "Первый адрес",
       "inputLabel": "Адрес IPv4 с маской или без",
       "inputPlaceholder": "Адрес IPv4...",
-      "cannotParseAddress": "Мы не можем разобрать этот адрес, проверьте формат",
+      "invalidAddressTitle": "Недействительный адрес",
+      "ipClass": "Класс IP",
+      "lastAddress": "Последний адрес",
       "netmask": "Маска сети",
       "networkAddress": "Адрес сети",
       "networkMask": "Маска сети",
       "networkMaskInBinary": "Маска сети в двоичном виде",
-      "cidrNotation": "Обозначение CIDR",
-      "wildcardMask": "Маска подстановки",
       "networkSize": "Размер сети",
-      "firstAddress": "Первый адрес",
-      "lastAddress": "Последний адрес",
-      "broadcastAddress": "Широковещательный адрес",
-      "noBroadcastAddress": "Нет широковещательного адреса с этой маской",
-      "ipClass": "Класс IP",
-      "unknownClassType": "Неизвестный тип класса",
-      "previousBlock": "Предыдущий блок",
       "nextBlock": "Следующий блок",
-      "cardInputTitle": "Адрес IPv4",
-      "cardInputDescription": "Введите адрес IPv4 с обозначением CIDR или без него для расчета информации о подсети.",
-      "cardResultsTitle": "Информация о подсети",
-      "cardResultsDescription": "Подробная информация о сети и подсети для введенного адреса IPv4.",
-      "invalidAddressTitle": "Недействительный адрес",
+      "noBroadcastAddress": "Нет широковещательного адреса с этой маской",
+      "previousBlock": "Предыдущий блок",
       "property": "Свойство",
-      "value": "Значение"
+      "unknownClassType": "Неизвестный тип класса",
+      "value": "Значение",
+      "wildcardMask": "Маска подстановки"
     }
   }
 }

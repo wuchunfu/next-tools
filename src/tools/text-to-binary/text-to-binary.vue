@@ -83,7 +83,7 @@ function clearBinaryInput() {
               :placeholder="t('tools.text-to-binary.textPlaceholder')"
               rows="6"
               class="max-h-96 resize-y overflow-y-auto break-all font-mono"
-              data-test-id="text-to-binary-input"
+              data-testid="text-to-binary-input"
             />
             <div class="flex flex-wrap gap-2">
               <Button size="sm" variant="ghost" @click="clearTextInput">
@@ -115,7 +115,7 @@ function clearBinaryInput() {
               :field-props="{ orientation: 'vertical' }"
               class="font-mono"
               readonly
-              data-test-id="text-to-binary-output"
+              data-testid="text-to-binary-output"
             />
           </Field>
         </FieldSet>
@@ -157,7 +157,7 @@ function clearBinaryInput() {
               rows="6"
               class="max-h-96 resize-y overflow-y-auto break-all font-mono"
               :class="{ 'border-destructive ring-1 ring-destructive/60': inputBinaryValidation.status === 'error' }"
-              data-test-id="binary-to-text-input"
+              data-testid="binary-to-text-input"
             />
             <p v-if="inputBinaryValidation.status === 'error'" class="text-xs text-destructive">
               {{ inputBinaryValidation.message }}
@@ -186,7 +186,7 @@ function clearBinaryInput() {
               :placeholder="t('tools.text-to-binary.textOutputPlaceholder')"
               :field-props="{ orientation: 'vertical' }"
               readonly
-              data-test-id="binary-to-text-output"
+              data-testid="binary-to-text-output"
             />
           </Field>
         </FieldSet>

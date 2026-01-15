@@ -1,23 +1,23 @@
 {
   "tools": {
     "text-to-binary": {
-      "cardTextToBinaryTitle": "Text to Binary",
-      "cardTextToBinaryDescription": "Convert text to its ASCII binary representation.",
-      "cardBinaryToTextTitle": "Binary to Text",
+      "binaryFromText": "Binary output",
+      "binaryInputPlaceholder": "e.g. '01001000 01100101 01101100 01101100 01101111'",
+      "binaryPlaceholder": "The binary representation of your text will be here",
+      "bytes": "Bytes",
       "cardBinaryToTextDescription": "Convert ASCII binary representation back to text.",
-      "textPlaceholder": "e.g. 'Hello world'",
+      "cardBinaryToTextTitle": "Binary to Text",
+      "cardTextToBinaryDescription": "Convert text to its ASCII binary representation.",
+      "cardTextToBinaryTitle": "Text to Binary",
+      "clear": "Clear",
+      "enterBinaryToConvert": "Enter binary to convert",
       "enterTextToConvert": "Enter text to convert",
       "inputLength": "Length",
+      "invalidBinary": "Binary should be a valid ASCII binary string with multiples of 8 bits",
       "outputLength": "Length",
-      "bytes": "Bytes",
-      "clear": "Clear",
-      "binaryFromText": "Binary output",
-      "binaryPlaceholder": "The binary representation of your text will be here",
-      "binaryInputPlaceholder": "e.g. '01001000 01100101 01101100 01101100 01101111'",
-      "enterBinaryToConvert": "Enter binary to convert",
       "textFromBinary": "Text output",
       "textOutputPlaceholder": "The text representation of your binary will be here",
-      "invalidBinary": "Binary should be a valid ASCII binary string with multiples of 8 bits"
+      "textPlaceholder": "e.g. 'Hello world'"
     }
   }
 }

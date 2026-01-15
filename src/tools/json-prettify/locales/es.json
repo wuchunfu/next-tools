@@ -1,20 +1,20 @@
 {
   "tools": {
     "json-prettify": {
-      "cardOptionsTitle": "Opciones de formato",
-      "cardOptionsDescription": "Ajusta la sangría y el orden de las claves para que coincidan con tu estilo JSON preferido.",
-      "sortKeys": "Ordenar claves",
-      "sortKeysHelp": "Ordena las claves de los objetos alfabéticamente para obtener una salida más estable y legible.",
-      "indentSize": "Tamaño de sangría",
-      "indentHint": "Número de espacios a usar para la sangría (0–10).",
-      "cardInputTitle": "Entrada JSON",
       "cardInputDescription": "Pega tu JSON abajo. Lo validaremos (compatible con JSON5) y generaremos una versión formateada.",
-      "pasteYourRawJson": "Pegue su JSON sin formato aquí...",
-      "cardOutputTitle": "JSON formateado",
+      "cardInputTitle": "Entrada JSON",
+      "cardOptionsDescription": "Ajusta la sangría y el orden de las claves para que coincidan con tu estilo JSON preferido.",
+      "cardOptionsTitle": "Opciones de formato",
       "cardOutputDescription": "Revisa y copia la salida JSON formateada.",
-      "prettifiedVersion": "Versión formateada de su JSON",
+      "cardOutputTitle": "JSON formateado",
+      "indentHint": "Número de espacios a usar para la sangría (0–10).",
+      "indentSize": "Tamaño de sangría",
       "invalidJson": "El JSON proporcionado no es válido.",
-      "invalidJsonTitle": "JSON no válido"
+      "invalidJsonTitle": "JSON no válido",
+      "pasteYourRawJson": "Pegue su JSON sin formato aquí...",
+      "prettifiedVersion": "Versión formateada de su JSON",
+      "sortKeys": "Ordenar claves",
+      "sortKeysHelp": "Ordena las claves de los objetos alfabéticamente para obtener una salida más estable y legible."
     }
   }
 }

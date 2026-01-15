@@ -1,8 +1,8 @@
 {
   "tools": {
     "git-memo": {
-      "cardTitle": "Mémo Git",
-      "cardDescription": "Commandes Git et flux de travail les plus utilisés, organisés pour une consultation rapide."
+      "cardDescription": "Commandes Git et flux de travail les plus utilisés, organisés pour une consultation rapide.",
+      "cardTitle": "Mémo Git"
     }
   }
 }

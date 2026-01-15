@@ -1,21 +1,21 @@
 {
   "tools": {
     "json-diff": {
-      "cardTitle": "JSON 差异对比",
       "cardDescription": "比较两个 JSON 对象，查看高亮显示的差异。",
-      "cardInputTitle": "JSON 输入",
       "cardInputDescription": "在下方粘贴两份 JSON，我们会先校验格式并展示差异对比结果。",
-      "invalidJson": "无效的 JSON 格式",
-      "firstJsonLabel": "第一个 JSON",
-      "firstJsonPlaceholder": "将您的第一个 JSON 粘贴到此处...",
+      "cardInputTitle": "JSON 输入",
+      "cardTitle": "JSON 差异对比",
+      "clickToCopy": "点击复制",
       "compareJsonLabel": "要比较的 JSON",
       "compareJsonPlaceholder": "将要比较的 JSON 粘贴到此处...",
-      "resultsTitle": "对比结果",
-      "resultsDescription": "差异以绿色（新增）和红色（删除）高亮显示。",
+      "firstJsonLabel": "第一个 JSON",
+      "firstJsonPlaceholder": "将您的第一个 JSON 粘贴到此处...",
+      "invalidJson": "无效的 JSON 格式",
       "onlyShowDifferences": "仅显示差异",
+      "resultsDescription": "差异以绿色（新增）和红色（删除）高亮显示。",
+      "resultsTitle": "对比结果",
       "sameJson": "提供的 JSON 相同",
-      "sameJsonDescription": "两个 JSON 对象完全相同，未发现任何差异。",
-      "clickToCopy": "点击复制"
+      "sameJsonDescription": "两个 JSON 对象完全相同，未发现任何差异。"
     }
   }
 }

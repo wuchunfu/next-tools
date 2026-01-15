@@ -1,13 +1,13 @@
 {
   "tools": {
     "emoji-picker": {
-      "searchPlaceholder": "Emojis suchen (z.B. 'lächeln')...",
+      "copyCodePoints": "Codepunkte '{value}' in die Zwischenablage kopiert",
+      "copyEmoji": "Emoji {emoji} in die Zwischenablage kopiert",
+      "copyUnicode": "Unicode '{value}' in die Zwischenablage kopiert",
       "noResults": "Keine Ergebnisse",
       "noResultsDescription": "Versuchen Sie ein anderes Stichwort oder durchsuchen Sie die Kategorien",
-      "searchResult": "Suchergebnis",
-      "copyEmoji": "Emoji {emoji} in die Zwischenablage kopiert",
-      "copyCodePoints": "Codepunkte '{value}' in die Zwischenablage kopiert",
-      "copyUnicode": "Unicode '{value}' in die Zwischenablage kopiert"
+      "searchPlaceholder": "Emojis suchen (z.B. 'lächeln')...",
+      "searchResult": "Suchergebnis"
     }
   }
 }

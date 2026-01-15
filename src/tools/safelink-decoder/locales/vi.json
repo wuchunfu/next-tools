@@ -1,22 +1,22 @@
 {
   "tools": {
     "safelink-decoder": {
-      "cardTitle": "Giải mã Outlook SafeLink",
       "cardDescription": "Giải mã URL Microsoft Outlook SafeLink để hiển thị URL đích gốc.",
-      "cardInputTitle": "Đầu vào SafeLink",
       "cardInputDescription": "Dán URL Outlook SafeLink bên dưới. Chúng tôi sẽ xác thực và trích xuất URL đích gốc.",
-      "cardOutputTitle": "URL đã giải mã",
+      "cardInputTitle": "Đầu vào SafeLink",
       "cardOutputDescription": "Xem lại URL đã trích xuất. Bạn có thể sao chép hoặc mở trong tab mới.",
-      "inputPlaceholder": "Dán URL Outlook SafeLink của bạn tại đây...",
-      "inputLabel": "URL SafeLink",
-      "outputLabel": "URL đã giải mã",
-      "invalidUrl": "Vui lòng dán URL Outlook SafeLink hợp lệ (https://*.safelinks.protection.outlook.com/...)",
+      "cardOutputTitle": "URL đã giải mã",
+      "cardTitle": "Giải mã Outlook SafeLink",
       "decodeError": "Giải mã thất bại. Vui lòng kiểm tra liên kết và thử lại.",
       "emptyHint": "Dán URL SafeLink ở trên để giải mã.",
       "errorTitle": "URL không hợp lệ",
-      "successTitle": "Giải mã thành công",
+      "inputLabel": "URL SafeLink",
+      "inputPlaceholder": "Dán URL Outlook SafeLink của bạn tại đây...",
+      "invalidUrl": "Vui lòng dán URL Outlook SafeLink hợp lệ (https://*.safelinks.protection.outlook.com/...)",
+      "openUrl": "Mở URL",
+      "outputLabel": "URL đã giải mã",
       "successDescription": "URL gốc đã được trích xuất từ SafeLink.",
-      "openUrl": "Mở URL"
+      "successTitle": "Giải mã thành công"
     }
   }
 }

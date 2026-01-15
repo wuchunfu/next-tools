@@ -2,15 +2,15 @@
   "tools": {
     "chronometer": {
       "button": {
-        "start": "Запустить",
-        "stop": "Остановить",
-        "reset": "Сбросить",
+        "clearRecords": "Очистить записи",
         "record": "Сохранить",
-        "clearRecords": "Очистить записи"
+        "reset": "Сбросить",
+        "start": "Запустить",
+        "stop": "Остановить"
       },
       "records": {
-        "title": "Записи",
-        "empty": "Нет записей"
+        "empty": "Нет записей",
+        "title": "Записи"
       }
     }
   }

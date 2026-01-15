@@ -1,17 +1,17 @@
 {
   "tools": {
     "toml-to-yaml": {
-      "cardTitle": "TOML til YAML Konverter",
       "cardDescription": "Konverter TOML-format til YAML-format. Lim inn din TOML og få YAML-utdataene.",
-      "cardInputTitle": "TOML-inndata",
       "cardInputDescription": "Lim inn TOML-en du vil konvertere nedenfor. Vi validerer den og genererer YAML-utdata.",
-      "cardOutputTitle": "YAML-utdata",
+      "cardInputTitle": "TOML-inndata",
       "cardOutputDescription": "Dette er YAML-representasjonen av TOML-en din. Du kan kopiere den til videre bruk.",
+      "cardOutputTitle": "YAML-utdata",
+      "cardTitle": "TOML til YAML Konverter",
+      "clear": "Tøm",
       "inputPlaceholder": "Lim inn din TOML her...",
       "invalidToml": "Den oppgitte TOML-en er ikke gyldig.",
       "invalidTomlTitle": "Ugyldig TOML",
-      "outputError": "Ugyldig TOML-format. Vennligst sjekk inndataene dine.",
-      "clear": "Tøm"
+      "outputError": "Ugyldig TOML-format. Vennligst sjekk inndataene dine."
     }
   }
 }

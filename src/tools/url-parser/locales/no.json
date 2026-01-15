@@ -1,29 +1,29 @@
 {
   "tools": {
     "url-parser": {
-      "invalid": "Ugyldig URL",
-      "cardTitle": "URL-analysator",
       "cardDescription": "Analyser URLs for å trekke ut deres komponenter (protokoll, vertnavn, sti, spørringsparametere osv.).",
-      "cardInputTitle": "URL-inndata",
       "cardInputDescription": "Lim inn en URL nedenfor. Vi validerer den og viser komponenter og spørringsparametere.",
-      "cardOutputTitle": "Analyseresultat",
+      "cardInputTitle": "URL-inndata",
       "cardOutputDescription": "Se gjennom og kopier URL-komponentene som er hentet fra inndataene dine.",
-      "inputPlaceholder": "Skriv inn URL-en som skal analyseres...",
+      "cardOutputTitle": "Analyseresultat",
+      "cardTitle": "URL-analysator",
       "clear": "Tøm",
-      "invalidUrlTitle": "Ugyldig URL",
-      "urlComponents": "URL-komponenter",
-      "protocol": "Protokoll",
-      "username": "Brukernavn",
-      "password": "Passord",
-      "hostname": "Vertnavn",
-      "port": "Port",
-      "path": "Sti",
-      "search": "Søk",
+      "enterUrlToParse": "Skriv inn en gyldig URL for å se dens komponenter.",
       "hash": "Hash",
-      "queryParameters": "Spørringsparametere",
+      "hostname": "Vertnavn",
+      "inputPlaceholder": "Skriv inn URL-en som skal analyseres...",
+      "invalid": "Ugyldig URL",
+      "invalidUrlTitle": "Ugyldig URL",
       "parameterName": "Parameter",
       "parameterValue": "Verdi",
-      "enterUrlToParse": "Skriv inn en gyldig URL for å se dens komponenter."
+      "password": "Passord",
+      "path": "Sti",
+      "port": "Port",
+      "protocol": "Protokoll",
+      "queryParameters": "Spørringsparametere",
+      "search": "Søk",
+      "urlComponents": "URL-komponenter",
+      "username": "Brukernavn"
     }
   }
 }

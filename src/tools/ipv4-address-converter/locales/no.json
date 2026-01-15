@@ -1,21 +1,21 @@
 {
   "tools": {
     "ipv4-address-converter": {
+      "binary": "Binær:",
+      "cardInputDescription": "Skriv inn en IPv4-adresse for å konvertere den til forskjellige formater (desimal, heksadesimal, binær, IPv6).",
+      "cardInputTitle": "IPv4-adresse",
+      "cardResultsDescription": "Vis IPv4-adressen i forskjellige tallsystemer og IPv6-formater.",
+      "cardResultsTitle": "Konverterte formater",
+      "decimal": "Desimal:",
+      "format": "Format",
+      "hexadecimal": "Heksadesimal:",
       "inputLabel": "IPv4-adressen:",
       "inputPlaceholder": "IPv4-adressen...",
-      "placeholder": "Sett en korrekt IPv4-adresse",
+      "invalidAddressTitle": "Ugyldig adresse",
       "invalidIpv4": "Ugyldig IPv4-adresse",
-      "decimal": "Desimal:",
-      "hexadecimal": "Heksadesimal:",
-      "binary": "Binær:",
       "ipv6": "IPv6:",
       "ipv6Short": "IPv6 (kort):",
-      "cardInputTitle": "IPv4-adresse",
-      "cardInputDescription": "Skriv inn en IPv4-adresse for å konvertere den til forskjellige formater (desimal, heksadesimal, binær, IPv6).",
-      "cardResultsTitle": "Konverterte formater",
-      "cardResultsDescription": "Vis IPv4-adressen i forskjellige tallsystemer og IPv6-formater.",
-      "invalidAddressTitle": "Ugyldig adresse",
-      "format": "Format",
+      "placeholder": "Sett en korrekt IPv4-adresse",
       "value": "Verdi"
     }
   }

@@ -1,13 +1,6 @@
 {
   "tools": {
     "http-status-codes": {
-      "searchPlaceholder": "Search http status...",
-      "searchResults": "Search results",
-      "forType": "For {type}.",
-      "types": {
-        "http": "HTTP",
-        "webdav": "WebDav"
-      },
       "categories": {
         "1xx-informational-response": "1xx informational response",
         "2xx-success": "2xx success",
@@ -17,257 +10,264 @@
       },
       "codes": {
         "100": {
-          "name": "Continue",
-          "description": "Waiting for the client to emit the body of the request."
+          "description": "Waiting for the client to emit the body of the request.",
+          "name": "Continue"
         },
         "101": {
-          "name": "Switching Protocols",
-          "description": "The server has agreed to change protocol."
+          "description": "The server has agreed to change protocol.",
+          "name": "Switching Protocols"
         },
         "102": {
-          "name": "Processing",
-          "description": "The server is processing the request, but no response is available yet."
+          "description": "The server is processing the request, but no response is available yet.",
+          "name": "Processing"
         },
         "103": {
-          "name": "Early Hints",
-          "description": "The server returns some response headers before final HTTP message."
+          "description": "The server returns some response headers before final HTTP message.",
+          "name": "Early Hints"
         },
         "200": {
-          "name": "OK",
-          "description": "Standard response for successful HTTP requests."
+          "description": "Standard response for successful HTTP requests.",
+          "name": "OK"
         },
         "201": {
-          "name": "Created",
-          "description": "The request has been fulfilled, resulting in the creation of a new resource."
+          "description": "The request has been fulfilled, resulting in the creation of a new resource.",
+          "name": "Created"
         },
         "202": {
-          "name": "Accepted",
-          "description": "The request has been accepted for processing, but the processing has not been completed."
+          "description": "The request has been accepted for processing, but the processing has not been completed.",
+          "name": "Accepted"
         },
         "203": {
-          "name": "Non-Authoritative Information",
-          "description": "The request is successful but the content of the original request has been modified by a transforming proxy."
+          "description": "The request is successful but the content of the original request has been modified by a transforming proxy.",
+          "name": "Non-Authoritative Information"
         },
         "204": {
-          "name": "No Content",
-          "description": "The server successfully processed the request and is not returning any content."
+          "description": "The server successfully processed the request and is not returning any content.",
+          "name": "No Content"
         },
         "205": {
-          "name": "Reset Content",
-          "description": "The server indicates to reinitialize the document view which sent this request."
+          "description": "The server indicates to reinitialize the document view which sent this request.",
+          "name": "Reset Content"
         },
         "206": {
-          "name": "Partial Content",
-          "description": "The server is delivering only part of the resource due to a range header sent by the client."
+          "description": "The server is delivering only part of the resource due to a range header sent by the client.",
+          "name": "Partial Content"
         },
         "207": {
-          "name": "Multi-Status",
-          "description": "The message body that follows is an XML message and can contain a number of separate response codes."
+          "description": "The message body that follows is an XML message and can contain a number of separate response codes.",
+          "name": "Multi-Status"
         },
         "208": {
-          "name": "Already Reported",
-          "description": "The members of a DAV binding have already been enumerated in a preceding part of the (multistatus) response."
+          "description": "The members of a DAV binding have already been enumerated in a preceding part of the (multistatus) response.",
+          "name": "Already Reported"
         },
         "226": {
-          "name": "IM Used",
-          "description": "The server has fulfilled a request for the resource, and the response is a representation of the result."
+          "description": "The server has fulfilled a request for the resource, and the response is a representation of the result.",
+          "name": "IM Used"
         },
         "300": {
-          "name": "Multiple Choices",
-          "description": "Indicates multiple options for the resource that the client may follow."
+          "description": "Indicates multiple options for the resource that the client may follow.",
+          "name": "Multiple Choices"
         },
         "301": {
-          "name": "Moved Permanently",
-          "description": "This and all future requests should be directed to the given URI."
+          "description": "This and all future requests should be directed to the given URI.",
+          "name": "Moved Permanently"
         },
         "302": {
-          "name": "Found",
-          "description": "Redirect to another URL. This is an example of industry practice contradicting the standard."
+          "description": "Redirect to another URL. This is an example of industry practice contradicting the standard.",
+          "name": "Found"
         },
         "303": {
-          "name": "See Other",
-          "description": "The response to the request can be found under another URI using a GET method."
+          "description": "The response to the request can be found under another URI using a GET method.",
+          "name": "See Other"
         },
         "304": {
-          "name": "Not Modified",
-          "description": "Indicates that the resource has not been modified since the version specified by the request headers."
+          "description": "Indicates that the resource has not been modified since the version specified by the request headers.",
+          "name": "Not Modified"
         },
         "305": {
-          "name": "Use Proxy",
-          "description": "The requested resource is available only through a proxy, the address for which is provided in the response."
+          "description": "The requested resource is available only through a proxy, the address for which is provided in the response.",
+          "name": "Use Proxy"
         },
         "306": {
-          "name": "Switch Proxy",
-          "description": "No longer used. Originally meant \"Subsequent requests should use the specified proxy.\""
+          "description": "No longer used. Originally meant \"Subsequent requests should use the specified proxy.\"",
+          "name": "Switch Proxy"
         },
         "307": {
-          "name": "Temporary Redirect",
-          "description": "In this case, the request should be repeated with another URI; however, future requests should still use the original URI."
+          "description": "In this case, the request should be repeated with another URI; however, future requests should still use the original URI.",
+          "name": "Temporary Redirect"
         },
         "308": {
-          "name": "Permanent Redirect",
-          "description": "The request and all future requests should be repeated using another URI."
+          "description": "The request and all future requests should be repeated using another URI.",
+          "name": "Permanent Redirect"
         },
         "400": {
-          "name": "Bad Request",
-          "description": "The server cannot or will not process the request due to an apparent client error."
+          "description": "The server cannot or will not process the request due to an apparent client error.",
+          "name": "Bad Request"
         },
         "401": {
-          "name": "Unauthorized",
-          "description": "Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided."
+          "description": "Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided.",
+          "name": "Unauthorized"
         },
         "402": {
-          "name": "Payment Required",
-          "description": "Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme."
+          "description": "Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme.",
+          "name": "Payment Required"
         },
         "403": {
-          "name": "Forbidden",
-          "description": "The request was valid, but the server is refusing action. The user might not have the necessary permissions for a resource."
+          "description": "The request was valid, but the server is refusing action. The user might not have the necessary permissions for a resource.",
+          "name": "Forbidden"
         },
         "404": {
-          "name": "Not Found",
-          "description": "The requested resource could not be found but may be available in the future."
+          "description": "The requested resource could not be found but may be available in the future.",
+          "name": "Not Found"
         },
         "405": {
-          "name": "Method Not Allowed",
-          "description": "A request method is not supported for the requested resource."
+          "description": "A request method is not supported for the requested resource.",
+          "name": "Method Not Allowed"
         },
         "406": {
-          "name": "Not Acceptable",
-          "description": "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request."
+          "description": "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.",
+          "name": "Not Acceptable"
         },
         "407": {
-          "name": "Proxy Authentication Required",
-          "description": "The client must first authenticate itself with the proxy."
+          "description": "The client must first authenticate itself with the proxy.",
+          "name": "Proxy Authentication Required"
         },
         "408": {
-          "name": "Request Timeout",
-          "description": "The server timed out waiting for the request."
+          "description": "The server timed out waiting for the request.",
+          "name": "Request Timeout"
         },
         "409": {
-          "name": "Conflict",
-          "description": "Indicates that the request could not be processed because of conflict in the request, such as an edit conflict."
+          "description": "Indicates that the request could not be processed because of conflict in the request, such as an edit conflict.",
+          "name": "Conflict"
         },
         "410": {
-          "name": "Gone",
-          "description": "Indicates that the resource requested is no longer available and will not be available again."
+          "description": "Indicates that the resource requested is no longer available and will not be available again.",
+          "name": "Gone"
         },
         "411": {
-          "name": "Length Required",
-          "description": "The request did not specify the length of its content, which is required by the requested resource."
+          "description": "The request did not specify the length of its content, which is required by the requested resource.",
+          "name": "Length Required"
         },
         "412": {
-          "name": "Precondition Failed",
-          "description": "The server does not meet one of the preconditions that the requester put on the request."
+          "description": "The server does not meet one of the preconditions that the requester put on the request.",
+          "name": "Precondition Failed"
         },
         "413": {
-          "name": "Payload Too Large",
-          "description": "The request is larger than the server is willing or able to process."
+          "description": "The request is larger than the server is willing or able to process.",
+          "name": "Payload Too Large"
         },
         "414": {
-          "name": "URI Too Long",
-          "description": "The URI provided was too long for the server to process."
+          "description": "The URI provided was too long for the server to process.",
+          "name": "URI Too Long"
         },
         "415": {
-          "name": "Unsupported Media Type",
-          "description": "The request entity has a media type which the server or resource does not support."
+          "description": "The request entity has a media type which the server or resource does not support.",
+          "name": "Unsupported Media Type"
         },
         "416": {
-          "name": "Range Not Satisfiable",
-          "description": "The client has asked for a portion of the file, but the server cannot supply that portion."
+          "description": "The client has asked for a portion of the file, but the server cannot supply that portion.",
+          "name": "Range Not Satisfiable"
         },
         "417": {
-          "name": "Expectation Failed",
-          "description": "The server cannot meet the requirements of the Expect request-header field."
+          "description": "The server cannot meet the requirements of the Expect request-header field.",
+          "name": "Expectation Failed"
         },
         "418": {
-          "name": "I'm a teapot",
-          "description": "The server refuses the attempt to brew coffee with a teapot."
+          "description": "The server refuses the attempt to brew coffee with a teapot.",
+          "name": "I'm a teapot"
         },
         "421": {
-          "name": "Misdirected Request",
-          "description": "The request was directed at a server that is not able to produce a response."
+          "description": "The request was directed at a server that is not able to produce a response.",
+          "name": "Misdirected Request"
         },
         "422": {
-          "name": "Unprocessable Entity",
-          "description": "The request was well-formed but was unable to be followed due to semantic errors."
+          "description": "The request was well-formed but was unable to be followed due to semantic errors.",
+          "name": "Unprocessable Entity"
         },
         "423": {
-          "name": "Locked",
-          "description": "The resource that is being accessed is locked."
+          "description": "The resource that is being accessed is locked.",
+          "name": "Locked"
         },
         "424": {
-          "name": "Failed Dependency",
-          "description": "The request failed due to failure of a previous request."
+          "description": "The request failed due to failure of a previous request.",
+          "name": "Failed Dependency"
         },
         "425": {
-          "name": "Too Early",
-          "description": "Indicates that the server is unwilling to risk processing a request that might be replayed."
+          "description": "Indicates that the server is unwilling to risk processing a request that might be replayed.",
+          "name": "Too Early"
         },
         "426": {
-          "name": "Upgrade Required",
-          "description": "The client should switch to a different protocol such as TLS/1.0."
+          "description": "The client should switch to a different protocol such as TLS/1.0.",
+          "name": "Upgrade Required"
         },
         "428": {
-          "name": "Precondition Required",
-          "description": "The origin server requires the request to be conditional."
+          "description": "The origin server requires the request to be conditional.",
+          "name": "Precondition Required"
         },
         "429": {
-          "name": "Too Many Requests",
-          "description": "The user has sent too many requests in a given amount of time."
+          "description": "The user has sent too many requests in a given amount of time.",
+          "name": "Too Many Requests"
         },
         "431": {
-          "name": "Request Header Fields Too Large",
-          "description": "The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large."
+          "description": "The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.",
+          "name": "Request Header Fields Too Large"
         },
         "451": {
-          "name": "Unavailable For Legal Reasons",
-          "description": "A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource."
+          "description": "A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource.",
+          "name": "Unavailable For Legal Reasons"
         },
         "500": {
-          "name": "Internal Server Error",
-          "description": "A generic error message, given when an unexpected condition was encountered and no more specific message is suitable."
+          "description": "A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.",
+          "name": "Internal Server Error"
         },
         "501": {
-          "name": "Not Implemented",
-          "description": "The server either does not recognize the request method, or it lacks the ability to fulfill the request."
+          "description": "The server either does not recognize the request method, or it lacks the ability to fulfill the request.",
+          "name": "Not Implemented"
         },
         "502": {
-          "name": "Bad Gateway",
-          "description": "The server was acting as a gateway or proxy and received an invalid response from the upstream server."
+          "description": "The server was acting as a gateway or proxy and received an invalid response from the upstream server.",
+          "name": "Bad Gateway"
         },
         "503": {
-          "name": "Service Unavailable",
-          "description": "The server is currently unavailable (because it is overloaded or down for maintenance)."
+          "description": "The server is currently unavailable (because it is overloaded or down for maintenance).",
+          "name": "Service Unavailable"
         },
         "504": {
-          "name": "Gateway Timeout",
-          "description": "The server was acting as a gateway or proxy and did not receive a timely response from the upstream server."
+          "description": "The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.",
+          "name": "Gateway Timeout"
         },
         "505": {
-          "name": "HTTP Version Not Supported",
-          "description": "The server does not support the HTTP protocol version used in the request."
+          "description": "The server does not support the HTTP protocol version used in the request.",
+          "name": "HTTP Version Not Supported"
         },
         "506": {
-          "name": "Variant Also Negotiates",
-          "description": "Transparent content negotiation for the request results in a circular reference."
+          "description": "Transparent content negotiation for the request results in a circular reference.",
+          "name": "Variant Also Negotiates"
         },
         "507": {
-          "name": "Insufficient Storage",
-          "description": "The server is unable to store the representation needed to complete the request."
+          "description": "The server is unable to store the representation needed to complete the request.",
+          "name": "Insufficient Storage"
         },
         "508": {
-          "name": "Loop Detected",
-          "description": "The server detected an infinite loop while processing the request."
+          "description": "The server detected an infinite loop while processing the request.",
+          "name": "Loop Detected"
         },
         "510": {
-          "name": "Not Extended",
-          "description": "Further extensions to the request are required for the server to fulfill it."
+          "description": "Further extensions to the request are required for the server to fulfill it.",
+          "name": "Not Extended"
         },
         "511": {
-          "name": "Network Authentication Required",
-          "description": "The client needs to authenticate to gain network access."
+          "description": "The client needs to authenticate to gain network access.",
+          "name": "Network Authentication Required"
         }
+      },
+      "forType": "For {type}.",
+      "searchPlaceholder": "Search http status...",
+      "searchResults": "Search results",
+      "types": {
+        "http": "HTTP",
+        "webdav": "WebDav"
       }
     }
   }

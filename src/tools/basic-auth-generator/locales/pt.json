@@ -1,19 +1,19 @@
 {
   "tools": {
     "basic-auth-generator": {
-      "inputTitle": "Credenciais",
-      "inputDescription": "Digite seu nome de usuário e senha para gerar um cabeçalho de autenticação básica.",
-      "outputTitle": "Cabeçalho de autorização",
-      "outputDescription": "O cabeçalho de autenticação básica gerado pronto para usar em suas solicitações HTTP.",
-      "username": "Nome de usuário",
-      "usernamePlaceholder": "Seu nome de usuário...",
-      "password": "Senha",
-      "passwordPlaceholder": "Sua senha...",
-      "headerLabel": "Cabeçalho de autorização",
-      "headerPlaceholder": "O cabeçalho de autorização aparecerá aqui...",
       "base64Value": "Valor codificado em Base64",
       "clear": "Limpar",
-      "copied": "Cabeçalho copiado para a área de transferência"
+      "copied": "Cabeçalho copiado para a área de transferência",
+      "headerLabel": "Cabeçalho de autorização",
+      "headerPlaceholder": "O cabeçalho de autorização aparecerá aqui...",
+      "inputDescription": "Digite seu nome de usuário e senha para gerar um cabeçalho de autenticação básica.",
+      "inputTitle": "Credenciais",
+      "outputDescription": "O cabeçalho de autenticação básica gerado pronto para usar em suas solicitações HTTP.",
+      "outputTitle": "Cabeçalho de autorização",
+      "password": "Senha",
+      "passwordPlaceholder": "Sua senha...",
+      "username": "Nome de usuário",
+      "usernamePlaceholder": "Seu nome de usuário..."
     }
   }
 }

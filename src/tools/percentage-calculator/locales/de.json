@@ -1,25 +1,25 @@
 {
   "tools": {
     "percentage-calculator": {
-      "card1Title": "Was ist X% von Y?",
       "card1Description": "Berechnen Sie den Prozentsatz eines Werts. Geben Sie den Prozentsatz (X) und den Basiswert (Y) ein, um das Ergebnis zu erhalten.",
-      "card2Title": "X ist wie viel Prozent von Y?",
+      "card1Title": "Was ist X% von Y?",
       "card2Description": "Finden Sie heraus, wie viel Prozent ein Wert von einem anderen Wert ist. Geben Sie den Wert (X) und den Gesamtwert (Y) ein, um den Prozentsatz zu berechnen.",
-      "card3Title": "Prozentuale Zunahme/Abnahme",
+      "card2Title": "X ist wie viel Prozent von Y?",
       "card3Description": "Berechnen Sie die prozentuale Änderung zwischen zwei Werten. Geben Sie den Anfangswert (Von) und den Endwert (Bis) ein, um die prozentuale Änderung zu erhalten.",
-      "whatIs": "Was ist",
+      "card3Title": "Prozentuale Zunahme/Abnahme",
+      "from": "Von",
+      "isWhatPercentOf": "ist wie viel Prozent von",
+      "of": "von",
       "percentOf": "% von",
       "percentage": "Prozentsatz",
-      "of": "von",
-      "value": "Wert",
+      "percentageIncreaseDecrease": "Wie hoch ist die prozentuale Zunahme/Abnahme",
       "placeholderX": "X",
       "placeholderY": "Y",
       "result": "Ergebnis",
-      "xIsWhatPercentOfY": "X ist wie viel Prozent von Y",
-      "isWhatPercentOf": "ist wie viel Prozent von",
-      "percentageIncreaseDecrease": "Wie hoch ist die prozentuale Zunahme/Abnahme",
-      "from": "Von",
-      "to": "Bis"
+      "to": "Bis",
+      "value": "Wert",
+      "whatIs": "Was ist",
+      "xIsWhatPercentOfY": "X ist wie viel Prozent von Y"
     }
   }
 }

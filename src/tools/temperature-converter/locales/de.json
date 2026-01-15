@@ -1,12 +1,12 @@
 {
   "tools": {
     "temperature-converter": {
-      "kelvin": "Kelvin",
       "celsius": "Celsius",
-      "fahrenheit": "Fahrenheit",
-      "rankine": "Rankine",
       "delisle": "Delisle",
+      "fahrenheit": "Fahrenheit",
+      "kelvin": "Kelvin",
       "newton": "Newton",
+      "rankine": "Rankine",
       "reaumur": "Réaumur",
       "romer": "Rømer"
     }

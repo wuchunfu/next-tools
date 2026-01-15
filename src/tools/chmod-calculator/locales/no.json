@@ -1,20 +1,20 @@
 {
   "tools": {
     "chmod-calculator": {
-      "permissionsTitle": "Filrettigheter",
-      "permissionsDescription": "Velg rettigheter for eier, gruppe og offentlig. De oktale og symbolske representasjonene vil bli beregnet automatisk.",
-      "resultsTitle": "Resultater",
-      "resultsDescription": "Oktale og symbolske representasjoner av de valgte rettighetene.",
-      "octalLabel": "Oktal representasjon",
-      "symbolicLabel": "Symbolsk representasjon",
       "commandLabel": "Kommando",
-      "read": "Lese (4)",
-      "write": "Skriv (2)",
+      "copyCommand": "chmod {octal} sti",
       "execute": "Utfør (1)",
-      "owner": "Eier (u)",
       "group": "Gruppe (g)",
+      "octalLabel": "Oktal representasjon",
+      "owner": "Eier (u)",
+      "permissionsDescription": "Velg rettigheter for eier, gruppe og offentlig. De oktale og symbolske representasjonene vil bli beregnet automatisk.",
+      "permissionsTitle": "Filrettigheter",
       "public": "Offentlig (o)",
-      "copyCommand": "chmod {octal} sti"
+      "read": "Lese (4)",
+      "resultsDescription": "Oktale og symbolske representasjoner av de valgte rettighetene.",
+      "resultsTitle": "Resultater",
+      "symbolicLabel": "Symbolsk representasjon",
+      "write": "Skriv (2)"
     }
   }
 }

@@ -1,19 +1,19 @@
 {
   "tools": {
     "yaml-prettify": {
-      "invalid": "O YAML fornecido não é válido.",
-      "cardOptionsTitle": "Opções de formatação",
+      "cardInputDescription": "Cole seu YAML abaixo. Validaremos e geraremos uma versão formatada.",
+      "cardInputTitle": "Entrada YAML",
       "cardOptionsDescription": "Ajuste a indentação e a ordenação das chaves para corresponder ao seu estilo de YAML preferido.",
-      "sortKeys": "Ordenar chaves",
-      "sortKeysHelp": "Ordene as chaves dos objetos em ordem alfabética para uma saída mais estável e legível.",
+      "cardOptionsTitle": "Opções de formatação",
+      "cardOutputDescription": "Revise e copie a saída YAML formatada.",
+      "cardOutputTitle": "YAML formatado",
       "indent": "Tamanho da indentação",
       "indentHint": "Número de espaços usados para indentação (1–10).",
-      "cardInputTitle": "Entrada YAML",
-      "cardInputDescription": "Cole seu YAML abaixo. Validaremos e geraremos uma versão formatada.",
       "inputPlaceholder": "Cole seu YAML aqui...",
-      "cardOutputTitle": "YAML formatado",
-      "cardOutputDescription": "Revise e copie a saída YAML formatada.",
-      "invalidYamlTitle": "YAML inválido"
+      "invalid": "O YAML fornecido não é válido.",
+      "invalidYamlTitle": "YAML inválido",
+      "sortKeys": "Ordenar chaves",
+      "sortKeysHelp": "Ordene as chaves dos objetos em ordem alfabética para uma saída mais estável e legível."
     }
   }
 }

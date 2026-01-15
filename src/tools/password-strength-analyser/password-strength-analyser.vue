@@ -93,7 +93,7 @@ const details = computed(() => [
           <p class="text-sm text-muted-foreground">
             {{ t('tools.password-strength-analyser.durationToCrack') }}
           </p>
-          <p class="text-3xl font-semibold tracking-tight" data-test-id="crack-duration">
+          <p class="text-3xl font-semibold tracking-tight" data-testid="crack-duration">
             {{ crackDurationFormatted }}
           </p>
           <Badge variant="secondary" class="mt-3">

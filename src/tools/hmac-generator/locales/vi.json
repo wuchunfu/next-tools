@@ -1,24 +1,24 @@
 {
   "tools": {
     "hmac-generator": {
-      "copied": "HMAC đã được sao chép vào clipboard",
-      "plainPlaceholder": "Văn bản thuần để tính toán hash...",
-      "plainLabel": "Văn bản thuần để tính toán hash",
-      "secretPlaceholder": "Nhập khóa bí mật...",
-      "secretLabel": "Khóa bí mật",
-      "hashFunction": "Hàm băm",
-      "hashPlaceholder": "Chọn một hàm băm...",
-      "encoding": "Mã hóa đầu ra",
-      "encodingPlaceholder": "Chọn mã hóa kết quả...",
-      "binary": "Nhị phân (cơ số 2)",
-      "hex": "Thập lục phân (cơ số 16)",
       "base64": "Base64 (cơ số 64)",
       "base64url": "Base64-url (cơ số 64 với ký tự an toàn URL)",
-      "resultPlaceholder": "Kết quả của HMAC...",
-      "resultLabel": "HMAC của văn bản của bạn",
-      "copy": "Sao chép HMAC",
+      "binary": "Nhị phân (cơ số 2)",
       "cardInputTitle": "Nhập và tùy chọn HMAC",
-      "cardOutputTitle": "Kết quả HMAC"
+      "cardOutputTitle": "Kết quả HMAC",
+      "copied": "HMAC đã được sao chép vào clipboard",
+      "copy": "Sao chép HMAC",
+      "encoding": "Mã hóa đầu ra",
+      "encodingPlaceholder": "Chọn mã hóa kết quả...",
+      "hashFunction": "Hàm băm",
+      "hashPlaceholder": "Chọn một hàm băm...",
+      "hex": "Thập lục phân (cơ số 16)",
+      "plainLabel": "Văn bản thuần để tính toán hash",
+      "plainPlaceholder": "Văn bản thuần để tính toán hash...",
+      "resultLabel": "HMAC của văn bản của bạn",
+      "resultPlaceholder": "Kết quả của HMAC...",
+      "secretLabel": "Khóa bí mật",
+      "secretPlaceholder": "Nhập khóa bí mật..."
     }
   }
 }

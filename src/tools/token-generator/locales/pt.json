@@ -1,22 +1,22 @@
 {
   "tools": {
     "token-generator": {
-      "characterTypes": "Tipos de caracteres",
-      "uppercase": "Maiúsculas (ABC...)",
-      "lowercase": "Minúsculas (abc...)",
-      "numbers": "Números (123...)",
-      "symbols": "Símbolos (!-;...)",
-      "length": "Comprimento",
-      "generatedToken": "Token gerado",
-      "tokenPlaceholder": "O token...",
-      "selectCharacterTypes": "Por favor selecione pelo menos um tipo de caractere",
-      "copied": "Token copiado para a área de transferência",
-      "cardOptionsTitle": "Opções do token",
-      "cardOutputTitle": "Resultado do token",
       "button": {
         "copy": "Copiar",
         "refresh": "Atualizar"
-      }
+      },
+      "cardOptionsTitle": "Opções do token",
+      "cardOutputTitle": "Resultado do token",
+      "characterTypes": "Tipos de caracteres",
+      "copied": "Token copiado para a área de transferência",
+      "generatedToken": "Token gerado",
+      "length": "Comprimento",
+      "lowercase": "Minúsculas (abc...)",
+      "numbers": "Números (123...)",
+      "selectCharacterTypes": "Por favor selecione pelo menos um tipo de caractere",
+      "symbols": "Símbolos (!-;...)",
+      "tokenPlaceholder": "O token...",
+      "uppercase": "Maiúsculas (ABC...)"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "tools": {
     "json-minify": {
-      "cardTitle": "JSON-kompressor",
-      "cardInputTitle": "Opprinnelig JSON",
       "cardInputDescription": "Lim inn JSON-en du vil komprimere nedenfor. Vi validerer den og genererer en kompakt versjon.",
-      "cardOutputTitle": "Komprimert JSON",
+      "cardInputTitle": "Opprinnelig JSON",
       "cardOutputDescription": "Dette er den minifiserte versjonen av JSON-en din uten unødvendige mellomrom.",
+      "cardOutputTitle": "Komprimert JSON",
+      "cardTitle": "JSON-kompressor",
+      "inputPlaceholder": "Lim inn din rå JSON her...",
       "invalid": "Den oppgitte JSON-en er ikke gyldig.",
-      "invalidJsonTitle": "Ugyldig JSON",
-      "inputPlaceholder": "Lim inn din rå JSON her..."
+      "invalidJsonTitle": "Ugyldig JSON"
     }
   }
 }

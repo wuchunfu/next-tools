@@ -1,26 +1,26 @@
 {
   "tools": {
     "eta-calculator": {
-      "exampleTitle": "示例",
-      "example": "举个具体例子，如果您在 3 分钟内洗了 5 个盘子，而您有 500 个盘子要洗，那么您需要 5 小时才能洗完所有盘子。",
-      "cardInputTitle": "输入参数",
-      "cardInputDescription": "输入要消耗的元素数量、开始时间和消耗速率，以计算预计到达时间。",
-      "cardResultsTitle": "计算结果",
-      "cardResultsDescription": "根据您的输入参数计算的预计到达时间和完成时间。",
       "amountOfElement": "要消耗的元素数量",
-      "consumptionStartedAt": "消耗开始时间",
       "amountOfUnitConsumed": "时间跨度内消耗的单位数量",
-      "timeSpan": "时间跨度",
-      "hour": "小时",
-      "minute": "分钟",
-      "in": "在",
-      "milliseconds": "毫秒",
-      "seconds": "秒",
-      "minutes": "分钟",
-      "hours": "小时",
+      "cardInputDescription": "输入要消耗的元素数量、开始时间和消耗速率，以计算预计到达时间。",
+      "cardInputTitle": "输入参数",
+      "cardResultsDescription": "根据您的输入参数计算的预计到达时间和完成时间。",
+      "cardResultsTitle": "计算结果",
+      "consumptionStartedAt": "消耗开始时间",
       "days": "天",
-      "totalDuration": "总持续时间",
-      "itWillEnd": "将在"
+      "example": "举个具体例子，如果您在 3 分钟内洗了 5 个盘子，而您有 500 个盘子要洗，那么您需要 5 小时才能洗完所有盘子。",
+      "exampleTitle": "示例",
+      "hour": "小时",
+      "hours": "小时",
+      "in": "在",
+      "itWillEnd": "将在",
+      "milliseconds": "毫秒",
+      "minute": "分钟",
+      "minutes": "分钟",
+      "seconds": "秒",
+      "timeSpan": "时间跨度",
+      "totalDuration": "总持续时间"
     }
   }
 }

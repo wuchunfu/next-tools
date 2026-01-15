@@ -1,22 +1,22 @@
 {
   "tools": {
     "hash-text": {
-      "placeholder": "Ваш рядок для хешування...",
-      "yourTextToHash": "Ваш текст для хешування:",
-      "digestEncoding": "Кодування дайджесту",
-      "digestEncodingDescription": "Виберіть формат виводу для хеш-значень.",
-      "binary": "Двійковий",
-      "binaryDescription": "Двійковий формат (основа 2).",
-      "hexadecimal": "Шістнадцятковий",
-      "hexadecimalDescription": "Шістнадцятковий формат (основа 16), найбільш часто використовуваний.",
       "base64": "Base64",
       "base64Description": "Формат Base64 (основа 64), компактне представлення.",
       "base64url": "Base64 URL",
       "base64urlDescription": "Формат Base64, безпечний для URL, підходить для URL.",
-      "hashResults": "Результати хешування",
-      "noInput": "Введіть текст вище, щоб згенерувати хеші",
+      "binary": "Двійковий",
+      "binaryDescription": "Двійковий формат (основа 2).",
       "cardInputTitle": "Ввід та кодування хешу",
-      "cardOutputTitle": "Результати хешування"
+      "cardOutputTitle": "Результати хешування",
+      "digestEncoding": "Кодування дайджесту",
+      "digestEncodingDescription": "Виберіть формат виводу для хеш-значень.",
+      "hashResults": "Результати хешування",
+      "hexadecimal": "Шістнадцятковий",
+      "hexadecimalDescription": "Шістнадцятковий формат (основа 16), найбільш часто використовуваний.",
+      "noInput": "Введіть текст вище, щоб згенерувати хеші",
+      "placeholder": "Ваш рядок для хешування...",
+      "yourTextToHash": "Ваш текст для хешування:"
     }
   }
 }

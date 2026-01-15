@@ -1,23 +1,23 @@
 {
   "tools": {
     "text-to-unicode": {
-      "cardTextToUnicodeTitle": "Văn bản sang Unicode",
       "cardTextToUnicodeDescription": "Chuyển đổi văn bản sang chuỗi escape Unicode (định dạng \\u0031).",
-      "cardUnicodeToTextTitle": "Unicode sang Văn bản",
+      "cardTextToUnicodeTitle": "Văn bản sang Unicode",
       "cardUnicodeToTextDescription": "Chuyển đổi chuỗi escape Unicode trở lại thành văn bản.",
-      "textPlaceholder": "vd. 'Hello Avengers'",
+      "cardUnicodeToTextTitle": "Unicode sang Văn bản",
+      "characters": "Ký tự",
+      "clear": "Xóa",
       "enterTextToConvert": "Nhập văn bản để chuyển đổi",
+      "enterUnicodeToConvert": "Nhập unicode để chuyển đổi",
+      "entities": "Thực thể",
       "inputLength": "Độ dài",
       "outputLength": "Độ dài",
-      "characters": "Ký tự",
-      "entities": "Thực thể",
-      "clear": "Xóa",
-      "unicodeFromText": "Đầu ra Unicode",
-      "unicodePlaceholder": "Biểu diễn unicode của văn bản của bạn sẽ xuất hiện ở đây",
-      "unicodeInputPlaceholder": "Nhập Unicode",
-      "enterUnicodeToConvert": "Nhập unicode để chuyển đổi",
       "textFromUnicode": "Đầu ra văn bản",
-      "textOutputPlaceholder": "Biểu diễn văn bản của unicode của bạn sẽ xuất hiện ở đây"
+      "textOutputPlaceholder": "Biểu diễn văn bản của unicode của bạn sẽ xuất hiện ở đây",
+      "textPlaceholder": "vd. 'Hello Avengers'",
+      "unicodeFromText": "Đầu ra Unicode",
+      "unicodeInputPlaceholder": "Nhập Unicode",
+      "unicodePlaceholder": "Biểu diễn unicode của văn bản của bạn sẽ xuất hiện ở đây"
     }
   }
 }

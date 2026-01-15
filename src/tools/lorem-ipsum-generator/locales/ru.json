@@ -1,19 +1,19 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "optionsTitle": "Параметры",
-      "optionsDescription": "Настройте параметры генерации Lorem Ipsum",
-      "resultsTitle": "Сгенерированный текст",
-      "resultsDescription": "Предпросмотр сгенерированного Lorem Ipsum",
-      "paragraphs": "Абзацы",
-      "sentencesPerParagraph": "Предложений в абзаце",
-      "wordsPerSentence": "Слов в предложении",
-      "startWithLoremIpsum": "Начать с lorem ipsum?",
       "asHtml": "Как HTML?",
-      "placeholder": "Ваш lorem ipsum...",
+      "copied": "Lorem ipsum скопировано в буфер обмена",
       "copy": "Копировать",
+      "optionsDescription": "Настройте параметры генерации Lorem Ipsum",
+      "optionsTitle": "Параметры",
+      "paragraphs": "Абзацы",
+      "placeholder": "Ваш lorem ipsum...",
       "refresh": "Обновить",
-      "copied": "Lorem ipsum скопировано в буфер обмена"
+      "resultsDescription": "Предпросмотр сгенерированного Lorem Ipsum",
+      "resultsTitle": "Сгенерированный текст",
+      "sentencesPerParagraph": "Предложений в абзаце",
+      "startWithLoremIpsum": "Начать с lorem ipsum?",
+      "wordsPerSentence": "Слов в предложении"
     }
   }
 }

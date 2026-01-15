@@ -1,23 +1,23 @@
 {
   "tools": {
     "ipv4-range-expander": {
-      "cardInputTitle": "Диапазон адресов IPv4",
+      "addressesInRange": "Адреса в диапазоне",
       "cardInputDescription": "Введите начальный и конечный адреса IPv4 для расчета диапазона CIDR и расширенной информации об адресах.",
-      "cardResultsTitle": "Результаты расширения диапазона",
+      "cardInputTitle": "Диапазон адресов IPv4",
       "cardResultsDescription": "Просмотрите рассчитанный диапазон CIDR и расширенную информацию об адресах.",
-      "invalidAddressTitle": "Неверный адрес",
-      "startAddress": "Начальный адрес",
-      "startAddressPlaceholder": "Начальный адрес IPv4...",
+      "cardResultsTitle": "Результаты расширения диапазона",
+      "cidr": "CIDR",
       "endAddress": "Конечный адрес",
       "endAddressPlaceholder": "Конечный адрес IPv4...",
-      "invalidIpv4": "Неверный адрес IPv4",
-      "addressesInRange": "Адреса в диапазоне",
-      "cidr": "CIDR",
-      "label": "Метка",
-      "oldValue": "старое значение",
-      "newValue": "новое значение",
+      "invalidAddressTitle": "Неверный адрес",
       "invalidCombination": "Неверная комбинация адресов",
       "invalidCombinationDescription": "Конечный адрес IPv4 меньше начального адреса IPv4. Это недействительно, и результат не может быть вычислен.",
+      "invalidIpv4": "Неверный адрес IPv4",
+      "label": "Метка",
+      "newValue": "новое значение",
+      "oldValue": "старое значение",
+      "startAddress": "Начальный адрес",
+      "startAddressPlaceholder": "Начальный адрес IPv4...",
       "switchAddresses": "Поменять адреса местами"
     }
   }

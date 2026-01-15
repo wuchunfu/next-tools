@@ -1,22 +1,22 @@
 {
   "tools": {
     "hash-text": {
-      "placeholder": "Chuỗi của bạn để băm...",
-      "yourTextToHash": "Văn bản của bạn để băm:",
-      "digestEncoding": "Mã hóa tóm tắt",
-      "digestEncodingDescription": "Chọn định dạng đầu ra cho các giá trị hash.",
-      "binary": "Nhị phân",
-      "binaryDescription": "Định dạng nhị phân (cơ số 2).",
-      "hexadecimal": "Thập lục phân",
-      "hexadecimalDescription": "Định dạng thập lục phân (cơ số 16), được sử dụng phổ biến nhất.",
       "base64": "Base64",
       "base64Description": "Định dạng Base64 (cơ số 64), biểu diễn compact.",
       "base64url": "Base64 URL",
       "base64urlDescription": "Định dạng Base64 an toàn cho URL, phù hợp cho URL.",
-      "hashResults": "Kết quả hash",
-      "noInput": "Nhập văn bản ở trên để tạo hash",
+      "binary": "Nhị phân",
+      "binaryDescription": "Định dạng nhị phân (cơ số 2).",
       "cardInputTitle": "Nhập và mã hóa hash",
-      "cardOutputTitle": "Kết quả hash"
+      "cardOutputTitle": "Kết quả hash",
+      "digestEncoding": "Mã hóa tóm tắt",
+      "digestEncodingDescription": "Chọn định dạng đầu ra cho các giá trị hash.",
+      "hashResults": "Kết quả hash",
+      "hexadecimal": "Thập lục phân",
+      "hexadecimalDescription": "Định dạng thập lục phân (cơ số 16), được sử dụng phổ biến nhất.",
+      "noInput": "Nhập văn bản ở trên để tạo hash",
+      "placeholder": "Chuỗi của bạn để băm...",
+      "yourTextToHash": "Văn bản của bạn để băm:"
     }
   }
 }

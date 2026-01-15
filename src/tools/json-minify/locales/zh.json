@@ -1,14 +1,14 @@
 {
   "tools": {
     "json-minify": {
-      "cardTitle": "JSON 压缩器",
-      "cardInputTitle": "原始 JSON",
       "cardInputDescription": "在下方粘贴你要压缩的 JSON，我们会先校验格式，然后生成精简版本。",
-      "cardOutputTitle": "压缩后的 JSON",
+      "cardInputTitle": "原始 JSON",
       "cardOutputDescription": "这是去除多余空白后的 JSON 压缩结果。",
+      "cardOutputTitle": "压缩后的 JSON",
+      "cardTitle": "JSON 压缩器",
+      "inputPlaceholder": "将原始 JSON 粘贴到此处...",
       "invalid": "提供的 JSON 无效。",
-      "invalidJsonTitle": "无效的 JSON",
-      "inputPlaceholder": "将原始 JSON 粘贴到此处..."
+      "invalidJsonTitle": "无效的 JSON"
     }
   }
 }

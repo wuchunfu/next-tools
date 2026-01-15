@@ -1,19 +1,19 @@
 {
   "tools": {
     "ascii-text-drawer": {
-      "yourText": "Din tekst:",
-      "yourTextToDraw": "Din tekst å tegne",
+      "asciiArtText": "ASCII-kunsttekst:",
+      "cardOptionsDescription": "Konfigurer inndatateksten, skrifttypen og bredden for ASCII-kunsten.",
+      "cardOptionsTitle": "Alternativer",
+      "cardResultsDescription": "Forhåndsvis og kopier den genererte ASCII-kunsten.",
+      "cardResultsTitle": "Resultater",
+      "error": "De nåværende innstillingene resulterte i en feil.",
       "font": "Skrifttype:",
+      "loadingFont": "Laster skrifttype...",
       "selectFont": "Velg skrifttype å bruke",
       "width": "Bredde:",
       "widthPlaceholder": "Bredden på teksten",
-      "loadingFont": "Laster skrifttype...",
-      "error": "De nåværende innstillingene resulterte i en feil.",
-      "asciiArtText": "ASCII-kunsttekst:",
-      "cardOptionsTitle": "Alternativer",
-      "cardOptionsDescription": "Konfigurer inndatateksten, skrifttypen og bredden for ASCII-kunsten.",
-      "cardResultsTitle": "Resultater",
-      "cardResultsDescription": "Forhåndsvis og kopier den genererte ASCII-kunsten."
+      "yourText": "Din tekst:",
+      "yourTextToDraw": "Din tekst å tegne"
     }
   }
 }

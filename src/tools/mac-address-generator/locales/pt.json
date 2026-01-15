@@ -1,21 +1,21 @@
 {
   "tools": {
     "mac-address-generator": {
-      "cardOptionsTitle": "Opções de geração",
       "cardOptionsDescription": "Configure as opções para gerar endereços MAC aleatórios, incluindo quantidade, prefixo, maiúsculas/minúsculas e separador.",
-      "cardResultsTitle": "Endereços MAC gerados",
+      "cardOptionsTitle": "Opções de geração",
       "cardResultsDescription": "Endereços MAC gerados com base na sua configuração. Clique no botão copiar para copiar todos os endereços para a área de transferência.",
-      "invalidPrefixTitle": "Prefixo inválido",
-      "quantity": "Quantidade",
-      "macAddressPrefix": "Prefixo de endereço MAC",
-      "prefixPlaceholder": "Defina um prefixo, ex. 64:16:7F",
+      "cardResultsTitle": "Endereços MAC gerados",
       "case": "Maiúsculas/minúsculas",
-      "uppercase": "Maiúsculas",
+      "copied": "Endereços MAC copiados para a área de transferência",
+      "invalidPrefixTitle": "Prefixo inválido",
       "lowercase": "Minúsculas",
-      "separator": "Separador",
+      "macAddressPrefix": "Prefixo de endereço MAC",
       "none": "Nenhum",
+      "prefixPlaceholder": "Defina um prefixo, ex. 64:16:7F",
+      "quantity": "Quantidade",
       "refresh": "Atualizar",
-      "copied": "Endereços MAC copiados para a área de transferência"
+      "separator": "Separador",
+      "uppercase": "Maiúsculas"
     }
   }
 }

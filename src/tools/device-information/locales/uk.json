@@ -1,19 +1,19 @@
 {
   "tools": {
     "device-information": {
-      "screen": "Екран",
-      "screenSize": "Розмір екрана",
+      "colorDepth": "Глибина кольору",
+      "device": "Пристрій",
+      "languages": "Мови",
       "orientation": "Орієнтація",
       "orientationAngle": "Кут орієнтації",
-      "colorDepth": "Глибина кольору",
       "pixelRatio": "Співвідношення пікселів",
-      "windowSize": "Розмір вікна",
-      "device": "Пристрій",
-      "vendor": "Виробник браузера",
-      "languages": "Мови",
       "platform": "Платформа",
+      "screen": "Екран",
+      "screenSize": "Розмір екрана",
+      "unknown": "невідомо",
       "userAgent": "User-Agent",
-      "unknown": "невідомо"
+      "vendor": "Виробник браузера",
+      "windowSize": "Розмір вікна"
     }
   }
 }

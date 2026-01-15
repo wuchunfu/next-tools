@@ -2,15 +2,15 @@
   "tools": {
     "chronometer": {
       "button": {
-        "start": "Bắt đầu",
-        "stop": "Dừng",
-        "reset": "Đặt lại",
+        "clearRecords": "Xóa bản ghi",
         "record": "Ghi lại",
-        "clearRecords": "Xóa bản ghi"
+        "reset": "Đặt lại",
+        "start": "Bắt đầu",
+        "stop": "Dừng"
       },
       "records": {
-        "title": "Bản ghi",
-        "empty": "Chưa có bản ghi"
+        "empty": "Chưa có bản ghi",
+        "title": "Bản ghi"
       }
     }
   }

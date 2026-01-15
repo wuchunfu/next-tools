@@ -13,14 +13,13 @@ import { Field, FieldContent, FieldGroup } from '@/components/ui/field';
 import { Switch } from '@/components/ui/switch';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Textarea } from '@/components/ui/textarea';
-import { useQueryParamOrStorage } from '@/composable/queryParams';
 import { useToolI18n } from '@/composable/useToolI18n';
 import { useValidation } from '@/composable/validation';
 import { cn } from '@/lib/utils';
 import { tableCellClasses, tableContainerClasses, tableHeadClasses, tableHeaderClasses } from '@/utils/table';
 import { matchRegex } from './regex-tester.service';
 
-const regex = useQueryParamOrStorage({ name: 'regex', storageName: 'regex-tester:regex', defaultValue: '' }) as Ref<string>
+const regex = useStorage('regex-tester:regex', '')
 const text = ref('')
 const global = useStorage('regex-tester:global', true)
 const ignoreCase = useStorage('regex-tester:ignoreCase', false)

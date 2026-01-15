@@ -1,19 +1,19 @@
 {
   "tools": {
     "device-information": {
-      "screen": "Tela",
-      "screenSize": "Tamanho da tela",
+      "colorDepth": "Profundidade de cor",
+      "device": "Dispositivo",
+      "languages": "Idiomas",
       "orientation": "Orientação",
       "orientationAngle": "Ângulo de orientação",
-      "colorDepth": "Profundidade de cor",
       "pixelRatio": "Proporção de pixels",
-      "windowSize": "Tamanho da janela",
-      "device": "Dispositivo",
-      "vendor": "Fornecedor do navegador",
-      "languages": "Idiomas",
       "platform": "Plataforma",
+      "screen": "Tela",
+      "screenSize": "Tamanho da tela",
+      "unknown": "desconhecido",
       "userAgent": "Agente do usuário",
-      "unknown": "desconhecido"
+      "vendor": "Fornecedor do navegador",
+      "windowSize": "Tamanho da janela"
     }
   }
 }

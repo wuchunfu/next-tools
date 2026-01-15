@@ -1,14 +1,14 @@
 {
   "tools": {
     "random-port-generator": {
-      "cardTitle": "随机端口生成器",
       "cardDescription": "在 1024–65535 范围内生成一个随机 TCP/UDP 端口，适合本地服务和开发调试使用。",
-      "currentPortLabel": "当前端口",
-      "categoryRegistered": "注册端口（1024–49151）",
+      "cardTitle": "随机端口生成器",
       "categoryDynamic": "动态/私有端口（49152–65535）",
-      "rangeHint": "低于 1024 的端口通常保留给系统服务使用，本工具只会生成 1024 到 65535 之间的端口。",
+      "categoryRegistered": "注册端口（1024–49151）",
       "copied": "端口已复制到剪贴板",
       "copy": "复制",
+      "currentPortLabel": "当前端口",
+      "rangeHint": "低于 1024 的端口通常保留给系统服务使用，本工具只会生成 1024 到 65535 之间的端口。",
       "refresh": "刷新"
     }
   }

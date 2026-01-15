@@ -1,28 +1,28 @@
 {
   "tools": {
     "color-converter": {
+      "alpha": "Alfa",
+      "cardFormatsDescription": "Converta entre diferentes formatos de cor. Edite qualquer campo para atualizar todos os formatos.",
+      "cardFormatsTitle": "Formatos de Cor",
+      "cardPickerDescription": "Selecione uma cor usando o seletor de cor.",
+      "cardPickerTitle": "Seletor de Cor",
+      "cmyk": "cmyk",
+      "cmykPlaceholder": "ex. cmyk(0, 100%, 100%, 0)",
+      "colorInfo": "Informações da Cor",
       "colorPicker": "seletor de cor",
       "hex": "hex",
       "hexPlaceholder": "ex. #ff0000",
-      "rgb": "rgb",
-      "rgbPlaceholder": "ex. rgb(255, 0, 0)",
       "hsl": "hsl",
       "hslPlaceholder": "ex. hsl(0, 100%, 50%)",
       "hwb": "hwb",
       "hwbPlaceholder": "ex. hwb(0, 0%, 0%)",
       "lch": "lch",
       "lchPlaceholder": "ex. lch(53.24, 104.55, 40.85)",
-      "cmyk": "cmyk",
-      "cmykPlaceholder": "ex. cmyk(0, 100%, 100%, 0)",
       "name": "nome",
       "namePlaceholder": "ex. vermelho",
-      "unknown": "Desconhecido",
-      "cardPickerTitle": "Seletor de Cor",
-      "cardPickerDescription": "Selecione uma cor usando o seletor de cor.",
-      "cardFormatsTitle": "Formatos de Cor",
-      "cardFormatsDescription": "Converta entre diferentes formatos de cor. Edite qualquer campo para atualizar todos os formatos.",
-      "colorInfo": "Informações da Cor",
-      "alpha": "Alfa"
+      "rgb": "rgb",
+      "rgbPlaceholder": "ex. rgb(255, 0, 0)",
+      "unknown": "Desconhecido"
     }
   }
 }

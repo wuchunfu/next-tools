@@ -1,14 +1,14 @@
 {
   "tools": {
     "random-port-generator": {
-      "cardTitle": "Generator for tilfeldig port",
       "cardDescription": "Genererer en tilfeldig TCP/UDP-port i området 1024–65535 for lokale tjenester og utvikling.",
-      "currentPortLabel": "Gjeldende port",
-      "categoryRegistered": "Registrert port (1024–49151)",
+      "cardTitle": "Generator for tilfeldig port",
       "categoryDynamic": "Dynamisk/privat port (49152–65535)",
-      "rangeHint": "Porter under 1024 er vanligvis reservert for systemtjenester. Dette verktøyet genererer bare porter mellom 1024 og 65535.",
+      "categoryRegistered": "Registrert port (1024–49151)",
       "copied": "Port kopiert til utklippstavlen",
       "copy": "Kopier",
+      "currentPortLabel": "Gjeldende port",
+      "rangeHint": "Porter under 1024 er vanligvis reservert for systemtjenester. Dette verktøyet genererer bare porter mellom 1024 og 65535.",
       "refresh": "Oppdater"
     }
   }

@@ -1,28 +1,28 @@
 {
   "tools": {
     "color-converter": {
+      "alpha": "Альфа",
+      "cardFormatsDescription": "Конвертируйте между различными форматами цветов. Отредактируйте любое поле, чтобы обновить все форматы.",
+      "cardFormatsTitle": "Форматы Цвета",
+      "cardPickerDescription": "Выберите цвет с помощью палитры цветов.",
+      "cardPickerTitle": "Выбор Цвета",
+      "cmyk": "cmyk",
+      "cmykPlaceholder": "напр. cmyk(0, 100%, 100%, 0)",
+      "colorInfo": "Информация о Цвете",
       "colorPicker": "выбор цвета",
       "hex": "hex",
       "hexPlaceholder": "напр. #ff0000",
-      "rgb": "rgb",
-      "rgbPlaceholder": "напр. rgb(255, 0, 0)",
       "hsl": "hsl",
       "hslPlaceholder": "напр. hsl(0, 100%, 50%)",
       "hwb": "hwb",
       "hwbPlaceholder": "напр. hwb(0, 0%, 0%)",
       "lch": "lch",
       "lchPlaceholder": "напр. lch(53.24, 104.55, 40.85)",
-      "cmyk": "cmyk",
-      "cmykPlaceholder": "напр. cmyk(0, 100%, 100%, 0)",
       "name": "имя",
       "namePlaceholder": "напр. красный",
-      "unknown": "Неизвестно",
-      "cardPickerTitle": "Выбор Цвета",
-      "cardPickerDescription": "Выберите цвет с помощью палитры цветов.",
-      "cardFormatsTitle": "Форматы Цвета",
-      "cardFormatsDescription": "Конвертируйте между различными форматами цветов. Отредактируйте любое поле, чтобы обновить все форматы.",
-      "colorInfo": "Информация о Цвете",
-      "alpha": "Альфа"
+      "rgb": "rgb",
+      "rgbPlaceholder": "напр. rgb(255, 0, 0)",
+      "unknown": "Неизвестно"
     }
   }
 }

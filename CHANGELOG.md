@@ -14,7 +14,7 @@ All notable changes to this project will be documented in this file. See [standa
 - **ico-generator**: use status enum, add reactive error messages and real-time validation (72523fb)
 
 ### Tests
-- **ico-generator**: improve e2e test reliability with data-test-id (845599b)
+- **ico-generator**: improve e2e test reliability with data-testid (845599b)
 
 ### Other
 -  Add Product Hunt badge to all README files (6033abe)

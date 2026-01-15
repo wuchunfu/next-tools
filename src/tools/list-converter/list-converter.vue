@@ -103,7 +103,7 @@ function clearInput() {
                       {{ t('tools.list-converter.removeDuplicatesHelp') }}
                     </span>
                   </div>
-                  <Switch v-model="conversionConfig.removeDuplicates" data-test-id="removeDuplicates" />
+                  <Switch v-model="conversionConfig.removeDuplicates" data-testid="removeDuplicates" />
                 </div>
 
                 <div class="flex items-center justify-between rounded-lg border bg-card p-4 transition-colors hover:bg-accent/50">
@@ -176,13 +176,13 @@ function clearInput() {
                   <Input
                     v-model="conversionConfig.itemPrefix"
                     :placeholder="t('tools.list-converter.itemPrefix')"
-                    data-test-id="itemPrefix"
+                    data-testid="itemPrefix"
                     class="w-full"
                   />
                   <Input
                     v-model="conversionConfig.itemSuffix"
                     :placeholder="t('tools.list-converter.itemSuffix')"
-                    data-test-id="itemSuffix"
+                    data-testid="itemSuffix"
                     class="w-full"
                   />
                 </div>
@@ -198,13 +198,13 @@ function clearInput() {
                   <Input
                     v-model="conversionConfig.listPrefix"
                     :placeholder="t('tools.list-converter.listPrefix')"
-                    data-test-id="listPrefix"
+                    data-testid="listPrefix"
                     class="w-full"
                   />
                   <Input
                     v-model="conversionConfig.listSuffix"
                     :placeholder="t('tools.list-converter.listSuffix')"
-                    data-test-id="listSuffix"
+                    data-testid="listSuffix"
                     class="w-full"
                   />
                 </div>

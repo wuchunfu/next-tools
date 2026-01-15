@@ -1,31 +1,31 @@
 {
   "tools": {
     "benchmark-builder": {
-      "suiteName": "Набір {index}",
-      "suiteLabel": "Ім'я набору",
-      "suitePlaceholder": "Ім'я набору...",
-      "suitesTitle": "Набори",
-      "suitesDescription": "Керуйте кількома наборами та їх значеннями зразків.",
-      "suiteValues": "Значення набору",
-      "deleteSuite": "Видалити набір",
-      "addSuite": "Додати набір",
-      "resultsTitle": "Результати",
-      "resultsDescription": "Підсумок та порівняння між наборами.",
-      "unitPlaceholder": "Одиниця (наприклад: мс)",
-      "unitLabel": "Одиниця",
-      "resetSuites": "Скинути набори",
-      "copyMarkdown": "Копіювати як таблицю markdown",
-      "copyBullet": "Копіювати як маркований список",
-      "setMeasure": "Встановіть вашу міру...",
-      "deleteValue": "Видалити це значення",
       "addMeasure": "Додати міру",
+      "addSuite": "Додати набір",
+      "copyBullet": "Копіювати як маркований список",
+      "copyMarkdown": "Копіювати як таблицю markdown",
+      "deleteSuite": "Видалити набір",
+      "deleteValue": "Видалити це значення",
       "header": {
-        "position": "Позиція",
-        "title": "Набір",
-        "size": "Зразки",
         "mean": "Середнє",
+        "position": "Позиція",
+        "size": "Зразки",
+        "title": "Набір",
         "variance": "Дисперсія"
-      }
+      },
+      "resetSuites": "Скинути набори",
+      "resultsDescription": "Підсумок та порівняння між наборами.",
+      "resultsTitle": "Результати",
+      "setMeasure": "Встановіть вашу міру...",
+      "suiteLabel": "Ім'я набору",
+      "suiteName": "Набір {index}",
+      "suitePlaceholder": "Ім'я набору...",
+      "suiteValues": "Значення набору",
+      "suitesDescription": "Керуйте кількома наборами та їх значеннями зразків.",
+      "suitesTitle": "Набори",
+      "unitLabel": "Одиниця",
+      "unitPlaceholder": "Одиниця (наприклад: мс)"
     }
   }
 }

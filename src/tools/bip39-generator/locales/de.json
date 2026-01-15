@@ -1,35 +1,35 @@
 {
   "tools": {
     "bip39-generator": {
-      "entropyLength": "Die Entropielänge muss >= 16, <= 32 und ein Vielfaches von 4 sein",
-      "entropyHex": "Entropie sollte eine hexadezimale Zeichenkette sein",
-      "invalidMnemonic": "Ungültige Mnemonik",
+      "cardEntropyTitle": "Entropie-Quelle",
+      "cardLanguageTitle": "Sprache der Mnemonik",
+      "cardPassphraseTitle": "Mnemonische Phrase",
       "copyEntropy": "Entropie in die Zwischenablage kopiert",
       "copyPassphrase": "Passphrase in die Zwischenablage kopiert",
-      "generateNewEntropy": "Neue Entropie erzeugen",
-      "languageLabel": "Sprache",
-      "languageDescription": "Wähle die Wortlisten-Sprache für die BIP39-Mnemonik.",
-      "entropyLabel": "Entropie",
       "entropyDescription": "Hexadezimaler Seed-Wert (16–32 Zeichen, Vielfaches von 4).",
+      "entropyHex": "Entropie sollte eine hexadezimale Zeichenkette sein",
+      "entropyLabel": "Entropie",
+      "entropyLength": "Die Entropielänge muss >= 16, <= 32 und ein Vielfaches von 4 sein",
       "entropyPlaceholder": "Hexadezimale Entropie eingeben...",
-      "passphraseLabel": "Passphrase",
-      "passphraseDescription": "BIP39-Mnemonik (12 oder 24 Wörter).",
-      "passphrasePlaceholder": "Mnemonik eingeben...",
-      "cardLanguageTitle": "Sprache der Mnemonik",
-      "cardEntropyTitle": "Entropie-Quelle",
-      "cardPassphraseTitle": "Mnemonische Phrase",
+      "generateNewEntropy": "Neue Entropie erzeugen",
+      "invalidMnemonic": "Ungültige Mnemonik",
+      "languageDescription": "Wähle die Wortlisten-Sprache für die BIP39-Mnemonik.",
+      "languageLabel": "Sprache",
       "languages": {
-        "english": "Englisch",
         "chinese-simplified": "Vereinfachtes Chinesisch",
         "chinese-traditional": "Traditionelles Chinesisch",
         "czech": "Tschechisch",
+        "english": "Englisch",
         "french": "Französisch",
         "italian": "Italienisch",
         "japanese": "Japanisch",
         "korean": "Koreanisch",
         "portuguese": "Portugiesisch",
         "spanish": "Spanisch"
-      }
+      },
+      "passphraseDescription": "BIP39-Mnemonik (12 oder 24 Wörter).",
+      "passphraseLabel": "Passphrase",
+      "passphrasePlaceholder": "Mnemonik eingeben..."
     }
   }
 }

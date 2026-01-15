@@ -1,13 +1,6 @@
 {
   "tools": {
     "http-status-codes": {
-      "searchPlaceholder": "HTTP-Status suchen...",
-      "searchResults": "Suchergebnisse",
-      "forType": "Für {type}.",
-      "types": {
-        "http": "HTTP",
-        "webdav": "WebDav"
-      },
       "categories": {
         "1xx-informational-response": "1xx Informationsantwort",
         "2xx-success": "2xx Erfolg",
@@ -17,257 +10,264 @@
       },
       "codes": {
         "100": {
-          "name": "Weiter",
-          "description": "Warten darauf, dass der Client den Anfragetext sendet."
+          "description": "Warten darauf, dass der Client den Anfragetext sendet.",
+          "name": "Weiter"
         },
         "101": {
-          "name": "Protokoll wechseln",
-          "description": "Der Server hat zugestimmt, das Protokoll zu ändern."
+          "description": "Der Server hat zugestimmt, das Protokoll zu ändern.",
+          "name": "Protokoll wechseln"
         },
         "102": {
-          "name": "Verarbeitung",
-          "description": "Der Server verarbeitet die Anfrage, aber es ist noch keine Antwort verfügbar."
+          "description": "Der Server verarbeitet die Anfrage, aber es ist noch keine Antwort verfügbar.",
+          "name": "Verarbeitung"
         },
         "103": {
-          "name": "Frühe Hinweise",
-          "description": "Der Server gibt einige Antwortheader vor der endgültigen HTTP-Nachricht zurück."
+          "description": "Der Server gibt einige Antwortheader vor der endgültigen HTTP-Nachricht zurück.",
+          "name": "Frühe Hinweise"
         },
         "200": {
-          "name": "OK",
-          "description": "Standardantwort für erfolgreiche HTTP-Anfragen."
+          "description": "Standardantwort für erfolgreiche HTTP-Anfragen.",
+          "name": "OK"
         },
         "201": {
-          "name": "Erstellt",
-          "description": "Die Anfrage wurde erfüllt, was zur Erstellung einer neuen Ressource geführt hat."
+          "description": "Die Anfrage wurde erfüllt, was zur Erstellung einer neuen Ressource geführt hat.",
+          "name": "Erstellt"
         },
         "202": {
-          "name": "Akzeptiert",
-          "description": "Die Anfrage wurde zur Verarbeitung akzeptiert, aber die Verarbeitung ist noch nicht abgeschlossen."
+          "description": "Die Anfrage wurde zur Verarbeitung akzeptiert, aber die Verarbeitung ist noch nicht abgeschlossen.",
+          "name": "Akzeptiert"
         },
         "203": {
-          "name": "Nicht autoritative Information",
-          "description": "Die Anfrage war erfolgreich, aber der Inhalt der ursprünglichen Anfrage wurde von einem transformierenden Proxy geändert."
+          "description": "Die Anfrage war erfolgreich, aber der Inhalt der ursprünglichen Anfrage wurde von einem transformierenden Proxy geändert.",
+          "name": "Nicht autoritative Information"
         },
         "204": {
-          "name": "Kein Inhalt",
-          "description": "Der Server hat die Anfrage erfolgreich verarbeitet und gibt keinen Inhalt zurück."
+          "description": "Der Server hat die Anfrage erfolgreich verarbeitet und gibt keinen Inhalt zurück.",
+          "name": "Kein Inhalt"
         },
         "205": {
-          "name": "Inhalt zurücksetzen",
-          "description": "Der Server weist an, die Dokumentansicht neu zu initialisieren, die diese Anfrage gesendet hat."
+          "description": "Der Server weist an, die Dokumentansicht neu zu initialisieren, die diese Anfrage gesendet hat.",
+          "name": "Inhalt zurücksetzen"
         },
         "206": {
-          "name": "Teilweiser Inhalt",
-          "description": "Der Server liefert nur einen Teil der Ressource aufgrund eines Bereichsheaders, der vom Client gesendet wurde."
+          "description": "Der Server liefert nur einen Teil der Ressource aufgrund eines Bereichsheaders, der vom Client gesendet wurde.",
+          "name": "Teilweiser Inhalt"
         },
         "207": {
-          "name": "Multi-Status",
-          "description": "Der nachfolgende Nachrichtenkörper ist eine XML-Nachricht und kann eine Reihe separater Antwortcodes enthalten."
+          "description": "Der nachfolgende Nachrichtenkörper ist eine XML-Nachricht und kann eine Reihe separater Antwortcodes enthalten.",
+          "name": "Multi-Status"
         },
         "208": {
-          "name": "Bereits gemeldet",
-          "description": "Die Mitglieder einer DAV-Bindung wurden bereits in einem vorherigen Teil der (Multistatus-)Antwort aufgelistet."
+          "description": "Die Mitglieder einer DAV-Bindung wurden bereits in einem vorherigen Teil der (Multistatus-)Antwort aufgelistet.",
+          "name": "Bereits gemeldet"
         },
         "226": {
-          "name": "IM verwendet",
-          "description": "Der Server hat eine Anfrage für die Ressource erfüllt, und die Antwort ist eine Darstellung des Ergebnisses."
+          "description": "Der Server hat eine Anfrage für die Ressource erfüllt, und die Antwort ist eine Darstellung des Ergebnisses.",
+          "name": "IM verwendet"
         },
         "300": {
-          "name": "Mehrere Auswahlmöglichkeiten",
-          "description": "Zeigt mehrere Optionen für die Ressource an, denen der Client folgen kann."
+          "description": "Zeigt mehrere Optionen für die Ressource an, denen der Client folgen kann.",
+          "name": "Mehrere Auswahlmöglichkeiten"
         },
         "301": {
-          "name": "Dauerhaft verschoben",
-          "description": "Diese und alle zukünftigen Anfragen sollten an die angegebene URI gerichtet werden."
+          "description": "Diese und alle zukünftigen Anfragen sollten an die angegebene URI gerichtet werden.",
+          "name": "Dauerhaft verschoben"
         },
         "302": {
-          "name": "Gefunden",
-          "description": "Umleitung zu einer anderen URL. Dies ist ein Beispiel für eine Branchenpraxis, die dem Standard widerspricht."
+          "description": "Umleitung zu einer anderen URL. Dies ist ein Beispiel für eine Branchenpraxis, die dem Standard widerspricht.",
+          "name": "Gefunden"
         },
         "303": {
-          "name": "Siehe andere",
-          "description": "Die Antwort auf die Anfrage kann unter einer anderen URI mit einer GET-Methode gefunden werden."
+          "description": "Die Antwort auf die Anfrage kann unter einer anderen URI mit einer GET-Methode gefunden werden.",
+          "name": "Siehe andere"
         },
         "304": {
-          "name": "Nicht geändert",
-          "description": "Zeigt an, dass die Ressource seit der Version, die von den Anfrageheadern angegeben wurde, nicht geändert wurde."
+          "description": "Zeigt an, dass die Ressource seit der Version, die von den Anfrageheadern angegeben wurde, nicht geändert wurde.",
+          "name": "Nicht geändert"
         },
         "305": {
-          "name": "Proxy verwenden",
-          "description": "Die angeforderte Ressource ist nur über einen Proxy verfügbar, dessen Adresse in der Antwort bereitgestellt wird."
+          "description": "Die angeforderte Ressource ist nur über einen Proxy verfügbar, dessen Adresse in der Antwort bereitgestellt wird.",
+          "name": "Proxy verwenden"
         },
         "306": {
-          "name": "Proxy wechseln",
-          "description": "Wird nicht mehr verwendet. Ursprünglich bedeutete es \"Nachfolgende Anfragen sollten den angegebenen Proxy verwenden.\""
+          "description": "Wird nicht mehr verwendet. Ursprünglich bedeutete es \"Nachfolgende Anfragen sollten den angegebenen Proxy verwenden.\"",
+          "name": "Proxy wechseln"
         },
         "307": {
-          "name": "Temporäre Umleitung",
-          "description": "In diesem Fall sollte die Anfrage mit einer anderen URI wiederholt werden; zukünftige Anfragen sollten jedoch weiterhin die ursprüngliche URI verwenden."
+          "description": "In diesem Fall sollte die Anfrage mit einer anderen URI wiederholt werden; zukünftige Anfragen sollten jedoch weiterhin die ursprüngliche URI verwenden.",
+          "name": "Temporäre Umleitung"
         },
         "308": {
-          "name": "Permanente Umleitung",
-          "description": "Die Anfrage und alle zukünftigen Anfragen sollten mit einer anderen URI wiederholt werden."
+          "description": "Die Anfrage und alle zukünftigen Anfragen sollten mit einer anderen URI wiederholt werden.",
+          "name": "Permanente Umleitung"
         },
         "400": {
-          "name": "Schlechte Anfrage",
-          "description": "Der Server kann oder wird die Anfrage aufgrund eines offensichtlichen Client-Fehlers nicht verarbeiten."
+          "description": "Der Server kann oder wird die Anfrage aufgrund eines offensichtlichen Client-Fehlers nicht verarbeiten.",
+          "name": "Schlechte Anfrage"
         },
         "401": {
-          "name": "Nicht autorisiert",
-          "description": "Ähnlich wie 403 Verboten, aber speziell für die Verwendung, wenn eine Authentifizierung erforderlich ist und fehlgeschlagen ist oder noch nicht bereitgestellt wurde."
+          "description": "Ähnlich wie 403 Verboten, aber speziell für die Verwendung, wenn eine Authentifizierung erforderlich ist und fehlgeschlagen ist oder noch nicht bereitgestellt wurde.",
+          "name": "Nicht autorisiert"
         },
         "402": {
-          "name": "Zahlung erforderlich",
-          "description": "Für zukünftige Verwendung reserviert. Die ursprüngliche Absicht war, dass dieser Code als Teil einer Form von digitalem Bargeld oder Micropayment-Schema verwendet werden könnte."
+          "description": "Für zukünftige Verwendung reserviert. Die ursprüngliche Absicht war, dass dieser Code als Teil einer Form von digitalem Bargeld oder Micropayment-Schema verwendet werden könnte.",
+          "name": "Zahlung erforderlich"
         },
         "403": {
-          "name": "Verboten",
-          "description": "Die Anfrage war gültig, aber der Server weigert sich, Maßnahmen zu ergreifen. Der Benutzer hat möglicherweise nicht die erforderlichen Berechtigungen für eine Ressource."
+          "description": "Die Anfrage war gültig, aber der Server weigert sich, Maßnahmen zu ergreifen. Der Benutzer hat möglicherweise nicht die erforderlichen Berechtigungen für eine Ressource.",
+          "name": "Verboten"
         },
         "404": {
-          "name": "Nicht gefunden",
-          "description": "Die angeforderte Ressource konnte nicht gefunden werden, ist aber möglicherweise in Zukunft verfügbar."
+          "description": "Die angeforderte Ressource konnte nicht gefunden werden, ist aber möglicherweise in Zukunft verfügbar.",
+          "name": "Nicht gefunden"
         },
         "405": {
-          "name": "Methode nicht erlaubt",
-          "description": "Eine Anfragetmethode wird für die angeforderte Ressource nicht unterstützt."
+          "description": "Eine Anfragetmethode wird für die angeforderte Ressource nicht unterstützt.",
+          "name": "Methode nicht erlaubt"
         },
         "406": {
-          "name": "Nicht akzeptabel",
-          "description": "Die angeforderte Ressource kann nur Inhalte generieren, die gemäß den Accept-Headern, die in der Anfrage gesendet wurden, nicht akzeptabel sind."
+          "description": "Die angeforderte Ressource kann nur Inhalte generieren, die gemäß den Accept-Headern, die in der Anfrage gesendet wurden, nicht akzeptabel sind.",
+          "name": "Nicht akzeptabel"
         },
         "407": {
-          "name": "Proxy-Authentifizierung erforderlich",
-          "description": "Der Client muss sich zuerst beim Proxy authentifizieren."
+          "description": "Der Client muss sich zuerst beim Proxy authentifizieren.",
+          "name": "Proxy-Authentifizierung erforderlich"
         },
         "408": {
-          "name": "Anfrage-Timeout",
-          "description": "Der Server hat beim Warten auf die Anfrage ein Timeout erreicht."
+          "description": "Der Server hat beim Warten auf die Anfrage ein Timeout erreicht.",
+          "name": "Anfrage-Timeout"
         },
         "409": {
-          "name": "Konflikt",
-          "description": "Zeigt an, dass die Anfrage aufgrund eines Konflikts in der Anfrage, wie z. B. einem Bearbeitungskonflikt, nicht verarbeitet werden konnte."
+          "description": "Zeigt an, dass die Anfrage aufgrund eines Konflikts in der Anfrage, wie z. B. einem Bearbeitungskonflikt, nicht verarbeitet werden konnte.",
+          "name": "Konflikt"
         },
         "410": {
-          "name": "Weg",
-          "description": "Zeigt an, dass die angeforderte Ressource nicht mehr verfügbar ist und nicht wieder verfügbar sein wird."
+          "description": "Zeigt an, dass die angeforderte Ressource nicht mehr verfügbar ist und nicht wieder verfügbar sein wird.",
+          "name": "Weg"
         },
         "411": {
-          "name": "Länge erforderlich",
-          "description": "Die Anfrage hat die Länge ihres Inhalts nicht angegeben, was von der angeforderten Ressource erforderlich ist."
+          "description": "Die Anfrage hat die Länge ihres Inhalts nicht angegeben, was von der angeforderten Ressource erforderlich ist.",
+          "name": "Länge erforderlich"
         },
         "412": {
-          "name": "Vorbedingung fehlgeschlagen",
-          "description": "Der Server erfüllt eine der Vorbedingungen nicht, die der Anfragende an die Anfrage gestellt hat."
+          "description": "Der Server erfüllt eine der Vorbedingungen nicht, die der Anfragende an die Anfrage gestellt hat.",
+          "name": "Vorbedingung fehlgeschlagen"
         },
         "413": {
-          "name": "Nutzlast zu groß",
-          "description": "Die Anfrage ist größer, als der Server bereit oder in der Lage ist, sie zu verarbeiten."
+          "description": "Die Anfrage ist größer, als der Server bereit oder in der Lage ist, sie zu verarbeiten.",
+          "name": "Nutzlast zu groß"
         },
         "414": {
-          "name": "URI zu lang",
-          "description": "Die bereitgestellte URI war zu lang, als dass der Server sie verarbeiten könnte."
+          "description": "Die bereitgestellte URI war zu lang, als dass der Server sie verarbeiten könnte.",
+          "name": "URI zu lang"
         },
         "415": {
-          "name": "Nicht unterstützter Medientyp",
-          "description": "Die Anfrageentität hat einen Medientyp, den der Server oder die Ressource nicht unterstützt."
+          "description": "Die Anfrageentität hat einen Medientyp, den der Server oder die Ressource nicht unterstützt.",
+          "name": "Nicht unterstützter Medientyp"
         },
         "416": {
-          "name": "Bereich nicht erfüllbar",
-          "description": "Der Client hat nach einem Teil der Datei gefragt, aber der Server kann diesen Teil nicht liefern."
+          "description": "Der Client hat nach einem Teil der Datei gefragt, aber der Server kann diesen Teil nicht liefern.",
+          "name": "Bereich nicht erfüllbar"
         },
         "417": {
-          "name": "Erwartung fehlgeschlagen",
-          "description": "Der Server kann die Anforderungen des Expect-Anfrageheader-Felds nicht erfüllen."
+          "description": "Der Server kann die Anforderungen des Expect-Anfrageheader-Felds nicht erfüllen.",
+          "name": "Erwartung fehlgeschlagen"
         },
         "418": {
-          "name": "Ich bin eine Teekanne",
-          "description": "Der Server weigert sich, den Versuch abzulehnen, Kaffee mit einer Teekanne zu brühen."
+          "description": "Der Server weigert sich, den Versuch abzulehnen, Kaffee mit einer Teekanne zu brühen.",
+          "name": "Ich bin eine Teekanne"
         },
         "421": {
-          "name": "Fehlgeleitete Anfrage",
-          "description": "Die Anfrage wurde an einen Server gerichtet, der nicht in der Lage ist, eine Antwort zu produzieren."
+          "description": "Die Anfrage wurde an einen Server gerichtet, der nicht in der Lage ist, eine Antwort zu produzieren.",
+          "name": "Fehlgeleitete Anfrage"
         },
         "422": {
-          "name": "Nicht verarbeitbare Entität",
-          "description": "Die Anfrage war wohlgeformt, konnte aber aufgrund semantischer Fehler nicht befolgt werden."
+          "description": "Die Anfrage war wohlgeformt, konnte aber aufgrund semantischer Fehler nicht befolgt werden.",
+          "name": "Nicht verarbeitbare Entität"
         },
         "423": {
-          "name": "Gesperrt",
-          "description": "Die Ressource, auf die zugegriffen wird, ist gesperrt."
+          "description": "Die Ressource, auf die zugegriffen wird, ist gesperrt.",
+          "name": "Gesperrt"
         },
         "424": {
-          "name": "Abhängigkeit fehlgeschlagen",
-          "description": "Die Anfrage ist aufgrund des Fehlschlags einer vorherigen Anfrage fehlgeschlagen."
+          "description": "Die Anfrage ist aufgrund des Fehlschlags einer vorherigen Anfrage fehlgeschlagen.",
+          "name": "Abhängigkeit fehlgeschlagen"
         },
         "425": {
-          "name": "Zu früh",
-          "description": "Zeigt an, dass der Server nicht bereit ist, das Risiko einzugehen, eine Anfrage zu verarbeiten, die möglicherweise wiedergegeben wird."
+          "description": "Zeigt an, dass der Server nicht bereit ist, das Risiko einzugehen, eine Anfrage zu verarbeiten, die möglicherweise wiedergegeben wird.",
+          "name": "Zu früh"
         },
         "426": {
-          "name": "Upgrade erforderlich",
-          "description": "Der Client sollte zu einem anderen Protokoll wie TLS/1.0 wechseln."
+          "description": "Der Client sollte zu einem anderen Protokoll wie TLS/1.0 wechseln.",
+          "name": "Upgrade erforderlich"
         },
         "428": {
-          "name": "Vorbedingung erforderlich",
-          "description": "Der Ursprungsserver erfordert, dass die Anfrage bedingt ist."
+          "description": "Der Ursprungsserver erfordert, dass die Anfrage bedingt ist.",
+          "name": "Vorbedingung erforderlich"
         },
         "429": {
-          "name": "Zu viele Anfragen",
-          "description": "Der Benutzer hat in einer bestimmten Zeitspanne zu viele Anfragen gesendet."
+          "description": "Der Benutzer hat in einer bestimmten Zeitspanne zu viele Anfragen gesendet.",
+          "name": "Zu viele Anfragen"
         },
         "431": {
-          "name": "Anfrage-Header-Felder zu groß",
-          "description": "Der Server ist nicht bereit, die Anfrage zu verarbeiten, da entweder ein einzelnes Header-Feld oder alle Header-Felder zusammen zu groß sind."
+          "description": "Der Server ist nicht bereit, die Anfrage zu verarbeiten, da entweder ein einzelnes Header-Feld oder alle Header-Felder zusammen zu groß sind.",
+          "name": "Anfrage-Header-Felder zu groß"
         },
         "451": {
-          "name": "Aus rechtlichen Gründen nicht verfügbar",
-          "description": "Ein Serverbetreiber hat eine rechtliche Aufforderung erhalten, den Zugriff auf eine Ressource oder auf eine Reihe von Ressourcen, die die angeforderte Ressource enthält, zu verweigern."
+          "description": "Ein Serverbetreiber hat eine rechtliche Aufforderung erhalten, den Zugriff auf eine Ressource oder auf eine Reihe von Ressourcen, die die angeforderte Ressource enthält, zu verweigern.",
+          "name": "Aus rechtlichen Gründen nicht verfügbar"
         },
         "500": {
-          "name": "Interner Serverfehler",
-          "description": "Eine generische Fehlermeldung, die angezeigt wird, wenn eine unerwartete Bedingung aufgetreten ist und keine spezifischere Nachricht geeignet ist."
+          "description": "Eine generische Fehlermeldung, die angezeigt wird, wenn eine unerwartete Bedingung aufgetreten ist und keine spezifischere Nachricht geeignet ist.",
+          "name": "Interner Serverfehler"
         },
         "501": {
-          "name": "Nicht implementiert",
-          "description": "Der Server erkennt entweder die Anfragetmethode nicht oder es fehlt ihm die Fähigkeit, die Anfrage zu erfüllen."
+          "description": "Der Server erkennt entweder die Anfragetmethode nicht oder es fehlt ihm die Fähigkeit, die Anfrage zu erfüllen.",
+          "name": "Nicht implementiert"
         },
         "502": {
-          "name": "Schlechtes Gateway",
-          "description": "Der Server fungierte als Gateway oder Proxy und erhielt eine ungültige Antwort vom Upstream-Server."
+          "description": "Der Server fungierte als Gateway oder Proxy und erhielt eine ungültige Antwort vom Upstream-Server.",
+          "name": "Schlechtes Gateway"
         },
         "503": {
-          "name": "Dienst nicht verfügbar",
-          "description": "Der Server ist derzeit nicht verfügbar (weil er überlastet ist oder für Wartungsarbeiten heruntergefahren wurde)."
+          "description": "Der Server ist derzeit nicht verfügbar (weil er überlastet ist oder für Wartungsarbeiten heruntergefahren wurde).",
+          "name": "Dienst nicht verfügbar"
         },
         "504": {
-          "name": "Gateway-Timeout",
-          "description": "Der Server fungierte als Gateway oder Proxy und hat keine rechtzeitige Antwort vom Upstream-Server erhalten."
+          "description": "Der Server fungierte als Gateway oder Proxy und hat keine rechtzeitige Antwort vom Upstream-Server erhalten.",
+          "name": "Gateway-Timeout"
         },
         "505": {
-          "name": "HTTP-Version nicht unterstützt",
-          "description": "Der Server unterstützt die in der Anfrage verwendete HTTP-Protokollversion nicht."
+          "description": "Der Server unterstützt die in der Anfrage verwendete HTTP-Protokollversion nicht.",
+          "name": "HTTP-Version nicht unterstützt"
         },
         "506": {
-          "name": "Variante verhandelt auch",
-          "description": "Die transparente Inhaltsaushandlung für die Anfrage führt zu einer zirkulären Referenz."
+          "description": "Die transparente Inhaltsaushandlung für die Anfrage führt zu einer zirkulären Referenz.",
+          "name": "Variante verhandelt auch"
         },
         "507": {
-          "name": "Unzureichender Speicher",
-          "description": "Der Server kann die Darstellung nicht speichern, die benötigt wird, um die Anfrage abzuschließen."
+          "description": "Der Server kann die Darstellung nicht speichern, die benötigt wird, um die Anfrage abzuschließen.",
+          "name": "Unzureichender Speicher"
         },
         "508": {
-          "name": "Schleife erkannt",
-          "description": "Der Server hat eine Endlosschleife beim Verarbeiten der Anfrage erkannt."
+          "description": "Der Server hat eine Endlosschleife beim Verarbeiten der Anfrage erkannt.",
+          "name": "Schleife erkannt"
         },
         "510": {
-          "name": "Nicht erweitert",
-          "description": "Weitere Erweiterungen der Anfrage sind erforderlich, damit der Server sie erfüllen kann."
+          "description": "Weitere Erweiterungen der Anfrage sind erforderlich, damit der Server sie erfüllen kann.",
+          "name": "Nicht erweitert"
         },
         "511": {
-          "name": "Netzwerkauthentifizierung erforderlich",
-          "description": "Der Client muss sich authentifizieren, um Netzwerkzugriff zu erhalten."
+          "description": "Der Client muss sich authentifizieren, um Netzwerkzugriff zu erhalten.",
+          "name": "Netzwerkauthentifizierung erforderlich"
         }
+      },
+      "forType": "Für {type}.",
+      "searchPlaceholder": "HTTP-Status suchen...",
+      "searchResults": "Suchergebnisse",
+      "types": {
+        "http": "HTTP",
+        "webdav": "WebDav"
       }
     }
   }

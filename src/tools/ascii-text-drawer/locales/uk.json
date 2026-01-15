@@ -1,19 +1,19 @@
 {
   "tools": {
     "ascii-text-drawer": {
-      "yourText": "Ваш текст:",
-      "yourTextToDraw": "Ваш текст для малювання",
+      "asciiArtText": "Текст ASCII-арт:",
+      "cardOptionsDescription": "Налаштуйте вхідний текст, шрифт і ширину для ASCII-арту.",
+      "cardOptionsTitle": "Параметри",
+      "cardResultsDescription": "Попередній перегляд і копіювання згенерованого ASCII-арту.",
+      "cardResultsTitle": "Результати",
+      "error": "Поточні налаштування призвели до помилки.",
       "font": "Шрифт:",
+      "loadingFont": "Завантаження шрифту...",
       "selectFont": "Виберіть шрифт для використання",
       "width": "Ширина:",
       "widthPlaceholder": "Ширина тексту",
-      "loadingFont": "Завантаження шрифту...",
-      "error": "Поточні налаштування призвели до помилки.",
-      "asciiArtText": "Текст ASCII-арт:",
-      "cardOptionsTitle": "Параметри",
-      "cardOptionsDescription": "Налаштуйте вхідний текст, шрифт і ширину для ASCII-арту.",
-      "cardResultsTitle": "Результати",
-      "cardResultsDescription": "Попередній перегляд і копіювання згенерованого ASCII-арту."
+      "yourText": "Ваш текст:",
+      "yourTextToDraw": "Ваш текст для малювання"
     }
   }
 }

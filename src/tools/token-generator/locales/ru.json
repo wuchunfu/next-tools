@@ -1,22 +1,22 @@
 {
   "tools": {
     "token-generator": {
-      "characterTypes": "Типы символов",
-      "uppercase": "Заглавные буквы (ABC...)",
-      "lowercase": "Строчные буквы (abc...)",
-      "numbers": "Цифры (123...)",
-      "symbols": "Символы (!-;...)",
-      "length": "Длина",
-      "generatedToken": "Сгенерированный токен",
-      "tokenPlaceholder": "Токен...",
-      "selectCharacterTypes": "Пожалуйста, выберите хотя бы один тип символов",
-      "copied": "Токен скопирован в буфер обмена",
-      "cardOptionsTitle": "Параметры токена",
-      "cardOutputTitle": "Результат токена",
       "button": {
         "copy": "Копировать",
         "refresh": "Обновить"
-      }
+      },
+      "cardOptionsTitle": "Параметры токена",
+      "cardOutputTitle": "Результат токена",
+      "characterTypes": "Типы символов",
+      "copied": "Токен скопирован в буфер обмена",
+      "generatedToken": "Сгенерированный токен",
+      "length": "Длина",
+      "lowercase": "Строчные буквы (abc...)",
+      "numbers": "Цифры (123...)",
+      "selectCharacterTypes": "Пожалуйста, выберите хотя бы один тип символов",
+      "symbols": "Символы (!-;...)",
+      "tokenPlaceholder": "Токен...",
+      "uppercase": "Заглавные буквы (ABC...)"
     }
   }
 }

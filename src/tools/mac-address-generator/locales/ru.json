@@ -1,21 +1,21 @@
 {
   "tools": {
     "mac-address-generator": {
-      "cardOptionsTitle": "Параметры генерации",
       "cardOptionsDescription": "Настройте параметры для генерации случайных MAC-адресов, включая количество, префикс, регистр и разделитель.",
-      "cardResultsTitle": "Сгенерированные MAC-адреса",
+      "cardOptionsTitle": "Параметры генерации",
       "cardResultsDescription": "Сгенерированные MAC-адреса на основе вашей конфигурации. Нажмите кнопку копирования, чтобы скопировать все адреса в буфер обмена.",
-      "invalidPrefixTitle": "Неверный префикс",
-      "quantity": "Количество",
-      "macAddressPrefix": "Префикс MAC-адреса",
-      "prefixPlaceholder": "Установите префикс, например 64:16:7F",
+      "cardResultsTitle": "Сгенерированные MAC-адреса",
       "case": "Регистр",
-      "uppercase": "Верхний регистр",
+      "copied": "MAC-адреса скопированы в буфер обмена",
+      "invalidPrefixTitle": "Неверный префикс",
       "lowercase": "Нижний регистр",
-      "separator": "Разделитель",
+      "macAddressPrefix": "Префикс MAC-адреса",
       "none": "Нет",
+      "prefixPlaceholder": "Установите префикс, например 64:16:7F",
+      "quantity": "Количество",
       "refresh": "Обновить",
-      "copied": "MAC-адреса скопированы в буфер обмена"
+      "separator": "Разделитель",
+      "uppercase": "Верхний регистр"
     }
   }
 }

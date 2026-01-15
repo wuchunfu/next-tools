@@ -1,21 +1,21 @@
 {
   "tools": {
     "bcrypt": {
+      "compareStringWithHash": "So sánh chuỗi với hash",
+      "copied": "Chuỗi đã băm được sao chép vào clipboard",
+      "copyHash": "Sao chép hash",
+      "doTheyMatch": "Chúng có khớp không?",
+      "enterBothFields": "Nhập cả hai trường để so sánh",
       "hash": "Hash",
+      "hashToCompare": "Hash của bạn để so sánh...",
+      "no": "Không",
       "placeholder": "Chuỗi của bạn để bcrypt...",
-      "yourString": "Chuỗi của bạn:",
       "saltCount": "Số lượng muối:",
       "saltRounds": "Vòng muối...",
-      "copyHash": "Sao chép hash",
-      "copied": "Chuỗi đã băm được sao chép vào clipboard",
-      "compareStringWithHash": "So sánh chuỗi với hash",
       "stringToCompare": "Chuỗi của bạn để so sánh...",
-      "yourHash": "Hash của bạn:",
-      "hashToCompare": "Hash của bạn để so sánh...",
-      "doTheyMatch": "Chúng có khớp không?",
       "yes": "Có",
-      "no": "Không",
-      "enterBothFields": "Nhập cả hai trường để so sánh"
+      "yourHash": "Hash của bạn:",
+      "yourString": "Chuỗi của bạn:"
     }
   }
 }

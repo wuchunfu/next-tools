@@ -1,18 +1,18 @@
 {
   "tools": {
     "toml-to-json": {
-      "cardTitle": "TOML to JSON Converter",
       "cardDescription": "Convert TOML format to JSON format. Paste your TOML and get the JSON output.",
-      "cardInputTitle": "TOML input",
       "cardInputDescription": "Paste the TOML you want to convert. We will validate it and then generate the JSON output.",
-      "cardOutputTitle": "JSON output",
+      "cardInputTitle": "TOML input",
       "cardOutputDescription": "This is the JSON representation of your TOML. You can copy it for further use.",
+      "cardOutputTitle": "JSON output",
+      "cardTitle": "TOML to JSON Converter",
+      "clear": "Clear",
+      "formatJson": "Format JSON",
       "inputPlaceholder": "Paste your TOML here...",
       "invalidToml": "Provided TOML is not valid.",
       "invalidTomlTitle": "Invalid TOML",
-      "outputError": "Invalid TOML format. Please check your input.",
-      "clear": "Clear",
-      "formatJson": "Format JSON"
+      "outputError": "Invalid TOML format. Please check your input."
     }
   }
 }

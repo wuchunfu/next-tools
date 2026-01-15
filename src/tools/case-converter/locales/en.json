@@ -1,32 +1,32 @@
 {
   "tools": {
     "case-converter": {
-      "cardTitle": "Case Converter",
-      "cardDescription": "Transform the case of a string and choose between different formats.",
-      "cardInputTitle": "Text input",
-      "cardInputDescription": "Enter your string below. We will generate common casing formats for programming and text.",
-      "cardOutputTitle": "All formats",
-      "cardOutputDescription": "Pick the format you need and copy it. Values update instantly as you type.",
-      "yourString": "Your string",
-      "yourStringPlaceholder": "Enter your text here...",
-      "inputLength": "Length",
-      "sanitizedLength": "Valid characters",
-      "clear": "Clear",
-      "formatsTitle": "All Formats",
-      "lowercase": "Lowercase",
-      "uppercase": "Uppercase",
       "camelcase": "Camelcase",
       "capitalcase": "Capitalcase",
+      "cardDescription": "Transform the case of a string and choose between different formats.",
+      "cardInputDescription": "Enter your string below. We will generate common casing formats for programming and text.",
+      "cardInputTitle": "Text input",
+      "cardOutputDescription": "Pick the format you need and copy it. Values update instantly as you type.",
+      "cardOutputTitle": "All formats",
+      "cardTitle": "Case Converter",
+      "clear": "Clear",
       "constantcase": "Constantcase",
       "dotcase": "Dotcase",
+      "formatsTitle": "All Formats",
       "headercase": "Headercase",
+      "inputLength": "Length",
+      "lowercase": "Lowercase",
+      "mockingcase": "Mockingcase",
       "nocase": "Nocase",
       "paramcase": "Paramcase",
       "pascalcase": "Pascalcase",
       "pathcase": "Pathcase",
+      "sanitizedLength": "Valid characters",
       "sentencecase": "Sentencecase",
       "snakecase": "Snakecase",
-      "mockingcase": "Mockingcase"
+      "uppercase": "Uppercase",
+      "yourString": "Your string",
+      "yourStringPlaceholder": "Enter your text here..."
     }
   }
 }

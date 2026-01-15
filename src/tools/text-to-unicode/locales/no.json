@@ -1,23 +1,23 @@
 {
   "tools": {
     "text-to-unicode": {
-      "cardTextToUnicodeTitle": "Tekst til Unicode",
       "cardTextToUnicodeDescription": "Konverter tekst til Unicode escape-sekvenser (\\u0031 format).",
-      "cardUnicodeToTextTitle": "Unicode til Tekst",
+      "cardTextToUnicodeTitle": "Tekst til Unicode",
       "cardUnicodeToTextDescription": "Konverter Unicode escape-sekvenser tilbake til tekst.",
-      "textPlaceholder": "f.eks. 'Hello Avengers'",
+      "cardUnicodeToTextTitle": "Unicode til Tekst",
+      "characters": "Tegn",
+      "clear": "Tøm",
       "enterTextToConvert": "Skriv inn tekst å konvertere",
+      "enterUnicodeToConvert": "Skriv inn unicode å konvertere",
+      "entities": "Entiteter",
       "inputLength": "Lengde",
       "outputLength": "Lengde",
-      "characters": "Tegn",
-      "entities": "Entiteter",
-      "clear": "Tøm",
-      "unicodeFromText": "Unicode-utgang",
-      "unicodePlaceholder": "Unicode-representasjonen av teksten din vil vises her",
-      "unicodeInputPlaceholder": "Skriv inn Unicode",
-      "enterUnicodeToConvert": "Skriv inn unicode å konvertere",
       "textFromUnicode": "Tekstutgang",
-      "textOutputPlaceholder": "Tekstrepresentasjonen av din unicode vil vises her"
+      "textOutputPlaceholder": "Tekstrepresentasjonen av din unicode vil vises her",
+      "textPlaceholder": "f.eks. 'Hello Avengers'",
+      "unicodeFromText": "Unicode-utgang",
+      "unicodeInputPlaceholder": "Skriv inn Unicode",
+      "unicodePlaceholder": "Unicode-representasjonen av teksten din vil vises her"
     }
   }
 }

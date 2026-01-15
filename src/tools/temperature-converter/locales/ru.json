@@ -1,12 +1,12 @@
 {
   "tools": {
     "temperature-converter": {
-      "kelvin": "Кельвин",
       "celsius": "Цельсий",
-      "fahrenheit": "Фаренгейт",
-      "rankine": "Ранкин",
       "delisle": "Делиль",
+      "fahrenheit": "Фаренгейт",
+      "kelvin": "Кельвин",
       "newton": "Ньютон",
+      "rankine": "Ранкин",
       "reaumur": "Реомюр",
       "romer": "Рёмер"
     }

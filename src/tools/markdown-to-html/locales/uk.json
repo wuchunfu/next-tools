@@ -1,22 +1,22 @@
 {
   "tools": {
     "markdown-to-html": {
-      "cardTitle": "Конвертер Markdown у HTML",
       "cardDescription": "Перетворіть формат Markdown у формат HTML. Вставте ваш Markdown і отримайте вивід HTML.",
-      "cardInputTitle": "Ввід Markdown",
       "cardInputDescription": "Напишіть або вставте ваш Markdown нижче. Ми перетворимо його в HTML і надамо попередній перегляд.",
-      "cardOutputTitle": "HTML-вивід",
+      "cardInputTitle": "Ввід Markdown",
       "cardOutputDescription": "Перемикайтеся між попереднім переглядом і HTML-кодом. Ви також можете надрукувати зрендерений HTML як PDF.",
-      "inputPlaceholder": "Ваш вміст Markdown...",
+      "cardOutputTitle": "HTML-вивід",
+      "cardTitle": "Конвертер Markdown у HTML",
       "clear": "Очистити",
-      "printAsPdf": "Друкувати як PDF",
-      "printTooltip": "Друкувати HTML як PDF",
-      "printTitle": "Markdown у HTML",
-      "preview": "Попередній перегляд",
+      "formatHtml": "Форматувати HTML",
       "htmlCode": "HTML-код",
+      "inputPlaceholder": "Ваш вміст Markdown...",
+      "preview": "Попередній перегляд",
       "previewPlaceholder": "Попередній перегляд з'явиться тут...",
       "previewTitle": "Попередній перегляд Markdown",
-      "formatHtml": "Форматувати HTML"
+      "printAsPdf": "Друкувати як PDF",
+      "printTitle": "Markdown у HTML",
+      "printTooltip": "Друкувати HTML як PDF"
     }
   }
 }

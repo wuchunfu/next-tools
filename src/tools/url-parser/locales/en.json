@@ -1,29 +1,29 @@
 {
   "tools": {
     "url-parser": {
-      "invalid": "Invalid URL",
-      "cardTitle": "URL Parser",
       "cardDescription": "Parse and analyze URLs to extract their components (protocol, hostname, path, query parameters, etc.).",
-      "cardInputTitle": "URL input",
       "cardInputDescription": "Paste a URL below. We will validate it and show its components and query parameters.",
-      "cardOutputTitle": "Parsed result",
+      "cardInputTitle": "URL input",
       "cardOutputDescription": "Review and copy the URL components extracted from your input.",
-      "inputPlaceholder": "Enter the URL to parse...",
+      "cardOutputTitle": "Parsed result",
+      "cardTitle": "URL Parser",
       "clear": "Clear",
-      "invalidUrlTitle": "Invalid URL",
-      "urlComponents": "URL Components",
-      "protocol": "Protocol",
-      "username": "Username",
-      "password": "Password",
-      "hostname": "Hostname",
-      "port": "Port",
-      "path": "Path",
-      "search": "Search",
+      "enterUrlToParse": "Enter a valid URL to see its components.",
       "hash": "Hash",
-      "queryParameters": "Query Parameters",
+      "hostname": "Hostname",
+      "inputPlaceholder": "Enter the URL to parse...",
+      "invalid": "Invalid URL",
+      "invalidUrlTitle": "Invalid URL",
       "parameterName": "Parameter",
       "parameterValue": "Value",
-      "enterUrlToParse": "Enter a valid URL to see its components."
+      "password": "Password",
+      "path": "Path",
+      "port": "Port",
+      "protocol": "Protocol",
+      "queryParameters": "Query Parameters",
+      "search": "Search",
+      "urlComponents": "URL Components",
+      "username": "Username"
     }
   }
 }

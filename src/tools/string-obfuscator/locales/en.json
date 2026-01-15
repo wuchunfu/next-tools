@@ -1,16 +1,16 @@
 {
   "tools": {
     "string-obfuscator": {
-      "copied": "Obfuscated string copied",
-      "cardInputTitle": "Options",
       "cardInputDescription": "Configure how the string should be obfuscated",
-      "cardResultsTitle": "Obfuscated",
+      "cardInputTitle": "Options",
       "cardResultsDescription": "Preview of the obfuscated string",
-      "placeholder": "Enter string to obfuscate",
-      "label": "String to obfuscate:",
+      "cardResultsTitle": "Obfuscated",
+      "copied": "Obfuscated string copied",
       "keepFirst": "Keep first:",
       "keepLast": "Keep last:",
-      "keepSpaces": "Keep spaces:"
+      "keepSpaces": "Keep spaces:",
+      "label": "String to obfuscate:",
+      "placeholder": "Enter string to obfuscate"
     }
   }
 }

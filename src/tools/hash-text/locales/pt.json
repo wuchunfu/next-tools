@@ -1,22 +1,22 @@
 {
   "tools": {
     "hash-text": {
-      "placeholder": "Sua string para fazer hash...",
-      "yourTextToHash": "Seu texto para fazer hash:",
-      "digestEncoding": "Codificação do resumo",
-      "digestEncodingDescription": "Selecione o formato de saída para os valores hash.",
-      "binary": "Binário",
-      "binaryDescription": "Formato binário (base 2).",
-      "hexadecimal": "Hexadecimal",
-      "hexadecimalDescription": "Formato hexadecimal (base 16), mais comumente usado.",
       "base64": "Base64",
       "base64Description": "Formato Base64 (base 64), representação compacta.",
       "base64url": "Base64 URL",
       "base64urlDescription": "Formato Base64 seguro para URL, adequado para URLs.",
-      "hashResults": "Resultados de hash",
-      "noInput": "Digite o texto acima para gerar hashes",
+      "binary": "Binário",
+      "binaryDescription": "Formato binário (base 2).",
       "cardInputTitle": "Entrada e codificação de hash",
-      "cardOutputTitle": "Resultados de hash"
+      "cardOutputTitle": "Resultados de hash",
+      "digestEncoding": "Codificação do resumo",
+      "digestEncodingDescription": "Selecione o formato de saída para os valores hash.",
+      "hashResults": "Resultados de hash",
+      "hexadecimal": "Hexadecimal",
+      "hexadecimalDescription": "Formato hexadecimal (base 16), mais comumente usado.",
+      "noInput": "Digite o texto acima para gerar hashes",
+      "placeholder": "Sua string para fazer hash...",
+      "yourTextToHash": "Seu texto para fazer hash:"
     }
   }
 }

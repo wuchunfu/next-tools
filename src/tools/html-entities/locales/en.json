@@ -1,10 +1,11 @@
 {
   "tools": {
     "html-entities": {
-      "cardEscapeTitle": "Escape HTML Entities",
       "cardEscapeDescription": "Escape HTML entities (replace characters like <, >, &, \" and ' with their HTML version).",
-      "cardUnescapeTitle": "Unescape HTML Entities",
+      "cardEscapeTitle": "Escape HTML Entities",
       "cardUnescapeDescription": "Unescape HTML entities (convert HTML entities back to their original characters).",
+      "cardUnescapeTitle": "Unescape HTML Entities",
+      "clear": "Clear",
       "inputLabel": "Your string",
       "inputPlaceholder": "Enter the string to escape...",
       "outputLabel": "Escaped string",
@@ -12,8 +13,7 @@
       "unescapeInputLabel": "Your escaped string",
       "unescapeInputPlaceholder": "Enter the HTML-escaped string to unescape...",
       "unescapeOutputLabel": "Unescaped string",
-      "unescapeOutputPlaceholder": "Unescaped string will appear here...",
-      "clear": "Clear"
+      "unescapeOutputPlaceholder": "Unescaped string will appear here..."
     }
   }
 }

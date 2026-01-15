@@ -1,24 +1,24 @@
 {
   "tools": {
     "hmac-generator": {
-      "copied": "HMAC 已复制到剪贴板",
-      "plainPlaceholder": "计算哈希的明文...",
-      "plainLabel": "计算哈希的明文",
-      "secretPlaceholder": "输入密钥...",
-      "secretLabel": "密钥",
-      "hashFunction": "哈希函数",
-      "hashPlaceholder": "选择哈希函数...",
-      "encoding": "输出编码",
-      "encodingPlaceholder": "选择结果编码...",
-      "binary": "二进制 (base 2)",
-      "hex": "十六进制 (base 16)",
       "base64": "Base64 (base 64)",
       "base64url": "Base64-url（URL 安全）",
-      "resultPlaceholder": "HMAC 结果...",
-      "resultLabel": "文本的 HMAC",
-      "copy": "复制 HMAC",
+      "binary": "二进制 (base 2)",
       "cardInputTitle": "HMAC 输入与选项",
-      "cardOutputTitle": "HMAC 结果"
+      "cardOutputTitle": "HMAC 结果",
+      "copied": "HMAC 已复制到剪贴板",
+      "copy": "复制 HMAC",
+      "encoding": "输出编码",
+      "encodingPlaceholder": "选择结果编码...",
+      "hashFunction": "哈希函数",
+      "hashPlaceholder": "选择哈希函数...",
+      "hex": "十六进制 (base 16)",
+      "plainLabel": "计算哈希的明文",
+      "plainPlaceholder": "计算哈希的明文...",
+      "resultLabel": "文本的 HMAC",
+      "resultPlaceholder": "HMAC 结果...",
+      "secretLabel": "密钥",
+      "secretPlaceholder": "输入密钥..."
     }
   }
 }

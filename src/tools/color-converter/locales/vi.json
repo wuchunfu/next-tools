@@ -1,28 +1,28 @@
 {
   "tools": {
     "color-converter": {
+      "alpha": "Alpha",
+      "cardFormatsDescription": "Chuyển đổi giữa các định dạng màu khác nhau. Chỉnh sửa bất kỳ trường nào để cập nhật tất cả các định dạng.",
+      "cardFormatsTitle": "Định Dạng Màu",
+      "cardPickerDescription": "Chọn một màu bằng cách sử dụng bộ chọn màu.",
+      "cardPickerTitle": "Bộ Chọn Màu",
+      "cmyk": "cmyk",
+      "cmykPlaceholder": "vd. cmyk(0, 100%, 100%, 0)",
+      "colorInfo": "Thông Tin Màu",
       "colorPicker": "bộ chọn màu",
       "hex": "hex",
       "hexPlaceholder": "vd. #ff0000",
-      "rgb": "rgb",
-      "rgbPlaceholder": "vd. rgb(255, 0, 0)",
       "hsl": "hsl",
       "hslPlaceholder": "vd. hsl(0, 100%, 50%)",
       "hwb": "hwb",
       "hwbPlaceholder": "vd. hwb(0, 0%, 0%)",
       "lch": "lch",
       "lchPlaceholder": "vd. lch(53.24, 104.55, 40.85)",
-      "cmyk": "cmyk",
-      "cmykPlaceholder": "vd. cmyk(0, 100%, 100%, 0)",
       "name": "tên",
       "namePlaceholder": "vd. đỏ",
-      "unknown": "Không xác định",
-      "cardPickerTitle": "Bộ Chọn Màu",
-      "cardPickerDescription": "Chọn một màu bằng cách sử dụng bộ chọn màu.",
-      "cardFormatsTitle": "Định Dạng Màu",
-      "cardFormatsDescription": "Chuyển đổi giữa các định dạng màu khác nhau. Chỉnh sửa bất kỳ trường nào để cập nhật tất cả các định dạng.",
-      "colorInfo": "Thông Tin Màu",
-      "alpha": "Alpha"
+      "rgb": "rgb",
+      "rgbPlaceholder": "vd. rgb(255, 0, 0)",
+      "unknown": "Không xác định"
     }
   }
 }

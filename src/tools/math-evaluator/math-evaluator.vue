@@ -91,7 +91,7 @@ function clearExpression() {
       <CardContent>
         <div
           class="rounded-md border bg-muted/50 px-4 py-3 font-mono text-lg break-all"
-          data-test-id="math-result"
+          data-testid="math-result"
         >
           {{ String(result) }}
         </div>

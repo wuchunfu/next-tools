@@ -1,22 +1,22 @@
 {
   "tools": {
     "markdown-to-html": {
-      "cardTitle": "Markdown to HTML Converter",
       "cardDescription": "Convert Markdown format to HTML format. Paste your Markdown and get the HTML output.",
-      "cardInputTitle": "Markdown input",
       "cardInputDescription": "Write or paste your Markdown below. We will convert it to HTML and provide a preview.",
-      "cardOutputTitle": "HTML output",
+      "cardInputTitle": "Markdown input",
       "cardOutputDescription": "Switch between preview and HTML code. You can also print the rendered HTML as a PDF.",
-      "inputPlaceholder": "Your Markdown content...",
+      "cardOutputTitle": "HTML output",
+      "cardTitle": "Markdown to HTML Converter",
       "clear": "Clear",
-      "printAsPdf": "Print as PDF",
-      "printTooltip": "Print HTML as PDF",
-      "printTitle": "Markdown to HTML",
-      "preview": "Preview",
+      "formatHtml": "Format HTML",
       "htmlCode": "HTML Code",
+      "inputPlaceholder": "Your Markdown content...",
+      "preview": "Preview",
       "previewPlaceholder": "Preview will appear here...",
       "previewTitle": "Markdown Preview",
-      "formatHtml": "Format HTML"
+      "printAsPdf": "Print as PDF",
+      "printTitle": "Markdown to HTML",
+      "printTooltip": "Print HTML as PDF"
     }
   }
 }

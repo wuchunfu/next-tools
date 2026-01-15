@@ -1,26 +1,26 @@
 {
   "tools": {
     "qrcode-generator": {
-      "cardTitle": "QR-kode Generator",
-      "cardDescription": "Generer tilpassbare QR-koder for URLer eller tekst med justerbare farger og feilrettingsnivåer.",
-      "text": "Innhold",
-      "yourLinkOrText": "Skriv inn URL eller tekst for å kode...",
-      "foregroundColor": "Forgrunn",
       "backgroundColor": "Bakgrunn",
-      "errorResistance": "Feilrettingsnivå",
-      "downloadQrCode": "Last ned PNG",
+      "cardDescription": "Generer tilpassbare QR-koder for URLer eller tekst med justerbare farger og feilrettingsnivåer.",
+      "cardTitle": "QR-kode Generator",
       "characters": "tegn",
       "colorSettings": "Fargeinnstillinger",
-      "resetColors": "Tilbakestill",
-      "resetColorsTooltip": "Tilbakestill til standardfarger",
+      "downloadQrCode": "Last ned PNG",
+      "emptyPreview": "Skriv inn tekst for å generere QR-kode",
+      "errorResistance": "Feilrettingsnivå",
+      "errorResistanceHint": "Høyere nivåer tillater mer skadetoleranse, men øker QR-kodetettheten.",
+      "foregroundColor": "Forgrunn",
+      "levelHigh": "Høy (~30%)",
       "levelLow": "Lav (~7%)",
       "levelMedium": "Middels (~15%)",
       "levelQuartile": "Kvartil (~25%)",
-      "levelHigh": "Høy (~30%)",
-      "selectLevel": "Velg nivå",
-      "errorResistanceHint": "Høyere nivåer tillater mer skadetoleranse, men øker QR-kodetettheten.",
       "preview": "Forhåndsvisning",
-      "emptyPreview": "Skriv inn tekst for å generere QR-kode"
+      "resetColors": "Tilbakestill",
+      "resetColorsTooltip": "Tilbakestill til standardfarger",
+      "selectLevel": "Velg nivå",
+      "text": "Innhold",
+      "yourLinkOrText": "Skriv inn URL eller tekst for å kode..."
     }
   }
 }

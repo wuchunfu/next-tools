@@ -1,20 +1,20 @@
 {
   "tools": {
     "json-prettify": {
-      "cardOptionsTitle": "Options de formatage",
-      "cardOptionsDescription": "Ajustez l'indentation et le tri des clés pour correspondre à votre style JSON préféré.",
-      "sortKeys": "Trier les clés",
-      "sortKeysHelp": "Trier les clés des objets par ordre alphabétique pour une sortie plus stable et plus lisible.",
-      "indentSize": "Taille d'indentation",
-      "indentHint": "Nombre d'espaces utilisés pour l'indentation (0–10).",
-      "cardInputTitle": "Entrée JSON",
       "cardInputDescription": "Collez votre JSON ci-dessous. Nous le validerons (compatible JSON5) et générerons une version formatée.",
-      "pasteYourRawJson": "Collez votre JSON brut ici...",
-      "cardOutputTitle": "JSON formaté",
+      "cardInputTitle": "Entrée JSON",
+      "cardOptionsDescription": "Ajustez l'indentation et le tri des clés pour correspondre à votre style JSON préféré.",
+      "cardOptionsTitle": "Options de formatage",
       "cardOutputDescription": "Consultez et copiez la sortie JSON formatée.",
-      "prettifiedVersion": "Version formatée de votre JSON",
+      "cardOutputTitle": "JSON formaté",
+      "indentHint": "Nombre d'espaces utilisés pour l'indentation (0–10).",
+      "indentSize": "Taille d'indentation",
       "invalidJson": "Le JSON fourni n'est pas valide.",
-      "invalidJsonTitle": "JSON invalide"
+      "invalidJsonTitle": "JSON invalide",
+      "pasteYourRawJson": "Collez votre JSON brut ici...",
+      "prettifiedVersion": "Version formatée de votre JSON",
+      "sortKeys": "Trier les clés",
+      "sortKeysHelp": "Trier les clés des objets par ordre alphabétique pour une sortie plus stable et plus lisible."
     }
   }
 }

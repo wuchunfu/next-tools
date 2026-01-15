@@ -1,23 +1,23 @@
 {
   "tools": {
     "ipv4-range-expander": {
-      "cardInputTitle": "Plage d'adresses IPv4",
+      "addressesInRange": "Adresses dans la plage",
       "cardInputDescription": "Entrez les adresses IPv4 de début et de fin pour calculer la plage CIDR et les informations d'adresses étendues.",
-      "cardResultsTitle": "Résultats d'expansion de plage",
+      "cardInputTitle": "Plage d'adresses IPv4",
       "cardResultsDescription": "Affichez la plage CIDR calculée et les informations d'adresses étendues.",
-      "invalidAddressTitle": "Adresse invalide",
-      "startAddress": "Adresse de début",
-      "startAddressPlaceholder": "Adresse IPv4 de début...",
+      "cardResultsTitle": "Résultats d'expansion de plage",
+      "cidr": "CIDR",
       "endAddress": "Adresse de fin",
       "endAddressPlaceholder": "Adresse IPv4 de fin...",
-      "invalidIpv4": "Adresse IPv4 invalide",
-      "addressesInRange": "Adresses dans la plage",
-      "cidr": "CIDR",
-      "label": "Étiquette",
-      "oldValue": "ancienne valeur",
-      "newValue": "nouvelle valeur",
+      "invalidAddressTitle": "Adresse invalide",
       "invalidCombination": "Combinaison d'adresses invalide",
       "invalidCombinationDescription": "L'adresse IPv4 de fin est inférieure à l'adresse IPv4 de début. Ceci n'est pas valide et aucun résultat n'a pu être calculé.",
+      "invalidIpv4": "Adresse IPv4 invalide",
+      "label": "Étiquette",
+      "newValue": "nouvelle valeur",
+      "oldValue": "ancienne valeur",
+      "startAddress": "Adresse de début",
+      "startAddressPlaceholder": "Adresse IPv4 de début...",
       "switchAddresses": "Échanger les adresses"
     }
   }

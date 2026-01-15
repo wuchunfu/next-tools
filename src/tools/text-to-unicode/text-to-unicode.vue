@@ -79,7 +79,7 @@ function clearUnicodeInput() {
               :placeholder="t('tools.text-to-unicode.textPlaceholder')"
               rows="6"
               class="max-h-96 resize-y overflow-y-auto break-all"
-              data-test-id="text-to-unicode-input"
+              data-testid="text-to-unicode-input"
             />
             <div class="flex flex-wrap gap-2">
               <Button size="sm" variant="ghost" @click="clearTextInput">
@@ -111,7 +111,7 @@ function clearUnicodeInput() {
               :field-props="{ orientation: 'vertical' }"
               class="font-mono"
               readonly
-              data-test-id="text-to-unicode-output"
+              data-testid="text-to-unicode-output"
             />
           </Field>
         </FieldSet>
@@ -152,7 +152,7 @@ function clearUnicodeInput() {
               :placeholder="t('tools.text-to-unicode.unicodeInputPlaceholder')"
               rows="6"
               class="max-h-96 resize-y overflow-y-auto break-all font-mono"
-              data-test-id="unicode-to-text-input"
+              data-testid="unicode-to-text-input"
             />
             <div class="flex flex-wrap gap-2">
               <Button size="sm" variant="ghost" @click="clearUnicodeInput">
@@ -178,7 +178,7 @@ function clearUnicodeInput() {
               :placeholder="t('tools.text-to-unicode.textOutputPlaceholder')"
               :field-props="{ orientation: 'vertical' }"
               readonly
-              data-test-id="unicode-to-text-output"
+              data-testid="unicode-to-text-output"
             />
           </Field>
         </FieldSet>

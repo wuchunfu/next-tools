@@ -1,21 +1,21 @@
 {
   "tools": {
     "bcrypt": {
+      "compareStringWithHash": "Сравнить строку с хешем",
+      "copied": "Хешированная строка скопирована в буфер обмена",
+      "copyHash": "Копировать хеш",
+      "doTheyMatch": "Они совпадают?",
+      "enterBothFields": "Введите оба поля для сравнения",
       "hash": "Хеш",
+      "hashToCompare": "Ваш хеш для сравнения...",
+      "no": "Нет",
       "placeholder": "Ваша строка для bcrypt...",
-      "yourString": "Ваша строка:",
       "saltCount": "Количество соли:",
       "saltRounds": "Раунды соли...",
-      "copyHash": "Копировать хеш",
-      "copied": "Хешированная строка скопирована в буфер обмена",
-      "compareStringWithHash": "Сравнить строку с хешем",
       "stringToCompare": "Ваша строка для сравнения...",
-      "yourHash": "Ваш хеш:",
-      "hashToCompare": "Ваш хеш для сравнения...",
-      "doTheyMatch": "Они совпадают?",
       "yes": "Да",
-      "no": "Нет",
-      "enterBothFields": "Введите оба поля для сравнения"
+      "yourHash": "Ваш хеш:",
+      "yourString": "Ваша строка:"
     }
   }
 }

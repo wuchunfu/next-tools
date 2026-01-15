@@ -1,18 +1,18 @@
 {
   "tools": {
     "toml-to-json": {
-      "cardTitle": "TOML til JSON Konverter",
       "cardDescription": "Konverter TOML-format til JSON-format. Lim inn din TOML og få JSON-utdataene.",
-      "cardInputTitle": "TOML-inndata",
       "cardInputDescription": "Lim inn TOML-en du vil konvertere nedenfor. Vi validerer den og genererer JSON-utdata.",
-      "cardOutputTitle": "JSON-utdata",
+      "cardInputTitle": "TOML-inndata",
       "cardOutputDescription": "Dette er JSON-representasjonen av TOML-en din. Du kan kopiere den til videre bruk.",
+      "cardOutputTitle": "JSON-utdata",
+      "cardTitle": "TOML til JSON Konverter",
+      "clear": "Tøm",
+      "formatJson": "Formater JSON",
       "inputPlaceholder": "Lim inn din TOML her...",
       "invalidToml": "Den oppgitte TOML-en er ikke gyldig.",
       "invalidTomlTitle": "Ugyldig TOML",
-      "outputError": "Ugyldig TOML-format. Vennligst sjekk inndataene dine.",
-      "clear": "Tøm",
-      "formatJson": "Formater JSON"
+      "outputError": "Ugyldig TOML-format. Vennligst sjekk inndataene dine."
     }
   }
 }

@@ -1,23 +1,23 @@
 {
   "tools": {
     "ipv4-range-expander": {
-      "cardInputTitle": "Phạm vi địa chỉ IPv4",
+      "addressesInRange": "Địa chỉ trong phạm vi",
       "cardInputDescription": "Nhập địa chỉ IPv4 bắt đầu và kết thúc để tính toán phạm vi CIDR và thông tin địa chỉ mở rộng.",
-      "cardResultsTitle": "Kết quả mở rộng phạm vi",
+      "cardInputTitle": "Phạm vi địa chỉ IPv4",
       "cardResultsDescription": "Xem phạm vi CIDR đã tính toán và thông tin địa chỉ mở rộng.",
-      "invalidAddressTitle": "Địa chỉ không hợp lệ",
-      "startAddress": "Địa chỉ bắt đầu",
-      "startAddressPlaceholder": "Địa chỉ IPv4 bắt đầu...",
+      "cardResultsTitle": "Kết quả mở rộng phạm vi",
+      "cidr": "CIDR",
       "endAddress": "Địa chỉ kết thúc",
       "endAddressPlaceholder": "Địa chỉ IPv4 kết thúc...",
-      "invalidIpv4": "Địa chỉ IPv4 không hợp lệ",
-      "addressesInRange": "Địa chỉ trong phạm vi",
-      "cidr": "CIDR",
-      "label": "Nhãn",
-      "oldValue": "giá trị cũ",
-      "newValue": "giá trị mới",
+      "invalidAddressTitle": "Địa chỉ không hợp lệ",
       "invalidCombination": "Kết hợp địa chỉ không hợp lệ",
       "invalidCombinationDescription": "Địa chỉ IPv4 kết thúc thấp hơn địa chỉ IPv4 bắt đầu. Điều này không hợp lệ và không thể tính toán kết quả.",
+      "invalidIpv4": "Địa chỉ IPv4 không hợp lệ",
+      "label": "Nhãn",
+      "newValue": "giá trị mới",
+      "oldValue": "giá trị cũ",
+      "startAddress": "Địa chỉ bắt đầu",
+      "startAddressPlaceholder": "Địa chỉ IPv4 bắt đầu...",
       "switchAddresses": "Chuyển đổi địa chỉ"
     }
   }

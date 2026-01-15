@@ -7,17 +7,17 @@ import { Separator } from '@/components/ui/separator'
 import { Slider } from '@/components/ui/slider'
 import { Switch } from '@/components/ui/switch'
 import { Textarea } from '@/components/ui/textarea'
+import { useStorage } from '@vueuse/core'
 import { computedRefreshable } from '@/composable/computedRefreshable'
 import { useCopy } from '@/composable/copy'
-import { useQueryParam } from '@/composable/queryParams'
 import { useToolI18n } from '@/composable/useToolI18n'
 import { createToken } from './token-generator.service'
 
-const length = useQueryParam({ name: 'length', defaultValue: 64 });
-const withUppercase = useQueryParam({ name: 'uppercase', defaultValue: true });
-const withLowercase = useQueryParam({ name: 'lowercase', defaultValue: true });
-const withNumbers = useQueryParam({ name: 'numbers', defaultValue: true });
-const withSymbols = useQueryParam({ name: 'symbols', defaultValue: false });
+const length = useStorage('token-generator:length', 64);
+const withUppercase = useStorage('token-generator:uppercase', true);
+const withLowercase = useStorage('token-generator:lowercase', true);
+const withNumbers = useStorage('token-generator:numbers', true);
+const withSymbols = useStorage('token-generator:symbols', false);
 const { t } = useToolI18n();
 
 // Slider requires array, so we create a computed for it

@@ -1,21 +1,21 @@
 {
   "tools": {
     "ipv4-address-converter": {
+      "binary": "Nhị phân:",
+      "cardInputDescription": "Nhập địa chỉ IPv4 để chuyển đổi sang các định dạng khác nhau (thập phân, thập lục phân, nhị phân, IPv6).",
+      "cardInputTitle": "Địa chỉ IPv4",
+      "cardResultsDescription": "Xem địa chỉ IPv4 trong các hệ thống số khác nhau và định dạng IPv6.",
+      "cardResultsTitle": "Định dạng đã chuyển đổi",
+      "decimal": "Thập phân:",
+      "format": "Định dạng",
+      "hexadecimal": "Thập lục phân:",
       "inputLabel": "Địa chỉ IPv4:",
       "inputPlaceholder": "Địa chỉ IPv4...",
-      "placeholder": "Đặt một địa chỉ IPv4 đúng",
+      "invalidAddressTitle": "Địa chỉ không hợp lệ",
       "invalidIpv4": "Địa chỉ IPv4 không hợp lệ",
-      "decimal": "Thập phân:",
-      "hexadecimal": "Thập lục phân:",
-      "binary": "Nhị phân:",
       "ipv6": "IPv6:",
       "ipv6Short": "IPv6 (ngắn):",
-      "cardInputTitle": "Địa chỉ IPv4",
-      "cardInputDescription": "Nhập địa chỉ IPv4 để chuyển đổi sang các định dạng khác nhau (thập phân, thập lục phân, nhị phân, IPv6).",
-      "cardResultsTitle": "Định dạng đã chuyển đổi",
-      "cardResultsDescription": "Xem địa chỉ IPv4 trong các hệ thống số khác nhau và định dạng IPv6.",
-      "invalidAddressTitle": "Địa chỉ không hợp lệ",
-      "format": "Định dạng",
+      "placeholder": "Đặt một địa chỉ IPv4 đúng",
       "value": "Giá trị"
     }
   }

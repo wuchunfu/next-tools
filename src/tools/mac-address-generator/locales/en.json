@@ -1,21 +1,21 @@
 {
   "tools": {
     "mac-address-generator": {
-      "cardOptionsTitle": "Generation options",
       "cardOptionsDescription": "Configure the options for generating random MAC addresses, including quantity, prefix, case, and separator.",
-      "cardResultsTitle": "Generated MAC addresses",
+      "cardOptionsTitle": "Generation options",
       "cardResultsDescription": "Generated MAC addresses based on your configuration. Click the copy button to copy all addresses to the clipboard.",
-      "invalidPrefixTitle": "Invalid prefix",
-      "quantity": "Quantity",
-      "macAddressPrefix": "MAC address prefix",
-      "prefixPlaceholder": "Set a prefix, e.g. 64:16:7F",
+      "cardResultsTitle": "Generated MAC addresses",
       "case": "Case",
-      "uppercase": "Uppercase",
+      "copied": "MAC addresses copied to the clipboard",
+      "invalidPrefixTitle": "Invalid prefix",
       "lowercase": "Lowercase",
-      "separator": "Separator",
+      "macAddressPrefix": "MAC address prefix",
       "none": "None",
+      "prefixPlaceholder": "Set a prefix, e.g. 64:16:7F",
+      "quantity": "Quantity",
       "refresh": "Refresh",
-      "copied": "MAC addresses copied to the clipboard"
+      "separator": "Separator",
+      "uppercase": "Uppercase"
     }
   }
 }

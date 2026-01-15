@@ -17,10 +17,10 @@ const testId = computed(() => kebabCase(label.value))
     <td font-bold>
       {{ label }}
     </td>
-    <td :data-test-id="`${testId}.old`">
+    <td :data-testid="`${testId}.old`">
       <SpanCopyable :value="oldValue" class="monospace" />
     </td>
-    <td :data-test-id="`${testId}.new`">
+    <td :data-testid="`${testId}.new`">
       <SpanCopyable :value="newValue" />
     </td>
   </tr>

@@ -1,10 +1,10 @@
 {
   "tools": {
     "math-evaluator": {
-      "cardInputTitle": "Matematisk uttrykk",
       "cardInputDescription": "Skriv inn et matematisk uttrykk ved hjelp av standardoperatorer og funksjoner (f.eks. 2 * sqrt(6) + sin(pi / 4)).",
-      "cardResultTitle": "Evalueringsresultat",
+      "cardInputTitle": "Matematisk uttrykk",
       "cardResultDescription": "Det beregnede resultatet av uttrykket ditt.",
+      "cardResultTitle": "Evalueringsresultat",
       "placeholder": "Ditt matematiske uttrykk (f.eks. 2*sqrt(6) )...",
       "result": "Resultat"
     }

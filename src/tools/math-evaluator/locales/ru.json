@@ -1,10 +1,10 @@
 {
   "tools": {
     "math-evaluator": {
-      "cardInputTitle": "Математическое выражение",
       "cardInputDescription": "Введите математическое выражение, используя стандартные операторы и функции (например: 2 * sqrt(6) + sin(pi / 4)).",
-      "cardResultTitle": "Результат вычисления",
+      "cardInputTitle": "Математическое выражение",
       "cardResultDescription": "Вычисленный результат вашего выражения.",
+      "cardResultTitle": "Результат вычисления",
       "placeholder": "Ваше математическое выражение (например: 2*sqrt(6) )...",
       "result": "Результат"
     }

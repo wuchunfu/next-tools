@@ -25,7 +25,7 @@ const { copy: copyNext, isJustCopied: nextCopied } = useCopy()
       <Tooltip>
         <TooltipTrigger as-child>
           <Button
-            data-test-id="previous-otp"
+            data-testid="previous-otp"
             variant="outline"
             class="h-12 font-mono"
             @click.prevent="copyPrevious(tokens.previous)"
@@ -41,7 +41,7 @@ const { copy: copyNext, isJustCopied: nextCopied } = useCopy()
       <Tooltip>
         <TooltipTrigger as-child>
           <Button
-            data-test-id="current-otp"
+            data-testid="current-otp"
             class="h-12 font-mono text-lg shadow-sm"
             @click.prevent="copyCurrent(tokens.current)"
           >
@@ -56,7 +56,7 @@ const { copy: copyNext, isJustCopied: nextCopied } = useCopy()
       <Tooltip>
         <TooltipTrigger as-child>
           <Button
-            data-test-id="next-otp"
+            data-testid="next-otp"
             variant="outline"
             class="h-12 font-mono"
             @click.prevent="copyNext(tokens.next)"

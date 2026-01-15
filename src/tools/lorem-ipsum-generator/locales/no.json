@@ -1,19 +1,19 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "optionsTitle": "Innstillinger",
-      "optionsDescription": "Konfigurer hvordan Lorem Ipsum genereres",
-      "resultsTitle": "Generert tekst",
-      "resultsDescription": "Forhåndsvisning av generert Lorem Ipsum",
-      "paragraphs": "Avsnitt",
-      "sentencesPerParagraph": "Setninger per avsnitt",
-      "wordsPerSentence": "Ord per setning",
-      "startWithLoremIpsum": "Starte med lorem ipsum?",
       "asHtml": "Som HTML?",
-      "placeholder": "Din lorem ipsum...",
+      "copied": "Lorem ipsum kopiert til utklippstavlen",
       "copy": "Kopier",
+      "optionsDescription": "Konfigurer hvordan Lorem Ipsum genereres",
+      "optionsTitle": "Innstillinger",
+      "paragraphs": "Avsnitt",
+      "placeholder": "Din lorem ipsum...",
       "refresh": "Oppdater",
-      "copied": "Lorem ipsum kopiert til utklippstavlen"
+      "resultsDescription": "Forhåndsvisning av generert Lorem Ipsum",
+      "resultsTitle": "Generert tekst",
+      "sentencesPerParagraph": "Setninger per avsnitt",
+      "startWithLoremIpsum": "Starte med lorem ipsum?",
+      "wordsPerSentence": "Ord per setning"
     }
   }
 }

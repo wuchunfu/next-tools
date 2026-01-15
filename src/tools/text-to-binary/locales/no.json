@@ -1,23 +1,23 @@
 {
   "tools": {
     "text-to-binary": {
-      "cardTextToBinaryTitle": "Tekst til Binær",
-      "cardTextToBinaryDescription": "Konverter tekst til dens ASCII-binære representasjon.",
-      "cardBinaryToTextTitle": "Binær til Tekst",
+      "binaryFromText": "Binær utgang",
+      "binaryInputPlaceholder": "f.eks. '01001000 01100101 01101100 01101100 01101111'",
+      "binaryPlaceholder": "Den binære representasjonen av teksten din vil vises her",
+      "bytes": "Bytes",
       "cardBinaryToTextDescription": "Konverter ASCII-binær representasjon tilbake til tekst.",
-      "textPlaceholder": "f.eks. 'Hello world'",
+      "cardBinaryToTextTitle": "Binær til Tekst",
+      "cardTextToBinaryDescription": "Konverter tekst til dens ASCII-binære representasjon.",
+      "cardTextToBinaryTitle": "Tekst til Binær",
+      "clear": "Tøm",
+      "enterBinaryToConvert": "Skriv inn binær å konvertere",
       "enterTextToConvert": "Skriv inn tekst å konvertere",
       "inputLength": "Lengde",
+      "invalidBinary": "Binær skal være en gyldig ASCII-binærstreng med multipler av 8 bits",
       "outputLength": "Lengde",
-      "bytes": "Bytes",
-      "clear": "Tøm",
-      "binaryFromText": "Binær utgang",
-      "binaryPlaceholder": "Den binære representasjonen av teksten din vil vises her",
-      "binaryInputPlaceholder": "f.eks. '01001000 01100101 01101100 01101100 01101111'",
-      "enterBinaryToConvert": "Skriv inn binær å konvertere",
       "textFromBinary": "Tekstutgang",
       "textOutputPlaceholder": "Tekstrepresentasjonen av din binær vil vises her",
-      "invalidBinary": "Binær skal være en gyldig ASCII-binærstreng med multipler av 8 bits"
+      "textPlaceholder": "f.eks. 'Hello world'"
     }
   }
 }

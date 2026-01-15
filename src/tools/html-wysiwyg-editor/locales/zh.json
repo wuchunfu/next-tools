@@ -1,33 +1,33 @@
 {
   "tools": {
     "html-wysiwyg-editor": {
-      "cardTitle": "编辑器",
       "cardDescription": "编写富文本，并与格式化后的 HTML 并排预览。",
-      "initial": "<h1>你好！</h1><p>欢迎使用 HTML 所见即所得编辑器</p>",
-      "formattedTitle": "已格式化的 HTML",
+      "cardTitle": "编辑器",
+      "charactersLabel": "字符数",
+      "clearContent": "清空",
+      "copiedFormatted": "已复制格式化的 HTML",
+      "copyFormatted": "复制格式化结果",
       "formattedDescription": "经 Prettier 格式化的标记，可直接复制。",
       "formattedPlaceholder": "格式化后的 HTML 将显示在这里",
-      "copyFormatted": "复制格式化结果",
-      "copiedFormatted": "已复制格式化的 HTML",
-      "clearContent": "清空",
-      "charactersLabel": "字符数",
+      "formattedTitle": "已格式化的 HTML",
+      "initial": "<h1>你好！</h1><p>欢迎使用 HTML 所见即所得编辑器</p>",
       "toolbar": {
+        "blockquote": "引用",
         "bold": "加粗",
-        "italic": "斜体",
-        "strike": "删除线",
-        "inline": "行内代码",
+        "bullet": "无序列表",
+        "clear": "清除格式",
+        "codeBlock": "代码块",
         "h1": "一级标题",
         "h2": "二级标题",
         "h3": "三级标题",
         "h4": "四级标题",
-        "bullet": "无序列表",
-        "ordered": "有序列表",
-        "codeBlock": "代码块",
-        "blockquote": "引用",
         "hardBreak": "换行",
-        "clear": "清除格式",
-        "undo": "撤销",
-        "redo": "重做"
+        "inline": "行内代码",
+        "italic": "斜体",
+        "ordered": "有序列表",
+        "redo": "重做",
+        "strike": "删除线",
+        "undo": "撤销"
       }
     }
   }

@@ -1,18 +1,18 @@
 {
   "tools": {
     "toml-to-json": {
-      "cardTitle": "Конвертер TOML в JSON",
       "cardDescription": "Преобразуйте формат TOML в формат JSON. Вставьте ваш TOML и получите вывод JSON.",
-      "cardInputTitle": "Ввод TOML",
       "cardInputDescription": "Вставьте ниже TOML, который нужно конвертировать. Мы проверим его и сгенерируем JSON-вывод.",
-      "cardOutputTitle": "JSON-вывод",
+      "cardInputTitle": "Ввод TOML",
       "cardOutputDescription": "Это JSON-представление вашего TOML. Вы можете скопировать его для дальнейшего использования.",
+      "cardOutputTitle": "JSON-вывод",
+      "cardTitle": "Конвертер TOML в JSON",
+      "clear": "Очистить",
+      "formatJson": "Форматировать JSON",
       "inputPlaceholder": "Вставьте ваш TOML здесь...",
       "invalidToml": "Предоставленный TOML недействителен.",
       "invalidTomlTitle": "Недействительный TOML",
-      "outputError": "Неверный формат TOML. Пожалуйста, проверьте ваш ввод.",
-      "clear": "Очистить",
-      "formatJson": "Форматировать JSON"
+      "outputError": "Неверный формат TOML. Пожалуйста, проверьте ваш ввод."
     }
   }
 }

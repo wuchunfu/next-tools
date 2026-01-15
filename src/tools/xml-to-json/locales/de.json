@@ -1,18 +1,18 @@
 {
   "tools": {
     "xml-to-json": {
-      "cardTitle": "XML zu JSON Konverter",
       "cardDescription": "Konvertieren Sie XML-Format in JSON-Format. Fügen Sie Ihr XML ein und erhalten Sie die JSON-Ausgabe.",
-      "cardInputTitle": "XML-Eingabe",
       "cardInputDescription": "Fügen Sie unten das XML ein, das Sie konvertieren möchten. Wir validieren es und erzeugen anschließend die JSON-Ausgabe.",
-      "cardOutputTitle": "JSON-Ausgabe",
+      "cardInputTitle": "XML-Eingabe",
       "cardOutputDescription": "Dies ist die JSON-Darstellung Ihres XML. Sie können sie für die weitere Verwendung kopieren.",
+      "cardOutputTitle": "JSON-Ausgabe",
+      "cardTitle": "XML zu JSON Konverter",
+      "clear": "Löschen",
+      "formatJson": "JSON formatieren",
       "inputPlaceholder": "Fügen Sie hier Ihren XML-Inhalt ein...",
       "invalidXml": "Bereitgestelltes XML ist nicht gültig.",
       "invalidXmlTitle": "Ungültiges XML",
-      "outputError": "Ungültiges XML-Format. Bitte überprüfen Sie Ihre Eingabe.",
-      "clear": "Löschen",
-      "formatJson": "JSON formatieren"
+      "outputError": "Ungültiges XML-Format. Bitte überprüfen Sie Ihre Eingabe."
     }
   }
 }

@@ -1,628 +1,628 @@
 {
   "404": {
-    "title": "404 Not Found - Next Tools",
+    "backHome": "Back home",
     "description": "The page you're looking for doesn't exist. Return to Next Tools homepage to find the developer tools you need.",
+    "maybe": "Maybe the cache is doing tricky things, try force-refreshing?",
     "notFound": "404 Not Found",
     "sorry": "Sorry, this page does not seem to exist",
-    "maybe": "Maybe the cache is doing tricky things, try force-refreshing?",
-    "backHome": "Back home"
-  },
-  "tools": {
-    "ascii-text-drawer": {
-      "title": "ASCII art text generator",
-      "description": "Create ASCII art text with many fonts and styles.",
-      "keywords": "ascii,asciiart,text,drawer"
-    },
-    "base64-file-converter": {
-      "title": "Base64 file converter",
-      "description": "Convert a string, file, or image into its base64 representation.",
-      "keywords": "base64,converter,upload,image,file,conversion,web,data,format"
-    },
-    "base64-string-converter": {
-      "title": "Base64 string encoder/decoder",
-      "description": "Simply encode and decode strings into their base64 representation.",
-      "keywords": "base64,converter,conversion,web,data,format,atob,btoa"
-    },
-    "bcrypt": {
-      "title": "Bcrypt",
-      "description": "Hash and compare text string using bcrypt. Bcrypt is a password-hashing function based on the Blowfish cipher.",
-      "keywords": "bcrypt,hash,compare,password,salt,round,storage,crypto"
-    },
-    "benchmark-builder": {
-      "title": "Benchmark builder",
-      "description": "Easily compare execution time of tasks with this very simple online benchmark builder.",
-      "keywords": "benchmark,builder,execution,duration,mean,variance"
-    },
-    "basic-auth-generator": {
-      "title": "Basic auth generator",
-      "description": "Generate a base64 basic auth header from a username and password.",
-      "keywords": "basic,auth,generator,username,password,base64,authentication,header,authorization"
-    },
-    "base-converter": {
-      "title": "Integer base converter",
-      "description": "Convert a number between different bases (decimal, hexadecimal, binary, octal, base64, ...)",
-      "keywords": "integer,number,base,conversion,decimal,hexadecimal,binary,octal,base64"
-    },
-    "camera-recorder": {
-      "title": "Camera recorder",
-      "description": "Take a picture or record a video from your webcam or camera.",
-      "keywords": "camera,recoder"
-    },
-    "case-converter": {
-      "title": "Case converter",
-      "description": "Transform the case of a string and choose between different formats",
-      "keywords": "case,converter,camelCase,capitalCase,constantCase,dotCase,headerCase,noCase,paramCase,pascalCase,pathCase,sentenceCase,snakeCase"
-    },
-    "bip39-generator": {
-      "title": "BIP39 passphrase generator",
-      "description": "Generate a BIP39 passphrase from an existing or random mnemonic, or get the mnemonic from the passphrase.",
-      "keywords": "BIP39,passphrase,generator,mnemonic,entropy"
-    },
-    "color-converter": {
-      "title": "Color converter",
-      "description": "Convert color between the different formats (hex, rgb, hsl and css name)",
-      "keywords": "color,converter"
-    },
-    "crontab-generator": {
-      "title": "Crontab generator",
-      "description": "Validate and generate crontab and get the human-readable description of the cron schedule.",
-      "keywords": "crontab,generator,cronjob,cron,schedule,parse,expression,year,month,week,day,minute,second"
-    },
-    "date-converter": {
-      "title": "Date-time converter",
-      "description": "Convert date and time into the various different formats",
-      "keywords": "date,time,converter,iso,utc,timezone,year,month,day,minute,seconde"
-    },
-    "chronometer": {
-      "title": "Chronometer",
-      "description": "Monitor the duration of a thing. Basically a chronometer with simple chronometer features.",
-      "keywords": "chronometer,time,lap,duration,measure,pause,resume,stopwatch"
-    },
-    "chmod-calculator": {
-      "title": "Chmod calculator",
-      "description": "Compute your chmod permissions and commands with this online chmod calculator.",
-      "keywords": "chmod,calculator,file,permission,files,directory,folder,recursive,generator,octal"
-    },
-    "device-information": {
-      "title": "Device information",
-      "description": "Get information about your current device (screen size, pixel-ratio, user agent, ...)",
-      "keywords": "device,information,screen,pixel,ratio,status,data,computer,size,user,agent"
-    },
-    "email-normalizer": {
-      "title": "Email normalizer",
-      "description": "Normalize email addresses for comparison, deduplication and data cleaning.",
-      "keywords": "email,normalizer"
-    },
-    "emoji-picker": {
-      "title": "Emoji picker",
-      "description": "Copy and paste emojis easily and get the unicode and code points value of each emoji.",
-      "keywords": "emoji,picker,unicode,copy,paste"
-    },
-    "encryption": {
-      "title": "Encrypt / decrypt text",
-      "description": "Encrypt clear text and decrypt ciphertext using crypto algorithms like AES, TripleDES, Rabbit or RC4.",
-      "keywords": "cypher,encipher,text,AES,TripleDES,Rabbit,RC4"
-    },
-    "eta-calculator": {
-      "title": "ETA calculator",
-      "description": "An ETA (Estimated Time of Arrival) calculator to determine the approximate end time of a task, for example, the end time and duration of a file download.",
-      "keywords": "eta,calculator,estimated,time,arrival,average"
-    },
-    "git-memo": {
-      "title": "Git cheatsheet",
-      "description": "Git is a decentralized version management software. With this cheatsheet, you will have quick access to the most common git commands.",
-      "keywords": "git,push,force,pull,commit,amend,rebase,merge,reset,soft,hard,lease"
-    },
-    "hash-text": {
-      "title": "Hash text",
-      "description": "Hash a text string using the function you need : MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 or RIPEMD160",
-      "keywords": "hash,digest,crypto,security,text,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
-    },
-    "hmac-generator": {
-      "title": "Hmac generator",
-      "description": "Computes a hash-based message authentication code (HMAC) using a secret key and your favorite hashing function.",
-      "keywords": "hmac,generator,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
-    },
-    "html-wysiwyg-editor": {
-      "title": "HTML WYSIWYG editor",
-      "description": "Online, feature-rich WYSIWYG HTML editor which generates the source code of the content immediately.",
-      "keywords": "html,wysiwyg,editor,p,ul,ol,converter,live"
-    },
-    "iban-validator-and-parser": {
-      "title": "IBAN validator and parser",
-      "description": "Validate and parse IBAN numbers. Check if an IBAN is valid and get the country, BBAN, if it is a QR-IBAN and the IBAN friendly format.",
-      "keywords": "iban,validator,and,parser,bic,bank"
-    },
-    "html-entities": {
-      "title": "Escape HTML entities",
-      "description": "Escape or unescape HTML entities (replace characters like <,>, &, \" and \\' with their HTML version)",
-      "keywords": "html,entities,escape,unescape,special,characters,tags"
-    },
-    "http-status-codes": {
-      "title": "HTTP status codes",
-      "description": "The list of all HTTP status codes, their name, and their meaning.",
-      "keywords": "http,status,codes"
-    },
-    "ico-generator": {
-      "title": "ICO Generator",
-      "description": "Generate ICO files from images. Convert PNG, JPEG, or other image formats to ICO files with multiple icon sizes for favicons and Windows applications.",
-      "keywords": "ico,icon,favicon,generator,converter,image,png,jpeg,windows,convert"
-    },
-    "ipv4-range-expander": {
-      "title": "IPv4 range expander",
-      "description": "Given a start and an end IPv4 address, this tool calculates a valid IPv4 subnet along with its CIDR notation.",
-      "keywords": "ipv4,range,expander,subnet,creator,cidr"
-    },
-    "ipv4-address-converter": {
-      "title": "IPv4 address converter",
-      "description": "Convert an IP address into decimal, binary, hexadecimal, or even an IPv6 representation of it.",
-      "keywords": "ipv4,address,converter,decimal,hexadecimal,binary,ipv6"
-    },
-    "json-diff": {
-      "title": "JSON diff",
-      "description": "Compare two JSON objects and get the differences between them.",
-      "keywords": "json,diff,compare,difference,object,data"
-    },
-    "ipv4-subnet-calculator": {
-      "title": "IPv4 subnet calculator",
-      "description": "Parse your IPv4 CIDR blocks and get all the info you need about your subnet.",
-      "keywords": "ipv4,subnet,calculator,mask,network,cidr,netmask,bitmask,broadcast,address"
-    },
-    "json-prettify": {
-      "title": "JSON prettify and format",
-      "description": "Prettify your JSON string into a friendly, human-readable format.",
-      "keywords": "json,viewer,prettify,format"
-    },
-    "json-to-toml": {
-      "title": "JSON to TOML",
-      "description": "Parse and convert JSON to TOML.",
-      "keywords": "json,parse,toml,convert,transform"
-    },
-    "ipv6-ula-generator": {
-      "title": "IPv6 ULA generator",
-      "description": "Generate your own local, non-routable IP addresses for your network according to RFC4193.",
-      "keywords": "ipv6,ula,generator,rfc4193,network,private"
-    },
-    "json-to-xml": {
-      "title": "JSON to XML",
-      "description": "Convert JSON to XML",
-      "keywords": "json,xml"
-    },
-    "json-to-csv": {
-      "title": "JSON to CSV",
-      "description": "Convert JSON to CSV with automatic header detection.",
-      "keywords": "json,to,csv,convert"
-    },
-    "json-minify": {
-      "title": "JSON minify",
-      "description": "Minify and compress your JSON by removing unnecessary whitespace.",
-      "keywords": "json,minify,format"
-    },
-    "json-to-yaml-converter": {
-      "title": "JSON to YAML",
-      "description": "Simply convert JSON to YAML with this online live converter.",
-      "keywords": "yaml,to,json"
-    },
-    "jwt-parser": {
-      "title": "JWT parser",
-      "description": "Parse and decode your JSON Web Token (jwt) and display its content.",
-      "keywords": "jwt,parser,decode,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,token"
-    },
-    "keycode-info": {
-      "title": "Keycode info",
-      "description": "Find the javascript keycode, code, location and modifiers of any pressed key.",
-      "keywords": "keycode,info,code,javascript,event,keycodes,which,keyboard,press,modifier,alt,ctrl,meta,shift"
-    },
-    "list-converter": {
-      "title": "List converter",
-      "description": "This tool can process column-based data and apply various changes (transpose, add prefix and suffix, reverse list, sort list, lowercase values, truncate values) to each row.",
-      "keywords": "list,converter,sort,reverse,prefix,suffix,lowercase,truncate"
-    },
-    "mac-address-lookup": {
-      "title": "MAC address lookup",
-      "description": "Find the vendor and manufacturer of a device by its MAC address.",
-      "keywords": "mac,address,lookup,vendor,parser,manufacturer"
-    },
-    "lorem-ipsum-generator": {
-      "title": "Lorem ipsum generator",
-      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
-      "keywords": "lorem,ipsum,dolor,sit,amet,placeholder,text,filler,random,generator"
-    },
-    "math-evaluator": {
-      "title": "Math evaluator",
-      "description": "A calculator for evaluating mathematical expressions. You can use functions like sqrt, cos, sin, abs, etc.",
-      "keywords": "math,evaluator,calculator,expression,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh"
-    },
-    "markdown-to-html": {
-      "title": "Markdown to HTML",
-      "description": "Convert Markdown to HTML and print as PDF",
-      "keywords": "markdown,html,converter,pdf"
-    },
-    "otp-generator": {
-      "title": "OTP code generator",
-      "description": "Generate and validate time-based OTP (one time password) for multi-factor authentication.",
-      "keywords": "otp,code,generator,validator,one,time,password,authentication,MFA,mobile,device,security,TOTP,Time,HMAC"
-    },
-    "password-strength-analyser": {
-      "title": "Password strength analyser",
-      "description": "Discover the strength of your password with this client-side-only password strength analyser and crack time estimation tool.",
-      "keywords": "password,strength,analyser,and,crack,time,estimation,brute,force,attack,entropy,cracking,hash,hashing,algorithm,algorithms,md5,sha1,sha256,sha512,bcrypt,scrypt,argon2,argon2id,argon2i,argon2d"
-    },
-    "mac-address-generator": {
-      "title": "MAC address generator",
-      "description": "Enter the quantity and prefix. MAC addresses will be generated in your chosen case (uppercase or lowercase)",
-      "keywords": "mac,address,generator,random,prefix"
-    },
-    "numeronym-generator": {
-      "title": "Numeronym generator",
-      "description": "A numeronym is a word where a number is used to form an abbreviation. For example, \"i18n\" is a numeronym of \"internationalization\" where 18 stands for the number of letters between the first i and the last n in the word.",
-      "keywords": "numeronym,generator,abbreviation,i18n,a11y,l10n"
-    },
-    "mime-types": {
-      "title": "MIME types",
-      "description": "Convert MIME types to file extensions and vice-versa.",
-      "keywords": "mime,types,extension,content,type"
-    },
-    "phone-parser-and-formatter": {
-      "title": "Phone parser and formatter",
-      "description": "Parse, validate and format phone numbers. Get information about the phone number, like the country code, type, etc.",
-      "keywords": "phone,parser,formatter,validate,format,number,telephone,mobile,cell,international,national"
-    },
-    "pdf-signature-checker": {
-      "title": "PDF signature checker",
-      "description": "Verify the signatures of a PDF file. A signed PDF file contains one or more signatures that may be used to determine whether the contents of the file have been altered since the file was signed.",
-      "keywords": "pdf,signature,checker,verify,validate,sign"
-    },
-    "qrcode-generator": {
-      "title": "QR Code generator",
-      "description": "Generate and download a QR code for a URL (or just plain text), and customize the background and foreground colors.",
-      "keywords": "qr,code,generator,square,color,link,low,medium,quartile,high,transparent"
-    },
-    "percentage-calculator": {
-      "title": "Percentage calculator",
-      "description": "Easily calculate percentages from a value to another value, or from a percentage to a value.",
-      "keywords": "percentage,calculator,calculate,value,number,%"
-    },
-    "random-port-generator": {
-      "title": "Random port generator",
-      "description": "Generate random port numbers outside of the range of \"known\" ports (0-1023).",
-      "keywords": "system,port,lan,generator,random,development,computer"
-    },
-    "og-meta-generator": {
-      "title": "Open graph meta generator",
-      "description": "Generate open-graph and socials HTML meta tags for your website.",
-      "keywords": "meta,tag,generator,social,title,description,image,share,online,website,open,graph,og"
-    },
-    "regex-memo": {
-      "title": "Regex cheatsheet",
-      "description": "Javascript Regex/Regular Expression cheatsheet",
-      "keywords": "regex,regular,expression,javascript,memo,cheatsheet"
-    },
-    "rsa-key-pair-generator": {
-      "title": "RSA key pair generator",
-      "description": "Generate a new random RSA private and public pem certificate key pair.",
-      "keywords": "rsa,key,pair,generator,public,private,secret,ssh,pem"
-    },
-    "safelink-decoder": {
-      "title": "Outlook Safelink decoder",
-      "description": "Decode Outlook SafeLink links",
-      "keywords": "outlook,safelink,decoder"
-    },
-    "roman-numeral-converter": {
-      "title": "Roman numeral converter",
-      "description": "Convert Roman numerals to numbers and convert numbers to Roman numerals.",
-      "keywords": "roman,arabic,converter,X,I,V,L,C,D,M"
-    },
-    "slugify-string": {
-      "title": "Slugify string",
-      "description": "Make a string url, filename and id safe.",
-      "keywords": "slugify,string,escape,emoji,special,character,space,trim"
-    },
-    "sql-prettify": {
-      "title": "SQL prettify and format",
-      "description": "Format and prettify your SQL queries online (it supports various SQL dialects).",
-      "keywords": "sql,prettify,beautify,GCP BigQuery,IBM DB2,Apache Hive,MariaDB,MySQL,Couchbase N1QL,Oracle PL/SQL,PostgreSQL,Amazon Redshift,Spark,SQL Server Transact-SQL"
-    },
-    "string-obfuscator": {
-      "title": "String obfuscator",
-      "description": "Obfuscate a string (like a secret, an IBAN, or a token) to make it shareable and identifiable without revealing its content.",
-      "keywords": "string,obfuscator,secret,token,hide,obscure,mask,masking"
-    },
-    "svg-placeholder-generator": {
-      "title": "SVG placeholder generator",
-      "description": "Generate svg images to use as a placeholder in your applications.",
-      "keywords": "svg,placeholder,generator,image,size,mockup"
-    },
-    "temperature-converter": {
-      "title": "Temperature converter",
-      "description": "Degrees temperature conversions for Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, and Rømer.",
-      "keywords": "temperature,converter,degree,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer"
-    },
-    "text-to-binary": {
-      "title": "Text to ASCII binary",
-      "description": "Convert text to its ASCII binary representation and vice-versa.",
-      "keywords": "text,to,binary,converter,encode,decode,ascii"
-    },
-    "text-statistics": {
-      "title": "Text statistics",
-      "description": "Get information about a text, the number of characters, the number of words, its size in bytes, ...",
-      "keywords": "text,statistics,length,characters,count,size,bytes"
-    },
-    "text-diff": {
-      "title": "Text diff",
-      "description": "Compare two texts and see the differences between them.",
-      "keywords": "text,diff,compare,string,text diff,code"
-    },
-    "token-generator": {
-      "title": "Token generator",
-      "description": "Generate random string with the chars you want, uppercase or lowercase letters, numbers and/or symbols.",
-      "keywords": "token,random,string,alphanumeric,symbols,number,letters,lowercase,uppercase,password"
-    },
-    "text-to-nato-alphabet": {
-      "title": "Text to NATO alphabet",
-      "description": "Transform text into the NATO phonetic alphabet for oral transmission.",
-      "keywords": "string,nato,alphabet,phonetic,oral,transmission"
-    },
-    "toml-to-json": {
-      "title": "TOML to JSON",
-      "description": "Parse and convert TOML to JSON.",
-      "keywords": "toml,json,convert,online,transform,parser"
-    },
-    "text-to-unicode": {
-      "title": "Text to Unicode",
-      "description": "Parse and convert text to unicode and vice-versa",
-      "keywords": "text,to,unicode"
-    },
-    "toml-to-yaml": {
-      "title": "TOML to YAML",
-      "description": "Parse and convert TOML to YAML.",
-      "keywords": "toml,yaml,convert,online,transform,parse"
-    },
-    "ulid-generator": {
-      "title": "ULID generator",
-      "description": "Generate random Universally Unique Lexicographically Sortable Identifier (ULID).",
-      "keywords": "ulid,generator,random,id,alphanumeric,identity,token,string,identifier,unique"
-    },
-    "url-encoder": {
-      "title": "Encode/decode URL-formatted strings",
-      "description": "Encode text to URL-encoded format (also known as \"percent-encoded\"), or decode from it.",
-      "keywords": "url,encode,decode,percent,%20,format"
-    },
-    "url-parser": {
-      "title": "URL parser",
-      "description": "Parse a URL into its separate constituent parts (protocol, origin, params, port, username-password, ...)",
-      "keywords": "url,parser,protocol,origin,params,port,username,password,href"
-    },
-    "user-agent-parser": {
-      "title": "User-agent parser",
-      "description": "Detect and parse Browser, Engine, OS, CPU, and Device type/model from an user-agent string.",
-      "keywords": "user,agent,parser,browser,engine,os,cpu,device,user-agent,client"
-    },
-    "uuid-generator": {
-      "title": "UUIDs generator",
-      "description": "A Universally Unique Identifier (UUID) is a 128-bit number used to identify information in computer systems. The number of possible UUIDs is 16^32, which is 2^128 or about 3.4x10^38 (which is a lot!).",
-      "keywords": "uuid,v4,random,id,alphanumeric,identity,token,string,identifier,unique,v1,v3,v5,nil"
-    },
-    "wifi-qrcode-generator": {
-      "title": "WiFi QR Code generator",
-      "description": "Generate and download QR codes for quick connections to WiFi networks.",
-      "keywords": "qr,code,generator,square,color,link,low,medium,quartile,high,transparent,wifi"
-    },
-    "xml-to-json": {
-      "title": "XML to JSON",
-      "description": "Convert XML to JSON",
-      "keywords": "xml,json"
-    },
-    "xml-formatter": {
-      "title": "XML formatter",
-      "description": "Prettify your XML string into a friendly, human-readable format.",
-      "keywords": "xml,prettify,format"
-    },
-    "yaml-prettify": {
-      "title": "YAML prettify and format",
-      "description": "Prettify your YAML string into a friendly, human-readable format.",
-      "keywords": "yaml,viewer,prettify,format"
-    },
-    "yaml-to-toml": {
-      "title": "YAML to TOML",
-      "description": "Parse and convert YAML to TOML.",
-      "keywords": "yaml,to,toml,convert,transform"
-    },
-    "regex-tester": {
-      "title": "Regex tester",
-      "description": "Test your regular expressions with sample text.",
-      "keywords": "regex,tester,sample,expression"
-    },
-    "docker-run-to-docker-compose-converter": {
-      "title": "Docker run to Docker compose converter",
-      "description": "Transforms \"docker run\" commands into docker-compose files!",
-      "keywords": "docker,run,compose,yaml,yml,convert,deamon"
-    },
-    "yaml-to-json-converter": {
-      "title": "YAML to JSON",
-      "description": "Simply convert YAML to JSON with this online live converter.",
-      "keywords": "yaml,to,json"
-    }
-  },
-  "home": {
-    "title": "Next-Tools - Handy online tools for developers",
-    "description": "Next-Tools is a collection of useful online tools for developers, with great UX.",
-    "categories": {
-      "newestTools": "Newest tools",
-      "favoriteTools": "Your favorite tools",
-      "allTools": "All the tools",
-      "favoritesDndToolTip": "Drag and drop to reorder favorites"
-    },
-    "subtitle": "Handy tools for developers",
-    "toggleMenu": "Toggle menu",
-    "home": "Home",
-    "uiLib": "UI Lib",
-    "support": "Support Next-Tools development",
-    "buyMeACoffee": "Buy me a coffee",
-    "follow": {
-      "title": "You like Next-Tools?",
-      "p1": "Give us a star on",
-      "githubRepository": "Next-Tools GitHub repository",
-      "p2": "or follow us on",
-      "twitterXAccount": "Next-Tools X account",
-      "thankYou": "Thank you!"
-    },
-    "nav": {
-      "github": "GitHub repository",
-      "githubRepository": "Next-Tools GitHub repository",
-      "twitterX": "X account",
-      "twitterXAccount": "Next-Tools X account",
-      "about": "About  Next-Tools",
-      "aboutLabel": "About",
-      "darkMode": "Dark mode",
-      "lightMode": "Light mode",
-      "mode": "Toggle dark/light mode"
-    }
-  },
-  "consent": {
-    "gdpr": {
-      "title": "Cookie Preferences",
-      "description": "We use cookies and similar technologies to enhance your experience. Under GDPR, we need your consent to use analytics cookies.",
-      "acceptAll": "Accept All",
-      "rejectAll": "Reject All",
-      "customize": "Customize",
-      "saveSettings": "Save Settings"
-    },
-    "ccpa": {
-      "title": "Privacy Preferences",
-      "description": "We respect your privacy rights under CCPA. You can control how we use your data for analytics and marketing.",
-      "acceptAll": "Accept All",
-      "rejectAll": "Reject All",
-      "customize": "Customize",
-      "saveSettings": "Save Settings"
-    },
-    "default": {
-      "title": "Privacy Preferences",
-      "description": "Help us improve our service by allowing analytics cookies. You can change these settings anytime.",
-      "acceptAll": "Accept All",
-      "rejectAll": "Reject All",
-      "customize": "Customize",
-      "saveSettings": "Save Settings"
-    },
-    "analytics": {
-      "title": "Analytics",
-      "description": "Help us understand how you use our tools to improve your experience."
-    },
-    "essential": {
-      "title": "Essential",
-      "description": "Required for the website to function properly. Cannot be disabled."
-    },
-    "customize": {
-      "analytics": "Analytics Cookies",
-      "analyticsDescription": "Allow analytics to help us improve our service",
-      "marketing": "Marketing Cookies",
-      "marketingDescription": "Allow personalized ads and marketing communications",
-      "preferences": "Preference Cookies",
-      "preferencesDescription": "Remember your settings and preferences",
-      "essential": "Essential Cookies",
-      "essentialDescription": "Required for basic website functionality"
-    },
-    "back": "Back"
+    "title": "404 Not Found - Next Tools"
   },
   "about": {
-    "title": "About - Next Tools",
-    "description": "Learn about Next Tools - a collection of practical online tools for developers. Discover our mission, technologies, and how to contribute to this open-source project.",
-    "content": "# About Next-Tools\nNext-Tools is a collection of practical online tools designed for developers and IT professionals. This project is a fork and enhancement of the original [it-tools](https://github.com/CorentinTh/it-tools) project, rebuilt and maintained by [Will Jay](https://github.com/willjayyyy).\n\nOur mission is to provide developers with efficient, reliable tools that streamline daily workflows. Whether you're working on data conversion, text processing, or network analysis, Next-Tools offers a clean, intuitive interface to get the job done quickly.\n\n## What Makes Next-Tools Special\n- **Open Source**: Licensed under GPL-3.0, free and transparent\n- **Developer Focused**: Built by developers, for developers\n- **Privacy First**: All tools run locally in your browser\n- **Regular Updates**: Continuous improvements and new tool additions\n\n## Technologies\nNext-Tools is built with modern web technologies:\n- **Vue.js 3** - Progressive JavaScript framework\n- **Naive UI** - Vue 3 component library\n- **Vite** - Fast build tool and development server\n- **TypeScript** - Type-safe development\n\nWe also leverage various open-source libraries for specific functionality. You can find the complete list in our [package.json](https://github.com/willjayyyy/next-tools/blob/main/package.json).\n\n## Community & Contributions\nWe believe in the power of open-source collaboration. If you have ideas for new tools or improvements, we'd love to hear from you! Feel free to:\n- ⭐ Star the repository if you find it useful\n- 🐛 Report bugs or issues\n- 💡 Suggest new tools or features\n- 🤝 Contribute code improvements\n\n## Found a bug? Need a new tool?\nWe actively maintain this project and welcome your feedback. Please visit our [GitHub repository](https://github.com/willjayyyy/next-tools) to:\n- Submit feature requests via [Issues](https://github.com/willjayyyy/next-tools/issues/new/choose)\n- Report bugs that need fixing\n- Check out the source code and contribute\n\nThank you for using Next-Tools! Your support helps us continue building better developer tools. 🚀\n",
     "badges": {
-      "openSource": "Open Source",
       "developerFriendly": "Developer Friendly",
-      "freeForever": "Free Forever"
+      "freeForever": "Free Forever",
+      "openSource": "Open Source"
+    },
+    "content": "# About Next-Tools\nNext-Tools is a collection of practical online tools designed for developers and IT professionals. This project is a fork and enhancement of the original [it-tools](https://github.com/CorentinTh/it-tools) project, rebuilt and maintained by [Will Jay](https://github.com/willjayyyy).\n\nOur mission is to provide developers with efficient, reliable tools that streamline daily workflows. Whether you're working on data conversion, text processing, or network analysis, Next-Tools offers a clean, intuitive interface to get the job done quickly.\n\n## What Makes Next-Tools Special\n- **Open Source**: Licensed under GPL-3.0, free and transparent\n- **Developer Focused**: Built by developers, for developers\n- **Privacy First**: All tools run locally in your browser\n- **Regular Updates**: Continuous improvements and new tool additions\n\n## Technologies\nNext-Tools is built with modern web technologies:\n- **Vue.js 3** - Progressive JavaScript framework\n- **Naive UI** - Vue 3 component library\n- **Vite** - Fast build tool and development server\n- **TypeScript** - Type-safe development\n\nWe also leverage various open-source libraries for specific functionality. You can find the complete list in our [package.json](https://github.com/willjayyyy/next-tools/blob/main/package.json).\n\n## Community & Contributions\nWe believe in the power of open-source collaboration. If you have ideas for new tools or improvements, we'd love to hear from you! Feel free to:\n- ⭐ Star the repository if you find it useful\n- 🐛 Report bugs or issues\n- 💡 Suggest new tools or features\n- 🤝 Contribute code improvements\n\n## Found a bug? Need a new tool?\nWe actively maintain this project and welcome your feedback. Please visit our [GitHub repository](https://github.com/willjayyyy/next-tools) to:\n- Submit feature requests via [Issues](https://github.com/willjayyyy/next-tools/issues/new/choose)\n- Report bugs that need fixing\n- Check out the source code and contribute\n\nThank you for using Next-Tools! Your support helps us continue building better developer tools. 🚀\n",
+    "description": "Learn about Next Tools - a collection of practical online tools for developers. Discover our mission, technologies, and how to contribute to this open-source project.",
+    "links": {
+      "allTools": {
+        "description": "Browse all available tools",
+        "title": "All Tools"
+      },
+      "featureRequests": {
+        "description": "Suggest new tools",
+        "title": "Feature Requests"
+      }
     },
     "sections": {
       "aboutProject": "About This Project",
-      "supportProject": "Support the Project",
-      "quickLinks": "Quick Links"
+      "quickLinks": "Quick Links",
+      "supportProject": "Support the Project"
     },
     "support": {
       "description": "Next Tools is completely free and open source. If you find it helpful, consider supporting the development!",
       "github": "GitHub"
     },
-    "links": {
-      "allTools": {
-        "title": "All Tools",
-        "description": "Browse all available tools"
-      },
-      "featureRequests": {
-        "title": "Feature Requests",
-        "description": "Suggest new tools"
-      }
-    }
-  },
-  "favoriteButton": {
-    "remove": "Remove from favorites",
-    "add": "Add to favorites"
+    "title": "About - Next Tools"
   },
   "boolean": {
-    "true": "Yes",
-    "false": "No"
-  },
-  "common": {
-    "copied": "Copied!",
-    "copyToClipboard": "Copy",
-    "clear": "Clear",
-    "noResults": "No results found",
-    "unknown": "Unknown"
-  },
-  "toolCard": {
-    "new": "New"
-  },
-  "search": {
-    "label": "Search",
-    "placeholder": "Search...",
-    "noResults": "No results found"
+    "false": "No",
+    "true": "Yes"
   },
   "categories": {
-    "favorite-tools": "Your favorite tools",
-    "crypto": "Crypto",
     "converter": "Converter",
-    "web": "Web",
-    "images and videos": "Images & Videos",
+    "crypto": "Crypto",
+    "data": "Data",
     "development": "Development",
-    "network": "Network",
+    "favorite-tools": "Your favorite tools",
+    "images and videos": "Images & Videos",
     "math": "Math",
     "measurement": "Measurement",
+    "network": "Network",
     "text": "Text",
-    "data": "Data"
+    "web": "Web"
   },
   "commandPalette": {
+    "actions": {
+      "reportBug": "Report a bug or an issue",
+      "reportBugDescription": "Report a bug or an issue to help improve next-tools.",
+      "toggleDarkMode": "Toggle dark mode",
+      "toggleDarkModeDescription": "Toggle dark mode on or off."
+    },
     "categories": {
-      "recentTools": "Recent Tools",
-      "tools": "Tools",
       "actions": "Actions",
       "external": "External",
-      "pages": "Pages"
-    },
-    "actions": {
-      "toggleDarkMode": "Toggle dark mode",
-      "toggleDarkModeDescription": "Toggle dark mode on or off.",
-      "reportBug": "Report a bug or an issue",
-      "reportBugDescription": "Report a bug or an issue to help improve next-tools."
+      "pages": "Pages",
+      "recentTools": "Recent Tools",
+      "tools": "Tools"
     },
     "external": {
       "githubRepository": "Github repository",
       "githubRepositoryDescription": "View the source code of next-tools on Github."
     },
+    "keywords": {
+      "about": "about,learn,more,info,information",
+      "githubRepository": "github,repo,repository,source,code",
+      "reportBug": "report,issue,bug,problem,error",
+      "toggleDarkMode": "dark,theme,toggle,mode,light,system"
+    },
     "pages": {
       "about": "About",
       "aboutDescription": "Learn more about Next-Tools."
-    },
-    "keywords": {
-      "toggleDarkMode": "dark,theme,toggle,mode,light,system",
-      "githubRepository": "github,repo,repository,source,code",
-      "reportBug": "report,issue,bug,problem,error",
-      "about": "about,learn,more,info,information"
     }
   },
+  "common": {
+    "clear": "Clear",
+    "copied": "Copied!",
+    "copyToClipboard": "Copy",
+    "noResults": "No results found",
+    "unknown": "Unknown"
+  },
+  "consent": {
+    "analytics": {
+      "description": "Help us understand how you use our tools to improve your experience.",
+      "title": "Analytics"
+    },
+    "back": "Back",
+    "ccpa": {
+      "acceptAll": "Accept All",
+      "customize": "Customize",
+      "description": "We respect your privacy rights under CCPA. You can control how we use your data for analytics and marketing.",
+      "rejectAll": "Reject All",
+      "saveSettings": "Save Settings",
+      "title": "Privacy Preferences"
+    },
+    "customize": {
+      "analytics": "Analytics Cookies",
+      "analyticsDescription": "Allow analytics to help us improve our service",
+      "essential": "Essential Cookies",
+      "essentialDescription": "Required for basic website functionality",
+      "marketing": "Marketing Cookies",
+      "marketingDescription": "Allow personalized ads and marketing communications",
+      "preferences": "Preference Cookies",
+      "preferencesDescription": "Remember your settings and preferences"
+    },
+    "default": {
+      "acceptAll": "Accept All",
+      "customize": "Customize",
+      "description": "Help us improve our service by allowing analytics cookies. You can change these settings anytime.",
+      "rejectAll": "Reject All",
+      "saveSettings": "Save Settings",
+      "title": "Privacy Preferences"
+    },
+    "essential": {
+      "description": "Required for the website to function properly. Cannot be disabled.",
+      "title": "Essential"
+    },
+    "gdpr": {
+      "acceptAll": "Accept All",
+      "customize": "Customize",
+      "description": "We use cookies and similar technologies to enhance your experience. Under GDPR, we need your consent to use analytics cookies.",
+      "rejectAll": "Reject All",
+      "saveSettings": "Save Settings",
+      "title": "Cookie Preferences"
+    }
+  },
+  "favoriteButton": {
+    "add": "Add to favorites",
+    "remove": "Remove from favorites"
+  },
+  "home": {
+    "buyMeACoffee": "Buy me a coffee",
+    "categories": {
+      "allTools": "All the tools",
+      "favoriteTools": "Your favorite tools",
+      "favoritesDndToolTip": "Drag and drop to reorder favorites",
+      "newestTools": "Newest tools"
+    },
+    "description": "Next-Tools is a collection of useful online tools for developers, with great UX.",
+    "follow": {
+      "githubRepository": "Next-Tools GitHub repository",
+      "p1": "Give us a star on",
+      "p2": "or follow us on",
+      "thankYou": "Thank you!",
+      "title": "You like Next-Tools?",
+      "twitterXAccount": "Next-Tools X account"
+    },
+    "home": "Home",
+    "nav": {
+      "about": "About  Next-Tools",
+      "aboutLabel": "About",
+      "darkMode": "Dark mode",
+      "github": "GitHub repository",
+      "githubRepository": "Next-Tools GitHub repository",
+      "lightMode": "Light mode",
+      "mode": "Toggle dark/light mode",
+      "twitterX": "X account",
+      "twitterXAccount": "Next-Tools X account"
+    },
+    "subtitle": "Handy tools for developers",
+    "support": "Support Next-Tools development",
+    "title": "Next-Tools - Handy online tools for developers",
+    "toggleMenu": "Toggle menu",
+    "uiLib": "UI Lib"
+  },
   "pwa": {
+    "offlineReady": "App is ready for offline use",
     "updateAvailable": "New version available",
     "updateDescription": "A new version is ready. Click update to get the latest features.",
-    "updateNow": "Update now",
     "updateLater": "Later",
-    "offlineReady": "App is ready for offline use"
+    "updateNow": "Update now"
+  },
+  "search": {
+    "label": "Search",
+    "noResults": "No results found",
+    "placeholder": "Search..."
+  },
+  "toolCard": {
+    "new": "New"
+  },
+  "tools": {
+    "ascii-text-drawer": {
+      "description": "Create ASCII art text with many fonts and styles.",
+      "keywords": "ascii,asciiart,text,drawer",
+      "title": "ASCII art text generator"
+    },
+    "base-converter": {
+      "description": "Convert a number between different bases (decimal, hexadecimal, binary, octal, base64, ...)",
+      "keywords": "integer,number,base,conversion,decimal,hexadecimal,binary,octal,base64",
+      "title": "Integer base converter"
+    },
+    "base64-file-converter": {
+      "description": "Convert a string, file, or image into its base64 representation.",
+      "keywords": "base64,converter,upload,image,file,conversion,web,data,format",
+      "title": "Base64 file converter"
+    },
+    "base64-string-converter": {
+      "description": "Simply encode and decode strings into their base64 representation.",
+      "keywords": "base64,converter,conversion,web,data,format,atob,btoa",
+      "title": "Base64 string encoder/decoder"
+    },
+    "basic-auth-generator": {
+      "description": "Generate a base64 basic auth header from a username and password.",
+      "keywords": "basic,auth,generator,username,password,base64,authentication,header,authorization",
+      "title": "Basic auth generator"
+    },
+    "bcrypt": {
+      "description": "Hash and compare text string using bcrypt. Bcrypt is a password-hashing function based on the Blowfish cipher.",
+      "keywords": "bcrypt,hash,compare,password,salt,round,storage,crypto",
+      "title": "Bcrypt"
+    },
+    "benchmark-builder": {
+      "description": "Easily compare execution time of tasks with this very simple online benchmark builder.",
+      "keywords": "benchmark,builder,execution,duration,mean,variance",
+      "title": "Benchmark builder"
+    },
+    "bip39-generator": {
+      "description": "Generate a BIP39 passphrase from an existing or random mnemonic, or get the mnemonic from the passphrase.",
+      "keywords": "BIP39,passphrase,generator,mnemonic,entropy",
+      "title": "BIP39 passphrase generator"
+    },
+    "camera-recorder": {
+      "description": "Take a picture or record a video from your webcam or camera.",
+      "keywords": "camera,recoder",
+      "title": "Camera recorder"
+    },
+    "case-converter": {
+      "description": "Transform the case of a string and choose between different formats",
+      "keywords": "case,converter,camelCase,capitalCase,constantCase,dotCase,headerCase,noCase,paramCase,pascalCase,pathCase,sentenceCase,snakeCase",
+      "title": "Case converter"
+    },
+    "chmod-calculator": {
+      "description": "Compute your chmod permissions and commands with this online chmod calculator.",
+      "keywords": "chmod,calculator,file,permission,files,directory,folder,recursive,generator,octal",
+      "title": "Chmod calculator"
+    },
+    "chronometer": {
+      "description": "Monitor the duration of a thing. Basically a chronometer with simple chronometer features.",
+      "keywords": "chronometer,time,lap,duration,measure,pause,resume,stopwatch",
+      "title": "Chronometer"
+    },
+    "color-converter": {
+      "description": "Convert color between the different formats (hex, rgb, hsl and css name)",
+      "keywords": "color,converter",
+      "title": "Color converter"
+    },
+    "cron-generator": {
+      "description": "Validate and generate cron expressions and get the human-readable description of the cron schedule.",
+      "keywords": "cron,generator,cronjob,schedule,parse,expression,year,month,week,day,minute,second",
+      "title": "Cron Expression Generator"
+    },
+    "date-converter": {
+      "description": "Convert date and time into the various different formats",
+      "keywords": "date,time,converter,iso,utc,timezone,year,month,day,minute,seconde",
+      "title": "Date-time converter"
+    },
+    "device-information": {
+      "description": "Get information about your current device (screen size, pixel-ratio, user agent, ...)",
+      "keywords": "device,information,screen,pixel,ratio,status,data,computer,size,user,agent",
+      "title": "Device information"
+    },
+    "docker-run-to-docker-compose-converter": {
+      "description": "Transforms \"docker run\" commands into docker-compose files!",
+      "keywords": "docker,run,compose,yaml,yml,convert,deamon",
+      "title": "Docker run to Docker compose converter"
+    },
+    "email-normalizer": {
+      "description": "Normalize email addresses for comparison, deduplication and data cleaning.",
+      "keywords": "email,normalizer",
+      "title": "Email normalizer"
+    },
+    "emoji-picker": {
+      "description": "Copy and paste emojis easily and get the unicode and code points value of each emoji.",
+      "keywords": "emoji,picker,unicode,copy,paste",
+      "title": "Emoji picker"
+    },
+    "encryption": {
+      "description": "Encrypt clear text and decrypt ciphertext using crypto algorithms like AES, TripleDES, Rabbit or RC4.",
+      "keywords": "cypher,encipher,text,AES,TripleDES,Rabbit,RC4",
+      "title": "Encrypt / decrypt text"
+    },
+    "eta-calculator": {
+      "description": "An ETA (Estimated Time of Arrival) calculator to determine the approximate end time of a task, for example, the end time and duration of a file download.",
+      "keywords": "eta,calculator,estimated,time,arrival,average",
+      "title": "ETA calculator"
+    },
+    "git-memo": {
+      "description": "Git is a decentralized version management software. With this cheatsheet, you will have quick access to the most common git commands.",
+      "keywords": "git,push,force,pull,commit,amend,rebase,merge,reset,soft,hard,lease",
+      "title": "Git cheatsheet"
+    },
+    "hash-text": {
+      "description": "Hash a text string using the function you need : MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 or RIPEMD160",
+      "keywords": "hash,digest,crypto,security,text,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160",
+      "title": "Hash text"
+    },
+    "hmac-generator": {
+      "description": "Computes a hash-based message authentication code (HMAC) using a secret key and your favorite hashing function.",
+      "keywords": "hmac,generator,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160",
+      "title": "Hmac generator"
+    },
+    "html-entities": {
+      "description": "Escape or unescape HTML entities (replace characters like <,>, &, \" and \\' with their HTML version)",
+      "keywords": "html,entities,escape,unescape,special,characters,tags",
+      "title": "Escape HTML entities"
+    },
+    "html-wysiwyg-editor": {
+      "description": "Online, feature-rich WYSIWYG HTML editor which generates the source code of the content immediately.",
+      "keywords": "html,wysiwyg,editor,p,ul,ol,converter,live",
+      "title": "HTML WYSIWYG editor"
+    },
+    "http-status-codes": {
+      "description": "The list of all HTTP status codes, their name, and their meaning.",
+      "keywords": "http,status,codes",
+      "title": "HTTP status codes"
+    },
+    "iban-validator-and-parser": {
+      "description": "Validate and parse IBAN numbers. Check if an IBAN is valid and get the country, BBAN, if it is a QR-IBAN and the IBAN friendly format.",
+      "keywords": "iban,validator,and,parser,bic,bank",
+      "title": "IBAN validator and parser"
+    },
+    "ico-generator": {
+      "description": "Generate ICO files from images. Convert PNG, JPEG, or other image formats to ICO files with multiple icon sizes for favicons and Windows applications.",
+      "keywords": "ico,icon,favicon,generator,converter,image,png,jpeg,windows,convert",
+      "title": "ICO Generator"
+    },
+    "ipv4-address-converter": {
+      "description": "Convert an IP address into decimal, binary, hexadecimal, or even an IPv6 representation of it.",
+      "keywords": "ipv4,address,converter,decimal,hexadecimal,binary,ipv6",
+      "title": "IPv4 address converter"
+    },
+    "ipv4-range-expander": {
+      "description": "Given a start and an end IPv4 address, this tool calculates a valid IPv4 subnet along with its CIDR notation.",
+      "keywords": "ipv4,range,expander,subnet,creator,cidr",
+      "title": "IPv4 range expander"
+    },
+    "ipv4-subnet-calculator": {
+      "description": "Parse your IPv4 CIDR blocks and get all the info you need about your subnet.",
+      "keywords": "ipv4,subnet,calculator,mask,network,cidr,netmask,bitmask,broadcast,address",
+      "title": "IPv4 subnet calculator"
+    },
+    "ipv6-ula-generator": {
+      "description": "Generate your own local, non-routable IP addresses for your network according to RFC4193.",
+      "keywords": "ipv6,ula,generator,rfc4193,network,private",
+      "title": "IPv6 ULA generator"
+    },
+    "json-diff": {
+      "description": "Compare two JSON objects and get the differences between them.",
+      "keywords": "json,diff,compare,difference,object,data",
+      "title": "JSON diff"
+    },
+    "json-minify": {
+      "description": "Minify and compress your JSON by removing unnecessary whitespace.",
+      "keywords": "json,minify,format",
+      "title": "JSON minify"
+    },
+    "json-prettify": {
+      "description": "Prettify your JSON string into a friendly, human-readable format.",
+      "keywords": "json,viewer,prettify,format",
+      "title": "JSON prettify and format"
+    },
+    "json-to-csv": {
+      "description": "Convert JSON to CSV with automatic header detection.",
+      "keywords": "json,to,csv,convert",
+      "title": "JSON to CSV"
+    },
+    "json-to-toml": {
+      "description": "Parse and convert JSON to TOML.",
+      "keywords": "json,parse,toml,convert,transform",
+      "title": "JSON to TOML"
+    },
+    "json-to-xml": {
+      "description": "Convert JSON to XML",
+      "keywords": "json,xml",
+      "title": "JSON to XML"
+    },
+    "json-to-yaml-converter": {
+      "description": "Simply convert JSON to YAML with this online live converter.",
+      "keywords": "yaml,to,json",
+      "title": "JSON to YAML"
+    },
+    "jwt-parser": {
+      "description": "Parse and decode your JSON Web Token (jwt) and display its content.",
+      "keywords": "jwt,parser,decode,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,token",
+      "title": "JWT parser"
+    },
+    "keycode-info": {
+      "description": "Find the javascript keycode, code, location and modifiers of any pressed key.",
+      "keywords": "keycode,info,code,javascript,event,keycodes,which,keyboard,press,modifier,alt,ctrl,meta,shift",
+      "title": "Keycode info"
+    },
+    "list-converter": {
+      "description": "This tool can process column-based data and apply various changes (transpose, add prefix and suffix, reverse list, sort list, lowercase values, truncate values) to each row.",
+      "keywords": "list,converter,sort,reverse,prefix,suffix,lowercase,truncate",
+      "title": "List converter"
+    },
+    "lorem-ipsum-generator": {
+      "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content",
+      "keywords": "lorem,ipsum,dolor,sit,amet,placeholder,text,filler,random,generator",
+      "title": "Lorem ipsum generator"
+    },
+    "mac-address-generator": {
+      "description": "Enter the quantity and prefix. MAC addresses will be generated in your chosen case (uppercase or lowercase)",
+      "keywords": "mac,address,generator,random,prefix",
+      "title": "MAC address generator"
+    },
+    "mac-address-lookup": {
+      "description": "Find the vendor and manufacturer of a device by its MAC address.",
+      "keywords": "mac,address,lookup,vendor,parser,manufacturer",
+      "title": "MAC address lookup"
+    },
+    "markdown-to-html": {
+      "description": "Convert Markdown to HTML and print as PDF",
+      "keywords": "markdown,html,converter,pdf",
+      "title": "Markdown to HTML"
+    },
+    "math-evaluator": {
+      "description": "A calculator for evaluating mathematical expressions. You can use functions like sqrt, cos, sin, abs, etc.",
+      "keywords": "math,evaluator,calculator,expression,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh",
+      "title": "Math evaluator"
+    },
+    "mime-types": {
+      "description": "Convert MIME types to file extensions and vice-versa.",
+      "keywords": "mime,types,extension,content,type",
+      "title": "MIME types"
+    },
+    "numeronym-generator": {
+      "description": "A numeronym is a word where a number is used to form an abbreviation. For example, \"i18n\" is a numeronym of \"internationalization\" where 18 stands for the number of letters between the first i and the last n in the word.",
+      "keywords": "numeronym,generator,abbreviation,i18n,a11y,l10n",
+      "title": "Numeronym generator"
+    },
+    "og-meta-generator": {
+      "description": "Generate open-graph and socials HTML meta tags for your website.",
+      "keywords": "meta,tag,generator,social,title,description,image,share,online,website,open,graph,og",
+      "title": "Open graph meta generator"
+    },
+    "otp-generator": {
+      "description": "Generate and validate time-based OTP (one time password) for multi-factor authentication.",
+      "keywords": "otp,code,generator,validator,one,time,password,authentication,MFA,mobile,device,security,TOTP,Time,HMAC",
+      "title": "OTP code generator"
+    },
+    "password-strength-analyser": {
+      "description": "Discover the strength of your password with this client-side-only password strength analyser and crack time estimation tool.",
+      "keywords": "password,strength,analyser,and,crack,time,estimation,brute,force,attack,entropy,cracking,hash,hashing,algorithm,algorithms,md5,sha1,sha256,sha512,bcrypt,scrypt,argon2,argon2id,argon2i,argon2d",
+      "title": "Password strength analyser"
+    },
+    "pdf-signature-checker": {
+      "description": "Verify the signatures of a PDF file. A signed PDF file contains one or more signatures that may be used to determine whether the contents of the file have been altered since the file was signed.",
+      "keywords": "pdf,signature,checker,verify,validate,sign",
+      "title": "PDF signature checker"
+    },
+    "percentage-calculator": {
+      "description": "Easily calculate percentages from a value to another value, or from a percentage to a value.",
+      "keywords": "percentage,calculator,calculate,value,number,%",
+      "title": "Percentage calculator"
+    },
+    "phone-parser-and-formatter": {
+      "description": "Parse, validate and format phone numbers. Get information about the phone number, like the country code, type, etc.",
+      "keywords": "phone,parser,formatter,validate,format,number,telephone,mobile,cell,international,national",
+      "title": "Phone parser and formatter"
+    },
+    "qrcode-generator": {
+      "description": "Generate and download a QR code for a URL (or just plain text), and customize the background and foreground colors.",
+      "keywords": "qr,code,generator,square,color,link,low,medium,quartile,high,transparent",
+      "title": "QR Code generator"
+    },
+    "random-port-generator": {
+      "description": "Generate random port numbers outside of the range of \"known\" ports (0-1023).",
+      "keywords": "system,port,lan,generator,random,development,computer",
+      "title": "Random port generator"
+    },
+    "regex-memo": {
+      "description": "Javascript Regex/Regular Expression cheatsheet",
+      "keywords": "regex,regular,expression,javascript,memo,cheatsheet",
+      "title": "Regex cheatsheet"
+    },
+    "regex-tester": {
+      "description": "Test your regular expressions with sample text.",
+      "keywords": "regex,tester,sample,expression",
+      "title": "Regex tester"
+    },
+    "roman-numeral-converter": {
+      "description": "Convert Roman numerals to numbers and convert numbers to Roman numerals.",
+      "keywords": "roman,arabic,converter,X,I,V,L,C,D,M",
+      "title": "Roman numeral converter"
+    },
+    "rsa-key-pair-generator": {
+      "description": "Generate a new random RSA private and public pem certificate key pair.",
+      "keywords": "rsa,key,pair,generator,public,private,secret,ssh,pem",
+      "title": "RSA key pair generator"
+    },
+    "safelink-decoder": {
+      "description": "Decode Outlook SafeLink links",
+      "keywords": "outlook,safelink,decoder",
+      "title": "Outlook Safelink decoder"
+    },
+    "slugify-string": {
+      "description": "Make a string url, filename and id safe.",
+      "keywords": "slugify,string,escape,emoji,special,character,space,trim",
+      "title": "Slugify string"
+    },
+    "sql-prettify": {
+      "description": "Format and prettify your SQL queries online (it supports various SQL dialects).",
+      "keywords": "sql,prettify,beautify,GCP BigQuery,IBM DB2,Apache Hive,MariaDB,MySQL,Couchbase N1QL,Oracle PL/SQL,PostgreSQL,Amazon Redshift,Spark,SQL Server Transact-SQL",
+      "title": "SQL prettify and format"
+    },
+    "string-obfuscator": {
+      "description": "Obfuscate a string (like a secret, an IBAN, or a token) to make it shareable and identifiable without revealing its content.",
+      "keywords": "string,obfuscator,secret,token,hide,obscure,mask,masking",
+      "title": "String obfuscator"
+    },
+    "svg-placeholder-generator": {
+      "description": "Generate svg images to use as a placeholder in your applications.",
+      "keywords": "svg,placeholder,generator,image,size,mockup",
+      "title": "SVG placeholder generator"
+    },
+    "temperature-converter": {
+      "description": "Degrees temperature conversions for Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, and Rømer.",
+      "keywords": "temperature,converter,degree,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer",
+      "title": "Temperature converter"
+    },
+    "text-diff": {
+      "description": "Compare two texts and see the differences between them.",
+      "keywords": "text,diff,compare,string,text diff,code",
+      "title": "Text diff"
+    },
+    "text-statistics": {
+      "description": "Get information about a text, the number of characters, the number of words, its size in bytes, ...",
+      "keywords": "text,statistics,length,characters,count,size,bytes",
+      "title": "Text statistics"
+    },
+    "text-to-binary": {
+      "description": "Convert text to its ASCII binary representation and vice-versa.",
+      "keywords": "text,to,binary,converter,encode,decode,ascii",
+      "title": "Text to ASCII binary"
+    },
+    "text-to-nato-alphabet": {
+      "description": "Transform text into the NATO phonetic alphabet for oral transmission.",
+      "keywords": "string,nato,alphabet,phonetic,oral,transmission",
+      "title": "Text to NATO alphabet"
+    },
+    "text-to-unicode": {
+      "description": "Parse and convert text to unicode and vice-versa",
+      "keywords": "text,to,unicode",
+      "title": "Text to Unicode"
+    },
+    "token-generator": {
+      "description": "Generate random string with the chars you want, uppercase or lowercase letters, numbers and/or symbols.",
+      "keywords": "token,random,string,alphanumeric,symbols,number,letters,lowercase,uppercase,password",
+      "title": "Token generator"
+    },
+    "toml-to-json": {
+      "description": "Parse and convert TOML to JSON.",
+      "keywords": "toml,json,convert,online,transform,parser",
+      "title": "TOML to JSON"
+    },
+    "toml-to-yaml": {
+      "description": "Parse and convert TOML to YAML.",
+      "keywords": "toml,yaml,convert,online,transform,parse",
+      "title": "TOML to YAML"
+    },
+    "ulid-generator": {
+      "description": "Generate random Universally Unique Lexicographically Sortable Identifier (ULID).",
+      "keywords": "ulid,generator,random,id,alphanumeric,identity,token,string,identifier,unique",
+      "title": "ULID generator"
+    },
+    "url-encoder": {
+      "description": "Encode text to URL-encoded format (also known as \"percent-encoded\"), or decode from it.",
+      "keywords": "url,encode,decode,percent,%20,format",
+      "title": "Encode/decode URL-formatted strings"
+    },
+    "url-parser": {
+      "description": "Parse a URL into its separate constituent parts (protocol, origin, params, port, username-password, ...)",
+      "keywords": "url,parser,protocol,origin,params,port,username,password,href",
+      "title": "URL parser"
+    },
+    "user-agent-parser": {
+      "description": "Detect and parse Browser, Engine, OS, CPU, and Device type/model from an user-agent string.",
+      "keywords": "user,agent,parser,browser,engine,os,cpu,device,user-agent,client",
+      "title": "User-agent parser"
+    },
+    "uuid-generator": {
+      "description": "A Universally Unique Identifier (UUID) is a 128-bit number used to identify information in computer systems. The number of possible UUIDs is 16^32, which is 2^128 or about 3.4x10^38 (which is a lot!).",
+      "keywords": "uuid,v4,random,id,alphanumeric,identity,token,string,identifier,unique,v1,v3,v5,nil",
+      "title": "UUIDs generator"
+    },
+    "wifi-qrcode-generator": {
+      "description": "Generate and download QR codes for quick connections to WiFi networks.",
+      "keywords": "qr,code,generator,square,color,link,low,medium,quartile,high,transparent,wifi",
+      "title": "WiFi QR Code generator"
+    },
+    "xml-formatter": {
+      "description": "Prettify your XML string into a friendly, human-readable format.",
+      "keywords": "xml,prettify,format",
+      "title": "XML formatter"
+    },
+    "xml-to-json": {
+      "description": "Convert XML to JSON",
+      "keywords": "xml,json",
+      "title": "XML to JSON"
+    },
+    "yaml-prettify": {
+      "description": "Prettify your YAML string into a friendly, human-readable format.",
+      "keywords": "yaml,viewer,prettify,format",
+      "title": "YAML prettify and format"
+    },
+    "yaml-to-json-converter": {
+      "description": "Simply convert YAML to JSON with this online live converter.",
+      "keywords": "yaml,to,json",
+      "title": "YAML to JSON"
+    },
+    "yaml-to-toml": {
+      "description": "Parse and convert YAML to TOML.",
+      "keywords": "yaml,to,toml,convert,transform",
+      "title": "YAML to TOML"
+    }
   }
 }

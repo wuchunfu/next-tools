@@ -1,17 +1,17 @@
 {
   "tools": {
     "toml-to-yaml": {
-      "cardTitle": "TOML to YAML Converter",
       "cardDescription": "Convert TOML format to YAML format. Paste your TOML and get the YAML output.",
-      "cardInputTitle": "TOML input",
       "cardInputDescription": "Paste the TOML you want to convert. We will validate it and then generate the YAML output.",
-      "cardOutputTitle": "YAML output",
+      "cardInputTitle": "TOML input",
       "cardOutputDescription": "This is the YAML representation of your TOML. You can copy it for further use.",
+      "cardOutputTitle": "YAML output",
+      "cardTitle": "TOML to YAML Converter",
+      "clear": "Clear",
       "inputPlaceholder": "Paste your TOML here...",
       "invalidToml": "Provided TOML is not valid.",
       "invalidTomlTitle": "Invalid TOML",
-      "outputError": "Invalid TOML format. Please check your input.",
-      "clear": "Clear"
+      "outputError": "Invalid TOML format. Please check your input."
     }
   }
 }

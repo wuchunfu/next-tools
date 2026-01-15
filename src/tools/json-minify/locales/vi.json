@@ -1,14 +1,14 @@
 {
   "tools": {
     "json-minify": {
-      "cardTitle": "Trình nén JSON",
-      "cardInputTitle": "JSON gốc",
       "cardInputDescription": "Dán JSON bạn muốn nén vào bên dưới. Chúng tôi sẽ xác thực và tạo ra một phiên bản gọn nhẹ.",
-      "cardOutputTitle": "JSON đã nén",
+      "cardInputTitle": "JSON gốc",
       "cardOutputDescription": "Đây là phiên bản đã thu gọn của JSON, không còn khoảng trắng không cần thiết.",
+      "cardOutputTitle": "JSON đã nén",
+      "cardTitle": "Trình nén JSON",
+      "inputPlaceholder": "Dán JSON thô của bạn vào đây...",
       "invalid": "JSON được cung cấp không hợp lệ.",
-      "invalidJsonTitle": "JSON không hợp lệ",
-      "inputPlaceholder": "Dán JSON thô của bạn vào đây..."
+      "invalidJsonTitle": "JSON không hợp lệ"
     }
   }
 }

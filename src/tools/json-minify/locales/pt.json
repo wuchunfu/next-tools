@@ -1,14 +1,14 @@
 {
   "tools": {
     "json-minify": {
-      "cardTitle": "Compressor JSON",
-      "cardInputTitle": "JSON original",
       "cardInputDescription": "Cole abaixo o JSON que você deseja comprimir. Vamos validá-lo e gerar uma versão compacta.",
-      "cardOutputTitle": "JSON compactado",
+      "cardInputTitle": "JSON original",
       "cardOutputDescription": "Esta é a versão minimizada do seu JSON, sem espaços em branco desnecessários.",
+      "cardOutputTitle": "JSON compactado",
+      "cardTitle": "Compressor JSON",
+      "inputPlaceholder": "Cole seu JSON bruto aqui...",
       "invalid": "O JSON fornecido não é válido.",
-      "invalidJsonTitle": "JSON inválido",
-      "inputPlaceholder": "Cole seu JSON bruto aqui..."
+      "invalidJsonTitle": "JSON inválido"
     }
   }
 }

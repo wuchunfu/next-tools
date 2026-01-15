@@ -1,18 +1,18 @@
 {
   "tools": {
     "encryption": {
-      "encrypt": "加密",
-      "yourText": "您的文本：",
-      "stringToCypher": "要加密的字符串",
-      "yourSecretKey": "您的密钥：",
-      "encryptionAlgorithm": "加密算法：",
-      "yourTextEncrypted": "加密后的文本：",
-      "stringHash": "字符串哈希",
       "decrypt": "解密",
-      "yourEncryptedText": "您的加密文本：",
-      "yourDecryptedText": "解密后的文本：",
+      "encrypt": "加密",
+      "encryptionAlgorithm": "加密算法：",
       "errorWhileDecrypting": "解密时出错",
-      "unableToDecrypt": "无法解密您的文本"
+      "stringHash": "字符串哈希",
+      "stringToCypher": "要加密的字符串",
+      "unableToDecrypt": "无法解密您的文本",
+      "yourDecryptedText": "解密后的文本：",
+      "yourEncryptedText": "您的加密文本：",
+      "yourSecretKey": "您的密钥：",
+      "yourText": "您的文本：",
+      "yourTextEncrypted": "加密后的文本："
     }
   }
 }

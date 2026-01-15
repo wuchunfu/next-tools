@@ -1,31 +1,31 @@
 {
   "tools": {
     "benchmark-builder": {
-      "suiteName": "Suite {index}",
-      "suiteLabel": "Tên suite",
-      "suitePlaceholder": "Tên suite...",
-      "suitesTitle": "Bộ thử nghiệm",
-      "suitesDescription": "Quản lý nhiều bộ và các giá trị mẫu của chúng.",
-      "suiteValues": "Giá trị suite",
-      "deleteSuite": "Xóa suite",
-      "addSuite": "Thêm suite",
-      "resultsTitle": "Kết quả",
-      "resultsDescription": "Tóm tắt và so sánh giữa các suite.",
-      "unitPlaceholder": "Đơn vị (vd: ms)",
-      "unitLabel": "Đơn vị",
-      "resetSuites": "Đặt lại suites",
-      "copyMarkdown": "Sao chép dưới dạng bảng markdown",
-      "copyBullet": "Sao chép dưới dạng danh sách gạch đầu dòng",
-      "setMeasure": "Đặt phép đo của bạn...",
-      "deleteValue": "Xóa giá trị này",
       "addMeasure": "Thêm một phép đo",
+      "addSuite": "Thêm suite",
+      "copyBullet": "Sao chép dưới dạng danh sách gạch đầu dòng",
+      "copyMarkdown": "Sao chép dưới dạng bảng markdown",
+      "deleteSuite": "Xóa suite",
+      "deleteValue": "Xóa giá trị này",
       "header": {
-        "position": "Vị trí",
-        "title": "Suite",
-        "size": "Mẫu",
         "mean": "Trung bình",
+        "position": "Vị trí",
+        "size": "Mẫu",
+        "title": "Suite",
         "variance": "Phương sai"
-      }
+      },
+      "resetSuites": "Đặt lại suites",
+      "resultsDescription": "Tóm tắt và so sánh giữa các suite.",
+      "resultsTitle": "Kết quả",
+      "setMeasure": "Đặt phép đo của bạn...",
+      "suiteLabel": "Tên suite",
+      "suiteName": "Suite {index}",
+      "suitePlaceholder": "Tên suite...",
+      "suiteValues": "Giá trị suite",
+      "suitesDescription": "Quản lý nhiều bộ và các giá trị mẫu của chúng.",
+      "suitesTitle": "Bộ thử nghiệm",
+      "unitLabel": "Đơn vị",
+      "unitPlaceholder": "Đơn vị (vd: ms)"
     }
   }
 }

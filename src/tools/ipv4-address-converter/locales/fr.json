@@ -1,21 +1,21 @@
 {
   "tools": {
     "ipv4-address-converter": {
+      "binary": "Binaire :",
+      "cardInputDescription": "Entrez une adresse IPv4 pour la convertir en différents formats (décimal, hexadécimal, binaire, IPv6).",
+      "cardInputTitle": "Adresse IPv4",
+      "cardResultsDescription": "Affichez l'adresse IPv4 dans différents systèmes numériques et formats IPv6.",
+      "cardResultsTitle": "Formats convertis",
+      "decimal": "Décimal :",
+      "format": "Format",
+      "hexadecimal": "Hexadécimal :",
       "inputLabel": "L'adresse IPv4 :",
       "inputPlaceholder": "L'adresse IPv4...",
-      "placeholder": "Définissez une adresse IPv4 correcte",
+      "invalidAddressTitle": "Adresse invalide",
       "invalidIpv4": "Adresse IPv4 invalide",
-      "decimal": "Décimal :",
-      "hexadecimal": "Hexadécimal :",
-      "binary": "Binaire :",
       "ipv6": "IPv6 :",
       "ipv6Short": "IPv6 (court) :",
-      "cardInputTitle": "Adresse IPv4",
-      "cardInputDescription": "Entrez une adresse IPv4 pour la convertir en différents formats (décimal, hexadécimal, binaire, IPv6).",
-      "cardResultsTitle": "Formats convertis",
-      "cardResultsDescription": "Affichez l'adresse IPv4 dans différents systèmes numériques et formats IPv6.",
-      "invalidAddressTitle": "Adresse invalide",
-      "format": "Format",
+      "placeholder": "Définissez une adresse IPv4 correcte",
       "value": "Valeur"
     }
   }

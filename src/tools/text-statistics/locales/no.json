@@ -1,15 +1,15 @@
 {
   "tools": {
     "text-statistics": {
-      "cardInputTitle": "Inndata",
+      "byteSize": "Størrelse i byte",
       "cardInputDescription": "Lim inn eller skriv teksten for å få statistikk umiddelbart.",
-      "cardResultsTitle": "Resultater",
+      "cardInputTitle": "Inndata",
       "cardResultsDescription": "Sammendrag av tekststatistikk",
-      "placeholder": "Din tekst...",
+      "cardResultsTitle": "Resultater",
       "characterCount": "Tegnantal",
-      "wordCount": "Ordantal",
       "lineCount": "Linjeantal",
-      "byteSize": "Størrelse i byte"
+      "placeholder": "Din tekst...",
+      "wordCount": "Ordantal"
     }
   }
 }

@@ -1,19 +1,19 @@
 {
   "tools": {
     "device-information": {
-      "screen": "Skjerm",
-      "screenSize": "Skjermstørrelse",
+      "colorDepth": "Fargedybde",
+      "device": "Enhet",
+      "languages": "Språk",
       "orientation": "Orientering",
       "orientationAngle": "Orientasjonsvinkel",
-      "colorDepth": "Fargedybde",
       "pixelRatio": "Pixelforhold",
-      "windowSize": "Vindustørrelse",
-      "device": "Enhet",
-      "vendor": "Nettleserleverandør",
-      "languages": "Språk",
       "platform": "Plattform",
+      "screen": "Skjerm",
+      "screenSize": "Skjermstørrelse",
+      "unknown": "ukjent",
       "userAgent": "Brukeragent",
-      "unknown": "ukjent"
+      "vendor": "Nettleserleverandør",
+      "windowSize": "Vindustørrelse"
     }
   }
 }

@@ -1,27 +1,27 @@
 {
   "tools": {
     "mime-types": {
-      "mimeToExt": {
-        "title": "MIME-Typ zu Erweiterung",
-        "subtitle": "Wissen, welche Dateierweiterungen einem MIME-Typ zugeordnet sind",
-        "placeholder": "Wählen Sie hier Ihren MIME-Typ... (z.B. application/pdf)",
-        "resultPrefix": "Erweiterungen von Dateien mit dem",
-        "resultSuffix": "MIME-Typ:"
-      },
+      "clear": "Leeren",
       "extToMime": {
-        "title": "Dateierweiterung zu MIME-Typ",
-        "subtitle": "Wissen, welcher MIME-Typ einer Dateierweiterung zugeordnet ist",
         "placeholder": "Wählen Sie hier Ihre Erweiterung... (z.B. application/pdf)",
         "resultPrefix": "MIME-Typ, der der Erweiterung zugeordnet ist",
-        "resultSuffix": "Dateierweiterung:"
+        "resultSuffix": "Dateierweiterung:",
+        "subtitle": "Wissen, welcher MIME-Typ einer Dateierweiterung zugeordnet ist",
+        "title": "Dateierweiterung zu MIME-Typ"
+      },
+      "mimeToExt": {
+        "placeholder": "Wählen Sie hier Ihren MIME-Typ... (z.B. application/pdf)",
+        "resultPrefix": "Erweiterungen von Dateien mit dem",
+        "resultSuffix": "MIME-Typ:",
+        "subtitle": "Wissen, welche Dateierweiterungen einem MIME-Typ zugeordnet sind",
+        "title": "MIME-Typ zu Erweiterung"
       },
       "table": {
-        "mime": "MIME-Typen",
-        "extensions": "Erweiterungen"
+        "extensions": "Erweiterungen",
+        "mime": "MIME-Typen"
       },
-      "tableTitle": "Alle MIME-Typen",
       "tableSubtitle": "Durchsuchen Sie die vollständige Liste der MIME-Typen und ihrer Erweiterungen.",
-      "clear": "Leeren"
+      "tableTitle": "Alle MIME-Typen"
     }
   }
 }

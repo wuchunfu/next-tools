@@ -1,20 +1,20 @@
 {
   "tools": {
     "ipv6-ula-generator": {
-      "cardInputTitle": "MAC-adresse",
       "cardInputDescription": "Skriv inn en MAC-adresse for å generere IPv6 ULA (Unique Local Address) prefikser ved å bruke IETF-anbefalt metode.",
-      "cardResultsTitle": "Genererte IPv6 ULA-prefikser",
+      "cardInputTitle": "MAC-adresse",
       "cardResultsDescription": "IPv6 ULA-prefikser generert basert på MAC-adressen din. Klikk på en verdi for å kopiere den til utklippstavlen.",
+      "cardResultsTitle": "Genererte IPv6 ULA-prefikser",
+      "first": "Første ruterbare blokk",
+      "info": "Dette verktøyet bruker den første metoden foreslått av IETF ved å bruke gjeldende tidsstempel pluss MAC-adressen, SHA1-hashet, og de nedre 40 bitene for å generere din tilfeldige ULA.",
+      "infoTitle": "Info",
       "invalidAddressTitle": "Ugyldig MAC-adresse",
       "invalidMacAddress": "Ugyldig MAC-adresse",
       "label": "Etikett",
-      "value": "Verdi",
-      "ula": "IPv6 ULA",
-      "first": "Første ruterbare blokk",
       "last": "Siste ruterbare blokk",
-      "infoTitle": "Info",
-      "info": "Dette verktøyet bruker den første metoden foreslått av IETF ved å bruke gjeldende tidsstempel pluss MAC-adressen, SHA1-hashet, og de nedre 40 bitene for å generere din tilfeldige ULA.",
-      "placeholder": "Skriv inn en MAC-adresse"
+      "placeholder": "Skriv inn en MAC-adresse",
+      "ula": "IPv6 ULA",
+      "value": "Verdi"
     }
   }
 }

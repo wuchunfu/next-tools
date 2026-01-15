@@ -14,7 +14,7 @@ import { tool as caseConverter } from './case-converter';
 import { tool as chmodCalculator } from './chmod-calculator';
 import { tool as chronometer } from './chronometer';
 import { tool as colorConverter } from './color-converter';
-import { tool as crontabGenerator } from './crontab-generator';
+import { tool as cronGenerator } from './cron-generator';
 import { tool as dateTimeConverter } from './date-converter';
 import { tool as deviceInformation } from './device-information';
 import { tool as dockerRunToDockerComposeConverter } from './docker-run-to-docker-compose-converter';
@@ -149,7 +149,7 @@ export const toolsByCategory: ToolCategory[] = [
     components: [
       gitMemo,
       randomPortGenerator,
-      crontabGenerator,
+      cronGenerator,
       jsonViewer,
       jsonMinify,
       jsonToCsv,

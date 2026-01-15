@@ -1,26 +1,26 @@
 {
   "tools": {
     "qrcode-generator": {
-      "cardTitle": "QR Code Generator",
-      "cardDescription": "Generate customizable QR codes for URLs or text with adjustable colors and error correction levels.",
-      "text": "Content",
-      "yourLinkOrText": "Enter URL or text to encode...",
-      "foregroundColor": "Foreground",
       "backgroundColor": "Background",
-      "errorResistance": "Error Correction Level",
-      "downloadQrCode": "Download PNG",
+      "cardDescription": "Generate customizable QR codes for URLs or text with adjustable colors and error correction levels.",
+      "cardTitle": "QR Code Generator",
       "characters": "chars",
       "colorSettings": "Color Settings",
-      "resetColors": "Reset",
-      "resetColorsTooltip": "Reset to default colors",
+      "downloadQrCode": "Download PNG",
+      "emptyPreview": "Enter text to generate QR code",
+      "errorResistance": "Error Correction Level",
+      "errorResistanceHint": "Higher levels allow more damage tolerance but increase QR code density.",
+      "foregroundColor": "Foreground",
+      "levelHigh": "High (~30%)",
       "levelLow": "Low (~7%)",
       "levelMedium": "Medium (~15%)",
       "levelQuartile": "Quartile (~25%)",
-      "levelHigh": "High (~30%)",
-      "selectLevel": "Select level",
-      "errorResistanceHint": "Higher levels allow more damage tolerance but increase QR code density.",
       "preview": "Preview",
-      "emptyPreview": "Enter text to generate QR code"
+      "resetColors": "Reset",
+      "resetColorsTooltip": "Reset to default colors",
+      "selectLevel": "Select level",
+      "text": "Content",
+      "yourLinkOrText": "Enter URL or text to encode..."
     }
   }
 }

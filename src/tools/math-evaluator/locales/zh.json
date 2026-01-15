@@ -1,10 +1,10 @@
 {
   "tools": {
     "math-evaluator": {
-      "cardInputTitle": "数学表达式",
       "cardInputDescription": "输入数学表达式，支持常见运算符和函数（例如：2 * sqrt(6) + sin(pi / 4)）。",
-      "cardResultTitle": "计算结果",
+      "cardInputTitle": "数学表达式",
       "cardResultDescription": "根据您的表达式计算出的结果。",
+      "cardResultTitle": "计算结果",
       "placeholder": "您的数学表达式（例如：2*sqrt(6)）...",
       "result": "结果"
     }

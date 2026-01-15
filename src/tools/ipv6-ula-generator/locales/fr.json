@@ -1,20 +1,20 @@
 {
   "tools": {
     "ipv6-ula-generator": {
-      "cardInputTitle": "Adresse MAC",
       "cardInputDescription": "Entrez une adresse MAC pour générer des préfixes IPv6 ULA (Unique Local Address) en utilisant la méthode recommandée par l'IETF.",
-      "cardResultsTitle": "Préfixes IPv6 ULA générés",
+      "cardInputTitle": "Adresse MAC",
       "cardResultsDescription": "Préfixes IPv6 ULA générés basés sur votre adresse MAC. Cliquez sur une valeur pour la copier dans le presse-papiers.",
+      "cardResultsTitle": "Préfixes IPv6 ULA générés",
+      "first": "Premier bloc routable",
+      "info": "Cet outil utilise la première méthode suggérée par l'IETF en utilisant l'horodatage actuel plus l'adresse MAC, hachée SHA1, et les 40 bits inférieurs pour générer votre ULA aléatoire.",
+      "infoTitle": "Info",
       "invalidAddressTitle": "Adresse MAC invalide",
       "invalidMacAddress": "Adresse MAC invalide",
       "label": "Étiquette",
-      "value": "Valeur",
-      "ula": "IPv6 ULA",
-      "first": "Premier bloc routable",
       "last": "Dernier bloc routable",
-      "infoTitle": "Info",
-      "info": "Cet outil utilise la première méthode suggérée par l'IETF en utilisant l'horodatage actuel plus l'adresse MAC, hachée SHA1, et les 40 bits inférieurs pour générer votre ULA aléatoire.",
-      "placeholder": "Saisissez une adresse MAC"
+      "placeholder": "Saisissez une adresse MAC",
+      "ula": "IPv6 ULA",
+      "value": "Valeur"
     }
   }
 }

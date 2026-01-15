@@ -1,22 +1,22 @@
 {
   "tools": {
     "markdown-to-html": {
-      "cardTitle": "Conversor de Markdown para HTML",
       "cardDescription": "Converta o formato Markdown para o formato HTML. Cole seu Markdown e obtenha a saída HTML.",
-      "cardInputTitle": "Entrada Markdown",
       "cardInputDescription": "Escreva ou cole seu Markdown abaixo. Vamos convertê-lo para HTML e mostrar uma visualização.",
-      "cardOutputTitle": "Saída HTML",
+      "cardInputTitle": "Entrada Markdown",
       "cardOutputDescription": "Alterne entre a visualização e o código HTML. Você também pode imprimir o HTML renderizado como PDF.",
-      "inputPlaceholder": "Seu conteúdo Markdown...",
+      "cardOutputTitle": "Saída HTML",
+      "cardTitle": "Conversor de Markdown para HTML",
       "clear": "Limpar",
-      "printAsPdf": "Imprimir como PDF",
-      "printTooltip": "Imprimir HTML como PDF",
-      "printTitle": "Markdown para HTML",
-      "preview": "Visualização",
+      "formatHtml": "Formatar HTML",
       "htmlCode": "Código HTML",
+      "inputPlaceholder": "Seu conteúdo Markdown...",
+      "preview": "Visualização",
       "previewPlaceholder": "A visualização aparecerá aqui...",
       "previewTitle": "Visualização Markdown",
-      "formatHtml": "Formatar HTML"
+      "printAsPdf": "Imprimir como PDF",
+      "printTitle": "Markdown para HTML",
+      "printTooltip": "Imprimir HTML como PDF"
     }
   }
 }

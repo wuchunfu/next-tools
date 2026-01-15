@@ -1,22 +1,22 @@
 {
   "tools": {
     "safelink-decoder": {
-      "cardTitle": "Decodificador Outlook SafeLink",
       "cardDescription": "Decodifique URLs do Microsoft Outlook SafeLink para revelar a URL de destino original.",
-      "cardInputTitle": "Entrada SafeLink",
       "cardInputDescription": "Cole abaixo uma URL do Outlook SafeLink. Nós a validaremos e extrairemos a URL de destino original.",
-      "cardOutputTitle": "URL decodificada",
+      "cardInputTitle": "Entrada SafeLink",
       "cardOutputDescription": "Revise a URL extraída. Você pode copiá-la ou abri-la em uma nova guia.",
-      "inputPlaceholder": "Cole sua URL do Outlook SafeLink aqui...",
-      "inputLabel": "URL SafeLink",
-      "outputLabel": "URL decodificada",
-      "invalidUrl": "Por favor, cole uma URL válida do Outlook SafeLink (https://*.safelinks.protection.outlook.com/...)",
+      "cardOutputTitle": "URL decodificada",
+      "cardTitle": "Decodificador Outlook SafeLink",
       "decodeError": "Falha ao decodificar. Por favor, verifique o link e tente novamente.",
       "emptyHint": "Cole uma URL SafeLink acima para decodificá-la.",
       "errorTitle": "URL inválida",
-      "successTitle": "Decodificado com sucesso",
+      "inputLabel": "URL SafeLink",
+      "inputPlaceholder": "Cole sua URL do Outlook SafeLink aqui...",
+      "invalidUrl": "Por favor, cole uma URL válida do Outlook SafeLink (https://*.safelinks.protection.outlook.com/...)",
+      "openUrl": "Abrir URL",
+      "outputLabel": "URL decodificada",
       "successDescription": "A URL original foi extraída do SafeLink.",
-      "openUrl": "Abrir URL"
+      "successTitle": "Decodificado com sucesso"
     }
   }
 }

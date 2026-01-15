@@ -1,32 +1,32 @@
 {
   "tools": {
     "case-converter": {
-      "cardTitle": "Store/små bokstaver-konverter",
-      "cardDescription": "Transformer store/små bokstaver i en streng og velg mellom forskjellige formater.",
-      "cardInputTitle": "Tekstinndata",
-      "cardInputDescription": "Skriv inn strengen din nedenfor. Vi genererer vanlige store-/småbokstav-formater for programmering og tekst.",
-      "cardOutputTitle": "Alle formater",
-      "cardOutputDescription": "Velg formatet du trenger og kopier det. Verdiene oppdateres umiddelbart mens du skriver.",
-      "yourString": "Din streng",
-      "yourStringPlaceholder": "Skriv inn teksten din her...",
-      "inputLength": "Lengde",
-      "sanitizedLength": "Gyldige tegn",
-      "clear": "Tøm",
-      "formatsTitle": "Alle formater",
-      "lowercase": "Små bokstaver",
-      "uppercase": "Store bokstaver",
       "camelcase": "Camelcase",
       "capitalcase": "Capitalcase",
+      "cardDescription": "Transformer store/små bokstaver i en streng og velg mellom forskjellige formater.",
+      "cardInputDescription": "Skriv inn strengen din nedenfor. Vi genererer vanlige store-/småbokstav-formater for programmering og tekst.",
+      "cardInputTitle": "Tekstinndata",
+      "cardOutputDescription": "Velg formatet du trenger og kopier det. Verdiene oppdateres umiddelbart mens du skriver.",
+      "cardOutputTitle": "Alle formater",
+      "cardTitle": "Store/små bokstaver-konverter",
+      "clear": "Tøm",
       "constantcase": "Constantcase",
       "dotcase": "Dotcase",
+      "formatsTitle": "Alle formater",
       "headercase": "Headercase",
+      "inputLength": "Lengde",
+      "lowercase": "Små bokstaver",
+      "mockingcase": "Mockingcase",
       "nocase": "Nocase",
       "paramcase": "Paramcase",
       "pascalcase": "Pascalcase",
       "pathcase": "Pathcase",
+      "sanitizedLength": "Gyldige tegn",
       "sentencecase": "Sentencecase",
       "snakecase": "Snakecase",
-      "mockingcase": "Mockingcase"
+      "uppercase": "Store bokstaver",
+      "yourString": "Din streng",
+      "yourStringPlaceholder": "Skriv inn teksten din her..."
     }
   }
 }

@@ -1,31 +1,31 @@
 {
   "tools": {
     "ipv4-subnet-calculator": {
+      "broadcastAddress": "Broadcast-Adresse",
+      "cannotParseAddress": "Wir können diese Adresse nicht analysieren, überprüfen Sie das Format",
+      "cardInputDescription": "Geben Sie eine IPv4-Adresse mit oder ohne CIDR-Notation ein, um Subnetz-Informationen zu berechnen.",
+      "cardInputTitle": "IPv4-Adresse",
+      "cardResultsDescription": "Detaillierte Netzwerk- und Subnetz-Informationen für die eingegebene IPv4-Adresse.",
+      "cardResultsTitle": "Subnetz-Informationen",
+      "cidrNotation": "CIDR-Notation",
+      "firstAddress": "Erste Adresse",
       "inputLabel": "Eine IPv4-Adresse mit oder ohne Maske",
       "inputPlaceholder": "Die IPv4-Adresse...",
-      "cannotParseAddress": "Wir können diese Adresse nicht analysieren, überprüfen Sie das Format",
+      "invalidAddressTitle": "Ungültige Adresse",
+      "ipClass": "IP-Klasse",
+      "lastAddress": "Letzte Adresse",
       "netmask": "Netzmaske",
       "networkAddress": "Netzwerkadresse",
       "networkMask": "Netzwerkmaske",
       "networkMaskInBinary": "Netzwerkmaske binär",
-      "cidrNotation": "CIDR-Notation",
-      "wildcardMask": "Wildcard-Maske",
       "networkSize": "Netzwerkgröße",
-      "firstAddress": "Erste Adresse",
-      "lastAddress": "Letzte Adresse",
-      "broadcastAddress": "Broadcast-Adresse",
-      "noBroadcastAddress": "Keine Broadcast-Adresse mit dieser Maske",
-      "ipClass": "IP-Klasse",
-      "unknownClassType": "Unbekannter Klassentyp",
-      "previousBlock": "Vorheriger Block",
       "nextBlock": "Nächster Block",
-      "cardInputTitle": "IPv4-Adresse",
-      "cardInputDescription": "Geben Sie eine IPv4-Adresse mit oder ohne CIDR-Notation ein, um Subnetz-Informationen zu berechnen.",
-      "cardResultsTitle": "Subnetz-Informationen",
-      "cardResultsDescription": "Detaillierte Netzwerk- und Subnetz-Informationen für die eingegebene IPv4-Adresse.",
-      "invalidAddressTitle": "Ungültige Adresse",
+      "noBroadcastAddress": "Keine Broadcast-Adresse mit dieser Maske",
+      "previousBlock": "Vorheriger Block",
       "property": "Eigenschaft",
-      "value": "Wert"
+      "unknownClassType": "Unbekannter Klassentyp",
+      "value": "Wert",
+      "wildcardMask": "Wildcard-Maske"
     }
   }
 }

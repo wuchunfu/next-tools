@@ -122,7 +122,7 @@ const { copy } = useCopy({ source: ulids });
     </Card>
 
     <!-- Output Section -->
-    <Card data-test-id="ulids" class="flex flex-col">
+    <Card data-testid="ulids" class="flex flex-col">
       <CardHeader>
         <CardTitle class="flex items-center gap-2">
           <Barcode class="h-5 w-5 text-primary" />

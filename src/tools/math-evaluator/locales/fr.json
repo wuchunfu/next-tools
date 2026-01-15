@@ -1,10 +1,10 @@
 {
   "tools": {
     "math-evaluator": {
-      "cardInputTitle": "Expression mathématique",
       "cardInputDescription": "Saisissez une expression mathématique en utilisant les opérateurs et fonctions standard (par ex. 2 * sqrt(6) + sin(pi / 4)).",
-      "cardResultTitle": "Résultat de l'évaluation",
+      "cardInputTitle": "Expression mathématique",
       "cardResultDescription": "Le résultat calculé de votre expression.",
+      "cardResultTitle": "Résultat de l'évaluation",
       "placeholder": "Votre expression mathématique (ex: 2*sqrt(6) )...",
       "result": "Résultat"
     }

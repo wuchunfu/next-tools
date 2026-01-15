@@ -1,23 +1,23 @@
 {
   "tools": {
     "text-to-unicode": {
-      "cardTextToUnicodeTitle": "Текст до Unicode",
       "cardTextToUnicodeDescription": "Перетворіть текст на послідовності екранування Unicode (формат \\u0031).",
-      "cardUnicodeToTextTitle": "Unicode до Тексту",
+      "cardTextToUnicodeTitle": "Текст до Unicode",
       "cardUnicodeToTextDescription": "Перетворіть послідовності екранування Unicode назад на текст.",
-      "textPlaceholder": "напр. 'Hello Avengers'",
+      "cardUnicodeToTextTitle": "Unicode до Тексту",
+      "characters": "Символи",
+      "clear": "Очистити",
       "enterTextToConvert": "Введіть текст для перетворення",
+      "enterUnicodeToConvert": "Введіть unicode для перетворення",
+      "entities": "Сутності",
       "inputLength": "Довжина",
       "outputLength": "Довжина",
-      "characters": "Символи",
-      "entities": "Сутності",
-      "clear": "Очистити",
-      "unicodeFromText": "Вивід Unicode",
-      "unicodePlaceholder": "Представлення unicode вашого тексту з'явиться тут",
-      "unicodeInputPlaceholder": "Ввести Unicode",
-      "enterUnicodeToConvert": "Введіть unicode для перетворення",
       "textFromUnicode": "Текстовий вивід",
-      "textOutputPlaceholder": "Текстове представлення вашого unicode з'явиться тут"
+      "textOutputPlaceholder": "Текстове представлення вашого unicode з'явиться тут",
+      "textPlaceholder": "напр. 'Hello Avengers'",
+      "unicodeFromText": "Вивід Unicode",
+      "unicodeInputPlaceholder": "Ввести Unicode",
+      "unicodePlaceholder": "Представлення unicode вашого тексту з'явиться тут"
     }
   }
 }

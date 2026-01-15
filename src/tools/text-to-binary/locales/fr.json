@@ -1,23 +1,23 @@
 {
   "tools": {
     "text-to-binary": {
-      "cardTextToBinaryTitle": "Texte vers Binaire",
-      "cardTextToBinaryDescription": "Convertissez le texte en sa représentation binaire ASCII.",
-      "cardBinaryToTextTitle": "Binaire vers Texte",
+      "binaryFromText": "Sortie binaire",
+      "binaryInputPlaceholder": "ex. '01001000 01100101 01101100 01101100 01101111'",
+      "binaryPlaceholder": "La représentation binaire de votre texte apparaîtra ici",
+      "bytes": "Octets",
       "cardBinaryToTextDescription": "Convertissez la représentation binaire ASCII en texte.",
-      "textPlaceholder": "ex. 'Hello world'",
+      "cardBinaryToTextTitle": "Binaire vers Texte",
+      "cardTextToBinaryDescription": "Convertissez le texte en sa représentation binaire ASCII.",
+      "cardTextToBinaryTitle": "Texte vers Binaire",
+      "clear": "Effacer",
+      "enterBinaryToConvert": "Entrez le binaire à convertir",
       "enterTextToConvert": "Entrez le texte à convertir",
       "inputLength": "Longueur",
+      "invalidBinary": "Le binaire doit être une chaîne binaire ASCII valide avec des multiples de 8 bits",
       "outputLength": "Longueur",
-      "bytes": "Octets",
-      "clear": "Effacer",
-      "binaryFromText": "Sortie binaire",
-      "binaryPlaceholder": "La représentation binaire de votre texte apparaîtra ici",
-      "binaryInputPlaceholder": "ex. '01001000 01100101 01101100 01101100 01101111'",
-      "enterBinaryToConvert": "Entrez le binaire à convertir",
       "textFromBinary": "Sortie texte",
       "textOutputPlaceholder": "La représentation texte de votre binaire apparaîtra ici",
-      "invalidBinary": "Le binaire doit être une chaîne binaire ASCII valide avec des multiples de 8 bits"
+      "textPlaceholder": "ex. 'Hello world'"
     }
   }
 }

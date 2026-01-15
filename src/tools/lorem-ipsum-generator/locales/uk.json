@@ -1,19 +1,19 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "optionsTitle": "Параметри",
-      "optionsDescription": "Налаштуйте параметри генерації Lorem Ipsum",
-      "resultsTitle": "Згенерований текст",
-      "resultsDescription": "Попередній перегляд згенерованого Lorem Ipsum",
-      "paragraphs": "Абзаци",
-      "sentencesPerParagraph": "Речень в абзаці",
-      "wordsPerSentence": "Слів у реченні",
-      "startWithLoremIpsum": "Почати з lorem ipsum?",
       "asHtml": "Як HTML?",
-      "placeholder": "Ваш lorem ipsum...",
+      "copied": "Lorem ipsum скопійовано в буфер обміну",
       "copy": "Копіювати",
+      "optionsDescription": "Налаштуйте параметри генерації Lorem Ipsum",
+      "optionsTitle": "Параметри",
+      "paragraphs": "Абзаци",
+      "placeholder": "Ваш lorem ipsum...",
       "refresh": "Оновити",
-      "copied": "Lorem ipsum скопійовано в буфер обміну"
+      "resultsDescription": "Попередній перегляд згенерованого Lorem Ipsum",
+      "resultsTitle": "Згенерований текст",
+      "sentencesPerParagraph": "Речень в абзаці",
+      "startWithLoremIpsum": "Почати з lorem ipsum?",
+      "wordsPerSentence": "Слів у реченні"
     }
   }
 }

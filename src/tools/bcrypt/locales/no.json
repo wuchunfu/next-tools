@@ -1,21 +1,21 @@
 {
   "tools": {
     "bcrypt": {
+      "compareStringWithHash": "Sammenlign streng med hash",
+      "copied": "Hashet streng kopiert til utklippstavlen",
+      "copyHash": "Kopier hash",
+      "doTheyMatch": "Stemmer de overens?",
+      "enterBothFields": "Skriv inn begge felt for å sammenligne",
       "hash": "Hash",
+      "hashToCompare": "Din hash å sammenligne...",
+      "no": "Nei",
       "placeholder": "Din streng å bcrypte...",
-      "yourString": "Din streng:",
       "saltCount": "Salt-antall:",
       "saltRounds": "Salt-runder...",
-      "copyHash": "Kopier hash",
-      "copied": "Hashet streng kopiert til utklippstavlen",
-      "compareStringWithHash": "Sammenlign streng med hash",
       "stringToCompare": "Din streng å sammenligne...",
-      "yourHash": "Din hash:",
-      "hashToCompare": "Din hash å sammenligne...",
-      "doTheyMatch": "Stemmer de overens?",
       "yes": "Ja",
-      "no": "Nei",
-      "enterBothFields": "Skriv inn begge felt for å sammenligne"
+      "yourHash": "Din hash:",
+      "yourString": "Din streng:"
     }
   }
 }

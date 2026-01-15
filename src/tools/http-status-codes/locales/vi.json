@@ -1,13 +1,6 @@
 {
   "tools": {
     "http-status-codes": {
-      "searchPlaceholder": "Tìm kiếm trạng thái HTTP...",
-      "searchResults": "Kết quả tìm kiếm",
-      "forType": "Cho {type}.",
-      "types": {
-        "http": "HTTP",
-        "webdav": "WebDav"
-      },
       "categories": {
         "1xx-informational-response": "Phản hồi thông tin 1xx",
         "2xx-success": "Thành công 2xx",
@@ -17,257 +10,264 @@
       },
       "codes": {
         "100": {
-          "name": "Tiếp tục",
-          "description": "Đang chờ máy khách gửi phần thân của yêu cầu."
+          "description": "Đang chờ máy khách gửi phần thân của yêu cầu.",
+          "name": "Tiếp tục"
         },
         "101": {
-          "name": "Chuyển đổi giao thức",
-          "description": "Máy chủ đã đồng ý thay đổi giao thức."
+          "description": "Máy chủ đã đồng ý thay đổi giao thức.",
+          "name": "Chuyển đổi giao thức"
         },
         "102": {
-          "name": "Đang xử lý",
-          "description": "Máy chủ đang xử lý yêu cầu, nhưng chưa có phản hồi nào."
+          "description": "Máy chủ đang xử lý yêu cầu, nhưng chưa có phản hồi nào.",
+          "name": "Đang xử lý"
         },
         "103": {
-          "name": "Gợi ý sớm",
-          "description": "Máy chủ trả về một số tiêu đề phản hồi trước thông báo HTTP cuối cùng."
+          "description": "Máy chủ trả về một số tiêu đề phản hồi trước thông báo HTTP cuối cùng.",
+          "name": "Gợi ý sớm"
         },
         "200": {
-          "name": "OK",
-          "description": "Phản hồi tiêu chuẩn cho các yêu cầu HTTP thành công."
+          "description": "Phản hồi tiêu chuẩn cho các yêu cầu HTTP thành công.",
+          "name": "OK"
         },
         "201": {
-          "name": "Đã tạo",
-          "description": "Yêu cầu đã được thực hiện, dẫn đến việc tạo một tài nguyên mới."
+          "description": "Yêu cầu đã được thực hiện, dẫn đến việc tạo một tài nguyên mới.",
+          "name": "Đã tạo"
         },
         "202": {
-          "name": "Đã chấp nhận",
-          "description": "Yêu cầu đã được chấp nhận để xử lý, nhưng việc xử lý chưa hoàn tất."
+          "description": "Yêu cầu đã được chấp nhận để xử lý, nhưng việc xử lý chưa hoàn tất.",
+          "name": "Đã chấp nhận"
         },
         "203": {
-          "name": "Thông tin không có thẩm quyền",
-          "description": "Yêu cầu thành công nhưng nội dung của yêu cầu ban đầu đã bị thay đổi bởi một proxy chuyển đổi."
+          "description": "Yêu cầu thành công nhưng nội dung của yêu cầu ban đầu đã bị thay đổi bởi một proxy chuyển đổi.",
+          "name": "Thông tin không có thẩm quyền"
         },
         "204": {
-          "name": "Không có nội dung",
-          "description": "Máy chủ đã xử lý thành công yêu cầu và không trả về bất kỳ nội dung nào."
+          "description": "Máy chủ đã xử lý thành công yêu cầu và không trả về bất kỳ nội dung nào.",
+          "name": "Không có nội dung"
         },
         "205": {
-          "name": "Đặt lại nội dung",
-          "description": "Máy chủ chỉ thị khởi tạo lại chế độ xem tài liệu đã gửi yêu cầu này."
+          "description": "Máy chủ chỉ thị khởi tạo lại chế độ xem tài liệu đã gửi yêu cầu này.",
+          "name": "Đặt lại nội dung"
         },
         "206": {
-          "name": "Nội dung một phần",
-          "description": "Máy chủ chỉ cung cấp một phần tài nguyên do tiêu đề phạm vi được gửi bởi máy khách."
+          "description": "Máy chủ chỉ cung cấp một phần tài nguyên do tiêu đề phạm vi được gửi bởi máy khách.",
+          "name": "Nội dung một phần"
         },
         "207": {
-          "name": "Đa trạng thái",
-          "description": "Phần thân thông báo tiếp theo là thông báo XML và có thể chứa một số mã phản hồi riêng biệt."
+          "description": "Phần thân thông báo tiếp theo là thông báo XML và có thể chứa một số mã phản hồi riêng biệt.",
+          "name": "Đa trạng thái"
         },
         "208": {
-          "name": "Đã báo cáo",
-          "description": "Các thành viên của liên kết DAV đã được liệt kê trong phần trước của phản hồi (multistatus)."
+          "description": "Các thành viên của liên kết DAV đã được liệt kê trong phần trước của phản hồi (multistatus).",
+          "name": "Đã báo cáo"
         },
         "226": {
-          "name": "IM đã sử dụng",
-          "description": "Máy chủ đã thực hiện yêu cầu cho tài nguyên, và phản hồi là biểu diễn của kết quả."
+          "description": "Máy chủ đã thực hiện yêu cầu cho tài nguyên, và phản hồi là biểu diễn của kết quả.",
+          "name": "IM đã sử dụng"
         },
         "300": {
-          "name": "Nhiều lựa chọn",
-          "description": "Chỉ ra nhiều tùy chọn cho tài nguyên mà máy khách có thể theo dõi."
+          "description": "Chỉ ra nhiều tùy chọn cho tài nguyên mà máy khách có thể theo dõi.",
+          "name": "Nhiều lựa chọn"
         },
         "301": {
-          "name": "Đã di chuyển vĩnh viễn",
-          "description": "Yêu cầu này và tất cả các yêu cầu tương lai nên được chuyển hướng đến URI đã cho."
+          "description": "Yêu cầu này và tất cả các yêu cầu tương lai nên được chuyển hướng đến URI đã cho.",
+          "name": "Đã di chuyển vĩnh viễn"
         },
         "302": {
-          "name": "Đã tìm thấy",
-          "description": "Chuyển hướng đến URL khác. Đây là ví dụ về thực hành ngành mâu thuẫn với tiêu chuẩn."
+          "description": "Chuyển hướng đến URL khác. Đây là ví dụ về thực hành ngành mâu thuẫn với tiêu chuẩn.",
+          "name": "Đã tìm thấy"
         },
         "303": {
-          "name": "Xem khác",
-          "description": "Phản hồi cho yêu cầu có thể được tìm thấy dưới URI khác bằng phương thức GET."
+          "description": "Phản hồi cho yêu cầu có thể được tìm thấy dưới URI khác bằng phương thức GET.",
+          "name": "Xem khác"
         },
         "304": {
-          "name": "Không thay đổi",
-          "description": "Chỉ ra rằng tài nguyên chưa được thay đổi kể từ phiên bản được chỉ định bởi các tiêu đề yêu cầu."
+          "description": "Chỉ ra rằng tài nguyên chưa được thay đổi kể từ phiên bản được chỉ định bởi các tiêu đề yêu cầu.",
+          "name": "Không thay đổi"
         },
         "305": {
-          "name": "Sử dụng proxy",
-          "description": "Tài nguyên được yêu cầu chỉ có sẵn thông qua proxy, địa chỉ được cung cấp trong phản hồi."
+          "description": "Tài nguyên được yêu cầu chỉ có sẵn thông qua proxy, địa chỉ được cung cấp trong phản hồi.",
+          "name": "Sử dụng proxy"
         },
         "306": {
-          "name": "Chuyển đổi proxy",
-          "description": "Không còn được sử dụng. Ban đầu có nghĩa là \"Các yêu cầu tiếp theo nên sử dụng proxy được chỉ định.\""
+          "description": "Không còn được sử dụng. Ban đầu có nghĩa là \"Các yêu cầu tiếp theo nên sử dụng proxy được chỉ định.\"",
+          "name": "Chuyển đổi proxy"
         },
         "307": {
-          "name": "Chuyển hướng tạm thời",
-          "description": "Trong trường hợp này, yêu cầu nên được lặp lại với URI khác; tuy nhiên, các yêu cầu tương lai vẫn nên sử dụng URI gốc."
+          "description": "Trong trường hợp này, yêu cầu nên được lặp lại với URI khác; tuy nhiên, các yêu cầu tương lai vẫn nên sử dụng URI gốc.",
+          "name": "Chuyển hướng tạm thời"
         },
         "308": {
-          "name": "Chuyển hướng vĩnh viễn",
-          "description": "Yêu cầu và tất cả các yêu cầu tương lai nên được lặp lại bằng cách sử dụng URI khác."
+          "description": "Yêu cầu và tất cả các yêu cầu tương lai nên được lặp lại bằng cách sử dụng URI khác.",
+          "name": "Chuyển hướng vĩnh viễn"
         },
         "400": {
-          "name": "Yêu cầu không hợp lệ",
-          "description": "Máy chủ không thể hoặc sẽ không xử lý yêu cầu do lỗi máy khách rõ ràng."
+          "description": "Máy chủ không thể hoặc sẽ không xử lý yêu cầu do lỗi máy khách rõ ràng.",
+          "name": "Yêu cầu không hợp lệ"
         },
         "401": {
-          "name": "Không được phép",
-          "description": "Tương tự như 403 Cấm, nhưng cụ thể để sử dụng khi xác thực được yêu cầu và đã thất bại hoặc chưa được cung cấp."
+          "description": "Tương tự như 403 Cấm, nhưng cụ thể để sử dụng khi xác thực được yêu cầu và đã thất bại hoặc chưa được cung cấp.",
+          "name": "Không được phép"
         },
         "402": {
-          "name": "Yêu cầu thanh toán",
-          "description": "Được dành cho việc sử dụng trong tương lai. Ý định ban đầu là mã này có thể được sử dụng như một phần của một số hình thức tiền kỹ thuật số hoặc hệ thống thanh toán vi mô."
+          "description": "Được dành cho việc sử dụng trong tương lai. Ý định ban đầu là mã này có thể được sử dụng như một phần của một số hình thức tiền kỹ thuật số hoặc hệ thống thanh toán vi mô.",
+          "name": "Yêu cầu thanh toán"
         },
         "403": {
-          "name": "Cấm",
-          "description": "Yêu cầu hợp lệ, nhưng máy chủ từ chối thực hiện hành động. Người dùng có thể không có quyền cần thiết cho tài nguyên."
+          "description": "Yêu cầu hợp lệ, nhưng máy chủ từ chối thực hiện hành động. Người dùng có thể không có quyền cần thiết cho tài nguyên.",
+          "name": "Cấm"
         },
         "404": {
-          "name": "Không tìm thấy",
-          "description": "Tài nguyên được yêu cầu không thể được tìm thấy nhưng có thể có sẵn trong tương lai."
+          "description": "Tài nguyên được yêu cầu không thể được tìm thấy nhưng có thể có sẵn trong tương lai.",
+          "name": "Không tìm thấy"
         },
         "405": {
-          "name": "Phương thức không được phép",
-          "description": "Một phương thức yêu cầu không được hỗ trợ cho tài nguyên được yêu cầu."
+          "description": "Một phương thức yêu cầu không được hỗ trợ cho tài nguyên được yêu cầu.",
+          "name": "Phương thức không được phép"
         },
         "406": {
-          "name": "Không chấp nhận được",
-          "description": "Tài nguyên được yêu cầu chỉ có khả năng tạo nội dung không chấp nhận được theo các tiêu đề Accept được gửi trong yêu cầu."
+          "description": "Tài nguyên được yêu cầu chỉ có khả năng tạo nội dung không chấp nhận được theo các tiêu đề Accept được gửi trong yêu cầu.",
+          "name": "Không chấp nhận được"
         },
         "407": {
-          "name": "Yêu cầu xác thực proxy",
-          "description": "Máy khách phải xác thực với proxy trước."
+          "description": "Máy khách phải xác thực với proxy trước.",
+          "name": "Yêu cầu xác thực proxy"
         },
         "408": {
-          "name": "Hết thời gian chờ yêu cầu",
-          "description": "Máy chủ đã hết thời gian chờ yêu cầu."
+          "description": "Máy chủ đã hết thời gian chờ yêu cầu.",
+          "name": "Hết thời gian chờ yêu cầu"
         },
         "409": {
-          "name": "Xung đột",
-          "description": "Chỉ ra rằng yêu cầu không thể được xử lý do xung đột trong yêu cầu, chẳng hạn như xung đột chỉnh sửa."
+          "description": "Chỉ ra rằng yêu cầu không thể được xử lý do xung đột trong yêu cầu, chẳng hạn như xung đột chỉnh sửa.",
+          "name": "Xung đột"
         },
         "410": {
-          "name": "Đã biến mất",
-          "description": "Chỉ ra rằng tài nguyên được yêu cầu không còn khả dụng và sẽ không khả dụng lại."
+          "description": "Chỉ ra rằng tài nguyên được yêu cầu không còn khả dụng và sẽ không khả dụng lại.",
+          "name": "Đã biến mất"
         },
         "411": {
-          "name": "Yêu cầu độ dài",
-          "description": "Yêu cầu không chỉ định độ dài nội dung của nó, điều này được yêu cầu bởi tài nguyên được yêu cầu."
+          "description": "Yêu cầu không chỉ định độ dài nội dung của nó, điều này được yêu cầu bởi tài nguyên được yêu cầu.",
+          "name": "Yêu cầu độ dài"
         },
         "412": {
-          "name": "Điều kiện tiên quyết thất bại",
-          "description": "Máy chủ không đáp ứng một trong các điều kiện tiên quyết mà người yêu cầu đặt ra cho yêu cầu."
+          "description": "Máy chủ không đáp ứng một trong các điều kiện tiên quyết mà người yêu cầu đặt ra cho yêu cầu.",
+          "name": "Điều kiện tiên quyết thất bại"
         },
         "413": {
-          "name": "Tải trọng quá lớn",
-          "description": "Yêu cầu lớn hơn mức máy chủ sẵn sàng hoặc có thể xử lý."
+          "description": "Yêu cầu lớn hơn mức máy chủ sẵn sàng hoặc có thể xử lý.",
+          "name": "Tải trọng quá lớn"
         },
         "414": {
-          "name": "URI quá dài",
-          "description": "URI được cung cấp quá dài để máy chủ xử lý."
+          "description": "URI được cung cấp quá dài để máy chủ xử lý.",
+          "name": "URI quá dài"
         },
         "415": {
-          "name": "Loại phương tiện không được hỗ trợ",
-          "description": "Thực thể yêu cầu có loại phương tiện mà máy chủ hoặc tài nguyên không hỗ trợ."
+          "description": "Thực thể yêu cầu có loại phương tiện mà máy chủ hoặc tài nguyên không hỗ trợ.",
+          "name": "Loại phương tiện không được hỗ trợ"
         },
         "416": {
-          "name": "Phạm vi không thỏa mãn",
-          "description": "Máy khách đã yêu cầu một phần của tệp, nhưng máy chủ không thể cung cấp phần đó."
+          "description": "Máy khách đã yêu cầu một phần của tệp, nhưng máy chủ không thể cung cấp phần đó.",
+          "name": "Phạm vi không thỏa mãn"
         },
         "417": {
-          "name": "Kỳ vọng thất bại",
-          "description": "Máy chủ không thể đáp ứng các yêu cầu của trường tiêu đề yêu cầu Expect."
+          "description": "Máy chủ không thể đáp ứng các yêu cầu của trường tiêu đề yêu cầu Expect.",
+          "name": "Kỳ vọng thất bại"
         },
         "418": {
-          "name": "Tôi là ấm trà",
-          "description": "Máy chủ từ chối việc cố gắng pha cà phê bằng ấm trà."
+          "description": "Máy chủ từ chối việc cố gắng pha cà phê bằng ấm trà.",
+          "name": "Tôi là ấm trà"
         },
         "421": {
-          "name": "Yêu cầu sai hướng",
-          "description": "Yêu cầu được chuyển đến một máy chủ không thể tạo phản hồi."
+          "description": "Yêu cầu được chuyển đến một máy chủ không thể tạo phản hồi.",
+          "name": "Yêu cầu sai hướng"
         },
         "422": {
-          "name": "Thực thể không thể xử lý",
-          "description": "Yêu cầu được định dạng đúng nhưng không thể được thực hiện do lỗi ngữ nghĩa."
+          "description": "Yêu cầu được định dạng đúng nhưng không thể được thực hiện do lỗi ngữ nghĩa.",
+          "name": "Thực thể không thể xử lý"
         },
         "423": {
-          "name": "Đã khóa",
-          "description": "Tài nguyên đang được truy cập đã bị khóa."
+          "description": "Tài nguyên đang được truy cập đã bị khóa.",
+          "name": "Đã khóa"
         },
         "424": {
-          "name": "Phụ thuộc thất bại",
-          "description": "Yêu cầu thất bại do thất bại của yêu cầu trước đó."
+          "description": "Yêu cầu thất bại do thất bại của yêu cầu trước đó.",
+          "name": "Phụ thuộc thất bại"
         },
         "425": {
-          "name": "Quá sớm",
-          "description": "Chỉ ra rằng máy chủ không muốn rủi ro xử lý một yêu cầu có thể được phát lại."
+          "description": "Chỉ ra rằng máy chủ không muốn rủi ro xử lý một yêu cầu có thể được phát lại.",
+          "name": "Quá sớm"
         },
         "426": {
-          "name": "Yêu cầu nâng cấp",
-          "description": "Máy khách nên chuyển sang giao thức khác như TLS/1.0."
+          "description": "Máy khách nên chuyển sang giao thức khác như TLS/1.0.",
+          "name": "Yêu cầu nâng cấp"
         },
         "428": {
-          "name": "Yêu cầu điều kiện tiên quyết",
-          "description": "Máy chủ gốc yêu cầu yêu cầu phải có điều kiện."
+          "description": "Máy chủ gốc yêu cầu yêu cầu phải có điều kiện.",
+          "name": "Yêu cầu điều kiện tiên quyết"
         },
         "429": {
-          "name": "Quá nhiều yêu cầu",
-          "description": "Người dùng đã gửi quá nhiều yêu cầu trong một khoảng thời gian nhất định."
+          "description": "Người dùng đã gửi quá nhiều yêu cầu trong một khoảng thời gian nhất định.",
+          "name": "Quá nhiều yêu cầu"
         },
         "431": {
-          "name": "Các trường tiêu đề yêu cầu quá lớn",
-          "description": "Máy chủ không muốn xử lý yêu cầu vì một trường tiêu đề riêng lẻ, hoặc tất cả các trường tiêu đề cùng nhau, quá lớn."
+          "description": "Máy chủ không muốn xử lý yêu cầu vì một trường tiêu đề riêng lẻ, hoặc tất cả các trường tiêu đề cùng nhau, quá lớn.",
+          "name": "Các trường tiêu đề yêu cầu quá lớn"
         },
         "451": {
-          "name": "Không khả dụng vì lý do pháp lý",
-          "description": "Người vận hành máy chủ đã nhận được yêu cầu pháp lý để từ chối quyền truy cập vào tài nguyên hoặc một tập hợp tài nguyên bao gồm tài nguyên được yêu cầu."
+          "description": "Người vận hành máy chủ đã nhận được yêu cầu pháp lý để từ chối quyền truy cập vào tài nguyên hoặc một tập hợp tài nguyên bao gồm tài nguyên được yêu cầu.",
+          "name": "Không khả dụng vì lý do pháp lý"
         },
         "500": {
-          "name": "Lỗi máy chủ nội bộ",
-          "description": "Thông báo lỗi chung, được đưa ra khi gặp điều kiện không mong đợi và không có thông báo cụ thể hơn phù hợp."
+          "description": "Thông báo lỗi chung, được đưa ra khi gặp điều kiện không mong đợi và không có thông báo cụ thể hơn phù hợp.",
+          "name": "Lỗi máy chủ nội bộ"
         },
         "501": {
-          "name": "Chưa được triển khai",
-          "description": "Máy chủ không nhận ra phương thức yêu cầu, hoặc thiếu khả năng thực hiện yêu cầu."
+          "description": "Máy chủ không nhận ra phương thức yêu cầu, hoặc thiếu khả năng thực hiện yêu cầu.",
+          "name": "Chưa được triển khai"
         },
         "502": {
-          "name": "Cổng kết nối không hợp lệ",
-          "description": "Máy chủ đang hoạt động như một cổng kết nối hoặc proxy và nhận được phản hồi không hợp lệ từ máy chủ thượng nguồn."
+          "description": "Máy chủ đang hoạt động như một cổng kết nối hoặc proxy và nhận được phản hồi không hợp lệ từ máy chủ thượng nguồn.",
+          "name": "Cổng kết nối không hợp lệ"
         },
         "503": {
-          "name": "Dịch vụ không khả dụng",
-          "description": "Máy chủ hiện không khả dụng (vì nó bị quá tải hoặc ngừng hoạt động để bảo trì)."
+          "description": "Máy chủ hiện không khả dụng (vì nó bị quá tải hoặc ngừng hoạt động để bảo trì).",
+          "name": "Dịch vụ không khả dụng"
         },
         "504": {
-          "name": "Hết thời gian chờ cổng kết nối",
-          "description": "Máy chủ đang hoạt động như một cổng kết nối hoặc proxy và không nhận được phản hồi kịp thời từ máy chủ thượng nguồn."
+          "description": "Máy chủ đang hoạt động như một cổng kết nối hoặc proxy và không nhận được phản hồi kịp thời từ máy chủ thượng nguồn.",
+          "name": "Hết thời gian chờ cổng kết nối"
         },
         "505": {
-          "name": "Phiên bản HTTP không được hỗ trợ",
-          "description": "Máy chủ không hỗ trợ phiên bản giao thức HTTP được sử dụng trong yêu cầu."
+          "description": "Máy chủ không hỗ trợ phiên bản giao thức HTTP được sử dụng trong yêu cầu.",
+          "name": "Phiên bản HTTP không được hỗ trợ"
         },
         "506": {
-          "name": "Biến thể cũng đàm phán",
-          "description": "Đàm phán nội dung minh bạch cho yêu cầu dẫn đến tham chiếu vòng tròn."
+          "description": "Đàm phán nội dung minh bạch cho yêu cầu dẫn đến tham chiếu vòng tròn.",
+          "name": "Biến thể cũng đàm phán"
         },
         "507": {
-          "name": "Không đủ dung lượng lưu trữ",
-          "description": "Máy chủ không thể lưu trữ biểu diễn cần thiết để hoàn thành yêu cầu."
+          "description": "Máy chủ không thể lưu trữ biểu diễn cần thiết để hoàn thành yêu cầu.",
+          "name": "Không đủ dung lượng lưu trữ"
         },
         "508": {
-          "name": "Phát hiện vòng lặp",
-          "description": "Máy chủ phát hiện một vòng lặp vô hạn trong khi xử lý yêu cầu."
+          "description": "Máy chủ phát hiện một vòng lặp vô hạn trong khi xử lý yêu cầu.",
+          "name": "Phát hiện vòng lặp"
         },
         "510": {
-          "name": "Không mở rộng",
-          "description": "Cần có thêm phần mở rộng cho yêu cầu để máy chủ thực hiện nó."
+          "description": "Cần có thêm phần mở rộng cho yêu cầu để máy chủ thực hiện nó.",
+          "name": "Không mở rộng"
         },
         "511": {
-          "name": "Yêu cầu xác thực mạng",
-          "description": "Máy khách cần xác thực để có quyền truy cập mạng."
+          "description": "Máy khách cần xác thực để có quyền truy cập mạng.",
+          "name": "Yêu cầu xác thực mạng"
         }
+      },
+      "forType": "Cho {type}.",
+      "searchPlaceholder": "Tìm kiếm trạng thái HTTP...",
+      "searchResults": "Kết quả tìm kiếm",
+      "types": {
+        "http": "HTTP",
+        "webdav": "WebDav"
       }
     }
   }

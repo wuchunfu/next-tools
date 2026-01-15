@@ -1,29 +1,29 @@
 {
   "tools": {
     "url-parser": {
-      "invalid": "Ungültige URL",
-      "cardTitle": "URL-Parser",
       "cardDescription": "URLs analysieren und ihre Komponenten extrahieren (Protokoll, Hostname, Pfad, Abfrageparameter usw.).",
-      "cardInputTitle": "URL-Eingabe",
       "cardInputDescription": "Fügen Sie unten eine URL ein. Wir validieren sie und zeigen Komponenten sowie Abfrageparameter an.",
-      "cardOutputTitle": "Analyseergebnis",
+      "cardInputTitle": "URL-Eingabe",
       "cardOutputDescription": "Prüfen und kopieren Sie die aus Ihrer Eingabe extrahierten URL-Komponenten.",
-      "inputPlaceholder": "Geben Sie die zu analysierende URL ein...",
+      "cardOutputTitle": "Analyseergebnis",
+      "cardTitle": "URL-Parser",
       "clear": "Löschen",
-      "invalidUrlTitle": "Ungültige URL",
-      "urlComponents": "URL-Komponenten",
-      "protocol": "Protokoll",
-      "username": "Benutzername",
-      "password": "Passwort",
-      "hostname": "Hostname",
-      "port": "Port",
-      "path": "Pfad",
-      "search": "Suche",
+      "enterUrlToParse": "Geben Sie eine gültige URL ein, um ihre Komponenten anzuzeigen.",
       "hash": "Hash",
-      "queryParameters": "Abfrageparameter",
+      "hostname": "Hostname",
+      "inputPlaceholder": "Geben Sie die zu analysierende URL ein...",
+      "invalid": "Ungültige URL",
+      "invalidUrlTitle": "Ungültige URL",
       "parameterName": "Parameter",
       "parameterValue": "Wert",
-      "enterUrlToParse": "Geben Sie eine gültige URL ein, um ihre Komponenten anzuzeigen."
+      "password": "Passwort",
+      "path": "Pfad",
+      "port": "Port",
+      "protocol": "Protokoll",
+      "queryParameters": "Abfrageparameter",
+      "search": "Suche",
+      "urlComponents": "URL-Komponenten",
+      "username": "Benutzername"
     }
   }
 }

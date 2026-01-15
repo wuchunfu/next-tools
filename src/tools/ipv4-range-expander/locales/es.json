@@ -1,23 +1,23 @@
 {
   "tools": {
     "ipv4-range-expander": {
-      "cardInputTitle": "Rango de direcciones IPv4",
+      "addressesInRange": "Direcciones en el rango",
       "cardInputDescription": "Ingrese las direcciones IPv4 de inicio y final para calcular el rango CIDR y la información de direcciones expandidas.",
-      "cardResultsTitle": "Resultados de expansión de rango",
+      "cardInputTitle": "Rango de direcciones IPv4",
       "cardResultsDescription": "Vea el rango CIDR calculado y la información de direcciones expandidas.",
-      "invalidAddressTitle": "Dirección inválida",
-      "startAddress": "Dirección de inicio",
-      "startAddressPlaceholder": "Dirección IPv4 de inicio...",
+      "cardResultsTitle": "Resultados de expansión de rango",
+      "cidr": "CIDR",
       "endAddress": "Dirección final",
       "endAddressPlaceholder": "Dirección IPv4 final...",
-      "invalidIpv4": "Dirección IPv4 inválida",
-      "addressesInRange": "Direcciones en el rango",
-      "cidr": "CIDR",
-      "label": "Etiqueta",
-      "oldValue": "valor antiguo",
-      "newValue": "valor nuevo",
+      "invalidAddressTitle": "Dirección inválida",
       "invalidCombination": "Combinación de direcciones inválida",
       "invalidCombinationDescription": "La dirección IPv4 final es menor que la dirección IPv4 de inicio. Esto no es válido y no se pudo calcular ningún resultado.",
+      "invalidIpv4": "Dirección IPv4 inválida",
+      "label": "Etiqueta",
+      "newValue": "valor nuevo",
+      "oldValue": "valor antiguo",
+      "startAddress": "Dirección de inicio",
+      "startAddressPlaceholder": "Dirección IPv4 de inicio...",
       "switchAddresses": "Cambiar direcciones"
     }
   }

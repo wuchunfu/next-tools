@@ -1,18 +1,18 @@
 {
   "tools": {
     "encryption": {
-      "encrypt": "Шифровать",
-      "yourText": "Ваш текст:",
-      "stringToCypher": "Строка для шифрования",
-      "yourSecretKey": "Ваш секретный ключ:",
-      "encryptionAlgorithm": "Алгоритм шифрования:",
-      "yourTextEncrypted": "Ваш зашифрованный текст:",
-      "stringHash": "Хеш вашей строки",
       "decrypt": "Расшифровать",
-      "yourEncryptedText": "Ваш зашифрованный текст:",
-      "yourDecryptedText": "Ваш расшифрованный текст:",
+      "encrypt": "Шифровать",
+      "encryptionAlgorithm": "Алгоритм шифрования:",
       "errorWhileDecrypting": "Ошибка при расшифровке",
-      "unableToDecrypt": "Невозможно расшифровать ваш текст"
+      "stringHash": "Хеш вашей строки",
+      "stringToCypher": "Строка для шифрования",
+      "unableToDecrypt": "Невозможно расшифровать ваш текст",
+      "yourDecryptedText": "Ваш расшифрованный текст:",
+      "yourEncryptedText": "Ваш зашифрованный текст:",
+      "yourSecretKey": "Ваш секретный ключ:",
+      "yourText": "Ваш текст:",
+      "yourTextEncrypted": "Ваш зашифрованный текст:"
     }
   }
 }

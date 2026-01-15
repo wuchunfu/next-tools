@@ -1,628 +1,628 @@
 {
   "404": {
-    "title": "404 Ikke funnet - Next Tools",
+    "backHome": "Tilbake til start",
     "description": "Siden du leter etter finnes ikke. Gå tilbake til Next Tools hjemmesiden for å finne utviklerverktøyene du trenger.",
+    "maybe": "Kanskje informasjonskapslene oppfører seg rart, prøvd en tvungen oppfriskning?",
     "notFound": "404 ikke funnet",
     "sorry": "Beklager, denne siden ser ikke ut til å eksistere",
-    "maybe": "Kanskje informasjonskapslene oppfører seg rart, prøvd en tvungen oppfriskning?",
-    "backHome": "Tilbake til start"
-  },
-  "tools": {
-    "ascii-text-drawer": {
-      "title": "ASCII-kunsttekstgenerator",
-      "description": "Opprett ASCII-kunsttekst med mange skrifttyper og stiler.",
-      "keywords": "ascii,asciiart,tekst,tegner"
-    },
-    "base-converter": {
-      "title": "Heltalls konverter",
-      "description": "Konverter et heltall mellom forskjellige baser (desimal, hexadesimal, binær, oktal, base64, etc.)",
-      "keywords": "heltall,tall,base,konvertering,desimal,heksadesimal,binær,oktalt,base64"
-    },
-    "base64-file-converter": {
-      "title": "Base64 fil konverter",
-      "description": "Konverter en base64 streng til fil eller en fil, bilde til en base64 representasjon.",
-      "keywords": "base64,konverter,opplasting,bilde,fil,konvertering,web,data,format"
-    },
-    "base64-string-converter": {
-      "title": "Base64 string kode/dekoder",
-      "description": "Enkelt kode eller dekode en tekststreng til base64 representasjonen av strengen.",
-      "keywords": "base64,konverter,konvertering,web,data,format,atob,btoa"
-    },
-    "basic-auth-generator": {
-      "title": "Basic auth generator",
-      "description": "Generer en base64 basic auth header fra et brukernavn og passord.",
-      "keywords": "grunnleggende,autentisering,generator,brukernavn,passord,base64,autentisering,header,autorisasjon"
-    },
-    "bcrypt": {
-      "title": "Bcrypt",
-      "description": "Hash og sammenlign tekst ved hjelp av bcrypt. Bcrypt er en passord-hashings funksjon basert på Blowfish cipher.",
-      "keywords": "bcrypt,hash,sammenlign,passord,salt,runde,lagring,krypto"
-    },
-    "benchmark-builder": {
-      "title": "Bygg en referansemåler",
-      "description": "Sammenlign enkelt kjøretiden av oppgaver med denne enkle referansemåls byggeren.",
-      "keywords": "referansemåler,bygger,utførelse,varighet,gjennomsnitt,varians"
-    },
-    "bip39-generator": {
-      "title": "BIP39 nøkkelords generator",
-      "description": "Generer et BIP39 nøkkelord fra en eksisterende eller tilfeldig huskesetning, eller få ut en huskesetning fra nøkkelordet.",
-      "keywords": "BIP39,passordfrase,generator,mnemonic,entropi"
-    },
-    "camera-recorder": {
-      "title": "Kameraopptak",
-      "description": "Ta et bilde eller spill inn en video med webkamera eller kameraet ditt.",
-      "keywords": "kamera,opptaker"
-    },
-    "case-converter": {
-      "title": "Bokstavkonvertering",
-      "description": "Formater bokstavene med store eller små bokstaver, samt andre format.",
-      "keywords": "case,konverter,camelCase,capitalCase,constantCase,dotCase,headerCase,noCase,paramCase,pascalCase,pathCase,sentenceCase,snakeCase"
-    },
-    "chmod-calculator": {
-      "title": "Chmod kalkulator",
-      "description": "Beregn chmod tillatelser og kommandoer med denne chmod kalkulatoren.",
-      "keywords": "chmod,kalkulator,fil,tillatelse,filer,katalog,mappe,rekursiv,generator,oktalt"
-    },
-    "chronometer": {
-      "title": "Kronometer",
-      "description": "Overvåk varigheten av noe. I bunn og grunn et kronometer med enkle funksjoner.",
-      "keywords": "kronometer,tid,runde,varighet,mål,pause,gjenoppta,stoppeklokke"
-    },
-    "color-converter": {
-      "title": "Farge konverter",
-      "description": "Konverter farger mellom de forskjellige formatene (hex, rgb, hsl og css navn).",
-      "keywords": "farge,konverter"
-    },
-    "crontab-generator": {
-      "title": "Crontab generator",
-      "description": "Verifiser og generer crontab og få den mennesklig leselige beskrivelsen av cron timeplanen.",
-      "keywords": "crontab,generator,cronjob,cron,timeplan,parse,uttrykk,år,måned,uke,dag,minutt,sekund"
-    },
-    "date-converter": {
-      "title": "Dato-tid konverter",
-      "description": "Konverter dato og tid til forskjellige formater.",
-      "keywords": "dato,tid,konverter,iso,utc,tidssone,år,måned,dag,minutt,sekund"
-    },
-    "device-information": {
-      "title": "Enhets informasjon",
-      "description": "Få informasjon om din nåværende enhet (skjermstørrelse, piksel-forhold, user agent, etc.)",
-      "keywords": "enhet,informasjon,skjerm,piksel,forhold,status,data,datamaskin,størrelse,bruker,agent"
-    },
-    "email-normalizer": {
-      "title": "E-post normalisator",
-      "description": "Normaliser e-postadresser til et standardformat for enklere sammenligning. Nyttig for deduplisering og datarensing.",
-      "keywords": "e-post,normalisator"
-    },
-    "emoji-picker": {
-      "title": "Emoji velger",
-      "description": "Klipp og lim emojis og få unicode og kode verdien av hver emoji.",
-      "keywords": "emoji,velger,unicode,kopier,lime"
-    },
-    "encryption": {
-      "title": "Krypter / decrypter tekst",
-      "description": "Krypter klartekst og dekrypter ciphertekst ved bruk av krypteringsalgoritmer som AES, TripleDES, Rabbit eller RC4.",
-      "keywords": "chiffer,kryptere,tekst,AES,TripleDES,Rabbit,RC4"
-    },
-    "git-memo": {
-      "title": "Git jukselapp",
-      "description": "Git er en desentralisert versjons håndterings programvare. Med denne jukselappen vil du få kjapp tilgang til de vanligste kommandoene.",
-      "keywords": "git,skyv,tving,dra,commit,endre,rebase,flett,tilbakestill,myk,hard,lease"
-    },
-    "eta-calculator": {
-      "title": "ETA kalkulator",
-      "description": "En ETA (Estimert Tid for Ankomst) kalkulator for å anslå den sannsynelige slutt tiden for en oppgave, for eksempel, slutttiden og varigheten av en filnedlastning.",
-      "keywords": "eta,kalkulator,estimert,tid,ankomst,gjennomsnitt"
-    },
-    "hash-text": {
-      "title": "Hash tekst",
-      "description": "Hash en tekst streng med en av algoritmene : MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 eller RIPEMD160",
-      "keywords": "hash,sammendrag,krypto,sikkerhet,tekst,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
-    },
-    "hmac-generator": {
-      "title": "Hmac generator",
-      "description": "Beregn en hash-basert meldings authentiserings kode (HMAC) ved bruk av en hemmelig nøkkel og din foretrukne hashings funksjon.",
-      "keywords": "hmac,generator,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160"
-    },
-    "html-entities": {
-      "title": "HTML streng rensing",
-      "description": "Rens bort eller omsvøp HTML entiteter (erstatt tegn som <,>, &, \" and \\' med deres HTML versjon).",
-      "keywords": "html,enheter,escape,unescape,spesielle,karakterer,tagger"
-    },
-    "html-wysiwyg-editor": {
-      "title": "HTML WYSIWYG editor",
-      "description": "Online, funksjonsrik WYSIWYG HTML editor som genererer kildekoden for innholdet øyeblikkelig.",
-      "keywords": "html,wysiwyg,redaktør,p,ul,ol,konverter,live"
-    },
-    "http-status-codes": {
-      "title": "HTTP status koder",
-      "description": "Liste over alle HTTP status koder, navnet dems, og betydningen.",
-      "keywords": "http,status,koder,statuskoder"
-    },
-    "iban-validator-and-parser": {
-      "title": "IBAN validering og analysering",
-      "description": "Valider og parser IBAN numre. Sjekk om et IBAN er gyldig og få landet, BBAN, om det er en QR-IBAN og IBAN i et vennlig format.",
-      "keywords": "iban,validerer,og,parser,bic,bank"
-    },
-    "ico-generator": {
-      "title": "ICO-generator",
-      "description": "Generer ICO-filer fra bilder. Konverter PNG, JPEG eller andre bildeformater til ICO-filer med flere ikonstørrelser for favicons og Windows-applikasjoner.",
-      "keywords": "ico,ikon,favicon,generator,konverter,bilde,png,jpeg,windows,konverter"
-    },
-    "ipv4-address-converter": {
-      "title": "IPv4 adresse konverter",
-      "description": "Konverter en IPv4 adresse til desimal, binær, hexadesimal, eller en IPv6 representasjon.",
-      "keywords": "ipv4,adresse,konverter,desimal,heksadesimal,binær,ipv6"
-    },
-    "ipv4-range-expander": {
-      "title": "IPv4 range utvider",
-      "description": "Gitt en start og en slutt IPv4 adresse, kalkulerer dette verktøyet et gyldig IPv4 subnet sammen med sin CIDR notasjon.",
-      "keywords": "ipv4,område,utvider,subnet,skaper,cidr"
-    },
-    "ipv4-subnet-calculator": {
-      "title": "IPv4 subnet kalkulator",
-      "description": "Parser IPv4 CIDR blokker of åf all info du trenger om subnettet.",
-      "keywords": "ipv4,subnet,kalkulator,maske,nettverk,cidr,nettverksmaske,bitmaske,broadcast,adresse"
-    },
-    "json-diff": {
-      "title": "JSON diff",
-      "description": "Sammenlign to JSON objekter og finn forskjellene mellom dem.",
-      "keywords": "json,diff,sammenlign,forskjell,objekt,data"
-    },
-    "json-prettify": {
-      "title": "JSON forskjønning og formatering",
-      "description": "Forskjønn JSON strenger til et lettlest format.",
-      "keywords": "json,viser,forskjønn,format"
-    },
-    "ipv6-ula-generator": {
-      "title": "IPv6 ULA generator",
-      "description": "Generer din egen lokale, ikke-rutbare IP adresse til nettverket ditt i henhold til RFC4193.",
-      "keywords": "ipv6,ula,generator,rfc4193,nettverk,privat"
-    },
-    "json-to-xml": {
-      "title": "JSON til XML",
-      "description": "Konverter JSON til XML",
-      "keywords": "json,xml"
-    },
-    "json-to-yaml-converter": {
-      "title": "JSON til YAML",
-      "description": "Enkelt konverter JSON til YAML med dette verktøyet.",
-      "keywords": "yaml,til,json"
-    },
-    "keycode-info": {
-      "title": "Tastekode info",
-      "description": "Finn javascript tastekode, kode, plassering og modifikatorer av hvilken som helst tast.",
-      "keywords": "tastkode,info,kode,javascript,hendelse,tastkoder,hvilken,tastatur,trykk,modifikator,alt,ctrl,meta,shift"
-    },
-    "jwt-parser": {
-      "title": "JWT parser",
-      "description": "Parse og dekode et JSON Web Token (jwt) og vis innholdet.",
-      "keywords": "jwt,parser,dekode,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,token"
-    },
-    "json-minify": {
-      "title": "JSON minifiser",
-      "description": "Minifiser og komprimer JSON ved å fjerne unødvendige mellomrom.",
-      "keywords": "json,minifiser,format"
-    },
-    "list-converter": {
-      "title": "Liste konverterer",
-      "description": "Dette verktøyet kan prosessere kolonnebasert data og foreta forskjellige endringer (transposering, legge til prefix og suffix, reversere lister, sortere lister, gjøre om til små bokstaver, trunkere verdier) på hver rad.",
-      "keywords": "liste,konverterer,sorter,reverser,prefiks,suffiks,småbokstaver,trunker"
-    },
-    "json-to-toml": {
-      "title": "JSON til TOML",
-      "description": "Parser og konverter JSON til TOML.",
-      "keywords": "json,parse,toml,konverter,transformer"
-    },
-    "json-to-csv": {
-      "title": "JSON til CSV",
-      "description": "Konverter JSON til CSV med automatisk oppdagelse av headeren.",
-      "keywords": "json,til,csv,konverter"
-    },
-    "mac-address-generator": {
-      "title": "MAC adresse generator",
-      "description": "Sett inn antall og prefix. MAC addressene blir generert i ønsket format",
-      "keywords": "mac,adresse,generator,tilfeldig,prefiks"
-    },
-    "markdown-to-html": {
-      "title": "Markdown til HTML",
-      "description": "Konverter Markdown til HTML og skriv ut som PDF",
-      "keywords": "markdown,html,converter,pdf"
-    },
-    "math-evaluator": {
-      "title": "Matematikkevaluator",
-      "description": "En Kalkulator for å evaluere matematiske uttrykk. Du kan bruke funksjoner som sqrt, cos, sin, abs, etc.",
-      "keywords": "matte,evaluator,kalkulator,uttrykk,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh"
-    },
-    "numeronym-generator": {
-      "title": "Numeronym generator",
-      "description": "Et numeronym er et ord hvor et nummer er brukt til å lage en forkortelse. For eksempel, \"i18n\" er et numeronym for \"internasjonalisering\" hvor 18 står for antall bokstaver mellom første bokstaven i og den siste bokstaven n i ordet.",
-      "keywords": "numeronym,generator,forkortelse,i18n,a11y,l10n"
-    },
-    "lorem-ipsum-generator": {
-      "title": "Lorem ipsum generator",
-      "description": "Lorem ipsum er brukt som plassholder tekst, vanligvis brukt til å demonstrere den visuelle formen av et dokument eller font-type uten å måtte ha meningsfult innhold.",
-      "keywords": "lorem,ipsum,dolor,sit,amet,plassholder,tekst,filler,tilfeldig,generator"
-    },
-    "og-meta-generator": {
-      "title": "Open graph meta generator",
-      "description": "Generer open-graph og SoMe HTML meta tagger til nettsiden din.",
-      "keywords": "meta,tag,generator,sosial,tittel,beskrivelse,bilde,del,online,nettsted,åpen,graf,og"
-    },
-    "mime-types": {
-      "title": "MIME typer",
-      "description": "Konverter MIME typer til fil utvidelser og visa-versa.",
-      "keywords": "mime,typer,utvidelse,innhold,type"
-    },
-    "otp-generator": {
-      "title": "OTP kode generator",
-      "description": "Generer og valider tidsbasert OTP (one time password) for multi-faktor autentisering.",
-      "keywords": "otp,kode,generator,validerer,en,tid,passord,autentisering,MFA,mobil,enhet,sikkerhet,TOTP,Tid,HMAC"
-    },
-    "password-strength-analyser": {
-      "title": "Analyseverktøy for passordstyrke",
-      "description": "Oppdag styrken av passordet ditt med dette kun-klient-maskin passordstyrke analyse verktøyet og se den estimerte knekketiden.",
-      "keywords": "passord,styrke,analysator,og,knekk,tid,estimering,brute,force,attack,entropy,cracking,hash,hashing,algoritme,algoritmer,md5,sha1,sha256,sha512,bcrypt,scrypt,argon2,argon2id,argon2i,argon2d"
-    },
-    "pdf-signature-checker": {
-      "title": "PDF signatur sjekker",
-      "description": "Bekreft signaturen til en PDF fil. En signert PDF fil inneholder en eller flere signaturer som kan bli brukt til å bestemme om en fil har blitt endret etter at den var signert.",
-      "keywords": "pdf,signatur,sjekker,bekreft,valider,signer"
-    },
-    "percentage-calculator": {
-      "title": "Prosent kalkulator",
-      "description": "Beregn enkelt prosenter fra en verdi til en annen, eller fra en prosent til en verdi.",
-      "keywords": "prosent,kalkulator,beregn,verdi,tall,%"
-    },
-    "random-port-generator": {
-      "title": "Tilfeldig port generator",
-      "description": "Generer tilfeldige portnumre utenfor scopet av \"kjente\" porter (0-1023).",
-      "keywords": "system,port,lan,generator,tilfeldig,utvikling,datamaskin"
-    },
-    "phone-parser-and-formatter": {
-      "title": "Telefon format og parserer",
-      "description": "Parser, valider og formater telefon numre. få innformasjonen om telefon nummeret, slik som landskoden, type etc.",
-      "keywords": "telefon,parser,formatter,valider,format,nr,telefon,mobil,cell,internasjonal,nasjonal"
-    },
-    "regex-memo": {
-      "title": "Regex jukseark",
-      "description": "Javascript Regex/Regulært uttrykk jukseark",
-      "keywords": "regex,regular,uttrykk,javascript,memo,jukseark"
-    },
-    "mac-address-lookup": {
-      "title": "MAC address oppslagsverk",
-      "description": "Finn forhandler og produsent basert på MAC adressen.",
-      "keywords": "mac,adresse,oppslag,leverandør,parser,produsent"
-    },
-    "qrcode-generator": {
-      "title": "QR Kode generator",
-      "description": "Generer og last ned en QR kode til en URL (eller ren tekst), og tilpass bakgrunns og forgrunns farger.",
-      "keywords": "qr,kode,generator,firkantet,farge,lenke,lav,medium,kvartil,høy,transparent"
-    },
-    "roman-numeral-converter": {
-      "title": "Romertall konverter",
-      "description": "Konverter romertall til tall eller konverter tall til romertall.",
-      "keywords": "romersk,arabisk,konverter,X,I,V,L,C,D,M"
-    },
-    "rsa-key-pair-generator": {
-      "title": "RSA nøkkelpar generator",
-      "description": "Generer et nytt tilfeldig RSA privat og offentlig pem sertifikat nøkkel par.",
-      "keywords": "rsa,nøkkel,par,generator,offentlig,privat,hemmelig,ssh,pem"
-    },
-    "regex-tester": {
-      "title": "Regex tester",
-      "description": "Test dine regulære uttrykk med eksempeltekst.",
-      "keywords": "regex,tester,prøve,uttrykk"
-    },
-    "sql-prettify": {
-      "title": "SQL forskjønning and format",
-      "description": "Formater og forskjønn SQL spørringene dine (den støtter forskjellige SQL dialekter).",
-      "keywords": "sql,forskjønn,forskjønn,GCP BigQuery,IBM DB2,Apache Hive,MariaDB,MySQL,Couchbase N1QL,Oracle PL/SQL,PostgreSQL,Amazon Redshift,Spark,SQL Server Transact-SQL"
-    },
-    "safelink-decoder": {
-      "title": "Outlook Safelink dekoder",
-      "description": "Dekod Outlook SafeLink lenker",
-      "keywords": "outlook,safelink,dekoder"
-    },
-    "temperature-converter": {
-      "title": "Temperatur konverter",
-      "description": "Temperatur konversjoner mellom Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, og Rømer.",
-      "keywords": "temperatur,konverter,grad,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer"
-    },
-    "string-obfuscator": {
-      "title": "Streng obfuskator",
-      "description": "Obfusker en streng (som en hemmelighet, en IBAN, eller et token) og gjør den delbar og identifiserbar uten å vise innholdet.",
-      "keywords": "streng,obfuskator,hemmelighet,token,skjul,obskurer,maske,maskering"
-    },
-    "slugify-string": {
-      "title": "Slugify streng",
-      "description": "Lag en trygg url, filbane eller id.",
-      "keywords": "slugify,streng,escape,emoji,spesiell,karakter,mellomrom,trim"
-    },
-    "text-diff": {
-      "title": "Tekst diff",
-      "description": "Sammenlign to tekster og vis forskjellen mellom dem.",
-      "keywords": "tekst,diff,sammenlign,streng,tekst diff,kode"
-    },
-    "text-statistics": {
-      "title": "Tekst statistikk",
-      "description": "Få informasjonen om en tekst, antall karakterer, antall ord, størrelsen i bytes, etc.",
-      "keywords": "tekst,statistikk,lengde,karakterer,tell,størrelse,byte"
-    },
-    "svg-placeholder-generator": {
-      "title": "SVG plassholder generator",
-      "description": "Generer svg bilder til å bruke som plassholder i applikasjonen din.",
-      "keywords": "svg,plassholder,generator,bilde,størrelse,mockup"
-    },
-    "text-to-binary": {
-      "title": "Tekst til ASCII binært",
-      "description": "Konverter tekst til sin ASCII binære representasjon og visa-versa.",
-      "keywords": "tekst,til,binær,konverter,kode,dekode,ascii"
-    },
-    "text-to-nato-alphabet": {
-      "title": "Tekst til NATO alfabetet",
-      "description": "Transformer teksten til det NATO fonetiske alfabetet for muntlig gjengivelse.",
-      "keywords": "streng,nato,alfabet,fonetisk,muntlig,overføring"
-    },
-    "text-to-unicode": {
-      "title": "Tekst til Unicode",
-      "description": "Parser og konverter tekst til unicode og visa-versa",
-      "keywords": "tekst,til,unicode"
-    },
-    "token-generator": {
-      "title": "Token generator",
-      "description": "Generer en tilfeldig streng med store og/eller små bokstaver, siffer og/eller symboler.",
-      "keywords": "token,tilfeldig,streng,alfanumerisk,symboler,tall,bokstaver,småbokstaver,storbokstaver,passord"
-    },
-    "toml-to-json": {
-      "title": "TOML til JSON",
-      "description": "Parser og konverter TOML til JSON.",
-      "keywords": "toml,json,konverter,online,transformer,parser"
-    },
-    "toml-to-yaml": {
-      "title": "TOML til YAML",
-      "description": "Parser og konverter TOML til YAML.",
-      "keywords": "toml,yaml,konverter,online,transformer,parse"
-    },
-    "url-encoder": {
-      "title": "Kode/dekode URL-formaterte strenger",
-      "description": "Kode tekst til URL-kodet format (også kjent som \"prosent-kodet\"), eller dekode fra det.",
-      "keywords": "url,kode,dekode,prosent,%20,format"
-    },
-    "ulid-generator": {
-      "title": "ULID generator",
-      "description": "Generer tilfeldig Universell Unik Leksikografisk Sorterbar Identifikator (ULID).",
-      "keywords": "ulid,generator,tilfeldig,id,alfanumerisk,identitet,token,streng,identifikator,unik"
-    },
-    "url-parser": {
-      "title": "URL analyse",
-      "description": "Parsere en URL ned til bestanddelene (protokoll, opprinnelse, parametre, port, brukernavn-passord, ...).",
-      "keywords": "url,parser,protokoll,opprinnelse,parametere,port,brukernavn,passord,href"
-    },
-    "uuid-generator": {
-      "title": "UUIDs generator",
-      "description": "En universell Unik Identifikator (UUID) er et 128-bit nummer, brukt til å identifisere informasjon i datasystemer.",
-      "keywords": "uuid,v4,tilfeldig,id,alfanumerisk,identitet,token,streng,identifikator,unik,v1,v3,v5,nil"
-    },
-    "wifi-qrcode-generator": {
-      "title": "WiFi QR Kode generator",
-      "description": "Generer og last ned QR koder for rask tilkobling til wifi nettverket.",
-      "keywords": "qr,kode,generator,firkantet,farge,lenke,lav,medium,kvartil,høy,transparent,wifi"
-    },
-    "yaml-prettify": {
-      "title": "YAML forskjønning og formatering",
-      "description": "Forskjønn YAML strengene dine til et lettlest format.",
-      "keywords": "yaml,viser,forskjønn,format"
-    },
-    "xml-to-json": {
-      "title": "XML til JSON",
-      "description": "Konverter XML til JSON",
-      "keywords": "xml,json"
-    },
-    "xml-formatter": {
-      "title": "XML formaterer",
-      "description": "Forskjønn en XML streng til et lettlest format.",
-      "keywords": "xml,forskjønn,format"
-    },
-    "user-agent-parser": {
-      "title": "User-agent analysering",
-      "description": "Detekter og parser nettleser, motor, OS, CPU, og enhet type/modell fra en user-agent tekst streng.",
-      "keywords": "bruker,agent,parser,nettleser,motor,os,cpu,enhet,user-agent,klient"
-    },
-    "yaml-to-toml": {
-      "title": "YAML til TOML",
-      "description": "Parser og konverter YAML til TOML.",
-      "keywords": "yaml,til,toml,konverter,transformer"
-    },
-    "docker-run-to-docker-compose-converter": {
-      "title": "Docker run til Docker compose konverter",
-      "description": "Konverter \"docker run\" kommandoer til docker-compose filer!",
-      "keywords": "docker,kjør,compose,yaml,yml,konverter,demon"
-    },
-    "yaml-to-json-converter": {
-      "title": "YAML til JSON",
-      "description": "Konverterl YAML til JSON.",
-      "keywords": "yaml,til,json"
-    }
-  },
-  "home": {
-    "title": "Next-Tools - Praktiske online-verktøy for utviklere",
-    "description": "Next-Tools er en samling nyttige online-verktøy for utviklere, med flott brukeropplevelse.",
-    "categories": {
-      "newestTools": "Nyeste verktøy",
-      "favoriteTools": "Dine favoritt verktøy",
-      "allTools": "Alle verktøyene",
-      "favoritesDndToolTip": "Dra og slipp for å omordne favoritter"
-    },
-    "subtitle": "Nyttige online-verktøy for utviklere",
-    "toggleMenu": "Veksle meny",
-    "home": "Hjem",
-    "uiLib": "UI bibliotek",
-    "support": "Støtt utviklingen av Next-Tools",
-    "buyMeACoffee": "Kjøp en kaffe til meg",
-    "follow": {
-      "title": "Liker du Next-Tools?",
-      "p1": "Gi oss en stjerne på",
-      "githubRepository": "Next-Tools GitHub-depotet",
-      "p2": "eller følg oss på",
-      "twitterXAccount": "Next-Tools sin X konto",
-      "thankYou": "Tusen takk!"
-    },
-    "nav": {
-      "github": "GitHub-depot",
-      "githubRepository": "Next-Tools GitHub-depot",
-      "twitterX": "X konto",
-      "twitterXAccount": "Next-Tools X konto",
-      "about": "Om  Next-Tools",
-      "aboutLabel": "Om",
-      "darkMode": "Mørk modus",
-      "lightMode": "Lys modus",
-      "mode": "Veksle mørk/lys modus"
-    }
-  },
-  "consent": {
-    "gdpr": {
-      "title": "Cookie-innstillinger",
-      "description": "Vi bruker cookies og lignende teknologier for å forbedre opplevelsen din. I henhold til GDPR trenger vi ditt samtykke for å bruke analysecookies.",
-      "acceptAll": "Godta Alle",
-      "rejectAll": "Avvis Alle",
-      "customize": "Tilpass",
-      "saveSettings": "Lagre Innstillinger"
-    },
-    "ccpa": {
-      "title": "Personverninnstillinger",
-      "description": "Vi respekterer dine personvernrettigheter under CCPA. Du kan kontrollere hvordan vi bruker dataene dine for analyse og markedsføring.",
-      "acceptAll": "Godta Alle",
-      "rejectAll": "Avvis Alle",
-      "customize": "Tilpass",
-      "saveSettings": "Lagre Innstillinger"
-    },
-    "default": {
-      "title": "Personverninnstillinger",
-      "description": "Hjelp oss å forbedre tjenesten vår ved å tillate analysecookies. Du kan endre disse innstillingene når som helst.",
-      "acceptAll": "Godta Alle",
-      "rejectAll": "Avvis Alle",
-      "customize": "Tilpass",
-      "saveSettings": "Lagre Innstillinger"
-    },
-    "analytics": {
-      "title": "Analyse",
-      "description": "Hjelp oss å forstå hvordan du bruker verktøyene våre for å forbedre opplevelsen din."
-    },
-    "essential": {
-      "title": "Viktig",
-      "description": "Påkrevd for at nettstedet skal fungere ordentlig. Kan ikke deaktiveres."
-    },
-    "customize": {
-      "analytics": "Analyse-cookies",
-      "analyticsDescription": "Tillat analyse for å hjelpe oss å forbedre tjenesten vår",
-      "marketing": "Markedsførings-cookies",
-      "marketingDescription": "Tillat personaliserte annonser og markedsføringskommunikasjon",
-      "preferences": "Preferanse-cookies",
-      "preferencesDescription": "Husk innstillingene og preferansene dine",
-      "essential": "Viktige Cookies",
-      "essentialDescription": "Påkrevd for grunnleggende nettstedfunksjonalitet"
-    },
-    "back": "Tilbake"
+    "title": "404 Ikke funnet - Next Tools"
   },
   "about": {
-    "content": "# Om Next-Tools\nNext-Tools er en samling praktiske online-verktøy designet for utviklere og IT-profesjonelle. Dette prosjektet er en fork og forbedring av det originale [it-tools](https://github.com/CorentinTh/it-tools) prosjektet, gjenoppbygd og vedlikeholdt av [Will Jay](https://github.com/willjayyyy).\n\nVår misjon er å gi utviklere effektive og pålitelige verktøy som effektiviserer daglige arbeidsflyter. Enten du jobber med datakonvertering, tekstbehandling eller nettverksanalyse, tilbyr Next-Tools et rent og intuitivt grensesnitt for å få jobben gjort raskt.\n\n## Hva gjør Next-Tools spesielt\n- **Åpen kildekode**: Lisensiert under GPL-3.0, gratis og transparent\n- **Utviklerfokusert**: Bygget av utviklere, for utviklere\n- **Personvern først**: Alle verktøy kjører lokalt i nettleseren din\n- **Regelmessige oppdateringer**: Kontinuerlige forbedringer og nye verktøytillegg\n\n## Teknologier\nNext-Tools er bygget med moderne web-teknologier:\n- **Vue.js 3** - Progressivt JavaScript-rammeverk\n- **Naive UI** - Vue 3 komponentbibliotek\n- **Vite** - Rask byggverktøy og utviklingsserver\n- **TypeScript** - Utvikling med typesikkerhet\n\nVi bruker også forskjellige åpen kildekode-biblioteker for spesifikke funksjoner. Du finner den komplette listen i vår [package.json](https://github.com/willjayyyy/next-tools/blob/main/package.json).\n\n## Fellesskap og bidrag\nVi tror på kraften i åpen kildekode-samarbeid. Hvis du har ideer til nye verktøy eller forbedringer, vil vi gjerne høre dem! Du kan:\n- ⭐ Gi stjerne til repositoriet hvis du synes det er nyttig\n- 🐛 Rapportere feil eller problemer\n- 💡 Foreslå nye verktøy eller funksjoner\n- 🤝 Bidra med kodeforbedringer\n\n## Funnet en feil? Trenger nytt verktøy?\nVi vedlikeholder aktivt dette prosjektet og setter pris på tilbakemeldingen din. Vennligst besøk vårt [GitHub-repositorium](https://github.com/willjayyyy/next-tools) for å:\n- Sende inn funksjonsforespørsler via [Issues](https://github.com/willjayyyy/next-tools/issues/new/choose)\n- Rapportere feil som trenger retting\n- Se kildekoden og bidra\n\nTakk for at du bruker Next-Tools! Din støtte hjelper oss å fortsette å skape bedre verktøy for utviklere. 🚀\n",
-    "title": "Om - Next Tools",
-    "description": "Lær mer om Next Tools - en samling praktiske online-verktøy for utviklere. Oppdag vår misjon, teknologier og hvordan du kan bidra til dette open source-prosjektet.",
     "badges": {
-      "openSource": "Åpen kildekode",
       "developerFriendly": "Utviklervennlig",
-      "freeForever": "Gratis for alltid"
+      "freeForever": "Gratis for alltid",
+      "openSource": "Åpen kildekode"
+    },
+    "content": "# Om Next-Tools\nNext-Tools er en samling praktiske online-verktøy designet for utviklere og IT-profesjonelle. Dette prosjektet er en fork og forbedring av det originale [it-tools](https://github.com/CorentinTh/it-tools) prosjektet, gjenoppbygd og vedlikeholdt av [Will Jay](https://github.com/willjayyyy).\n\nVår misjon er å gi utviklere effektive og pålitelige verktøy som effektiviserer daglige arbeidsflyter. Enten du jobber med datakonvertering, tekstbehandling eller nettverksanalyse, tilbyr Next-Tools et rent og intuitivt grensesnitt for å få jobben gjort raskt.\n\n## Hva gjør Next-Tools spesielt\n- **Åpen kildekode**: Lisensiert under GPL-3.0, gratis og transparent\n- **Utviklerfokusert**: Bygget av utviklere, for utviklere\n- **Personvern først**: Alle verktøy kjører lokalt i nettleseren din\n- **Regelmessige oppdateringer**: Kontinuerlige forbedringer og nye verktøytillegg\n\n## Teknologier\nNext-Tools er bygget med moderne web-teknologier:\n- **Vue.js 3** - Progressivt JavaScript-rammeverk\n- **Naive UI** - Vue 3 komponentbibliotek\n- **Vite** - Rask byggverktøy og utviklingsserver\n- **TypeScript** - Utvikling med typesikkerhet\n\nVi bruker også forskjellige åpen kildekode-biblioteker for spesifikke funksjoner. Du finner den komplette listen i vår [package.json](https://github.com/willjayyyy/next-tools/blob/main/package.json).\n\n## Fellesskap og bidrag\nVi tror på kraften i åpen kildekode-samarbeid. Hvis du har ideer til nye verktøy eller forbedringer, vil vi gjerne høre dem! Du kan:\n- ⭐ Gi stjerne til repositoriet hvis du synes det er nyttig\n- 🐛 Rapportere feil eller problemer\n- 💡 Foreslå nye verktøy eller funksjoner\n- 🤝 Bidra med kodeforbedringer\n\n## Funnet en feil? Trenger nytt verktøy?\nVi vedlikeholder aktivt dette prosjektet og setter pris på tilbakemeldingen din. Vennligst besøk vårt [GitHub-repositorium](https://github.com/willjayyyy/next-tools) for å:\n- Sende inn funksjonsforespørsler via [Issues](https://github.com/willjayyyy/next-tools/issues/new/choose)\n- Rapportere feil som trenger retting\n- Se kildekoden og bidra\n\nTakk for at du bruker Next-Tools! Din støtte hjelper oss å fortsette å skape bedre verktøy for utviklere. 🚀\n",
+    "description": "Lær mer om Next Tools - en samling praktiske online-verktøy for utviklere. Oppdag vår misjon, teknologier og hvordan du kan bidra til dette open source-prosjektet.",
+    "links": {
+      "allTools": {
+        "description": "Bla gjennom alle tilgjengelige verktøy",
+        "title": "Alle verktøy"
+      },
+      "featureRequests": {
+        "description": "Foreslå nye verktøy",
+        "title": "Funksjonsforespørsler"
+      }
     },
     "sections": {
       "aboutProject": "Om dette prosjektet",
-      "supportProject": "Støtt prosjektet",
-      "quickLinks": "Hurtiglenker"
+      "quickLinks": "Hurtiglenker",
+      "supportProject": "Støtt prosjektet"
     },
     "support": {
       "description": "Next Tools er helt gratis og åpen kildekode. Hvis du synes det er nyttig, vurder å støtte utviklingen!",
       "github": "GitHub"
     },
-    "links": {
-      "allTools": {
-        "title": "Alle verktøy",
-        "description": "Bla gjennom alle tilgjengelige verktøy"
-      },
-      "featureRequests": {
-        "title": "Funksjonsforespørsler",
-        "description": "Foreslå nye verktøy"
-      }
-    }
-  },
-  "favoriteButton": {
-    "remove": "Fjern fra favoritter",
-    "add": "Legg til favoritter"
+    "title": "Om - Next Tools"
   },
   "boolean": {
-    "true": "Ja",
-    "false": "Nei"
-  },
-  "common": {
-    "copied": "Kopiert!",
-    "copyToClipboard": "Kopier",
-    "clear": "Tøm",
-    "noResults": "Ingen resultater funnet",
-    "unknown": "Ukjent"
-  },
-  "toolCard": {
-    "new": "Ny"
-  },
-  "search": {
-    "label": "Søk",
-    "placeholder": "Søk...",
-    "noResults": "Ingen resultater funnet"
+    "false": "Nei",
+    "true": "Ja"
   },
   "categories": {
-    "favorite-tools": "Dine favoritt verktøy",
-    "crypto": "Krypto",
     "converter": "Konvertering",
-    "web": "Web",
-    "images and videos": "Bilder & Videoer",
+    "crypto": "Krypto",
+    "data": "Data",
     "development": "Utvikling",
-    "network": "Nettverk",
+    "favorite-tools": "Dine favoritt verktøy",
+    "images and videos": "Bilder & Videoer",
     "math": "Matte",
     "measurement": "Måling",
+    "network": "Nettverk",
     "text": "Tekst",
-    "data": "Data"
+    "web": "Web"
   },
   "commandPalette": {
+    "actions": {
+      "reportBug": "Rapporter en feil eller et problem",
+      "reportBugDescription": "Rapporter en feil eller et problem for å hjelpe med å forbedre next-tools.",
+      "toggleDarkMode": "Veksle mørk modus",
+      "toggleDarkModeDescription": "Slå mørk modus på eller av."
+    },
     "categories": {
-      "recentTools": "Nylig brukt",
-      "tools": "Verktøy",
       "actions": "Handlinger",
       "external": "Eksterne",
-      "pages": "Sider"
-    },
-    "actions": {
-      "toggleDarkMode": "Veksle mørk modus",
-      "toggleDarkModeDescription": "Slå mørk modus på eller av.",
-      "reportBug": "Rapporter en feil eller et problem",
-      "reportBugDescription": "Rapporter en feil eller et problem for å hjelpe med å forbedre next-tools."
+      "pages": "Sider",
+      "recentTools": "Nylig brukt",
+      "tools": "Verktøy"
     },
     "external": {
       "githubRepository": "GitHub-depot",
       "githubRepositoryDescription": "Se kildekoden til next-tools på GitHub."
     },
+    "keywords": {
+      "about": "om,lær,mer,info,informasjon",
+      "githubRepository": "github,repo,depot,kilde,kode",
+      "reportBug": "rapport,problem,feil,problem,feil",
+      "toggleDarkMode": "mørk,tema,veksle,modus,lys,system"
+    },
     "pages": {
       "about": "Om",
       "aboutDescription": "Lær mer om Next-Tools."
-    },
-    "keywords": {
-      "toggleDarkMode": "mørk,tema,veksle,modus,lys,system",
-      "githubRepository": "github,repo,depot,kilde,kode",
-      "reportBug": "rapport,problem,feil,problem,feil",
-      "about": "om,lær,mer,info,informasjon"
     }
   },
+  "common": {
+    "clear": "Tøm",
+    "copied": "Kopiert!",
+    "copyToClipboard": "Kopier",
+    "noResults": "Ingen resultater funnet",
+    "unknown": "Ukjent"
+  },
+  "consent": {
+    "analytics": {
+      "description": "Hjelp oss å forstå hvordan du bruker verktøyene våre for å forbedre opplevelsen din.",
+      "title": "Analyse"
+    },
+    "back": "Tilbake",
+    "ccpa": {
+      "acceptAll": "Godta Alle",
+      "customize": "Tilpass",
+      "description": "Vi respekterer dine personvernrettigheter under CCPA. Du kan kontrollere hvordan vi bruker dataene dine for analyse og markedsføring.",
+      "rejectAll": "Avvis Alle",
+      "saveSettings": "Lagre Innstillinger",
+      "title": "Personverninnstillinger"
+    },
+    "customize": {
+      "analytics": "Analyse-cookies",
+      "analyticsDescription": "Tillat analyse for å hjelpe oss å forbedre tjenesten vår",
+      "essential": "Viktige Cookies",
+      "essentialDescription": "Påkrevd for grunnleggende nettstedfunksjonalitet",
+      "marketing": "Markedsførings-cookies",
+      "marketingDescription": "Tillat personaliserte annonser og markedsføringskommunikasjon",
+      "preferences": "Preferanse-cookies",
+      "preferencesDescription": "Husk innstillingene og preferansene dine"
+    },
+    "default": {
+      "acceptAll": "Godta Alle",
+      "customize": "Tilpass",
+      "description": "Hjelp oss å forbedre tjenesten vår ved å tillate analysecookies. Du kan endre disse innstillingene når som helst.",
+      "rejectAll": "Avvis Alle",
+      "saveSettings": "Lagre Innstillinger",
+      "title": "Personverninnstillinger"
+    },
+    "essential": {
+      "description": "Påkrevd for at nettstedet skal fungere ordentlig. Kan ikke deaktiveres.",
+      "title": "Viktig"
+    },
+    "gdpr": {
+      "acceptAll": "Godta Alle",
+      "customize": "Tilpass",
+      "description": "Vi bruker cookies og lignende teknologier for å forbedre opplevelsen din. I henhold til GDPR trenger vi ditt samtykke for å bruke analysecookies.",
+      "rejectAll": "Avvis Alle",
+      "saveSettings": "Lagre Innstillinger",
+      "title": "Cookie-innstillinger"
+    }
+  },
+  "favoriteButton": {
+    "add": "Legg til favoritter",
+    "remove": "Fjern fra favoritter"
+  },
+  "home": {
+    "buyMeACoffee": "Kjøp en kaffe til meg",
+    "categories": {
+      "allTools": "Alle verktøyene",
+      "favoriteTools": "Dine favoritt verktøy",
+      "favoritesDndToolTip": "Dra og slipp for å omordne favoritter",
+      "newestTools": "Nyeste verktøy"
+    },
+    "description": "Next-Tools er en samling nyttige online-verktøy for utviklere, med flott brukeropplevelse.",
+    "follow": {
+      "githubRepository": "Next-Tools GitHub-depotet",
+      "p1": "Gi oss en stjerne på",
+      "p2": "eller følg oss på",
+      "thankYou": "Tusen takk!",
+      "title": "Liker du Next-Tools?",
+      "twitterXAccount": "Next-Tools sin X konto"
+    },
+    "home": "Hjem",
+    "nav": {
+      "about": "Om  Next-Tools",
+      "aboutLabel": "Om",
+      "darkMode": "Mørk modus",
+      "github": "GitHub-depot",
+      "githubRepository": "Next-Tools GitHub-depot",
+      "lightMode": "Lys modus",
+      "mode": "Veksle mørk/lys modus",
+      "twitterX": "X konto",
+      "twitterXAccount": "Next-Tools X konto"
+    },
+    "subtitle": "Nyttige online-verktøy for utviklere",
+    "support": "Støtt utviklingen av Next-Tools",
+    "title": "Next-Tools - Praktiske online-verktøy for utviklere",
+    "toggleMenu": "Veksle meny",
+    "uiLib": "UI bibliotek"
+  },
   "pwa": {
+    "offlineReady": "Appen er klar for frakoblet bruk",
     "updateAvailable": "Ny versjon tilgjengelig",
     "updateDescription": "En ny versjon er klar. Klikk på oppdater for å få de nyeste funksjonene.",
-    "updateNow": "Oppdater nå",
     "updateLater": "Senere",
-    "offlineReady": "Appen er klar for frakoblet bruk"
+    "updateNow": "Oppdater nå"
+  },
+  "search": {
+    "label": "Søk",
+    "noResults": "Ingen resultater funnet",
+    "placeholder": "Søk..."
+  },
+  "toolCard": {
+    "new": "Ny"
+  },
+  "tools": {
+    "ascii-text-drawer": {
+      "description": "Opprett ASCII-kunsttekst med mange skrifttyper og stiler.",
+      "keywords": "ascii,asciiart,tekst,tegner",
+      "title": "ASCII-kunsttekstgenerator"
+    },
+    "base-converter": {
+      "description": "Konverter et heltall mellom forskjellige baser (desimal, hexadesimal, binær, oktal, base64, etc.)",
+      "keywords": "heltall,tall,base,konvertering,desimal,heksadesimal,binær,oktalt,base64",
+      "title": "Heltalls konverter"
+    },
+    "base64-file-converter": {
+      "description": "Konverter en base64 streng til fil eller en fil, bilde til en base64 representasjon.",
+      "keywords": "base64,konverter,opplasting,bilde,fil,konvertering,web,data,format",
+      "title": "Base64 fil konverter"
+    },
+    "base64-string-converter": {
+      "description": "Enkelt kode eller dekode en tekststreng til base64 representasjonen av strengen.",
+      "keywords": "base64,konverter,konvertering,web,data,format,atob,btoa",
+      "title": "Base64 string kode/dekoder"
+    },
+    "basic-auth-generator": {
+      "description": "Generer en base64 basic auth header fra et brukernavn og passord.",
+      "keywords": "grunnleggende,autentisering,generator,brukernavn,passord,base64,autentisering,header,autorisasjon",
+      "title": "Basic auth generator"
+    },
+    "bcrypt": {
+      "description": "Hash og sammenlign tekst ved hjelp av bcrypt. Bcrypt er en passord-hashings funksjon basert på Blowfish cipher.",
+      "keywords": "bcrypt,hash,sammenlign,passord,salt,runde,lagring,krypto",
+      "title": "Bcrypt"
+    },
+    "benchmark-builder": {
+      "description": "Sammenlign enkelt kjøretiden av oppgaver med denne enkle referansemåls byggeren.",
+      "keywords": "referansemåler,bygger,utførelse,varighet,gjennomsnitt,varians",
+      "title": "Bygg en referansemåler"
+    },
+    "bip39-generator": {
+      "description": "Generer et BIP39 nøkkelord fra en eksisterende eller tilfeldig huskesetning, eller få ut en huskesetning fra nøkkelordet.",
+      "keywords": "BIP39,passordfrase,generator,mnemonic,entropi",
+      "title": "BIP39 nøkkelords generator"
+    },
+    "camera-recorder": {
+      "description": "Ta et bilde eller spill inn en video med webkamera eller kameraet ditt.",
+      "keywords": "kamera,opptaker",
+      "title": "Kameraopptak"
+    },
+    "case-converter": {
+      "description": "Formater bokstavene med store eller små bokstaver, samt andre format.",
+      "keywords": "case,konverter,camelCase,capitalCase,constantCase,dotCase,headerCase,noCase,paramCase,pascalCase,pathCase,sentenceCase,snakeCase",
+      "title": "Bokstavkonvertering"
+    },
+    "chmod-calculator": {
+      "description": "Beregn chmod tillatelser og kommandoer med denne chmod kalkulatoren.",
+      "keywords": "chmod,kalkulator,fil,tillatelse,filer,katalog,mappe,rekursiv,generator,oktalt",
+      "title": "Chmod kalkulator"
+    },
+    "chronometer": {
+      "description": "Overvåk varigheten av noe. I bunn og grunn et kronometer med enkle funksjoner.",
+      "keywords": "kronometer,tid,runde,varighet,mål,pause,gjenoppta,stoppeklokke",
+      "title": "Kronometer"
+    },
+    "color-converter": {
+      "description": "Konverter farger mellom de forskjellige formatene (hex, rgb, hsl og css navn).",
+      "keywords": "farge,konverter",
+      "title": "Farge konverter"
+    },
+    "cron-generator": {
+      "description": "Verifiser og generer cron og få den mennesklig leselige beskrivelsen av cron timeplanen.",
+      "keywords": "cron,generator,cronjob,cron,timeplan,parse,uttrykk,år,måned,uke,dag,minutt,sekund",
+      "title": "Cron Expression Generator"
+    },
+    "date-converter": {
+      "description": "Konverter dato og tid til forskjellige formater.",
+      "keywords": "dato,tid,konverter,iso,utc,tidssone,år,måned,dag,minutt,sekund",
+      "title": "Dato-tid konverter"
+    },
+    "device-information": {
+      "description": "Få informasjon om din nåværende enhet (skjermstørrelse, piksel-forhold, user agent, etc.)",
+      "keywords": "enhet,informasjon,skjerm,piksel,forhold,status,data,datamaskin,størrelse,bruker,agent",
+      "title": "Enhets informasjon"
+    },
+    "docker-run-to-docker-compose-converter": {
+      "description": "Konverter \"docker run\" kommandoer til docker-compose filer!",
+      "keywords": "docker,kjør,compose,yaml,yml,konverter,demon",
+      "title": "Docker run til Docker compose konverter"
+    },
+    "email-normalizer": {
+      "description": "Normaliser e-postadresser til et standardformat for enklere sammenligning. Nyttig for deduplisering og datarensing.",
+      "keywords": "e-post,normalisator",
+      "title": "E-post normalisator"
+    },
+    "emoji-picker": {
+      "description": "Klipp og lim emojis og få unicode og kode verdien av hver emoji.",
+      "keywords": "emoji,velger,unicode,kopier,lime",
+      "title": "Emoji velger"
+    },
+    "encryption": {
+      "description": "Krypter klartekst og dekrypter ciphertekst ved bruk av krypteringsalgoritmer som AES, TripleDES, Rabbit eller RC4.",
+      "keywords": "chiffer,kryptere,tekst,AES,TripleDES,Rabbit,RC4",
+      "title": "Krypter / decrypter tekst"
+    },
+    "eta-calculator": {
+      "description": "En ETA (Estimert Tid for Ankomst) kalkulator for å anslå den sannsynelige slutt tiden for en oppgave, for eksempel, slutttiden og varigheten av en filnedlastning.",
+      "keywords": "eta,kalkulator,estimert,tid,ankomst,gjennomsnitt",
+      "title": "ETA kalkulator"
+    },
+    "git-memo": {
+      "description": "Git er en desentralisert versjons håndterings programvare. Med denne jukselappen vil du få kjapp tilgang til de vanligste kommandoene.",
+      "keywords": "git,skyv,tving,dra,commit,endre,rebase,flett,tilbakestill,myk,hard,lease",
+      "title": "Git jukselapp"
+    },
+    "hash-text": {
+      "description": "Hash en tekst streng med en av algoritmene : MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 eller RIPEMD160",
+      "keywords": "hash,sammendrag,krypto,sikkerhet,tekst,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160",
+      "title": "Hash tekst"
+    },
+    "hmac-generator": {
+      "description": "Beregn en hash-basert meldings authentiserings kode (HMAC) ved bruk av en hemmelig nøkkel og din foretrukne hashings funksjon.",
+      "keywords": "hmac,generator,MD5,SHA1,SHA256,SHA224,SHA512,SHA384,SHA3,RIPEMD160",
+      "title": "Hmac generator"
+    },
+    "html-entities": {
+      "description": "Rens bort eller omsvøp HTML entiteter (erstatt tegn som <,>, &, \" and \\' med deres HTML versjon).",
+      "keywords": "html,enheter,escape,unescape,spesielle,karakterer,tagger",
+      "title": "HTML streng rensing"
+    },
+    "html-wysiwyg-editor": {
+      "description": "Online, funksjonsrik WYSIWYG HTML editor som genererer kildekoden for innholdet øyeblikkelig.",
+      "keywords": "html,wysiwyg,redaktør,p,ul,ol,konverter,live",
+      "title": "HTML WYSIWYG editor"
+    },
+    "http-status-codes": {
+      "description": "Liste over alle HTTP status koder, navnet dems, og betydningen.",
+      "keywords": "http,status,koder,statuskoder",
+      "title": "HTTP status koder"
+    },
+    "iban-validator-and-parser": {
+      "description": "Valider og parser IBAN numre. Sjekk om et IBAN er gyldig og få landet, BBAN, om det er en QR-IBAN og IBAN i et vennlig format.",
+      "keywords": "iban,validerer,og,parser,bic,bank",
+      "title": "IBAN validering og analysering"
+    },
+    "ico-generator": {
+      "description": "Generer ICO-filer fra bilder. Konverter PNG, JPEG eller andre bildeformater til ICO-filer med flere ikonstørrelser for favicons og Windows-applikasjoner.",
+      "keywords": "ico,ikon,favicon,generator,konverter,bilde,png,jpeg,windows,konverter",
+      "title": "ICO-generator"
+    },
+    "ipv4-address-converter": {
+      "description": "Konverter en IPv4 adresse til desimal, binær, hexadesimal, eller en IPv6 representasjon.",
+      "keywords": "ipv4,adresse,konverter,desimal,heksadesimal,binær,ipv6",
+      "title": "IPv4 adresse konverter"
+    },
+    "ipv4-range-expander": {
+      "description": "Gitt en start og en slutt IPv4 adresse, kalkulerer dette verktøyet et gyldig IPv4 subnet sammen med sin CIDR notasjon.",
+      "keywords": "ipv4,område,utvider,subnet,skaper,cidr",
+      "title": "IPv4 range utvider"
+    },
+    "ipv4-subnet-calculator": {
+      "description": "Parser IPv4 CIDR blokker of åf all info du trenger om subnettet.",
+      "keywords": "ipv4,subnet,kalkulator,maske,nettverk,cidr,nettverksmaske,bitmaske,broadcast,adresse",
+      "title": "IPv4 subnet kalkulator"
+    },
+    "ipv6-ula-generator": {
+      "description": "Generer din egen lokale, ikke-rutbare IP adresse til nettverket ditt i henhold til RFC4193.",
+      "keywords": "ipv6,ula,generator,rfc4193,nettverk,privat",
+      "title": "IPv6 ULA generator"
+    },
+    "json-diff": {
+      "description": "Sammenlign to JSON objekter og finn forskjellene mellom dem.",
+      "keywords": "json,diff,sammenlign,forskjell,objekt,data",
+      "title": "JSON diff"
+    },
+    "json-minify": {
+      "description": "Minifiser og komprimer JSON ved å fjerne unødvendige mellomrom.",
+      "keywords": "json,minifiser,format",
+      "title": "JSON minifiser"
+    },
+    "json-prettify": {
+      "description": "Forskjønn JSON strenger til et lettlest format.",
+      "keywords": "json,viser,forskjønn,format",
+      "title": "JSON forskjønning og formatering"
+    },
+    "json-to-csv": {
+      "description": "Konverter JSON til CSV med automatisk oppdagelse av headeren.",
+      "keywords": "json,til,csv,konverter",
+      "title": "JSON til CSV"
+    },
+    "json-to-toml": {
+      "description": "Parser og konverter JSON til TOML.",
+      "keywords": "json,parse,toml,konverter,transformer",
+      "title": "JSON til TOML"
+    },
+    "json-to-xml": {
+      "description": "Konverter JSON til XML",
+      "keywords": "json,xml",
+      "title": "JSON til XML"
+    },
+    "json-to-yaml-converter": {
+      "description": "Enkelt konverter JSON til YAML med dette verktøyet.",
+      "keywords": "yaml,til,json",
+      "title": "JSON til YAML"
+    },
+    "jwt-parser": {
+      "description": "Parse og dekode et JSON Web Token (jwt) og vis innholdet.",
+      "keywords": "jwt,parser,dekode,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,token",
+      "title": "JWT parser"
+    },
+    "keycode-info": {
+      "description": "Finn javascript tastekode, kode, plassering og modifikatorer av hvilken som helst tast.",
+      "keywords": "tastkode,info,kode,javascript,hendelse,tastkoder,hvilken,tastatur,trykk,modifikator,alt,ctrl,meta,shift",
+      "title": "Tastekode info"
+    },
+    "list-converter": {
+      "description": "Dette verktøyet kan prosessere kolonnebasert data og foreta forskjellige endringer (transposering, legge til prefix og suffix, reversere lister, sortere lister, gjøre om til små bokstaver, trunkere verdier) på hver rad.",
+      "keywords": "liste,konverterer,sorter,reverser,prefiks,suffiks,småbokstaver,trunker",
+      "title": "Liste konverterer"
+    },
+    "lorem-ipsum-generator": {
+      "description": "Lorem ipsum er brukt som plassholder tekst, vanligvis brukt til å demonstrere den visuelle formen av et dokument eller font-type uten å måtte ha meningsfult innhold.",
+      "keywords": "lorem,ipsum,dolor,sit,amet,plassholder,tekst,filler,tilfeldig,generator",
+      "title": "Lorem ipsum generator"
+    },
+    "mac-address-generator": {
+      "description": "Sett inn antall og prefix. MAC addressene blir generert i ønsket format",
+      "keywords": "mac,adresse,generator,tilfeldig,prefiks",
+      "title": "MAC adresse generator"
+    },
+    "mac-address-lookup": {
+      "description": "Finn forhandler og produsent basert på MAC adressen.",
+      "keywords": "mac,adresse,oppslag,leverandør,parser,produsent",
+      "title": "MAC address oppslagsverk"
+    },
+    "markdown-to-html": {
+      "description": "Konverter Markdown til HTML og skriv ut som PDF",
+      "keywords": "markdown,html,converter,pdf",
+      "title": "Markdown til HTML"
+    },
+    "math-evaluator": {
+      "description": "En Kalkulator for å evaluere matematiske uttrykk. Du kan bruke funksjoner som sqrt, cos, sin, abs, etc.",
+      "keywords": "matte,evaluator,kalkulator,uttrykk,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh",
+      "title": "Matematikkevaluator"
+    },
+    "mime-types": {
+      "description": "Konverter MIME typer til fil utvidelser og visa-versa.",
+      "keywords": "mime,typer,utvidelse,innhold,type",
+      "title": "MIME typer"
+    },
+    "numeronym-generator": {
+      "description": "Et numeronym er et ord hvor et nummer er brukt til å lage en forkortelse. For eksempel, \"i18n\" er et numeronym for \"internasjonalisering\" hvor 18 står for antall bokstaver mellom første bokstaven i og den siste bokstaven n i ordet.",
+      "keywords": "numeronym,generator,forkortelse,i18n,a11y,l10n",
+      "title": "Numeronym generator"
+    },
+    "og-meta-generator": {
+      "description": "Generer open-graph og SoMe HTML meta tagger til nettsiden din.",
+      "keywords": "meta,tag,generator,sosial,tittel,beskrivelse,bilde,del,online,nettsted,åpen,graf,og",
+      "title": "Open graph meta generator"
+    },
+    "otp-generator": {
+      "description": "Generer og valider tidsbasert OTP (one time password) for multi-faktor autentisering.",
+      "keywords": "otp,kode,generator,validerer,en,tid,passord,autentisering,MFA,mobil,enhet,sikkerhet,TOTP,Tid,HMAC",
+      "title": "OTP kode generator"
+    },
+    "password-strength-analyser": {
+      "description": "Oppdag styrken av passordet ditt med dette kun-klient-maskin passordstyrke analyse verktøyet og se den estimerte knekketiden.",
+      "keywords": "passord,styrke,analysator,og,knekk,tid,estimering,brute,force,attack,entropy,cracking,hash,hashing,algoritme,algoritmer,md5,sha1,sha256,sha512,bcrypt,scrypt,argon2,argon2id,argon2i,argon2d",
+      "title": "Analyseverktøy for passordstyrke"
+    },
+    "pdf-signature-checker": {
+      "description": "Bekreft signaturen til en PDF fil. En signert PDF fil inneholder en eller flere signaturer som kan bli brukt til å bestemme om en fil har blitt endret etter at den var signert.",
+      "keywords": "pdf,signatur,sjekker,bekreft,valider,signer",
+      "title": "PDF signatur sjekker"
+    },
+    "percentage-calculator": {
+      "description": "Beregn enkelt prosenter fra en verdi til en annen, eller fra en prosent til en verdi.",
+      "keywords": "prosent,kalkulator,beregn,verdi,tall,%",
+      "title": "Prosent kalkulator"
+    },
+    "phone-parser-and-formatter": {
+      "description": "Parser, valider og formater telefon numre. få innformasjonen om telefon nummeret, slik som landskoden, type etc.",
+      "keywords": "telefon,parser,formatter,valider,format,nr,telefon,mobil,cell,internasjonal,nasjonal",
+      "title": "Telefon format og parserer"
+    },
+    "qrcode-generator": {
+      "description": "Generer og last ned en QR kode til en URL (eller ren tekst), og tilpass bakgrunns og forgrunns farger.",
+      "keywords": "qr,kode,generator,firkantet,farge,lenke,lav,medium,kvartil,høy,transparent",
+      "title": "QR Kode generator"
+    },
+    "random-port-generator": {
+      "description": "Generer tilfeldige portnumre utenfor scopet av \"kjente\" porter (0-1023).",
+      "keywords": "system,port,lan,generator,tilfeldig,utvikling,datamaskin",
+      "title": "Tilfeldig port generator"
+    },
+    "regex-memo": {
+      "description": "Javascript Regex/Regulært uttrykk jukseark",
+      "keywords": "regex,regular,uttrykk,javascript,memo,jukseark",
+      "title": "Regex jukseark"
+    },
+    "regex-tester": {
+      "description": "Test dine regulære uttrykk med eksempeltekst.",
+      "keywords": "regex,tester,prøve,uttrykk",
+      "title": "Regex tester"
+    },
+    "roman-numeral-converter": {
+      "description": "Konverter romertall til tall eller konverter tall til romertall.",
+      "keywords": "romersk,arabisk,konverter,X,I,V,L,C,D,M",
+      "title": "Romertall konverter"
+    },
+    "rsa-key-pair-generator": {
+      "description": "Generer et nytt tilfeldig RSA privat og offentlig pem sertifikat nøkkel par.",
+      "keywords": "rsa,nøkkel,par,generator,offentlig,privat,hemmelig,ssh,pem",
+      "title": "RSA nøkkelpar generator"
+    },
+    "safelink-decoder": {
+      "description": "Dekod Outlook SafeLink lenker",
+      "keywords": "outlook,safelink,dekoder",
+      "title": "Outlook Safelink dekoder"
+    },
+    "slugify-string": {
+      "description": "Lag en trygg url, filbane eller id.",
+      "keywords": "slugify,streng,escape,emoji,spesiell,karakter,mellomrom,trim",
+      "title": "Slugify streng"
+    },
+    "sql-prettify": {
+      "description": "Formater og forskjønn SQL spørringene dine (den støtter forskjellige SQL dialekter).",
+      "keywords": "sql,forskjønn,forskjønn,GCP BigQuery,IBM DB2,Apache Hive,MariaDB,MySQL,Couchbase N1QL,Oracle PL/SQL,PostgreSQL,Amazon Redshift,Spark,SQL Server Transact-SQL",
+      "title": "SQL forskjønning and format"
+    },
+    "string-obfuscator": {
+      "description": "Obfusker en streng (som en hemmelighet, en IBAN, eller et token) og gjør den delbar og identifiserbar uten å vise innholdet.",
+      "keywords": "streng,obfuskator,hemmelighet,token,skjul,obskurer,maske,maskering",
+      "title": "Streng obfuskator"
+    },
+    "svg-placeholder-generator": {
+      "description": "Generer svg bilder til å bruke som plassholder i applikasjonen din.",
+      "keywords": "svg,plassholder,generator,bilde,størrelse,mockup",
+      "title": "SVG plassholder generator"
+    },
+    "temperature-converter": {
+      "description": "Temperatur konversjoner mellom Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, og Rømer.",
+      "keywords": "temperatur,konverter,grad,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer",
+      "title": "Temperatur konverter"
+    },
+    "text-diff": {
+      "description": "Sammenlign to tekster og vis forskjellen mellom dem.",
+      "keywords": "tekst,diff,sammenlign,streng,tekst diff,kode",
+      "title": "Tekst diff"
+    },
+    "text-statistics": {
+      "description": "Få informasjonen om en tekst, antall karakterer, antall ord, størrelsen i bytes, etc.",
+      "keywords": "tekst,statistikk,lengde,karakterer,tell,størrelse,byte",
+      "title": "Tekst statistikk"
+    },
+    "text-to-binary": {
+      "description": "Konverter tekst til sin ASCII binære representasjon og visa-versa.",
+      "keywords": "tekst,til,binær,konverter,kode,dekode,ascii",
+      "title": "Tekst til ASCII binært"
+    },
+    "text-to-nato-alphabet": {
+      "description": "Transformer teksten til det NATO fonetiske alfabetet for muntlig gjengivelse.",
+      "keywords": "streng,nato,alfabet,fonetisk,muntlig,overføring",
+      "title": "Tekst til NATO alfabetet"
+    },
+    "text-to-unicode": {
+      "description": "Parser og konverter tekst til unicode og visa-versa",
+      "keywords": "tekst,til,unicode",
+      "title": "Tekst til Unicode"
+    },
+    "token-generator": {
+      "description": "Generer en tilfeldig streng med store og/eller små bokstaver, siffer og/eller symboler.",
+      "keywords": "token,tilfeldig,streng,alfanumerisk,symboler,tall,bokstaver,småbokstaver,storbokstaver,passord",
+      "title": "Token generator"
+    },
+    "toml-to-json": {
+      "description": "Parser og konverter TOML til JSON.",
+      "keywords": "toml,json,konverter,online,transformer,parser",
+      "title": "TOML til JSON"
+    },
+    "toml-to-yaml": {
+      "description": "Parser og konverter TOML til YAML.",
+      "keywords": "toml,yaml,konverter,online,transformer,parse",
+      "title": "TOML til YAML"
+    },
+    "ulid-generator": {
+      "description": "Generer tilfeldig Universell Unik Leksikografisk Sorterbar Identifikator (ULID).",
+      "keywords": "ulid,generator,tilfeldig,id,alfanumerisk,identitet,token,streng,identifikator,unik",
+      "title": "ULID generator"
+    },
+    "url-encoder": {
+      "description": "Kode tekst til URL-kodet format (også kjent som \"prosent-kodet\"), eller dekode fra det.",
+      "keywords": "url,kode,dekode,prosent,%20,format",
+      "title": "Kode/dekode URL-formaterte strenger"
+    },
+    "url-parser": {
+      "description": "Parsere en URL ned til bestanddelene (protokoll, opprinnelse, parametre, port, brukernavn-passord, ...).",
+      "keywords": "url,parser,protokoll,opprinnelse,parametere,port,brukernavn,passord,href",
+      "title": "URL analyse"
+    },
+    "user-agent-parser": {
+      "description": "Detekter og parser nettleser, motor, OS, CPU, og enhet type/modell fra en user-agent tekst streng.",
+      "keywords": "bruker,agent,parser,nettleser,motor,os,cpu,enhet,user-agent,klient",
+      "title": "User-agent analysering"
+    },
+    "uuid-generator": {
+      "description": "En universell Unik Identifikator (UUID) er et 128-bit nummer, brukt til å identifisere informasjon i datasystemer.",
+      "keywords": "uuid,v4,tilfeldig,id,alfanumerisk,identitet,token,streng,identifikator,unik,v1,v3,v5,nil",
+      "title": "UUIDs generator"
+    },
+    "wifi-qrcode-generator": {
+      "description": "Generer og last ned QR koder for rask tilkobling til wifi nettverket.",
+      "keywords": "qr,kode,generator,firkantet,farge,lenke,lav,medium,kvartil,høy,transparent,wifi",
+      "title": "WiFi QR Kode generator"
+    },
+    "xml-formatter": {
+      "description": "Forskjønn en XML streng til et lettlest format.",
+      "keywords": "xml,forskjønn,format",
+      "title": "XML formaterer"
+    },
+    "xml-to-json": {
+      "description": "Konverter XML til JSON",
+      "keywords": "xml,json",
+      "title": "XML til JSON"
+    },
+    "yaml-prettify": {
+      "description": "Forskjønn YAML strengene dine til et lettlest format.",
+      "keywords": "yaml,viser,forskjønn,format",
+      "title": "YAML forskjønning og formatering"
+    },
+    "yaml-to-json-converter": {
+      "description": "Konverterl YAML til JSON.",
+      "keywords": "yaml,til,json",
+      "title": "YAML til JSON"
+    },
+    "yaml-to-toml": {
+      "description": "Parser og konverter YAML til TOML.",
+      "keywords": "yaml,til,toml,konverter,transformer",
+      "title": "YAML til TOML"
+    }
   }
 }

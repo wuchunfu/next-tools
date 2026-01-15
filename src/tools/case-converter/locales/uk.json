@@ -1,32 +1,32 @@
 {
   "tools": {
     "case-converter": {
-      "cardTitle": "Конвертер регістру",
-      "cardDescription": "Перетворіть регістр рядка та виберіть між різними форматами.",
-      "cardInputTitle": "Ввід тексту",
-      "cardInputDescription": "Введіть ваш рядок нижче. Ми згенеруємо поширені формати регістру для програмування та тексту.",
-      "cardOutputTitle": "Усі формати",
-      "cardOutputDescription": "Виберіть потрібний формат і скопіюйте його. Значення оновлюються миттєво під час введення.",
-      "yourString": "Ваш рядок",
-      "yourStringPlaceholder": "Введіть ваш текст тут...",
-      "inputLength": "Довжина",
-      "sanitizedLength": "Допустимі символи",
-      "clear": "Очистити",
-      "formatsTitle": "Всі формати",
-      "lowercase": "Малі літери",
-      "uppercase": "Великі літери",
       "camelcase": "Camelcase",
       "capitalcase": "Capitalcase",
+      "cardDescription": "Перетворіть регістр рядка та виберіть між різними форматами.",
+      "cardInputDescription": "Введіть ваш рядок нижче. Ми згенеруємо поширені формати регістру для програмування та тексту.",
+      "cardInputTitle": "Ввід тексту",
+      "cardOutputDescription": "Виберіть потрібний формат і скопіюйте його. Значення оновлюються миттєво під час введення.",
+      "cardOutputTitle": "Усі формати",
+      "cardTitle": "Конвертер регістру",
+      "clear": "Очистити",
       "constantcase": "Constantcase",
       "dotcase": "Dotcase",
+      "formatsTitle": "Всі формати",
       "headercase": "Headercase",
+      "inputLength": "Довжина",
+      "lowercase": "Малі літери",
+      "mockingcase": "Mockingcase",
       "nocase": "Nocase",
       "paramcase": "Paramcase",
       "pascalcase": "Pascalcase",
       "pathcase": "Pathcase",
+      "sanitizedLength": "Допустимі символи",
       "sentencecase": "Sentencecase",
       "snakecase": "Snakecase",
-      "mockingcase": "Mockingcase"
+      "uppercase": "Великі літери",
+      "yourString": "Ваш рядок",
+      "yourStringPlaceholder": "Введіть ваш текст тут..."
     }
   }
 }

@@ -1,18 +1,18 @@
 {
   "tools": {
     "json-to-xml": {
-      "cardTitle": "JSON til XML Konverter",
       "cardDescription": "Konverter JSON-format til XML-format. Lim inn din JSON og få XML-utdataene.",
-      "cardInputTitle": "JSON-inndata",
       "cardInputDescription": "Lim inn JSON-en du vil konvertere nedenfor. Vi validerer den og genererer XML-utdata.",
-      "cardOutputTitle": "XML-utdata",
+      "cardInputTitle": "JSON-inndata",
       "cardOutputDescription": "Dette er XML-representasjonen av JSON-en din. Du kan kopiere den til videre bruk.",
+      "cardOutputTitle": "XML-utdata",
+      "cardTitle": "JSON til XML Konverter",
+      "clear": "Tøm",
+      "formatXml": "Formater XML",
       "inputPlaceholder": "Lim inn ditt JSON-innhold her...",
       "invalidJson": "Den oppgitte JSON-en er ikke gyldig.",
       "invalidJsonTitle": "Ugyldig JSON",
-      "outputError": "Ugyldig JSON-format. Vennligst sjekk inndataene dine.",
-      "clear": "Tøm",
-      "formatXml": "Formater XML"
+      "outputError": "Ugyldig JSON-format. Vennligst sjekk inndataene dine."
     }
   }
 }

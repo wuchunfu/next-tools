@@ -1,27 +1,27 @@
 {
   "tools": {
     "mime-types": {
-      "mimeToExt": {
-        "title": "MIME-тип до розширення",
-        "subtitle": "Дізнатися, які розширення файлів пов'язані з MIME-типом",
-        "placeholder": "Виберіть ваш MIME-тип тут... (напр. application/pdf)",
-        "resultPrefix": "Розширення файлів з",
-        "resultSuffix": "MIME-типом:"
-      },
+      "clear": "Очистити",
       "extToMime": {
-        "title": "Розширення файлу до MIME-типу",
-        "subtitle": "Дізнатися, який MIME-тип пов'язаний з розширенням файлу",
         "placeholder": "Виберіть ваше розширення тут... (напр. application/pdf)",
         "resultPrefix": "MIME-тип, пов'язаний з розширенням",
-        "resultSuffix": "розширенням файлу:"
+        "resultSuffix": "розширенням файлу:",
+        "subtitle": "Дізнатися, який MIME-тип пов'язаний з розширенням файлу",
+        "title": "Розширення файлу до MIME-типу"
+      },
+      "mimeToExt": {
+        "placeholder": "Виберіть ваш MIME-тип тут... (напр. application/pdf)",
+        "resultPrefix": "Розширення файлів з",
+        "resultSuffix": "MIME-типом:",
+        "subtitle": "Дізнатися, які розширення файлів пов'язані з MIME-типом",
+        "title": "MIME-тип до розширення"
       },
       "table": {
-        "mime": "MIME-типи",
-        "extensions": "Розширення"
+        "extensions": "Розширення",
+        "mime": "MIME-типи"
       },
-      "tableTitle": "Усі MIME-типи",
       "tableSubtitle": "Перегляньте повний список MIME-типів та їхніх розширень.",
-      "clear": "Очистити"
+      "tableTitle": "Усі MIME-типи"
     }
   }
 }

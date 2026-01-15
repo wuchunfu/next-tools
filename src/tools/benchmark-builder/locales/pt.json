@@ -1,31 +1,31 @@
 {
   "tools": {
     "benchmark-builder": {
-      "suiteName": "Suite {index}",
-      "suiteLabel": "Nome da suite",
-      "suitePlaceholder": "Nome da suite...",
-      "suitesTitle": "Conjuntos",
-      "suitesDescription": "Gerencie múltiplos conjuntos e seus valores de amostra.",
-      "suiteValues": "Valores da suite",
-      "deleteSuite": "Excluir suite",
-      "addSuite": "Adicionar suite",
-      "resultsTitle": "Resultados",
-      "resultsDescription": "Resumo e comparação entre os conjuntos.",
-      "unitPlaceholder": "Unidade (ex: ms)",
-      "unitLabel": "Unidade",
-      "resetSuites": "Redefinir suites",
-      "copyMarkdown": "Copiar como tabela markdown",
-      "copyBullet": "Copiar como lista com marcadores",
-      "setMeasure": "Definir sua medida...",
-      "deleteValue": "Excluir este valor",
       "addMeasure": "Adicionar uma medida",
+      "addSuite": "Adicionar suite",
+      "copyBullet": "Copiar como lista com marcadores",
+      "copyMarkdown": "Copiar como tabela markdown",
+      "deleteSuite": "Excluir suite",
+      "deleteValue": "Excluir este valor",
       "header": {
-        "position": "Posição",
-        "title": "Suite",
-        "size": "Amostras",
         "mean": "Média",
+        "position": "Posição",
+        "size": "Amostras",
+        "title": "Suite",
         "variance": "Variância"
-      }
+      },
+      "resetSuites": "Redefinir suites",
+      "resultsDescription": "Resumo e comparação entre os conjuntos.",
+      "resultsTitle": "Resultados",
+      "setMeasure": "Definir sua medida...",
+      "suiteLabel": "Nome da suite",
+      "suiteName": "Suite {index}",
+      "suitePlaceholder": "Nome da suite...",
+      "suiteValues": "Valores da suite",
+      "suitesDescription": "Gerencie múltiplos conjuntos e seus valores de amostra.",
+      "suitesTitle": "Conjuntos",
+      "unitLabel": "Unidade",
+      "unitPlaceholder": "Unidade (ex: ms)"
     }
   }
 }

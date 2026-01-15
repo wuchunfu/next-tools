@@ -1,21 +1,21 @@
 {
   "tools": {
     "mac-address-generator": {
-      "cardOptionsTitle": "Options de génération",
       "cardOptionsDescription": "Configurez les options pour générer des adresses MAC aléatoires, y compris la quantité, le préfixe, la casse et le séparateur.",
-      "cardResultsTitle": "Adresses MAC générées",
+      "cardOptionsTitle": "Options de génération",
       "cardResultsDescription": "Adresses MAC générées selon votre configuration. Cliquez sur le bouton copier pour copier toutes les adresses dans le presse-papiers.",
-      "invalidPrefixTitle": "Préfixe invalide",
-      "quantity": "Quantité",
-      "macAddressPrefix": "Préfixe d'adresse MAC",
-      "prefixPlaceholder": "Définissez un préfixe, ex. 64:16:7F",
+      "cardResultsTitle": "Adresses MAC générées",
       "case": "Casse",
-      "uppercase": "Majuscules",
+      "copied": "Adresses MAC copiées dans le presse-papiers",
+      "invalidPrefixTitle": "Préfixe invalide",
       "lowercase": "Minuscules",
-      "separator": "Séparateur",
+      "macAddressPrefix": "Préfixe d'adresse MAC",
       "none": "Aucun",
+      "prefixPlaceholder": "Définissez un préfixe, ex. 64:16:7F",
+      "quantity": "Quantité",
       "refresh": "Actualiser",
-      "copied": "Adresses MAC copiées dans le presse-papiers"
+      "separator": "Séparateur",
+      "uppercase": "Majuscules"
     }
   }
 }

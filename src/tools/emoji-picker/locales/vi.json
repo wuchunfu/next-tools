@@ -1,13 +1,13 @@
 {
   "tools": {
     "emoji-picker": {
-      "searchPlaceholder": "Tìm kiếm emoji (vd. 'cười')...",
+      "copyCodePoints": "Điểm mã '{value}' đã được sao chép vào clipboard",
+      "copyEmoji": "Emoji {emoji} đã được sao chép vào clipboard",
+      "copyUnicode": "Unicode '{value}' đã được sao chép vào clipboard",
       "noResults": "Không có kết quả",
       "noResultsDescription": "Thử từ khóa khác hoặc duyệt theo danh mục",
-      "searchResult": "Kết quả tìm kiếm",
-      "copyEmoji": "Emoji {emoji} đã được sao chép vào clipboard",
-      "copyCodePoints": "Điểm mã '{value}' đã được sao chép vào clipboard",
-      "copyUnicode": "Unicode '{value}' đã được sao chép vào clipboard"
+      "searchPlaceholder": "Tìm kiếm emoji (vd. 'cười')...",
+      "searchResult": "Kết quả tìm kiếm"
     }
   }
 }

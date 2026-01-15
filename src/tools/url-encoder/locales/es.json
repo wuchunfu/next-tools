@@ -1,20 +1,20 @@
 {
   "tools": {
     "url-encoder": {
-      "cardEncodeTitle": "Codificar URL",
-      "cardEncodeDescription": "Codifique texto a formato codificado URL (también conocido como \"codificado por porcentaje\").",
-      "cardDecodeTitle": "Decodificar URL",
       "cardDecodeDescription": "Decodifique cadenas codificadas URL de vuelta a su texto original.",
-      "inputLabel": "Su cadena",
-      "inputPlaceholder": "Ingrese la cadena a codificar...",
-      "outputLabel": "Cadena codificada",
-      "outputPlaceholder": "La cadena codificada aparecerá aquí...",
+      "cardDecodeTitle": "Decodificar URL",
+      "cardEncodeDescription": "Codifique texto a formato codificado URL (también conocido como \"codificado por porcentaje\").",
+      "cardEncodeTitle": "Codificar URL",
+      "clear": "Limpiar",
       "decodeInputLabel": "Su cadena codificada",
       "decodeInputPlaceholder": "Ingrese la cadena codificada URL a decodificar...",
       "decodeOutputLabel": "Cadena decodificada",
       "decodeOutputPlaceholder": "La cadena decodificada aparecerá aquí...",
-      "clear": "Limpiar",
-      "impossibleToParse": "Imposible analizar esta cadena"
+      "impossibleToParse": "Imposible analizar esta cadena",
+      "inputLabel": "Su cadena",
+      "inputPlaceholder": "Ingrese la cadena a codificar...",
+      "outputLabel": "Cadena codificada",
+      "outputPlaceholder": "La cadena codificada aparecerá aquí..."
     }
   }
 }

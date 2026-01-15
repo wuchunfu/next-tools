@@ -1,25 +1,25 @@
 {
   "tools": {
     "percentage-calculator": {
-      "card1Title": "¿Qué es X% de Y?",
       "card1Description": "Calcule el porcentaje de un valor. Ingrese el porcentaje (X) y el valor base (Y) para obtener el resultado.",
-      "card2Title": "¿X es qué porcentaje de Y?",
+      "card1Title": "¿Qué es X% de Y?",
       "card2Description": "Encuentre qué porcentaje es un valor de otro. Ingrese el valor (X) y el total (Y) para calcular el porcentaje.",
-      "card3Title": "Aumento/disminución porcentual",
+      "card2Title": "¿X es qué porcentaje de Y?",
       "card3Description": "Calcule el cambio porcentual entre dos valores. Ingrese el valor inicial (De) y el valor final (A) para obtener el cambio porcentual.",
-      "whatIs": "Qué es",
+      "card3Title": "Aumento/disminución porcentual",
+      "from": "De",
+      "isWhatPercentOf": "es qué porcentaje de",
+      "of": "de",
       "percentOf": "% de",
       "percentage": "Porcentaje",
-      "of": "de",
-      "value": "Valor",
+      "percentageIncreaseDecrease": "Cuál es el aumento/disminución porcentual",
       "placeholderX": "X",
       "placeholderY": "Y",
       "result": "Resultado",
-      "xIsWhatPercentOfY": "X es qué porcentaje de Y",
-      "isWhatPercentOf": "es qué porcentaje de",
-      "percentageIncreaseDecrease": "Cuál es el aumento/disminución porcentual",
-      "from": "De",
-      "to": "A"
+      "to": "A",
+      "value": "Valor",
+      "whatIs": "Qué es",
+      "xIsWhatPercentOfY": "X es qué porcentaje de Y"
     }
   }
 }

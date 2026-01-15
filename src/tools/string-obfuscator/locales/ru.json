@@ -1,16 +1,16 @@
 {
   "tools": {
     "string-obfuscator": {
-      "copied": "Замаскированная строка скопирована",
-      "cardInputTitle": "Параметры",
       "cardInputDescription": "Настройте, как должна быть маскированна строка",
-      "cardResultsTitle": "Маскированная",
+      "cardInputTitle": "Параметры",
       "cardResultsDescription": "Предпросмотр маскированной строки",
-      "placeholder": "Введите строку для маскировки",
-      "label": "Строка для маскировки:",
+      "cardResultsTitle": "Маскированная",
+      "copied": "Замаскированная строка скопирована",
       "keepFirst": "Сохранить первые:",
       "keepLast": "Сохранить последние:",
-      "keepSpaces": "Сохранить пробелы:"
+      "keepSpaces": "Сохранить пробелы:",
+      "label": "Строка для маскировки:",
+      "placeholder": "Введите строку для маскировки"
     }
   }
 }

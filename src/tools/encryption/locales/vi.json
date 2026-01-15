@@ -1,18 +1,18 @@
 {
   "tools": {
     "encryption": {
-      "encrypt": "Mã hóa",
-      "yourText": "Văn bản của bạn:",
-      "stringToCypher": "Chuỗi cần mã hóa",
-      "yourSecretKey": "Khóa bí mật của bạn:",
-      "encryptionAlgorithm": "Thuật toán mã hóa:",
-      "yourTextEncrypted": "Văn bản đã mã hóa của bạn:",
-      "stringHash": "Hash của chuỗi của bạn",
       "decrypt": "Giải mã",
-      "yourEncryptedText": "Văn bản đã mã hóa của bạn:",
-      "yourDecryptedText": "Văn bản đã giải mã của bạn:",
+      "encrypt": "Mã hóa",
+      "encryptionAlgorithm": "Thuật toán mã hóa:",
       "errorWhileDecrypting": "Lỗi khi giải mã",
-      "unableToDecrypt": "Không thể giải mã văn bản của bạn"
+      "stringHash": "Hash của chuỗi của bạn",
+      "stringToCypher": "Chuỗi cần mã hóa",
+      "unableToDecrypt": "Không thể giải mã văn bản của bạn",
+      "yourDecryptedText": "Văn bản đã giải mã của bạn:",
+      "yourEncryptedText": "Văn bản đã mã hóa của bạn:",
+      "yourSecretKey": "Khóa bí mật của bạn:",
+      "yourText": "Văn bản của bạn:",
+      "yourTextEncrypted": "Văn bản đã mã hóa của bạn:"
     }
   }
 }

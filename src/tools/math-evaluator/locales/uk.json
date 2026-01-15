@@ -1,10 +1,10 @@
 {
   "tools": {
     "math-evaluator": {
-      "cardInputTitle": "Математичний вираз",
       "cardInputDescription": "Введіть математичний вираз, використовуючи стандартні оператори та функції (наприклад: 2 * sqrt(6) + sin(pi / 4)).",
-      "cardResultTitle": "Результат обчислення",
+      "cardInputTitle": "Математичний вираз",
       "cardResultDescription": "Обчислений результат вашого виразу.",
+      "cardResultTitle": "Результат обчислення",
       "placeholder": "Ваш математичний вираз (напр. 2*sqrt(6) )...",
       "result": "Результат"
     }

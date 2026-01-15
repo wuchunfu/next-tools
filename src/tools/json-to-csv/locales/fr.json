@@ -1,13 +1,13 @@
 {
   "tools": {
     "json-to-csv": {
-      "cardInputTitle": "Saisie du tableau JSON",
       "cardInputDescription": "Collez ci-dessous un tableau JSON valide. Chaque objet deviendra une ligne dans la sortie CSV.",
-      "cardOutputTitle": "Résultat CSV",
+      "cardInputTitle": "Saisie du tableau JSON",
       "cardOutputDescription": "Consultez et copiez la représentation CSV générée de votre tableau JSON.",
+      "cardOutputTitle": "Résultat CSV",
+      "inputPlaceholder": "Collez votre tableau JSON ici...",
       "invalid": "Le JSON fourni n'est pas valide ou n'est pas un tableau.",
-      "invalidJsonTitle": "JSON invalide",
-      "inputPlaceholder": "Collez votre tableau JSON ici..."
+      "invalidJsonTitle": "JSON invalide"
     }
   }
 }

@@ -1,21 +1,21 @@
 {
   "tools": {
     "bcrypt": {
+      "compareStringWithHash": "Порівняти рядок з хешем",
+      "copied": "Захешований рядок скопійовано в буфер обміну",
+      "copyHash": "Копіювати хеш",
+      "doTheyMatch": "Вони збігаються?",
+      "enterBothFields": "Введіть обидва поля для порівняння",
       "hash": "Хеш",
+      "hashToCompare": "Ваш хеш для порівняння...",
+      "no": "Ні",
       "placeholder": "Ваш рядок для bcrypt...",
-      "yourString": "Ваш рядок:",
       "saltCount": "Кількість солі:",
       "saltRounds": "Раунди солі...",
-      "copyHash": "Копіювати хеш",
-      "copied": "Захешований рядок скопійовано в буфер обміну",
-      "compareStringWithHash": "Порівняти рядок з хешем",
       "stringToCompare": "Ваш рядок для порівняння...",
-      "yourHash": "Ваш хеш:",
-      "hashToCompare": "Ваш хеш для порівняння...",
-      "doTheyMatch": "Вони збігаються?",
       "yes": "Так",
-      "no": "Ні",
-      "enterBothFields": "Введіть обидва поля для порівняння"
+      "yourHash": "Ваш хеш:",
+      "yourString": "Ваш рядок:"
     }
   }
 }

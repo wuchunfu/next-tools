@@ -1,20 +1,20 @@
 {
   "tools": {
     "xml-formatter": {
-      "invalid": "Den oppgitte XML-en er ikke gyldig.",
-      "invalidXmlTitle": "Ugyldig XML",
+      "cardInputDescription": "Lim inn XML-en din nedenfor. Vi validerer den og lager en formatert versjon.",
+      "cardInputTitle": "XML-inndata",
+      "cardOptionsDescription": "Juster innrykk og kollapsing slik at det matcher din foretrukne XML-stil.",
+      "cardOptionsTitle": "Formateringsvalg",
+      "cardOutputDescription": "Se gjennom og kopier den formaterte XML-utdataen.",
+      "cardOutputTitle": "Formatert XML",
       "collapse": "Kollaps innhold:",
       "collapseHint": "Kollaps tekstinnhold til en enkelt linje når det er mulig.",
       "indent": "Innrykksstørrelse:",
       "indentHint": "Antall mellomrom som brukes for innrykk (0–10).",
-      "cardOptionsTitle": "Formateringsvalg",
-      "cardOptionsDescription": "Juster innrykk og kollapsing slik at det matcher din foretrukne XML-stil.",
-      "cardInputTitle": "XML-inndata",
-      "cardInputDescription": "Lim inn XML-en din nedenfor. Vi validerer den og lager en formatert versjon.",
-      "cardOutputTitle": "Formatert XML",
-      "cardOutputDescription": "Se gjennom og kopier den formaterte XML-utdataen.",
       "inputLabel": "Din XML",
       "inputPlaceholder": "Lim inn din XML her...",
+      "invalid": "Den oppgitte XML-en er ikke gyldig.",
+      "invalidXmlTitle": "Ugyldig XML",
       "outputLabel": "Formatert XML fra din XML"
     }
   }

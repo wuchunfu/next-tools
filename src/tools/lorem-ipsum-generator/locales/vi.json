@@ -1,19 +1,19 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "optionsTitle": "Tùy chọn",
-      "optionsDescription": "Cấu hình cách tạo Lorem Ipsum",
-      "resultsTitle": "Văn bản tạo",
-      "resultsDescription": "Xem trước Lorem Ipsum được tạo",
-      "paragraphs": "Đoạn văn",
-      "sentencesPerParagraph": "Câu mỗi đoạn",
-      "wordsPerSentence": "Từ mỗi câu",
-      "startWithLoremIpsum": "Bắt đầu bằng lorem ipsum?",
       "asHtml": "Dưới dạng HTML?",
-      "placeholder": "Lorem ipsum của bạn...",
+      "copied": "Lorem ipsum đã được sao chép vào clipboard",
       "copy": "Sao chép",
+      "optionsDescription": "Cấu hình cách tạo Lorem Ipsum",
+      "optionsTitle": "Tùy chọn",
+      "paragraphs": "Đoạn văn",
+      "placeholder": "Lorem ipsum của bạn...",
       "refresh": "Làm mới",
-      "copied": "Lorem ipsum đã được sao chép vào clipboard"
+      "resultsDescription": "Xem trước Lorem Ipsum được tạo",
+      "resultsTitle": "Văn bản tạo",
+      "sentencesPerParagraph": "Câu mỗi đoạn",
+      "startWithLoremIpsum": "Bắt đầu bằng lorem ipsum?",
+      "wordsPerSentence": "Từ mỗi câu"
     }
   }
 }

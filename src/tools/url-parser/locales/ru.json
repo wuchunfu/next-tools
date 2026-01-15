@@ -1,29 +1,29 @@
 {
   "tools": {
     "url-parser": {
-      "invalid": "Неверный URL",
-      "cardTitle": "Анализатор URL",
       "cardDescription": "Анализировать URL для извлечения их компонентов (протокол, имя хоста, путь, параметры запроса и т.д.).",
-      "cardInputTitle": "Ввод URL",
       "cardInputDescription": "Вставьте URL ниже. Мы проверим его и покажем компоненты и параметры запроса.",
-      "cardOutputTitle": "Результат разбора",
+      "cardInputTitle": "Ввод URL",
       "cardOutputDescription": "Просмотрите и скопируйте компоненты URL, извлечённые из вашего ввода.",
-      "inputPlaceholder": "Введите URL для анализа...",
+      "cardOutputTitle": "Результат разбора",
+      "cardTitle": "Анализатор URL",
       "clear": "Очистить",
-      "invalidUrlTitle": "Неверный URL",
-      "urlComponents": "Компоненты URL",
-      "protocol": "Протокол",
-      "username": "Имя пользователя",
-      "password": "Пароль",
-      "hostname": "Имя хоста",
-      "port": "Порт",
-      "path": "Путь",
-      "search": "Поиск",
+      "enterUrlToParse": "Введите действительный URL, чтобы увидеть его компоненты.",
       "hash": "Хеш",
-      "queryParameters": "Параметры запроса",
+      "hostname": "Имя хоста",
+      "inputPlaceholder": "Введите URL для анализа...",
+      "invalid": "Неверный URL",
+      "invalidUrlTitle": "Неверный URL",
       "parameterName": "Параметр",
       "parameterValue": "Значение",
-      "enterUrlToParse": "Введите действительный URL, чтобы увидеть его компоненты."
+      "password": "Пароль",
+      "path": "Путь",
+      "port": "Порт",
+      "protocol": "Протокол",
+      "queryParameters": "Параметры запроса",
+      "search": "Поиск",
+      "urlComponents": "Компоненты URL",
+      "username": "Имя пользователя"
     }
   }
 }

@@ -1,28 +1,28 @@
 {
   "tools": {
     "color-converter": {
+      "alpha": "Alpha",
+      "cardFormatsDescription": "Konverter mellom forskjellige fargeformater. Rediger et hvilket som helst felt for å oppdatere alle formater.",
+      "cardFormatsTitle": "Fargeformater",
+      "cardPickerDescription": "Velg en farge ved hjelp av fargevelgeren.",
+      "cardPickerTitle": "Fargevelger",
+      "cmyk": "cmyk",
+      "cmykPlaceholder": "f.eks. cmyk(0, 100%, 100%, 0)",
+      "colorInfo": "Fargeinformasjon",
       "colorPicker": "fargevelger",
       "hex": "hex",
       "hexPlaceholder": "f.eks. #ff0000",
-      "rgb": "rgb",
-      "rgbPlaceholder": "f.eks. rgb(255, 0, 0)",
       "hsl": "hsl",
       "hslPlaceholder": "f.eks. hsl(0, 100%, 50%)",
       "hwb": "hwb",
       "hwbPlaceholder": "f.eks. hwb(0, 0%, 0%)",
       "lch": "lch",
       "lchPlaceholder": "f.eks. lch(53.24, 104.55, 40.85)",
-      "cmyk": "cmyk",
-      "cmykPlaceholder": "f.eks. cmyk(0, 100%, 100%, 0)",
       "name": "navn",
       "namePlaceholder": "f.eks. rød",
-      "unknown": "Ukjent",
-      "cardPickerTitle": "Fargevelger",
-      "cardPickerDescription": "Velg en farge ved hjelp av fargevelgeren.",
-      "cardFormatsTitle": "Fargeformater",
-      "cardFormatsDescription": "Konverter mellom forskjellige fargeformater. Rediger et hvilket som helst felt for å oppdatere alle formater.",
-      "colorInfo": "Fargeinformasjon",
-      "alpha": "Alpha"
+      "rgb": "rgb",
+      "rgbPlaceholder": "f.eks. rgb(255, 0, 0)",
+      "unknown": "Ukjent"
     }
   }
 }

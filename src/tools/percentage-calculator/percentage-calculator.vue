@@ -98,7 +98,7 @@ function clearCalculation3() {
                   type="number"
                   step="any"
                   :placeholder="t('tools.percentage-calculator.placeholderX', 'X')"
-                  data-test-id="percentageX"
+                  data-testid="percentageX"
                 />
               </FieldContent>
             </Field>
@@ -113,7 +113,7 @@ function clearCalculation3() {
                   type="number"
                   step="any"
                   :placeholder="t('tools.percentage-calculator.placeholderY', 'Y')"
-                  data-test-id="percentageY"
+                  data-testid="percentageY"
                 />
               </FieldContent>
             </Field>
@@ -127,7 +127,7 @@ function clearCalculation3() {
                   :value="percentageResult"
                   readonly
                   :placeholder="t('tools.percentage-calculator.result', 'Result')"
-                  data-test-id="percentageResult"
+                  data-testid="percentageResult"
                   :field-props="{ class: 'w-full' }"
                 />
               </FieldContent>
@@ -180,7 +180,7 @@ function clearCalculation3() {
                   type="number"
                   step="any"
                   :placeholder="t('tools.percentage-calculator.placeholderX', 'X')"
-                  data-test-id="numberX"
+                  data-testid="numberX"
                 />
               </FieldContent>
             </Field>
@@ -195,7 +195,7 @@ function clearCalculation3() {
                   type="number"
                   step="any"
                   :placeholder="t('tools.percentage-calculator.placeholderY', 'Y')"
-                  data-test-id="numberY"
+                  data-testid="numberY"
                 />
               </FieldContent>
             </Field>
@@ -209,7 +209,7 @@ function clearCalculation3() {
                   :value="numberResult"
                   readonly
                   :placeholder="t('tools.percentage-calculator.result', 'Result')"
-                  data-test-id="numberResult"
+                  data-testid="numberResult"
                   :field-props="{ class: 'w-full' }"
                 />
               </FieldContent>
@@ -262,7 +262,7 @@ function clearCalculation3() {
                   type="number"
                   step="any"
                   :placeholder="t('tools.percentage-calculator.from', 'From')"
-                  data-test-id="numberFrom"
+                  data-testid="numberFrom"
                 />
               </FieldContent>
             </Field>
@@ -277,7 +277,7 @@ function clearCalculation3() {
                   type="number"
                   step="any"
                   :placeholder="t('tools.percentage-calculator.to', 'To')"
-                  data-test-id="numberTo"
+                  data-testid="numberTo"
                 />
               </FieldContent>
             </Field>
@@ -291,7 +291,7 @@ function clearCalculation3() {
                   :value="percentageIncreaseDecrease"
                   readonly
                   :placeholder="t('tools.percentage-calculator.result', 'Result')"
-                  data-test-id="percentageIncreaseDecrease"
+                  data-testid="percentageIncreaseDecrease"
                   :field-props="{ class: 'w-full' }"
                 />
               </FieldContent>

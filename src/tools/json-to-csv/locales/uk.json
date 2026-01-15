@@ -1,13 +1,13 @@
 {
   "tools": {
     "json-to-csv": {
-      "cardInputTitle": "Ввід JSON-масиву",
       "cardInputDescription": "Вставте нижче коректний JSON-масив. Кожен об’єкт стане рядком у CSV-виводі.",
-      "cardOutputTitle": "Результат CSV",
+      "cardInputTitle": "Ввід JSON-масиву",
       "cardOutputDescription": "Перегляньте та скопіюйте згенероване CSV-представлення вашого JSON-масиву.",
+      "cardOutputTitle": "Результат CSV",
+      "inputPlaceholder": "Вставте ваш JSON-масив тут...",
       "invalid": "Наданий JSON недійсний або не є масивом.",
-      "invalidJsonTitle": "Недійсний JSON",
-      "inputPlaceholder": "Вставте ваш JSON-масив тут..."
+      "invalidJsonTitle": "Недійсний JSON"
     }
   }
 }

@@ -1,33 +1,33 @@
 {
   "tools": {
     "html-wysiwyg-editor": {
-      "cardTitle": "Редактор",
       "cardDescription": "Пишите форматированный текст и смотрите готовый HTML рядом.",
-      "initial": "<h1>Привет!</h1><p>Добро пожаловать в этот HTML wysiwyg редактор</p>",
-      "formattedTitle": "Отформатированный HTML",
+      "cardTitle": "Редактор",
+      "charactersLabel": "Символы",
+      "clearContent": "Очистить",
+      "copiedFormatted": "Отформатированный HTML скопирован",
+      "copyFormatted": "Копировать отформатированный",
       "formattedDescription": "Разметка, отформатированная Prettier, готовая к копированию.",
       "formattedPlaceholder": "Отформатированный HTML появится здесь",
-      "copyFormatted": "Копировать отформатированный",
-      "copiedFormatted": "Отформатированный HTML скопирован",
-      "clearContent": "Очистить",
-      "charactersLabel": "Символы",
+      "formattedTitle": "Отформатированный HTML",
+      "initial": "<h1>Привет!</h1><p>Добро пожаловать в этот HTML wysiwyg редактор</p>",
       "toolbar": {
+        "blockquote": "Цитата",
         "bold": "Жирный",
-        "italic": "Курсив",
-        "strike": "Зачеркнутый",
-        "inline": "Встроенный код",
+        "bullet": "Маркированный список",
+        "clear": "Очистить форматирование",
+        "codeBlock": "Блок кода",
         "h1": "Заголовок 1",
         "h2": "Заголовок 2",
         "h3": "Заголовок 3",
         "h4": "Заголовок 4",
-        "bullet": "Маркированный список",
-        "ordered": "Нумерованный список",
-        "codeBlock": "Блок кода",
-        "blockquote": "Цитата",
         "hardBreak": "Разрыв строки",
-        "clear": "Очистить форматирование",
-        "undo": "Отменить",
-        "redo": "Повторить"
+        "inline": "Встроенный код",
+        "italic": "Курсив",
+        "ordered": "Нумерованный список",
+        "redo": "Повторить",
+        "strike": "Зачеркнутый",
+        "undo": "Отменить"
       }
     }
   }

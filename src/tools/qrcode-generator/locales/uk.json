@@ -1,26 +1,26 @@
 {
   "tools": {
     "qrcode-generator": {
-      "cardTitle": "Генератор QR-коду",
-      "cardDescription": "Створюйте налаштовувані QR-коди для URL або тексту з регульованими кольорами та рівнями корекції помилок.",
-      "text": "Вміст",
-      "yourLinkOrText": "Введіть URL або текст для кодування...",
-      "foregroundColor": "Передній план",
       "backgroundColor": "Фон",
-      "errorResistance": "Рівень корекції помилок",
-      "downloadQrCode": "Завантажити PNG",
+      "cardDescription": "Створюйте налаштовувані QR-коди для URL або тексту з регульованими кольорами та рівнями корекції помилок.",
+      "cardTitle": "Генератор QR-коду",
       "characters": "символів",
       "colorSettings": "Налаштування кольору",
-      "resetColors": "Скинути",
-      "resetColorsTooltip": "Скинути до кольорів за замовчуванням",
+      "downloadQrCode": "Завантажити PNG",
+      "emptyPreview": "Введіть текст для генерації QR-коду",
+      "errorResistance": "Рівень корекції помилок",
+      "errorResistanceHint": "Вищі рівні допускають більше пошкоджень, але збільшують щільність QR-коду.",
+      "foregroundColor": "Передній план",
+      "levelHigh": "Високий (~30%)",
       "levelLow": "Низький (~7%)",
       "levelMedium": "Середній (~15%)",
       "levelQuartile": "Квартиль (~25%)",
-      "levelHigh": "Високий (~30%)",
-      "selectLevel": "Вибрати рівень",
-      "errorResistanceHint": "Вищі рівні допускають більше пошкоджень, але збільшують щільність QR-коду.",
       "preview": "Попередній перегляд",
-      "emptyPreview": "Введіть текст для генерації QR-коду"
+      "resetColors": "Скинути",
+      "resetColorsTooltip": "Скинути до кольорів за замовчуванням",
+      "selectLevel": "Вибрати рівень",
+      "text": "Вміст",
+      "yourLinkOrText": "Введіть URL або текст для кодування..."
     }
   }
 }

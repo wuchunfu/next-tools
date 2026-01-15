@@ -1,26 +1,26 @@
 {
   "tools": {
     "qrcode-generator": {
-      "cardTitle": "Générateur de QR Code",
-      "cardDescription": "Générez des QR codes personnalisables pour des URLs ou du texte avec des couleurs et des niveaux de correction d'erreur ajustables.",
-      "text": "Contenu",
-      "yourLinkOrText": "Entrez l'URL ou le texte à encoder...",
-      "foregroundColor": "Premier plan",
       "backgroundColor": "Arrière-plan",
-      "errorResistance": "Niveau de correction d'erreur",
-      "downloadQrCode": "Télécharger PNG",
+      "cardDescription": "Générez des QR codes personnalisables pour des URLs ou du texte avec des couleurs et des niveaux de correction d'erreur ajustables.",
+      "cardTitle": "Générateur de QR Code",
       "characters": "caractères",
       "colorSettings": "Paramètres de couleur",
-      "resetColors": "Réinitialiser",
-      "resetColorsTooltip": "Réinitialiser aux couleurs par défaut",
+      "downloadQrCode": "Télécharger PNG",
+      "emptyPreview": "Entrez du texte pour générer le QR code",
+      "errorResistance": "Niveau de correction d'erreur",
+      "errorResistanceHint": "Des niveaux plus élevés permettent plus de tolérance aux dommages mais augmentent la densité du QR code.",
+      "foregroundColor": "Premier plan",
+      "levelHigh": "Élevé (~30%)",
       "levelLow": "Bas (~7%)",
       "levelMedium": "Moyen (~15%)",
       "levelQuartile": "Quartile (~25%)",
-      "levelHigh": "Élevé (~30%)",
-      "selectLevel": "Sélectionner le niveau",
-      "errorResistanceHint": "Des niveaux plus élevés permettent plus de tolérance aux dommages mais augmentent la densité du QR code.",
       "preview": "Aperçu",
-      "emptyPreview": "Entrez du texte pour générer le QR code"
+      "resetColors": "Réinitialiser",
+      "resetColorsTooltip": "Réinitialiser aux couleurs par défaut",
+      "selectLevel": "Sélectionner le niveau",
+      "text": "Contenu",
+      "yourLinkOrText": "Entrez l'URL ou le texte à encoder..."
     }
   }
 }

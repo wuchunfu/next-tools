@@ -1,13 +1,6 @@
 {
   "tools": {
     "http-status-codes": {
-      "searchPlaceholder": "Søk HTTP-status...",
-      "searchResults": "Søkeresultater",
-      "forType": "For {type}.",
-      "types": {
-        "http": "HTTP",
-        "webdav": "WebDav"
-      },
       "categories": {
         "1xx-informational-response": "1xx informativ respons",
         "2xx-success": "2xx suksess",
@@ -17,257 +10,264 @@
       },
       "codes": {
         "100": {
-          "name": "Fortsett",
-          "description": "Venter på at klienten skal sende forespørselskroppen."
+          "description": "Venter på at klienten skal sende forespørselskroppen.",
+          "name": "Fortsett"
         },
         "101": {
-          "name": "Bytt protokoll",
-          "description": "Serveren har gått med på å endre protokollen."
+          "description": "Serveren har gått med på å endre protokollen.",
+          "name": "Bytt protokoll"
         },
         "102": {
-          "name": "Behandler",
-          "description": "Serveren behandler forespørselen, men ingen respons er tilgjengelig ennå."
+          "description": "Serveren behandler forespørselen, men ingen respons er tilgjengelig ennå.",
+          "name": "Behandler"
         },
         "103": {
-          "name": "Tidlige hint",
-          "description": "Serveren returnerer noen responsheadere før den endelige HTTP-meldingen."
+          "description": "Serveren returnerer noen responsheadere før den endelige HTTP-meldingen.",
+          "name": "Tidlige hint"
         },
         "200": {
-          "name": "OK",
-          "description": "Standardrespons for vellykkede HTTP-forespørsler."
+          "description": "Standardrespons for vellykkede HTTP-forespørsler.",
+          "name": "OK"
         },
         "201": {
-          "name": "Opprettet",
-          "description": "Forespørselen har blitt oppfylt, noe som resulterte i opprettelsen av en ny ressurs."
+          "description": "Forespørselen har blitt oppfylt, noe som resulterte i opprettelsen av en ny ressurs.",
+          "name": "Opprettet"
         },
         "202": {
-          "name": "Akseptert",
-          "description": "Forespørselen har blitt akseptert for behandling, men behandlingen er ikke fullført."
+          "description": "Forespørselen har blitt akseptert for behandling, men behandlingen er ikke fullført.",
+          "name": "Akseptert"
         },
         "203": {
-          "name": "Ikke-autoritativ informasjon",
-          "description": "Forespørselen er vellykket, men innholdet i den opprinnelige forespørselen har blitt endret av en transformerende proxy."
+          "description": "Forespørselen er vellykket, men innholdet i den opprinnelige forespørselen har blitt endret av en transformerende proxy.",
+          "name": "Ikke-autoritativ informasjon"
         },
         "204": {
-          "name": "Ingen innhold",
-          "description": "Serveren behandlet forespørselen vellykket og returnerer ikke noe innhold."
+          "description": "Serveren behandlet forespørselen vellykket og returnerer ikke noe innhold.",
+          "name": "Ingen innhold"
         },
         "205": {
-          "name": "Tilbakestill innhold",
-          "description": "Serveren indikerer å reinitialisere dokumentvisningen som sendte denne forespørselen."
+          "description": "Serveren indikerer å reinitialisere dokumentvisningen som sendte denne forespørselen.",
+          "name": "Tilbakestill innhold"
         },
         "206": {
-          "name": "Delvis innhold",
-          "description": "Serveren leverer bare en del av ressursen på grunn av en rekkevidde-header sendt av klienten."
+          "description": "Serveren leverer bare en del av ressursen på grunn av en rekkevidde-header sendt av klienten.",
+          "name": "Delvis innhold"
         },
         "207": {
-          "name": "Multistatus",
-          "description": "Meldingskroppen som følger er en XML-melding og kan inneholde et antall separate responskoder."
+          "description": "Meldingskroppen som følger er en XML-melding og kan inneholde et antall separate responskoder.",
+          "name": "Multistatus"
         },
         "208": {
-          "name": "Allerede rapportert",
-          "description": "Medlemmene av en DAV-binding har allerede blitt oppregnet i en forutgående del av (multistatus) responsen."
+          "description": "Medlemmene av en DAV-binding har allerede blitt oppregnet i en forutgående del av (multistatus) responsen.",
+          "name": "Allerede rapportert"
         },
         "226": {
-          "name": "IM brukt",
-          "description": "Serveren har oppfylt en forespørsel for ressursen, og responsen er en representasjon av resultatet."
+          "description": "Serveren har oppfylt en forespørsel for ressursen, og responsen er en representasjon av resultatet.",
+          "name": "IM brukt"
         },
         "300": {
-          "name": "Flere valg",
-          "description": "Indikerer flere alternativer for ressursen som klienten kan følge."
+          "description": "Indikerer flere alternativer for ressursen som klienten kan følge.",
+          "name": "Flere valg"
         },
         "301": {
-          "name": "Flyttet permanent",
-          "description": "Denne og alle fremtidige forespørsler skal rettes til den gitte URI-en."
+          "description": "Denne og alle fremtidige forespørsler skal rettes til den gitte URI-en.",
+          "name": "Flyttet permanent"
         },
         "302": {
-          "name": "Funnet",
-          "description": "Omdiriger til en annen URL. Dette er et eksempel på bransjepraksis som motsier standarden."
+          "description": "Omdiriger til en annen URL. Dette er et eksempel på bransjepraksis som motsier standarden.",
+          "name": "Funnet"
         },
         "303": {
-          "name": "Se annen",
-          "description": "Responsen til forespørselen kan finnes under en annen URI ved å bruke en GET-metode."
+          "description": "Responsen til forespørselen kan finnes under en annen URI ved å bruke en GET-metode.",
+          "name": "Se annen"
         },
         "304": {
-          "name": "Ikke endret",
-          "description": "Indikerer at ressursen ikke har blitt endret siden versjonen spesifisert av forespørselsheadere."
+          "description": "Indikerer at ressursen ikke har blitt endret siden versjonen spesifisert av forespørselsheadere.",
+          "name": "Ikke endret"
         },
         "305": {
-          "name": "Bruk proxy",
-          "description": "Den forespurte ressursen er bare tilgjengelig gjennom en proxy, hvis adresse er gitt i responsen."
+          "description": "Den forespurte ressursen er bare tilgjengelig gjennom en proxy, hvis adresse er gitt i responsen.",
+          "name": "Bruk proxy"
         },
         "306": {
-          "name": "Bytt proxy",
-          "description": "Brukes ikke lenger. Opprinnelig betydde \"Påfølgende forespørsler skal bruke den spesifiserte proxyen.\""
+          "description": "Brukes ikke lenger. Opprinnelig betydde \"Påfølgende forespørsler skal bruke den spesifiserte proxyen.\"",
+          "name": "Bytt proxy"
         },
         "307": {
-          "name": "Midlertidig omdirigering",
-          "description": "I dette tilfellet skal forespørselen gjentas med en annen URI; imidlertid skal fremtidige forespørsler fortsatt bruke den opprinnelige URI-en."
+          "description": "I dette tilfellet skal forespørselen gjentas med en annen URI; imidlertid skal fremtidige forespørsler fortsatt bruke den opprinnelige URI-en.",
+          "name": "Midlertidig omdirigering"
         },
         "308": {
-          "name": "Permanent omdirigering",
-          "description": "Forespørselen og alle fremtidige forespørsler skal gjentas ved å bruke en annen URI."
+          "description": "Forespørselen og alle fremtidige forespørsler skal gjentas ved å bruke en annen URI.",
+          "name": "Permanent omdirigering"
         },
         "400": {
-          "name": "Dårlig forespørsel",
-          "description": "Serveren kan ikke eller vil ikke behandle forespørselen på grunn av en tilsynelatende klientfeil."
+          "description": "Serveren kan ikke eller vil ikke behandle forespørselen på grunn av en tilsynelatende klientfeil.",
+          "name": "Dårlig forespørsel"
         },
         "401": {
-          "name": "Uautorisert",
-          "description": "Ligner på 403 Forbudt, men spesifikt for bruk når autentisering er påkrevd og har mislyktes eller ikke er gitt ennå."
+          "description": "Ligner på 403 Forbudt, men spesifikt for bruk når autentisering er påkrevd og har mislyktes eller ikke er gitt ennå.",
+          "name": "Uautorisert"
         },
         "402": {
-          "name": "Betaling påkrevd",
-          "description": "Reservert for fremtidig bruk. Den opprinnelige intensjonen var at denne koden kan brukes som en del av en eller annen form for digital kontant eller mikrobetalingsordning."
+          "description": "Reservert for fremtidig bruk. Den opprinnelige intensjonen var at denne koden kan brukes som en del av en eller annen form for digital kontant eller mikrobetalingsordning.",
+          "name": "Betaling påkrevd"
         },
         "403": {
-          "name": "Forbudt",
-          "description": "Forespørselen var gyldig, men serveren nekter å handle. Brukeren har kanskje ikke de nødvendige tillatelsene for en ressurs."
+          "description": "Forespørselen var gyldig, men serveren nekter å handle. Brukeren har kanskje ikke de nødvendige tillatelsene for en ressurs.",
+          "name": "Forbudt"
         },
         "404": {
-          "name": "Ikke funnet",
-          "description": "Den forespurte ressursen kunne ikke bli funnet, men kan være tilgjengelig i fremtiden."
+          "description": "Den forespurte ressursen kunne ikke bli funnet, men kan være tilgjengelig i fremtiden.",
+          "name": "Ikke funnet"
         },
         "405": {
-          "name": "Metode ikke tillatt",
-          "description": "En forespørselsmetode er ikke støttet for den forespurte ressursen."
+          "description": "En forespørselsmetode er ikke støttet for den forespurte ressursen.",
+          "name": "Metode ikke tillatt"
         },
         "406": {
-          "name": "Ikke akseptabelt",
-          "description": "Den forespurte ressursen er i stand til å generere bare innhold som ikke er akseptabelt i henhold til Accept-headere sendt i forespørselen."
+          "description": "Den forespurte ressursen er i stand til å generere bare innhold som ikke er akseptabelt i henhold til Accept-headere sendt i forespørselen.",
+          "name": "Ikke akseptabelt"
         },
         "407": {
-          "name": "Proxy-autentisering påkrevd",
-          "description": "Klienten må først autentisere seg med proxyen."
+          "description": "Klienten må først autentisere seg med proxyen.",
+          "name": "Proxy-autentisering påkrevd"
         },
         "408": {
-          "name": "Forespørselstidsavbrudd",
-          "description": "Serveren gikk ut på tid mens den ventet på forespørselen."
+          "description": "Serveren gikk ut på tid mens den ventet på forespørselen.",
+          "name": "Forespørselstidsavbrudd"
         },
         "409": {
-          "name": "Konflikt",
-          "description": "Indikerer at forespørselen ikke kunne behandles på grunn av konflikt i forespørselen, for eksempel en redigeringskonflikt."
+          "description": "Indikerer at forespørselen ikke kunne behandles på grunn av konflikt i forespørselen, for eksempel en redigeringskonflikt.",
+          "name": "Konflikt"
         },
         "410": {
-          "name": "Borte",
-          "description": "Indikerer at den forespurte ressursen ikke lenger er tilgjengelig og vil ikke være tilgjengelig igjen."
+          "description": "Indikerer at den forespurte ressursen ikke lenger er tilgjengelig og vil ikke være tilgjengelig igjen.",
+          "name": "Borte"
         },
         "411": {
-          "name": "Lengde påkrevd",
-          "description": "Forespørselen spesifiserte ikke lengden på innholdet, som er påkrevd av den forespurte ressursen."
+          "description": "Forespørselen spesifiserte ikke lengden på innholdet, som er påkrevd av den forespurte ressursen.",
+          "name": "Lengde påkrevd"
         },
         "412": {
-          "name": "Forutsetning mislyktes",
-          "description": "Serveren oppfyller ikke en av forutsetningene som forespøreren satte på forespørselen."
+          "description": "Serveren oppfyller ikke en av forutsetningene som forespøreren satte på forespørselen.",
+          "name": "Forutsetning mislyktes"
         },
         "413": {
-          "name": "Nyttelast for stor",
-          "description": "Forespørselen er større enn serveren er villig eller i stand til å behandle."
+          "description": "Forespørselen er større enn serveren er villig eller i stand til å behandle.",
+          "name": "Nyttelast for stor"
         },
         "414": {
-          "name": "URI for lang",
-          "description": "URI-en som ble gitt var for lang for at serveren skulle behandle den."
+          "description": "URI-en som ble gitt var for lang for at serveren skulle behandle den.",
+          "name": "URI for lang"
         },
         "415": {
-          "name": "Medietype ikke støttet",
-          "description": "Forespørselenheten har en medietype som serveren eller ressursen ikke støtter."
+          "description": "Forespørselenheten har en medietype som serveren eller ressursen ikke støtter.",
+          "name": "Medietype ikke støttet"
         },
         "416": {
-          "name": "Rekkevidde ikke tilfredsstillende",
-          "description": "Klienten har bedt om en del av filen, men serveren kan ikke levere den delen."
+          "description": "Klienten har bedt om en del av filen, men serveren kan ikke levere den delen.",
+          "name": "Rekkevidde ikke tilfredsstillende"
         },
         "417": {
-          "name": "Forventning mislyktes",
-          "description": "Serveren kan ikke oppfylle kravene til Expect-forespørselsheaderfeltet."
+          "description": "Serveren kan ikke oppfylle kravene til Expect-forespørselsheaderfeltet.",
+          "name": "Forventning mislyktes"
         },
         "418": {
-          "name": "Jeg er en tekanne",
-          "description": "Serveren nekter forsøket på å brygge kaffe med en tekanne."
+          "description": "Serveren nekter forsøket på å brygge kaffe med en tekanne.",
+          "name": "Jeg er en tekanne"
         },
         "421": {
-          "name": "Feilrettet forespørsel",
-          "description": "Forespørselen ble rettet mot en server som ikke er i stand til å produsere en respons."
+          "description": "Forespørselen ble rettet mot en server som ikke er i stand til å produsere en respons.",
+          "name": "Feilrettet forespørsel"
         },
         "422": {
-          "name": "Enhet ikke prosesserbar",
-          "description": "Forespørselen var velformet, men kunne ikke følges på grunn av semantiske feil."
+          "description": "Forespørselen var velformet, men kunne ikke følges på grunn av semantiske feil.",
+          "name": "Enhet ikke prosesserbar"
         },
         "423": {
-          "name": "Låst",
-          "description": "Ressursen som aksesseres er låst."
+          "description": "Ressursen som aksesseres er låst.",
+          "name": "Låst"
         },
         "424": {
-          "name": "Avhengighet mislyktes",
-          "description": "Forespørselen mislyktes på grunn av feil i en tidligere forespørsel."
+          "description": "Forespørselen mislyktes på grunn av feil i en tidligere forespørsel.",
+          "name": "Avhengighet mislyktes"
         },
         "425": {
-          "name": "For tidlig",
-          "description": "Indikerer at serveren ikke er villig til å risikere å behandle en forespørsel som kan bli gjentatt."
+          "description": "Indikerer at serveren ikke er villig til å risikere å behandle en forespørsel som kan bli gjentatt.",
+          "name": "For tidlig"
         },
         "426": {
-          "name": "Oppgradering påkrevd",
-          "description": "Klienten bør bytte til en annen protokoll som TLS/1.0."
+          "description": "Klienten bør bytte til en annen protokoll som TLS/1.0.",
+          "name": "Oppgradering påkrevd"
         },
         "428": {
-          "name": "Forutsetning påkrevd",
-          "description": "Opprinnelsesserveren krever at forespørselen skal være betinget."
+          "description": "Opprinnelsesserveren krever at forespørselen skal være betinget.",
+          "name": "Forutsetning påkrevd"
         },
         "429": {
-          "name": "For mange forespørsler",
-          "description": "Brukeren har sendt for mange forespørsler i en gitt tidsperiode."
+          "description": "Brukeren har sendt for mange forespørsler i en gitt tidsperiode.",
+          "name": "For mange forespørsler"
         },
         "431": {
-          "name": "Forespørselsheaderfelt for store",
-          "description": "Serveren er ikke villig til å behandle forespørselen fordi enten et individuelt headerfelt, eller alle headerfeltene samlet, er for store."
+          "description": "Serveren er ikke villig til å behandle forespørselen fordi enten et individuelt headerfelt, eller alle headerfeltene samlet, er for store.",
+          "name": "Forespørselsheaderfelt for store"
         },
         "451": {
-          "name": "Utilgjengelig av juridiske årsaker",
-          "description": "En serveroperatør har mottatt et juridisk krav om å nekte tilgang til en ressurs eller et sett med ressurser som inkluderer den forespurte ressursen."
+          "description": "En serveroperatør har mottatt et juridisk krav om å nekte tilgang til en ressurs eller et sett med ressurser som inkluderer den forespurte ressursen.",
+          "name": "Utilgjengelig av juridiske årsaker"
         },
         "500": {
-          "name": "Intern serverfeil",
-          "description": "En generisk feilmelding, gitt når en uventet tilstand ble møtt og ingen mer spesifikk melding er egnet."
+          "description": "En generisk feilmelding, gitt når en uventet tilstand ble møtt og ingen mer spesifikk melding er egnet.",
+          "name": "Intern serverfeil"
         },
         "501": {
-          "name": "Ikke implementert",
-          "description": "Serveren gjenkjenner enten ikke forespørselsmetoden, eller den mangler evnen til å oppfylle forespørselen."
+          "description": "Serveren gjenkjenner enten ikke forespørselsmetoden, eller den mangler evnen til å oppfylle forespørselen.",
+          "name": "Ikke implementert"
         },
         "502": {
-          "name": "Dårlig gateway",
-          "description": "Serveren fungerte som en gateway eller proxy og mottok et ugyldig svar fra oppstrømserveren."
+          "description": "Serveren fungerte som en gateway eller proxy og mottok et ugyldig svar fra oppstrømserveren.",
+          "name": "Dårlig gateway"
         },
         "503": {
-          "name": "Tjeneste utilgjengelig",
-          "description": "Serveren er for øyeblikket utilgjengelig (fordi den er overbelastet eller nede for vedlikehold)."
+          "description": "Serveren er for øyeblikket utilgjengelig (fordi den er overbelastet eller nede for vedlikehold).",
+          "name": "Tjeneste utilgjengelig"
         },
         "504": {
-          "name": "Gateway-tidsavbrudd",
-          "description": "Serveren fungerte som en gateway eller proxy og mottok ikke et rettidig svar fra oppstrømserveren."
+          "description": "Serveren fungerte som en gateway eller proxy og mottok ikke et rettidig svar fra oppstrømserveren.",
+          "name": "Gateway-tidsavbrudd"
         },
         "505": {
-          "name": "HTTP-versjon ikke støttet",
-          "description": "Serveren støtter ikke HTTP-protokollversjonen som brukes i forespørselen."
+          "description": "Serveren støtter ikke HTTP-protokollversjonen som brukes i forespørselen.",
+          "name": "HTTP-versjon ikke støttet"
         },
         "506": {
-          "name": "Variant forhandler også",
-          "description": "Transparent innholdsforhandling for forespørselen resulterer i en sirkulær referanse."
+          "description": "Transparent innholdsforhandling for forespørselen resulterer i en sirkulær referanse.",
+          "name": "Variant forhandler også"
         },
         "507": {
-          "name": "Utilstrekkelig lagring",
-          "description": "Serveren er ikke i stand til å lagre representasjonen som trengs for å fullføre forespørselen."
+          "description": "Serveren er ikke i stand til å lagre representasjonen som trengs for å fullføre forespørselen.",
+          "name": "Utilstrekkelig lagring"
         },
         "508": {
-          "name": "Løkke oppdaget",
-          "description": "Serveren oppdaget en uendelig løkke under behandling av forespørselen."
+          "description": "Serveren oppdaget en uendelig løkke under behandling av forespørselen.",
+          "name": "Løkke oppdaget"
         },
         "510": {
-          "name": "Ikke utvidet",
-          "description": "Ytterligere utvidelser til forespørselen er påkrevd for at serveren skal oppfylle den."
+          "description": "Ytterligere utvidelser til forespørselen er påkrevd for at serveren skal oppfylle den.",
+          "name": "Ikke utvidet"
         },
         "511": {
-          "name": "Nettverksautentisering påkrevd",
-          "description": "Klienten må autentisere seg for å få nettverkstilgang."
+          "description": "Klienten må autentisere seg for å få nettverkstilgang.",
+          "name": "Nettverksautentisering påkrevd"
         }
+      },
+      "forType": "For {type}.",
+      "searchPlaceholder": "Søk HTTP-status...",
+      "searchResults": "Søkeresultater",
+      "types": {
+        "http": "HTTP",
+        "webdav": "WebDav"
       }
     }
   }

@@ -1,22 +1,22 @@
 {
   "tools": {
     "iban-validator-and-parser": {
-      "cardTitle": "Валидатор и анализатор IBAN",
-      "cardDescription": "Валидировать и анализировать Международные банковские номера счетов (IBAN)",
-      "cardResultsTitle": "Результаты",
-      "cardResultsDescription": "Проанализированная информация IBAN и результаты валидации",
-      "examplesDescription": "Примеры IBAN для тестирования",
-      "label": "IBAN",
-      "isValid": "IBAN действителен?",
-      "errors": "Ошибки IBAN",
-      "isQrIban": "Является ли IBAN QR-IBAN?",
-      "countryCode": "Код страны",
       "bban": "BBAN",
-      "friendlyFormat": "Удобный формат IBAN",
-      "placeholder": "Введите IBAN для проверки действительности...",
+      "cardDescription": "Валидировать и анализировать Международные банковские номера счетов (IBAN)",
+      "cardResultsDescription": "Проанализированная информация IBAN и результаты валидации",
+      "cardResultsTitle": "Результаты",
+      "cardTitle": "Валидатор и анализатор IBAN",
+      "countryCode": "Код страны",
+      "errors": "Ошибки IBAN",
+      "examplesDescription": "Примеры IBAN для тестирования",
       "examplesTitle": "Примеры действительных IBAN",
+      "formatted": "Форматированный",
+      "friendlyFormat": "Удобный формат IBAN",
       "iban": "IBAN",
-      "formatted": "Форматированный"
+      "isQrIban": "Является ли IBAN QR-IBAN?",
+      "isValid": "IBAN действителен?",
+      "label": "IBAN",
+      "placeholder": "Введите IBAN для проверки действительности..."
     }
   }
 }

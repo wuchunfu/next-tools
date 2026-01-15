@@ -1,33 +1,33 @@
 {
   "tools": {
     "html-wysiwyg-editor": {
-      "cardTitle": "biên tập viên",
       "cardDescription": "Soạn văn bản rich và xem HTML đã định dạng song song.",
-      "initial": "<h1>Chào!</h1><p>Chào mừng đến với trình chỉnh sửa HTML wysiwyg này</p>",
-      "formattedTitle": "HTML đã định dạng",
+      "cardTitle": "biên tập viên",
+      "charactersLabel": "Ký tự",
+      "clearContent": "Xóa",
+      "copiedFormatted": "HTML đã định dạng đã được sao chép",
+      "copyFormatted": "Sao chép bản định dạng",
       "formattedDescription": "Markup được Prettier định dạng, sẵn sàng sao chép.",
       "formattedPlaceholder": "HTML đã định dạng sẽ hiển thị tại đây",
-      "copyFormatted": "Sao chép bản định dạng",
-      "copiedFormatted": "HTML đã định dạng đã được sao chép",
-      "clearContent": "Xóa",
-      "charactersLabel": "Ký tự",
+      "formattedTitle": "HTML đã định dạng",
+      "initial": "<h1>Chào!</h1><p>Chào mừng đến với trình chỉnh sửa HTML wysiwyg này</p>",
       "toolbar": {
+        "blockquote": "Trích dẫn khối",
         "bold": "Đậm",
-        "italic": "Nghiêng",
-        "strike": "Gạch ngang",
-        "inline": "Mã nội tuyến",
+        "bullet": "Danh sách dấu đầu dòng",
+        "clear": "Xóa định dạng",
+        "codeBlock": "Khối mã",
         "h1": "Tiêu đề 1",
         "h2": "Tiêu đề 2",
         "h3": "Tiêu đề 3",
         "h4": "Tiêu đề 4",
-        "bullet": "Danh sách dấu đầu dòng",
-        "ordered": "Danh sách có thứ tự",
-        "codeBlock": "Khối mã",
-        "blockquote": "Trích dẫn khối",
         "hardBreak": "Ngắt dòng",
-        "clear": "Xóa định dạng",
-        "undo": "Hoàn tác",
-        "redo": "Làm lại"
+        "inline": "Mã nội tuyến",
+        "italic": "Nghiêng",
+        "ordered": "Danh sách có thứ tự",
+        "redo": "Làm lại",
+        "strike": "Gạch ngang",
+        "undo": "Hoàn tác"
       }
     }
   }

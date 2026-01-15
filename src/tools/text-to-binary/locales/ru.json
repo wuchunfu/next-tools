@@ -1,23 +1,23 @@
 {
   "tools": {
     "text-to-binary": {
-      "cardTextToBinaryTitle": "Текст в Двоичный",
-      "cardTextToBinaryDescription": "Преобразуйте текст в его двоичное представление ASCII.",
-      "cardBinaryToTextTitle": "Двоичный в Текст",
+      "binaryFromText": "Двоичный вывод",
+      "binaryInputPlaceholder": "например: '01001000 01100101 01101100 01101100 01101111'",
+      "binaryPlaceholder": "Двоичное представление вашего текста появится здесь",
+      "bytes": "Байты",
       "cardBinaryToTextDescription": "Преобразуйте двоичное представление ASCII обратно в текст.",
-      "textPlaceholder": "например: 'Hello world'",
+      "cardBinaryToTextTitle": "Двоичный в Текст",
+      "cardTextToBinaryDescription": "Преобразуйте текст в его двоичное представление ASCII.",
+      "cardTextToBinaryTitle": "Текст в Двоичный",
+      "clear": "Очистить",
+      "enterBinaryToConvert": "Введите двоичный для преобразования",
       "enterTextToConvert": "Введите текст для преобразования",
       "inputLength": "Длина",
+      "invalidBinary": "Двоичный должен быть действительной ASCII двоичной строкой с кратными 8 битам",
       "outputLength": "Длина",
-      "bytes": "Байты",
-      "clear": "Очистить",
-      "binaryFromText": "Двоичный вывод",
-      "binaryPlaceholder": "Двоичное представление вашего текста появится здесь",
-      "binaryInputPlaceholder": "например: '01001000 01100101 01101100 01101100 01101111'",
-      "enterBinaryToConvert": "Введите двоичный для преобразования",
       "textFromBinary": "Текстовый вывод",
       "textOutputPlaceholder": "Текстовое представление вашего двоичного появится здесь",
-      "invalidBinary": "Двоичный должен быть действительной ASCII двоичной строкой с кратными 8 битам"
+      "textPlaceholder": "например: 'Hello world'"
     }
   }
 }

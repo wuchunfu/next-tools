@@ -24,6 +24,29 @@ const TOOL_BASE_PROPERTIES = ['title', 'description', 'keywords'];
 const ALL_LANGUAGES = '__ALL__';
 
 /**
+ * Recursively sort object keys in alphabetical order
+ * This ensures consistent JSON output and prevents unnecessary git changes
+ * @param {any} obj - Object to sort
+ * @returns {any} - Object with sorted keys
+ */
+function sortObjectKeys(obj) {
+  // Handle null, undefined, primitives, and arrays
+  if (obj === null || obj === undefined || typeof obj !== 'object' || Array.isArray(obj)) {
+    return obj;
+  }
+
+  // Sort object keys and recursively sort nested objects
+  const sortedObj = {};
+  const keys = Object.keys(obj).sort();
+
+  for (const key of keys) {
+    sortedObj[key] = sortObjectKeys(obj[key]);
+  }
+
+  return sortedObj;
+}
+
+/**
  * Get all available language codes
  */
 async function getLanguages() {
@@ -179,7 +202,9 @@ async function collectTranslations(options = {}) {
   // Write merged translation files
   for (const [lang, translations] of Object.entries(translationsByLanguage)) {
     const outputPath = join(tempDir, `${lang}.json`);
-    await writeFile(outputPath, JSON.stringify(translations, null, 2), 'utf-8');
+    // Sort keys before writing to ensure consistent order
+    const sortedTranslations = sortObjectKeys(translations);
+    await writeFile(outputPath, JSON.stringify(sortedTranslations, null, 2), 'utf-8');
     consola.success(`✓ Saved ${lang}.json`);
   }
 
@@ -309,7 +334,9 @@ async function createNewLanguage(options = {}) {
 
   // Write new language file
   const outputPath = join(tempDir, `${lang}.json`);
-  await writeFile(outputPath, JSON.stringify(newTranslations, null, 2), 'utf-8');
+  // Sort keys before writing to ensure consistent order
+  const sortedTranslations = sortObjectKeys(newTranslations);
+  await writeFile(outputPath, JSON.stringify(sortedTranslations, null, 2), 'utf-8');
 
   consola.success(`\n✓ New language file created: ${outputPath}`);
   consola.info(`\nNext steps:`);
@@ -410,9 +437,11 @@ async function writeBackTranslations(options = {}) {
               },
             };
 
+            // Sort keys before writing to ensure consistent order
+            const sortedToolFileContent = sortObjectKeys(toolFileContent);
             await writeFile(
               toolFilePath,
-              JSON.stringify(toolFileContent, null, 2),
+              JSON.stringify(sortedToolFileContent, null, 2),
               'utf-8'
             );
             consola.success(`  ✓ Updated ${toolName}/locales/${lang}.json`);
@@ -425,9 +454,11 @@ async function writeBackTranslations(options = {}) {
 
     // Write global translation file
     const globalFilePath = join(globalLocalesDir, `${lang}.json`);
+    // Sort keys before writing to ensure consistent order
+    const sortedGlobalTranslations = sortObjectKeys(globalTranslations);
     await writeFile(
       globalFilePath,
-      JSON.stringify(globalTranslations, null, 2),
+      JSON.stringify(sortedGlobalTranslations, null, 2),
       'utf-8'
     );
     consola.success(`✓ Updated global translation for ${lang}`);

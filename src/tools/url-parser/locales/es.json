@@ -1,29 +1,29 @@
 {
   "tools": {
     "url-parser": {
-      "invalid": "URL inválida",
-      "cardTitle": "Analizador de URL",
       "cardDescription": "Analizar URLs para extraer sus componentes (protocolo, nombre de host, ruta, parámetros de consulta, etc.).",
-      "cardInputTitle": "Entrada de URL",
       "cardInputDescription": "Pegue una URL a continuación. La validaremos y mostraremos sus componentes y parámetros de consulta.",
-      "cardOutputTitle": "Resultado analizado",
+      "cardInputTitle": "Entrada de URL",
       "cardOutputDescription": "Revise y copie los componentes de la URL extraídos de su entrada.",
-      "inputPlaceholder": "Ingrese la URL a analizar...",
+      "cardOutputTitle": "Resultado analizado",
+      "cardTitle": "Analizador de URL",
       "clear": "Limpiar",
-      "invalidUrlTitle": "URL inválida",
-      "urlComponents": "Componentes de URL",
-      "protocol": "Protocolo",
-      "username": "Nombre de usuario",
-      "password": "Contraseña",
-      "hostname": "Nombre de host",
-      "port": "Puerto",
-      "path": "Ruta",
-      "search": "Búsqueda",
+      "enterUrlToParse": "Ingrese una URL válida para ver sus componentes.",
       "hash": "Hash",
-      "queryParameters": "Parámetros de consulta",
+      "hostname": "Nombre de host",
+      "inputPlaceholder": "Ingrese la URL a analizar...",
+      "invalid": "URL inválida",
+      "invalidUrlTitle": "URL inválida",
       "parameterName": "Parámetro",
       "parameterValue": "Valor",
-      "enterUrlToParse": "Ingrese una URL válida para ver sus componentes."
+      "password": "Contraseña",
+      "path": "Ruta",
+      "port": "Puerto",
+      "protocol": "Protocolo",
+      "queryParameters": "Parámetros de consulta",
+      "search": "Búsqueda",
+      "urlComponents": "Componentes de URL",
+      "username": "Nombre de usuario"
     }
   }
 }

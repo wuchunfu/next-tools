@@ -1,21 +1,21 @@
 {
   "tools": {
     "bcrypt": {
+      "compareStringWithHash": "Comparar string com hash",
+      "copied": "String com hash copiada para a área de transferência",
+      "copyHash": "Copiar hash",
+      "doTheyMatch": "Eles correspondem?",
+      "enterBothFields": "Digite ambos os campos para comparar",
       "hash": "Hash",
+      "hashToCompare": "Seu hash para comparar...",
+      "no": "Não",
       "placeholder": "Sua string para bcrypt...",
-      "yourString": "Sua string:",
       "saltCount": "Contagem de sal:",
       "saltRounds": "Rounds de sal...",
-      "copyHash": "Copiar hash",
-      "copied": "String com hash copiada para a área de transferência",
-      "compareStringWithHash": "Comparar string com hash",
       "stringToCompare": "Sua string para comparar...",
-      "yourHash": "Seu hash:",
-      "hashToCompare": "Seu hash para comparar...",
-      "doTheyMatch": "Eles correspondem?",
       "yes": "Sim",
-      "no": "Não",
-      "enterBothFields": "Digite ambos os campos para comparar"
+      "yourHash": "Seu hash:",
+      "yourString": "Sua string:"
     }
   }
 }

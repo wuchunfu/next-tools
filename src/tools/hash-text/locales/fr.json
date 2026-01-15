@@ -1,22 +1,22 @@
 {
   "tools": {
     "hash-text": {
-      "placeholder": "Votre chaîne à hasher...",
-      "yourTextToHash": "Votre texte à hasher :",
-      "digestEncoding": "Encodage du résumé",
-      "digestEncodingDescription": "Sélectionnez le format de sortie pour les valeurs de hachage.",
-      "binary": "Binaire",
-      "binaryDescription": "Format binaire (base 2).",
-      "hexadecimal": "Hexadécimal",
-      "hexadecimalDescription": "Format hexadécimal (base 16), le plus couramment utilisé.",
       "base64": "Base64",
       "base64Description": "Format Base64 (base 64), représentation compacte.",
       "base64url": "Base64 URL",
       "base64urlDescription": "Format Base64 sûr pour les URL, adapté aux URLs.",
-      "hashResults": "Résultats de hachage",
-      "noInput": "Entrez du texte ci-dessus pour générer des hachages",
+      "binary": "Binaire",
+      "binaryDescription": "Format binaire (base 2).",
       "cardInputTitle": "Saisie et encodage du hash",
-      "cardOutputTitle": "Résultats de hachage"
+      "cardOutputTitle": "Résultats de hachage",
+      "digestEncoding": "Encodage du résumé",
+      "digestEncodingDescription": "Sélectionnez le format de sortie pour les valeurs de hachage.",
+      "hashResults": "Résultats de hachage",
+      "hexadecimal": "Hexadécimal",
+      "hexadecimalDescription": "Format hexadécimal (base 16), le plus couramment utilisé.",
+      "noInput": "Entrez du texte ci-dessus pour générer des hachages",
+      "placeholder": "Votre chaîne à hasher...",
+      "yourTextToHash": "Votre texte à hasher :"
     }
   }
 }

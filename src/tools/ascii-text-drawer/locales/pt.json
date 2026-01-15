@@ -1,19 +1,19 @@
 {
   "tools": {
     "ascii-text-drawer": {
-      "yourText": "Seu texto:",
-      "yourTextToDraw": "Seu texto para desenhar",
+      "asciiArtText": "Texto ASCII art:",
+      "cardOptionsDescription": "Configure o texto de entrada, a fonte e a largura para a arte ASCII.",
+      "cardOptionsTitle": "Opções",
+      "cardResultsDescription": "Visualize e copie a arte ASCII gerada.",
+      "cardResultsTitle": "Resultados",
+      "error": "As configurações atuais resultaram em erro.",
       "font": "Fonte:",
+      "loadingFont": "Carregando fonte...",
       "selectFont": "Selecionar fonte para usar",
       "width": "Largura:",
       "widthPlaceholder": "Largura do texto",
-      "loadingFont": "Carregando fonte...",
-      "error": "As configurações atuais resultaram em erro.",
-      "asciiArtText": "Texto ASCII art:",
-      "cardOptionsTitle": "Opções",
-      "cardOptionsDescription": "Configure o texto de entrada, a fonte e a largura para a arte ASCII.",
-      "cardResultsTitle": "Resultados",
-      "cardResultsDescription": "Visualize e copie a arte ASCII gerada."
+      "yourText": "Seu texto:",
+      "yourTextToDraw": "Seu texto para desenhar"
     }
   }
 }

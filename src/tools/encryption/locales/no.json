@@ -1,18 +1,18 @@
 {
   "tools": {
     "encryption": {
-      "encrypt": "Krypter",
-      "yourText": "Din tekst:",
-      "stringToCypher": "Strengen som skal krypteres",
-      "yourSecretKey": "Din hemmelige nøkkel:",
-      "encryptionAlgorithm": "Krypteringsalgoritme:",
-      "yourTextEncrypted": "Din krypterte tekst:",
-      "stringHash": "Din streng-hash",
       "decrypt": "Dekrypter",
-      "yourEncryptedText": "Din krypterte tekst:",
-      "yourDecryptedText": "Din dekrypterte tekst:",
+      "encrypt": "Krypter",
+      "encryptionAlgorithm": "Krypteringsalgoritme:",
       "errorWhileDecrypting": "Feil under dekryptering",
-      "unableToDecrypt": "Kan ikke dekryptere teksten din"
+      "stringHash": "Din streng-hash",
+      "stringToCypher": "Strengen som skal krypteres",
+      "unableToDecrypt": "Kan ikke dekryptere teksten din",
+      "yourDecryptedText": "Din dekrypterte tekst:",
+      "yourEncryptedText": "Din krypterte tekst:",
+      "yourSecretKey": "Din hemmelige nøkkel:",
+      "yourText": "Din tekst:",
+      "yourTextEncrypted": "Din krypterte tekst:"
     }
   }
 }

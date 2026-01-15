@@ -1,20 +1,20 @@
 {
   "tools": {
     "url-encoder": {
-      "cardEncodeTitle": "URL Encode",
-      "cardEncodeDescription": "Encode text to URL-encoded format (also known as \"percent-encoded\").",
-      "cardDecodeTitle": "URL Decode",
       "cardDecodeDescription": "Decode URL-encoded strings back to their original text.",
-      "inputLabel": "Your string",
-      "inputPlaceholder": "Enter the string to encode...",
-      "outputLabel": "Encoded string",
-      "outputPlaceholder": "Encoded string will appear here...",
+      "cardDecodeTitle": "URL Decode",
+      "cardEncodeDescription": "Encode text to URL-encoded format (also known as \"percent-encoded\").",
+      "cardEncodeTitle": "URL Encode",
+      "clear": "Clear",
       "decodeInputLabel": "Your encoded string",
       "decodeInputPlaceholder": "Enter the URL-encoded string to decode...",
       "decodeOutputLabel": "Decoded string",
       "decodeOutputPlaceholder": "Decoded string will appear here...",
-      "clear": "Clear",
-      "impossibleToParse": "Impossible to parse this string"
+      "impossibleToParse": "Impossible to parse this string",
+      "inputLabel": "Your string",
+      "inputPlaceholder": "Enter the string to encode...",
+      "outputLabel": "Encoded string",
+      "outputPlaceholder": "Encoded string will appear here..."
     }
   }
 }

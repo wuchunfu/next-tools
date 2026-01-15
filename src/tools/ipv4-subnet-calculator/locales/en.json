@@ -1,31 +1,31 @@
 {
   "tools": {
     "ipv4-subnet-calculator": {
+      "broadcastAddress": "Broadcast address",
+      "cannotParseAddress": "We cannot parse this address, check the format",
+      "cardInputDescription": "Enter an IPv4 address with or without CIDR notation to calculate subnet information.",
+      "cardInputTitle": "IPv4 address",
+      "cardResultsDescription": "Detailed network and subnet information for the entered IPv4 address.",
+      "cardResultsTitle": "Subnet information",
+      "cidrNotation": "CIDR notation",
+      "firstAddress": "First address",
       "inputLabel": "An IPv4 address with or without mask",
       "inputPlaceholder": "The ipv4 address...",
-      "cannotParseAddress": "We cannot parse this address, check the format",
+      "invalidAddressTitle": "Invalid address",
+      "ipClass": "IP class",
+      "lastAddress": "Last address",
       "netmask": "Netmask",
       "networkAddress": "Network address",
       "networkMask": "Network mask",
       "networkMaskInBinary": "Network mask in binary",
-      "cidrNotation": "CIDR notation",
-      "wildcardMask": "Wildcard mask",
       "networkSize": "Network size",
-      "firstAddress": "First address",
-      "lastAddress": "Last address",
-      "broadcastAddress": "Broadcast address",
-      "noBroadcastAddress": "No broadcast address with this mask",
-      "ipClass": "IP class",
-      "unknownClassType": "Unknown class type",
-      "previousBlock": "Previous block",
       "nextBlock": "Next block",
-      "cardInputTitle": "IPv4 address",
-      "cardInputDescription": "Enter an IPv4 address with or without CIDR notation to calculate subnet information.",
-      "cardResultsTitle": "Subnet information",
-      "cardResultsDescription": "Detailed network and subnet information for the entered IPv4 address.",
-      "invalidAddressTitle": "Invalid address",
+      "noBroadcastAddress": "No broadcast address with this mask",
+      "previousBlock": "Previous block",
       "property": "Property",
-      "value": "Value"
+      "unknownClassType": "Unknown class type",
+      "value": "Value",
+      "wildcardMask": "Wildcard mask"
     }
   }
 }

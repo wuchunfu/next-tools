@@ -1,18 +1,18 @@
 {
   "tools": {
     "email-normalizer": {
-      "unableToParse": "Não é possível analisar o e-mail: {email}",
+      "cardInputDescription": "Cole seus endereços de e-mail abaixo (um por linha). Eles serão normalizados automaticamente.",
+      "cardInputTitle": "Entrada de e-mail",
+      "cardOutputDescription": "Revise e copie os endereços de e-mail normalizados.",
+      "cardOutputTitle": "E-mails normalizados",
+      "clear": "Limpar e-mails",
       "copied": "E-mails normalizados copiados para a área de transferência",
-      "rawEmails": "E-mails brutos para normalizar:",
+      "copy": "Copiar e-mails normalizados",
       "inputPlaceholder": "Coloque seus e-mails aqui (um por linha)...",
       "normalizedEmails": "E-mails normalizados:",
       "outputPlaceholder": "Os e-mails normalizados aparecerão aqui...",
-      "clear": "Limpar e-mails",
-      "copy": "Copiar e-mails normalizados",
-      "cardInputTitle": "Entrada de e-mail",
-      "cardInputDescription": "Cole seus endereços de e-mail abaixo (um por linha). Eles serão normalizados automaticamente.",
-      "cardOutputTitle": "E-mails normalizados",
-      "cardOutputDescription": "Revise e copie os endereços de e-mail normalizados."
+      "rawEmails": "E-mails brutos para normalizar:",
+      "unableToParse": "Não é possível analisar o e-mail: {email}"
     }
   }
 }

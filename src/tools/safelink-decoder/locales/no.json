@@ -1,22 +1,22 @@
 {
   "tools": {
     "safelink-decoder": {
-      "cardTitle": "Outlook SafeLink Dekoder",
       "cardDescription": "Dekod Microsoft Outlook SafeLink-URLer for å vise den opprinnelige mål-URLen.",
-      "cardInputTitle": "SafeLink-inndata",
       "cardInputDescription": "Lim inn en Outlook SafeLink-URL nedenfor. Vi validerer den og henter ut den opprinnelige mål-URLen.",
-      "cardOutputTitle": "Dekodet URL",
+      "cardInputTitle": "SafeLink-inndata",
       "cardOutputDescription": "Se gjennom den ekstraherte URL-en. Du kan kopiere den eller åpne den i en ny fane.",
-      "inputPlaceholder": "Lim inn Outlook SafeLink-URLen din her...",
-      "inputLabel": "SafeLink-URL",
-      "outputLabel": "Dekodet URL",
-      "invalidUrl": "Vennligst lim inn en gyldig Outlook SafeLink-URL (https://*.safelinks.protection.outlook.com/...)",
+      "cardOutputTitle": "Dekodet URL",
+      "cardTitle": "Outlook SafeLink Dekoder",
       "decodeError": "Dekoding mislyktes. Vennligst sjekk lenken og prøv igjen.",
       "emptyHint": "Lim inn en SafeLink-URL ovenfor for å dekode den.",
       "errorTitle": "Ugyldig URL",
-      "successTitle": "Dekodet vellykket",
+      "inputLabel": "SafeLink-URL",
+      "inputPlaceholder": "Lim inn Outlook SafeLink-URLen din her...",
+      "invalidUrl": "Vennligst lim inn en gyldig Outlook SafeLink-URL (https://*.safelinks.protection.outlook.com/...)",
+      "openUrl": "Åpne URL",
+      "outputLabel": "Dekodet URL",
       "successDescription": "Den opprinnelige URLen har blitt hentet fra SafeLink.",
-      "openUrl": "Åpne URL"
+      "successTitle": "Dekodet vellykket"
     }
   }
 }

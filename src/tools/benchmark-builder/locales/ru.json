@@ -1,31 +1,31 @@
 {
   "tools": {
     "benchmark-builder": {
-      "suiteName": "Набор {index}",
-      "suiteLabel": "Имя набора",
-      "suitePlaceholder": "Имя набора...",
-      "suitesTitle": "Наборы",
-      "suitesDescription": "Управляйте несколькими наборами и их значениями выборки.",
-      "suiteValues": "Значения набора",
-      "deleteSuite": "Удалить набор",
-      "addSuite": "Добавить набор",
-      "resultsTitle": "Результаты",
-      "resultsDescription": "Сводка и сравнение между наборами.",
-      "unitPlaceholder": "Единица (например: мс)",
-      "unitLabel": "Единица",
-      "resetSuites": "Сбросить наборы",
-      "copyMarkdown": "Копировать как таблицу markdown",
-      "copyBullet": "Копировать как маркированный список",
-      "setMeasure": "Установите вашу меру...",
-      "deleteValue": "Удалить это значение",
       "addMeasure": "Добавить меру",
+      "addSuite": "Добавить набор",
+      "copyBullet": "Копировать как маркированный список",
+      "copyMarkdown": "Копировать как таблицу markdown",
+      "deleteSuite": "Удалить набор",
+      "deleteValue": "Удалить это значение",
       "header": {
-        "position": "Позиция",
-        "title": "Набор",
-        "size": "Образцы",
         "mean": "Среднее",
+        "position": "Позиция",
+        "size": "Образцы",
+        "title": "Набор",
         "variance": "Дисперсия"
-      }
+      },
+      "resetSuites": "Сбросить наборы",
+      "resultsDescription": "Сводка и сравнение между наборами.",
+      "resultsTitle": "Результаты",
+      "setMeasure": "Установите вашу меру...",
+      "suiteLabel": "Имя набора",
+      "suiteName": "Набор {index}",
+      "suitePlaceholder": "Имя набора...",
+      "suiteValues": "Значения набора",
+      "suitesDescription": "Управляйте несколькими наборами и их значениями выборки.",
+      "suitesTitle": "Наборы",
+      "unitLabel": "Единица",
+      "unitPlaceholder": "Единица (например: мс)"
     }
   }
 }

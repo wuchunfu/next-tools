@@ -1,18 +1,18 @@
 {
   "tools": {
     "json-to-yaml-converter": {
-      "cardTitle": "JSON to YAML Converter",
       "cardDescription": "Convert JSON format to YAML format. Paste your JSON and get the YAML output.",
-      "cardInputTitle": "JSON input",
       "cardInputDescription": "Paste the JSON you want to convert. We will validate it and then generate the YAML output.",
-      "cardOutputTitle": "YAML output",
+      "cardInputTitle": "JSON input",
       "cardOutputDescription": "This is the YAML representation of your JSON. You can copy it for further use.",
-      "inputPlaceholder": "Paste your JSON here...",
+      "cardOutputTitle": "YAML output",
+      "cardTitle": "JSON to YAML Converter",
+      "clear": "Clear",
       "formatYaml": "Format YAML",
+      "inputPlaceholder": "Paste your JSON here...",
       "invalidJson": "Provided JSON is not valid.",
       "invalidJsonTitle": "Invalid JSON",
-      "outputError": "Invalid JSON format. Please check your input.",
-      "clear": "Clear"
+      "outputError": "Invalid JSON format. Please check your input."
     }
   }
 }

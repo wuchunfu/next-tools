@@ -1,20 +1,20 @@
 {
   "tools": {
     "json-prettify": {
-      "cardOptionsTitle": "Параметри форматування",
-      "cardOptionsDescription": "Налаштуйте відступи та сортування ключів відповідно до вашого стилю JSON.",
-      "sortKeys": "Сортувати ключі",
-      "sortKeysHelp": "Сортуйте ключі об’єктів у алфавітному порядку для більш стабільного та читабельного виводу.",
-      "indentSize": "Розмір відступу",
-      "indentHint": "Кількість пробілів для відступу (0–10).",
-      "cardInputTitle": "Ввід JSON",
       "cardInputDescription": "Вставте ваш JSON нижче. Ми перевіримо його (сумісний з JSON5) та згенеруємо відформатовану версію.",
-      "pasteYourRawJson": "Вставте ваш необроблений JSON тут...",
-      "cardOutputTitle": "Відформатований JSON",
+      "cardInputTitle": "Ввід JSON",
+      "cardOptionsDescription": "Налаштуйте відступи та сортування ключів відповідно до вашого стилю JSON.",
+      "cardOptionsTitle": "Параметри форматування",
       "cardOutputDescription": "Перегляньте та скопіюйте відформатований вивід JSON.",
-      "prettifiedVersion": "Відформатована версія вашого JSON",
+      "cardOutputTitle": "Відформатований JSON",
+      "indentHint": "Кількість пробілів для відступу (0–10).",
+      "indentSize": "Розмір відступу",
       "invalidJson": "Наданий JSON недійсний.",
-      "invalidJsonTitle": "Недійсний JSON"
+      "invalidJsonTitle": "Недійсний JSON",
+      "pasteYourRawJson": "Вставте ваш необроблений JSON тут...",
+      "prettifiedVersion": "Відформатована версія вашого JSON",
+      "sortKeys": "Сортувати ключі",
+      "sortKeysHelp": "Сортуйте ключі об’єктів у алфавітному порядку для більш стабільного та читабельного виводу."
     }
   }
 }

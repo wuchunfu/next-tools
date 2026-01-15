@@ -1,19 +1,19 @@
 {
   "tools": {
     "basic-auth-generator": {
-      "inputTitle": "Identifiants",
-      "inputDescription": "Entrez votre nom d'utilisateur et votre mot de passe pour générer un en-tête d'authentification de base.",
-      "outputTitle": "En-tête d'autorisation",
-      "outputDescription": "L'en-tête d'authentification de base généré prêt à être utilisé dans vos requêtes HTTP.",
-      "username": "Nom d'utilisateur",
-      "usernamePlaceholder": "Votre nom d'utilisateur...",
-      "password": "Mot de passe",
-      "passwordPlaceholder": "Votre mot de passe...",
-      "headerLabel": "En-tête d'autorisation",
-      "headerPlaceholder": "L'en-tête d'autorisation apparaîtra ici...",
       "base64Value": "Valeur codée en Base64",
       "clear": "Effacer",
-      "copied": "En-tête copié dans le presse-papiers"
+      "copied": "En-tête copié dans le presse-papiers",
+      "headerLabel": "En-tête d'autorisation",
+      "headerPlaceholder": "L'en-tête d'autorisation apparaîtra ici...",
+      "inputDescription": "Entrez votre nom d'utilisateur et votre mot de passe pour générer un en-tête d'authentification de base.",
+      "inputTitle": "Identifiants",
+      "outputDescription": "L'en-tête d'authentification de base généré prêt à être utilisé dans vos requêtes HTTP.",
+      "outputTitle": "En-tête d'autorisation",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Votre mot de passe...",
+      "username": "Nom d'utilisateur",
+      "usernamePlaceholder": "Votre nom d'utilisateur..."
     }
   }
 }

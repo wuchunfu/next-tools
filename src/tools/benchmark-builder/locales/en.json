@@ -1,31 +1,31 @@
 {
   "tools": {
     "benchmark-builder": {
-      "suiteName": "Suite {index}",
-      "suiteLabel": "Suite name",
-      "suitePlaceholder": "Suite name...",
-      "suitesTitle": "Suites",
-      "suitesDescription": "Manage multiple suites and their sample values.",
-      "suiteValues": "Suite values",
-      "deleteSuite": "Delete suite",
-      "addSuite": "Add suite",
-      "resultsTitle": "Results",
-      "resultsDescription": "Summary and comparison between suites.",
-      "unitPlaceholder": "Unit (eg: ms)",
-      "unitLabel": "Unit",
-      "resetSuites": "Reset suites",
-      "copyMarkdown": "Copy as markdown table",
-      "copyBullet": "Copy as bullet list",
-      "setMeasure": "Set your measure...",
-      "deleteValue": "Delete this value",
       "addMeasure": "Add a measure",
+      "addSuite": "Add suite",
+      "copyBullet": "Copy as bullet list",
+      "copyMarkdown": "Copy as markdown table",
+      "deleteSuite": "Delete suite",
+      "deleteValue": "Delete this value",
       "header": {
-        "position": "Position",
-        "title": "Suite",
-        "size": "Samples",
         "mean": "Mean",
+        "position": "Position",
+        "size": "Samples",
+        "title": "Suite",
         "variance": "Variance"
-      }
+      },
+      "resetSuites": "Reset suites",
+      "resultsDescription": "Summary and comparison between suites.",
+      "resultsTitle": "Results",
+      "setMeasure": "Set your measure...",
+      "suiteLabel": "Suite name",
+      "suiteName": "Suite {index}",
+      "suitePlaceholder": "Suite name...",
+      "suiteValues": "Suite values",
+      "suitesDescription": "Manage multiple suites and their sample values.",
+      "suitesTitle": "Suites",
+      "unitLabel": "Unit",
+      "unitPlaceholder": "Unit (eg: ms)"
     }
   }
 }

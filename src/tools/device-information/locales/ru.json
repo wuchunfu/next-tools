@@ -1,19 +1,19 @@
 {
   "tools": {
     "device-information": {
-      "screen": "Экран",
-      "screenSize": "Размер экрана",
+      "colorDepth": "Глубина цвета",
+      "device": "Устройство",
+      "languages": "Языки",
       "orientation": "Ориентация",
       "orientationAngle": "Угол ориентации",
-      "colorDepth": "Глубина цвета",
       "pixelRatio": "Соотношение пикселей",
-      "windowSize": "Размер окна",
-      "device": "Устройство",
-      "vendor": "Производитель браузера",
-      "languages": "Языки",
       "platform": "Платформа",
+      "screen": "Экран",
+      "screenSize": "Размер экрана",
+      "unknown": "неизвестно",
       "userAgent": "User-Agent",
-      "unknown": "неизвестно"
+      "vendor": "Производитель браузера",
+      "windowSize": "Размер окна"
     }
   }
 }

@@ -1,21 +1,21 @@
 {
   "tools": {
     "ipv4-address-converter": {
+      "binary": "二进制：",
+      "cardInputDescription": "输入 IPv4 地址以转换为不同格式（十进制、十六进制、二进制、IPv6）。",
+      "cardInputTitle": "IPv4 地址",
+      "cardResultsDescription": "查看 IPv4 地址在不同数字系统和 IPv6 格式中的表示。",
+      "cardResultsTitle": "转换后的格式",
+      "decimal": "十进制：",
+      "format": "格式",
+      "hexadecimal": "十六进制：",
       "inputLabel": "IPv4 地址：",
       "inputPlaceholder": "IPv4 地址...",
-      "placeholder": "设置正确的 IPv4 地址",
+      "invalidAddressTitle": "无效地址",
       "invalidIpv4": "无效的 IPv4 地址",
-      "decimal": "十进制：",
-      "hexadecimal": "十六进制：",
-      "binary": "二进制：",
       "ipv6": "IPv6：",
       "ipv6Short": "IPv6（短格式）：",
-      "cardInputTitle": "IPv4 地址",
-      "cardInputDescription": "输入 IPv4 地址以转换为不同格式（十进制、十六进制、二进制、IPv6）。",
-      "cardResultsTitle": "转换后的格式",
-      "cardResultsDescription": "查看 IPv4 地址在不同数字系统和 IPv6 格式中的表示。",
-      "invalidAddressTitle": "无效地址",
-      "format": "格式",
+      "placeholder": "设置正确的 IPv4 地址",
       "value": "值"
     }
   }

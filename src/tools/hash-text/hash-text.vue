@@ -16,7 +16,7 @@ import {
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 import { Separator } from '@/components/ui/separator'
 import { Textarea } from '@/components/ui/textarea'
-import { useQueryParam } from '@/composable/queryParams'
+import { useStorage } from '@vueuse/core'
 import { useToolI18n } from '@/composable/useToolI18n'
 import InputCopyable from '../../components/InputCopyable.vue'
 import { convertHexToBin } from './hash-text.service'
@@ -36,7 +36,7 @@ type AlgoNames = keyof typeof algos
 type Encoding = keyof typeof enc | 'Bin'
 const { t } = useToolI18n();
 const algoNames = Object.keys(algos) as AlgoNames[];
-const encoding = useQueryParam<Encoding>({ defaultValue: 'Hex', name: 'encoding' });
+const encoding = useStorage<Encoding>('hash-text:encoding', 'Hex');
 const clearText = ref('');
 
 function formatWithEncoding(words: lib.WordArray, encoding: Encoding) {

@@ -1,19 +1,19 @@
 {
   "tools": {
     "device-information": {
-      "screen": "屏幕",
-      "screenSize": "屏幕尺寸",
+      "colorDepth": "色深",
+      "device": "设备",
+      "languages": "语言",
       "orientation": "方向",
       "orientationAngle": "方向角度",
-      "colorDepth": "色深",
       "pixelRatio": "像素比",
-      "windowSize": "窗口大小",
-      "device": "设备",
-      "vendor": "浏览器厂商",
-      "languages": "语言",
       "platform": "平台",
+      "screen": "屏幕",
+      "screenSize": "屏幕尺寸",
+      "unknown": "未知",
       "userAgent": "用户代理",
-      "unknown": "未知"
+      "vendor": "浏览器厂商",
+      "windowSize": "窗口大小"
     }
   }
 }

@@ -1,18 +1,18 @@
 {
   "tools": {
     "json-to-yaml-converter": {
-      "cardTitle": "Конвертер JSON в YAML",
       "cardDescription": "Перетворіть формат JSON на формат YAML. Вставте ваш JSON і отримайте вивід YAML.",
-      "cardInputTitle": "Ввід JSON",
       "cardInputDescription": "Вставте нижче JSON, який потрібно конвертувати. Ми перевіримо його та згенеруємо YAML-вивід.",
-      "cardOutputTitle": "YAML-вивід",
+      "cardInputTitle": "Ввід JSON",
       "cardOutputDescription": "Це YAML-представлення вашого JSON. Ви можете скопіювати його для подальшого використання.",
-      "inputPlaceholder": "Вставте ваш JSON тут...",
+      "cardOutputTitle": "YAML-вивід",
+      "cardTitle": "Конвертер JSON в YAML",
+      "clear": "Очистити",
       "formatYaml": "Форматувати YAML",
+      "inputPlaceholder": "Вставте ваш JSON тут...",
       "invalidJson": "Наданий JSON недійсний.",
       "invalidJsonTitle": "Недійсний JSON",
-      "outputError": "Невірний формат JSON. Будь ласка, перевірте ваш ввід.",
-      "clear": "Очистити"
+      "outputError": "Невірний формат JSON. Будь ласка, перевірте ваш ввід."
     }
   }
 }

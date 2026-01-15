@@ -1,20 +1,20 @@
 {
   "tools": {
     "chmod-calculator": {
-      "permissionsTitle": "文件权限",
-      "permissionsDescription": "为所有者、组和公共选择权限。八进制和符号表示将自动计算。",
-      "resultsTitle": "结果",
-      "resultsDescription": "所选权限的八进制和符号表示。",
-      "octalLabel": "八进制表示",
-      "symbolicLabel": "符号表示",
       "commandLabel": "命令",
-      "read": "读取 (4)",
-      "write": "写入 (2)",
+      "copyCommand": "chmod {octal} 路径",
       "execute": "执行 (1)",
-      "owner": "所有者 (u)",
       "group": "组 (g)",
+      "octalLabel": "八进制表示",
+      "owner": "所有者 (u)",
+      "permissionsDescription": "为所有者、组和公共选择权限。八进制和符号表示将自动计算。",
+      "permissionsTitle": "文件权限",
       "public": "公共 (o)",
-      "copyCommand": "chmod {octal} 路径"
+      "read": "读取 (4)",
+      "resultsDescription": "所选权限的八进制和符号表示。",
+      "resultsTitle": "结果",
+      "symbolicLabel": "符号表示",
+      "write": "写入 (2)"
     }
   }
 }

@@ -1,29 +1,29 @@
 {
   "tools": {
     "url-parser": {
-      "invalid": "URL không hợp lệ",
-      "cardTitle": "Trình phân tích URL",
       "cardDescription": "Phân tích URL để trích xuất các thành phần của chúng (giao thức, tên máy chủ, đường dẫn, tham số truy vấn, v.v.).",
-      "cardInputTitle": "URL đầu vào",
       "cardInputDescription": "Dán một URL bên dưới. Chúng tôi sẽ xác thực và hiển thị các thành phần và tham số truy vấn của nó.",
-      "cardOutputTitle": "Kết quả phân tích",
+      "cardInputTitle": "URL đầu vào",
       "cardOutputDescription": "Xem và sao chép các thành phần URL được trích xuất từ đầu vào của bạn.",
-      "inputPlaceholder": "Nhập URL cần phân tích...",
+      "cardOutputTitle": "Kết quả phân tích",
+      "cardTitle": "Trình phân tích URL",
       "clear": "Xóa",
-      "invalidUrlTitle": "URL không hợp lệ",
-      "urlComponents": "Thành phần URL",
-      "protocol": "Giao thức",
-      "username": "Tên người dùng",
-      "password": "Mật khẩu",
-      "hostname": "Tên máy chủ",
-      "port": "Cổng",
-      "path": "Đường dẫn",
-      "search": "Tìm kiếm",
+      "enterUrlToParse": "Nhập URL hợp lệ để xem các thành phần của nó.",
       "hash": "Hash",
-      "queryParameters": "Tham số truy vấn",
+      "hostname": "Tên máy chủ",
+      "inputPlaceholder": "Nhập URL cần phân tích...",
+      "invalid": "URL không hợp lệ",
+      "invalidUrlTitle": "URL không hợp lệ",
       "parameterName": "Tham số",
       "parameterValue": "Giá trị",
-      "enterUrlToParse": "Nhập URL hợp lệ để xem các thành phần của nó."
+      "password": "Mật khẩu",
+      "path": "Đường dẫn",
+      "port": "Cổng",
+      "protocol": "Giao thức",
+      "queryParameters": "Tham số truy vấn",
+      "search": "Tìm kiếm",
+      "urlComponents": "Thành phần URL",
+      "username": "Tên người dùng"
     }
   }
 }

@@ -1,22 +1,22 @@
 {
   "tools": {
     "markdown-to-html": {
-      "cardTitle": "Markdown 转 HTML 转换器",
       "cardDescription": "将 Markdown 格式转换为 HTML 格式。粘贴您的 Markdown 即可获得 HTML 输出。",
-      "cardInputTitle": "Markdown 输入",
       "cardInputDescription": "在下方编写或粘贴 Markdown，我们会实时转换为 HTML 并提供预览。",
-      "cardOutputTitle": "HTML 输出",
+      "cardInputTitle": "Markdown 输入",
       "cardOutputDescription": "在预览与 HTML 代码之间切换，也可以将渲染后的 HTML 打印为 PDF。",
-      "inputPlaceholder": "您的 Markdown 内容...",
+      "cardOutputTitle": "HTML 输出",
+      "cardTitle": "Markdown 转 HTML 转换器",
       "clear": "清除",
-      "printAsPdf": "打印为 PDF",
-      "printTooltip": "将 HTML 打印为 PDF",
-      "printTitle": "Markdown 转 HTML",
-      "preview": "预览",
+      "formatHtml": "格式化 HTML",
       "htmlCode": "HTML 代码",
+      "inputPlaceholder": "您的 Markdown 内容...",
+      "preview": "预览",
       "previewPlaceholder": "预览将显示在这里...",
       "previewTitle": "Markdown 预览",
-      "formatHtml": "格式化 HTML"
+      "printAsPdf": "打印为 PDF",
+      "printTitle": "Markdown 转 HTML",
+      "printTooltip": "将 HTML 打印为 PDF"
     }
   }
 }

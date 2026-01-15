@@ -1,28 +1,28 @@
 {
   "tools": {
     "color-converter": {
+      "alpha": "Alpha",
+      "cardFormatsDescription": "Konvertieren Sie zwischen verschiedenen Farbformaten. Bearbeiten Sie ein beliebiges Feld, um alle Formate zu aktualisieren.",
+      "cardFormatsTitle": "Farbformate",
+      "cardPickerDescription": "Wählen Sie eine Farbe mit dem Farbauswahl-Tool.",
+      "cardPickerTitle": "Farbauswahl",
+      "cmyk": "cmyk",
+      "cmykPlaceholder": "z.B. cmyk(0, 100%, 100%, 0)",
+      "colorInfo": "Farbinformationen",
       "colorPicker": "Farbauswahl",
       "hex": "hex",
       "hexPlaceholder": "z.B. #ff0000",
-      "rgb": "rgb",
-      "rgbPlaceholder": "z.B. rgb(255, 0, 0)",
       "hsl": "hsl",
       "hslPlaceholder": "z.B. hsl(0, 100%, 50%)",
       "hwb": "hwb",
       "hwbPlaceholder": "z.B. hwb(0, 0%, 0%)",
       "lch": "lch",
       "lchPlaceholder": "z.B. lch(53.24, 104.55, 40.85)",
-      "cmyk": "cmyk",
-      "cmykPlaceholder": "z.B. cmyk(0, 100%, 100%, 0)",
       "name": "name",
       "namePlaceholder": "z.B. rot",
-      "unknown": "Unbekannt",
-      "cardPickerTitle": "Farbauswahl",
-      "cardPickerDescription": "Wählen Sie eine Farbe mit dem Farbauswahl-Tool.",
-      "cardFormatsTitle": "Farbformate",
-      "cardFormatsDescription": "Konvertieren Sie zwischen verschiedenen Farbformaten. Bearbeiten Sie ein beliebiges Feld, um alle Formate zu aktualisieren.",
-      "colorInfo": "Farbinformationen",
-      "alpha": "Alpha"
+      "rgb": "rgb",
+      "rgbPlaceholder": "z.B. rgb(255, 0, 0)",
+      "unknown": "Unbekannt"
     }
   }
 }

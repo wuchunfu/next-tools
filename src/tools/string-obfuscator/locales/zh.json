@@ -1,16 +1,16 @@
 {
   "tools": {
     "string-obfuscator": {
-      "copied": "混淆后的字符串已复制",
-      "cardInputTitle": "选项",
       "cardInputDescription": "配置字符串混淆的方式",
-      "cardResultsTitle": "混淆结果",
+      "cardInputTitle": "选项",
       "cardResultsDescription": "混淆后的字符串预览",
-      "placeholder": "输入要混淆的字符串",
-      "label": "待混淆字符串：",
+      "cardResultsTitle": "混淆结果",
+      "copied": "混淆后的字符串已复制",
       "keepFirst": "保留前面：",
       "keepLast": "保留后面：",
-      "keepSpaces": "保留空格："
+      "keepSpaces": "保留空格：",
+      "label": "待混淆字符串：",
+      "placeholder": "输入要混淆的字符串"
     }
   }
 }

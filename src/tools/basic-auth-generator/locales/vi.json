@@ -1,19 +1,19 @@
 {
   "tools": {
     "basic-auth-generator": {
-      "inputTitle": "Thông tin đăng nhập",
-      "inputDescription": "Nhập tên người dùng và mật khẩu của bạn để tạo tiêu đề xác thực cơ bản.",
-      "outputTitle": "Tiêu đề ủy quyền",
-      "outputDescription": "Tiêu đề xác thực cơ bản đã được tạo sẵn sàng để sử dụng trong các yêu cầu HTTP của bạn.",
-      "username": "Tên người dùng",
-      "usernamePlaceholder": "Tên người dùng của bạn...",
-      "password": "Mật khẩu",
-      "passwordPlaceholder": "Mật khẩu của bạn...",
-      "headerLabel": "Tiêu đề ủy quyền",
-      "headerPlaceholder": "Tiêu đề ủy quyền sẽ xuất hiện ở đây...",
       "base64Value": "Giá trị được mã hóa Base64",
       "clear": "Xóa",
-      "copied": "Tiêu đề đã được sao chép vào clipboard"
+      "copied": "Tiêu đề đã được sao chép vào clipboard",
+      "headerLabel": "Tiêu đề ủy quyền",
+      "headerPlaceholder": "Tiêu đề ủy quyền sẽ xuất hiện ở đây...",
+      "inputDescription": "Nhập tên người dùng và mật khẩu của bạn để tạo tiêu đề xác thực cơ bản.",
+      "inputTitle": "Thông tin đăng nhập",
+      "outputDescription": "Tiêu đề xác thực cơ bản đã được tạo sẵn sàng để sử dụng trong các yêu cầu HTTP của bạn.",
+      "outputTitle": "Tiêu đề ủy quyền",
+      "password": "Mật khẩu",
+      "passwordPlaceholder": "Mật khẩu của bạn...",
+      "username": "Tên người dùng",
+      "usernamePlaceholder": "Tên người dùng của bạn..."
     }
   }
 }

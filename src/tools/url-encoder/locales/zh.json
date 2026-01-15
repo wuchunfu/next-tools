@@ -1,20 +1,20 @@
 {
   "tools": {
     "url-encoder": {
-      "cardEncodeTitle": "URL 编码",
-      "cardEncodeDescription": "将文本编码为 URL 编码格式（也称为\"百分比编码\"）。",
-      "cardDecodeTitle": "URL 解码",
       "cardDecodeDescription": "将 URL 编码的字符串解码回原始文本。",
-      "inputLabel": "您的字符串",
-      "inputPlaceholder": "输入要编码的字符串...",
-      "outputLabel": "编码后的字符串",
-      "outputPlaceholder": "编码后的字符串将显示在这里...",
+      "cardDecodeTitle": "URL 解码",
+      "cardEncodeDescription": "将文本编码为 URL 编码格式（也称为\"百分比编码\"）。",
+      "cardEncodeTitle": "URL 编码",
+      "clear": "清除",
       "decodeInputLabel": "您的编码字符串",
       "decodeInputPlaceholder": "输入要解码的 URL 编码字符串...",
       "decodeOutputLabel": "解码后的字符串",
       "decodeOutputPlaceholder": "解码后的字符串将显示在这里...",
-      "clear": "清除",
-      "impossibleToParse": "无法解析此字符串"
+      "impossibleToParse": "无法解析此字符串",
+      "inputLabel": "您的字符串",
+      "inputPlaceholder": "输入要编码的字符串...",
+      "outputLabel": "编码后的字符串",
+      "outputPlaceholder": "编码后的字符串将显示在这里..."
     }
   }
 }

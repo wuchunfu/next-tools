@@ -1,14 +1,14 @@
 {
   "tools": {
     "slugify-string": {
-      "cardTitle": "Slug-konverterer",
       "cardDescription": "Konverterer strenger til URL-vennlige slugs. Perfekt for filnavn, URL-er og identifikatorer.",
-      "inputPlaceholder": "Legg inn strengen din her (f.eks. Min filsti)",
-      "outputPlaceholder": "Din slug vil genereres her (f.eks. min-filsti)",
-      "cardInputTitle": "Originaltekst",
       "cardInputDescription": "Lim inn tekst for å generere en URL-vennlig slug. Flott for URL-er, filnavn og identifikatorer.",
+      "cardInputTitle": "Originaltekst",
+      "cardOutputDescription": "Kopier den genererte slug-en og bruk den i URL-er, filnavn eller ID-er.",
       "cardOutputTitle": "Generert slug",
-      "cardOutputDescription": "Kopier den genererte slug-en og bruk den i URL-er, filnavn eller ID-er."
+      "cardTitle": "Slug-konverterer",
+      "inputPlaceholder": "Legg inn strengen din her (f.eks. Min filsti)",
+      "outputPlaceholder": "Din slug vil genereres her (f.eks. min-filsti)"
     }
   }
 }

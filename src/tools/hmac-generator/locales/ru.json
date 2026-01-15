@@ -1,24 +1,24 @@
 {
   "tools": {
     "hmac-generator": {
-      "copied": "HMAC скопирован в буфер обмена",
-      "plainPlaceholder": "Открытый текст для вычисления хеша...",
-      "plainLabel": "Открытый текст для вычисления хеша",
-      "secretPlaceholder": "Введите секретный ключ...",
-      "secretLabel": "Секретный ключ",
-      "hashFunction": "Хеш-функция",
-      "hashPlaceholder": "Выберите хеш-функцию...",
-      "encoding": "Кодирование вывода",
-      "encodingPlaceholder": "Выберите кодирование результата...",
-      "binary": "Двоичный (основание 2)",
-      "hex": "Шестнадцатеричный (основание 16)",
       "base64": "Base64 (основание 64)",
       "base64url": "Base64-url (основание 64 с URL-безопасными символами)",
-      "resultPlaceholder": "Результат HMAC...",
-      "resultLabel": "HMAC вашего текста",
-      "copy": "Копировать HMAC",
+      "binary": "Двоичный (основание 2)",
       "cardInputTitle": "Ввод и параметры HMAC",
-      "cardOutputTitle": "Результат HMAC"
+      "cardOutputTitle": "Результат HMAC",
+      "copied": "HMAC скопирован в буфер обмена",
+      "copy": "Копировать HMAC",
+      "encoding": "Кодирование вывода",
+      "encodingPlaceholder": "Выберите кодирование результата...",
+      "hashFunction": "Хеш-функция",
+      "hashPlaceholder": "Выберите хеш-функцию...",
+      "hex": "Шестнадцатеричный (основание 16)",
+      "plainLabel": "Открытый текст для вычисления хеша",
+      "plainPlaceholder": "Открытый текст для вычисления хеша...",
+      "resultLabel": "HMAC вашего текста",
+      "resultPlaceholder": "Результат HMAC...",
+      "secretLabel": "Секретный ключ",
+      "secretPlaceholder": "Введите секретный ключ..."
     }
   }
 }

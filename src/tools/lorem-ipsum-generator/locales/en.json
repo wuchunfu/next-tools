@@ -1,19 +1,19 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "optionsTitle": "Options",
-      "optionsDescription": "Configure how the Lorem Ipsum is generated",
-      "resultsTitle": "Generated text",
-      "resultsDescription": "Preview of the generated Lorem Ipsum text",
-      "paragraphs": "Paragraphs",
-      "sentencesPerParagraph": "Sentences per paragraph",
-      "wordsPerSentence": "Words per sentence",
-      "startWithLoremIpsum": "Start with lorem ipsum ?",
       "asHtml": "As html ?",
-      "placeholder": "Your lorem ipsum...",
+      "copied": "Lorem ipsum copied to the clipboard",
       "copy": "Copy",
+      "optionsDescription": "Configure how the Lorem Ipsum is generated",
+      "optionsTitle": "Options",
+      "paragraphs": "Paragraphs",
+      "placeholder": "Your lorem ipsum...",
       "refresh": "Refresh",
-      "copied": "Lorem ipsum copied to the clipboard"
+      "resultsDescription": "Preview of the generated Lorem Ipsum text",
+      "resultsTitle": "Generated text",
+      "sentencesPerParagraph": "Sentences per paragraph",
+      "startWithLoremIpsum": "Start with lorem ipsum ?",
+      "wordsPerSentence": "Words per sentence"
     }
   }
 }

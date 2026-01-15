@@ -1,22 +1,22 @@
 {
   "tools": {
     "token-generator": {
-      "characterTypes": "字符类型",
-      "uppercase": "大写字母",
-      "lowercase": "小写字母",
-      "numbers": "数字",
-      "symbols": "符号",
-      "length": "长度",
-      "generatedToken": "生成的 Token",
-      "tokenPlaceholder": "Token 将显示在这里...",
-      "selectCharacterTypes": "请至少选择一种字符类型",
-      "copied": "Token 已复制到剪贴板",
-      "cardOptionsTitle": "Token 选项",
-      "cardOutputTitle": "Token 结果",
       "button": {
         "copy": "复制",
         "refresh": "刷新"
-      }
+      },
+      "cardOptionsTitle": "Token 选项",
+      "cardOutputTitle": "Token 结果",
+      "characterTypes": "字符类型",
+      "copied": "Token 已复制到剪贴板",
+      "generatedToken": "生成的 Token",
+      "length": "长度",
+      "lowercase": "小写字母",
+      "numbers": "数字",
+      "selectCharacterTypes": "请至少选择一种字符类型",
+      "symbols": "符号",
+      "tokenPlaceholder": "Token 将显示在这里...",
+      "uppercase": "大写字母"
     }
   }
 }

@@ -1,10 +1,11 @@
 {
   "tools": {
     "html-entities": {
-      "cardEscapeTitle": "HTML-Entitäten escapen",
       "cardEscapeDescription": "Escapen Sie HTML-Entitäten (ersetzen Sie Zeichen wie <, >, &, \" und ' durch ihre HTML-Version).",
-      "cardUnescapeTitle": "HTML-Entitäten unescapen",
+      "cardEscapeTitle": "HTML-Entitäten escapen",
       "cardUnescapeDescription": "Unescapen Sie HTML-Entitäten (konvertieren Sie HTML-Entitäten zurück in ihre ursprünglichen Zeichen).",
+      "cardUnescapeTitle": "HTML-Entitäten unescapen",
+      "clear": "Löschen",
       "inputLabel": "Ihre Zeichenkette",
       "inputPlaceholder": "Geben Sie die zu escapende Zeichenkette ein...",
       "outputLabel": "Escapete Zeichenkette",
@@ -12,8 +13,7 @@
       "unescapeInputLabel": "Ihre escapete Zeichenkette",
       "unescapeInputPlaceholder": "Geben Sie die HTML-escapte Zeichenkette zum Unescapen ein...",
       "unescapeOutputLabel": "Unescapete Zeichenkette",
-      "unescapeOutputPlaceholder": "Unescapete Zeichenkette wird hier angezeigt...",
-      "clear": "Löschen"
+      "unescapeOutputPlaceholder": "Unescapete Zeichenkette wird hier angezeigt..."
     }
   }
 }

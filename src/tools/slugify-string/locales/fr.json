@@ -1,14 +1,14 @@
 {
   "tools": {
     "slugify-string": {
-      "cardTitle": "Convertisseur de slug",
       "cardDescription": "Convertissez des chaînes en slugs compatibles URL. Parfait pour les noms de fichiers, les URLs et les identifiants.",
-      "inputPlaceholder": "Mettez votre chaîne ici (ex: Mon chemin de fichier)",
-      "outputPlaceholder": "Votre slug sera généré ici (ex: mon-chemin-de-fichier)",
-      "cardInputTitle": "Texte d’origine",
       "cardInputDescription": "Collez un texte pour générer un slug compatible URL. Idéal pour les URLs, noms de fichiers et identifiants.",
+      "cardInputTitle": "Texte d’origine",
+      "cardOutputDescription": "Copiez le slug généré et utilisez-le dans vos URLs, noms de fichiers ou identifiants.",
       "cardOutputTitle": "Slug généré",
-      "cardOutputDescription": "Copiez le slug généré et utilisez-le dans vos URLs, noms de fichiers ou identifiants."
+      "cardTitle": "Convertisseur de slug",
+      "inputPlaceholder": "Mettez votre chaîne ici (ex: Mon chemin de fichier)",
+      "outputPlaceholder": "Votre slug sera généré ici (ex: mon-chemin-de-fichier)"
     }
   }
 }

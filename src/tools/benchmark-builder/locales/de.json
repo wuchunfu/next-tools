@@ -1,31 +1,31 @@
 {
   "tools": {
     "benchmark-builder": {
-      "suiteName": "Suite {index}",
-      "suiteLabel": "Suite-Name",
-      "suitePlaceholder": "Suite-Name...",
-      "suitesTitle": "Suiten",
-      "suitesDescription": "Verwalten Sie mehrere Suiten und deren Stichprobenwerte.",
-      "suiteValues": "Suite-Werte",
-      "deleteSuite": "Suite löschen",
-      "addSuite": "Suite hinzufügen",
-      "resultsTitle": "Ergebnisse",
-      "resultsDescription": "Zusammenfassung und Vergleich zwischen Suiten.",
-      "unitPlaceholder": "Einheit (z.B. ms)",
-      "unitLabel": "Einheit",
-      "resetSuites": "Suites zurücksetzen",
-      "copyMarkdown": "Als Markdown-Tabelle kopieren",
-      "copyBullet": "Als Aufzählungsliste kopieren",
-      "setMeasure": "Setzen Sie Ihr Maß...",
-      "deleteValue": "Diesen Wert löschen",
       "addMeasure": "Ein Maß hinzufügen",
+      "addSuite": "Suite hinzufügen",
+      "copyBullet": "Als Aufzählungsliste kopieren",
+      "copyMarkdown": "Als Markdown-Tabelle kopieren",
+      "deleteSuite": "Suite löschen",
+      "deleteValue": "Diesen Wert löschen",
       "header": {
-        "position": "Position",
-        "title": "Suite",
-        "size": "Stichproben",
         "mean": "Mittelwert",
+        "position": "Position",
+        "size": "Stichproben",
+        "title": "Suite",
         "variance": "Varianz"
-      }
+      },
+      "resetSuites": "Suites zurücksetzen",
+      "resultsDescription": "Zusammenfassung und Vergleich zwischen Suiten.",
+      "resultsTitle": "Ergebnisse",
+      "setMeasure": "Setzen Sie Ihr Maß...",
+      "suiteLabel": "Suite-Name",
+      "suiteName": "Suite {index}",
+      "suitePlaceholder": "Suite-Name...",
+      "suiteValues": "Suite-Werte",
+      "suitesDescription": "Verwalten Sie mehrere Suiten und deren Stichprobenwerte.",
+      "suitesTitle": "Suiten",
+      "unitLabel": "Einheit",
+      "unitPlaceholder": "Einheit (z.B. ms)"
     }
   }
 }

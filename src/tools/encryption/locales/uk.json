@@ -1,18 +1,18 @@
 {
   "tools": {
     "encryption": {
-      "encrypt": "Шифрувати",
-      "yourText": "Ваш рядок:",
-      "stringToCypher": "Рядок для шифрування",
-      "yourSecretKey": "Ваш секретний ключ:",
-      "encryptionAlgorithm": "Алгоритм шифрування:",
-      "yourTextEncrypted": "Ваш зашифрований рядок:",
-      "stringHash": "Хеш вашого рядка",
       "decrypt": "Розшифрувати",
-      "yourEncryptedText": "Ваш зашифрований рядок:",
-      "yourDecryptedText": "Ваш розшифрований рядок:",
+      "encrypt": "Шифрувати",
+      "encryptionAlgorithm": "Алгоритм шифрування:",
       "errorWhileDecrypting": "Помилка під час розшифрування",
-      "unableToDecrypt": "Неможливо розшифрувати ваш рядок"
+      "stringHash": "Хеш вашого рядка",
+      "stringToCypher": "Рядок для шифрування",
+      "unableToDecrypt": "Неможливо розшифрувати ваш рядок",
+      "yourDecryptedText": "Ваш розшифрований рядок:",
+      "yourEncryptedText": "Ваш зашифрований рядок:",
+      "yourSecretKey": "Ваш секретний ключ:",
+      "yourText": "Ваш рядок:",
+      "yourTextEncrypted": "Ваш зашифрований рядок:"
     }
   }
 }

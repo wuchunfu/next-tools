@@ -1,12 +1,12 @@
 {
   "tools": {
     "numeronym-generator": {
-      "placeholder": "Digite uma palavra, ex. 'internationalization'",
-      "outputPlaceholder": "Seu numerônimo aparecerá aqui, ex. 'i18n'",
-      "cardInputTitle": "Entrada",
       "cardInputDescription": "Digite a palavra que deseja converter em numerônimo.",
+      "cardInputTitle": "Entrada",
+      "cardResultsDescription": "O numerônimo para a palavra fornecida.",
       "cardResultsTitle": "Resultado",
-      "cardResultsDescription": "O numerônimo para a palavra fornecida."
+      "outputPlaceholder": "Seu numerônimo aparecerá aqui, ex. 'i18n'",
+      "placeholder": "Digite uma palavra, ex. 'internationalization'"
     }
   }
 }

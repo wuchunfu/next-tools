@@ -1,19 +1,19 @@
 {
   "tools": {
     "ascii-text-drawer": {
-      "yourText": "您的文本：",
-      "yourTextToDraw": "要绘制的文本",
+      "asciiArtText": "ASCII 艺术文本：",
+      "cardOptionsDescription": "配置用于 ASCII 艺术的输入文本、字体和宽度。",
+      "cardOptionsTitle": "选项",
+      "cardResultsDescription": "预览并复制生成的 ASCII 艺术。",
+      "cardResultsTitle": "结果",
+      "error": "当前设置导致错误。",
       "font": "字体：",
+      "loadingFont": "正在加载字体...",
       "selectFont": "选择要使用的字体",
       "width": "宽度：",
       "widthPlaceholder": "文本宽度",
-      "loadingFont": "正在加载字体...",
-      "error": "当前设置导致错误。",
-      "asciiArtText": "ASCII 艺术文本：",
-      "cardOptionsTitle": "选项",
-      "cardOptionsDescription": "配置用于 ASCII 艺术的输入文本、字体和宽度。",
-      "cardResultsTitle": "结果",
-      "cardResultsDescription": "预览并复制生成的 ASCII 艺术。"
+      "yourText": "您的文本：",
+      "yourTextToDraw": "要绘制的文本"
     }
   }
 }

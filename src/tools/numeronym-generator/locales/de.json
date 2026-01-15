@@ -1,12 +1,12 @@
 {
   "tools": {
     "numeronym-generator": {
-      "placeholder": "Geben Sie ein Wort ein, z.B. 'internationalization'",
-      "outputPlaceholder": "Ihr Numeronym wird hier angezeigt, z.B. 'i18n'",
-      "cardInputTitle": "Eingabe",
       "cardInputDescription": "Geben Sie das Wort ein, das Sie in eine Numeronym konvertieren möchten.",
+      "cardInputTitle": "Eingabe",
+      "cardResultsDescription": "Die Numeronym für das angegebene Wort.",
       "cardResultsTitle": "Ergebnis",
-      "cardResultsDescription": "Die Numeronym für das angegebene Wort."
+      "outputPlaceholder": "Ihr Numeronym wird hier angezeigt, z.B. 'i18n'",
+      "placeholder": "Geben Sie ein Wort ein, z.B. 'internationalization'"
     }
   }
 }

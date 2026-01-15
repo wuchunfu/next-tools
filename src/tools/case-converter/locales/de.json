@@ -1,32 +1,32 @@
 {
   "tools": {
     "case-converter": {
-      "cardTitle": "Groß-/Kleinschreibung-Konverter",
-      "cardDescription": "Transformieren Sie die Groß-/Kleinschreibung einer Zeichenkette und wählen Sie zwischen verschiedenen Formaten.",
-      "cardInputTitle": "Texteingabe",
-      "cardInputDescription": "Geben Sie unten Ihre Zeichenkette ein. Wir erzeugen gängige Schreibweisen für Programmierung und Text.",
-      "cardOutputTitle": "Alle Formate",
-      "cardOutputDescription": "Wählen Sie das benötigte Format aus und kopieren Sie es. Werte werden beim Tippen sofort aktualisiert.",
-      "yourString": "Ihre Zeichenkette",
-      "yourStringPlaceholder": "Geben Sie hier Ihren Text ein...",
-      "inputLength": "Länge",
-      "sanitizedLength": "Gültige Zeichen",
-      "clear": "Löschen",
-      "formatsTitle": "Alle Formate",
-      "lowercase": "Kleinbuchstaben",
-      "uppercase": "Großbuchstaben",
       "camelcase": "Camelcase",
       "capitalcase": "Capitalcase",
+      "cardDescription": "Transformieren Sie die Groß-/Kleinschreibung einer Zeichenkette und wählen Sie zwischen verschiedenen Formaten.",
+      "cardInputDescription": "Geben Sie unten Ihre Zeichenkette ein. Wir erzeugen gängige Schreibweisen für Programmierung und Text.",
+      "cardInputTitle": "Texteingabe",
+      "cardOutputDescription": "Wählen Sie das benötigte Format aus und kopieren Sie es. Werte werden beim Tippen sofort aktualisiert.",
+      "cardOutputTitle": "Alle Formate",
+      "cardTitle": "Groß-/Kleinschreibung-Konverter",
+      "clear": "Löschen",
       "constantcase": "Constantcase",
       "dotcase": "Dotcase",
+      "formatsTitle": "Alle Formate",
       "headercase": "Headercase",
+      "inputLength": "Länge",
+      "lowercase": "Kleinbuchstaben",
+      "mockingcase": "Mockingcase",
       "nocase": "Nocase",
       "paramcase": "Paramcase",
       "pascalcase": "Pascalcase",
       "pathcase": "Pathcase",
+      "sanitizedLength": "Gültige Zeichen",
       "sentencecase": "Sentencecase",
       "snakecase": "Snakecase",
-      "mockingcase": "Mockingcase"
+      "uppercase": "Großbuchstaben",
+      "yourString": "Ihre Zeichenkette",
+      "yourStringPlaceholder": "Geben Sie hier Ihren Text ein..."
     }
   }
 }

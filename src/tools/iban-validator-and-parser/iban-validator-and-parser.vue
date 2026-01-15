@@ -93,7 +93,7 @@ const ibanExamples = [
             <Input
               v-model="rawIban"
               :placeholder="t('tools.iban-validator-and-parser.placeholder')"
-              data-test-id="iban-input"
+              data-testid="iban-input"
             />
           </FieldContent>
         </Field>

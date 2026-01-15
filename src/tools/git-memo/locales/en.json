@@ -1,8 +1,8 @@
 {
   "tools": {
     "git-memo": {
-      "cardTitle": "Git Memo Cheatsheet",
-      "cardDescription": "Frequently used Git commands and workflows, organized for quick reference."
+      "cardDescription": "Frequently used Git commands and workflows, organized for quick reference.",
+      "cardTitle": "Git Memo Cheatsheet"
     }
   }
 }

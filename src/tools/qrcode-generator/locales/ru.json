@@ -1,26 +1,26 @@
 {
   "tools": {
     "qrcode-generator": {
-      "cardTitle": "Генератор QR-кода",
-      "cardDescription": "Создавайте настраиваемые QR-коды для URL или текста с регулируемыми цветами и уровнями коррекции ошибок.",
-      "text": "Содержимое",
-      "yourLinkOrText": "Введите URL или текст для кодирования...",
-      "foregroundColor": "Передний план",
       "backgroundColor": "Фон",
-      "errorResistance": "Уровень коррекции ошибок",
-      "downloadQrCode": "Скачать PNG",
+      "cardDescription": "Создавайте настраиваемые QR-коды для URL или текста с регулируемыми цветами и уровнями коррекции ошибок.",
+      "cardTitle": "Генератор QR-кода",
       "characters": "символов",
       "colorSettings": "Настройки цвета",
-      "resetColors": "Сбросить",
-      "resetColorsTooltip": "Сбросить до цветов по умолчанию",
+      "downloadQrCode": "Скачать PNG",
+      "emptyPreview": "Введите текст для генерации QR-кода",
+      "errorResistance": "Уровень коррекции ошибок",
+      "errorResistanceHint": "Более высокие уровни допускают больше повреждений, но увеличивают плотность QR-кода.",
+      "foregroundColor": "Передний план",
+      "levelHigh": "Высокий (~30%)",
       "levelLow": "Низкий (~7%)",
       "levelMedium": "Средний (~15%)",
       "levelQuartile": "Квартиль (~25%)",
-      "levelHigh": "Высокий (~30%)",
-      "selectLevel": "Выбрать уровень",
-      "errorResistanceHint": "Более высокие уровни допускают больше повреждений, но увеличивают плотность QR-кода.",
       "preview": "Предпросмотр",
-      "emptyPreview": "Введите текст для генерации QR-кода"
+      "resetColors": "Сбросить",
+      "resetColorsTooltip": "Сбросить до цветов по умолчанию",
+      "selectLevel": "Выбрать уровень",
+      "text": "Содержимое",
+      "yourLinkOrText": "Введите URL или текст для кодирования..."
     }
   }
 }

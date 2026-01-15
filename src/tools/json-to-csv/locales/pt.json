@@ -1,13 +1,13 @@
 {
   "tools": {
     "json-to-csv": {
-      "cardInputTitle": "Entrada de array JSON",
       "cardInputDescription": "Cole abaixo um array JSON válido. Cada objeto se tornará uma linha na saída CSV.",
-      "cardOutputTitle": "Resultado CSV",
+      "cardInputTitle": "Entrada de array JSON",
       "cardOutputDescription": "Revise e copie a representação CSV gerada do seu array JSON.",
+      "cardOutputTitle": "Resultado CSV",
+      "inputPlaceholder": "Cole seu array JSON aqui...",
       "invalid": "O JSON fornecido não é válido ou não é um array.",
-      "invalidJsonTitle": "JSON inválido",
-      "inputPlaceholder": "Cole seu array JSON aqui..."
+      "invalidJsonTitle": "JSON inválido"
     }
   }
 }

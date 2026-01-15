@@ -1,13 +1,13 @@
 {
   "tools": {
     "json-to-csv": {
-      "cardInputTitle": "JSON-array-inndata",
       "cardInputDescription": "Lim inn et gyldig JSON-array nedenfor. Hvert objekt blir en rad i CSV-utdataen.",
-      "cardOutputTitle": "CSV-resultat",
+      "cardInputTitle": "JSON-array-inndata",
       "cardOutputDescription": "Se gjennom og kopier den genererte CSV-representasjonen av JSON-arrayet ditt.",
+      "cardOutputTitle": "CSV-resultat",
+      "inputPlaceholder": "Lim inn din JSON-array her...",
       "invalid": "Den oppgitte JSON-en er ikke gyldig eller ikke en array.",
-      "invalidJsonTitle": "Ugyldig JSON",
-      "inputPlaceholder": "Lim inn din JSON-array her..."
+      "invalidJsonTitle": "Ugyldig JSON"
     }
   }
 }

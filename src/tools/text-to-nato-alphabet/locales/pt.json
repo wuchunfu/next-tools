@@ -1,21 +1,21 @@
 {
   "tools": {
     "text-to-nato-alphabet": {
-      "cardTitle": "Conversor de Alfabeto Fonético NATO",
       "cardDescription": "Converta texto para o alfabeto fonético NATO (Alpha, Bravo, Charlie, etc.)",
-      "cardInputTitle": "Entrada de texto",
       "cardInputDescription": "Digite ou cole seu texto abaixo. Vamos converter as letras para o alfabeto fonético NATO.",
-      "cardOutputTitle": "Saída NATO",
+      "cardInputTitle": "Entrada de texto",
       "cardOutputDescription": "Revise e copie a string convertida do alfabeto fonético NATO.",
-      "yourTextToConvert": "Seu texto para converter",
-      "inputPlaceholder": "Digite seu texto aqui...",
-      "inputLength": "Comprimento",
-      "letters": "Letras",
+      "cardOutputTitle": "Saída NATO",
+      "cardTitle": "Conversor de Alfabeto Fonético NATO",
       "clear": "Limpar",
-      "yourTextInNato": "Alfabeto fonético NATO",
-      "outputLength": "Comprimento da saída",
+      "copied": "String de alfabeto NATO copiada.",
       "copyNatoString": "Copiar string NATO",
-      "copied": "String de alfabeto NATO copiada."
+      "inputLength": "Comprimento",
+      "inputPlaceholder": "Digite seu texto aqui...",
+      "letters": "Letras",
+      "outputLength": "Comprimento da saída",
+      "yourTextInNato": "Alfabeto fonético NATO",
+      "yourTextToConvert": "Seu texto para converter"
     }
   }
 }

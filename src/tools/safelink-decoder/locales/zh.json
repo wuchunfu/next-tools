@@ -1,22 +1,22 @@
 {
   "tools": {
     "safelink-decoder": {
-      "cardTitle": "Outlook SafeLink 解码器",
       "cardDescription": "解码 Microsoft Outlook SafeLink 链接，显示原始目标 URL。",
-      "cardInputTitle": "SafeLink 输入",
       "cardInputDescription": "在下方粘贴 Outlook SafeLink 链接，我们会校验并提取其中的原始目标 URL。",
-      "cardOutputTitle": "解码结果",
+      "cardInputTitle": "SafeLink 输入",
       "cardOutputDescription": "查看提取出的 URL，你可以复制它或在新标签页打开。",
-      "inputPlaceholder": "在此粘贴 Outlook SafeLink 链接...",
-      "inputLabel": "SafeLink 链接",
-      "outputLabel": "解码后的 URL",
-      "invalidUrl": "请输入有效的 Outlook SafeLink 链接（https://*.safelinks.protection.outlook.com/...）",
+      "cardOutputTitle": "解码结果",
+      "cardTitle": "Outlook SafeLink 解码器",
       "decodeError": "解码失败，请检查链接后重试。",
       "emptyHint": "在上方粘贴 SafeLink 链接以进行解码。",
       "errorTitle": "无效链接",
-      "successTitle": "解码成功",
+      "inputLabel": "SafeLink 链接",
+      "inputPlaceholder": "在此粘贴 Outlook SafeLink 链接...",
+      "invalidUrl": "请输入有效的 Outlook SafeLink 链接（https://*.safelinks.protection.outlook.com/...）",
+      "openUrl": "打开链接",
+      "outputLabel": "解码后的 URL",
       "successDescription": "已从 SafeLink 中提取原始 URL。",
-      "openUrl": "打开链接"
+      "successTitle": "解码成功"
     }
   }
 }

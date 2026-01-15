@@ -1,23 +1,23 @@
 {
   "tools": {
     "ipv4-range-expander": {
-      "cardInputTitle": "IPv4 地址范围",
+      "addressesInRange": "范围内的地址",
       "cardInputDescription": "输入起始和结束 IPv4 地址，以计算 CIDR 范围和扩展地址信息。",
-      "cardResultsTitle": "范围扩展结果",
+      "cardInputTitle": "IPv4 地址范围",
       "cardResultsDescription": "查看计算出的 CIDR 范围和扩展地址信息。",
-      "invalidAddressTitle": "无效地址",
-      "startAddress": "起始地址",
-      "startAddressPlaceholder": "起始 IPv4 地址...",
+      "cardResultsTitle": "范围扩展结果",
+      "cidr": "CIDR",
       "endAddress": "结束地址",
       "endAddressPlaceholder": "结束 IPv4 地址...",
-      "invalidIpv4": "无效的 IPv4 地址",
-      "addressesInRange": "范围内的地址",
-      "cidr": "CIDR",
-      "label": "标签",
-      "oldValue": "旧值",
-      "newValue": "新值",
+      "invalidAddressTitle": "无效地址",
       "invalidCombination": "无效的地址组合",
       "invalidCombinationDescription": "结束 IPv4 地址低于起始 IPv4 地址。这是无效的，无法计算结果。",
+      "invalidIpv4": "无效的 IPv4 地址",
+      "label": "标签",
+      "newValue": "新值",
+      "oldValue": "旧值",
+      "startAddress": "起始地址",
+      "startAddressPlaceholder": "起始 IPv4 地址...",
       "switchAddresses": "交换地址"
     }
   }

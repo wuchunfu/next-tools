@@ -1,20 +1,20 @@
 {
   "tools": {
     "json-prettify": {
-      "cardOptionsTitle": "Formatierungsoptionen",
-      "cardOptionsDescription": "Passen Sie Einrückung und Schlüsselsortierung an Ihren bevorzugten JSON-Stil an.",
-      "sortKeys": "Schlüssel sortieren",
-      "sortKeysHelp": "Objektschlüssel alphabetisch sortieren, um eine stabilere und besser lesbare Ausgabe zu erhalten.",
-      "indentSize": "Einrückungsgröße",
-      "indentHint": "Anzahl der Leerzeichen für die Einrückung (0–10).",
-      "cardInputTitle": "JSON-Eingabe",
       "cardInputDescription": "Fügen Sie unten Ihr JSON ein. Wir validieren es (JSON5-kompatibel) und erzeugen eine formatierte Version.",
-      "pasteYourRawJson": "Fügen Sie hier Ihren rohen JSON ein...",
-      "cardOutputTitle": "Formatiertes JSON",
+      "cardInputTitle": "JSON-Eingabe",
+      "cardOptionsDescription": "Passen Sie Einrückung und Schlüsselsortierung an Ihren bevorzugten JSON-Stil an.",
+      "cardOptionsTitle": "Formatierungsoptionen",
       "cardOutputDescription": "Überprüfen und kopieren Sie die formatierte JSON-Ausgabe.",
-      "prettifiedVersion": "Formatierte Version Ihres JSON",
+      "cardOutputTitle": "Formatiertes JSON",
+      "indentHint": "Anzahl der Leerzeichen für die Einrückung (0–10).",
+      "indentSize": "Einrückungsgröße",
       "invalidJson": "Bereitgestellter JSON ist nicht gültig.",
-      "invalidJsonTitle": "Ungültiger JSON"
+      "invalidJsonTitle": "Ungültiger JSON",
+      "pasteYourRawJson": "Fügen Sie hier Ihren rohen JSON ein...",
+      "prettifiedVersion": "Formatierte Version Ihres JSON",
+      "sortKeys": "Schlüssel sortieren",
+      "sortKeysHelp": "Objektschlüssel alphabetisch sortieren, um eine stabilere und besser lesbare Ausgabe zu erhalten."
     }
   }
 }

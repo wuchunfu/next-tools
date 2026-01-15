@@ -1,22 +1,22 @@
 {
   "tools": {
     "token-generator": {
-      "characterTypes": "Типи символів",
-      "uppercase": "Великі літери (ABC...)",
-      "lowercase": "Малі літери (abc...)",
-      "numbers": "Цифри (123...)",
-      "symbols": "Символи (!-;...)",
-      "length": "Довжина",
-      "generatedToken": "Згенерований токен",
-      "tokenPlaceholder": "Токен...",
-      "selectCharacterTypes": "Будь ласка, виберіть принаймні один тип символів",
-      "copied": "Токен скопійовано в буфер обміну",
-      "cardOptionsTitle": "Параметри токена",
-      "cardOutputTitle": "Результат токена",
       "button": {
         "copy": "Копіювати",
         "refresh": "Оновити"
-      }
+      },
+      "cardOptionsTitle": "Параметри токена",
+      "cardOutputTitle": "Результат токена",
+      "characterTypes": "Типи символів",
+      "copied": "Токен скопійовано в буфер обміну",
+      "generatedToken": "Згенерований токен",
+      "length": "Довжина",
+      "lowercase": "Малі літери (abc...)",
+      "numbers": "Цифри (123...)",
+      "selectCharacterTypes": "Будь ласка, виберіть принаймні один тип символів",
+      "symbols": "Символи (!-;...)",
+      "tokenPlaceholder": "Токен...",
+      "uppercase": "Великі літери (ABC...)"
     }
   }
 }

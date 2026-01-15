@@ -1,19 +1,19 @@
 {
   "tools": {
     "ascii-text-drawer": {
-      "yourText": "Ihr Text:",
-      "yourTextToDraw": "Ihr zu zeichnender Text",
+      "asciiArtText": "ASCII-Kunsttext:",
+      "cardOptionsDescription": "Konfigurieren Sie den Eingabetext, die Schriftart und die Breite für die ASCII-Kunst.",
+      "cardOptionsTitle": "Optionen",
+      "cardResultsDescription": "Vorschau und Kopieren der generierten ASCII-Kunst.",
+      "cardResultsTitle": "Ergebnis",
+      "error": "Die aktuellen Einstellungen führten zu einem Fehler.",
       "font": "Schriftart:",
+      "loadingFont": "Schriftart wird geladen...",
       "selectFont": "Zu verwendende Schriftart auswählen",
       "width": "Breite:",
       "widthPlaceholder": "Breite des Textes",
-      "loadingFont": "Schriftart wird geladen...",
-      "error": "Die aktuellen Einstellungen führten zu einem Fehler.",
-      "asciiArtText": "ASCII-Kunsttext:",
-      "cardOptionsTitle": "Optionen",
-      "cardOptionsDescription": "Konfigurieren Sie den Eingabetext, die Schriftart und die Breite für die ASCII-Kunst.",
-      "cardResultsTitle": "Ergebnis",
-      "cardResultsDescription": "Vorschau und Kopieren der generierten ASCII-Kunst."
+      "yourText": "Ihr Text:",
+      "yourTextToDraw": "Ihr zu zeichnender Text"
     }
   }
 }

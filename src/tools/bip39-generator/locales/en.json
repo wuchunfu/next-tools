@@ -1,35 +1,35 @@
 {
   "tools": {
     "bip39-generator": {
-      "entropyLength": "Entropy length should be >= 16, <= 32 and be a multiple of 4",
-      "entropyHex": "Entropy should be an hexadecimal string",
-      "invalidMnemonic": "Invalid mnemonic",
+      "cardEntropyTitle": "Entropy source",
+      "cardLanguageTitle": "Mnemonic language",
+      "cardPassphraseTitle": "Mnemonic phrase",
       "copyEntropy": "Entropy copied to the clipboard",
       "copyPassphrase": "Passphrase copied to the clipboard",
-      "generateNewEntropy": "Generate new entropy",
-      "languageLabel": "Language",
-      "languageDescription": "Select the word list language for BIP39 mnemonic generation.",
-      "entropyLabel": "Entropy",
       "entropyDescription": "Hexadecimal seed value (16-32 characters, multiple of 4).",
+      "entropyHex": "Entropy should be an hexadecimal string",
+      "entropyLabel": "Entropy",
+      "entropyLength": "Entropy length should be >= 16, <= 32 and be a multiple of 4",
       "entropyPlaceholder": "Enter hexadecimal entropy...",
-      "passphraseLabel": "Passphrase",
-      "passphraseDescription": "BIP39 mnemonic phrase (12 or 24 words).",
-      "passphrasePlaceholder": "Enter mnemonic phrase...",
-      "cardLanguageTitle": "Mnemonic language",
-      "cardEntropyTitle": "Entropy source",
-      "cardPassphraseTitle": "Mnemonic phrase",
+      "generateNewEntropy": "Generate new entropy",
+      "invalidMnemonic": "Invalid mnemonic",
+      "languageDescription": "Select the word list language for BIP39 mnemonic generation.",
+      "languageLabel": "Language",
       "languages": {
-        "english": "English",
         "chinese-simplified": "Chinese Simplified",
         "chinese-traditional": "Chinese Traditional",
         "czech": "Czech",
+        "english": "English",
         "french": "French",
         "italian": "Italian",
         "japanese": "Japanese",
         "korean": "Korean",
         "portuguese": "Portuguese",
         "spanish": "Spanish"
-      }
+      },
+      "passphraseDescription": "BIP39 mnemonic phrase (12 or 24 words).",
+      "passphraseLabel": "Passphrase",
+      "passphrasePlaceholder": "Enter mnemonic phrase..."
     }
   }
 }

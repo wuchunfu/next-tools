@@ -1,31 +1,31 @@
 {
   "tools": {
     "ipv4-subnet-calculator": {
+      "broadcastAddress": "Kringkastingsadresse",
+      "cannotParseAddress": "Vi kan ikke analysere denne adressen, sjekk formatet",
+      "cardInputDescription": "Skriv inn en IPv4-adresse med eller uten CIDR-notasjon for å beregne subnett-informasjon.",
+      "cardInputTitle": "IPv4-adresse",
+      "cardResultsDescription": "Detaljert nettverk- og subnett-informasjon for den innskrevne IPv4-adressen.",
+      "cardResultsTitle": "Subnett-informasjon",
+      "cidrNotation": "CIDR-notasjon",
+      "firstAddress": "Første adresse",
       "inputLabel": "En IPv4-adresse med eller uten maske",
       "inputPlaceholder": "IPv4-adressen...",
-      "cannotParseAddress": "Vi kan ikke analysere denne adressen, sjekk formatet",
+      "invalidAddressTitle": "Ugyldig adresse",
+      "ipClass": "IP-klasse",
+      "lastAddress": "Siste adresse",
       "netmask": "Nettverksmaske",
       "networkAddress": "Nettverksadresse",
       "networkMask": "Nettverksmaske",
       "networkMaskInBinary": "Nettverksmaske i binær",
-      "cidrNotation": "CIDR-notasjon",
-      "wildcardMask": "Joker-maske",
       "networkSize": "Nettverksstørrelse",
-      "firstAddress": "Første adresse",
-      "lastAddress": "Siste adresse",
-      "broadcastAddress": "Kringkastingsadresse",
-      "noBroadcastAddress": "Ingen kringkastingsadresse med denne masken",
-      "ipClass": "IP-klasse",
-      "unknownClassType": "Ukjent klassettype",
-      "previousBlock": "Forrige blokk",
       "nextBlock": "Neste blokk",
-      "cardInputTitle": "IPv4-adresse",
-      "cardInputDescription": "Skriv inn en IPv4-adresse med eller uten CIDR-notasjon for å beregne subnett-informasjon.",
-      "cardResultsTitle": "Subnett-informasjon",
-      "cardResultsDescription": "Detaljert nettverk- og subnett-informasjon for den innskrevne IPv4-adressen.",
-      "invalidAddressTitle": "Ugyldig adresse",
+      "noBroadcastAddress": "Ingen kringkastingsadresse med denne masken",
+      "previousBlock": "Forrige blokk",
       "property": "Egenskap",
-      "value": "Verdi"
+      "unknownClassType": "Ukjent klassettype",
+      "value": "Verdi",
+      "wildcardMask": "Joker-maske"
     }
   }
 }

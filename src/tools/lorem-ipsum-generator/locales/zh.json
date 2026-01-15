@@ -1,19 +1,19 @@
 {
   "tools": {
     "lorem-ipsum-generator": {
-      "optionsTitle": "选项",
-      "optionsDescription": "配置如何生成 Lorem Ipsum",
-      "resultsTitle": "生成文本",
-      "resultsDescription": "生成的 Lorem Ipsum 文本预览",
-      "paragraphs": "段落",
-      "sentencesPerParagraph": "每段句子数",
-      "wordsPerSentence": "每句单词数",
-      "startWithLoremIpsum": "以 lorem ipsum 开头？",
       "asHtml": "作为 HTML？",
-      "placeholder": "您的 lorem ipsum...",
+      "copied": "Lorem ipsum 已复制到剪贴板",
       "copy": "复制",
+      "optionsDescription": "配置如何生成 Lorem Ipsum",
+      "optionsTitle": "选项",
+      "paragraphs": "段落",
+      "placeholder": "您的 lorem ipsum...",
       "refresh": "刷新",
-      "copied": "Lorem ipsum 已复制到剪贴板"
+      "resultsDescription": "生成的 Lorem Ipsum 文本预览",
+      "resultsTitle": "生成文本",
+      "sentencesPerParagraph": "每段句子数",
+      "startWithLoremIpsum": "以 lorem ipsum 开头？",
+      "wordsPerSentence": "每句单词数"
     }
   }
 }

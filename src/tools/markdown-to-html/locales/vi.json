@@ -1,22 +1,22 @@
 {
   "tools": {
     "markdown-to-html": {
-      "cardTitle": "Bộ chuyển đổi Markdown sang HTML",
       "cardDescription": "Chuyển đổi định dạng Markdown sang định dạng HTML. Dán Markdown của bạn và nhận đầu ra HTML.",
-      "cardInputTitle": "Markdown đầu vào",
       "cardInputDescription": "Viết hoặc dán Markdown của bạn bên dưới. Chúng tôi sẽ chuyển đổi sang HTML và cung cấp bản xem trước.",
-      "cardOutputTitle": "Đầu ra HTML",
+      "cardInputTitle": "Markdown đầu vào",
       "cardOutputDescription": "Chuyển giữa bản xem trước và mã HTML. Bạn cũng có thể in HTML đã render thành PDF.",
-      "inputPlaceholder": "Nội dung Markdown của bạn...",
+      "cardOutputTitle": "Đầu ra HTML",
+      "cardTitle": "Bộ chuyển đổi Markdown sang HTML",
       "clear": "Xóa",
-      "printAsPdf": "In dưới dạng PDF",
-      "printTooltip": "In HTML dưới dạng PDF",
-      "printTitle": "Markdown sang HTML",
-      "preview": "Xem trước",
+      "formatHtml": "Định dạng HTML",
       "htmlCode": "Mã HTML",
+      "inputPlaceholder": "Nội dung Markdown của bạn...",
+      "preview": "Xem trước",
       "previewPlaceholder": "Xem trước sẽ xuất hiện ở đây...",
       "previewTitle": "Xem trước Markdown",
-      "formatHtml": "Định dạng HTML"
+      "printAsPdf": "In dưới dạng PDF",
+      "printTitle": "Markdown sang HTML",
+      "printTooltip": "In HTML dưới dạng PDF"
     }
   }
 }

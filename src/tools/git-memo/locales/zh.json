@@ -1,8 +1,8 @@
 {
   "tools": {
     "git-memo": {
-      "cardTitle": "Git 备忘清单",
-      "cardDescription": "整理常用 Git 命令和工作流，方便快速查阅。"
+      "cardDescription": "整理常用 Git 命令和工作流，方便快速查阅。",
+      "cardTitle": "Git 备忘清单"
     }
   }
 }

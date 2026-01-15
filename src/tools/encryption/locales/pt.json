@@ -1,18 +1,18 @@
 {
   "tools": {
     "encryption": {
-      "encrypt": "Criptografar",
-      "yourText": "Seu texto:",
-      "stringToCypher": "A string a ser criptografada",
-      "yourSecretKey": "Sua chave secreta:",
-      "encryptionAlgorithm": "Algoritmo de criptografia:",
-      "yourTextEncrypted": "Seu texto criptografado:",
-      "stringHash": "Hash da sua string",
       "decrypt": "Descriptografar",
-      "yourEncryptedText": "Seu texto criptografado:",
-      "yourDecryptedText": "Seu texto descriptografado:",
+      "encrypt": "Criptografar",
+      "encryptionAlgorithm": "Algoritmo de criptografia:",
       "errorWhileDecrypting": "Erro ao descriptografar",
-      "unableToDecrypt": "Não é possível descriptografar seu texto"
+      "stringHash": "Hash da sua string",
+      "stringToCypher": "A string a ser criptografada",
+      "unableToDecrypt": "Não é possível descriptografar seu texto",
+      "yourDecryptedText": "Seu texto descriptografado:",
+      "yourEncryptedText": "Seu texto criptografado:",
+      "yourSecretKey": "Sua chave secreta:",
+      "yourText": "Seu texto:",
+      "yourTextEncrypted": "Seu texto criptografado:"
     }
   }
 }

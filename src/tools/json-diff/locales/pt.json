@@ -1,21 +1,21 @@
 {
   "tools": {
     "json-diff": {
-      "cardTitle": "Comparador JSON",
       "cardDescription": "Compare dois objetos JSON e veja as diferenças destacadas.",
-      "cardInputTitle": "Entradas JSON",
       "cardInputDescription": "Cole abaixo dois documentos JSON. Nós os validaremos e mostraremos as diferenças.",
-      "invalidJson": "Formato JSON inválido",
-      "firstJsonLabel": "Seu primeiro JSON",
-      "firstJsonPlaceholder": "Cole seu primeiro JSON aqui...",
+      "cardInputTitle": "Entradas JSON",
+      "cardTitle": "Comparador JSON",
+      "clickToCopy": "Clique para copiar",
       "compareJsonLabel": "Seu JSON para comparar",
       "compareJsonPlaceholder": "Cole seu JSON para comparar aqui...",
-      "resultsTitle": "Resultados da comparação",
-      "resultsDescription": "As diferenças são destacadas em verde (adicionado) e vermelho (removido).",
+      "firstJsonLabel": "Seu primeiro JSON",
+      "firstJsonPlaceholder": "Cole seu primeiro JSON aqui...",
+      "invalidJson": "Formato JSON inválido",
       "onlyShowDifferences": "Mostrar apenas diferenças",
+      "resultsDescription": "As diferenças são destacadas em verde (adicionado) e vermelho (removido).",
+      "resultsTitle": "Resultados da comparação",
       "sameJson": "Os JSON fornecidos são iguais",
-      "sameJsonDescription": "Ambos os objetos JSON são idênticos. Nenhuma diferença encontrada.",
-      "clickToCopy": "Clique para copiar"
+      "sameJsonDescription": "Ambos os objetos JSON são idênticos. Nenhuma diferença encontrada."
     }
   }
 }

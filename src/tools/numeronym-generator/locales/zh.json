@@ -1,12 +1,12 @@
 {
   "tools": {
     "numeronym-generator": {
-      "placeholder": "输入一个单词，例如 “internationalization”",
-      "outputPlaceholder": "数字缩写会显示在这里，例如 “i18n”",
-      "cardInputTitle": "输入",
       "cardInputDescription": "输入你想要转换为数字缩写的单词。",
+      "cardInputTitle": "输入",
+      "cardResultsDescription": "所提供单词的数字缩写。",
       "cardResultsTitle": "结果",
-      "cardResultsDescription": "所提供单词的数字缩写。"
+      "outputPlaceholder": "数字缩写会显示在这里，例如 “i18n”",
+      "placeholder": "输入一个单词，例如 “internationalization”"
     }
   }
 }

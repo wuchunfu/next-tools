@@ -1,15 +1,15 @@
 {
   "tools": {
     "text-statistics": {
-      "cardInputTitle": "输入",
+      "byteSize": "字节大小",
       "cardInputDescription": "粘贴或输入文本以即时查看统计信息。",
-      "cardResultsTitle": "结果",
+      "cardInputTitle": "输入",
       "cardResultsDescription": "文本统计摘要",
-      "placeholder": "您的文本...",
+      "cardResultsTitle": "结果",
       "characterCount": "字符数",
-      "wordCount": "字数",
       "lineCount": "行数",
-      "byteSize": "字节大小"
+      "placeholder": "您的文本...",
+      "wordCount": "字数"
     }
   }
 }

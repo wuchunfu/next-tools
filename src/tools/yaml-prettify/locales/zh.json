@@ -1,19 +1,19 @@
 {
   "tools": {
     "yaml-prettify": {
-      "invalid": "提供的 YAML 无效。",
-      "cardOptionsTitle": "格式化选项",
+      "cardInputDescription": "在下方粘贴你的 YAML，我们会验证并生成格式化结果。",
+      "cardInputTitle": "YAML 输入",
       "cardOptionsDescription": "调整缩进和键排序行为，使其符合你偏好的 YAML 风格。",
-      "sortKeys": "键排序",
-      "sortKeysHelp": "按字母顺序对对象键进行排序，以获得更稳定、易读的输出。",
+      "cardOptionsTitle": "格式化选项",
+      "cardOutputDescription": "查看并复制格式化后的 YAML 输出。",
+      "cardOutputTitle": "格式化后的 YAML",
       "indent": "缩进大小",
       "indentHint": "用于缩进的空格数量（1–10）。",
-      "cardInputTitle": "YAML 输入",
-      "cardInputDescription": "在下方粘贴你的 YAML，我们会验证并生成格式化结果。",
       "inputPlaceholder": "将 YAML 粘贴到此处...",
-      "cardOutputTitle": "格式化后的 YAML",
-      "cardOutputDescription": "查看并复制格式化后的 YAML 输出。",
-      "invalidYamlTitle": "无效的 YAML"
+      "invalid": "提供的 YAML 无效。",
+      "invalidYamlTitle": "无效的 YAML",
+      "sortKeys": "键排序",
+      "sortKeysHelp": "按字母顺序对对象键进行排序，以获得更稳定、易读的输出。"
     }
   }
 }

@@ -1,22 +1,22 @@
 {
   "tools": {
     "markdown-to-html": {
-      "cardTitle": "Markdown zu HTML Konverter",
       "cardDescription": "Konvertieren Sie Markdown-Format in HTML-Format. Fügen Sie Ihr Markdown ein und erhalten Sie die HTML-Ausgabe.",
-      "cardInputTitle": "Markdown-Eingabe",
       "cardInputDescription": "Schreiben oder fügen Sie unten Ihr Markdown ein. Wir konvertieren es in HTML und bieten eine Vorschau.",
-      "cardOutputTitle": "HTML-Ausgabe",
+      "cardInputTitle": "Markdown-Eingabe",
       "cardOutputDescription": "Wechseln Sie zwischen Vorschau und HTML-Code. Sie können das gerenderte HTML auch als PDF drucken.",
-      "inputPlaceholder": "Ihr Markdown-Inhalt...",
+      "cardOutputTitle": "HTML-Ausgabe",
+      "cardTitle": "Markdown zu HTML Konverter",
       "clear": "Löschen",
-      "printAsPdf": "Als PDF drucken",
-      "printTooltip": "HTML als PDF drucken",
-      "printTitle": "Markdown zu HTML",
-      "preview": "Vorschau",
+      "formatHtml": "HTML formatieren",
       "htmlCode": "HTML-Code",
+      "inputPlaceholder": "Ihr Markdown-Inhalt...",
+      "preview": "Vorschau",
       "previewPlaceholder": "Vorschau wird hier angezeigt...",
       "previewTitle": "Markdown-Vorschau",
-      "formatHtml": "HTML formatieren"
+      "printAsPdf": "Als PDF drucken",
+      "printTitle": "Markdown zu HTML",
+      "printTooltip": "HTML als PDF drucken"
     }
   }
 }

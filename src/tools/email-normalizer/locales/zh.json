@@ -1,18 +1,18 @@
 {
   "tools": {
     "email-normalizer": {
-      "unableToParse": "无法解析邮箱：{email}",
+      "cardInputDescription": "在下方粘贴您的邮箱地址（每行一个）。它们将自动规范化。",
+      "cardInputTitle": "邮箱输入",
+      "cardOutputDescription": "查看并复制规范化后的邮箱地址。",
+      "cardOutputTitle": "规范化后的邮箱",
+      "clear": "清空邮箱",
       "copied": "规范化后的邮箱已复制到剪贴板",
-      "rawEmails": "要规范化的原始邮箱：",
+      "copy": "复制规范化后的邮箱",
       "inputPlaceholder": "在此输入您的邮箱（一行一个）...",
       "normalizedEmails": "规范化后的邮箱：",
       "outputPlaceholder": "规范化后的邮箱将显示在此处...",
-      "clear": "清空邮箱",
-      "copy": "复制规范化后的邮箱",
-      "cardInputTitle": "邮箱输入",
-      "cardInputDescription": "在下方粘贴您的邮箱地址（每行一个）。它们将自动规范化。",
-      "cardOutputTitle": "规范化后的邮箱",
-      "cardOutputDescription": "查看并复制规范化后的邮箱地址。"
+      "rawEmails": "要规范化的原始邮箱：",
+      "unableToParse": "无法解析邮箱：{email}"
     }
   }
 }

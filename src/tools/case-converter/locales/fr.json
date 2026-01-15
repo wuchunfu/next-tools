@@ -1,32 +1,32 @@
 {
   "tools": {
     "case-converter": {
-      "cardTitle": "Convertisseur de casse",
-      "cardDescription": "Transformez la casse d'une chaîne et choisissez entre différents formats.",
-      "cardInputTitle": "Saisie de texte",
-      "cardInputDescription": "Entrez votre chaîne ci-dessous. Nous générons des formats de casse courants pour le code et le texte.",
-      "cardOutputTitle": "Tous les formats",
-      "cardOutputDescription": "Choisissez le format dont vous avez besoin et copiez-le. Les valeurs se mettent à jour instantanément.",
-      "yourString": "Votre chaîne",
-      "yourStringPlaceholder": "Entrez votre texte ici...",
-      "inputLength": "Longueur",
-      "sanitizedLength": "Caractères valides",
-      "clear": "Effacer",
-      "formatsTitle": "Tous les formats",
-      "lowercase": "Minuscules",
-      "uppercase": "Majuscules",
       "camelcase": "Camelcase",
       "capitalcase": "Capitalcase",
+      "cardDescription": "Transformez la casse d'une chaîne et choisissez entre différents formats.",
+      "cardInputDescription": "Entrez votre chaîne ci-dessous. Nous générons des formats de casse courants pour le code et le texte.",
+      "cardInputTitle": "Saisie de texte",
+      "cardOutputDescription": "Choisissez le format dont vous avez besoin et copiez-le. Les valeurs se mettent à jour instantanément.",
+      "cardOutputTitle": "Tous les formats",
+      "cardTitle": "Convertisseur de casse",
+      "clear": "Effacer",
       "constantcase": "Constantcase",
       "dotcase": "Dotcase",
+      "formatsTitle": "Tous les formats",
       "headercase": "Headercase",
+      "inputLength": "Longueur",
+      "lowercase": "Minuscules",
+      "mockingcase": "Mockingcase",
       "nocase": "Nocase",
       "paramcase": "Paramcase",
       "pascalcase": "Pascalcase",
       "pathcase": "Pathcase",
+      "sanitizedLength": "Caractères valides",
       "sentencecase": "Sentencecase",
       "snakecase": "Snakecase",
-      "mockingcase": "Mockingcase"
+      "uppercase": "Majuscules",
+      "yourString": "Votre chaîne",
+      "yourStringPlaceholder": "Entrez votre texte ici..."
     }
   }
 }

@@ -1,25 +1,25 @@
 {
   "tools": {
     "percentage-calculator": {
-      "card1Title": "X% của Y là bao nhiêu?",
       "card1Description": "Tính phần trăm của một giá trị. Nhập phần trăm (X) và giá trị cơ sở (Y) để có kết quả.",
-      "card2Title": "X là bao nhiêu phần trăm của Y?",
+      "card1Title": "X% của Y là bao nhiêu?",
       "card2Description": "Tìm xem một giá trị là bao nhiêu phần trăm của giá trị khác. Nhập giá trị (X) và tổng (Y) để tính phần trăm.",
-      "card3Title": "Tăng/giảm phần trăm",
+      "card2Title": "X là bao nhiêu phần trăm của Y?",
       "card3Description": "Tính thay đổi phần trăm giữa hai giá trị. Nhập giá trị ban đầu (Từ) và giá trị cuối (Đến) để có thay đổi phần trăm.",
-      "whatIs": "Cái gì là",
+      "card3Title": "Tăng/giảm phần trăm",
+      "from": "Từ",
+      "isWhatPercentOf": "là bao nhiêu phần trăm của",
+      "of": "của",
       "percentOf": "% của",
       "percentage": "Phần trăm",
-      "of": "của",
-      "value": "Giá trị",
+      "percentageIncreaseDecrease": "Mức tăng/giảm phần trăm là bao nhiêu",
       "placeholderX": "X",
       "placeholderY": "Y",
       "result": "Kết quả",
-      "xIsWhatPercentOfY": "X là bao nhiêu phần trăm của Y",
-      "isWhatPercentOf": "là bao nhiêu phần trăm của",
-      "percentageIncreaseDecrease": "Mức tăng/giảm phần trăm là bao nhiêu",
-      "from": "Từ",
-      "to": "Đến"
+      "to": "Đến",
+      "value": "Giá trị",
+      "whatIs": "Cái gì là",
+      "xIsWhatPercentOfY": "X là bao nhiêu phần trăm của Y"
     }
   }
 }

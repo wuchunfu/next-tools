@@ -1,15 +1,15 @@
 {
   "tools": {
     "text-statistics": {
-      "cardInputTitle": "Đầu vào",
+      "byteSize": "Kích thước tính bằng byte",
       "cardInputDescription": "Dán hoặc nhập văn bản để nhận thống kê ngay lập tức.",
-      "cardResultsTitle": "Kết quả",
+      "cardInputTitle": "Đầu vào",
       "cardResultsDescription": "Tóm tắt thống kê văn bản",
-      "placeholder": "Văn bản của bạn...",
+      "cardResultsTitle": "Kết quả",
       "characterCount": "Số ký tự",
-      "wordCount": "Số từ",
       "lineCount": "Số dòng",
-      "byteSize": "Kích thước tính bằng byte"
+      "placeholder": "Văn bản của bạn...",
+      "wordCount": "Số từ"
     }
   }
 }

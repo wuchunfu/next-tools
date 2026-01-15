@@ -1,15 +1,15 @@
 {
   "tools": {
     "text-statistics": {
-      "cardInputTitle": "Eingabe",
+      "byteSize": "Bytegröße",
       "cardInputDescription": "Fügen Sie Ihren Text ein oder geben Sie ihn ein, um sofort Statistiken zu erhalten.",
-      "cardResultsTitle": "Ergebnisse",
+      "cardInputTitle": "Eingabe",
       "cardResultsDescription": "Zusammenfassung der Textstatistiken",
-      "placeholder": "Ihr Text...",
+      "cardResultsTitle": "Ergebnisse",
       "characterCount": "Zeichenanzahl",
-      "wordCount": "Wortanzahl",
       "lineCount": "Zeilenanzahl",
-      "byteSize": "Bytegröße"
+      "placeholder": "Ihr Text...",
+      "wordCount": "Wortanzahl"
     }
   }
 }

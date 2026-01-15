@@ -1,31 +1,31 @@
 {
   "tools": {
     "ipv4-subnet-calculator": {
+      "broadcastAddress": "Địa chỉ broadcast",
+      "cannotParseAddress": "Chúng tôi không thể phân tích địa chỉ này, hãy kiểm tra định dạng",
+      "cardInputDescription": "Nhập địa chỉ IPv4 có hoặc không có ký hiệu CIDR để tính toán thông tin mạng con.",
+      "cardInputTitle": "Địa chỉ IPv4",
+      "cardResultsDescription": "Thông tin chi tiết về mạng và mạng con cho địa chỉ IPv4 đã nhập.",
+      "cardResultsTitle": "Thông tin mạng con",
+      "cidrNotation": "Ký hiệu CIDR",
+      "firstAddress": "Địa chỉ đầu tiên",
       "inputLabel": "Địa chỉ IPv4 có hoặc không có mặt nạ",
       "inputPlaceholder": "Địa chỉ IPv4...",
-      "cannotParseAddress": "Chúng tôi không thể phân tích địa chỉ này, hãy kiểm tra định dạng",
+      "invalidAddressTitle": "Địa chỉ không hợp lệ",
+      "ipClass": "Lớp IP",
+      "lastAddress": "Địa chỉ cuối cùng",
       "netmask": "Mặt nạ mạng",
       "networkAddress": "Địa chỉ mạng",
       "networkMask": "Mặt nạ mạng",
       "networkMaskInBinary": "Mặt nạ mạng ở dạng nhị phân",
-      "cidrNotation": "Ký hiệu CIDR",
-      "wildcardMask": "Mặt nạ đại diện",
       "networkSize": "Kích thước mạng",
-      "firstAddress": "Địa chỉ đầu tiên",
-      "lastAddress": "Địa chỉ cuối cùng",
-      "broadcastAddress": "Địa chỉ broadcast",
-      "noBroadcastAddress": "Không có địa chỉ broadcast với mặt nạ này",
-      "ipClass": "Lớp IP",
-      "unknownClassType": "Loại lớp không xác định",
-      "previousBlock": "Khối trước",
       "nextBlock": "Khối tiếp theo",
-      "cardInputTitle": "Địa chỉ IPv4",
-      "cardInputDescription": "Nhập địa chỉ IPv4 có hoặc không có ký hiệu CIDR để tính toán thông tin mạng con.",
-      "cardResultsTitle": "Thông tin mạng con",
-      "cardResultsDescription": "Thông tin chi tiết về mạng và mạng con cho địa chỉ IPv4 đã nhập.",
-      "invalidAddressTitle": "Địa chỉ không hợp lệ",
+      "noBroadcastAddress": "Không có địa chỉ broadcast với mặt nạ này",
+      "previousBlock": "Khối trước",
       "property": "Thuộc tính",
-      "value": "Giá trị"
+      "unknownClassType": "Loại lớp không xác định",
+      "value": "Giá trị",
+      "wildcardMask": "Mặt nạ đại diện"
     }
   }
 }

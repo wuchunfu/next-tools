@@ -1,20 +1,20 @@
 {
   "tools": {
     "xml-formatter": {
-      "invalid": "Provided XML is not valid.",
-      "invalidXmlTitle": "Invalid XML",
+      "cardInputDescription": "Paste your XML below. We will validate it and generate a formatted version.",
+      "cardInputTitle": "XML input",
+      "cardOptionsDescription": "Tune indentation and collapsing behavior to match your preferred XML style.",
+      "cardOptionsTitle": "Formatting options",
+      "cardOutputDescription": "Review and copy the formatted XML output.",
+      "cardOutputTitle": "Formatted XML",
       "collapse": "Collapse content:",
       "collapseHint": "Collapse text content into a single line when possible.",
       "indent": "Indent size:",
       "indentHint": "Number of spaces to use for indentation (0–10).",
-      "cardOptionsTitle": "Formatting options",
-      "cardOptionsDescription": "Tune indentation and collapsing behavior to match your preferred XML style.",
-      "cardInputTitle": "XML input",
-      "cardInputDescription": "Paste your XML below. We will validate it and generate a formatted version.",
-      "cardOutputTitle": "Formatted XML",
-      "cardOutputDescription": "Review and copy the formatted XML output.",
       "inputLabel": "Your XML",
       "inputPlaceholder": "Paste your XML here...",
+      "invalid": "Provided XML is not valid.",
+      "invalidXmlTitle": "Invalid XML",
       "outputLabel": "Formatted XML from your XML"
     }
   }

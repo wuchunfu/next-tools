@@ -1,21 +1,21 @@
 {
   "tools": {
     "bcrypt": {
+      "compareStringWithHash": "Zeichenkette mit Hash vergleichen",
+      "copied": "Gehashte Zeichenkette in die Zwischenablage kopiert",
+      "copyHash": "Hash kopieren",
+      "doTheyMatch": "Stimmen sie überein?",
+      "enterBothFields": "Geben Sie beide Felder ein, um zu vergleichen",
       "hash": "Hash",
+      "hashToCompare": "Ihr zu vergleichender Hash...",
+      "no": "Nein",
       "placeholder": "Ihre zu bcryptende Zeichenkette...",
-      "yourString": "Ihre Zeichenkette:",
       "saltCount": "Salt-Anzahl:",
       "saltRounds": "Salt-Runden...",
-      "copyHash": "Hash kopieren",
-      "copied": "Gehashte Zeichenkette in die Zwischenablage kopiert",
-      "compareStringWithHash": "Zeichenkette mit Hash vergleichen",
       "stringToCompare": "Ihre zu vergleichende Zeichenkette...",
-      "yourHash": "Ihr Hash:",
-      "hashToCompare": "Ihr zu vergleichender Hash...",
-      "doTheyMatch": "Stimmen sie überein?",
       "yes": "Ja",
-      "no": "Nein",
-      "enterBothFields": "Geben Sie beide Felder ein, um zu vergleichen"
+      "yourHash": "Ihr Hash:",
+      "yourString": "Ihre Zeichenkette:"
     }
   }
 }

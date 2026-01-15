@@ -1,35 +1,35 @@
 {
   "tools": {
     "bip39-generator": {
-      "entropyLength": "Длина энтропии должна быть ≥ 16, ≤ 32 и кратна 4",
-      "entropyHex": "Энтропия должна быть шестнадцатеричной строкой",
-      "invalidMnemonic": "Некорректная мнемоника",
+      "cardEntropyTitle": "Источник энтропии",
+      "cardLanguageTitle": "Язык мнемоники",
+      "cardPassphraseTitle": "Мнемоническая фраза",
       "copyEntropy": "Энтропия скопирована в буфер обмена",
       "copyPassphrase": "Парольная фраза скопирована в буфер обмена",
-      "generateNewEntropy": "Сгенерировать новую энтропию",
-      "languageLabel": "Язык",
-      "languageDescription": "Выберите язык словаря для генерации мнемоники BIP39.",
-      "entropyLabel": "Энтропия",
       "entropyDescription": "Шестнадцатеричное значение seed (16–32 символа, кратно 4).",
+      "entropyHex": "Энтропия должна быть шестнадцатеричной строкой",
+      "entropyLabel": "Энтропия",
+      "entropyLength": "Длина энтропии должна быть ≥ 16, ≤ 32 и кратна 4",
       "entropyPlaceholder": "Введите шестнадцатеричную энтропию...",
-      "passphraseLabel": "Мнемоническая фраза",
-      "passphraseDescription": "Мнемоническая фраза BIP39 (12 или 24 слова).",
-      "passphrasePlaceholder": "Введите мнемоническую фразу...",
-      "cardLanguageTitle": "Язык мнемоники",
-      "cardEntropyTitle": "Источник энтропии",
-      "cardPassphraseTitle": "Мнемоническая фраза",
+      "generateNewEntropy": "Сгенерировать новую энтропию",
+      "invalidMnemonic": "Некорректная мнемоника",
+      "languageDescription": "Выберите язык словаря для генерации мнемоники BIP39.",
+      "languageLabel": "Язык",
       "languages": {
-        "english": "Английский",
         "chinese-simplified": "Упрощенный китайский",
         "chinese-traditional": "Традиционный китайский",
         "czech": "Чешский",
+        "english": "Английский",
         "french": "Французский",
         "italian": "Итальянский",
         "japanese": "Японский",
         "korean": "Корейский",
         "portuguese": "Португальский",
         "spanish": "Испанский"
-      }
+      },
+      "passphraseDescription": "Мнемоническая фраза BIP39 (12 или 24 слова).",
+      "passphraseLabel": "Мнемоническая фраза",
+      "passphrasePlaceholder": "Введите мнемоническую фразу..."
     }
   }
 }

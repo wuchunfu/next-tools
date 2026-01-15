@@ -1,14 +1,14 @@
 {
   "tools": {
     "slugify-string": {
-      "cardTitle": "String Slugifier",
       "cardDescription": "Convert strings to URL-friendly slugs. Perfect for filenames, URLs, and identifiers.",
-      "inputPlaceholder": "Put your string here (ex: My file path)",
-      "outputPlaceholder": "Your slug will be generated here (ex: my-file-path)",
-      "cardInputTitle": "Original text",
       "cardInputDescription": "Paste text to generate a URL-friendly slug. Great for URLs, filenames, and identifiers.",
+      "cardInputTitle": "Original text",
+      "cardOutputDescription": "Copy the generated slug and use it in your URLs, filenames, or IDs.",
       "cardOutputTitle": "Generated slug",
-      "cardOutputDescription": "Copy the generated slug and use it in your URLs, filenames, or IDs."
+      "cardTitle": "String Slugifier",
+      "inputPlaceholder": "Put your string here (ex: My file path)",
+      "outputPlaceholder": "Your slug will be generated here (ex: my-file-path)"
     }
   }
 }

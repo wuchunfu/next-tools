@@ -1,20 +1,20 @@
 {
   "tools": {
     "url-encoder": {
-      "cardEncodeTitle": "Кодировать URL",
-      "cardEncodeDescription": "Кодируйте текст в URL-кодированный формат (также известный как \"процентно-кодированный\").",
-      "cardDecodeTitle": "Декодировать URL",
       "cardDecodeDescription": "Декодируйте URL-кодированные строки обратно в их исходный текст.",
-      "inputLabel": "Ваша строка",
-      "inputPlaceholder": "Введите строку для кодирования...",
-      "outputLabel": "Закодированная строка",
-      "outputPlaceholder": "Закодированная строка появится здесь...",
+      "cardDecodeTitle": "Декодировать URL",
+      "cardEncodeDescription": "Кодируйте текст в URL-кодированный формат (также известный как \"процентно-кодированный\").",
+      "cardEncodeTitle": "Кодировать URL",
+      "clear": "Очистить",
       "decodeInputLabel": "Ваша закодированная строка",
       "decodeInputPlaceholder": "Введите URL-кодированную строку для декодирования...",
       "decodeOutputLabel": "Декодированная строка",
       "decodeOutputPlaceholder": "Декодированная строка появится здесь...",
-      "clear": "Очистить",
-      "impossibleToParse": "Невозможно разобрать эту строку"
+      "impossibleToParse": "Невозможно разобрать эту строку",
+      "inputLabel": "Ваша строка",
+      "inputPlaceholder": "Введите строку для кодирования...",
+      "outputLabel": "Закодированная строка",
+      "outputPlaceholder": "Закодированная строка появится здесь..."
     }
   }
 }

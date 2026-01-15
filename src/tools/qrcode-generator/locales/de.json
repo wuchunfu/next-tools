@@ -1,26 +1,26 @@
 {
   "tools": {
     "qrcode-generator": {
-      "cardTitle": "QR-Code Generator",
-      "cardDescription": "Generieren Sie anpassbare QR-Codes für URLs oder Text mit einstellbaren Farben und Fehlerkorrekturstufen.",
-      "text": "Inhalt",
-      "yourLinkOrText": "URL oder Text zum Kodieren eingeben...",
-      "foregroundColor": "Vordergrund",
       "backgroundColor": "Hintergrund",
-      "errorResistance": "Fehlerkorrekturstufe",
-      "downloadQrCode": "PNG herunterladen",
+      "cardDescription": "Generieren Sie anpassbare QR-Codes für URLs oder Text mit einstellbaren Farben und Fehlerkorrekturstufen.",
+      "cardTitle": "QR-Code Generator",
       "characters": "Zeichen",
       "colorSettings": "Farbeinstellungen",
-      "resetColors": "Zurücksetzen",
-      "resetColorsTooltip": "Auf Standardfarben zurücksetzen",
+      "downloadQrCode": "PNG herunterladen",
+      "emptyPreview": "Text eingeben, um QR-Code zu generieren",
+      "errorResistance": "Fehlerkorrekturstufe",
+      "errorResistanceHint": "Höhere Stufen erlauben mehr Schadenstoleranz, erhöhen aber die QR-Code-Dichte.",
+      "foregroundColor": "Vordergrund",
+      "levelHigh": "Hoch (~30%)",
       "levelLow": "Niedrig (~7%)",
       "levelMedium": "Mittel (~15%)",
       "levelQuartile": "Quartil (~25%)",
-      "levelHigh": "Hoch (~30%)",
-      "selectLevel": "Stufe auswählen",
-      "errorResistanceHint": "Höhere Stufen erlauben mehr Schadenstoleranz, erhöhen aber die QR-Code-Dichte.",
       "preview": "Vorschau",
-      "emptyPreview": "Text eingeben, um QR-Code zu generieren"
+      "resetColors": "Zurücksetzen",
+      "resetColorsTooltip": "Auf Standardfarben zurücksetzen",
+      "selectLevel": "Stufe auswählen",
+      "text": "Inhalt",
+      "yourLinkOrText": "URL oder Text zum Kodieren eingeben..."
     }
   }
 }

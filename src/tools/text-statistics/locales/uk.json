@@ -1,15 +1,15 @@
 {
   "tools": {
     "text-statistics": {
-      "cardInputTitle": "Введення",
+      "byteSize": "Розмір у байтах",
       "cardInputDescription": "Вставте або введіть текст, щоб негайно отримати статистику.",
-      "cardResultsTitle": "Результати",
+      "cardInputTitle": "Введення",
       "cardResultsDescription": "Підсумок статистики тексту",
-      "placeholder": "Ваш текст...",
+      "cardResultsTitle": "Результати",
       "characterCount": "Кількість символів",
-      "wordCount": "Кількість слів",
       "lineCount": "Кількість рядків",
-      "byteSize": "Розмір у байтах"
+      "placeholder": "Ваш текст...",
+      "wordCount": "Кількість слів"
     }
   }
 }

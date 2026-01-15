@@ -1,32 +1,32 @@
 {
   "tools": {
     "case-converter": {
-      "cardTitle": "Convertidor de mayúsculas/minúsculas",
-      "cardDescription": "Transforme las mayúsculas/minúsculas de una cadena y elija entre diferentes formatos.",
-      "cardInputTitle": "Entrada de texto",
-      "cardInputDescription": "Ingrese su cadena abajo. Generaremos formatos de mayúsculas/minúsculas comunes para programación y texto.",
-      "cardOutputTitle": "Todos los formatos",
-      "cardOutputDescription": "Elija el formato que necesite y cópielo. Los valores se actualizan al instante mientras escribe.",
-      "yourString": "Su cadena",
-      "yourStringPlaceholder": "Ingrese su texto aquí...",
-      "inputLength": "Longitud",
-      "sanitizedLength": "Caracteres válidos",
-      "clear": "Limpiar",
-      "formatsTitle": "Todos los formatos",
-      "lowercase": "Minúsculas",
-      "uppercase": "Mayúsculas",
       "camelcase": "Camelcase",
       "capitalcase": "Capitalcase",
+      "cardDescription": "Transforme las mayúsculas/minúsculas de una cadena y elija entre diferentes formatos.",
+      "cardInputDescription": "Ingrese su cadena abajo. Generaremos formatos de mayúsculas/minúsculas comunes para programación y texto.",
+      "cardInputTitle": "Entrada de texto",
+      "cardOutputDescription": "Elija el formato que necesite y cópielo. Los valores se actualizan al instante mientras escribe.",
+      "cardOutputTitle": "Todos los formatos",
+      "cardTitle": "Convertidor de mayúsculas/minúsculas",
+      "clear": "Limpiar",
       "constantcase": "Constantcase",
       "dotcase": "Dotcase",
+      "formatsTitle": "Todos los formatos",
       "headercase": "Headercase",
+      "inputLength": "Longitud",
+      "lowercase": "Minúsculas",
+      "mockingcase": "Mockingcase",
       "nocase": "Nocase",
       "paramcase": "Paramcase",
       "pascalcase": "Pascalcase",
       "pathcase": "Pathcase",
+      "sanitizedLength": "Caracteres válidos",
       "sentencecase": "Sentencecase",
       "snakecase": "Snakecase",
-      "mockingcase": "Mockingcase"
+      "uppercase": "Mayúsculas",
+      "yourString": "Su cadena",
+      "yourStringPlaceholder": "Ingrese su texto aquí..."
     }
   }
 }

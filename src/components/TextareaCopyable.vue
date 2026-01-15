@@ -72,7 +72,7 @@ const codeHighlightClasses = computed(() => {
         :class="codeHighlightClasses"
         class="m-0 p-4 text-sm font-mono"
         :style="{ color: 'hsl(var(--code-text))' }"
-        data-test-id="area-content"
+        data-testid="area-content"
       ><code
           class="hljs block"
           v-html="highlightedCode"
