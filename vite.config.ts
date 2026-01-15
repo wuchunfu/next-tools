@@ -112,13 +112,8 @@ export default defineConfig({
         fg.sync('src/tools/*/index.ts').forEach((file) => {
           const content = fs.readFileSync(file, 'utf-8');
           const pathMatch = content.match(/path:\s*['"`]([^'"`]+)['"`]/);
-          if (pathMatch)
+          if (pathMatch?.[1])
             paths.push(pathMatch[1]);
-          const redirectMatch = content.match(/redirectFrom:\s*\[([^\]]+)\]/);
-          if (redirectMatch?.[1]) {
-            const redirectPaths = redirectMatch[1].match(/['"`]([^'"`]+)['"`]/g);
-            redirectPaths?.forEach(p => paths.push(p.replace(/['"`]/g, '')));
-          }
         });
         return paths;
       })(),
