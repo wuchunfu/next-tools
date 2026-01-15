@@ -1,4 +1,4 @@
-import { Braces } from '@vicons/tabler';
+import { Braces } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';

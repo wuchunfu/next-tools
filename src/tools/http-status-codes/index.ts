@@ -1,4 +1,4 @@
-import { HttpRound } from '@vicons/material'
+import { Globe } from 'lucide-vue-next'
 import { computed } from 'vue'
 import { translate } from '@/plugins/i18n.plugin'
 
@@ -32,6 +32,6 @@ export const tool = defineTool({
     return [...baseKeywords, ...codeKeywords];
   }),
   component: () => import('./http-status-codes.vue'),
-  icon: HttpRound,
+  icon: Globe,
   createdAt: new Date('2023-04-13'),
 });

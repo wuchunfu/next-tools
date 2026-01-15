@@ -1,4 +1,4 @@
-import { PasswordRound } from '@vicons/material';
+import { KeyRound } from 'lucide-vue-next';
 import { translate } from '@/plugins/i18n.plugin'
 import { defineTool } from '../tool'
 
@@ -9,5 +9,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.basic-auth-generator.description')),
   keywords: computed(() => translate('tools.basic-auth-generator.keywords')),
   component: () => import('./basic-auth-generator.vue'),
-  icon: PasswordRound,
+  icon: KeyRound,
 });

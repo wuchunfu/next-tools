@@ -1,4 +1,4 @@
-import { Markdown } from '@vicons/tabler';
+import { FileText } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.markdown-to-html.description')),
   keywords: computed(() => translate('tools.markdown-to-html.keywords')),
   component: () => import('./markdown-to-html.vue'),
-  icon: Markdown,
+  icon: FileText,
   createdAt: new Date('2024-08-25'),
 })

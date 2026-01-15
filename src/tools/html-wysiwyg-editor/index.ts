@@ -1,4 +1,4 @@
-import { Edit } from '@vicons/tabler';
+import { Edit } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';

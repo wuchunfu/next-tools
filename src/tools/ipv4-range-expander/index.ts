@@ -1,4 +1,4 @@
-import { UnfoldMoreOutlined } from '@vicons/material';
+import { Expand } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.ipv4-range-expander.description')),
   keywords: computed(() => translate('tools.ipv4-range-expander.keywords')),
   component: () => import('./ipv4-range-expander.vue'),
-  icon: UnfoldMoreOutlined,
+  icon: Expand,
   createdAt: new Date('2023-04-19'),
 })

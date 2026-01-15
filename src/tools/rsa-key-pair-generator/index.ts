@@ -1,4 +1,4 @@
-import { Certificate } from '@vicons/tabler';
+import { Shield } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.rsa-key-pair-generator.description')),
   keywords: computed(() => translate('tools.rsa-key-pair-generator.keywords')),
   component: () => import('./rsa-key-pair-generator.vue'),
-  icon: Certificate,
+  icon: Shield,
 })

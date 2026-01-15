@@ -1,4 +1,4 @@
-import { DeviceMobile } from '@vicons/tabler';
+import { Smartphone } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.otp-generator.description')),
   keywords: computed(() => translate('tools.otp-generator.keywords')),
   component: () => import('./otp-generator.vue'),
-  icon: DeviceMobile,
+  icon: Smartphone,
 })

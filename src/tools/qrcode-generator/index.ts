@@ -1,4 +1,4 @@
-import { Qrcode } from '@vicons/tabler';
+import { QrCode } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.qrcode-generator.description')),
   keywords: computed(() => translate('tools.qrcode-generator.keywords')),
   component: () => import('./qrcode-generator.vue'),
-  icon: Qrcode,
+  icon: QrCode,
 })

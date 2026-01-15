@@ -1,4 +1,4 @@
-import { BuildingFactory } from '@vicons/tabler';
+import { Factory } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.ipv6-ula-generator.description')),
   keywords: computed(() => translate('tools.ipv6-ula-generator.keywords')),
   component: () => import('./ipv6-ula-generator.vue'),
-  icon: BuildingFactory,
+  icon: Factory,
   createdAt: new Date('2023-04-09'),
 })

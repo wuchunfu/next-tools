@@ -1,4 +1,4 @@
-import { Speakerphone } from '@vicons/tabler';
+import { Volume2 } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.text-to-nato-alphabet.description')),
   keywords: computed(() => translate('tools.text-to-nato-alphabet.keywords')),
   component: () => import('./text-to-nato-alphabet.vue'),
-  icon: Speakerphone,
+  icon: Volume2,
 })

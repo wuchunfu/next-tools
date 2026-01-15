@@ -1,4 +1,4 @@
-import { ArrowsShuffle } from '@vicons/tabler';
+import { Shuffle } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.token-generator.description')),
   keywords: computed(() => translate('tools.token-generator.keywords')),
   component: () => import('./token-generator.vue'),
-  icon: ArrowsShuffle,
+  icon: Shuffle,
 })

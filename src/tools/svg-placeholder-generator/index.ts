@@ -1,4 +1,4 @@
-import { ImageOutlined } from '@vicons/material';
+import { Image } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.svg-placeholder-generator.description')),
   keywords: computed(() => translate('tools.svg-placeholder-generator.keywords')),
   component: () => import('./svg-placeholder-generator.vue'),
-  icon: ImageOutlined,
+  icon: Image,
 })

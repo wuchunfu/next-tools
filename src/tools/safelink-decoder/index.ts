@@ -1,4 +1,4 @@
-import { Mailbox } from '@vicons/tabler';
+import { Mail } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.safelink-decoder.description')),
   keywords: computed(() => translate('tools.safelink-decoder.keywords')),
   component: () => import('./safelink-decoder.vue'),
-  icon: Mailbox,
+  icon: Mail,
   createdAt: new Date('2024-03-11'),
 })

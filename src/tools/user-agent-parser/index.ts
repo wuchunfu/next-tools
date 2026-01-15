@@ -1,4 +1,4 @@
-import { Browser } from '@vicons/tabler';
+import { Globe } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.user-agent-parser.description')),
   keywords: computed(() => translate('tools.user-agent-parser.keywords')),
   component: () => import('./user-agent-parser.vue'),
-  icon: Browser,
+  icon: Globe,
   createdAt: new Date('2023-04-06'),
 })

@@ -1,4 +1,4 @@
-import { BrandJavascript } from '@vicons/tabler';
+import { Code } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.regex-memo.description')),
   keywords: computed(() => translate('tools.regex-memo.keywords')),
   component: () => import('./regex-memo.vue'),
-  icon: BrandJavascript,
+  icon: Code,
   createdAt: new Date('2024-09-20'),
 })

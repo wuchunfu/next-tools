@@ -1,4 +1,4 @@
-import { Temperature } from '@vicons/tabler';
+import { Thermometer } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.temperature-converter.description')),
   keywords: computed(() => translate('tools.temperature-converter.keywords')),
   component: () => import('./temperature-converter.vue'),
-  icon: Temperature,
+  icon: Thermometer,
 })

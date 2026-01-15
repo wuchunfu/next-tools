@@ -1,4 +1,4 @@
-import { BrandDocker } from '@vicons/tabler';
+import { Box } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.docker-run-to-docker-compose-converter.description')),
   keywords: computed(() => translate('tools.docker-run-to-docker-compose-converter.keywords')),
   component: () => import('./docker-run-to-docker-compose-converter.vue'),
-  icon: BrandDocker,
+  icon: Box,
 })

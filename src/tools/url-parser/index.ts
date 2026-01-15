@@ -1,4 +1,4 @@
-import { Unlink } from '@vicons/tabler';
+import { Unlink } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';

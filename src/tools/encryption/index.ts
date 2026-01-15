@@ -1,4 +1,4 @@
-import { Lock } from '@vicons/tabler';
+import { Lock } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';

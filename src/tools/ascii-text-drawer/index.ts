@@ -1,4 +1,4 @@
-import { Artboard } from '@vicons/tabler';
+import { Square } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin'
 import { defineTool } from '../tool'
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.ascii-text-drawer.description')),
   keywords: computed(() => translate('tools.ascii-text-drawer.keywords')),
   component: () => import('./ascii-text-drawer.vue'),
-  icon: Artboard,
+  icon: Square,
   createdAt: new Date('2024-03-03'),
 })

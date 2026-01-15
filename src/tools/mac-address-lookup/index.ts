@@ -1,4 +1,4 @@
-import { Devices } from '@vicons/tabler';
+import { Smartphone } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.mac-address-lookup.description')),
   keywords: computed(() => translate('tools.mac-address-lookup.keywords')),
   component: () => import('./mac-address-lookup.vue'),
-  icon: Devices,
+  icon: Smartphone,
   createdAt: new Date('2023-04-06'),
 })

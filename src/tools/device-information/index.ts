@@ -1,4 +1,4 @@
-import { DeviceDesktop } from '@vicons/tabler';
+import { Monitor } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.device-information.description')),
   keywords: computed(() => translate('tools.device-information.keywords')),
   component: () => import('./device-information.vue'),
-  icon: DeviceDesktop,
+  icon: Monitor,
 })

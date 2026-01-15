@@ -1,4 +1,4 @@
-import { FileInvoice } from '@vicons/tabler';
+import { FileText } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.chmod-calculator.description')),
   keywords: computed(() => translate('tools.chmod-calculator.keywords')),
   component: () => import('./chmod-calculator.vue'),
-  icon: FileInvoice,
+  icon: FileText,
 })

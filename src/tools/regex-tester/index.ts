@@ -1,4 +1,4 @@
-import { Language } from '@vicons/tabler';
+import { Code } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.regex-tester.description')),
   keywords: computed(() => translate('tools.regex-tester.keywords')),
   component: () => import('./regex-tester.vue'),
-  icon: Language,
+  icon: Code,
   createdAt: new Date('2024-09-20'),
 })

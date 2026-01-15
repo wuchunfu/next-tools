@@ -1,4 +1,4 @@
-import { CompareArrowsRound } from '@vicons/material';
+import { ArrowLeftRight } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.json-diff.description')),
   keywords: computed(() => translate('tools.json-diff.keywords')),
   component: () => import('./json-diff.vue'),
-  icon: CompareArrowsRound,
+  icon: ArrowLeftRight,
   createdAt: new Date('2023-04-20'),
 })

@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { UserAgentResultSection } from './user-agent-parser.types';
-import { Adjustments, Browser, Cpu, Devices, Engine } from '@vicons/tabler';
-import { ShieldCheck } from 'lucide-vue-next';
+import { Settings, Globe, Cpu, Smartphone, Zap, ShieldCheck } from 'lucide-vue-next'
 
 import { UAParser } from 'ua-parser-js';
 import { Button } from '@/components/ui/button';
@@ -22,7 +21,7 @@ const { copy: copyUa } = useCopy({
 })
 
 // If not input in the ua field is present return an empty object of type UAParser.IResult because otherwise
-// UAParser returns the values for the current Browser. This is confusing because results are shown for an empty
+// UAParser returns the values for the current Globe. This is confusing because results are shown for an empty
 // UA field value.
 function getUserAgentInfo(userAgent: string) {
   return userAgent.trim().length > 0
@@ -34,7 +33,7 @@ const userAgentInfo = computed(() => withDefaultOnError(() => getUserAgentInfo(u
 const sections = computed<UserAgentResultSection[]>(() => [
   {
     heading: t('tools.user-agent-parser.browser'),
-    icon: Browser,
+    icon: Globe,
     content: [
       {
         label: t('tools.user-agent-parser.name'),
@@ -50,7 +49,7 @@ const sections = computed<UserAgentResultSection[]>(() => [
   },
   {
     heading: t('tools.user-agent-parser.engine'),
-    icon: Engine,
+    icon: Zap,
     content: [
       {
         label: t('tools.user-agent-parser.name'),
@@ -66,7 +65,7 @@ const sections = computed<UserAgentResultSection[]>(() => [
   },
   {
     heading: t('tools.user-agent-parser.os'),
-    icon: Adjustments,
+    icon: Settings,
     content: [
       {
         label: t('tools.user-agent-parser.name'),
@@ -82,7 +81,7 @@ const sections = computed<UserAgentResultSection[]>(() => [
   },
   {
     heading: t('tools.user-agent-parser.device'),
-    icon: Devices,
+    icon: Smartphone,
     content: [
       {
         label: t('tools.user-agent-parser.model'),

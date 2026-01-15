@@ -1,4 +1,4 @@
-import { Math } from '@vicons/tabler';
+import { Calculator } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.math-evaluator.description')),
   keywords: computed(() => translate('tools.math-evaluator.keywords')),
   component: () => import('./math-evaluator.vue'),
-  icon: Math,
+  icon: Calculator,
 })

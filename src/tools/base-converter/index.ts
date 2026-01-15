@@ -1,4 +1,4 @@
-import { ArrowsLeftRight } from '@vicons/tabler';
+import { ArrowLeftRight } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.base-converter.description')),
   keywords: computed(() => translate('tools.base-converter.keywords')),
   component: () => import('./base-converter.vue'),
-  icon: ArrowsLeftRight,
+  icon: ArrowLeftRight,
 })

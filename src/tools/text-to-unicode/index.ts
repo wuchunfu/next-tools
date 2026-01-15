@@ -1,4 +1,4 @@
-import { TextWrap } from '@vicons/tabler';
+import { Type } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.text-to-unicode.description')),
   keywords: computed(() => translate('tools.text-to-unicode.keywords')),
   component: () => import('./text-to-unicode.vue'),
-  icon: TextWrap,
+  icon: Type,
   createdAt: new Date('2024-01-31'),
 })

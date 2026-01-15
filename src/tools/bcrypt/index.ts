@@ -1,4 +1,4 @@
-import { LockSquare } from '@vicons/tabler';
+import { Lock } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.bcrypt.description')),
   keywords: computed(() => translate('tools.bcrypt.keywords')),
   component: () => import('./bcrypt.vue'),
-  icon: LockSquare,
+  icon: Lock,
 })

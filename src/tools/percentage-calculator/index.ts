@@ -1,4 +1,4 @@
-import { Percentage } from '@vicons/tabler';
+import { Percent } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.percentage-calculator.description')),
   keywords: computed(() => translate('tools.percentage-calculator.keywords')),
   component: () => import('./percentage-calculator.vue'),
-  icon: Percentage,
+  icon: Percent,
   createdAt: new Date('2023-06-18'),
 })

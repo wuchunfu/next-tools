@@ -1,4 +1,4 @@
-import { LetterX } from '@vicons/tabler';
+import { X } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,5 +10,5 @@ export const tool = defineTool({
   description: computed(() => translate('tools.roman-numeral-converter.description')),
   keywords: computed(() => translate('tools.roman-numeral-converter.keywords')),
   component: () => import('./roman-numeral-converter.vue'),
-  icon: LetterX,
+  icon: X,
 })

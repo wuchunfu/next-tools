@@ -1,4 +1,4 @@
-import { MoodSmile } from '@vicons/tabler';
+import { Smile } from 'lucide-vue-next';
 import { computed } from 'vue';
 import { translate } from '@/plugins/i18n.plugin';
 import { defineTool } from '../tool';
@@ -10,6 +10,6 @@ export const tool = defineTool({
   description: computed(() => translate('tools.emoji-picker.description')),
   keywords: computed(() => translate('tools.emoji-picker.keywords')),
   component: () => import('./emoji-picker.vue'),
-  icon: MoodSmile,
+  icon: Smile,
   createdAt: new Date('2023-08-07'),
 })
