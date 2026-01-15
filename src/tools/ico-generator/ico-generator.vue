@@ -22,12 +22,20 @@ import {
 
 const { t } = useToolI18n();
 
+// Status enum
+enum Status {
+  Idle = 'idle',
+  Generating = 'generating',
+  Success = 'success',
+  Error = 'error',
+}
+
 const sourceFile = ref<File | null>(null);
 const sourceImageUrl = ref<string | null>(null);
 const isDragging = ref(false);
 const fileInputRef = ref<HTMLInputElement | null>(null);
-const status = ref<'idle' | 'generating' | 'success' | 'error'>('idle');
-const errorMessage = ref<string>('');
+const status = ref<Status>(Status.Idle);
+const errorKey = ref<string>('');
 const generatedIcoData = ref<Uint8Array | null>(null);
 const generatedIcoSize = ref<number>(0);
 const outputFilename = ref<string>('favicon');
@@ -44,6 +52,46 @@ const selectedSizes = useStorage<Array<{ width: number; height: number }>>(
 const customSizeInput = ref<string>('');
 
 const selectedSizesCount = computed(() => selectedSizes.value.length);
+
+// Computed error message for reactive i18n
+const errorMessage = computed(() => {
+  if (!errorKey.value) {
+    return '';
+  }
+  return t(errorKey.value, 'An error occurred');
+});
+
+// Validate custom size input in real-time
+const customSizeValidation = computed(() => {
+  const input = customSizeInput.value.trim();
+
+  if (!input) {
+    return { isValid: false, errorKey: '' };
+  }
+
+  // Parse input (support formats: "32", "32x32", "32×32")
+  const match = input.match(/^(\d+)(?:[x×](\d+))?$/i);
+  if (!match || !match[1]) {
+    return { isValid: false, errorKey: 'tools.ico-generator.errorInvalidSize' };
+  }
+
+  const width = Number.parseInt(match[1]!, 10);
+  const height = match[2] ? Number.parseInt(match[2]!, 10) : width;
+
+  // Validate size (1-512px)
+  if (width < 1 || width > 512 || height < 1 || height > 512) {
+    return { isValid: false, errorKey: 'tools.ico-generator.errorSizeRange' };
+  }
+
+  // Check if size already exists in standard or custom sizes
+  const existsInStandard = STANDARD_ICO_SIZES.some((s) => s.width === width && s.height === height);
+  const existsInCustom = customSizes.value.some((s) => s.width === width && s.height === height);
+  if (existsInStandard || existsInCustom) {
+    return { isValid: false, errorKey: 'tools.ico-generator.errorSizeExists' };
+  }
+
+  return { isValid: true, errorKey: '' };
+});
 
 // Check if a size is selected
 function isSizeSelected(width: number, height: number): boolean {
@@ -87,16 +135,16 @@ function handleFileUpload(file: File) {
   // Validate file
   const validation = validateImageFile(file);
   if (!validation.valid) {
-    status.value = 'error';
-    errorMessage.value = validation.errorKey
-      ? t(`tools.ico-generator.${validation.errorKey}`, 'Invalid file')
-      : 'Invalid file';
+    status.value = Status.Error;
+    errorKey.value = validation.errorKey
+      ? `tools.ico-generator.${validation.errorKey}`
+      : 'tools.ico-generator.errorInvalidFileType';
     return;
   }
 
   sourceFile.value = file;
-  errorMessage.value = '';
-  status.value = 'idle';
+  errorKey.value = '';
+  status.value = Status.Idle;
   generatedIcoData.value = null;
 
   // Set default filename from source file
@@ -111,34 +159,19 @@ function handleFileUpload(file: File) {
 }
 
 function addCustomSize() {
-  const input = customSizeInput.value.trim();
-  if (!input) {
+  // Only proceed if validation passes
+  if (!customSizeValidation.value.isValid) {
     return;
   }
 
-  // Parse input (support formats: "32", "32x32", "32×32")
+  const input = customSizeInput.value.trim();
   const match = input.match(/^(\d+)(?:[x×](\d+))?$/i);
   if (!match || !match[1]) {
-    errorMessage.value = t('tools.ico-generator.errorInvalidSize', 'Invalid size format');
     return;
   }
 
   const width = Number.parseInt(match[1]!, 10);
   const height = match[2] ? Number.parseInt(match[2]!, 10) : width;
-
-  // Validate size (1-512px)
-  if (width < 1 || width > 512 || height < 1 || height > 512) {
-    errorMessage.value = t('tools.ico-generator.errorSizeRange', 'Size must be between 1 and 512 pixels');
-    return;
-  }
-
-  // Check if size already exists in standard or custom sizes
-  const existsInStandard = STANDARD_ICO_SIZES.some((s) => s.width === width && s.height === height);
-  const existsInCustom = customSizes.value.some((s) => s.width === width && s.height === height);
-  if (existsInStandard || existsInCustom) {
-    errorMessage.value = t('tools.ico-generator.errorSizeExists', 'This size already exists');
-    return;
-  }
 
   // Add custom size to storage
   customSizes.value = [...customSizes.value, { width, height }];
@@ -146,9 +179,8 @@ function addCustomSize() {
   // Add to selected sizes by default
   selectedSizes.value = [...selectedSizes.value, { width, height }];
 
-  // Clear input and error
+  // Clear input
   customSizeInput.value = '';
-  errorMessage.value = '';
 }
 
 function removeCustomSize(width: number, height: number) {
@@ -172,29 +204,29 @@ function clearAllCustomSizes() {
 
 async function generateIco() {
   if (!sourceFile.value) {
-    errorMessage.value = t('tools.ico-generator.errorNoFile', 'Please upload an image first');
-    status.value = 'error';
+    errorKey.value = 'tools.ico-generator.errorNoFile';
+    status.value = Status.Error;
     return;
   }
 
   if (selectedSizesCount.value === 0) {
-    errorMessage.value = t('tools.ico-generator.errorNoSizes', 'Please select at least one icon size');
-    status.value = 'error';
+    errorKey.value = 'tools.ico-generator.errorNoSizes';
+    status.value = Status.Error;
     return;
   }
 
   try {
-    status.value = 'generating';
-    errorMessage.value = '';
+    status.value = Status.Generating;
+    errorKey.value = '';
 
     const icoData = await generateIcoFile(sourceFile.value, selectedSizes.value);
     generatedIcoData.value = icoData;
     generatedIcoSize.value = icoData.length;
-    status.value = 'success';
+    status.value = Status.Success;
   } catch (error) {
     console.error('Failed to generate ICO:', error);
-    errorMessage.value = error instanceof Error ? error.message : 'Failed to generate ICO';
-    status.value = 'error';
+    errorKey.value = 'tools.ico-generator.errorGenerateFailed';
+    status.value = Status.Error;
   }
 }
 
@@ -214,8 +246,8 @@ function reset() {
   sourceImageUrl.value = null;
   generatedIcoData.value = null;
   generatedIcoSize.value = 0;
-  status.value = 'idle';
-  errorMessage.value = '';
+  status.value = Status.Idle;
+  errorKey.value = '';
   outputFilename.value = 'favicon';
   customSizeInput.value = '';
 
@@ -227,11 +259,11 @@ function reset() {
 
 const statusLabel = computed(() => {
   switch (status.value) {
-    case 'generating':
+    case Status.Generating:
       return t('tools.ico-generator.statusGenerating', 'Generating...');
-    case 'success':
+    case Status.Success:
       return t('tools.ico-generator.statusSuccess', 'Success');
-    case 'error':
+    case Status.Error:
       return t('tools.ico-generator.statusError', 'Error');
     default:
       return t('tools.ico-generator.statusIdle', 'Ready');
@@ -307,7 +339,7 @@ onUnmounted(() => {
               {{ t('tools.ico-generator.statusLabel') }}
             </FieldLabel>
             <FieldContent data-test-id="status-value">
-              <Badge class="self-end" :variant="status === 'error' ? 'destructive' : status === 'success' ? 'default' : 'secondary'">
+              <Badge class="self-end" :variant="status === Status.Error ? 'destructive' : status === Status.Success ? 'default' : 'secondary'">
                 {{ statusLabel }}
               </Badge>
             </FieldContent>
@@ -340,7 +372,7 @@ onUnmounted(() => {
           </Field>
         </FieldGroup>
 
-        <Alert v-if="status === 'error'" variant="destructive">
+        <Alert v-if="status === Status.Error" variant="destructive">
           <AlertTitle>{{ t('tools.ico-generator.statusError') }}</AlertTitle>
           <AlertDescription>{{ errorMessage }}</AlertDescription>
         </Alert>
@@ -433,12 +465,22 @@ onUnmounted(() => {
                   data-test-id="custom-size-input"
                   @keydown.enter="addCustomSize"
                 />
-                <Button type="button" variant="outline" size="sm" data-test-id="add-custom-size-btn" @click="addCustomSize">
+                <Button
+                  type="button"
+                  variant="outline"
+                  size="sm"
+                  :disabled="!customSizeValidation.isValid"
+                  data-test-id="add-custom-size-btn"
+                  @click="addCustomSize"
+                >
                   <Plus class="h-4 w-4" />
                 </Button>
               </div>
               <p class="text-xs text-muted-foreground">
                 {{ t('tools.ico-generator.customSizeHint') }}
+              </p>
+              <p v-if="customSizeValidation.errorKey" class="text-xs text-destructive">
+                {{ t(customSizeValidation.errorKey) }}
               </p>
             </div>
           </FieldContent>
@@ -448,7 +490,9 @@ onUnmounted(() => {
 
         <!-- Output Filename -->
         <Field orientation="vertical">
-          <FieldLabel data-test-id="output-filename-label">{{ t('tools.ico-generator.filenameLabel') }}</FieldLabel>
+          <FieldLabel data-test-id="output-filename-label">
+            {{ t('tools.ico-generator.filenameLabel') }}
+          </FieldLabel>
           <FieldContent>
             <div class="flex items-center gap-2">
               <Input v-model="outputFilename" placeholder="favicon" class="flex-1" data-test-id="output-filename-input" />
@@ -461,9 +505,9 @@ onUnmounted(() => {
 
         <!-- Actions -->
         <div class="flex flex-col gap-2">
-          <Button :disabled="!sourceFile || selectedSizesCount === 0 || status === 'generating'" data-test-id="generate-btn" @click="generateIco">
+          <Button :disabled="!sourceFile || selectedSizesCount === 0 || status === Status.Generating" data-test-id="generate-btn" @click="generateIco">
             <FileImage class="mr-2 h-4 w-4" />
-            {{ status === 'generating' ? t('tools.ico-generator.generating') : t('tools.ico-generator.generate') }}
+            {{ status === Status.Generating ? t('tools.ico-generator.generating') : t('tools.ico-generator.generate') }}
           </Button>
 
           <Button v-if="generatedIcoData" variant="default" data-test-id="download-btn" @click="downloadIco">
@@ -505,7 +549,7 @@ onUnmounted(() => {
           </Field>
         </template>
 
-        <Alert v-if="status === 'success'">
+        <Alert v-if="status === Status.Success">
           <AlertTitle>{{ t('tools.ico-generator.statusSuccess') }}</AlertTitle>
           <AlertDescription>{{ t('tools.ico-generator.successMessage') }}</AlertDescription>
         </Alert>

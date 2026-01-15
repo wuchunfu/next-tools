@@ -29,6 +29,7 @@
       "errorNoSizes": "Vennligst velg minst én ikonstørrelse",
       "errorInvalidFileType": "Filen må være et bilde",
       "errorFileTooLarge": "Filstørrelsen må være mindre enn 10MB",
+      "errorGenerateFailed": "Kunne ikke generere ICO-fil",
       "customSizes": "Egendefinerte størrelser",
       "customSizePlaceholder": "Skriv inn størrelse (f.eks. 64 eller 64x64)",
       "customSizeHint": "Støttede formater: 32, 32x32, eller 32×32 (1-512px)",

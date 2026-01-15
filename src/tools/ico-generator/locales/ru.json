@@ -29,6 +29,7 @@
       "errorNoSizes": "Пожалуйста, выберите хотя бы один размер иконки",
       "errorInvalidFileType": "Файл должен быть изображением",
       "errorFileTooLarge": "Размер файла должен быть менее 10МБ",
+      "errorGenerateFailed": "Не удалось создать ICO файл",
       "customSizes": "Пользовательские размеры",
       "customSizePlaceholder": "Введите размер (например: 64 или 64x64)",
       "customSizeHint": "Поддерживаемые форматы: 32, 32x32, или 32×32 (1-512px)",

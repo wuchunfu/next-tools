@@ -29,6 +29,7 @@
       "errorNoSizes": "Будь ласка, виберіть хоча б один розмір іконки",
       "errorInvalidFileType": "Файл повинен бути зображенням",
       "errorFileTooLarge": "Розмір файлу повинен бути менше 10МБ",
+      "errorGenerateFailed": "Не вдалося створити ICO файл",
       "customSizes": "Користувацькі розміри",
       "customSizePlaceholder": "Введіть розмір (наприклад: 64 або 64x64)",
       "customSizeHint": "Підтримувані формати: 32, 32x32, або 32×32 (1-512px)",

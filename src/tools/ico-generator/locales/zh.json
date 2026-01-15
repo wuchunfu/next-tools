@@ -29,6 +29,7 @@
       "errorNoSizes": "请至少选择一个图标尺寸",
       "errorInvalidFileType": "文件必须是图片",
       "errorFileTooLarge": "文件大小不能超过 10MB",
+      "errorGenerateFailed": "生成 ICO 文件失败",
       "customSizes": "自定义尺寸",
       "customSizePlaceholder": "输入尺寸 (例如: 64 或 64x64)",
       "customSizeHint": "支持格式: 32, 32x32, 或 32×32 (1-512像素)",

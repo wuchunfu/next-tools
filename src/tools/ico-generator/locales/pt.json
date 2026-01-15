@@ -29,6 +29,7 @@
       "errorNoSizes": "Por favor, selecione pelo menos um tamanho de ícone",
       "errorInvalidFileType": "O arquivo deve ser uma imagem",
       "errorFileTooLarge": "O tamanho do arquivo deve ser menor que 10MB",
+      "errorGenerateFailed": "Falha ao gerar arquivo ICO",
       "customSizes": "Tamanhos personalizados",
       "customSizePlaceholder": "Insira o tamanho (ex: 64 ou 64x64)",
       "customSizeHint": "Formatos suportados: 32, 32x32, ou 32×32 (1-512px)",

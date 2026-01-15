@@ -29,6 +29,7 @@
       "errorNoSizes": "Bitte wählen Sie mindestens eine Symbolgröße",
       "errorInvalidFileType": "Datei muss ein Bild sein",
       "errorFileTooLarge": "Dateigröße muss weniger als 10MB sein",
+      "errorGenerateFailed": "ICO-Datei konnte nicht generiert werden",
       "customSizes": "Benutzerdefinierte Größen",
       "customSizePlaceholder": "Größe eingeben (z.B. 64 oder 64x64)",
       "customSizeHint": "Unterstützte Formate: 32, 32x32, oder 32×32 (1-512px)",

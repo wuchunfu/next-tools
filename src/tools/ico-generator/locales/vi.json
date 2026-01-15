@@ -29,6 +29,7 @@
       "errorNoSizes": "Vui lòng chọn ít nhất một kích thước biểu tượng",
       "errorInvalidFileType": "Tệp phải là hình ảnh",
       "errorFileTooLarge": "Kích thước tệp phải nhỏ hơn 10MB",
+      "errorGenerateFailed": "Không thể tạo tệp ICO",
       "customSizes": "Kích thước tùy chỉnh",
       "customSizePlaceholder": "Nhập kích thước (vd: 64 hoặc 64x64)",
       "customSizeHint": "Định dạng hỗ trợ: 32, 32x32, hoặc 32×32 (1-512px)",
