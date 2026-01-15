@@ -95,7 +95,7 @@ const { t } = useToolI18n();
         </div>
       </CardHeader>
       <CardContent>
-        <TextareaCopyable :value="obfuscatedString" language="text" copy-placement="top-right" />
+        <TextareaCopyable :value="obfuscatedString" copy-placement="top-right" />
       </CardContent>
     </Card>
   </div>

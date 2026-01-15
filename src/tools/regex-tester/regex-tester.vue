@@ -399,7 +399,6 @@ watchEffect(
             <FieldContent>
               <TextareaCopyable
                 :value="sample"
-                language="text"
                 class="font-mono break-all min-h-20"
               />
             </FieldContent>

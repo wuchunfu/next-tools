@@ -87,7 +87,6 @@ function handleClear() {
             <FieldContent>
               <TextareaCopyable
                 :value="slug"
-                language="text"
                 class="min-h-20"
                 :placeholder="t('tools.slugify-string.outputPlaceholder')"
               />
