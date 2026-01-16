@@ -8,7 +8,15 @@
 /**
  * Field type for cron expression (with optional seconds and year support)
  */
-export type CronFieldType = 'second' | 'minute' | 'hour' | 'day' | 'month' | 'week' | 'year'
+export enum CronFieldType {
+  Second = 'second',
+  Minute = 'minute',
+  Hour = 'hour',
+  Day = 'day',
+  Month = 'month',
+  Week = 'week',
+  Year = 'year',
+}
 
 /**
  * Mode for each cron field
@@ -137,16 +145,16 @@ export function generateFieldExpression(config: CronFieldConfig, fieldType: Cron
  */
 export function generateCronExpression(config: CronConfig, includeYear = false): string {
   const fields: string[] = [
-    generateFieldExpression(config.second, 'second'),
-    generateFieldExpression(config.minute, 'minute'),
-    generateFieldExpression(config.hour, 'hour'),
-    generateFieldExpression(config.day, 'day'),
-    generateFieldExpression(config.month, 'month'),
-    generateFieldExpression(config.week, 'week'),
+    generateFieldExpression(config.second, CronFieldType.Second),
+    generateFieldExpression(config.minute, CronFieldType.Minute),
+    generateFieldExpression(config.hour, CronFieldType.Hour),
+    generateFieldExpression(config.day, CronFieldType.Day),
+    generateFieldExpression(config.month, CronFieldType.Month),
+    generateFieldExpression(config.week, CronFieldType.Week),
   ]
 
   if (includeYear && config.year) {
-    fields.push(generateFieldExpression(config.year, 'year'))
+    fields.push(generateFieldExpression(config.year, CronFieldType.Year))
   }
 
   return fields.join(' ')
@@ -229,17 +237,17 @@ export function parseCronExpression(expression: string): CronConfig | null {
 
   try {
     const config: CronConfig = {
-      second: parseFieldExpression(fields[0]!, 'second'),
-      minute: parseFieldExpression(fields[1]!, 'minute'),
-      hour: parseFieldExpression(fields[2]!, 'hour'),
-      day: parseFieldExpression(fields[3]!, 'day'),
-      month: parseFieldExpression(fields[4]!, 'month'),
-      week: parseFieldExpression(fields[5]!, 'week'),
+      second: parseFieldExpression(fields[0]!, CronFieldType.Second),
+      minute: parseFieldExpression(fields[1]!, CronFieldType.Minute),
+      hour: parseFieldExpression(fields[2]!, CronFieldType.Hour),
+      day: parseFieldExpression(fields[3]!, CronFieldType.Day),
+      month: parseFieldExpression(fields[4]!, CronFieldType.Month),
+      week: parseFieldExpression(fields[5]!, CronFieldType.Week),
     }
 
     // Parse year field if present
     if (fields.length === 7) {
-      config.year = parseFieldExpression(fields[6]!, 'year')
+      config.year = parseFieldExpression(fields[6]!, CronFieldType.Year)
     }
 
     return config
@@ -327,16 +335,16 @@ export function validateCronConfig(
   config: CronConfig,
 ): { valid: boolean, errorKey?: string, field?: CronFieldType } {
   const fieldsToValidate: Array<{ type: CronFieldType, config: CronFieldConfig }> = [
-    { type: 'second', config: config.second },
-    { type: 'minute', config: config.minute },
-    { type: 'hour', config: config.hour },
-    { type: 'day', config: config.day },
-    { type: 'month', config: config.month },
-    { type: 'week', config: config.week },
+    { type: CronFieldType.Second, config: config.second },
+    { type: CronFieldType.Minute, config: config.minute },
+    { type: CronFieldType.Hour, config: config.hour },
+    { type: CronFieldType.Day, config: config.day },
+    { type: CronFieldType.Month, config: config.month },
+    { type: CronFieldType.Week, config: config.week },
   ]
 
   if (config.year) {
-    fieldsToValidate.push({ type: 'year', config: config.year })
+    fieldsToValidate.push({ type: CronFieldType.Year, config: config.year })
   }
 
   for (const { type, config: fieldConfig } of fieldsToValidate) {

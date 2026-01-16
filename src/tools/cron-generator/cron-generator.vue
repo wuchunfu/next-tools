@@ -25,8 +25,9 @@ import { Switch } from '@/components/ui/switch'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { useCopy } from '@/composable/copy'
 import { useToolI18n } from '@/composable/useToolI18n'
-import type { CronConfig, CronFieldConfig, CronFieldMode, CronFieldType } from './cron-generator.service'
+import type { CronConfig, CronFieldConfig, CronFieldMode } from './cron-generator.service'
 import {
+  CronFieldType,
   FIELD_RANGES,
   generateCronExpression,
   getDefaultCronConfig,
@@ -101,7 +102,7 @@ const cronPresetOpen = ref(false)
 
 // Generator state
 const generatorConfig = ref<CronConfig>(parseCronExpression(cron.value) || getDefaultCronConfig())
-const activeFieldTab = ref<CronFieldType>('second')
+const activeFieldTab = ref<CronFieldType>(CronFieldType.Second)
 
 // Bidirectional sync between cron expression and generator config
 syncRef<string, CronConfig>(
@@ -147,12 +148,12 @@ function getFieldValueOptions(fieldType: CronFieldType): number[] {
 
 // Get display label for specific values
 function getFieldValueLabel(fieldType: CronFieldType, value: number): string {
-  if (fieldType === 'month') {
+  if (fieldType === CronFieldType.Month) {
     const months = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
     return t(`tools.cron-generator.${months[value - 1]}`, value.toString())
   }
 
-  if (fieldType === 'week') {
+  if (fieldType === CronFieldType.Week) {
     const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
     return t(`tools.cron-generator.${days[value]}`, value.toString())
   }
@@ -417,7 +418,10 @@ const cronPresets = computed(() => [
           </TabsList>
 
           <!-- Field Tab Content Generator -->
-          <template v-for="fieldType in ['second', 'minute', 'hour', 'day', 'month', 'week'] as CronFieldType[]" :key="fieldType">
+          <template
+            v-for="fieldType in [CronFieldType.Second, CronFieldType.Minute, CronFieldType.Hour, CronFieldType.Day, CronFieldType.Month, CronFieldType.Week]"
+            :key="fieldType"
+          >
             <TabsContent :value="fieldType" class="space-y-4 mt-4">
               <RadioGroup
                 :model-value="getFieldConfig(fieldType).mode"
@@ -506,7 +510,14 @@ const cronPresets = computed(() => [
                     </Label>
                   </div>
                   <div class="sm:pl-6">
-                    <div class="grid grid-cols-6 sm:grid-cols-7 md:grid-cols-10 gap-2.5">
+                    <div
+                      :class="[
+                        'grid gap-2.5',
+                        fieldType === CronFieldType.Month || fieldType === CronFieldType.Week
+                          ? 'grid-cols-3 sm:grid-cols-4'
+                          : 'grid-cols-6 sm:grid-cols-7 md:grid-cols-10',
+                      ]"
+                    >
                       <div
                         v-for="value in getFieldValueOptions(fieldType)"
                         :key="value"

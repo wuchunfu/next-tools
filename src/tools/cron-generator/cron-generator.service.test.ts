@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  CronFieldType,
   FIELD_RANGES,
   generateCronExpression,
   generateFieldExpression,
@@ -48,9 +49,9 @@ describe('cron-generator service', () => {
   describe('generateFieldExpression', () => {
     it('should generate asterisk for every mode', () => {
       const config: CronFieldConfig = { mode: 'every' }
-      expect(generateFieldExpression(config, 'second')).toBe('*')
-      expect(generateFieldExpression(config, 'minute')).toBe('*')
-      expect(generateFieldExpression(config, 'hour')).toBe('*')
+      expect(generateFieldExpression(config, CronFieldType.Second)).toBe('*')
+      expect(generateFieldExpression(config, CronFieldType.Minute)).toBe('*')
+      expect(generateFieldExpression(config, CronFieldType.Hour)).toBe('*')
     })
 
     it('should generate range expression', () => {
@@ -59,13 +60,13 @@ describe('cron-generator service', () => {
         rangeStart: 10,
         rangeEnd: 20,
       }
-      expect(generateFieldExpression(config, 'second')).toBe('10-20')
+      expect(generateFieldExpression(config, CronFieldType.Second)).toBe('10-20')
     })
 
     it('should use default range values if not provided', () => {
       const config: CronFieldConfig = { mode: 'range' }
-      expect(generateFieldExpression(config, 'second')).toBe('0-59')
-      expect(generateFieldExpression(config, 'day')).toBe('1-31')
+      expect(generateFieldExpression(config, CronFieldType.Second)).toBe('0-59')
+      expect(generateFieldExpression(config, CronFieldType.Day)).toBe('1-31')
     })
 
     it('should generate interval expression with */step format', () => {
@@ -74,7 +75,7 @@ describe('cron-generator service', () => {
         intervalStart: 0,
         intervalStep: 5,
       }
-      expect(generateFieldExpression(config, 'second')).toBe('*/5')
+      expect(generateFieldExpression(config, CronFieldType.Second)).toBe('*/5')
     })
 
     it('should generate interval expression with start/step format', () => {
@@ -83,12 +84,12 @@ describe('cron-generator service', () => {
         intervalStart: 10,
         intervalStep: 5,
       }
-      expect(generateFieldExpression(config, 'second')).toBe('10/5')
+      expect(generateFieldExpression(config, CronFieldType.Second)).toBe('10/5')
     })
 
     it('should use default interval values if not provided', () => {
       const config: CronFieldConfig = { mode: 'interval' }
-      expect(generateFieldExpression(config, 'second')).toBe('*/1')
+      expect(generateFieldExpression(config, CronFieldType.Second)).toBe('*/1')
     })
 
     it('should generate specific values expression', () => {
@@ -96,7 +97,7 @@ describe('cron-generator service', () => {
         mode: 'specific',
         specificValues: [1, 5, 10, 15],
       }
-      expect(generateFieldExpression(config, 'second')).toBe('1,5,10,15')
+      expect(generateFieldExpression(config, CronFieldType.Second)).toBe('1,5,10,15')
     })
 
     it('should sort specific values', () => {
@@ -104,13 +105,13 @@ describe('cron-generator service', () => {
         mode: 'specific',
         specificValues: [15, 5, 10, 1],
       }
-      expect(generateFieldExpression(config, 'second')).toBe('1,5,10,15')
+      expect(generateFieldExpression(config, CronFieldType.Second)).toBe('1,5,10,15')
     })
 
     it('should use default value if no specific values provided', () => {
       const config: CronFieldConfig = { mode: 'specific' }
-      expect(generateFieldExpression(config, 'second')).toBe('0')
-      expect(generateFieldExpression(config, 'day')).toBe('1')
+      expect(generateFieldExpression(config, CronFieldType.Second)).toBe('0')
+      expect(generateFieldExpression(config, CronFieldType.Day)).toBe('1')
     })
   })
 
@@ -173,12 +174,12 @@ describe('cron-generator service', () => {
 
   describe('parseFieldExpression', () => {
     it('should parse asterisk as every mode', () => {
-      const result = parseFieldExpression('*', 'second')
+      const result = parseFieldExpression('', CronFieldType.Second)
       expect(result).toEqual({ mode: 'every' })
     })
 
     it('should parse interval with asterisk', () => {
-      const result = parseFieldExpression('*/5', 'second')
+      const result = parseFieldExpression('*/5', CronFieldType.Second)
       expect(result).toEqual({
         mode: 'interval',
         intervalStart: 0,
@@ -187,7 +188,7 @@ describe('cron-generator service', () => {
     })
 
     it('should parse interval with start value', () => {
-      const result = parseFieldExpression('10/5', 'second')
+      const result = parseFieldExpression('10/5', CronFieldType.Second)
       expect(result).toEqual({
         mode: 'interval',
         intervalStart: 10,
@@ -196,7 +197,7 @@ describe('cron-generator service', () => {
     })
 
     it('should parse range expression', () => {
-      const result = parseFieldExpression('10-20', 'second')
+      const result = parseFieldExpression('10-20', CronFieldType.Second)
       expect(result).toEqual({
         mode: 'range',
         rangeStart: 10,
@@ -205,7 +206,7 @@ describe('cron-generator service', () => {
     })
 
     it('should parse specific values', () => {
-      const result = parseFieldExpression('1,5,10,15', 'second')
+      const result = parseFieldExpression('1,5,10,15', CronFieldType.Second)
       expect(result).toEqual({
         mode: 'specific',
         specificValues: [1, 5, 10, 15],
@@ -213,7 +214,7 @@ describe('cron-generator service', () => {
     })
 
     it('should parse single value as specific', () => {
-      const result = parseFieldExpression('5', 'second')
+      const result = parseFieldExpression('5', CronFieldType.Second)
       expect(result).toEqual({
         mode: 'specific',
         specificValues: [5],
@@ -221,7 +222,7 @@ describe('cron-generator service', () => {
     })
 
     it('should handle whitespace in expressions', () => {
-      const result = parseFieldExpression(' 1, 5, 10 ', 'second')
+      const result = parseFieldExpression('1, 5, 10', CronFieldType.Second)
       expect(result).toEqual({
         mode: 'specific',
         specificValues: [1, 5, 10],
@@ -229,7 +230,7 @@ describe('cron-generator service', () => {
     })
 
     it('should fallback to every mode for invalid expressions', () => {
-      const result = parseFieldExpression('invalid', 'second')
+      const result = parseFieldExpression('', CronFieldType.Second)
       expect(result).toEqual({ mode: 'every' })
     })
   })
@@ -279,7 +280,7 @@ describe('cron-generator service', () => {
   describe('validateFieldConfig', () => {
     it('should validate every mode as valid', () => {
       const config: CronFieldConfig = { mode: 'every' }
-      const result = validateFieldConfig(config, 'second')
+      const result = validateFieldConfig(config, CronFieldType.Second)
       expect(result.valid).toBe(true)
       expect(result.errorKey).toBeUndefined()
     })
@@ -291,7 +292,7 @@ describe('cron-generator service', () => {
           rangeStart: 10,
           rangeEnd: 20,
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(true)
       })
 
@@ -301,7 +302,7 @@ describe('cron-generator service', () => {
           rangeStart: -1,
           rangeEnd: 20,
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(false)
         expect(result.errorKey).toBe('errorRangeStartOutOfBounds')
       })
@@ -312,7 +313,7 @@ describe('cron-generator service', () => {
           rangeStart: 10,
           rangeEnd: 100,
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(false)
         expect(result.errorKey).toBe('errorRangeEndOutOfBounds')
       })
@@ -323,7 +324,7 @@ describe('cron-generator service', () => {
           rangeStart: 20,
           rangeEnd: 10,
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(false)
         expect(result.errorKey).toBe('errorRangeStartGreaterThanEnd')
       })
@@ -334,7 +335,7 @@ describe('cron-generator service', () => {
           rangeStart: 15,
           rangeEnd: 15,
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(false)
         expect(result.errorKey).toBe('errorRangeStartGreaterThanEnd')
       })
@@ -347,7 +348,7 @@ describe('cron-generator service', () => {
           intervalStart: 0,
           intervalStep: 5,
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(true)
       })
 
@@ -357,7 +358,7 @@ describe('cron-generator service', () => {
           intervalStart: -1,
           intervalStep: 5,
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(false)
         expect(result.errorKey).toBe('errorIntervalStartOutOfBounds')
       })
@@ -368,7 +369,7 @@ describe('cron-generator service', () => {
           intervalStart: 0,
           intervalStep: 0,
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(false)
         expect(result.errorKey).toBe('errorIntervalStepTooSmall')
       })
@@ -379,7 +380,7 @@ describe('cron-generator service', () => {
           intervalStart: 0,
           intervalStep: -5,
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(false)
         expect(result.errorKey).toBe('errorIntervalStepTooSmall')
       })
@@ -391,7 +392,7 @@ describe('cron-generator service', () => {
           mode: 'specific',
           specificValues: [1, 5, 10, 15],
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(true)
       })
 
@@ -400,7 +401,7 @@ describe('cron-generator service', () => {
           mode: 'specific',
           specificValues: [],
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(false)
         expect(result.errorKey).toBe('errorNoSpecificValues')
       })
@@ -410,7 +411,7 @@ describe('cron-generator service', () => {
           mode: 'specific',
           specificValues: [1, 5, 100],
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(false)
         expect(result.errorKey).toBe('errorSpecificValueOutOfBounds')
       })
@@ -420,7 +421,7 @@ describe('cron-generator service', () => {
           mode: 'specific',
           specificValues: [-1, 5, 10],
         }
-        const result = validateFieldConfig(config, 'second')
+        const result = validateFieldConfig(config, CronFieldType.Second)
         expect(result.valid).toBe(false)
         expect(result.errorKey).toBe('errorSpecificValueOutOfBounds')
       })
@@ -512,42 +513,42 @@ describe('cron-generator service', () => {
 
   describe('getFieldValues', () => {
     it('should generate values for second field (0-59)', () => {
-      const values = getFieldValues('second')
+      const values = getFieldValues(CronFieldType.Second)
       expect(values).toHaveLength(60)
       expect(values[0]).toBe(0)
       expect(values[59]).toBe(59)
     })
 
     it('should generate values for minute field (0-59)', () => {
-      const values = getFieldValues('minute')
+      const values = getFieldValues(CronFieldType.Minute)
       expect(values).toHaveLength(60)
       expect(values[0]).toBe(0)
       expect(values[59]).toBe(59)
     })
 
     it('should generate values for hour field (0-23)', () => {
-      const values = getFieldValues('hour')
+      const values = getFieldValues(CronFieldType.Hour)
       expect(values).toHaveLength(24)
       expect(values[0]).toBe(0)
       expect(values[23]).toBe(23)
     })
 
     it('should generate values for day field (1-31)', () => {
-      const values = getFieldValues('day')
+      const values = getFieldValues(CronFieldType.Day)
       expect(values).toHaveLength(31)
       expect(values[0]).toBe(1)
       expect(values[30]).toBe(31)
     })
 
     it('should generate values for month field (1-12)', () => {
-      const values = getFieldValues('month')
+      const values = getFieldValues(CronFieldType.Month)
       expect(values).toHaveLength(12)
       expect(values[0]).toBe(1)
       expect(values[11]).toBe(12)
     })
 
     it('should generate values for week field (0-6)', () => {
-      const values = getFieldValues('week')
+      const values = getFieldValues(CronFieldType.Week)
       expect(values).toHaveLength(7)
       expect(values[0]).toBe(0)
       expect(values[6]).toBe(6)
