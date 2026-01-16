@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.7.1
+
+### Features
+- **cron-generator**: add cron expression generator tool (39a80a3)
+
+### Bug fixes
+- **cron-generator**: remove special characters from i18n hint text (cd04c68)
+
+### Refactoring
+- **cron-generator**: use enum for CronFieldType and improve layout for text fields (c0c69bf)
+-  migrate all @vicons icons to lucide-vue-next (d06f536)
+-  remove redundant language prop from TextareaCopyable (d44cff2)
+
 ## Version 1.7.0
 
 ### Features
