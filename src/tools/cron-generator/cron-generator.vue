@@ -303,7 +303,7 @@ const cronPresets = computed(() => [
                 </FieldContent>
               </Field>
               <div class="text-xs text-muted-foreground">
-                {{ t('tools.cron-generator.inputHint', 'Supports seconds and aliases like @daily, @hourly, @reboot.') }}
+                {{ t('tools.cron-generator.inputHint', 'Supports standard 5-part cron expressions and 6-part expressions with seconds.') }}
               </div>
               <div v-if="!cronValid" class="text-sm text-destructive" data-testid="cron-error">
                 {{ t('tools.cron-generator.invalidCron') }}

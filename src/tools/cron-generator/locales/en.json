@@ -22,7 +22,7 @@
       "generatorCardTitle": "Cron Expression Generator",
       "helpersTitle": "Common symbols",
       "humanReadableTitle": "Human readable",
-      "inputHint": "Supports seconds and aliases like @daily, @hourly, @reboot.",
+      "inputHint": "Supports standard 5-part cron expressions and 6-part expressions with seconds.",
       "inputLabel": "Cron expression",
       "inputPlaceholder": "* * * * * *",
       "invalidCron": "Invalid cron expression",
