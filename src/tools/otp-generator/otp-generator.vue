@@ -10,6 +10,7 @@ import { Input } from '@/components/ui/input'
 import { Separator } from '@/components/ui/separator'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 import { computedRefreshable } from '@/composable/computedRefreshable'
+import { useQueryParam } from '@/composable/queryParams'
 import { useToolI18n } from '@/composable/useToolI18n'
 import { useStyleStore } from '@/stores/style.store'
 import { useQRCode } from '../qrcode-generator/useQRCode'
@@ -21,7 +22,13 @@ const interval = computed(() => (now.value / 1000) % 30);
 const styleStore = useStyleStore();
 const { t } = useToolI18n();
 
-const secret = ref(generateSecret());
+// Use empty string as default, then initialize on activation
+const secret = useQueryParam({ name: 'secret', defaultValue: '' });
+
+if (!secret.value) {
+  secret.value = generateSecret();
+}
+
 const secretModel = computed({
   get: () => secret.value,
   set: (val: string) => {
