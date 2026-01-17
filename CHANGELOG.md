@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.7.2
+
+### Features
+- **otp-generator**: add share link button and update translations (d3495b1)
+- **otp-generator**: support secret key via URL query parameter (4b60975)
+
 ## Version 1.7.1
 
 ### Features
