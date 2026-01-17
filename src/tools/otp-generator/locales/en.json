@@ -19,7 +19,7 @@
       "liveCodesDescription": "Monitor the last, current, and next TOTP and copy with one click.",
       "next": "Next",
       "nextIn": "Next in {seconds}s",
-      "openKeyUri": "Open Key URI in new tab",
+      "openKeyUri": "Open in authenticator",
       "previous": "Previous",
       "qrCodeLabel": "Scan this QR code with your authenticator app",
       "regenerate": "Regenerate secret",
@@ -29,7 +29,9 @@
       "secretHexPlaceholder": "Secret in hex will be displayed here",
       "secretHint": "Use a Base32 secret (A-Z, 2-7). Regenerate or paste your own.",
       "secretPlaceholder": "Paste your TOTP secret...",
-      "secretRequired": "Please set a secret"
+      "secretRequired": "Please set a secret",
+      "shareLink": "Share link",
+      "copyShareLink": "Link copied to clipboard"
     }
   }
 }

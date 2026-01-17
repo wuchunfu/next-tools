@@ -1,6 +1,6 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import { useTimestamp } from '@vueuse/core';
-import { Info, Link, QrCode, RefreshCw, Shield } from 'lucide-vue-next';
+import { Info, Link, QrCode, RefreshCw, Share2, Shield } from 'lucide-vue-next';
 
 import InputCopyable from '@/components/InputCopyable.vue'
 import { Button } from '@/components/ui/button'
@@ -10,6 +10,7 @@ import { Input } from '@/components/ui/input'
 import { Separator } from '@/components/ui/separator'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 import { computedRefreshable } from '@/composable/computedRefreshable'
+import { useCopy } from '@/composable/copy'
 import { useQueryParam } from '@/composable/queryParams'
 import { useToolI18n } from '@/composable/useToolI18n'
 import { useStyleStore } from '@/stores/style.store'
@@ -21,6 +22,7 @@ const now = useTimestamp();
 const interval = computed(() => (now.value / 1000) % 30);
 const styleStore = useStyleStore();
 const { t } = useToolI18n();
+const { copy } = useCopy();
 
 // Use empty string as default, then initialize on activation
 const secret = useQueryParam({ name: 'secret', defaultValue: '' });
@@ -38,6 +40,11 @@ const secretModel = computed({
 
 function refreshSecret() {
   secret.value = generateSecret();
+}
+
+function copyShareLink() {
+  const url = window.location.href;
+  copy(url, { notificationMessage: computed(() => t('tools.otp-generator.copyShareLink')) });
 }
 
 const [tokens] = computedRefreshable(
@@ -99,19 +106,23 @@ const secondsLeft = computed(() => Math.max(0, Math.floor(30 - (now.value / 1000
           </div>
           <div class="relative h-2 overflow-hidden rounded-full bg-muted">
             <div
-              class="h-full rounded-full bg-primary transition-[width] duration-150"
               :style="{ width: `${percent}%` }"
+              class="h-full rounded-full bg-primary transition-[width] duration-150"
             />
           </div>
         </div>
 
         <div class="flex flex-wrap items-center gap-3">
-          <Button variant="outline" size="sm" @click="refreshSecret">
+          <Button size="sm" variant="outline" @click="refreshSecret">
             <RefreshCw class="mr-2 h-4 w-4" />
             {{ t('tools.otp-generator.regenerate', 'Regenerate secret') }}
           </Button>
-          <Button variant="outline" size="sm" as-child>
-            <a :href="keyUri" target="_blank" rel="noopener noreferrer" class="inline-flex items-center">
+          <Button size="sm" variant="outline" @click="copyShareLink">
+            <Share2 class="mr-2 h-4 w-4" />
+            {{ t('tools.otp-generator.shareLink') }}
+          </Button>
+          <Button as-child size="sm" variant="outline">
+            <a :href="keyUri" class="inline-flex items-center" rel="noopener noreferrer" target="_blank">
               <Link class="mr-2 h-4 w-4" />
               {{ t('tools.otp-generator.openKeyUri') }}
             </a>
@@ -146,7 +157,7 @@ const secondsLeft = computed(() => Math.max(0, Math.floor(30 - (now.value / 1000
                 />
                 <Tooltip>
                   <TooltipTrigger as-child>
-                    <Button variant="outline" size="icon" class="shrink-0" @click="refreshSecret">
+                    <Button class="shrink-0" size="icon" variant="outline" @click="refreshSecret">
                       <RefreshCw class="h-4 w-4" />
                     </Button>
                   </TooltipTrigger>
@@ -184,36 +195,36 @@ const secondsLeft = computed(() => Math.max(0, Math.floor(30 - (now.value / 1000
         <CardContent class="space-y-3">
           <InputCopyable
             :label="t('tools.otp-generator.secretHex')"
+            :placeholder="t('tools.otp-generator.secretHexPlaceholder')"
             :value="base32toHex(secret)"
             readonly
-            :placeholder="t('tools.otp-generator.secretHexPlaceholder')"
           />
 
           <InputCopyable
             :label="t('tools.otp-generator.epoch')"
+            :placeholder="t('tools.otp-generator.epochPlaceholder')"
             :value="Math.floor(now / 1000).toString()"
             readonly
-            :placeholder="t('tools.otp-generator.epochPlaceholder')"
           />
 
           <InputCopyable
-            :value="String(getCounterFromTime({ now, timeStep: 30 }))"
-            readonly
             :label="t('tools.otp-generator.count')"
+            :placeholder="t('tools.otp-generator.countPlaceholder')"
+            :value="String(getCounterFromTime({ now, timeStep: 30 }))"
+            label-align="right"
             label-position="left"
             label-width="120px"
-            label-align="right"
-            :placeholder="t('tools.otp-generator.countPlaceholder')"
+            readonly
           />
 
           <InputCopyable
-            :value="getCounterFromTime({ now, timeStep: 30 }).toString(16).padStart(16, '0')"
-            readonly
+            :label="t('tools.otp-generator.countHexLabel')"
             :placeholder="t('tools.otp-generator.countHexPlaceholder')"
+            :value="getCounterFromTime({ now, timeStep: 30 }).toString(16).padStart(16, '0')"
+            label-align="right"
             label-position="left"
             label-width="120px"
-            label-align="right"
-            :label="t('tools.otp-generator.countHexLabel')"
+            readonly
           />
         </CardContent>
       </Card>

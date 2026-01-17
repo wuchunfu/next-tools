@@ -22,7 +22,7 @@ export function useCopy({
   return {
     ...rest,
     isJustCopied: copied,
-    async copy(content?: string, { notificationMessage }: { notificationMessage?: string } = {}) {
+    async copy(content?: string, { notificationMessage }: { notificationMessage?: MaybeRefOrGetter<string> } = {}) {
       if (source) {
         await copy()
       }
@@ -30,7 +30,7 @@ export function useCopy({
         await copy(content)
       }
 
-      if (createToast) { toast.success(computed(() => notificationMessage ?? toValue(text) ?? t('common.copied', 'Copied!'))) }
+      if (createToast) { toast.success(computed(() => toValue(notificationMessage) ?? toValue(text) ?? t('common.copied', 'Copied!'))) }
     },
   }
 }

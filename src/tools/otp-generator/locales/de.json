@@ -19,7 +19,7 @@
       "liveCodesDescription": "Beobachte vorherigen, aktuellen und nächsten TOTP und kopiere mit einem Klick.",
       "next": "Nächste",
       "nextIn": "Nächstes in {seconds}s",
-      "openKeyUri": "Key URI in neuem Tab öffnen",
+      "openKeyUri": "In Authentifizierungsanwendung öffnen",
       "previous": "Vorherige",
       "qrCodeLabel": "Scanne diesen QR-Code mit deiner Authenticator-App",
       "regenerate": "Secret neu generieren",
@@ -29,7 +29,9 @@
       "secretHexPlaceholder": "Geheimnis in Hex wird hier angezeigt",
       "secretHint": "Verwende ein Base32-Secret (A-Z, 2-7). Generiere neu oder füge dein eigenes ein.",
       "secretPlaceholder": "Fügen Sie Ihr TOTP-Geheimnis ein...",
-      "secretRequired": "Bitte setzen Sie ein Geheimnis"
+      "secretRequired": "Bitte setzen Sie ein Geheimnis",
+      "shareLink": "Link teilen",
+      "copyShareLink": "Link in Zwischenablage kopiert"
     }
   }
 }

@@ -19,7 +19,7 @@
       "liveCodesDescription": "Følg forrige, gjeldende og neste TOTP og kopier med ett klikk.",
       "next": "Neste",
       "nextIn": "Neste om {seconds}s",
-      "openKeyUri": "Åpne Key URI i ny fane",
+      "openKeyUri": "Åpne i autentiseringsapp",
       "previous": "Forrige",
       "qrCodeLabel": "Skann denne QR-koden med autentiseringsappen din",
       "regenerate": "Regenerer hemmelighet",
@@ -29,7 +29,9 @@
       "secretHexPlaceholder": "Hemmeligheten i hex vil vises her",
       "secretHint": "Bruk en Base32-hemmelighet (A-Z, 2-7). Regenerer eller lim inn din egen.",
       "secretPlaceholder": "Lim inn din TOTP-hemmelighet...",
-      "secretRequired": "Vennligst sett en hemmelighet"
+      "secretRequired": "Vennligst sett en hemmelighet",
+      "shareLink": "Dele lenke",
+      "copyShareLink": "Lenke kopiert til utklippstavle"
     }
   }
 }
