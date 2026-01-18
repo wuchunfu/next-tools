@@ -8,9 +8,10 @@ import Analytics from '@/components/analytics/Analytics.vue';
 import Consent from '@/components/consent/Consent.vue';
 import PwaUpdatePrompt from '@/components/PwaUpdatePrompt.vue';
 import { layouts } from './layouts';
+import { config } from './config';
 
 const route = useRoute();
-const layout = computed(() => route?.meta?.layout ?? layouts.base); 
+const layout = computed(() => route?.meta?.layout ?? layouts.base);
 
 const { locale } = useI18n();
 const { language } = useNavigatorLanguage();
@@ -24,6 +25,12 @@ const origin = computed(() => {
 });
 
 useHead(() => ({
+  link: [
+    {
+      rel: 'canonical',
+      href: `${config.app.hostname}${route.path}`,
+    },
+  ],
   meta: [
     {
       property: 'og:type',

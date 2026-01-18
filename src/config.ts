@@ -16,6 +16,12 @@ export const config = defineConfig(
         default: '/',
         env: 'BASE_URL',
       },
+      hostname: {
+        doc: 'Application hostname',
+        schema: z.string(),
+        default: 'https://next-tools.dev',
+        env: 'HOSTNAME',
+      },
     },
     vercelAnalytics: {
       enabled: {

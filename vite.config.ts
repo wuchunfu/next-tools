@@ -127,6 +127,8 @@ export default defineConfig({
   },
   define: {
     'import.meta.env.PACKAGE_VERSION': JSON.stringify(process.env.npm_package_version),
+    'import.meta.env.HOSTNAME': JSON.stringify(hostname),
+    'import.meta.env.BASE_URL': JSON.stringify(baseUrl),
   },
   test: {
     exclude: [...configDefaults.exclude, '**/*.e2e.spec.ts'],
