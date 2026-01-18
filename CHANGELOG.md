@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.7.3
+
+### Features
+- **seo**: add dynamic canonical URL support (6dcf14a)
+
 ## Version 1.7.2
 
 ### Features
