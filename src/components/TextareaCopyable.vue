@@ -66,7 +66,7 @@ const codeHighlightClasses = computed(() => {
 </script>
 
 <template>
-  <div class="relative">
+  <div class="relative" v-bind="$attrs">
     <Card class="relative bg-muted/30 p-0 overflow-auto" :class="props.class">
       <pre
         :class="codeHighlightClasses"

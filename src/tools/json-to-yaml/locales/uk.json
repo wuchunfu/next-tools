@@ -1,6 +1,6 @@
 {
   "tools": {
-    "json-to-yaml-converter": {
+    "json-to-yaml": {
       "cardDescription": "Перетворіть формат JSON на формат YAML. Вставте ваш JSON і отримайте вивід YAML.",
       "cardInputDescription": "Вставте нижче JSON, який потрібно конвертувати. Ми перевіримо його та згенеруємо YAML-вивід.",
       "cardInputTitle": "Ввід JSON",

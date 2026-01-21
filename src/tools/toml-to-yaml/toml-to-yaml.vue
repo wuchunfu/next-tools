@@ -78,6 +78,7 @@ function clearInput() {
                 autocorrect="off"
                 autocapitalize="off"
                 spellcheck="false"
+                data-testid="toml-input"
               />
               <div class="flex flex-wrap gap-2">
                 <Button size="sm" variant="ghost" @click="clearInput">
@@ -89,6 +90,7 @@ function clearInput() {
                 v-if="tomlInputValidation.status === 'error'"
                 variant="destructive"
                 class="border-destructive/40 bg-destructive/10"
+                data-testid="error-message"
               >
                 <AlertTitle class="text-sm">
                   {{ t('tools.toml-to-yaml.invalidTomlTitle', 'Invalid TOML') || t('tools.toml-to-yaml.invalidToml', 'Invalid TOML') }}
@@ -124,7 +126,7 @@ function clearInput() {
         <FieldGroup>
           <Field>
             <FieldContent>
-              <TextareaCopyable :value="yamlOutput" language="yaml" class="min-h-20" />
+              <TextareaCopyable :value="yamlOutput" language="yaml" class="min-h-20" data-testid="yaml-output" />
             </FieldContent>
           </Field>
         </FieldGroup>

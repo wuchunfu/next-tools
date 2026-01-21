@@ -74,6 +74,7 @@ function clearInput() {
                 autocorrect="off"
                 autocapitalize="off"
                 spellcheck="false"
+                data-testid="yaml-input"
               />
               <div class="flex flex-wrap gap-2">
                 <Button size="sm" variant="ghost" @click="clearInput">
@@ -85,6 +86,7 @@ function clearInput() {
                 v-if="yamlInputValidation.status === 'error'"
                 variant="destructive"
                 class="border-destructive/40 bg-destructive/10"
+                data-testid="error-message"
               >
                 <AlertTitle class="text-sm">
                   {{ t('tools.yaml-to-toml.invalidYamlTitle', 'Invalid YAML') || t('tools.yaml-to-toml.invalidYaml', 'Invalid YAML') }}
@@ -120,7 +122,7 @@ function clearInput() {
         <FieldGroup>
           <Field>
             <FieldContent>
-              <TextareaCopyable :value="tomlOutput" language="toml" class="min-h-20" />
+              <TextareaCopyable :value="tomlOutput" language="toml" class="min-h-20" data-testid="toml-output" />
             </FieldContent>
           </Field>
         </FieldGroup>

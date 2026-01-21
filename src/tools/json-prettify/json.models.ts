@@ -31,6 +31,6 @@ export function formatJson({
   indentSize?: MaybeRef<number>
 }) {
   const parsedObject = JSONBigInt.parse(toValue(rawJson));
-  
+
   return JSONBigInt.stringify(toValue(sortKeys) ? sortObjectKeys(parsedObject) : parsedObject, null, toValue(indentSize))
 }

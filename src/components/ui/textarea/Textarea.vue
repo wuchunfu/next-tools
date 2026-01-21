@@ -25,6 +25,7 @@ const modelValue = useVModel(props, 'modelValue', emits, {
 
 <template>
   <textarea
+    v-bind="$attrs"
     v-model="modelValue"
     data-slot="textarea"
     :readonly="readonly"

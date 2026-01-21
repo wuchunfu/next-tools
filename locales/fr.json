@@ -384,7 +384,7 @@
       "keywords": "json,xml",
       "title": "JSON to XML"
     },
-    "json-to-yaml-converter": {
+    "json-to-yaml": {
       "description": "Simply convert JSON to YAML with this online live converter.",
       "keywords": "yaml,vers,json",
       "title": "JSON to YAML"
@@ -614,7 +614,7 @@
       "keywords": "yaml,viseur,embellir,format",
       "title": "YAML prettify and format"
     },
-    "yaml-to-json-converter": {
+    "yaml-to-json": {
       "description": "Simply convert YAML to JSON with this online live converter.",
       "keywords": "yaml,vers,json",
       "title": "YAML to JSON"

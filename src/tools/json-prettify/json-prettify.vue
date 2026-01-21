@@ -77,7 +77,7 @@ function clearInput() {
                 }}
               </p>
             </div>
-            <Switch id="json-sort-keys" v-model="sortKeys" />
+            <Switch id="json-sort-keys" v-model="sortKeys" data-testid="json-sort-keys" />
           </div>
 
           <div class="flex items-center justify-between rounded-lg border p-3">
@@ -101,6 +101,7 @@ function clearInput() {
               min="0"
               max="10"
               class="w-24"
+              data-testid="json-indent"
             />
           </div>
         </div>
@@ -140,9 +141,10 @@ function clearInput() {
                 autocorrect="off"
                 autocapitalize="off"
                 spellcheck="false"
+                data-testid="json-input"
               />
               <div class="flex flex-wrap gap-2">
-                <Button variant="ghost" size="sm" :disabled="rawJson.length === 0" @click="clearInput">
+                <Button variant="ghost" size="sm" :disabled="rawJson.length === 0" data-testid="clear-input-btn" @click="clearInput">
                   <Trash2 class="mr-2 h-4 w-4" />
                   {{ t('common.clear', 'Clear') }}
                 </Button>
@@ -151,6 +153,7 @@ function clearInput() {
                 v-if="rawJsonValidation.status === 'error'"
                 variant="destructive"
                 class="border-destructive/40 bg-destructive/10"
+                data-testid="error-message"
               >
                 <AlertTitle class="text-sm">
                   {{ t('tools.json-prettify.invalidJsonTitle', 'Invalid JSON') || t('tools.json-prettify.invalidJson', 'Invalid JSON') }}
@@ -187,7 +190,7 @@ function clearInput() {
         <FieldGroup>
           <Field>
             <FieldContent>
-              <TextareaCopyable :value="cleanJson" language="json" class="min-h-20" />
+              <TextareaCopyable :value="cleanJson" language="json" class="min-h-20" data-testid="json-output" />
             </FieldContent>
           </Field>
         </FieldGroup>

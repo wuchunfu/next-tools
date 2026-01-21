@@ -1,6 +1,6 @@
 {
   "tools": {
-    "json-to-yaml-converter": {
+    "json-to-yaml": {
       "cardDescription": "将 JSON 格式转换为 YAML 格式。粘贴您的 JSON 即可获得 YAML 输出。",
       "cardInputDescription": "在下方粘贴你要转换的 JSON，我们会先校验格式，然后生成对应的 YAML。",
       "cardInputTitle": "JSON 输入",

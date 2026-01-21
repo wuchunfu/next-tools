@@ -1,6 +1,6 @@
 {
   "tools": {
-    "json-to-yaml-converter": {
+    "json-to-yaml": {
       "cardDescription": "Chuyển đổi định dạng JSON sang định dạng YAML. Dán JSON của bạn và nhận đầu ra YAML.",
       "cardInputDescription": "Dán JSON bạn muốn chuyển đổi vào bên dưới. Chúng tôi sẽ xác thực và tạo đầu ra YAML tương ứng.",
       "cardInputTitle": "JSON đầu vào",

@@ -78,6 +78,7 @@ function clearInput() {
                 autocorrect="off"
                 autocapitalize="off"
                 spellcheck="false"
+                data-testid="json-input"
               />
               <div class="flex flex-wrap gap-2">
                 <Button size="sm" variant="ghost" @click="clearInput">
@@ -89,6 +90,7 @@ function clearInput() {
                 v-if="jsonInputValidation.status === 'error'"
                 variant="destructive"
                 class="border-destructive/40 bg-destructive/10"
+                data-testid="error-message"
               >
                 <AlertTitle class="text-sm">
                   {{ t('tools.json-to-toml.invalidJsonTitle', 'Invalid JSON') || t('tools.json-to-toml.invalidJson', 'Invalid JSON') }}
@@ -124,7 +126,7 @@ function clearInput() {
         <FieldGroup>
           <Field>
             <FieldContent>
-              <TextareaCopyable :value="tomlOutput" language="toml" class="min-h-20" />
+              <TextareaCopyable :value="tomlOutput" language="toml" class="min-h-20" data-testid="toml-output" />
             </FieldContent>
           </Field>
         </FieldGroup>

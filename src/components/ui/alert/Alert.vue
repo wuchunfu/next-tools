@@ -12,6 +12,7 @@ const props = defineProps<{
 
 <template>
   <div
+    v-bind="$attrs"
     data-slot="alert"
     :class="cn(alertVariants({ variant }), props.class)"
     role="alert"

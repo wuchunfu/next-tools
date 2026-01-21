@@ -1,6 +1,6 @@
 {
   "tools": {
-    "json-to-yaml-converter": {
+    "json-to-yaml": {
       "cardDescription": "Konverter JSON-format til YAML-format. Lim inn din JSON og få YAML-utgangen.",
       "cardInputDescription": "Lim inn JSON-en du vil konvertere nedenfor. Vi validerer den og genererer YAML-utdata.",
       "cardInputTitle": "JSON-inndata",

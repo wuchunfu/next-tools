@@ -1,6 +1,6 @@
 {
   "tools": {
-    "json-to-yaml-converter": {
+    "json-to-yaml": {
       "cardDescription": "Convert JSON format to YAML format. Paste your JSON and get the YAML output.",
       "cardInputDescription": "Paste the JSON you want to convert. We will validate it and then generate the YAML output.",
       "cardInputTitle": "JSON input",

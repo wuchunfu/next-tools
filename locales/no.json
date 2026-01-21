@@ -384,7 +384,7 @@
       "keywords": "json,xml",
       "title": "JSON til XML"
     },
-    "json-to-yaml-converter": {
+    "json-to-yaml": {
       "description": "Enkelt konverter JSON til YAML med dette verktøyet.",
       "keywords": "yaml,til,json",
       "title": "JSON til YAML"
@@ -614,7 +614,7 @@
       "keywords": "yaml,viser,forskjønn,format",
       "title": "YAML forskjønning og formatering"
     },
-    "yaml-to-json-converter": {
+    "yaml-to-json": {
       "description": "Konverterl YAML til JSON.",
       "keywords": "yaml,til,json",
       "title": "YAML til JSON"

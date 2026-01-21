@@ -75,7 +75,7 @@ function clearInput() {
                 }}
               </p>
             </div>
-            <Switch id="yaml-sort-keys" v-model="sortKeys" />
+            <Switch id="yaml-sort-keys" v-model="sortKeys" data-testid="yaml-sort-keys" />
           </div>
 
           <div class="flex items-center justify-between rounded-lg border p-3">
@@ -99,6 +99,7 @@ function clearInput() {
               min="1"
               max="10"
               class="w-24"
+              data-testid="yaml-indent"
             />
           </div>
         </div>
@@ -138,6 +139,7 @@ function clearInput() {
                 autocorrect="off"
                 autocapitalize="off"
                 spellcheck="false"
+                data-testid="yaml-input"
               />
               <div class="flex flex-wrap gap-2">
                 <Button variant="ghost" size="sm" :disabled="rawYaml.length === 0" @click="clearInput">
@@ -149,6 +151,7 @@ function clearInput() {
                 v-if="rawYamlValidation.status === 'error'"
                 variant="destructive"
                 class="border-destructive/40 bg-destructive/10"
+                data-testid="error-message"
               >
                 <AlertTitle class="text-sm">
                   {{ t('tools.yaml-prettify.invalidYamlTitle', 'Invalid YAML') || t('tools.yaml-prettify.invalid', 'Invalid YAML') }}
@@ -185,7 +188,7 @@ function clearInput() {
         <FieldGroup>
           <Field>
             <FieldContent>
-              <TextareaCopyable :value="cleanYaml" language="yaml" class="min-h-20" />
+              <TextareaCopyable :value="cleanYaml" language="yaml" class="min-h-20" data-testid="yaml-output" />
             </FieldContent>
           </Field>
         </FieldGroup>

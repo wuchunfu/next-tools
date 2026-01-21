@@ -10,6 +10,7 @@ const props = defineProps<{
 
 <template>
   <Label
+    v-bind="$attrs"
     data-slot="field-label"
     :class="cn(
       'group/field-label peer/field-label flex w-fit gap-2 leading-snug group-data-[disabled=true]/field:opacity-50',

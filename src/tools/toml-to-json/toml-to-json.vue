@@ -83,6 +83,7 @@ function clearInput() {
                 autocorrect="off"
                 autocapitalize="off"
                 spellcheck="false"
+                data-testid="toml-input"
               />
               <div class="flex flex-wrap gap-2">
                 <Button size="sm" variant="ghost" @click="clearInput">
@@ -94,6 +95,7 @@ function clearInput() {
                 v-if="tomlInputValidation.status === 'error'"
                 variant="destructive"
                 class="border-destructive/40 bg-destructive/10"
+                data-testid="error-message"
               >
                 <AlertTitle class="text-sm">
                   {{ t('tools.toml-to-json.invalidTomlTitle', 'Invalid TOML') || t('tools.toml-to-json.invalidToml', 'Invalid TOML') }}
@@ -135,7 +137,7 @@ function clearInput() {
                 </span>
                 <Switch v-model="formatJson" />
               </div>
-              <TextareaCopyable :value="jsonOutput" language="json" class="min-h-20" />
+              <TextareaCopyable :value="jsonOutput" language="json" class="min-h-20" data-testid="json-output" />
             </FieldContent>
           </Field>
         </FieldGroup>

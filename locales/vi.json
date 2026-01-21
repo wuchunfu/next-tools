@@ -384,7 +384,7 @@
       "keywords": "json,xml",
       "title": "JSON sang XML"
     },
-    "json-to-yaml-converter": {
+    "json-to-yaml": {
       "description": "Chuyển đổi đơn giản JSON sang YAML với công cụ chuyển đổi trực tuyến này.",
       "keywords": "yaml,sang,json",
       "title": "JSON sang YAML"
@@ -614,7 +614,7 @@
       "keywords": "yaml,trình xem,làm đẹp,định dạng",
       "title": "Định dạng và làm đẹp YAML"
     },
-    "yaml-to-json-converter": {
+    "yaml-to-json": {
       "description": "Chuyển đổi YAML sang JSON một cách đơn giản với công cụ chuyển đổi trực tuyến này.",
       "keywords": "yaml,sang,json",
       "title": "YAML sang JSON"

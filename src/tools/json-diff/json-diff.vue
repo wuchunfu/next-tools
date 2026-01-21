@@ -99,9 +99,9 @@ function clearRight() {
                   rows="20"
                   class="max-h-96 resize-y overflow-y-auto font-mono text-sm"
                   :class="{ 'border-destructive': !leftValidation.isValid }"
-                  data-testid="leftJson"
+                  data-testid="json-input-left"
                 />
-                <FieldError v-if="!leftValidation.isValid" class="text-xs">
+                <FieldError v-if="!leftValidation.isValid" class="text-xs" data-testid="error-message-left">
                   {{ leftValidation.message }}
                 </FieldError>
               </FieldContent>
@@ -129,9 +129,9 @@ function clearRight() {
                   rows="20"
                   class="max-h-96 resize-y overflow-y-auto font-mono text-sm"
                   :class="{ 'border-destructive': !rightValidation.isValid }"
-                  data-testid="rightJson"
+                  data-testid="json-input-right"
                 />
-                <FieldError v-if="!rightValidation.isValid" class="text-xs">
+                <FieldError v-if="!rightValidation.isValid" class="text-xs" data-testid="error-message-right">
                   {{ rightValidation.message }}
                 </FieldError>
               </FieldContent>

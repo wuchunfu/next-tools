@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import JSONBig from 'json-bigint';
 import { FileCode, X } from 'lucide-vue-next';
-import { stringify } from 'yaml';
+import { parse as parseYaml } from 'yaml';
+import JSONBig from 'json-bigint';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
@@ -21,33 +21,31 @@ const inputElement = ref<HTMLElement>()
 
 const { t } = useToolI18n()
 
-const jsonInput = ref('')
-const formatYaml = ref(true)
+const yamlInput = ref('')
+const formatJson = ref(true)
 
-const yamlOutput = computed(() => {
-  if (!jsonInput.value.trim()) { return '' }
+const jsonOutput = computed(() => {
+  if (!yamlInput.value.trim()) { return '' }
   return withDefaultOnError(() => {
-    const obj = JSONBigInt.parse(jsonInput.value);
-    
-    if (formatYaml.value) {
-      return stringify(obj, { indent: 2 })
-    }
-    return stringify(obj, { indent: 0 })
+    const obj = parseYaml(yamlInput.value, { merge: true, intAsBigInt: true })
+    if (!obj) { return '' }
+    // Use json-bigint with native BigInt to preserve precision for large numbers
+    return formatJson.value ? JSONBigInt.stringify(obj, null, 2) : JSONBigInt.stringify(obj)
   }, '')
 });
 
-const jsonInputValidation = useValidation({
-  source: jsonInput,
+const yamlInputValidation = useValidation({
+  source: yamlInput,
   rules: computed(() => [
     {
-      validator: (value: string) => !value.trim() || isNotThrowing(() => JSONBigInt.parse(value)),
-      message: t('tools.json-to-yaml-converter.invalidJson', 'Invalid JSON'),
+      validator: (value: string) => !value.trim() || isNotThrowing(() => parseYaml(value)),
+      message: t('tools.yaml-to-json.invalid', 'Invalid YAML'),
     },
   ]),
 })
 
 function clearInput() {
-  jsonInput.value = ''
+  yamlInput.value = ''
 }
 </script>
 
@@ -58,13 +56,13 @@ function clearInput() {
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileCode class="h-5 w-5 text-primary" />
-            {{ t('tools.json-to-yaml-converter.cardInputTitle', 'JSON input') }}
+            {{ t('tools.yaml-to-json.cardInputTitle', 'YAML input') }}
           </CardTitle>
           <CardDescription>
             {{
               t(
-                'tools.json-to-yaml-converter.cardInputDescription',
-                'Paste your JSON content below, we will validate it and convert it to YAML.',
+                'tools.yaml-to-json.cardInputDescription',
+                'Paste your YAML content below, we will validate it and convert it to JSON.',
               )
             }}
           </CardDescription>
@@ -75,16 +73,17 @@ function clearInput() {
           <Field>
             <FieldContent class="space-y-2">
               <Textarea
-                id="json-input"
+                id="yaml-input"
                 ref="inputElement"
-                v-model="jsonInput"
-                :placeholder="t('tools.json-to-yaml-converter.inputPlaceholder', 'Paste your JSON here...')"
+                v-model="yamlInput"
+                :placeholder="t('tools.yaml-to-json.inputPlaceholder', 'Paste your YAML here...')"
                 rows="16"
                 class="max-h-96 resize-y overflow-y-auto font-mono"
                 autocomplete="off"
                 autocorrect="off"
                 autocapitalize="off"
                 spellcheck="false"
+                data-testid="yaml-input"
               />
               <div class="flex flex-wrap gap-2">
                 <Button size="sm" variant="ghost" @click="clearInput">
@@ -93,15 +92,16 @@ function clearInput() {
                 </Button>
               </div>
               <Alert
-                v-if="jsonInputValidation.status === 'error'"
+                v-if="yamlInputValidation.status === 'error'"
                 variant="destructive"
                 class="border-destructive/40 bg-destructive/10"
+                data-testid="error-message"
               >
                 <AlertTitle class="text-sm">
-                  {{ t('tools.json-to-yaml-converter.invalidJsonTitle', 'Invalid JSON') || t('tools.json-to-yaml-converter.invalidJson', 'Invalid JSON') }}
+                  {{ t('tools.yaml-to-json.invalidJsonTitle', 'Invalid JSON') || t('tools.yaml-to-json.invalid', 'Invalid JSON') }}
                 </AlertTitle>
                 <AlertDescription class="text-xs">
-                  {{ jsonInputValidation.message }}
+                  {{ yamlInputValidation.message }}
                 </AlertDescription>
               </Alert>
             </FieldContent>
@@ -110,18 +110,18 @@ function clearInput() {
       </CardContent>
     </Card>
 
-    <Card v-if="jsonInputValidation.status !== 'error'" class="gap-2">
+    <Card v-if="yamlInputValidation.status !== 'error'" class="gap-2">
       <CardHeader class="pb-4">
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileCode class="h-5 w-5 text-primary" />
-            {{ t('tools.json-to-yaml-converter.cardOutputTitle', 'YAML output') }}
+            {{ t('tools.yaml-to-json.cardOutputTitle', 'JSON output') }}
           </CardTitle>
           <CardDescription>
             {{
               t(
-                'tools.json-to-yaml-converter.cardOutputDescription',
-                'Review and copy the converted YAML representation of your JSON.',
+                'tools.yaml-to-json.cardOutputDescription',
+                'Review and copy the converted JSON representation of your YAML.',
               )
             }}
           </CardDescription>
@@ -133,11 +133,11 @@ function clearInput() {
             <FieldContent class="space-y-2">
               <div class="flex items-center gap-2">
                 <span class="text-sm font-medium">
-                  {{ t('tools.json-to-yaml-converter.formatYaml', 'Format YAML') }}
+                  {{ t('tools.yaml-to-json.formatJson', 'Format JSON') }}
                 </span>
-                <Switch v-model="formatYaml" />
+                <Switch v-model="formatJson" />
               </div>
-              <TextareaCopyable :value="yamlOutput" language="yaml" class="min-h-20" />
+              <TextareaCopyable :value="jsonOutput" language="json" class="min-h-20" data-testid="json-output" />
             </FieldContent>
           </Field>
         </FieldGroup>

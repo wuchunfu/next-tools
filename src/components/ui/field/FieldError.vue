@@ -33,6 +33,7 @@ const content = computed(() => {
 <template>
   <div
     v-if="$slots.default || content"
+    v-bind="$attrs"
     role="alert"
     data-slot="field-error"
     :class="cn('text-destructive text-sm font-normal', props.class)"

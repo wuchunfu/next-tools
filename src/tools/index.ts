@@ -39,7 +39,7 @@ import { tool as jsonMinify } from './json-minify';
 import { tool as jsonToCsv } from './json-to-csv';
 import { tool as jsonToToml } from './json-to-toml';
 import { tool as jsonToXml } from './json-to-xml';
-import { tool as jsonToYaml } from './json-to-yaml-converter';
+import { tool as jsonToYaml } from './json-to-yaml';
 import { tool as jsonViewer } from './json-prettify';
 import { tool as jwtParser } from './jwt-parser';
 import { tool as keycodeInfo } from './keycode-info';
@@ -85,7 +85,7 @@ import { tool as uuidGenerator } from './uuid-generator';
 import { tool as wifiQrCodeGenerator } from './wifi-qrcode-generator';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as xmlToJson } from './xml-to-json';
-import { tool as yamlToJson } from './yaml-to-json-converter';
+import { tool as yamlToJson } from './yaml-to-json';
 import { tool as yamlToToml } from './yaml-to-toml';
 import { tool as yamlViewer } from './yaml-prettify'
 

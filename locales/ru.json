@@ -384,7 +384,7 @@
       "keywords": "json,xml",
       "title": "JSON в XML"
     },
-    "json-to-yaml-converter": {
+    "json-to-yaml": {
       "description": "Онлайн преобразование JSON в YAML",
       "keywords": "yaml,в,json",
       "title": "JSON в YAML"
@@ -614,7 +614,7 @@
       "keywords": "yaml,просмотрщик,улучшить,формат",
       "title": "Форматирование YAML"
     },
-    "yaml-to-json-converter": {
+    "yaml-to-json": {
       "description": "Используйте этот онлайн конвертер для преобразования YAML в JSON.",
       "keywords": "yaml,в,json",
       "title": "YAML в JSON"

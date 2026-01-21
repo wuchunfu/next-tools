@@ -10,7 +10,7 @@ test.describe('Tool - ICO Generator', () => {
   })
 
   test('has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle(/ICO Generator/)
+    await expect(page).toHaveTitle(/ICO Generator/i)
   })
 
   test('displays upload and configuration cards', async ({ page }) => {
@@ -108,17 +108,18 @@ test.describe('Tool - ICO Generator', () => {
 
   test('can add a custom size', async ({ page }) => {
     const customSizeInput = page.getByTestId('custom-size-input')
-    const addButton = page.getByTestId('add-custom-size-btn')
     const selectedCount = page.getByTestId('selected-count')
 
     // Add a custom size (use a size not in standard list)
     await customSizeInput.fill('80')
+    
+    const addButton = page.getByTestId('add-custom-size-btn')
     await addButton.click()
 
     // Verify the custom size appears
     const customSizesList = page.getByTestId('custom-sizes-list')
-    await expect(customSizesList).toBeVisible()
     const customSizeItem = page.getByTestId('custom-size-item-80x80')
+    await expect(customSizesList).toBeVisible()
     await expect(customSizeItem).toBeVisible()
 
     // Verify selected count increased (4 default + 1 custom = 5)
@@ -127,10 +128,11 @@ test.describe('Tool - ICO Generator', () => {
 
   test('can add custom size with width x height format', async ({ page }) => {
     const customSizeInput = page.getByTestId('custom-size-input')
-    const addButton = page.getByTestId('add-custom-size-btn')
 
     // Add a custom size with width x height (use non-square size)
     await customSizeInput.fill('80x60')
+    
+    const addButton = page.getByTestId('add-custom-size-btn')
     await addButton.click()
 
     // Verify the custom size appears
@@ -140,10 +142,11 @@ test.describe('Tool - ICO Generator', () => {
 
   test('can remove a custom size', async ({ page }) => {
     const customSizeInput = page.getByTestId('custom-size-input')
-    const addButton = page.getByTestId('add-custom-size-btn')
 
     // Add a custom size
     await customSizeInput.fill('72')
+    
+    const addButton = page.getByTestId('add-custom-size-btn')
     await addButton.click()
 
     // Verify it appears
@@ -160,19 +163,20 @@ test.describe('Tool - ICO Generator', () => {
 
   test('can toggle custom size checkbox', async ({ page }) => {
     const customSizeInput = page.getByTestId('custom-size-input')
-    const addButton = page.getByTestId('add-custom-size-btn')
     const selectedCount = page.getByTestId('selected-count')
 
     // Add a custom size (it's selected by default)
     await customSizeInput.fill('96')
+    
+    const addButton = page.getByTestId('add-custom-size-btn')
     await addButton.click()
 
     // Wait for the custom size to appear
     const customSizeItem = page.getByTestId('custom-size-item-96x96')
+    const customCheckbox = page.getByTestId('checkbox-custom-96x96')
     await expect(customSizeItem).toBeVisible()
 
     // Find the checkbox for the custom size
-    const customCheckbox = page.getByTestId('checkbox-custom-96x96')
     await expect(customCheckbox).toBeChecked()
     await expect(selectedCount).toContainText('5 selected')
 
@@ -186,11 +190,12 @@ test.describe('Tool - ICO Generator', () => {
 
   test('can clear all custom sizes', async ({ page }) => {
     const customSizeInput = page.getByTestId('custom-size-input')
-    const addButton = page.getByTestId('add-custom-size-btn')
     const selectedCount = page.getByTestId('selected-count')
 
     // Add multiple custom sizes
     await customSizeInput.fill('100')
+    
+    const addButton = page.getByTestId('add-custom-size-btn')
     await addButton.click()
     await customSizeInput.fill('200')
     await addButton.click()

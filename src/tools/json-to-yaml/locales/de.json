@@ -1,6 +1,6 @@
 {
   "tools": {
-    "json-to-yaml-converter": {
+    "json-to-yaml": {
       "cardDescription": "Konvertieren Sie JSON-Format in YAML-Format. Fügen Sie Ihr JSON ein und erhalten Sie die YAML-Ausgabe.",
       "cardInputDescription": "Fügen Sie unten das JSON ein, das Sie konvertieren möchten. Wir validieren es und erzeugen anschließend die YAML-Ausgabe.",
       "cardInputTitle": "JSON-Eingabe",

@@ -66,11 +66,13 @@ const rawJsonValidation = useValidation({
                 autocorrect="off"
                 autocapitalize="off"
                 spellcheck="false"
+                data-testid="json-input"
               />
               <Alert
                 v-if="rawJsonValidation.status === 'error'"
                 variant="destructive"
                 class="border-destructive/40 bg-destructive/10"
+                data-testid="error-message"
               >
                 <AlertTitle class="text-sm">
                   {{ t('tools.json-minify.invalidJsonTitle', 'Invalid JSON') || t('tools.json-minify.invalid', 'Invalid JSON') }}
@@ -106,7 +108,7 @@ const rawJsonValidation = useValidation({
         <FieldGroup>
           <Field>
             <FieldContent>
-              <TextareaCopyable :value="minifiedJson" language="json" class="min-h-20" />
+              <TextareaCopyable :value="minifiedJson" language="json" class="min-h-20" data-testid="json-output" />
             </FieldContent>
           </Field>
         </FieldGroup>

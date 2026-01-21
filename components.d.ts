@@ -269,7 +269,7 @@ declare module 'vue' {
     JsonToCsv: typeof import('./src/tools/json-to-csv/json-to-csv.vue')['default']
     JsonToToml: typeof import('./src/tools/json-to-toml/json-to-toml.vue')['default']
     JsonToXml: typeof import('./src/tools/json-to-xml/json-to-xml.vue')['default']
-    JsonToYamlConverter: typeof import('./src/tools/json-to-yaml-converter/json-to-yaml-converter.vue')['default']
+    JsonToYaml: typeof import('./src/tools/json-to-yaml/json-to-yaml.vue')['default']
     JwtParser: typeof import('./src/tools/jwt-parser/jwt-parser.vue')['default']
     Kbd: typeof import('./src/components/ui/kbd/Kbd.vue')['default']
     KbdGroup: typeof import('./src/components/ui/kbd/KbdGroup.vue')['default']
@@ -499,7 +499,7 @@ declare module 'vue' {
     XmlFormatter: typeof import('./src/tools/xml-formatter/xml-formatter.vue')['default']
     XmlToJson: typeof import('./src/tools/xml-to-json/xml-to-json.vue')['default']
     YamlPrettify: typeof import('./src/tools/yaml-prettify/yaml-prettify.vue')['default']
-    YamlToJsonConverter: typeof import('./src/tools/yaml-to-json-converter/yaml-to-json-converter.vue')['default']
+    YamlToJson: typeof import('./src/tools/yaml-to-json/yaml-to-json.vue')['default']
     YamlToToml: typeof import('./src/tools/yaml-to-toml/yaml-to-toml.vue')['default']
   }
 }
@@ -763,7 +763,7 @@ declare global {
   const JsonToCsv: typeof import('./src/tools/json-to-csv/json-to-csv.vue')['default']
   const JsonToToml: typeof import('./src/tools/json-to-toml/json-to-toml.vue')['default']
   const JsonToXml: typeof import('./src/tools/json-to-xml/json-to-xml.vue')['default']
-  const JsonToYamlConverter: typeof import('./src/tools/json-to-yaml-converter/json-to-yaml-converter.vue')['default']
+  const JsonToYaml: typeof import('./src/tools/json-to-yaml/json-to-yaml.vue')['default']
   const JwtParser: typeof import('./src/tools/jwt-parser/jwt-parser.vue')['default']
   const Kbd: typeof import('./src/components/ui/kbd/Kbd.vue')['default']
   const KbdGroup: typeof import('./src/components/ui/kbd/KbdGroup.vue')['default']
@@ -993,6 +993,6 @@ declare global {
   const XmlFormatter: typeof import('./src/tools/xml-formatter/xml-formatter.vue')['default']
   const XmlToJson: typeof import('./src/tools/xml-to-json/xml-to-json.vue')['default']
   const YamlPrettify: typeof import('./src/tools/yaml-prettify/yaml-prettify.vue')['default']
-  const YamlToJsonConverter: typeof import('./src/tools/yaml-to-json-converter/yaml-to-json-converter.vue')['default']
+  const YamlToJson: typeof import('./src/tools/yaml-to-json/yaml-to-json.vue')['default']
   const YamlToToml: typeof import('./src/tools/yaml-to-toml/yaml-to-toml.vue')['default']
 }

@@ -6,8 +6,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { FieldLabel } from '@/components/ui/field'
 import { Switch } from '@/components/ui/switch'
 import { useToolI18n } from '@/composable/useToolI18n'
-import { diff } from '../json-diff.models'
-import { DiffRootViewer } from './diff-viewer.models'
+import { diff } from '../json-diff.service'
+import { DiffRootViewer } from './diff-viewer.service'
 
 const props = defineProps<{ leftJson: unknown, rightJson: unknown }>();
 const onlyShowDifferences = ref(false);
@@ -173,7 +173,7 @@ const diffViewerClasses = computed(() => {
         </div>
       </div>
 
-      <div v-if="jsonAreTheSame" class="rounded-lg border border-green-500/50 bg-green-500/10 p-6">
+      <div v-if="jsonAreTheSame" class="rounded-lg border border-green-500/50 bg-green-500/10 p-6" data-testid="same-json-message">
         <Alert class="border-0 bg-transparent p-0">
           <CircleCheck class="h-5 w-5 text-green-600 dark:text-green-400" />
           <AlertTitle class="text-green-600 dark:text-green-400">
@@ -184,7 +184,7 @@ const diffViewerClasses = computed(() => {
           </AlertDescription>
         </Alert>
       </div>
-      <div v-else class="rounded-lg border bg-muted/30">
+      <div v-else class="rounded-lg border bg-muted/30" data-testid="diff-content">
         <div :class="diffViewerClasses" class="p-4 w-full max-h-150 overflow-y-auto">
           <DiffRootViewer :diff="result" />
         </div>
