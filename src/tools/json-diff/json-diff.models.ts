@@ -1,5 +1,5 @@
 import type { Difference, DifferenceStatus } from './json-diff.types'
-import { isArray, isEqual, isObject } from 'lodash-es'
+import { isArray, isEqual, isNull, isObject, isUndefined } from 'lodash-es'
 
 function diff(
   obj: unknown,
@@ -54,7 +54,8 @@ function createDifference(
   key: string | number,
   { onlyShowDifferences = false }: { onlyShowDifferences?: boolean } = {},
 ): Difference {
-  const type = getType(value);
+  // When value is undefined (added), use newValue's type; otherwise use value's type
+  const type = isUndefined(value) ? getType(newValue) : getType(value);
 
   if (type === 'object') {
     return {
@@ -94,30 +95,30 @@ function diffArrays(
   newArr: unknown[],
   { onlyShowDifferences = false }: { onlyShowDifferences?: boolean } = {},
 ): Difference[] {
-  const maxLength = Math.max(0, arr?.length, newArr?.length);
+  const maxLength = Math.max(0, arr?.length ?? 0, newArr?.length ?? 0);
   return Array.from({ length: maxLength }, (_, i) =>
     createDifference(arr?.[i], newArr?.[i], i, { onlyShowDifferences })).filter(diff => !onlyShowDifferences || diff.status !== 'unchanged');
 }
 
 function getType(value: unknown): 'object' | 'array' | 'value' {
-  if (value === null) {
+  if (isNull(value)) {
     return 'value';
   }
-  if (Array.isArray(value)) {
+  if (isArray(value)) {
     return 'array';
   }
-  if (typeof value === 'object') {
+  if (isObject(value)) {
     return 'object';
   }
   return 'value';
 }
 
 function getStatus(value: unknown, newValue: unknown): DifferenceStatus {
-  if (value === undefined) {
+  if (isUndefined(value)) {
     return 'added';
   }
 
-  if (newValue === undefined) {
+  if (isUndefined(newValue)) {
     return 'removed';
   }
 
