@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import JSON5 from 'json5';
+import JSONBig from 'json-bigint';
 
 import { Braces, Copy, X } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
@@ -13,18 +13,21 @@ import { isNotThrowing } from '@/utils/boolean'
 import { withDefaultOnError } from '@/utils/defaults'
 import DiffsViewer from './diff-viewer/diff-viewer.vue'
 
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
+
 const { t } = useToolI18n();
 const rawLeftJson = ref('');
 const rawRightJson = ref('');
 
-const leftJson = computed(() => withDefaultOnError(() => JSON5.parse(rawLeftJson.value), undefined));
-const rightJson = computed(() => withDefaultOnError(() => JSON5.parse(rawRightJson.value), undefined));
+const leftJson = computed(() => withDefaultOnError(() => JSONBigInt.parse(rawLeftJson.value), undefined));
+const rightJson = computed(() => withDefaultOnError(() => JSONBigInt.parse(rawRightJson.value), undefined));
 
 const leftValidation = useValidation({
   source: rawLeftJson,
   rules: computed(() => [
     {
-      validator: (value: string) => value === '' || isNotThrowing(() => JSON5.parse(value)),
+      validator: (value: string) => value === '' || isNotThrowing(() => JSONBigInt.parse(value)),
       message: t('tools.json-diff.invalidJson', 'Invalid JSON'),
     },
   ]),
@@ -34,7 +37,7 @@ const rightValidation = useValidation({
   source: rawRightJson,
   rules: computed(() => [
     {
-      validator: (value: string) => value === '' || isNotThrowing(() => JSON5.parse(value)),
+      validator: (value: string) => value === '' || isNotThrowing(() => JSONBigInt.parse(value)),
       message: t('tools.json-diff.invalidJson', 'Invalid JSON'),
     },
   ]),

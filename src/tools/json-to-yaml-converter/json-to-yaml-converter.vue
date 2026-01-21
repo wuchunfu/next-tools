@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import JSON5 from 'json5';
+import JSONBig from 'json-bigint';
 import { FileCode, X } from 'lucide-vue-next';
 import { stringify } from 'yaml';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
@@ -14,6 +14,9 @@ import { useValidation } from '@/composable/validation';
 import { isNotThrowing } from '@/utils/boolean';
 import { withDefaultOnError } from '@/utils/defaults';
 
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
+
 const inputElement = ref<HTMLElement>()
 
 const { t } = useToolI18n()
@@ -24,7 +27,8 @@ const formatYaml = ref(true)
 const yamlOutput = computed(() => {
   if (!jsonInput.value.trim()) { return '' }
   return withDefaultOnError(() => {
-    const obj = JSON5.parse(jsonInput.value)
+    const obj = JSONBigInt.parse(jsonInput.value);
+    
     if (formatYaml.value) {
       return stringify(obj, { indent: 2 })
     }
@@ -36,7 +40,7 @@ const jsonInputValidation = useValidation({
   source: jsonInput,
   rules: computed(() => [
     {
-      validator: (value: string) => !value.trim() || isNotThrowing(() => JSON5.parse(value)),
+      validator: (value: string) => !value.trim() || isNotThrowing(() => JSONBigInt.parse(value)),
       message: t('tools.json-to-yaml-converter.invalidJson', 'Invalid JSON'),
     },
   ]),

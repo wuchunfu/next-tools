@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import JSON5 from 'json5'
+import JSONBig from 'json-bigint'
 
 import { FileSpreadsheet } from 'lucide-vue-next'
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
@@ -12,6 +12,9 @@ import { useValidation } from '@/composable/validation';
 import { withDefaultOnError } from '@/utils/defaults';
 import { convertArrayToCsv } from './json-to-csv.service';
 
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
+
 const inputElement = ref<HTMLElement>()
 
 const { t } = useToolI18n()
@@ -20,7 +23,7 @@ const rawJson = ref(defaultValue)
 const csvOutput = computed(() => {
   if (!rawJson.value.trim()) { return '' }
   return withDefaultOnError(() => {
-    const parsed = JSON5.parse(rawJson.value)
+    const parsed = JSONBigInt.parse(rawJson.value)
     if (!Array.isArray(parsed)) {
       return ''
     }
@@ -35,7 +38,7 @@ const rawJsonValidation = useValidation({
       validator: (v: string) => {
         if (v === '') { return true }
         try {
-          const parsed = JSON5.parse(v)
+          const parsed = JSONBigInt.parse(v)
           return Array.isArray(parsed)
         }
         catch {

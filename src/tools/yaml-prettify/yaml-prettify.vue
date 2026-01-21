@@ -28,7 +28,7 @@ const rawYamlValidation = useValidation({
   source: rawYaml,
   rules: computed(() => [
     {
-      validator: (v: string) => v === '' || yaml.parse(v),
+      validator: (v: string) => v === '' || yaml.parse(v, { intAsBigInt: true }),
       message: t('tools.yaml-prettify.invalid', 'Invalid YAML'),
     },
   ]),

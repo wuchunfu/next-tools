@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { stringify as stringifyToml } from 'iarna-toml-esm'
+import { stringify as stringifyToml } from 'smol-toml'
 import { FileCode, X } from 'lucide-vue-next';
 import { parse as parseYaml } from 'yaml';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
@@ -20,8 +20,8 @@ const yamlInput = ref('')
 const tomlOutput = computed(() => {
   if (!yamlInput.value.trim()) { return '' }
   return withDefaultOnError(() => {
-    const convertYamlToToml = (value: string) => [stringifyToml(parseYaml(value))].flat().join('\n').trim()
-    return convertYamlToToml(yamlInput.value)
+    const obj = parseYaml(yamlInput.value, { intAsBigInt: true });
+    return stringifyToml(obj)
   }, '')
 });
 

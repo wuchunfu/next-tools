@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import JSON5 from 'json5';
+import JSONBig from 'json-bigint';
 
 import { Minus } from 'lucide-vue-next';
 import TextareaCopyable from '@/components/TextareaCopyable.vue'
@@ -11,18 +11,21 @@ import { useToolI18n } from '@/composable/useToolI18n'
 import { useValidation } from '@/composable/validation'
 import { withDefaultOnError } from '@/utils/defaults'
 
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
+
 const inputElement = ref<HTMLElement>();
 
 const { t } = useToolI18n();
 const defaultValue = '{\n\t"hello": [\n\t\t"world"\n\t]\n}';
 const rawJson = ref(defaultValue);
-const minifiedJson = computed(() => withDefaultOnError(() => JSON.stringify(JSON5.parse(rawJson.value), null, 0), ''));
+const minifiedJson = computed(() => withDefaultOnError(() => JSONBigInt.stringify(JSONBigInt.parse(rawJson.value), null, 0), ''));
 
 const rawJsonValidation = useValidation({
   source: rawJson,
   rules: computed(() => [
     {
-      validator: (v: string) => v === '' || JSON5.parse(v),
+      validator: (v: string) => v === '' || JSONBigInt.parse(v),
       message: t('tools.json-minify.invalid', 'Invalid JSON'),
     },
   ]),

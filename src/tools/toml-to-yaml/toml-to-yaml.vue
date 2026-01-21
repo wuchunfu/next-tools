@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { parse as parseToml } from 'iarna-toml-esm'
+import { parse as parseToml } from 'smol-toml'
 import { FileCode, X } from 'lucide-vue-next';
 import { stringify as stringifyToYaml } from 'yaml';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
@@ -22,7 +22,8 @@ const tomlInput = ref('')
 const yamlOutput = computed(() => {
   if (!tomlInput.value.trim()) { return '' }
   return withDefaultOnError(() => {
-    const obj = parseToml(tomlInput.value)
+    // Parse TOML with BigInt support for large integers
+    const obj = parseToml(tomlInput.value, { integersAsBigInt: true })
     if (!obj) { return '' }
     return stringifyToYaml(obj, { indent: 2 })
   }, '')
@@ -32,7 +33,7 @@ const tomlInputValidation = useValidation({
   source: tomlInput,
   rules: computed(() => [
     {
-      validator: (value: string) => !value.trim() || isNotThrowing(() => parseToml(value)),
+      validator: (value: string) => !value.trim() || isNotThrowing(() => parseToml(value, { integersAsBigInt: true })),
       message: t('tools.toml-to-yaml.invalidToml', 'Invalid TOML'),
     },
   ]),

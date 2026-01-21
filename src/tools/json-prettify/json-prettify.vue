@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useStorage } from '@vueuse/core';
-import JSON5 from 'json5';
+import JSONBig from 'json-bigint';
 import { Code2, Settings, Trash2 } from 'lucide-vue-next';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
@@ -15,6 +15,9 @@ import { useValidation } from '@/composable/validation';
 import { withDefaultOnError } from '@/utils/defaults';
 import { formatJson } from './json.models';
 
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
+
 const inputElement = ref<HTMLElement>()
 
 const { t } = useToolI18n()
@@ -27,7 +30,7 @@ const rawJsonValidation = useValidation({
   source: rawJson,
   rules: computed(() => [
     {
-      validator: (v: string) => v === '' || JSON5.parse(v),
+      validator: (v: string) => v === '' || JSONBigInt.parse(v),
       message: t('tools.json-prettify.invalidJson', 'Invalid JSON'),
     },
   ]),

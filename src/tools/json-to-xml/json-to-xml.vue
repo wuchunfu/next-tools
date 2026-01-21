@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { XMLBuilder } from 'fast-xml-parser'
-import JSON5 from 'json5'
+import JSONBig from 'json-bigint'
 import { FileCode, X } from 'lucide-vue-next'
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
@@ -14,6 +14,9 @@ import { useValidation } from '@/composable/validation';
 import { isNotThrowing } from '@/utils/boolean';
 import { withDefaultOnError } from '@/utils/defaults';
 
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
+
 const { t } = useToolI18n()
 
 const inputElement = ref<HTMLElement>()
@@ -24,7 +27,7 @@ const formatXmlOutput = ref(true)
 const xmlOutput = computed(() => {
   if (!jsonInput.value.trim()) { return '' }
   return withDefaultOnError(() => {
-    const obj = JSON5.parse(jsonInput.value)
+    const obj = JSONBigInt.parse(jsonInput.value)
     const builder = new XMLBuilder({
       format: formatXmlOutput.value,
       ignoreAttributes: false,
@@ -37,7 +40,7 @@ const jsonInputValidation = useValidation({
   source: jsonInput,
   rules: computed(() => [
     {
-      validator: (value: string) => !value.trim() || isNotThrowing(() => JSON5.parse(value)),
+      validator: (value: string) => !value.trim() || isNotThrowing(() => JSONBigInt.parse(value)),
       message: t('tools.json-to-xml.invalidJson', 'Invalid JSON'),
     },
   ]),

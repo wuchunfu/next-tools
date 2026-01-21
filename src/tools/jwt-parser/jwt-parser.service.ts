@@ -1,6 +1,10 @@
 import type { JwtHeader, JwtPayload } from 'jwt-decode';
 import { jwtDecode } from 'jwt-decode';
 import { isArray, isNil, isPlainObject, isString, map } from 'lodash-es'
+import JSONBig from 'json-bigint';
+
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
 
 type Translator = (key: string, defaultValue?: string) => string
 
@@ -20,7 +24,7 @@ export function decodeJwt({ jwt, t }: { jwt: string, t?: Translator }) {
 
 function parseClaims({ claim, value, t }: { claim: string, value: unknown, t: Translator }) {
   const claimDescription = t(`tools.jwt-parser.claims.${claim}`, undefined)
-  const formattedValue = isPlainObject(value) || isArray(value) ? JSON.stringify(value, null, 3) : String(value)
+  const formattedValue = isPlainObject(value) || isArray(value) ? JSONBigInt.stringify(value, null, 3) : String(value)
   const friendlyValue = getFriendlyValue({ claim, value, t })
 
   return {

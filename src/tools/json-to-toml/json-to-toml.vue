@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { stringify as stringifyToml } from 'iarna-toml-esm'
-import JSON5 from 'json5'
+import { stringify as stringifyToml } from 'smol-toml'
+import JSONBig from 'json-bigint'
 import { FileCode, X } from 'lucide-vue-next'
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
@@ -13,6 +13,9 @@ import { useValidation } from '@/composable/validation';
 import { isNotThrowing } from '@/utils/boolean';
 import { withDefaultOnError } from '@/utils/defaults';
 
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
+
 const inputElement = ref<HTMLElement>()
 
 const { t } = useToolI18n()
@@ -21,8 +24,8 @@ const jsonInput = ref('')
 const tomlOutput = computed(() => {
   if (!jsonInput.value.trim()) { return '' }
   return withDefaultOnError(() => {
-    const convertJsonToToml = (value: string) => [stringifyToml(JSON5.parse(value))].flat().join('\n').trim()
-    return convertJsonToToml(jsonInput.value)
+    const obj = JSONBigInt.parse(jsonInput.value);
+    return stringifyToml(obj)
   }, '')
 });
 
@@ -30,7 +33,7 @@ const jsonInputValidation = useValidation({
   source: jsonInput,
   rules: computed(() => [
     {
-      validator: (value: string) => !value.trim() || isNotThrowing(() => JSON5.parse(value)),
+      validator: (value: string) => !value.trim() || isNotThrowing(() => JSONBigInt.parse(value)),
       message: t('tools.json-to-toml.invalidJson', 'Invalid JSON'),
     },
   ]),

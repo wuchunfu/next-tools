@@ -1,6 +1,8 @@
 import type { MaybeRef } from 'vue';
-import { get } from '@vueuse/core';
-import JSON5 from 'json5';
+import JSONBig from 'json-bigint';
+
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
 
 export function sortObjectKeys<T>(obj: T): T {
   if (typeof obj !== 'object' || obj === null) {
@@ -28,7 +30,7 @@ export function formatJson({
   sortKeys?: MaybeRef<boolean>
   indentSize?: MaybeRef<number>
 }) {
-  const parsedObject = JSON5.parse(get(rawJson))
-
-  return JSON.stringify(get(sortKeys) ? sortObjectKeys(parsedObject) : parsedObject, null, get(indentSize))
+  const parsedObject = JSONBigInt.parse(toValue(rawJson));
+  
+  return JSONBigInt.stringify(toValue(sortKeys) ? sortObjectKeys(parsedObject) : parsedObject, null, toValue(indentSize))
 }

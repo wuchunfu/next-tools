@@ -1,6 +1,6 @@
-import { parse as parseToml } from 'iarna-toml-esm';
+import { parse as parseToml } from 'smol-toml';
 import { isNotThrowing } from '../../utils/boolean';
 
 export function isValidToml(toml: string): boolean {
-  return isNotThrowing(() => parseToml(toml));
+  return isNotThrowing(() => parseToml(toml, { integersAsBigInt: true }));
 }

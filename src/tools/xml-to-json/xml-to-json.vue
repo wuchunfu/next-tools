@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { XMLParser } from 'fast-xml-parser'
+import JSONBig from 'json-bigint'
 import { FileCode, X } from 'lucide-vue-next';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
@@ -12,6 +13,9 @@ import { useToolI18n } from '@/composable/useToolI18n';
 import { useValidation } from '@/composable/validation';
 import { withDefaultOnError } from '@/utils/defaults';
 import { isValidXML } from '../xml-formatter/xml-formatter.service';
+
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
 
 const inputElement = ref<HTMLElement>()
 
@@ -26,10 +30,15 @@ const jsonOutput = computed(() => {
     const parser = new XMLParser({
       ignoreAttributes: false,
       parseAttributeValue: true,
+      numberParseOptions: {
+        leadingZeros: false,
+        hex: false,
+        skipLike: /^\d{16,}$/, // Skip parsing numbers with 16+ digits to preserve precision
+      },
     })
     const obj = parser.parse(xmlInput.value)
     if (!obj) { return '' }
-    return formatJson.value ? JSON.stringify(obj, null, 2) : JSON.stringify(obj)
+    return formatJson.value ? JSONBigInt.stringify(obj, null, 2) : JSONBigInt.stringify(obj)
   }, '')
 });
 

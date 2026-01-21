@@ -12,7 +12,8 @@ export function formatYaml({
   sortKeys?: MaybeRef<boolean>
   indentSize?: MaybeRef<number>
 }) {
-  const parsedYaml = yaml.parse(get(rawYaml))
+  // Parse YAML with BigInt support for large integers
+  const parsedYaml = yaml.parse(get(rawYaml), { intAsBigInt: true })
 
   const formattedYAML = yaml.stringify(parsedYaml, {
     sortMapEntries: get(sortKeys),

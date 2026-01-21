@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { FileCode, X } from 'lucide-vue-next';
 import { parse as parseYaml } from 'yaml';
+import JSONBig from 'json-bigint';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
@@ -13,6 +14,9 @@ import { useValidation } from '@/composable/validation';
 import { isNotThrowing } from '@/utils/boolean';
 import { withDefaultOnError } from '@/utils/defaults';
 
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
+
 const inputElement = ref<HTMLElement>()
 
 const { t } = useToolI18n()
@@ -23,9 +27,10 @@ const formatJson = ref(true)
 const jsonOutput = computed(() => {
   if (!yamlInput.value.trim()) { return '' }
   return withDefaultOnError(() => {
-    const obj = parseYaml(yamlInput.value, { merge: true })
+    const obj = parseYaml(yamlInput.value, { merge: true, intAsBigInt: true })
     if (!obj) { return '' }
-    return formatJson.value ? JSON.stringify(obj, null, 2) : JSON.stringify(obj)
+    // Use json-bigint with native BigInt to preserve precision for large numbers
+    return formatJson.value ? JSONBigInt.stringify(obj, null, 2) : JSONBigInt.stringify(obj)
   }, '')
 });
 

@@ -1,6 +1,10 @@
 import type { ArrayDifference, Difference, ObjectDifference } from '../json-diff.types';
 import { isNull } from 'lodash-es';
+import JSONBig from 'json-bigint';
 import { useCopy } from '@/composable/copy'
+
+// Create a json-bigint instance that uses native BigInt
+const JSONBigInt = JSONBig({ useNativeBigInt: true });
 
 export function DiffRootViewer({ diff }: { diff: Difference }) {
   return (
@@ -104,7 +108,7 @@ function formatValue(value: unknown) {
     return 'null'
   }
 
-  return JSON.stringify(value)
+  return JSONBigInt.stringify(value)
 }
 
 function Value({ value, status }: { value: unknown, status: string }) {
