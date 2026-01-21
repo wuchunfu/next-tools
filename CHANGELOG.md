@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.7.4
+
+### Bug fixes
+-  resolve array diff bugs in json-diff tool (7f83c91)
+
 ## Version 1.7.3
 
 ### Features
