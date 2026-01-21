@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { asyncComputed, useStorage } from '@vueuse/core';
+import { computedAsync, useStorage } from '@vueuse/core';
 import { Code2, FileEdit, Trash2 } from 'lucide-vue-next';
 import { format } from 'prettier';
 import htmlParser from 'prettier/plugins/html';
@@ -8,15 +8,25 @@ import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Switch } from '@/components/ui/switch';
 import { useToolI18n } from '@/composable/useToolI18n';
 import Editor from './editor/editor.vue';
+import { withDefaultOnError } from '@/utils/defaults';
 
 const { t } = useToolI18n()
 const initialHtml = t('tools.html-wysiwyg-editor.initial')
 const html = useStorage('html-wysiwyg-editor--html', initialHtml)
 const editorShell = ref<HTMLElement | null>(null)
+const formatHtml = ref(true)
 
-const formattedHtml = asyncComputed(() => format(html.value, { parser: 'html', plugins: [htmlParser] }), '')
+const formattedHtml = computedAsync(async () => {
+  if (!html.value) { return '' }
+  if (!formatHtml.value) { return html.value }
+  return withDefaultOnError(
+    async () => await format(html.value, { parser: 'html', plugins: [htmlParser] }),
+    html.value,
+  )
+}, '')
 
 const characters = computed(() => html.value.length)
 
@@ -77,11 +87,21 @@ function handleClear() {
       </CardHeader>
 
       <CardContent>
-        <TextareaCopyable
-          :value="formattedHtml"
-          language="html"
-          class="min-h-20"
-        />
+        <div class="space-y-3">
+          <div class="flex items-center justify-end">
+            <div class="flex items-center gap-2">
+              <label for="format-html" class="text-sm font-medium cursor-pointer">
+                {{ t('tools.html-wysiwyg-editor.formatHtml', 'Format HTML') }}
+              </label>
+              <Switch id="format-html" v-model="formatHtml" />
+            </div>
+          </div>
+          <TextareaCopyable
+            :value="formattedHtml"
+            language="html"
+            class="min-h-20"
+          />
+        </div>
       </CardContent>
     </Card>
   </div>

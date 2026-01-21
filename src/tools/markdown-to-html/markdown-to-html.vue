@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computedAsync } from '@vueuse/core';
 import { Eye, FileCode, Printer, X } from 'lucide-vue-next';
 import markdownit from 'markdown-it';
 import { format } from 'prettier';
@@ -28,7 +29,7 @@ const outputHtml = computed(() => {
   return md.render(inputMarkdown.value)
 });
 
-const formattedHtmlOutput = asyncComputed(async () => {
+const formattedHtmlOutput = computedAsync(async () => {
   if (!outputHtml.value) { return '' }
   if (!formatHtml.value) { return outputHtml.value }
   return withDefaultOnError(
