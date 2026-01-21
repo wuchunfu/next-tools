@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.7.5
+
+### Features
+-  add format HTML toggle to HTML WYSIWYG editor and markdown-to-html tool (55cebcf)
+
+### Bug fixes
+-  prevent precision loss for large numbers in data format conversion tools (6ede0fa)
+
+### Tests
+-  add comprehensive e2e and unit tests for BigInt precision tools (77828b6)
+
 ## Version 1.7.4
 
 ### Bug fixes
