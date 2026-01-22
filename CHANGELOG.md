@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.8.0
+
+### Features
+-  add date calculator tool and date & time category (ed7a4a9)
+- **url-parser**: add service layer and comprehensive tests (66c863e)
+
 ## Version 1.7.5
 
 ### Features
