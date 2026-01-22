@@ -7,6 +7,7 @@
       "copyCurrent": "Aktuelles OTP kopieren",
       "copyNext": "Nächstes OTP kopieren",
       "copyPrevious": "Vorheriges OTP kopieren",
+      "copyShareLink": "Link in Zwischenablage kopiert",
       "count": "Anzahl:",
       "countHexLabel": "Mit Nullen aufgefülltes Hex:",
       "countHexPlaceholder": "Iterationsanzahl in Hex wird hier angezeigt",
@@ -30,8 +31,7 @@
       "secretHint": "Verwende ein Base32-Secret (A-Z, 2-7). Generiere neu oder füge dein eigenes ein.",
       "secretPlaceholder": "Fügen Sie Ihr TOTP-Geheimnis ein...",
       "secretRequired": "Bitte setzen Sie ein Geheimnis",
-      "shareLink": "Link teilen",
-      "copyShareLink": "Link in Zwischenablage kopiert"
+      "shareLink": "Link teilen"
     }
   }
 }

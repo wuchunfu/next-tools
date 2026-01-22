@@ -44,6 +44,7 @@
     "converter": "Converter",
     "crypto": "Crypto",
     "data": "Data",
+    "date and time": "Date and Time",
     "development": "Development",
     "favorite-tools": "Your favorite tools",
     "images and videos": "Images & Videos",
@@ -87,6 +88,7 @@
     "copied": "Copied!",
     "copyToClipboard": "Copy",
     "noResults": "No results found",
+    "setCurrentTime": "Set Current Time",
     "unknown": "Unknown"
   },
   "consent": {
@@ -258,6 +260,11 @@
       "description": "Validate and generate cron expressions and get the human-readable description of the cron schedule.",
       "keywords": "cron,generator,cronjob,schedule,parse,expression,year,month,week,day,minute,second",
       "title": "Cron Expression Generator"
+    },
+    "date-calculator": {
+      "description": "Perform date arithmetic, calculate time differences, and convert time units",
+      "keywords": "date,calculator,time,difference,arithmetic,add,subtract,convert,days,hours,minutes,weeks,months,years",
+      "title": "Date Calculator"
     },
     "date-converter": {
       "description": "Convert date and time into the various different formats",

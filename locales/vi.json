@@ -44,6 +44,7 @@
     "converter": "Chuyển đổi",
     "crypto": "Mã hóa",
     "data": "Dữ liệu",
+    "date and time": "Ngày và Giờ",
     "development": "Phát triển",
     "favorite-tools": "Công cụ yêu thích của bạn",
     "images and videos": "Hình ảnh & Video",
@@ -87,6 +88,7 @@
     "copied": "Đã sao chép!",
     "copyToClipboard": "Sao chép",
     "noResults": "Không có kết quả",
+    "setCurrentTime": "Đặt thời gian hiện tại",
     "unknown": "Không rõ"
   },
   "consent": {
@@ -258,6 +260,11 @@
       "description": "Xác thực và tạo biểu thức cron và lấy mô tả đọc được của lịch trình cron.",
       "keywords": "cron,trình tạo,công việc cron,lịch trình,phân tích,biểu thức,năm,tháng,tuần,ngày,phút,giây",
       "title": "Trình tạo biểu thức Cron"
+    },
+    "date-calculator": {
+      "description": "Thực hiện phép tính ngày tháng, tính chênh lệch thời gian và chuyển đổi đơn vị thời gian",
+      "keywords": "ngày,máy tính,thời gian,chênh lệch,số học,cộng,trừ,chuyển đổi,ngày,giờ,phút,tuần,tháng,năm",
+      "title": "Máy tính ngày"
     },
     "date-converter": {
       "description": "Chuyển đổi ngày và thời gian sang các định dạng khác nhau",

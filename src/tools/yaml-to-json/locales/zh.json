@@ -1,15 +1,15 @@
 {
   "tools": {
     "yaml-to-json": {
-      "cardTitle": "YAML 转 JSON 转换器",
       "cardDescription": "将 YAML 格式转换为 JSON 格式。粘贴您的 YAML 即可获得 JSON 输出。",
-      "invalid": "提供的 YAML 无效。",
-      "cardInputTitle": "YAML 输入",
       "cardInputDescription": "在下方粘贴你要转换的 YAML，我们会先校验格式，然后生成对应的 JSON。",
-      "cardOutputTitle": "JSON 输出",
+      "cardInputTitle": "YAML 输入",
       "cardOutputDescription": "这是根据 YAML 转换得到的 JSON，可以复制用于后续使用。",
-      "inputPlaceholder": "在此粘贴您的 YAML...",
+      "cardOutputTitle": "JSON 输出",
+      "cardTitle": "YAML 转 JSON 转换器",
       "formatJson": "格式化 JSON",
+      "inputPlaceholder": "在此粘贴您的 YAML...",
+      "invalid": "提供的 YAML 无效。",
       "invalidJsonTitle": "无效的 YAML",
       "outputError": "YAML 格式无效。请检查您的输入。"
     }

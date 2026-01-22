@@ -43,6 +43,11 @@ const conversionConfig = useStorage<ConvertOptions>('list-converter:conversionCo
   separator: ', ',
 })
 
+const currentSortOrderLabel = computed(() => {
+  const option = sortOrderOptions.value.find(opt => opt.value === conversionConfig.value.sortList)
+  return option?.label || ''
+})
+
 const input = ref('')
 const output = computed(() => {
   if (!input.value.trim()) { return '' }
@@ -140,7 +145,7 @@ function clearInput() {
                   @update:model-value="value => conversionConfig.sortList = (value as 'asc' | 'desc' | null)"
                 >
                   <SelectTrigger class="w-full">
-                    <SelectValue :placeholder="t('tools.list-converter.sortAlphabetically')" />
+                    <SelectValue :placeholder="currentSortOrderLabel || t('tools.list-converter.sortAlphabetically')" />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectGroup>

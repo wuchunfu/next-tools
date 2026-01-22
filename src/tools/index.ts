@@ -1,6 +1,7 @@
 import type { ToolCategory } from './tools.types';
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
 import { tool as base64FileConverter } from './base64-file-converter';
+import { tool as dateCalculator } from './date-calculator';
 import { tool as icoGenerator } from './ico-generator';
 import { tool as base64StringConverter } from './base64-string-converter';
 
@@ -97,7 +98,6 @@ export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Converter',
     components: [
-      dateTimeConverter,
       baseConverter,
       romanNumeralConverter,
       base64StringConverter,
@@ -118,6 +118,10 @@ export const toolsByCategory: ToolCategory[] = [
       jsonToXml,
       markdownToHtml,
     ],
+  },
+  {
+    name: 'Date and Time',
+    components: [dateCalculator, dateTimeConverter],
   },
   {
     name: 'Web',

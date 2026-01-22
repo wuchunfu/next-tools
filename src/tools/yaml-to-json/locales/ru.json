@@ -1,15 +1,15 @@
 {
   "tools": {
     "yaml-to-json": {
-      "cardTitle": "Конвертер YAML в JSON",
       "cardDescription": "Преобразуйте формат YAML в формат JSON. Вставьте ваш YAML и получите вывод JSON.",
-      "invalid": "Предоставленный YAML недействителен.",
-      "cardInputTitle": "Ввод YAML",
       "cardInputDescription": "Вставьте ниже YAML, который нужно конвертировать. Мы проверим его и сгенерируем JSON-вывод.",
-      "cardOutputTitle": "JSON-вывод",
+      "cardInputTitle": "Ввод YAML",
       "cardOutputDescription": "Это JSON-представление вашего YAML. Вы можете скопировать его для дальнейшего использования.",
-      "inputPlaceholder": "Вставьте ваш YAML здесь...",
+      "cardOutputTitle": "JSON-вывод",
+      "cardTitle": "Конвертер YAML в JSON",
       "formatJson": "Форматировать JSON",
+      "inputPlaceholder": "Вставьте ваш YAML здесь...",
+      "invalid": "Предоставленный YAML недействителен.",
       "invalidJsonTitle": "Недействительный YAML",
       "outputError": "Неверный формат YAML. Пожалуйста, проверьте ваш ввод."
     }

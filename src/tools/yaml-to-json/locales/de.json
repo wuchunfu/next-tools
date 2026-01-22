@@ -1,15 +1,15 @@
 {
   "tools": {
     "yaml-to-json": {
-      "cardTitle": "YAML zu JSON Konverter",
       "cardDescription": "Konvertieren Sie YAML-Format in JSON-Format. Fügen Sie Ihr YAML ein und erhalten Sie die JSON-Ausgabe.",
-      "invalid": "Bereitgestelltes YAML ist nicht gültig.",
-      "cardInputTitle": "YAML-Eingabe",
       "cardInputDescription": "Fügen Sie unten das YAML ein, das Sie konvertieren möchten. Wir validieren es und erzeugen anschließend die JSON-Ausgabe.",
-      "cardOutputTitle": "JSON-Ausgabe",
+      "cardInputTitle": "YAML-Eingabe",
       "cardOutputDescription": "Dies ist die JSON-Darstellung Ihres YAML. Sie können sie für die weitere Verwendung kopieren.",
-      "inputPlaceholder": "Fügen Sie hier Ihr YAML ein...",
+      "cardOutputTitle": "JSON-Ausgabe",
+      "cardTitle": "YAML zu JSON Konverter",
       "formatJson": "JSON formatieren",
+      "inputPlaceholder": "Fügen Sie hier Ihr YAML ein...",
+      "invalid": "Bereitgestelltes YAML ist nicht gültig.",
       "invalidJsonTitle": "Ungültiges YAML",
       "outputError": "Ungültiges YAML-Format. Bitte überprüfen Sie Ihre Eingabe."
     }

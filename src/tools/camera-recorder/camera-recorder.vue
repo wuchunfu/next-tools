@@ -58,6 +58,16 @@ const currentMicrophone = ref(microphones.value[0]?.deviceId);
 const permissionCannotBePrompted = ref(false);
 const { t } = useToolI18n();
 
+const currentCameraLabel = computed(() => {
+  const camera = cameras.value.find(cam => cam.deviceId === currentCamera.value)
+  return camera?.label || t('tools.camera-recorder.unknownCamera', 'Camera')
+})
+
+const currentMicrophoneLabel = computed(() => {
+  const mic = microphones.value.find(m => m.deviceId === currentMicrophone.value)
+  return mic?.label || t('tools.camera-recorder.unknownMic', 'Microphone')
+})
+
 const {
   stream,
   start,
@@ -235,7 +245,7 @@ function formatTime(date: Date) {
               <FieldContent>
                 <Select v-model="currentCamera">
                   <SelectTrigger>
-                    <SelectValue :placeholder="t('tools.camera-recorder.selectCamera')" />
+                    <SelectValue :placeholder="currentCameraLabel || t('tools.camera-recorder.selectCamera')" />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectGroup>
@@ -259,7 +269,7 @@ function formatTime(date: Date) {
               <FieldContent>
                 <Select v-model="currentMicrophone">
                   <SelectTrigger>
-                    <SelectValue :placeholder="t('tools.camera-recorder.selectMic')" />
+                    <SelectValue :placeholder="currentMicrophoneLabel || t('tools.camera-recorder.selectMic')" />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectGroup>

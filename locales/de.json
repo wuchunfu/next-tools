@@ -44,6 +44,7 @@
     "converter": "Konverter",
     "crypto": "Krypto",
     "data": "Daten",
+    "date and time": "Datum und Uhrzeit",
     "development": "Entwicklung",
     "favorite-tools": "Deine Lieblingstools",
     "images and videos": "Bilder & Videos",
@@ -87,6 +88,7 @@
     "copied": "Kopiert!",
     "copyToClipboard": "Kopieren",
     "noResults": "Keine Ergebnisse",
+    "setCurrentTime": "Aktuelle Zeit einstellen",
     "unknown": "Unbekannt"
   },
   "consent": {
@@ -258,6 +260,11 @@
       "description": "Überprüfe und generiere Cron-Ausdrücke und erhalte die menschenlesbare Beschreibung des Cron-Zeitplans.",
       "keywords": "cron,generator,cronjob,planen,parsen,ausdruck,jahr,monat,woche,tag,minute,sekunde",
       "title": "Cron Expression Generator"
+    },
+    "date-calculator": {
+      "description": "Datumsberechnungen durchführen, Zeitdifferenzen berechnen und Zeiteinheiten umrechnen",
+      "keywords": "datum,rechner,zeit,differenz,arithmetik,addieren,subtrahieren,umrechnen,tage,stunden,minuten,wochen,monate,jahre",
+      "title": "Datumsrechner"
     },
     "date-converter": {
       "description": "Konvertiere Datum und Uhrzeit in verschiedene Formate.",

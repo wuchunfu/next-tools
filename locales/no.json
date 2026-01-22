@@ -44,6 +44,7 @@
     "converter": "Konvertering",
     "crypto": "Krypto",
     "data": "Data",
+    "date and time": "Dato og Tid",
     "development": "Utvikling",
     "favorite-tools": "Dine favoritt verktøy",
     "images and videos": "Bilder & Videoer",
@@ -87,6 +88,7 @@
     "copied": "Kopiert!",
     "copyToClipboard": "Kopier",
     "noResults": "Ingen resultater funnet",
+    "setCurrentTime": "Sett nåværende tid",
     "unknown": "Ukjent"
   },
   "consent": {
@@ -258,6 +260,11 @@
       "description": "Verifiser og generer cron og få den mennesklig leselige beskrivelsen av cron timeplanen.",
       "keywords": "cron,generator,cronjob,cron,timeplan,parse,uttrykk,år,måned,uke,dag,minutt,sekund",
       "title": "Cron Expression Generator"
+    },
+    "date-calculator": {
+      "description": "Utfør datoaritmetikk, beregn tidsforskjeller og konverter tidsenheter",
+      "keywords": "dato,kalkulator,tid,forskjell,aritmetikk,legge til,trekke fra,konvertere,dager,timer,minutter,uker,måneder,år",
+      "title": "Datokalkulator"
     },
     "date-converter": {
       "description": "Konverter dato og tid til forskjellige formater.",

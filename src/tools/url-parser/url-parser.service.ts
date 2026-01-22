@@ -46,9 +46,11 @@ export function isValidUrl(urlString: string): boolean {
   }
 
   try {
-    new URL(urlString)
+    const url = new URL(urlString)
+    void url // Use the URL object to avoid no-new linting error
     return true
-  } catch {
+  }
+  catch {
     return false
   }
 }

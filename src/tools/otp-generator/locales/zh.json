@@ -7,6 +7,7 @@
       "copyCurrent": "复制当前 OTP",
       "copyNext": "复制下一个 OTP",
       "copyPrevious": "复制上一个 OTP",
+      "copyShareLink": "链接已复制到剪贴板",
       "count": "次数：",
       "countHexLabel": "十六进制：",
       "countHexPlaceholder": "十六进制迭代次数显示在这里",
@@ -30,8 +31,7 @@
       "secretHint": "使用 Base32 密钥（A-Z、2-7），可重新生成或粘贴自定义密钥。",
       "secretPlaceholder": "粘贴你的 TOTP 密钥...",
       "secretRequired": "请设置密钥",
-      "shareLink": "分享链接",
-      "copyShareLink": "链接已复制到剪贴板"
+      "shareLink": "分享链接"
     }
   }
 }

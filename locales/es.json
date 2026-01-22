@@ -44,6 +44,7 @@
     "converter": "Convertidor",
     "crypto": "Cripto",
     "data": "Datos",
+    "date and time": "Fecha y Hora",
     "development": "Desarrollo",
     "favorite-tools": "Tus herramientas favoritas",
     "images and videos": "Imágenes y Videos",
@@ -87,6 +88,7 @@
     "copied": "¡Copiado!",
     "copyToClipboard": "Copiar",
     "noResults": "No se encontraron resultados",
+    "setCurrentTime": "Establecer hora actual",
     "unknown": "Desconocido"
   },
   "consent": {
@@ -258,6 +260,11 @@
       "description": "Valida y genera cron y obtén la descripción legible por humanos del programa cron.",
       "keywords": "cron,generador,tarea cron,cron,programar,analizar,expresión,año,mes,semana,día,minuto,segundo",
       "title": "Generador de cron"
+    },
+    "date-calculator": {
+      "description": "Realizar aritmética de fechas, calcular diferencias de tiempo y convertir unidades de tiempo",
+      "keywords": "fecha,calculadora,tiempo,diferencia,aritmética,sumar,restar,convertir,días,horas,minutos,semanas,meses,años",
+      "title": "Calculadora de fechas"
     },
     "date-converter": {
       "description": "Convierte fecha y hora en los diversos formatos diferentes",

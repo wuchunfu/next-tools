@@ -44,6 +44,7 @@
     "converter": "转换器",
     "crypto": "加密",
     "data": "数据",
+    "date and time": "日期和时间",
     "development": "开发",
     "favorite-tools": "我的收藏",
     "images and videos": "图片和视频",
@@ -87,6 +88,7 @@
     "copied": "已复制",
     "copyToClipboard": "复制",
     "noResults": "没有结果",
+    "setCurrentTime": "设为当前时间",
     "unknown": "未知"
   },
   "consent": {
@@ -258,6 +260,11 @@
       "description": "验证并生成 cron 表达式，并获取 cron 调度的可读描述。",
       "keywords": "cron,生成器,cron作业,调度,解析,表达式,年,月,周,日,分钟,秒",
       "title": "Cron 表达式生成器"
+    },
+    "date-calculator": {
+      "description": "执行日期运算、计算时间差和转换时间单位",
+      "keywords": "日期,计算器,时间,差值,运算,加,减,转换,天,小时,分钟,周,月,年",
+      "title": "日期计算器"
     },
     "date-converter": {
       "description": "将日期和时间转换为各种不同的格式",

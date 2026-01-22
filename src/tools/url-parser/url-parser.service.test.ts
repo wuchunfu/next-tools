@@ -1,10 +1,10 @@
+import type { UrlProperty } from './url-parser.service'
 import { describe, expect, it } from 'vitest'
 import {
   extractUrlProperties,
   isValidUrl,
   parseSearchParams,
   parseUrl,
-  type UrlProperty,
 } from './url-parser.service'
 
 describe('url-parser service', () => {

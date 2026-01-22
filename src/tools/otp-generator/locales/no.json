@@ -7,6 +7,7 @@
       "copyCurrent": "Kopier gjeldende OTP",
       "copyNext": "Kopier neste OTP",
       "copyPrevious": "Kopier forrige OTP",
+      "copyShareLink": "Lenke kopiert til utklippstavle",
       "count": "Antall:",
       "countHexLabel": "Hex med utfylling:",
       "countHexPlaceholder": "Iterasjonsantall i hex vil vises her",
@@ -30,8 +31,7 @@
       "secretHint": "Bruk en Base32-hemmelighet (A-Z, 2-7). Regenerer eller lim inn din egen.",
       "secretPlaceholder": "Lim inn din TOTP-hemmelighet...",
       "secretRequired": "Vennligst sett en hemmelighet",
-      "shareLink": "Dele lenke",
-      "copyShareLink": "Lenke kopiert til utklippstavle"
+      "shareLink": "Dele lenke"
     }
   }
 }

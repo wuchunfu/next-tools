@@ -7,6 +7,7 @@
       "copyCurrent": "Sao chép OTP hiện tại",
       "copyNext": "Sao chép OTP tiếp theo",
       "copyPrevious": "Sao chép OTP trước",
+      "copyShareLink": "Liên kết đã được sao chép vào bộ nhớ tạm",
       "count": "Đếm:",
       "countHexLabel": "Hex có đệm:",
       "countHexPlaceholder": "Số lần lặp lại ở dạng hex sẽ được hiển thị ở đây",
@@ -30,8 +31,7 @@
       "secretHint": "Dùng bí mật Base32 (A-Z, 2-7). Tạo mới hoặc dán của bạn.",
       "secretPlaceholder": "Dán bí mật TOTP của bạn...",
       "secretRequired": "Vui lòng đặt bí mật",
-      "shareLink": "Chia sẻ liên kết",
-      "copyShareLink": "Liên kết đã được sao chép vào bộ nhớ tạm"
+      "shareLink": "Chia sẻ liên kết"
     }
   }
 }

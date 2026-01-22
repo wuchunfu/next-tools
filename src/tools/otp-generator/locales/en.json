@@ -7,6 +7,7 @@
       "copyCurrent": "Copy current OTP",
       "copyNext": "Copy next OTP",
       "copyPrevious": "Copy previous OTP",
+      "copyShareLink": "Link copied to clipboard",
       "count": "Count:",
       "countHexLabel": "Padded hex:",
       "countHexPlaceholder": "Iteration count in hex will be displayed here",
@@ -30,8 +31,7 @@
       "secretHint": "Use a Base32 secret (A-Z, 2-7). Regenerate or paste your own.",
       "secretPlaceholder": "Paste your TOTP secret...",
       "secretRequired": "Please set a secret",
-      "shareLink": "Share link",
-      "copyShareLink": "Link copied to clipboard"
+      "shareLink": "Share link"
     }
   }
 }
