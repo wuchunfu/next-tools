@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.8.1
+
+### Features
+-  add data transfer calculator tool (eaf3f1b)
+
+### Refactoring
+-  change text statistics tool layout from side-by-side to vertical (3733270)
+
 ## Version 1.8.0
 
 ### Features
