@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.8.3
+
+### Bug fixes
+-  improve date picker functionality and i18n support (3b7653e)
+
 ## Version 1.8.2
 
 ### Bug fixes
