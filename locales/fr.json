@@ -261,6 +261,11 @@
       "keywords": "cron,générateur,tâche cron,cron,planifier,analyser,expression,année,mois,semaine,jour,minute,seconde",
       "title": "Cron Expression Generator"
     },
+    "data-transfer-calculator": {
+      "description": "Calculez le temps nécessaire pour transférer des données en fonction de la taille du fichier et de la vitesse de transfert. Estimez les temps de téléchargement/upload et planifiez les transferts réseau.",
+      "keywords": "données,transfert,calculateur,téléchargement,upload,vitesse,temps,bande passante,réseau,fichier,taille",
+      "title": "Calculateur de Transfert de Données"
+    },
     "date-calculator": {
       "description": "Effectuer des calculs de dates, calculer des différences de temps et convertir des unités de temps",
       "keywords": "date,calculatrice,temps,différence,arithmétique,ajouter,soustraire,convertir,jours,heures,minutes,semaines,mois,années",

@@ -1,6 +1,7 @@
 import type { ToolCategory } from './tools.types';
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
 import { tool as base64FileConverter } from './base64-file-converter';
+import { tool as dataTransferCalculator } from './data-transfer-calculator';
 import { tool as dateCalculator } from './date-calculator';
 import { tool as icoGenerator } from './ico-generator';
 import { tool as base64StringConverter } from './base64-string-converter';
@@ -169,7 +170,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Network',
-    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, macAddressLookup, macAddressGenerator, ipv6UlaGenerator],
+    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, macAddressLookup, macAddressGenerator, ipv6UlaGenerator, dataTransferCalculator],
   },
   {
     name: 'Math',

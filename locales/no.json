@@ -261,6 +261,11 @@
       "keywords": "cron,generator,cronjob,cron,timeplan,parse,uttrykk,år,måned,uke,dag,minutt,sekund",
       "title": "Cron Expression Generator"
     },
+    "data-transfer-calculator": {
+      "description": "Beregn hvor lang tid det tar å overføre data basert på filstørrelse og overføringshastighet. Estimer nedlastings-/opplastingstider og planlegg nettverksoverføringer.",
+      "keywords": "data,overføring,kalkulator,nedlasting,opplasting,hastighet,tid,båndbredde,nettverk,fil,størrelse",
+      "title": "Dataoverføringskalkulator"
+    },
     "date-calculator": {
       "description": "Utfør datoaritmetikk, beregn tidsforskjeller og konverter tidsenheter",
       "keywords": "dato,kalkulator,tid,forskjell,aritmetikk,legge til,trekke fra,konvertere,dager,timer,minutter,uker,måneder,år",

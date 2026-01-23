@@ -261,6 +261,11 @@
       "keywords": "cron,trình tạo,công việc cron,lịch trình,phân tích,biểu thức,năm,tháng,tuần,ngày,phút,giây",
       "title": "Trình tạo biểu thức Cron"
     },
+    "data-transfer-calculator": {
+      "description": "Tính toán thời gian truyền dữ liệu dựa trên kích thước tệp và tốc độ truyền. Ước tính thời gian tải xuống/tải lên và lập kế hoạch truyền mạng.",
+      "keywords": "dữ liệu,truyền,máy tính,tải xuống,tải lên,tốc độ,thời gian,băng thông,mạng,tệp,kích thước",
+      "title": "Máy Tính Truyền Dữ Liệu"
+    },
     "date-calculator": {
       "description": "Thực hiện phép tính ngày tháng, tính chênh lệch thời gian và chuyển đổi đơn vị thời gian",
       "keywords": "ngày,máy tính,thời gian,chênh lệch,số học,cộng,trừ,chuyển đổi,ngày,giờ,phút,tuần,tháng,năm",

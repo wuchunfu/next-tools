@@ -261,6 +261,11 @@
       "keywords": "cron,generator,cronjob,schedule,parse,expression,year,month,week,day,minute,second",
       "title": "Cron Expression Generator"
     },
+    "data-transfer-calculator": {
+      "description": "Calculate how long it takes to transfer data based on file size and transfer speed. Estimate download/upload times and plan network transfers.",
+      "keywords": "data,transfer,calculator,download,upload,speed,time,bandwidth,network,file,size",
+      "title": "Data Transfer Calculator"
+    },
     "date-calculator": {
       "description": "Perform date arithmetic, calculate time differences, and convert time units",
       "keywords": "date,calculator,time,difference,arithmetic,add,subtract,convert,days,hours,minutes,weeks,months,years",

@@ -261,6 +261,11 @@
       "keywords": "cron,generator,cronjob,planen,parsen,ausdruck,jahr,monat,woche,tag,minute,sekunde",
       "title": "Cron Expression Generator"
     },
+    "data-transfer-calculator": {
+      "description": "Berechnen Sie, wie lange die Datenübertragung basierend auf Dateigröße und Übertragungsgeschwindigkeit dauert. Schätzen Sie Download-/Upload-Zeiten und planen Sie Netzwerkübertragungen.",
+      "keywords": "daten,übertragung,rechner,download,upload,geschwindigkeit,zeit,bandbreite,netzwerk,datei,größe",
+      "title": "Datenübertragungsrechner"
+    },
     "date-calculator": {
       "description": "Datumsberechnungen durchführen, Zeitdifferenzen berechnen und Zeiteinheiten umrechnen",
       "keywords": "datum,rechner,zeit,differenz,arithmetik,addieren,subtrahieren,umrechnen,tage,stunden,minuten,wochen,monate,jahre",

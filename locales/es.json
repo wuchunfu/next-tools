@@ -261,6 +261,11 @@
       "keywords": "cron,generador,tarea cron,cron,programar,analizar,expresión,año,mes,semana,día,minuto,segundo",
       "title": "Generador de cron"
     },
+    "data-transfer-calculator": {
+      "description": "Calcula cuánto tiempo lleva transferir datos según el tamaño del archivo y la velocidad de transferencia. Estima tiempos de descarga/carga y planifica transferencias de red.",
+      "keywords": "datos,transferencia,calculadora,descarga,carga,velocidad,tiempo,ancho de banda,red,archivo,tamaño",
+      "title": "Calculadora de Transferencia de Datos"
+    },
     "date-calculator": {
       "description": "Realizar aritmética de fechas, calcular diferencias de tiempo y convertir unidades de tiempo",
       "keywords": "fecha,calculadora,tiempo,diferencia,aritmética,sumar,restar,convertir,días,horas,minutos,semanas,meses,años",
