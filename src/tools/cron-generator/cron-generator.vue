@@ -240,7 +240,7 @@ const cronPresets = computed(() => [
 <template>
   <div class="space-y-6">
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <AlarmClockCheck class="h-5 w-5 text-primary" />
@@ -381,7 +381,7 @@ const cronPresets = computed(() => [
 
     <!-- Generator Card -->
     <Card data-testid="generator-card">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Wand2 class="h-5 w-5 text-primary" />

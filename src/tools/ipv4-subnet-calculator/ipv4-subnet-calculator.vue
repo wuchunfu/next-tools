@@ -119,7 +119,7 @@ const canGoNext = computed(() => {
 <template>
   <div class="flex flex-col gap-6">
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Network class="h-5 w-5 text-primary" />
@@ -168,7 +168,7 @@ const canGoNext = computed(() => {
     </Card>
 
     <Card v-if="networkInfo" class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Table2 class="h-5 w-5 text-primary" />

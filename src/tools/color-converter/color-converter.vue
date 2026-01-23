@@ -120,7 +120,7 @@ watch(pickerColor, (newColor) => {
 <template>
   <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
     <Card class="lg:col-span-1 overflow-hidden">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Palette class="h-5 w-5 text-primary" />
@@ -144,7 +144,7 @@ watch(pickerColor, (newColor) => {
     </Card>
 
     <Card class="lg:col-span-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Pipette class="h-5 w-5 text-primary" />

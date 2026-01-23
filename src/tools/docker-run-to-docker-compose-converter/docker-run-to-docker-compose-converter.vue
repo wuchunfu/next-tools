@@ -44,7 +44,7 @@ function clearInput() {
 <template>
   <div class="space-y-6">
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Terminal class="h-5 w-5 text-primary" />

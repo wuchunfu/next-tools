@@ -77,7 +77,7 @@ const ibanExamples = [
   <div class="flex flex-col gap-6">
     <!-- Input Card -->
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Banknote class="h-5 w-5 text-primary" />
@@ -102,7 +102,7 @@ const ibanExamples = [
 
     <!-- Results Card -->
     <Card v-if="ibanInfo.length > 0">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Banknote class="h-5 w-5 text-primary" />
@@ -133,7 +133,7 @@ const ibanExamples = [
 
     <!-- Examples Card -->
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Banknote class="h-5 w-5 text-primary" />

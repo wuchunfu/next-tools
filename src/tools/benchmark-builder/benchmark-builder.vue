@@ -95,7 +95,7 @@ function copyAsBulletList() {
 <template>
   <div class="flex flex-col gap-6 lg:flex-row lg:items-start">
     <Card class="lg:flex-2 gap-0">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Server class="h-5 w-5 text-primary" />
@@ -149,7 +149,7 @@ function copyAsBulletList() {
     </Card>
 
     <Card class="lg:flex-3 gap-0">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Activity class="h-5 w-5 text-primary" />

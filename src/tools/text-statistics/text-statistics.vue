@@ -25,9 +25,9 @@ function clearText() {
 </script>
 
 <template>
-  <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+  <div class="flex flex-col gap-6">
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileText class="h-5 w-5 text-primary" />
@@ -64,7 +64,7 @@ function clearText() {
     </Card>
 
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <BarChart class="h-5 w-5 text-primary" />
@@ -74,7 +74,7 @@ function clearText() {
         </div>
       </CardHeader>
       <CardContent>
-        <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-2">
+        <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4">
           <div class="rounded-lg border bg-card px-3 py-4">
             <div class="text-sm text-muted-foreground">
               {{ t('tools.text-statistics.characterCount') }}

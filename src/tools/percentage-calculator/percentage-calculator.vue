@@ -69,7 +69,7 @@ function clearCalculation3() {
   <div class="flex flex-col gap-6">
     <!-- Calculation 1: What is X% of Y? -->
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Percent class="h-5 w-5 text-primary" />
@@ -151,7 +151,7 @@ function clearCalculation3() {
 
     <!-- Calculation 2: X is what percent of Y? -->
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Percent class="h-5 w-5 text-primary" />
@@ -233,7 +233,7 @@ function clearCalculation3() {
 
     <!-- Calculation 3: Percentage increase/decrease -->
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Percent class="h-5 w-5 text-primary" />

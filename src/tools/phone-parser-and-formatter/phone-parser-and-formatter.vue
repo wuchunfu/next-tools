@@ -172,7 +172,7 @@ function selectCountry(selectedValue: CountryCode) {
   <div class="flex flex-col gap-6">
     <!-- Input Card -->
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Phone class="h-5 w-5 text-primary" />
@@ -236,7 +236,7 @@ function selectCountry(selectedValue: CountryCode) {
 
     <!-- Results Card -->
     <Card v-if="filteredParsedDetails?.length">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Phone class="h-5 w-5 text-primary" />

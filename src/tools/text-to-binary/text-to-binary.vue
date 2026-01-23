@@ -55,7 +55,7 @@ function clearBinaryInput() {
 <template>
   <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
     <Card class="h-full gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Binary class="h-5 w-5 text-primary" />
@@ -123,7 +123,7 @@ function clearBinaryInput() {
     </Card>
 
     <Card class="h-full gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Binary class="h-5 w-5 text-primary" />

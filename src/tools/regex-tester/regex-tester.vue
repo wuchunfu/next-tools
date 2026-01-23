@@ -111,7 +111,7 @@ watchEffect(
 <template>
   <div class="flex flex-col gap-6">
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Code2 class="h-5 w-5 text-primary" />
@@ -257,7 +257,7 @@ watchEffect(
     </Card>
 
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileText class="h-5 w-5 text-primary" />
@@ -376,7 +376,7 @@ watchEffect(
     </Card>
 
     <Card v-if="regex && sample" class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Sparkles class="h-5 w-5 text-primary" />
@@ -407,7 +407,7 @@ watchEffect(
     </Card>
 
     <Card v-if="regex" class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Network class="h-5 w-5 text-primary" />

@@ -176,7 +176,7 @@ function formatTime(date: Date) {
 
     <!-- Permission Required -->
     <Card v-else-if="!permissionGranted">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Video class="h-5 w-5 text-primary" />
@@ -215,7 +215,7 @@ function formatTime(date: Date) {
 
     <!-- Main Content -->
     <Card v-else>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Video class="h-5 w-5 text-primary" />
@@ -365,7 +365,7 @@ function formatTime(date: Date) {
 
     <!-- Media Gallery -->
     <Card v-if="medias.length > 0">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <CardTitle class="flex items-center gap-2 text-base">
           <Image class="h-4 w-4 text-primary" />
           {{ t('tools.camera-recorder.gallery', 'Captured Media') }}

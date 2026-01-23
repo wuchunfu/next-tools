@@ -48,7 +48,7 @@ function clearInput() {
 <template>
   <div class="flex flex-col gap-6">
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Settings class="h-5 w-5 text-primary" />
@@ -101,7 +101,7 @@ function clearInput() {
     </Card>
 
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <CodeXml class="h-5 w-5 text-primary" />
@@ -158,7 +158,7 @@ function clearInput() {
     </Card>
 
     <Card v-if="xmlValidation.status !== 'error'" class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <CodeXml class="h-5 w-5 text-primary" />

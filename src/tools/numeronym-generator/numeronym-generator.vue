@@ -20,7 +20,7 @@ function clearInput() {
 <template>
   <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileText class="h-5 w-5 text-primary" />
@@ -43,7 +43,7 @@ function clearInput() {
     </Card>
 
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileText class="h-5 w-5 text-primary" />

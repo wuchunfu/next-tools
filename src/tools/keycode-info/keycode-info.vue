@@ -93,7 +93,7 @@ const fields = computed(() => {
 <template>
   <div class="space-y-6">
     <Card class="border-primary/30 bg-primary/5">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <CardTitle class="flex items-center gap-2">
           <Keyboard class="h-5 w-5 text-primary" />
           {{ t('tools.keycode-info.cardTitle', 'Keyboard Key Information') }}

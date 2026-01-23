@@ -54,7 +54,7 @@ const rawJsonValidation = useValidation({
 <template>
   <div class="flex flex-col gap-6">
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileSpreadsheet class="h-5 w-5 text-primary" />
@@ -105,7 +105,7 @@ const rawJsonValidation = useValidation({
     </Card>
 
     <Card v-if="rawJsonValidation.status !== 'error'" class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileSpreadsheet class="h-5 w-5 text-primary" />

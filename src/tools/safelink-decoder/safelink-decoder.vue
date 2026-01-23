@@ -51,7 +51,7 @@ function openDecodedUrl() {
 <template>
   <div class="flex flex-col gap-6">
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <ShieldCheck class="h-5 w-5 text-primary" />
@@ -109,7 +109,7 @@ function openDecodedUrl() {
     </Card>
 
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <ExternalLink class="h-5 w-5 text-primary" />

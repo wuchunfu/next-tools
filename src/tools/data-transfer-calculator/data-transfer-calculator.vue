@@ -209,7 +209,7 @@ const selectedTimeUnitLabel = computed(() => {
     </Alert>
 
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-3">
           <CardTitle class="flex items-center gap-2">
             <Calculator class="h-5 w-5 text-primary" />
@@ -383,7 +383,7 @@ const selectedTimeUnitLabel = computed(() => {
 
     <!-- Results Card -->
     <Card v-if="result" data-testid="result-card" class="border-primary/20 bg-gradient-to-br from-primary/5 to-primary/10">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Calculator class="h-5 w-5 text-primary" />

@@ -67,7 +67,7 @@ const currentFontLabel = computed(() => font.value || 'Standard')
   <div class="grid w-full max-w-4xl grid-cols-1 gap-4 lg:grid-cols-2">
     <!-- Options Card -->
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileText class="h-5 w-5 text-primary" />
@@ -156,7 +156,7 @@ const currentFontLabel = computed(() => font.value || 'Standard')
 
     <!-- Results Card -->
     <Card>
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileText class="h-5 w-5 text-primary" />

@@ -160,7 +160,7 @@ const fileBase64Length = computed(() => fileBase64.value?.length ?? 0)
 <template>
   <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
     <Card class="h-full min-w-0 gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileUp class="h-5 w-5 text-primary" />
@@ -267,7 +267,7 @@ const fileBase64Length = computed(() => fileBase64.value?.length ?? 0)
     </Card>
 
     <Card class="h-full min-w-0 gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Upload class="h-5 w-5 text-primary" />

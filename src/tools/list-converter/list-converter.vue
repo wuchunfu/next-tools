@@ -71,7 +71,7 @@ function clearInput() {
 <template>
   <div class="space-y-6">
     <Card class="min-w-0">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Settings class="h-5 w-5 text-primary" />
@@ -221,7 +221,7 @@ function clearInput() {
     </Card>
 
     <Card class="min-w-0">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <ArrowRight class="h-5 w-5 text-primary" />

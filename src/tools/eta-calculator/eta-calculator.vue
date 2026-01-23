@@ -96,7 +96,7 @@ function clearInputs() {
     </Alert>
 
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Clock class="h-5 w-5 text-primary" />
@@ -201,7 +201,7 @@ function clearInputs() {
     </Card>
 
     <Card v-if="hasResults" class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Clock class="h-5 w-5 text-primary" />

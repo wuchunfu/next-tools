@@ -182,7 +182,7 @@ function printHtml() {
 <template>
   <div class="flex flex-col gap-6">
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <FileCode class="h-5 w-5 text-primary" />
@@ -227,7 +227,7 @@ function printHtml() {
     </Card>
 
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="flex items-start justify-between gap-4">
           <div class="space-y-1">
             <CardTitle class="flex items-center gap-2">

@@ -23,7 +23,7 @@ function handleClear() {
 <template>
   <div class="grid gap-6 md:grid-cols-2">
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Link2 class="h-5 w-5 text-primary" />
@@ -65,7 +65,7 @@ function handleClear() {
     </Card>
 
     <Card class="gap-2">
-      <CardHeader class="pb-4">
+      <CardHeader>
         <div class="space-y-1">
           <CardTitle class="flex items-center gap-2">
             <Link2 class="h-5 w-5 text-primary" />
