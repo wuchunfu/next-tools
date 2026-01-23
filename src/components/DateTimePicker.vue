@@ -28,7 +28,7 @@ const emit = defineEmits<{
   'update:modelValue': [value: Date]
 }>()
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
 // Use vueuse's useVModel
 const date = useVModel(props, 'modelValue', emit, {
@@ -124,7 +124,10 @@ function setCurrentTime() {
     <PopoverContent class="w-auto p-0">
       <Calendar
         v-model="dateValue"
+        :placeholder="dateValue"
+        layout="month-and-year"
         :initial-focus="true"
+        :locale="locale"
       />
       <div class="border-t p-3 space-y-2">
         <Input

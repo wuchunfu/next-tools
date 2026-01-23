@@ -32,7 +32,7 @@ const yearRange = computed(() => {
       .cycle('year', -100),
 
     end: props?.maxValue ?? (toRaw(props.placeholder) ?? props.defaultPlaceholder ?? today(getLocalTimeZone()))
-      .cycle('year', 10),
+      .cycle('year', 100),
   })
 });
 
@@ -50,6 +50,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
           {{ formatter.custom(toDate(date), { month: 'short' }) }}
         </div>
         <NativeSelect
+          :model-value="date.month"
           class="text-xs h-8 pr-6 pl-2 text-transparent relative"
           @change="(e: Event) => {
             placeholder = placeholder.set({
@@ -57,7 +58,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
             })
           }"
         >
-          <NativeSelectOption v-for="(month) in createYear({ dateObj: date })" :key="month.toString()" :value="month.month" :selected="date.month === month.month">
+          <NativeSelectOption v-for="(month) in createYear({ dateObj: date })" :key="month.toString()" :selected="date.month === month.month" :value="month.month">
             {{ formatter.custom(toDate(month), { month: 'short' }) }}
           </NativeSelectOption>
         </NativeSelect>
@@ -72,6 +73,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
           {{ formatter.custom(toDate(date), { year: 'numeric' }) }}
         </div>
         <NativeSelect
+          :model-value="date.year"
           class="text-xs h-8 pr-6 pl-2 text-transparent relative"
           @change="(e: Event) => {
             placeholder = placeholder.set({
@@ -79,7 +81,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
             })
           }"
         >
-          <NativeSelectOption v-for="(year) in yearRange" :key="year.toString()" :value="year.year" :selected="date.year === year.year">
+          <NativeSelectOption v-for="(year) in yearRange" :key="year.toString()" :selected="date.year === year.year" :value="year.year">
             {{ formatter.custom(toDate(year), { year: 'numeric' }) }}
           </NativeSelectOption>
         </NativeSelect>
@@ -89,10 +91,10 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
 
   <CalendarRoot
     v-slot="{ grid, weekDays, date }"
-    v-bind="forwarded"
     v-model:placeholder="placeholder"
-    data-slot="calendar"
     :class="cn('p-3', props.class)"
+    data-slot="calendar"
+    v-bind="forwarded"
   >
     <CalendarHeader class="pt-0">
       <nav class="flex items-center gap-1 absolute top-0 inset-x-0 justify-between">
@@ -104,7 +106,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits)
         </CalendarNextButton>
       </nav>
 
-      <slot name="calendar-heading" :date="date" :month="ReuseMonthTemplate" :year="ReuseYearTemplate">
+      <slot :date="date" :month="ReuseMonthTemplate" :year="ReuseYearTemplate" name="calendar-heading">
         <template v-if="layout === 'month-and-year'">
           <div class="flex items-center justify-center gap-1">
             <ReuseMonthTemplate :date="date" />
