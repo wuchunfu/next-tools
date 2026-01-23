@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.8.2
+
+### Bug fixes
+-  resolve PWA periodic update check failure (859669f)
+
 ## Version 1.8.1
 
 ### Features
