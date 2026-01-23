@@ -55,7 +55,7 @@ export const usePwaStore = defineStore('pwa', () => {
       onRegisteredSW(swUrl, registration) {
         if (registration) {
           // Check for updates every hour using VueUse
-          useIntervalFn(registration.update, 60 * 60 * 1000);
+          useIntervalFn(() => registration.update(), 60 * 60 * 1000);
         }
       },
       onRegisterError(error) {
