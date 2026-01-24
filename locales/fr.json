@@ -641,6 +641,33 @@
       "title": "Testeur d'Écran",
       "description": "Outil complet de test d'écran pour détecter les pixels morts, tester la précision des couleurs, les transitions de niveaux de gris, le temps de réponse et plus encore. Prend en charge les couleurs unies, les dégradés, l'alignement de la grille et divers motifs de test.",
       "keywords": "écran,moniteur,test,pixel mort,pixel bloqué,point lumineux,point sombre,pixel,couleur,niveaux de gris,dégradé,calibration,RGB,contraste,temps de réponse"
+    },
+    "keyboard-tester": {
+      "title": "Testeur de Clavier",
+      "description": "Testez les touches de votre clavier et vérifiez si toutes les touches fonctionnent correctement. Retour visuel pour chaque pression de touche avec prise en charge de différentes dispositions de clavier.",
+      "keywords": "clavier,testeur,test,touches,disposition,mécanique,frappe,azerty,qwerty,vérifier,fonctionner",
+      "reset": "Réinitialiser",
+      "progress": "Progression du test",
+      "keys": "Touches",
+      "layout": "Disposition du clavier",
+      "size": "Taille du clavier",
+      "sizes": {
+        "60": "60% Compact",
+        "full": "Taille complète (100%)",
+        "tkl": "TKL (80%)"
+      },
+      "instructions": {
+        "title": "Instructions",
+        "press": "Appuyez sur n'importe quelle touche de votre clavier pour la tester",
+        "highlight": "Les touches pressées seront mises en surbrillance",
+        "tested": "Les touches testées seront affichées en vert",
+        "reset": "Cliquez sur le bouton \"Réinitialiser\" pour effacer les enregistrements de test"
+      },
+      "legend": {
+        "untested": "Non testé",
+        "pressed": "Pressé",
+        "tested": "Testé"
+      }
     }
   }
 }

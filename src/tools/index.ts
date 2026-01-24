@@ -1,6 +1,7 @@
 import type { ToolCategory } from './tools.types';
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
 import { tool as base64FileConverter } from './base64-file-converter';
+import { tool as keyboardTester } from './keyboard-tester';
 import { tool as displayTester } from './display-tester';
 import { tool as dataTransferCalculator } from './data-transfer-calculator';
 import { tool as dateCalculator } from './date-calculator';
@@ -199,7 +200,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Device',
-    components: [displayTester],
+    components: [displayTester, keyboardTester],
   },
 ]
 

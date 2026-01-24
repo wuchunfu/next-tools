@@ -641,6 +641,33 @@
       "title": "Kiểm tra Màn hình",
       "description": "Công cụ kiểm tra màn hình toàn diện để phát hiện điểm chết, kiểm tra độ chính xác màu sắc, chuyển đổi thang độ xám, thời gian phản hồi và nhiều hơn nữa. Hỗ trợ màu đồng nhất, gradient, căn chỉnh lưới và các mẫu kiểm tra khác nhau.",
       "keywords": "màn hình,monitor,kiểm tra,điểm chết,điểm kẹt,điểm sáng,điểm tối,pixel,màu sắc,thang độ xám,gradient,hiệu chuẩn,RGB,độ tương phản,thời gian phản hồi"
+    },
+    "keyboard-tester": {
+      "title": "Kiểm tra Bàn phím",
+      "description": "Kiểm tra các phím trên bàn phím của bạn và kiểm tra xem tất cả các phím có hoạt động bình thường không. Phản hồi trực quan cho mỗi lần nhấn phím với hỗ trợ cho các bố cục bàn phím khác nhau.",
+      "keywords": "bàn phím,kiểm tra,test,phím,bố cục,cơ,gõ,qwerty,kiểm tra,hoạt động",
+      "reset": "Đặt lại",
+      "progress": "Tiến độ kiểm tra",
+      "keys": "Phím",
+      "layout": "Bố cục bàn phím",
+      "size": "Kích thước bàn phím",
+      "sizes": {
+        "60": "60% Nhỏ gọn",
+        "full": "Kích thước đầy đủ (100%)",
+        "tkl": "TKL (80%)"
+      },
+      "instructions": {
+        "title": "Hướng dẫn",
+        "press": "Nhấn bất kỳ phím nào trên bàn phím của bạn để kiểm tra",
+        "highlight": "Các phím được nhấn sẽ được làm nổi bật",
+        "tested": "Các phím đã kiểm tra sẽ được hiển thị màu xanh lá",
+        "reset": "Nhấp vào nút \"Đặt lại\" để xóa bản ghi kiểm tra"
+      },
+      "legend": {
+        "untested": "Chưa kiểm tra",
+        "pressed": "Đang nhấn",
+        "tested": "Đã kiểm tra"
+      }
     }
   }
 }

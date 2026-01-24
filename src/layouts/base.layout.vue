@@ -160,7 +160,7 @@ const tools = computed<ToolCategory[]>(() => [
       <SidebarRail />
     </Sidebar>
 
-    <SidebarInset class="h-screen flex flex-col">
+    <SidebarInset class="h-screen flex flex-col overflow-hidden">
       <header class="border-b shrink-0">
         <div class="flex h-14 items-center gap-3 px-3">
           <SidebarTrigger />

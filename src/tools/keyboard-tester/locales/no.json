@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "keyboard-tester": {
+      "title": "Tastatur-tester",
+      "description": "Test tastaturets taster og sjekk om alle taster fungerer som de skal. Visuell tilbakemelding for hvert tastetrykk med støtte for forskjellige tastaturoppsett.",
+      "keywords": "tastatur,tester,test,taster,oppsett,mekanisk,skriving,qwerty,sjekke,fungere",
+      "reset": "Tilbakestill",
+      "progress": "Testfremgang",
+      "keys": "Taster",
+      "layout": "Tastaturoppsett",
+      "size": "Tastaturstørrelse",
+      "sizes": {
+        "60": "60% Kompakt",
+        "full": "Full størrelse (100%)",
+        "tkl": "TKL (80%)"
+      },
+      "instructions": {
+        "title": "Instruksjoner",
+        "press": "Trykk på en hvilken som helst tast på tastaturet for å teste den",
+        "highlight": "Trykte taster vil bli uthevet",
+        "tested": "Testede taster vil vises i grønt",
+        "reset": "Klikk på \"Tilbakestill\"-knappen for å slette testoppføringer"
+      },
+      "legend": {
+        "untested": "Ikke testet",
+        "pressed": "Trykket",
+        "tested": "Testet"
+      }
+    }
+  }
+}

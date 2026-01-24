@@ -641,6 +641,33 @@
       "title": "Display Tester",
       "description": "Comprehensive display testing tool for detecting dead pixels, testing color accuracy, grayscale transitions, response time, and more. Supports solid colors, gradients, grid alignment, and various test patterns.",
       "keywords": "display,screen,monitor,test,dead pixel,stuck pixel,bright dot,dark dot,pixel,color,grayscale,gradient,calibration,RGB,contrast,response time"
+    },
+    "keyboard-tester": {
+      "title": "Keyboard Tester",
+      "description": "Test your keyboard keys and check if all keys are working properly. Visual feedback for each key press with support for different keyboard layouts.",
+      "keywords": "keyboard,tester,test,keys,layout,mechanical,typing,qwerty,azerty,dvorak,check,working",
+      "reset": "Reset",
+      "progress": "Test Progress",
+      "keys": "Keys",
+      "layout": "Keyboard Layout",
+      "size": "Keyboard Size",
+      "sizes": {
+        "60": "60% Compact",
+        "full": "Full Size (100%)",
+        "tkl": "TKL (80%)"
+      },
+      "instructions": {
+        "title": "Instructions",
+        "press": "Press any key on your keyboard to test it",
+        "highlight": "Pressed keys will be highlighted",
+        "tested": "Tested keys will be shown in green",
+        "reset": "Click the \"Reset\" button to clear test records"
+      },
+      "legend": {
+        "untested": "Untested",
+        "pressed": "Pressed",
+        "tested": "Tested"
+      }
     }
   }
 }

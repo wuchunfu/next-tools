@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "keyboard-tester": {
+      "title": "Keyboard Tester",
+      "description": "Test your keyboard keys and check if all keys are working properly. Visual feedback for each key press with support for different keyboard layouts.",
+      "keywords": "keyboard,tester,test,keys,layout,mechanical,typing,qwerty,azerty,dvorak,check,working",
+      "reset": "Reset",
+      "progress": "Test Progress",
+      "keys": "Keys",
+      "layout": "Keyboard Layout",
+      "size": "Keyboard Size",
+      "sizes": {
+        "full": "Full Size (100%)",
+        "tkl": "TKL (80%)",
+        "60": "60% Compact"
+      },
+      "instructions": {
+        "title": "Instructions",
+        "press": "Press any key on your keyboard to test it",
+        "highlight": "Pressed keys will be highlighted",
+        "tested": "Tested keys will be shown in green",
+        "reset": "Click the \"Reset\" button to clear test records"
+      },
+      "legend": {
+        "untested": "Untested",
+        "pressed": "Pressed",
+        "tested": "Tested"
+      }
+    }
+  }
+}

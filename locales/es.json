@@ -641,6 +641,33 @@
       "title": "Probador de Pantalla",
       "description": "Herramienta completa de prueba de pantalla para detectar píxeles muertos, probar la precisión del color, transiciones de escala de grises, tiempo de respuesta y más. Admite colores sólidos, degradados, alineación de cuadrícula y varios patrones de prueba.",
       "keywords": "pantalla,monitor,prueba,píxel muerto,píxel atascado,punto brillante,punto oscuro,píxel,color,escala de grises,degradado,calibración,RGB,contraste,tiempo de respuesta"
+    },
+    "keyboard-tester": {
+      "title": "Probador de Teclado",
+      "description": "Pruebe las teclas de su teclado y verifique si todas las teclas funcionan correctamente. Retroalimentación visual para cada pulsación de tecla con soporte para diferentes diseños de teclado.",
+      "keywords": "teclado,probador,prueba,teclas,diseño,mecánico,escritura,qwerty,verificar,funcionando",
+      "reset": "Restablecer",
+      "progress": "Progreso de prueba",
+      "keys": "Teclas",
+      "layout": "Diseño de teclado",
+      "size": "Tamaño de teclado",
+      "sizes": {
+        "60": "60% Compacto",
+        "full": "Tamaño completo (100%)",
+        "tkl": "TKL (80%)"
+      },
+      "instructions": {
+        "title": "Instrucciones",
+        "press": "Presione cualquier tecla de su teclado para probarla",
+        "highlight": "Las teclas presionadas se resaltarán",
+        "tested": "Las teclas probadas se mostrarán en verde",
+        "reset": "Haga clic en el botón \"Restablecer\" para borrar los registros de prueba"
+      },
+      "legend": {
+        "untested": "No probado",
+        "pressed": "Presionado",
+        "tested": "Probado"
+      }
     }
   }
 }

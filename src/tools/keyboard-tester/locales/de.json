@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "keyboard-tester": {
+      "title": "Tastatur-Tester",
+      "description": "Testen Sie Ihre Tastaturtasten und prüfen Sie, ob alle Tasten ordnungsgemäß funktionieren. Visuelles Feedback für jeden Tastendruck mit Unterstützung für verschiedene Tastaturlayouts.",
+      "keywords": "tastatur,tester,test,tasten,layout,mechanisch,tippen,qwertz,prüfen,funktionieren",
+      "reset": "Zurücksetzen",
+      "progress": "Testfortschritt",
+      "keys": "Tasten",
+      "layout": "Tastaturlayout",
+      "size": "Tastaturgröße",
+      "sizes": {
+        "60": "60% Kompakt",
+        "full": "Vollgröße (100%)",
+        "tkl": "TKL (80%)"
+      },
+      "instructions": {
+        "title": "Anleitung",
+        "press": "Drücken Sie eine beliebige Taste auf Ihrer Tastatur, um sie zu testen",
+        "highlight": "Gedrückte Tasten werden hervorgehoben",
+        "tested": "Getestete Tasten werden grün angezeigt",
+        "reset": "Klicken Sie auf die Schaltfläche \"Zurücksetzen\", um die Testaufzeichnungen zu löschen"
+      },
+      "legend": {
+        "untested": "Nicht getestet",
+        "pressed": "Gedrückt",
+        "tested": "Getestet"
+      }
+    }
+  }
+}

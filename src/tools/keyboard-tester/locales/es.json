@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "keyboard-tester": {
+      "title": "Probador de Teclado",
+      "description": "Pruebe las teclas de su teclado y verifique si todas las teclas funcionan correctamente. Retroalimentación visual para cada pulsación de tecla con soporte para diferentes diseños de teclado.",
+      "keywords": "teclado,probador,prueba,teclas,diseño,mecánico,escritura,qwerty,verificar,funcionando",
+      "reset": "Restablecer",
+      "progress": "Progreso de prueba",
+      "keys": "Teclas",
+      "layout": "Diseño de teclado",
+      "size": "Tamaño de teclado",
+      "sizes": {
+        "60": "60% Compacto",
+        "full": "Tamaño completo (100%)",
+        "tkl": "TKL (80%)"
+      },
+      "instructions": {
+        "title": "Instrucciones",
+        "press": "Presione cualquier tecla de su teclado para probarla",
+        "highlight": "Las teclas presionadas se resaltarán",
+        "tested": "Las teclas probadas se mostrarán en verde",
+        "reset": "Haga clic en el botón \"Restablecer\" para borrar los registros de prueba"
+      },
+      "legend": {
+        "untested": "No probado",
+        "pressed": "Presionado",
+        "tested": "Probado"
+      }
+    }
+  }
+}
