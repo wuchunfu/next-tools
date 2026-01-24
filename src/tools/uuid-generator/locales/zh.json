@@ -33,6 +33,10 @@
       "versionV4Description": "随机 UUID（最常用）。",
       "versionV5": "版本 5",
       "versionV5Description": "基于 SHA-1 哈希和命名空间的名称型 UUID。",
+      "versionV6": "版本 6",
+      "versionV6Description": "基于时间戳的有序 UUID（改进的 v1）。",
+      "versionV7": "版本 7",
+      "versionV7Description": "基于 Unix 时间戳的有序 UUID（推荐用于数据库）。",
       "yourUuids": "您的 UUID"
     }
   }

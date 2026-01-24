@@ -33,6 +33,10 @@
       "versionV4Description": "Zufällige UUID (am häufigsten verwendet).",
       "versionV5": "Version 5",
       "versionV5Description": "Namensbasierte UUID mit SHA-1-Hashing und Namespace.",
+      "versionV6": "Version 6",
+      "versionV6Description": "Zeitgeordnete UUID (verbessertes v1 mit besserer Sortierung).",
+      "versionV7": "Version 7",
+      "versionV7Description": "Unix-Zeitstempel-basierte sortierbare UUID (empfohlen für Datenbanken).",
       "yourUuids": "Ihre UUIDs"
     }
   }

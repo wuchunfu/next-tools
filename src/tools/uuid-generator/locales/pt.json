@@ -33,6 +33,10 @@
       "versionV4Description": "UUID aleatório (mais comumente usado).",
       "versionV5": "Versão 5",
       "versionV5Description": "UUID baseado em nome usando hash SHA-1 e namespace.",
+      "versionV6": "Versão 6",
+      "versionV6Description": "UUID ordenado por tempo (v1 melhorado com melhor ordenação).",
+      "versionV7": "Versão 7",
+      "versionV7Description": "UUID ordenável baseado em timestamp Unix (recomendado para bancos de dados).",
       "yourUuids": "Seus UUIDs"
     }
   }

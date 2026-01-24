@@ -33,6 +33,10 @@
       "versionV4Description": "Tilfeldig UUID (mest brukt).",
       "versionV5": "Versjon 5",
       "versionV5Description": "Navnbasert UUID som bruker SHA-1-hashing og navneområde.",
+      "versionV6": "Versjon 6",
+      "versionV6Description": "Tidsorientert UUID (forbedret v1 med bedre sortering).",
+      "versionV7": "Versjon 7",
+      "versionV7Description": "Unix-tidsstempel-basert sorterbar UUID (anbefalt for databaser).",
       "yourUuids": "Dine UUIDs"
     }
   }

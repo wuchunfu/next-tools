@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Copy, Settings, RefreshCw } from 'lucide-vue-next';
-import { v1 as generateUuidV1, v3 as generateUuidV3, v4 as generateUuidV4, v5 as generateUuidV5, NIL as nilUuid } from 'uuid';
+import { v1 as generateUuidV1, v3 as generateUuidV3, v4 as generateUuidV4, v5 as generateUuidV5, v6 as generateUuidV6, v7 as generateUuidV7, NIL as nilUuid } from 'uuid';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
@@ -23,7 +23,7 @@ import { useCopy } from '@/composable/copy';
 import { useToolI18n } from '@/composable/useToolI18n';
 import { withDefaultOnError } from '@/utils/defaults'
 
-const version = useStorage<'NIL' | 'v1' | 'v3' | 'v4' | 'v5'>('uuid-generator:version', 'v4')
+const version = useStorage<'NIL' | 'v1' | 'v3' | 'v4' | 'v5' | 'v6' | 'v7'>('uuid-generator:version', 'v4')
 const count = useStorage('uuid-generator:quantity', 1)
 const v35Args = ref({ namespace: '6ba7b811-9dad-11d1-80b4-00c04fd430c8', name: '' })
 
@@ -52,6 +52,8 @@ const generators = {
   v3: () => generateUuidV3(v35Args.value.name, v35Args.value.namespace),
   v4: () => generateUuidV4(),
   v5: () => generateUuidV5(v35Args.value.name, v35Args.value.namespace),
+  v6: () => generateUuidV6(),
+  v7: () => generateUuidV7(),
 }
 
 const [uuids, refreshUUIDs] = computedRefreshable(() => withDefaultOnError(() =>
@@ -164,6 +166,28 @@ const namespaceError = computed(() => {
                   </FieldDescription>
                 </FieldContent>
                 <RadioGroupItem id="uuid-version-v5" value="v5" />
+              </Field>
+            </FieldLabel>
+            <FieldLabel for="uuid-version-v6" class="cursor-pointer hover:bg-accent/50">
+              <Field orientation="horizontal">
+                <FieldContent>
+                  <FieldTitle>{{ t('tools.uuid-generator.versionV6') }}</FieldTitle>
+                  <FieldDescription>
+                    {{ t('tools.uuid-generator.versionV6Description') }}
+                  </FieldDescription>
+                </FieldContent>
+                <RadioGroupItem id="uuid-version-v6" value="v6" />
+              </Field>
+            </FieldLabel>
+            <FieldLabel for="uuid-version-v7" class="cursor-pointer hover:bg-accent/50">
+              <Field orientation="horizontal">
+                <FieldContent>
+                  <FieldTitle>{{ t('tools.uuid-generator.versionV7') }}</FieldTitle>
+                  <FieldDescription>
+                    {{ t('tools.uuid-generator.versionV7Description') }}
+                  </FieldDescription>
+                </FieldContent>
+                <RadioGroupItem id="uuid-version-v7" value="v7" />
               </Field>
             </FieldLabel>
           </RadioGroup>

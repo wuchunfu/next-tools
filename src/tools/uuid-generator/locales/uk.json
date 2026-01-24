@@ -33,6 +33,10 @@
       "versionV4Description": "Випадковий UUID (найбільш часто використовуваний).",
       "versionV5": "Версія 5",
       "versionV5Description": "UUID на основі імені, що використовує хешування SHA-1 та простір імен.",
+      "versionV6": "Версія 6",
+      "versionV6Description": "UUID з часовим сортуванням (покращена v1 з кращим сортуванням).",
+      "versionV7": "Версія 7",
+      "versionV7Description": "UUID з можливістю сортування на основі часової мітки Unix (рекомендовано для баз даних).",
       "yourUuids": "Ваші UUID"
     }
   }

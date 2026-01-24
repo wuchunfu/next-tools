@@ -33,6 +33,10 @@
       "versionV4Description": "UUID ngẫu nhiên (được sử dụng phổ biến nhất).",
       "versionV5": "Phiên bản 5",
       "versionV5Description": "UUID dựa trên tên sử dụng băm SHA-1 và không gian tên.",
+      "versionV6": "Phiên bản 6",
+      "versionV6Description": "UUID có thứ tự dựa trên thời gian (cải tiến v1 với sắp xếp tốt hơn).",
+      "versionV7": "Phiên bản 7",
+      "versionV7Description": "UUID có thể sắp xếp dựa trên dấu thời gian Unix (được khuyến nghị cho cơ sở dữ liệu).",
       "yourUuids": "UUID của bạn"
     }
   }

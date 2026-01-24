@@ -33,6 +33,10 @@
       "versionV4Description": "Случайный UUID (наиболее часто используемый).",
       "versionV5": "Версия 5",
       "versionV5Description": "UUID на основе имени, использующий хеширование SHA-1 и пространство имен.",
+      "versionV6": "Версия 6",
+      "versionV6Description": "UUID с временной сортировкой (улучшенная v1 с лучшей сортировкой).",
+      "versionV7": "Версия 7",
+      "versionV7Description": "Сортируемый UUID на основе временной метки Unix (рекомендуется для баз данных).",
       "yourUuids": "Ваши UUID"
     }
   }
