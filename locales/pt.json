@@ -46,6 +46,7 @@
     "data": "Dados",
     "date and time": "Data e Hora",
     "development": "Desenvolvimento",
+    "device": "Dispositivo",
     "favorite-tools": "Suas ferramentas favoritas",
     "images and videos": "Imagens & Vídeos",
     "math": "Matemática",
@@ -635,6 +636,11 @@
       "description": "Analise e converta YAML para TOML.",
       "keywords": "yaml,para,toml,converter,transformar",
       "title": "YAML para TOML"
+    },
+    "display-tester": {
+      "title": "Testador de Tela",
+      "description": "Ferramenta abrangente de teste de tela para detectar pixels mortos, testar precisão de cores, transições de escala de cinza, tempo de resposta e muito mais. Suporta cores sólidas, gradientes, alinhamento de grade e vários padrões de teste.",
+      "keywords": "tela,monitor,teste,pixel morto,pixel preso,ponto brilhante,ponto escuro,pixel,cor,escala de cinza,gradiente,calibração,RGB,contraste,tempo de resposta"
     }
   }
 }

@@ -46,6 +46,7 @@
     "data": "Daten",
     "date and time": "Datum und Uhrzeit",
     "development": "Entwicklung",
+    "device": "Gerät",
     "favorite-tools": "Deine Lieblingstools",
     "images and videos": "Bilder & Videos",
     "math": "Mathematik",
@@ -635,6 +636,11 @@
       "description": "Parse und konvertiere YAML zu TOML.",
       "keywords": "yaml,zu,toml,konvertieren,transformieren",
       "title": "YAML zu TOML"
+    },
+    "display-tester": {
+      "title": "Display-Tester",
+      "description": "Umfassendes Display-Testtool zur Erkennung toter Pixel, Testen der Farbgenauigkeit, Graustufen-Übergänge, Reaktionszeit und mehr. Unterstützt Volltonfarben, Verläufe, Rasterausrichtung und verschiedene Testmuster.",
+      "keywords": "display,bildschirm,monitor,test,toter pixel,hängender pixel,heller punkt,dunkler punkt,pixel,farbe,graustufen,verlauf,kalibrierung,RGB,kontrast,reaktionszeit"
     }
   }
 }

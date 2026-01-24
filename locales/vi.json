@@ -46,6 +46,7 @@
     "data": "Dữ liệu",
     "date and time": "Ngày và Giờ",
     "development": "Phát triển",
+    "device": "Thiết bị",
     "favorite-tools": "Công cụ yêu thích của bạn",
     "images and videos": "Hình ảnh & Video",
     "math": "Toán học",
@@ -635,6 +636,11 @@
       "description": "Phân tích và chuyển đổi YAML sang TOML.",
       "keywords": "yaml,sang,toml,chuyển đổi,chuyển đổi",
       "title": "YAML sang TOML"
+    },
+    "display-tester": {
+      "title": "Kiểm tra Màn hình",
+      "description": "Công cụ kiểm tra màn hình toàn diện để phát hiện điểm chết, kiểm tra độ chính xác màu sắc, chuyển đổi thang độ xám, thời gian phản hồi và nhiều hơn nữa. Hỗ trợ màu đồng nhất, gradient, căn chỉnh lưới và các mẫu kiểm tra khác nhau.",
+      "keywords": "màn hình,monitor,kiểm tra,điểm chết,điểm kẹt,điểm sáng,điểm tối,pixel,màu sắc,thang độ xám,gradient,hiệu chuẩn,RGB,độ tương phản,thời gian phản hồi"
     }
   }
 }

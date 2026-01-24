@@ -1,0 +1,55 @@
+{
+  "tools": {
+    "display-tester": {
+      "title": "Probador de Pantalla",
+      "description": "Herramienta completa de prueba de pantalla",
+      "testModes": {
+        "solidColors": "Colores Sólidos",
+        "grayscale": "Escala de Grises",
+        "gradient": "Degradado",
+        "grid": "Cuadrícula",
+        "responseTime": "Tiempo de Respuesta"
+      },
+      "colors": {
+        "black": "Negro",
+        "white": "Blanco",
+        "red": "Rojo",
+        "green": "Verde",
+        "blue": "Azul",
+        "cyan": "Cian",
+        "magenta": "Magenta",
+        "yellow": "Amarillo"
+      },
+      "grayscaleLevels": {
+        "level": "Gris {level}%"
+      },
+      "instructions": {
+        "solidColors": "Use fondos de color sólido para detectar píxeles muertos y atascados. Observe cuidadosamente cualquier píxel anormal en la pantalla.",
+        "grayscale": "Pruebe las transiciones de escala de grises y el contraste de su monitor. Busque bandas de color o áreas desiguales.",
+        "gradient": "Verifique si los degradados de color son suaves sin bandas visibles.",
+        "grid": "Verifique la alineación de píxeles y la geometría de la pantalla. Las líneas de la cuadrícula deben ser rectas y estar distribuidas uniformemente.",
+        "responseTime": "Pruebe el tiempo de respuesta de la pantalla. Observe si hay efecto fantasma o desenfoque en los cuadrados en movimiento."
+      },
+      "controls": {
+        "startTest": "Iniciar Prueba",
+        "exitFullscreen": "Salir de Pantalla Completa",
+        "nextColor": "Siguiente",
+        "previousColor": "Anterior",
+        "pressEsc": "Presione ESC para salir",
+        "pressArrows": "Use las flechas para navegar",
+        "pressF": "Presione F para pantalla completa"
+      },
+      "tips": {
+        "title": "Consejos de Prueba",
+        "tip1": "Pruebe en una habitación oscura para obtener mejores resultados",
+        "tip2": "Observe cada color durante al menos 10-15 segundos",
+        "tip3": "Vea la pantalla desde diferentes ángulos",
+        "tip4": "Use el modo de pantalla completa para las pruebas",
+        "tip5": "Si encuentra un píxel muerto, intente presionar suavemente el área (a veces puede solucionarlo)"
+      },
+      "selectMode": "Seleccionar Modo de Prueba",
+      "cardTitle": "Probador de Pantalla",
+      "cardDescription": "Herramienta profesional de prueba de pantalla para detectar píxeles muertos, probar la precisión del color y la calidad de la pantalla."
+    }
+  }
+}

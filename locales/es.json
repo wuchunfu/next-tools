@@ -46,6 +46,7 @@
     "data": "Datos",
     "date and time": "Fecha y Hora",
     "development": "Desarrollo",
+    "device": "Dispositivo",
     "favorite-tools": "Tus herramientas favoritas",
     "images and videos": "Imágenes y Videos",
     "math": "Matemáticas",
@@ -635,6 +636,11 @@
       "description": "Analiza y convierte YAML a TOML.",
       "keywords": "yaml,a,toml,convertir,transformar",
       "title": "YAML a TOML"
+    },
+    "display-tester": {
+      "title": "Probador de Pantalla",
+      "description": "Herramienta completa de prueba de pantalla para detectar píxeles muertos, probar la precisión del color, transiciones de escala de grises, tiempo de respuesta y más. Admite colores sólidos, degradados, alineación de cuadrícula y varios patrones de prueba.",
+      "keywords": "pantalla,monitor,prueba,píxel muerto,píxel atascado,punto brillante,punto oscuro,píxel,color,escala de grises,degradado,calibración,RGB,contraste,tiempo de respuesta"
     }
   }
 }

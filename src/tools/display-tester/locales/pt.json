@@ -1,0 +1,55 @@
+{
+  "tools": {
+    "display-tester": {
+      "title": "Testador de Tela",
+      "description": "Ferramenta abrangente de teste de tela",
+      "testModes": {
+        "solidColors": "Cores Sólidas",
+        "grayscale": "Escala de Cinza",
+        "gradient": "Gradiente",
+        "grid": "Grade",
+        "responseTime": "Tempo de Resposta"
+      },
+      "colors": {
+        "black": "Preto",
+        "white": "Branco",
+        "red": "Vermelho",
+        "green": "Verde",
+        "blue": "Azul",
+        "cyan": "Ciano",
+        "magenta": "Magenta",
+        "yellow": "Amarelo"
+      },
+      "grayscaleLevels": {
+        "level": "Cinza {level}%"
+      },
+      "instructions": {
+        "solidColors": "Use fundos de cor sólida para detectar pixels mortos e presos. Observe cuidadosamente qualquer pixel anormal na tela.",
+        "grayscale": "Teste as transições de escala de cinza e o contraste do seu monitor. Verifique se há faixas de cor ou áreas irregulares.",
+        "gradient": "Verifique se os gradientes de cor são suaves sem faixas visíveis.",
+        "grid": "Verifique o alinhamento de pixels e a geometria da tela. As linhas da grade devem ser retas e uniformemente distribuídas.",
+        "responseTime": "Teste o tempo de resposta da tela. Observe se há efeito fantasma ou desfoque nos quadrados em movimento."
+      },
+      "controls": {
+        "startTest": "Iniciar Teste",
+        "exitFullscreen": "Sair da Tela Cheia",
+        "nextColor": "Próximo",
+        "previousColor": "Anterior",
+        "pressEsc": "Pressione ESC para sair",
+        "pressArrows": "Use as setas para navegar",
+        "pressF": "Pressione F para tela cheia"
+      },
+      "tips": {
+        "title": "Dicas de Teste",
+        "tip1": "Teste em uma sala escura para melhores resultados",
+        "tip2": "Observe cada cor por pelo menos 10-15 segundos",
+        "tip3": "Veja a tela de diferentes ângulos",
+        "tip4": "Use o modo de tela cheia para testes",
+        "tip5": "Se encontrar um pixel morto, tente pressionar suavemente a área (às vezes pode consertá-lo)"
+      },
+      "selectMode": "Selecionar Modo de Teste",
+      "cardTitle": "Testador de Tela",
+      "cardDescription": "Ferramenta profissional de teste de tela para detectar pixels mortos, testar precisão de cores e qualidade da tela."
+    }
+  }
+}

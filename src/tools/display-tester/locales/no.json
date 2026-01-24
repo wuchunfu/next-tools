@@ -1,0 +1,55 @@
+{
+  "tools": {
+    "display-tester": {
+      "title": "Skjermtester",
+      "description": "Omfattende skjermtestverktøy",
+      "testModes": {
+        "solidColors": "Ensfarger",
+        "grayscale": "Gråskala",
+        "gradient": "Gradient",
+        "grid": "Rutenett",
+        "responseTime": "Responstid"
+      },
+      "colors": {
+        "black": "Svart",
+        "white": "Hvit",
+        "red": "Rød",
+        "green": "Grønn",
+        "blue": "Blå",
+        "cyan": "Cyan",
+        "magenta": "Magenta",
+        "yellow": "Gul"
+      },
+      "grayscaleLevels": {
+        "level": "Grå {level}%"
+      },
+      "instructions": {
+        "solidColors": "Bruk ensfarget bakgrunn for å oppdage døde og faste piksler. Se nøye etter unormale piksler på skjermen.",
+        "grayscale": "Test skjermens gråskalaoverganger og kontrast. Se etter fargebånd eller ujevne områder.",
+        "gradient": "Sjekk om fargegradienter er jevne uten synlige bånd.",
+        "grid": "Sjekk pikseljustering og skjermgeometri. Rutenettlinjer skal være rette og jevnt fordelt.",
+        "responseTime": "Test skjermens responstid. Se etter spøkelsesbilder eller uskarphet på bevegelige firkanter."
+      },
+      "controls": {
+        "startTest": "Start Test",
+        "exitFullscreen": "Avslutt Fullskjerm",
+        "nextColor": "Neste",
+        "previousColor": "Forrige",
+        "pressEsc": "Trykk ESC for å avslutte",
+        "pressArrows": "Bruk piltaster for å navigere",
+        "pressF": "Trykk F for fullskjerm"
+      },
+      "tips": {
+        "title": "Testtips",
+        "tip1": "Test i et mørkt rom for beste resultater",
+        "tip2": "Observer hver farge i minst 10-15 sekunder",
+        "tip3": "Se på skjermen fra forskjellige vinkler",
+        "tip4": "Bruk fullskjermmodus for testing",
+        "tip5": "Hvis du finner en død piksel, prøv å trykke forsiktig på området (noen ganger kan det fikse det)"
+      },
+      "selectMode": "Velg Testmodus",
+      "cardTitle": "Skjermtester",
+      "cardDescription": "Profesjonelt skjermtestverktøy for å oppdage døde piksler, teste fargenøyaktighet og skjermkvalitet."
+    }
+  }
+}

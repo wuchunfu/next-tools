@@ -1,0 +1,55 @@
+{
+  "tools": {
+    "display-tester": {
+      "title": "Display-Tester",
+      "description": "Umfassendes Display-Testtool",
+      "testModes": {
+        "solidColors": "Volltonfarben",
+        "grayscale": "Graustufen",
+        "gradient": "Verlauf",
+        "grid": "Raster",
+        "responseTime": "Reaktionszeit"
+      },
+      "colors": {
+        "black": "Schwarz",
+        "white": "Weiß",
+        "red": "Rot",
+        "green": "Grün",
+        "blue": "Blau",
+        "cyan": "Cyan",
+        "magenta": "Magenta",
+        "yellow": "Gelb"
+      },
+      "grayscaleLevels": {
+        "level": "Grau {level}%"
+      },
+      "instructions": {
+        "solidColors": "Verwenden Sie Volltonfarben, um tote und hängende Pixel zu erkennen. Achten Sie sorgfältig auf abnormale Pixel auf dem Bildschirm.",
+        "grayscale": "Testen Sie die Graustufen-Übergänge und den Kontrast Ihres Monitors. Prüfen Sie auf Farbstreifen oder ungleichmäßige Bereiche.",
+        "gradient": "Überprüfen Sie, ob Farbverläufe glatt sind, ohne sichtbare Streifen.",
+        "grid": "Überprüfen Sie die Pixelausrichtung und Bildschirmgeometrie. Rasterlinien sollten gerade und gleichmäßig verteilt sein.",
+        "responseTime": "Testen Sie die Bildschirm-Reaktionszeit. Achten Sie auf Geisterbilder oder Unschärfe bei bewegten Quadraten."
+      },
+      "controls": {
+        "startTest": "Test starten",
+        "exitFullscreen": "Vollbild beenden",
+        "nextColor": "Weiter",
+        "previousColor": "Zurück",
+        "pressEsc": "ESC drücken zum Beenden",
+        "pressArrows": "Pfeiltasten zum Navigieren",
+        "pressF": "F drücken für Vollbild"
+      },
+      "tips": {
+        "title": "Test-Tipps",
+        "tip1": "Testen Sie in einem dunklen Raum für beste Ergebnisse",
+        "tip2": "Beobachten Sie jede Farbe mindestens 10-15 Sekunden",
+        "tip3": "Betrachten Sie den Bildschirm aus verschiedenen Winkeln",
+        "tip4": "Verwenden Sie den Vollbildmodus zum Testen",
+        "tip5": "Wenn Sie einen toten Pixel finden, versuchen Sie, den Bereich sanft zu drücken (manchmal kann dies helfen)"
+      },
+      "selectMode": "Testmodus auswählen",
+      "cardTitle": "Display-Tester",
+      "cardDescription": "Professionelles Display-Testtool zur Erkennung toter Pixel, Testen der Farbgenauigkeit und Bildschirmqualität."
+    }
+  }
+}

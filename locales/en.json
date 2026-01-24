@@ -46,6 +46,7 @@
     "data": "Data",
     "date and time": "Date and Time",
     "development": "Development",
+    "device": "Device",
     "favorite-tools": "Your favorite tools",
     "images and videos": "Images & Videos",
     "math": "Math",
@@ -635,6 +636,11 @@
       "description": "Parse and convert YAML to TOML.",
       "keywords": "yaml,to,toml,convert,transform",
       "title": "YAML to TOML"
+    },
+    "display-tester": {
+      "title": "Display Tester",
+      "description": "Comprehensive display testing tool for detecting dead pixels, testing color accuracy, grayscale transitions, response time, and more. Supports solid colors, gradients, grid alignment, and various test patterns.",
+      "keywords": "display,screen,monitor,test,dead pixel,stuck pixel,bright dot,dark dot,pixel,color,grayscale,gradient,calibration,RGB,contrast,response time"
     }
   }
 }

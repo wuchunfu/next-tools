@@ -1,0 +1,55 @@
+{
+  "tools": {
+    "display-tester": {
+      "title": "Testeur d'Écran",
+      "description": "Outil complet de test d'écran",
+      "testModes": {
+        "solidColors": "Couleurs Unies",
+        "grayscale": "Niveaux de Gris",
+        "gradient": "Dégradé",
+        "grid": "Grille",
+        "responseTime": "Temps de Réponse"
+      },
+      "colors": {
+        "black": "Noir",
+        "white": "Blanc",
+        "red": "Rouge",
+        "green": "Vert",
+        "blue": "Bleu",
+        "cyan": "Cyan",
+        "magenta": "Magenta",
+        "yellow": "Jaune"
+      },
+      "grayscaleLevels": {
+        "level": "Gris {level}%"
+      },
+      "instructions": {
+        "solidColors": "Utilisez des arrière-plans de couleur unie pour détecter les pixels morts et bloqués. Recherchez attentivement tout pixel anormal sur l'écran.",
+        "grayscale": "Testez les transitions de niveaux de gris et le contraste de votre moniteur. Vérifiez les bandes de couleur ou les zones inégales.",
+        "gradient": "Vérifiez si les dégradés de couleur sont lisses sans bandes visibles.",
+        "grid": "Vérifiez l'alignement des pixels et la géométrie de l'écran. Les lignes de la grille doivent être droites et uniformément réparties.",
+        "responseTime": "Testez le temps de réponse de l'écran. Observez les effets de rémanence ou de flou sur les carrés en mouvement."
+      },
+      "controls": {
+        "startTest": "Démarrer le Test",
+        "exitFullscreen": "Quitter le Plein Écran",
+        "nextColor": "Suivant",
+        "previousColor": "Précédent",
+        "pressEsc": "Appuyez sur ESC pour quitter",
+        "pressArrows": "Utilisez les flèches pour naviguer",
+        "pressF": "Appuyez sur F pour le plein écran"
+      },
+      "tips": {
+        "title": "Conseils de Test",
+        "tip1": "Testez dans une pièce sombre pour de meilleurs résultats",
+        "tip2": "Observez chaque couleur pendant au moins 10-15 secondes",
+        "tip3": "Regardez l'écran sous différents angles",
+        "tip4": "Utilisez le mode plein écran pour les tests",
+        "tip5": "Si vous trouvez un pixel mort, essayez d'appuyer doucement sur la zone (cela peut parfois le réparer)"
+      },
+      "selectMode": "Sélectionner le Mode de Test",
+      "cardTitle": "Testeur d'Écran",
+      "cardDescription": "Outil professionnel de test d'écran pour détecter les pixels morts, tester la précision des couleurs et la qualité de l'écran."
+    }
+  }
+}

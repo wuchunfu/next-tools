@@ -46,6 +46,7 @@
     "data": "Data",
     "date and time": "Dato og Tid",
     "development": "Utvikling",
+    "device": "Enhet",
     "favorite-tools": "Dine favoritt verktøy",
     "images and videos": "Bilder & Videoer",
     "math": "Matte",
@@ -635,6 +636,11 @@
       "description": "Parser og konverter YAML til TOML.",
       "keywords": "yaml,til,toml,konverter,transformer",
       "title": "YAML til TOML"
+    },
+    "display-tester": {
+      "title": "Skjermtester",
+      "description": "Omfattende skjermtestverktøy for å oppdage døde piksler, teste fargenøyaktighet, gråskalaoverganger, responstid og mer. Støtter ensfarger, gradienter, rutenettjustering og ulike testmønstre.",
+      "keywords": "skjerm,monitor,test,død piksel,fast piksel,lys prikk,mørk prikk,piksel,farge,gråskala,gradient,kalibrering,RGB,kontrast,responstid"
     }
   }
 }
