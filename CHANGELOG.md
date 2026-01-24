@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.9.0
+
+### Features
+-  add keyboard tester tool (879ae5d)
+-  add display tester tool (3b259a6)
+
 ## Version 1.8.4
 
 ### Features
