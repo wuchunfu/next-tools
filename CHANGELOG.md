@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.8.4
+
+### Features
+- **uuid-generator**: add support for UUID v6 and v7 (fd5fc0c)
+
 ## Version 1.8.3
 
 ### Bug fixes
