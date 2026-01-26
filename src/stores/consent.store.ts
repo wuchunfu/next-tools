@@ -391,6 +391,9 @@ export const useConsentStore = defineStore('consent', () => {
     cachedRegionConsent.value = null;
   };
 
+  initRegionDetection();
+  
+
   // Readonly consent state for external use
   const readonlyConsentState = computed(() => readonly(consentState.value));
 
@@ -407,6 +410,5 @@ export const useConsentStore = defineStore('consent', () => {
     rejectAll,
     setCustomConsent,
     resetConsent,
-    initRegionDetection,
   };
 });

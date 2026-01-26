@@ -9,9 +9,6 @@ const { hasConsentEnabled } = consentStore;
 
 const showConsentModal = ref(false);
 
-// Initialize region detection once on setup
-consentStore.initRegionDetection();
-
 watch(
   () => consentStore.needsConsent,
   (needs) => {

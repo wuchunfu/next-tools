@@ -13,8 +13,8 @@ if (id) {
   const hasConsent = computed(() => {
     return !isUndefined(consentState.analytics) || !isUndefined(consentState.marketing);
   });
-
-  const { stop } = whenever(hasConsent, () => {
+  
+  whenever(hasConsent, () => {
     configure({
       tagId: id,
       config: {
@@ -22,7 +22,6 @@ if (id) {
         analytics_storage: consentState.marketing ? 'granted' : 'denied',
       },
     });
-    stop();
     addGtag();
     watch(
       () => ({
@@ -36,6 +35,9 @@ if (id) {
         });
       },
     );
+  }, {
+    immediate: true,
+    once: true
   });
 }
 </script>
