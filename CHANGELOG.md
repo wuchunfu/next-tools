@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.9.1
+
+### Bug fixes
+-  resolve Google Analytics component not working (9871b14)
+
 ## Version 1.9.0
 
 ### Features
