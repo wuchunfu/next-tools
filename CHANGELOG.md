@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.9.2
+
+### Features
+-  add markdown editor tool (58a0a16)
+
 ## Version 1.9.1
 
 ### Bug fixes
