@@ -49,6 +49,7 @@
     "device": "Thiết bị",
     "favorite-tools": "Công cụ yêu thích của bạn",
     "images and videos": "Hình ảnh & Video",
+    "markdown": "Markdown",
     "math": "Toán học",
     "measurement": "Đo lường",
     "network": "Mạng",
@@ -85,12 +86,21 @@
     }
   },
   "common": {
+    "characters": "ký tự",
     "clear": "Xóa",
     "copied": "Đã sao chép!",
+    "copy": "Sao chép",
     "copyToClipboard": "Sao chép",
+    "download": "Tải xuống",
+    "edit": "Chỉnh sửa",
+    "lines": "dòng",
     "noResults": "Không có kết quả",
+    "preview": "Xem trước",
     "setCurrentTime": "Đặt thời gian hiện tại",
-    "unknown": "Không rõ"
+    "source": "Mã nguồn",
+    "split": "Chia đôi",
+    "unknown": "Không rõ",
+    "words": "từ"
   },
   "consent": {
     "analytics": {
@@ -668,6 +678,11 @@
         "pressed": "Đang nhấn",
         "tested": "Đã kiểm tra"
       }
+    },
+    "markdown-editor": {
+      "title": "Trình soạn thảo Markdown",
+      "description": "Trình soạn thảo Markdown WYSIWYG với xem trước trực tiếp, lấy cảm hứng từ Typora. Viết và xem trước Markdown theo thời gian thực với giao diện sạch sẽ, không bị phân tâm.",
+      "keywords": "markdown,trình soạn thảo,wysiwyg,xem trước,typora,viết,tài liệu,md,thời gian thực,trực tiếp"
     }
   }
 }

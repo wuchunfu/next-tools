@@ -1,0 +1,52 @@
+{
+  "tools": {
+    "markdown-editor": {
+      "insert": {
+        "title": "Sett inn",
+        "editing": "Tekstformat",
+        "bold": "Fet",
+        "italic": "Kursiv",
+        "underline": "Understreket",
+        "strikethrough": "Gjennomstreket",
+        "highlight": "Uthev",
+        "link": "Lenke",
+        "paragraph": "Avsnitt",
+        "heading1": "Overskrift 1",
+        "heading2": "Overskrift 2",
+        "heading3": "Overskrift 3",
+        "heading4": "Overskrift 4",
+        "heading5": "Overskrift 5",
+        "heading6": "Overskrift 6",
+        "codeBlock": "Kodeblokk",
+        "quote": "Sitat",
+        "list": "Liste",
+        "bulletList": "Punktliste",
+        "orderedList": "Nummerert liste",
+        "taskList": "Oppgaveliste",
+        "table": "Tabell",
+        "insertTable": "Sett inn tabell",
+        "image": "Bilde",
+        "insertImage": "Sett inn bilde",
+        "actions": "Handlinger",
+        "download": "Last ned",
+        "undo": "Angre",
+        "redo": "Gjør om"
+      },
+      "linkDialog": {
+        "description": "Skriv inn URL og valgfri lenketekst",
+        "url": "URL",
+        "text": "Lenketekst (valgfritt)",
+        "textPlaceholder": "Klikk her",
+        "cancel": "Avbryt",
+        "insert": "Sett inn"
+      },
+      "tableDialog": {
+        "description": "Angi antall rader og kolonner",
+        "rows": "Rader",
+        "columns": "Kolonner",
+        "cancel": "Avbryt",
+        "insert": "Sett inn"
+      }
+    }
+  }
+}

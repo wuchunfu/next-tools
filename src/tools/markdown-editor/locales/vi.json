@@ -1,0 +1,52 @@
+{
+  "tools": {
+    "markdown-editor": {
+      "insert": {
+        "title": "Chèn",
+        "editing": "Định dạng văn bản",
+        "bold": "Đậm",
+        "italic": "Nghiêng",
+        "underline": "Gạch chân",
+        "strikethrough": "Gạch ngang",
+        "highlight": "Làm nổi bật",
+        "link": "Liên kết",
+        "paragraph": "Đoạn văn",
+        "heading1": "Tiêu đề 1",
+        "heading2": "Tiêu đề 2",
+        "heading3": "Tiêu đề 3",
+        "heading4": "Tiêu đề 4",
+        "heading5": "Tiêu đề 5",
+        "heading6": "Tiêu đề 6",
+        "codeBlock": "Khối mã",
+        "quote": "Trích dẫn",
+        "list": "Danh sách",
+        "bulletList": "Danh sách dấu đầu dòng",
+        "orderedList": "Danh sách có thứ tự",
+        "taskList": "Danh sách nhiệm vụ",
+        "table": "Bảng",
+        "insertTable": "Chèn bảng",
+        "image": "Hình ảnh",
+        "insertImage": "Chèn hình ảnh",
+        "actions": "Hành động",
+        "download": "Tải xuống",
+        "undo": "Hoàn tác",
+        "redo": "Làm lại"
+      },
+      "linkDialog": {
+        "description": "Nhập URL và văn bản liên kết tùy chọn",
+        "url": "URL",
+        "text": "Văn bản liên kết (tùy chọn)",
+        "textPlaceholder": "Nhấp vào đây",
+        "cancel": "Hủy",
+        "insert": "Chèn"
+      },
+      "tableDialog": {
+        "description": "Chỉ định số hàng và cột",
+        "rows": "Hàng",
+        "columns": "Cột",
+        "cancel": "Hủy",
+        "insert": "Chèn"
+      }
+    }
+  }
+}

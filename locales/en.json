@@ -49,6 +49,7 @@
     "device": "Device",
     "favorite-tools": "Your favorite tools",
     "images and videos": "Images & Videos",
+    "markdown": "Markdown",
     "math": "Math",
     "measurement": "Measurement",
     "network": "Network",
@@ -85,12 +86,21 @@
     }
   },
   "common": {
+    "characters": "characters",
     "clear": "Clear",
     "copied": "Copied!",
+    "copy": "Copy",
     "copyToClipboard": "Copy",
+    "download": "Download",
+    "edit": "Edit",
+    "lines": "lines",
     "noResults": "No results found",
+    "preview": "Preview",
     "setCurrentTime": "Set Current Time",
-    "unknown": "Unknown"
+    "source": "Source",
+    "split": "Split",
+    "unknown": "Unknown",
+    "words": "words"
   },
   "consent": {
     "analytics": {
@@ -667,6 +677,55 @@
         "untested": "Untested",
         "pressed": "Pressed",
         "tested": "Tested"
+      }
+    },
+    "markdown-editor": {
+      "title": "Markdown Editor",
+      "description": "WYSIWYG Markdown editor with live preview, inspired by Typora. Write and preview Markdown in real-time with a clean, distraction-free interface.",
+      "keywords": "markdown,editor,wysiwyg,preview,typora,write,document,md,real-time,live",
+      "insert": {
+        "title": "Insert",
+        "editing": "Text Format",
+        "bold": "Bold",
+        "italic": "Italic",
+        "underline": "Underline",
+        "strikethrough": "Strikethrough",
+        "highlight": "Highlight",
+        "link": "Link",
+        "paragraph": "Paragraph",
+        "heading1": "Heading 1",
+        "heading2": "Heading 2",
+        "heading3": "Heading 3",
+        "heading4": "Heading 4",
+        "heading5": "Heading 5",
+        "heading6": "Heading 6",
+        "codeBlock": "Code Block",
+        "quote": "Quote",
+        "list": "List",
+        "bulletList": "Bullet List",
+        "orderedList": "Ordered List",
+        "taskList": "Task List",
+        "table": "Table",
+        "insertTable": "Insert Table",
+        "actions": "Actions",
+        "download": "Download",
+        "undo": "Undo",
+        "redo": "Redo"
+      },
+      "linkDialog": {
+        "description": "Enter the URL and optional link text",
+        "url": "URL",
+        "text": "Link Text (optional)",
+        "textPlaceholder": "Click here",
+        "cancel": "Cancel",
+        "insert": "Insert"
+      },
+      "tableDialog": {
+        "description": "Specify the number of rows and columns",
+        "rows": "Rows",
+        "columns": "Columns",
+        "cancel": "Cancel",
+        "insert": "Insert"
       }
     }
   }

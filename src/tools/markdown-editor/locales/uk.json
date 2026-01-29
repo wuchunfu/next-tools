@@ -1,0 +1,52 @@
+{
+  "tools": {
+    "markdown-editor": {
+      "insert": {
+        "title": "Вставити",
+        "editing": "Формат тексту",
+        "bold": "Жирний",
+        "italic": "Курсив",
+        "underline": "Підкреслений",
+        "strikethrough": "Закреслений",
+        "highlight": "Виділення",
+        "link": "Посилання",
+        "paragraph": "Абзац",
+        "heading1": "Заголовок 1",
+        "heading2": "Заголовок 2",
+        "heading3": "Заголовок 3",
+        "heading4": "Заголовок 4",
+        "heading5": "Заголовок 5",
+        "heading6": "Заголовок 6",
+        "codeBlock": "Блок коду",
+        "quote": "Цитата",
+        "list": "Список",
+        "bulletList": "Маркований список",
+        "orderedList": "Нумерований список",
+        "taskList": "Список завдань",
+        "table": "Таблиця",
+        "insertTable": "Вставити таблицю",
+        "image": "Зображення",
+        "insertImage": "Вставити зображення",
+        "actions": "Дії",
+        "download": "Завантажити",
+        "undo": "Скасувати",
+        "redo": "Повторити"
+      },
+      "linkDialog": {
+        "description": "Введіть URL та необов'язковий текст посилання",
+        "url": "URL",
+        "text": "Текст посилання (необов'язково)",
+        "textPlaceholder": "Натисніть тут",
+        "cancel": "Скасувати",
+        "insert": "Вставити"
+      },
+      "tableDialog": {
+        "description": "Вкажіть кількість рядків і стовпців",
+        "rows": "Рядки",
+        "columns": "Стовпці",
+        "cancel": "Скасувати",
+        "insert": "Вставити"
+      }
+    }
+  }
+}

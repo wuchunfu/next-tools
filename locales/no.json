@@ -49,6 +49,7 @@
     "device": "Enhet",
     "favorite-tools": "Dine favoritt verktøy",
     "images and videos": "Bilder & Videoer",
+    "markdown": "Markdown",
     "math": "Matte",
     "measurement": "Måling",
     "network": "Nettverk",
@@ -85,12 +86,21 @@
     }
   },
   "common": {
+    "characters": "tegn",
     "clear": "Tøm",
     "copied": "Kopiert!",
+    "copy": "Kopier",
     "copyToClipboard": "Kopier",
+    "download": "Last ned",
+    "edit": "Rediger",
+    "lines": "linjer",
     "noResults": "Ingen resultater funnet",
+    "preview": "Forhåndsvisning",
     "setCurrentTime": "Sett nåværende tid",
-    "unknown": "Ukjent"
+    "source": "Kilde",
+    "split": "Del",
+    "unknown": "Ukjent",
+    "words": "ord"
   },
   "consent": {
     "analytics": {
@@ -668,6 +678,11 @@
         "pressed": "Trykket",
         "tested": "Testet"
       }
+    },
+    "markdown-editor": {
+      "title": "Markdown-redigerer",
+      "description": "WYSIWYG Markdown-redigerer med live forhåndsvisning, inspirert av Typora. Skriv og forhåndsvis Markdown i sanntid med et rent, distraksjonfritt grensesnitt.",
+      "keywords": "markdown,redigerer,wysiwyg,forhåndsvisning,typora,skrive,dokument,md,sanntid,live"
     }
   }
 }

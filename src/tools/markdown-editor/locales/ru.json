@@ -1,0 +1,52 @@
+{
+  "tools": {
+    "markdown-editor": {
+      "insert": {
+        "title": "Вставить",
+        "editing": "Формат текста",
+        "bold": "Жирный",
+        "italic": "Курсив",
+        "underline": "Подчеркнутый",
+        "strikethrough": "Зачеркнутый",
+        "highlight": "Выделение",
+        "link": "Ссылка",
+        "paragraph": "Абзац",
+        "heading1": "Заголовок 1",
+        "heading2": "Заголовок 2",
+        "heading3": "Заголовок 3",
+        "heading4": "Заголовок 4",
+        "heading5": "Заголовок 5",
+        "heading6": "Заголовок 6",
+        "codeBlock": "Блок кода",
+        "quote": "Цитата",
+        "list": "Список",
+        "bulletList": "Маркированный список",
+        "orderedList": "Нумерованный список",
+        "taskList": "Список задач",
+        "table": "Таблица",
+        "insertTable": "Вставить таблицу",
+        "image": "Изображение",
+        "insertImage": "Вставить изображение",
+        "actions": "Действия",
+        "download": "Скачать",
+        "undo": "Отменить",
+        "redo": "Повторить"
+      },
+      "linkDialog": {
+        "description": "Введите URL и необязательный текст ссылки",
+        "url": "URL",
+        "text": "Текст ссылки (необязательно)",
+        "textPlaceholder": "Нажмите здесь",
+        "cancel": "Отмена",
+        "insert": "Вставить"
+      },
+      "tableDialog": {
+        "description": "Укажите количество строк и столбцов",
+        "rows": "Строки",
+        "columns": "Столбцы",
+        "cancel": "Отмена",
+        "insert": "Вставить"
+      }
+    }
+  }
+}

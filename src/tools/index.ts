@@ -1,6 +1,7 @@
 import type { ToolCategory } from './tools.types';
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
 import { tool as base64FileConverter } from './base64-file-converter';
+import { tool as markdownEditor } from './markdown-editor';
 import { tool as keyboardTester } from './keyboard-tester';
 import { tool as displayTester } from './display-tester';
 import { tool as dataTransferCalculator } from './data-transfer-calculator';
@@ -119,8 +120,11 @@ export const toolsByCategory: ToolCategory[] = [
       tomlToYaml,
       xmlToJson,
       jsonToXml,
-      markdownToHtml,
     ],
+  },
+  {
+    name: 'Markdown',
+    components: [markdownEditor, markdownToHtml],
   },
   {
     name: 'Date and Time',

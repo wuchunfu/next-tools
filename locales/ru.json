@@ -49,6 +49,7 @@
     "device": "Устройство",
     "favorite-tools": "Избранное",
     "images and videos": "Изображения и видео",
+    "markdown": "Markdown",
     "math": "Математика",
     "measurement": "Измерения",
     "network": "Сеть",
@@ -85,12 +86,21 @@
     }
   },
   "common": {
+    "characters": "символов",
     "clear": "Очистить",
     "copied": "Скопировано",
+    "copy": "Копировать",
     "copyToClipboard": "Копировать",
+    "download": "Скачать",
+    "edit": "Редактировать",
+    "lines": "строк",
     "noResults": "Нет результатов",
+    "preview": "Предпросмотр",
     "setCurrentTime": "Установить текущее время",
-    "unknown": "Неизвестно"
+    "source": "Исходный код",
+    "split": "Разделить",
+    "unknown": "Неизвестно",
+    "words": "слов"
   },
   "consent": {
     "analytics": {
@@ -668,6 +678,11 @@
         "pressed": "Нажато",
         "tested": "Протестировано"
       }
+    },
+    "markdown-editor": {
+      "title": "Редактор Markdown",
+      "description": "WYSIWYG редактор Markdown с живым предварительным просмотром, вдохновленный Typora. Пишите и просматривайте Markdown в реальном времени с чистым интерфейсом без отвлекающих факторов.",
+      "keywords": "markdown,редактор,wysiwyg,предпросмотр,typora,писать,документ,md,реальное время,живой"
     }
   }
 }

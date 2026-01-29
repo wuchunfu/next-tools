@@ -49,6 +49,7 @@
     "device": "Appareil",
     "favorite-tools": "Your favorite tools",
     "images and videos": "Images & Videos",
+    "markdown": "Markdown",
     "math": "Math",
     "measurement": "Measurement",
     "network": "Network",
@@ -85,12 +86,21 @@
     }
   },
   "common": {
+    "characters": "caractères",
     "clear": "Effacer",
     "copied": "Copié !",
+    "copy": "Copier",
     "copyToClipboard": "Copier",
+    "download": "Télécharger",
+    "edit": "Modifier",
+    "lines": "lignes",
     "noResults": "Aucun résultat",
+    "preview": "Aperçu",
     "setCurrentTime": "Définir l'heure actuelle",
-    "unknown": "Inconnu"
+    "source": "Source",
+    "split": "Diviser",
+    "unknown": "Inconnu",
+    "words": "mots"
   },
   "consent": {
     "analytics": {
@@ -668,6 +678,11 @@
         "pressed": "Pressé",
         "tested": "Testé"
       }
+    },
+    "markdown-editor": {
+      "title": "Éditeur Markdown",
+      "description": "Éditeur Markdown WYSIWYG avec aperçu en direct, inspiré de Typora. Écrivez et prévisualisez Markdown en temps réel avec une interface propre et sans distraction.",
+      "keywords": "markdown,éditeur,wysiwyg,aperçu,typora,écrire,document,md,temps réel,direct"
     }
   }
 }

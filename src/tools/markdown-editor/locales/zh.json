@@ -1,0 +1,52 @@
+{
+  "tools": {
+    "markdown-editor": {
+      "insert": {
+        "title": "插入",
+        "editing": "文本格式",
+        "bold": "粗体",
+        "italic": "斜体",
+        "underline": "下划线",
+        "strikethrough": "删除线",
+        "highlight": "高亮",
+        "link": "链接",
+        "paragraph": "段落",
+        "heading1": "一级标题",
+        "heading2": "二级标题",
+        "heading3": "三级标题",
+        "heading4": "四级标题",
+        "heading5": "五级标题",
+        "heading6": "六级标题",
+        "codeBlock": "代码块",
+        "quote": "引用",
+        "list": "列表",
+        "bulletList": "无序列表",
+        "orderedList": "有序列表",
+        "taskList": "任务列表",
+        "table": "表格",
+        "insertTable": "插入表格",
+        "image": "图片",
+        "insertImage": "插入图片",
+        "actions": "操作",
+        "download": "下载",
+        "undo": "撤销",
+        "redo": "重做"
+      },
+      "linkDialog": {
+        "description": "输入 URL 和可选的链接文本",
+        "url": "URL",
+        "text": "链接文本（可选）",
+        "textPlaceholder": "点击这里",
+        "cancel": "取消",
+        "insert": "插入"
+      },
+      "tableDialog": {
+        "description": "指定表格的行数和列数",
+        "rows": "行数",
+        "columns": "列数",
+        "cancel": "取消",
+        "insert": "插入"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "tools": {
+    "markdown-editor": {
+      "insert": {
+        "title": "Einfügen",
+        "editing": "Textformat",
+        "bold": "Fett",
+        "italic": "Kursiv",
+        "underline": "Unterstrichen",
+        "strikethrough": "Durchgestrichen",
+        "highlight": "Hervorheben",
+        "link": "Link",
+        "paragraph": "Absatz",
+        "heading1": "Überschrift 1",
+        "heading2": "Überschrift 2",
+        "heading3": "Überschrift 3",
+        "heading4": "Überschrift 4",
+        "heading5": "Überschrift 5",
+        "heading6": "Überschrift 6",
+        "codeBlock": "Codeblock",
+        "quote": "Zitat",
+        "list": "Liste",
+        "bulletList": "Aufzählungsliste",
+        "orderedList": "Nummerierte Liste",
+        "taskList": "Aufgabenliste",
+        "table": "Tabelle",
+        "insertTable": "Tabelle einfügen",
+        "image": "Bild",
+        "insertImage": "Bild einfügen",
+        "actions": "Aktionen",
+        "download": "Herunterladen",
+        "undo": "Rückgängig",
+        "redo": "Wiederholen"
+      },
+      "linkDialog": {
+        "description": "Geben Sie die URL und optionalen Linktext ein",
+        "url": "URL",
+        "text": "Linktext (optional)",
+        "textPlaceholder": "Hier klicken",
+        "cancel": "Abbrechen",
+        "insert": "Einfügen"
+      },
+      "tableDialog": {
+        "description": "Geben Sie die Anzahl der Zeilen und Spalten an",
+        "rows": "Zeilen",
+        "columns": "Spalten",
+        "cancel": "Abbrechen",
+        "insert": "Einfügen"
+      }
+    }
+  }
+}

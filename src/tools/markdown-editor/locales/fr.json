@@ -1,0 +1,52 @@
+{
+  "tools": {
+    "markdown-editor": {
+      "insert": {
+        "title": "Insérer",
+        "editing": "Format de texte",
+        "bold": "Gras",
+        "italic": "Italique",
+        "underline": "Souligné",
+        "strikethrough": "Barré",
+        "highlight": "Surligné",
+        "link": "Lien",
+        "paragraph": "Paragraphe",
+        "heading1": "Titre 1",
+        "heading2": "Titre 2",
+        "heading3": "Titre 3",
+        "heading4": "Titre 4",
+        "heading5": "Titre 5",
+        "heading6": "Titre 6",
+        "codeBlock": "Bloc de code",
+        "quote": "Citation",
+        "list": "Liste",
+        "bulletList": "Liste à puces",
+        "orderedList": "Liste numérotée",
+        "taskList": "Liste de tâches",
+        "table": "Tableau",
+        "insertTable": "Insérer un tableau",
+        "image": "Image",
+        "insertImage": "Insérer une image",
+        "actions": "Actions",
+        "download": "Télécharger",
+        "undo": "Annuler",
+        "redo": "Rétablir"
+      },
+      "linkDialog": {
+        "description": "Entrez l'URL et le texte du lien (optionnel)",
+        "url": "URL",
+        "text": "Texte du lien (optionnel)",
+        "textPlaceholder": "Cliquez ici",
+        "cancel": "Annuler",
+        "insert": "Insérer"
+      },
+      "tableDialog": {
+        "description": "Spécifiez le nombre de lignes et de colonnes",
+        "rows": "Lignes",
+        "columns": "Colonnes",
+        "cancel": "Annuler",
+        "insert": "Insérer"
+      }
+    }
+  }
+}

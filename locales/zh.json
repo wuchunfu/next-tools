@@ -49,6 +49,7 @@
     "device": "设备",
     "favorite-tools": "我的收藏",
     "images and videos": "图片和视频",
+    "markdown": "Markdown",
     "math": "数学",
     "measurement": "测量",
     "network": "网络",
@@ -85,12 +86,21 @@
     }
   },
   "common": {
+    "characters": "字符",
     "clear": "清除",
     "copied": "已复制",
+    "copy": "复制",
     "copyToClipboard": "复制",
+    "download": "下载",
+    "edit": "编辑",
+    "lines": "行",
     "noResults": "没有结果",
+    "preview": "预览",
     "setCurrentTime": "设为当前时间",
-    "unknown": "未知"
+    "source": "原文",
+    "split": "分屏",
+    "unknown": "未知",
+    "words": "单词"
   },
   "consent": {
     "analytics": {
@@ -667,6 +677,55 @@
         "untested": "未测试",
         "pressed": "按下中",
         "tested": "已测试"
+      }
+    },
+    "markdown-editor": {
+      "title": "Markdown 编辑器",
+      "description": "所见即所得的 Markdown 编辑器，实时预览，灵感来自 Typora。在简洁、无干扰的界面中实时编写和预览 Markdown。",
+      "keywords": "markdown,编辑器,所见即所得,预览,typora,写作,文档,md,实时,在线",
+      "insert": {
+        "title": "插入",
+        "editing": "文本格式",
+        "bold": "粗体",
+        "italic": "斜体",
+        "underline": "下划线",
+        "strikethrough": "删除线",
+        "highlight": "高亮",
+        "link": "链接",
+        "paragraph": "段落",
+        "heading1": "一级标题",
+        "heading2": "二级标题",
+        "heading3": "三级标题",
+        "heading4": "四级标题",
+        "heading5": "五级标题",
+        "heading6": "六级标题",
+        "codeBlock": "代码块",
+        "quote": "引用",
+        "list": "列表",
+        "bulletList": "无序列表",
+        "orderedList": "有序列表",
+        "taskList": "任务列表",
+        "table": "表格",
+        "insertTable": "插入表格",
+        "actions": "操作",
+        "download": "下载",
+        "undo": "撤销",
+        "redo": "重做"
+      },
+      "linkDialog": {
+        "description": "输入 URL 和可选的链接文本",
+        "url": "URL",
+        "text": "链接文本（可选）",
+        "textPlaceholder": "点击这里",
+        "cancel": "取消",
+        "insert": "插入"
+      },
+      "tableDialog": {
+        "description": "指定表格的行数和列数",
+        "rows": "行数",
+        "columns": "列数",
+        "cancel": "取消",
+        "insert": "插入"
       }
     }
   }
