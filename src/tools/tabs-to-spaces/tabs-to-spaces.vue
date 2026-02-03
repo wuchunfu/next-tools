@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useStorage } from '@vueuse/core';
 import { ArrowLeftRight, Settings, Space, ArrowRightToLine, X } from 'lucide-vue-next';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -15,15 +16,15 @@ import { analyzeText, convertTabsToSpaces, convertSpacesToTabs } from './tabs-to
 
 const { t } = useToolI18n();
 
-// Tab width configuration
-const tabWidth = ref(4);
+// Tab width configuration (persisted)
+const tabWidth = useStorage('tabs-to-spaces:tab-width', 4);
 const tabWidthOptions = [2, 4, 8];
 
-// Spaces to Tabs configuration
-const leadingOnly = ref(true);
+// Spaces to Tabs configuration (persisted)
+const leadingOnly = useStorage('tabs-to-spaces:leading-only', true);
 
-// Tabs to Spaces
-const tabsInput = ref('');
+// Tabs to Spaces (persisted input)
+const tabsInput = useStorage('tabs-to-spaces:tabs-input', '');
 const spacesOutput = computed(() => {
   try {
     return convertTabsToSpaces(tabsInput.value, tabWidth.value);
@@ -32,8 +33,8 @@ const spacesOutput = computed(() => {
   }
 });
 
-// Spaces to Tabs
-const spacesInput = ref('');
+// Spaces to Tabs (persisted input)
+const spacesInput = useStorage('tabs-to-spaces:spaces-input', '');
 const tabsOutput = computed(() => {
   try {
     return convertSpacesToTabs(spacesInput.value, tabWidth.value, leadingOnly.value);
