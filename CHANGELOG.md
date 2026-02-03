@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.9.3
+
+### Features
+-  add useStorage to tabs-to-spaces tool (e377318)
+-  add tabs-to-spaces converter tool (985411b)
+
 ## Version 1.9.2
 
 ### Features
