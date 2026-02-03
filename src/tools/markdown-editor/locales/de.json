@@ -2,50 +2,50 @@
   "tools": {
     "markdown-editor": {
       "insert": {
-        "title": "Einfügen",
-        "editing": "Textformat",
+        "actions": "Aktionen",
         "bold": "Fett",
-        "italic": "Kursiv",
-        "underline": "Unterstrichen",
-        "strikethrough": "Durchgestrichen",
-        "highlight": "Hervorheben",
-        "link": "Link",
-        "paragraph": "Absatz",
+        "bulletList": "Aufzählungsliste",
+        "codeBlock": "Codeblock",
+        "download": "Herunterladen",
+        "editing": "Textformat",
         "heading1": "Überschrift 1",
         "heading2": "Überschrift 2",
         "heading3": "Überschrift 3",
         "heading4": "Überschrift 4",
         "heading5": "Überschrift 5",
         "heading6": "Überschrift 6",
-        "codeBlock": "Codeblock",
-        "quote": "Zitat",
-        "list": "Liste",
-        "bulletList": "Aufzählungsliste",
-        "orderedList": "Nummerierte Liste",
-        "taskList": "Aufgabenliste",
-        "table": "Tabelle",
-        "insertTable": "Tabelle einfügen",
+        "highlight": "Hervorheben",
         "image": "Bild",
         "insertImage": "Bild einfügen",
-        "actions": "Aktionen",
-        "download": "Herunterladen",
-        "undo": "Rückgängig",
-        "redo": "Wiederholen"
+        "insertTable": "Tabelle einfügen",
+        "italic": "Kursiv",
+        "link": "Link",
+        "list": "Liste",
+        "orderedList": "Nummerierte Liste",
+        "paragraph": "Absatz",
+        "quote": "Zitat",
+        "redo": "Wiederholen",
+        "strikethrough": "Durchgestrichen",
+        "table": "Tabelle",
+        "taskList": "Aufgabenliste",
+        "title": "Einfügen",
+        "underline": "Unterstrichen",
+        "undo": "Rückgängig"
       },
       "linkDialog": {
+        "cancel": "Abbrechen",
         "description": "Geben Sie die URL und optionalen Linktext ein",
-        "url": "URL",
+        "insert": "Einfügen",
         "text": "Linktext (optional)",
         "textPlaceholder": "Hier klicken",
-        "cancel": "Abbrechen",
-        "insert": "Einfügen"
+        "url": "URL"
       },
       "tableDialog": {
-        "description": "Geben Sie die Anzahl der Zeilen und Spalten an",
-        "rows": "Zeilen",
-        "columns": "Spalten",
         "cancel": "Abbrechen",
-        "insert": "Einfügen"
+        "columns": "Spalten",
+        "description": "Geben Sie die Anzahl der Zeilen und Spalten an",
+        "insert": "Einfügen",
+        "rows": "Zeilen"
       }
     }
   }

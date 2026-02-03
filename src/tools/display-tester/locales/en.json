@@ -1,55 +1,53 @@
 {
   "tools": {
     "display-tester": {
-      "title": "Display Tester",
-      "description": "Comprehensive display testing tool",
-      "testModes": {
-        "solidColors": "Solid Colors",
-        "grayscale": "Grayscale",
-        "gradient": "Gradient",
-        "grid": "Grid",
-        "responseTime": "Response Time"
-      },
+      "cardDescription": "Professional display testing tool for detecting dead pixels, testing color accuracy, and screen quality.",
+      "cardTitle": "Display Tester",
       "colors": {
         "black": "Black",
-        "white": "White",
-        "red": "Red",
-        "green": "Green",
         "blue": "Blue",
         "cyan": "Cyan",
+        "green": "Green",
         "magenta": "Magenta",
+        "red": "Red",
+        "white": "White",
         "yellow": "Yellow"
+      },
+      "controls": {
+        "exitFullscreen": "Exit Fullscreen",
+        "nextColor": "Next",
+        "pressArrows": "Use arrow keys to navigate",
+        "pressEsc": "Press ESC to exit fullscreen",
+        "pressF": "Press F for fullscreen",
+        "previousColor": "Previous",
+        "startTest": "Start Test"
       },
       "grayscaleLevels": {
         "level": "Gray {level}%"
       },
       "instructions": {
-        "solidColors": "Use solid color backgrounds to detect dead and stuck pixels. Look carefully for any abnormal pixels on the screen.",
-        "grayscale": "Test your monitor's grayscale transitions and contrast. Check for color banding or uneven areas.",
         "gradient": "Check if color gradients are smooth without visible banding.",
+        "grayscale": "Test your monitor's grayscale transitions and contrast. Check for color banding or uneven areas.",
         "grid": "Check pixel alignment and screen geometry. Grid lines should be straight and evenly distributed.",
-        "responseTime": "Test screen response time. Watch for ghosting or blur on moving squares."
+        "responseTime": "Test screen response time. Watch for ghosting or blur on moving squares.",
+        "solidColors": "Use solid color backgrounds to detect dead and stuck pixels. Look carefully for any abnormal pixels on the screen."
       },
-      "controls": {
-        "startTest": "Start Test",
-        "exitFullscreen": "Exit Fullscreen",
-        "nextColor": "Next",
-        "previousColor": "Previous",
-        "pressEsc": "Press ESC to exit fullscreen",
-        "pressArrows": "Use arrow keys to navigate",
-        "pressF": "Press F for fullscreen"
+      "selectMode": "Select Test Mode",
+      "testModes": {
+        "gradient": "Gradient",
+        "grayscale": "Grayscale",
+        "grid": "Grid",
+        "responseTime": "Response Time",
+        "solidColors": "Solid Colors"
       },
       "tips": {
-        "title": "Testing Tips",
         "tip1": "Test in a dark room for best results",
         "tip2": "Observe each color for at least 10-15 seconds",
         "tip3": "View the screen from different angles",
         "tip4": "Use fullscreen mode for testing",
-        "tip5": "If you find a dead pixel, try gently pressing the area (sometimes it can fix it)"
-      },
-      "selectMode": "Select Test Mode",
-      "cardTitle": "Display Tester",
-      "cardDescription": "Professional display testing tool for detecting dead pixels, testing color accuracy, and screen quality."
+        "tip5": "If you find a dead pixel, try gently pressing the area (sometimes it can fix it)",
+        "title": "Testing Tips"
+      }
     }
   }
 }

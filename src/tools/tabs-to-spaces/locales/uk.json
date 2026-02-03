@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "tabs-to-spaces": {
+      "chars": "Символи",
+      "configDescription": "Встановіть ширину табуляції (інтервал табуляції) для перетворення.",
+      "configTitle": "Конфігурація",
+      "customLabel": "Користувацька:",
+      "inputWithSpaces": "Введення (з пробілами)",
+      "inputWithTabs": "Введення (з табуляціями)",
+      "leadingOnlyDescription": "Перетворювати лише пробіли на початку рядків. При вимкненні перетворюються всі пробіли, вирівняні по табуляції.",
+      "leadingOnlyLabel": "Тільки початкові пробіли",
+      "loadExample": "Завантажити приклад",
+      "outputWithSpaces": "Виведення (з пробілами)",
+      "outputWithTabs": "Виведення (з табуляціями)",
+      "spacesInputPlaceholder": "Вставте текст з пробілами тут...",
+      "spacesPlaceholder": "Перетворений текст з'явиться тут...",
+      "spacesToTabsDescription": "Перетворюйте пробіли на табуляції на межах табуляції.",
+      "spacesToTabsTitle": "Пробіли у табуляції",
+      "tabWidthLabel": "Ширина табуляції",
+      "tabsOutputPlaceholder": "Перетворений текст з'явиться тут...",
+      "tabsPlaceholder": "Вставте текст з табуляціями тут...",
+      "tabsToSpacesDescription": "Перетворюйте символи табуляції на пробіли на основі семантики табуляції.",
+      "tabsToSpacesTitle": "Табуляції у пробіли"
+    }
+  }
+}

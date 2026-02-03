@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "tabs-to-spaces": {
+      "chars": "Символы",
+      "configDescription": "Установите ширину табуляции (интервал табуляции) для преобразования.",
+      "configTitle": "Конфигурация",
+      "customLabel": "Пользовательская:",
+      "inputWithSpaces": "Ввод (с пробелами)",
+      "inputWithTabs": "Ввод (с табуляциями)",
+      "leadingOnlyDescription": "Преобразовывать только пробелы в начале строк. При отключении преобразуются все пробелы, выровненные по табуляции.",
+      "leadingOnlyLabel": "Только начальные пробелы",
+      "loadExample": "Загрузить пример",
+      "outputWithSpaces": "Вывод (с пробелами)",
+      "outputWithTabs": "Вывод (с табуляциями)",
+      "spacesInputPlaceholder": "Вставьте текст с пробелами здесь...",
+      "spacesPlaceholder": "Преобразованный текст появится здесь...",
+      "spacesToTabsDescription": "Преобразуйте пробелы в табуляции на границах табуляции.",
+      "spacesToTabsTitle": "Пробелы в табуляции",
+      "tabWidthLabel": "Ширина табуляции",
+      "tabsOutputPlaceholder": "Преобразованный текст появится здесь...",
+      "tabsPlaceholder": "Вставьте текст с табуляциями здесь...",
+      "tabsToSpacesDescription": "Преобразуйте символы табуляции в пробелы на основе семантики табуляции.",
+      "tabsToSpacesTitle": "Табуляции в пробелы"
+    }
+  }
+}

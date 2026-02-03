@@ -2,50 +2,50 @@
   "tools": {
     "markdown-editor": {
       "insert": {
-        "title": "Insert",
-        "editing": "Text Format",
+        "actions": "Actions",
         "bold": "Bold",
-        "italic": "Italic",
-        "underline": "Underline",
-        "strikethrough": "Strikethrough",
-        "highlight": "Highlight",
-        "link": "Link",
-        "paragraph": "Paragraph",
+        "bulletList": "Bullet List",
+        "codeBlock": "Code Block",
+        "download": "Download",
+        "editing": "Text Format",
         "heading1": "Heading 1",
         "heading2": "Heading 2",
         "heading3": "Heading 3",
         "heading4": "Heading 4",
         "heading5": "Heading 5",
         "heading6": "Heading 6",
-        "codeBlock": "Code Block",
-        "quote": "Quote",
-        "list": "List",
-        "bulletList": "Bullet List",
-        "orderedList": "Ordered List",
-        "taskList": "Task List",
-        "table": "Table",
-        "insertTable": "Insert Table",
+        "highlight": "Highlight",
         "image": "Image",
         "insertImage": "Insert Image",
-        "actions": "Actions",
-        "download": "Download",
-        "undo": "Undo",
-        "redo": "Redo"
+        "insertTable": "Insert Table",
+        "italic": "Italic",
+        "link": "Link",
+        "list": "List",
+        "orderedList": "Ordered List",
+        "paragraph": "Paragraph",
+        "quote": "Quote",
+        "redo": "Redo",
+        "strikethrough": "Strikethrough",
+        "table": "Table",
+        "taskList": "Task List",
+        "title": "Insert",
+        "underline": "Underline",
+        "undo": "Undo"
       },
       "linkDialog": {
+        "cancel": "Cancel",
         "description": "Enter the URL and optional link text",
-        "url": "URL",
+        "insert": "Insert",
         "text": "Link Text (optional)",
         "textPlaceholder": "Click here",
-        "cancel": "Cancel",
-        "insert": "Insert"
+        "url": "URL"
       },
       "tableDialog": {
-        "description": "Specify the number of rows and columns",
-        "rows": "Rows",
-        "columns": "Columns",
         "cancel": "Cancel",
-        "insert": "Insert"
+        "columns": "Columns",
+        "description": "Specify the number of rows and columns",
+        "insert": "Insert",
+        "rows": "Rows"
       }
     }
   }

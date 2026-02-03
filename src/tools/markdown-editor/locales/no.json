@@ -2,50 +2,50 @@
   "tools": {
     "markdown-editor": {
       "insert": {
-        "title": "Sett inn",
-        "editing": "Tekstformat",
+        "actions": "Handlinger",
         "bold": "Fet",
-        "italic": "Kursiv",
-        "underline": "Understreket",
-        "strikethrough": "Gjennomstreket",
-        "highlight": "Uthev",
-        "link": "Lenke",
-        "paragraph": "Avsnitt",
+        "bulletList": "Punktliste",
+        "codeBlock": "Kodeblokk",
+        "download": "Last ned",
+        "editing": "Tekstformat",
         "heading1": "Overskrift 1",
         "heading2": "Overskrift 2",
         "heading3": "Overskrift 3",
         "heading4": "Overskrift 4",
         "heading5": "Overskrift 5",
         "heading6": "Overskrift 6",
-        "codeBlock": "Kodeblokk",
-        "quote": "Sitat",
-        "list": "Liste",
-        "bulletList": "Punktliste",
-        "orderedList": "Nummerert liste",
-        "taskList": "Oppgaveliste",
-        "table": "Tabell",
-        "insertTable": "Sett inn tabell",
+        "highlight": "Uthev",
         "image": "Bilde",
         "insertImage": "Sett inn bilde",
-        "actions": "Handlinger",
-        "download": "Last ned",
-        "undo": "Angre",
-        "redo": "Gjør om"
+        "insertTable": "Sett inn tabell",
+        "italic": "Kursiv",
+        "link": "Lenke",
+        "list": "Liste",
+        "orderedList": "Nummerert liste",
+        "paragraph": "Avsnitt",
+        "quote": "Sitat",
+        "redo": "Gjør om",
+        "strikethrough": "Gjennomstreket",
+        "table": "Tabell",
+        "taskList": "Oppgaveliste",
+        "title": "Sett inn",
+        "underline": "Understreket",
+        "undo": "Angre"
       },
       "linkDialog": {
+        "cancel": "Avbryt",
         "description": "Skriv inn URL og valgfri lenketekst",
-        "url": "URL",
+        "insert": "Sett inn",
         "text": "Lenketekst (valgfritt)",
         "textPlaceholder": "Klikk her",
-        "cancel": "Avbryt",
-        "insert": "Sett inn"
+        "url": "URL"
       },
       "tableDialog": {
-        "description": "Angi antall rader og kolonner",
-        "rows": "Rader",
-        "columns": "Kolonner",
         "cancel": "Avbryt",
-        "insert": "Sett inn"
+        "columns": "Kolonner",
+        "description": "Angi antall rader og kolonner",
+        "insert": "Sett inn",
+        "rows": "Rader"
       }
     }
   }

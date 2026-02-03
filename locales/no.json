@@ -292,6 +292,11 @@
       "keywords": "enhet,informasjon,skjerm,piksel,forhold,status,data,datamaskin,størrelse,bruker,agent",
       "title": "Enhets informasjon"
     },
+    "display-tester": {
+      "description": "Omfattende skjermtestverktøy for å oppdage døde piksler, teste fargenøyaktighet, gråskalaoverganger, responstid og mer. Støtter ensfarger, gradienter, rutenettjustering og ulike testmønstre.",
+      "keywords": "skjerm,monitor,test,død piksel,fast piksel,lys prikk,mørk prikk,piksel,farge,gråskala,gradient,kalibrering,RGB,kontrast,responstid",
+      "title": "Skjermtester"
+    },
     "docker-run-to-docker-compose-converter": {
       "description": "Konverter \"docker run\" kommandoer til docker-compose filer!",
       "keywords": "docker,kjør,compose,yaml,yml,konverter,demon",
@@ -417,6 +422,11 @@
       "keywords": "jwt,parser,dekode,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,token",
       "title": "JWT parser"
     },
+    "keyboard-tester": {
+      "description": "Test tastaturets taster og sjekk om alle taster fungerer som de skal. Visuell tilbakemelding for hvert tastetrykk med støtte for forskjellige tastaturoppsett.",
+      "keywords": "tastatur,tester,test,taster,oppsett,mekanisk,skriving,qwerty,sjekke,fungere",
+      "title": "Tastatur-tester"
+    },
     "keycode-info": {
       "description": "Finn javascript tastekode, kode, plassering og modifikatorer av hvilken som helst tast.",
       "keywords": "tastkode,info,kode,javascript,hendelse,tastkoder,hvilken,tastatur,trykk,modifikator,alt,ctrl,meta,shift",
@@ -441,6 +451,11 @@
       "description": "Finn forhandler og produsent basert på MAC adressen.",
       "keywords": "mac,adresse,oppslag,leverandør,parser,produsent",
       "title": "MAC address oppslagsverk"
+    },
+    "markdown-editor": {
+      "description": "WYSIWYG Markdown-redigerer med live forhåndsvisning, inspirert av Typora. Skriv og forhåndsvis Markdown i sanntid med et rent, distraksjonfritt grensesnitt.",
+      "keywords": "markdown,redigerer,wysiwyg,forhåndsvisning,typora,skrive,dokument,md,sanntid,live",
+      "title": "Markdown-redigerer"
     },
     "markdown-to-html": {
       "description": "Konverter Markdown til HTML og skriv ut som PDF",
@@ -547,6 +562,11 @@
       "keywords": "svg,plassholder,generator,bilde,størrelse,mockup",
       "title": "SVG plassholder generator"
     },
+    "tabs-to-spaces": {
+      "description": "Konverter tabulatorer til mellomrom eller mellomrom til tabulatorer med korrekt tab-stopp-semantikk. Støtter konfigurerbar tab-bredde og kun-ledende-modus.",
+      "keywords": "tabulatorer,mellomrom,konverter,tab,mellomrom,innrykk,formatering,kode,tab-stopp,tab-bredde",
+      "title": "Tabulatorer/Mellomrom-konverter"
+    },
     "temperature-converter": {
       "description": "Temperatur konversjoner mellom Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, og Rømer.",
       "keywords": "temperatur,konverter,grad,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer",
@@ -646,43 +666,6 @@
       "description": "Parser og konverter YAML til TOML.",
       "keywords": "yaml,til,toml,konverter,transformer",
       "title": "YAML til TOML"
-    },
-    "display-tester": {
-      "title": "Skjermtester",
-      "description": "Omfattende skjermtestverktøy for å oppdage døde piksler, teste fargenøyaktighet, gråskalaoverganger, responstid og mer. Støtter ensfarger, gradienter, rutenettjustering og ulike testmønstre.",
-      "keywords": "skjerm,monitor,test,død piksel,fast piksel,lys prikk,mørk prikk,piksel,farge,gråskala,gradient,kalibrering,RGB,kontrast,responstid"
-    },
-    "keyboard-tester": {
-      "title": "Tastatur-tester",
-      "description": "Test tastaturets taster og sjekk om alle taster fungerer som de skal. Visuell tilbakemelding for hvert tastetrykk med støtte for forskjellige tastaturoppsett.",
-      "keywords": "tastatur,tester,test,taster,oppsett,mekanisk,skriving,qwerty,sjekke,fungere",
-      "reset": "Tilbakestill",
-      "progress": "Testfremgang",
-      "keys": "Taster",
-      "layout": "Tastaturoppsett",
-      "size": "Tastaturstørrelse",
-      "sizes": {
-        "60": "60% Kompakt",
-        "full": "Full størrelse (100%)",
-        "tkl": "TKL (80%)"
-      },
-      "instructions": {
-        "title": "Instruksjoner",
-        "press": "Trykk på en hvilken som helst tast på tastaturet for å teste den",
-        "highlight": "Trykte taster vil bli uthevet",
-        "tested": "Testede taster vil vises i grønt",
-        "reset": "Klikk på \"Tilbakestill\"-knappen for å slette testoppføringer"
-      },
-      "legend": {
-        "untested": "Ikke testet",
-        "pressed": "Trykket",
-        "tested": "Testet"
-      }
-    },
-    "markdown-editor": {
-      "title": "Markdown-redigerer",
-      "description": "WYSIWYG Markdown-redigerer med live forhåndsvisning, inspirert av Typora. Skriv og forhåndsvis Markdown i sanntid med et rent, distraksjonfritt grensesnitt.",
-      "keywords": "markdown,redigerer,wysiwyg,forhåndsvisning,typora,skrive,dokument,md,sanntid,live"
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "tabs-to-spaces": {
+      "chars": "Caracteres",
+      "configDescription": "Establece el ancho de tabulación (intervalo de tabulación) para la conversión.",
+      "configTitle": "Configuración",
+      "customLabel": "Personalizado:",
+      "inputWithSpaces": "Entrada (con espacios)",
+      "inputWithTabs": "Entrada (con tabulaciones)",
+      "leadingOnlyDescription": "Convierte solo los espacios al principio de las líneas. Cuando está desactivado, convierte todos los espacios que se alinean con las tabulaciones.",
+      "leadingOnlyLabel": "Solo espacios iniciales",
+      "loadExample": "Cargar Ejemplo",
+      "outputWithSpaces": "Salida (con espacios)",
+      "outputWithTabs": "Salida (con tabulaciones)",
+      "spacesInputPlaceholder": "Pega texto con espacios aquí...",
+      "spacesPlaceholder": "El texto convertido aparecerá aquí...",
+      "spacesToTabsDescription": "Convierte espacios a tabulaciones en los límites de tabulación.",
+      "spacesToTabsTitle": "Espacios a Tabulaciones",
+      "tabWidthLabel": "Ancho de Tabulación",
+      "tabsOutputPlaceholder": "El texto convertido aparecerá aquí...",
+      "tabsPlaceholder": "Pega texto con tabulaciones aquí...",
+      "tabsToSpacesDescription": "Convierte caracteres de tabulación a espacios basándose en la semántica de tabulación.",
+      "tabsToSpacesTitle": "Tabulaciones a Espacios"
+    }
+  }
+}

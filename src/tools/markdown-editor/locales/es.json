@@ -2,50 +2,50 @@
   "tools": {
     "markdown-editor": {
       "insert": {
-        "title": "Insertar",
-        "editing": "Formato de texto",
+        "actions": "Acciones",
         "bold": "Negrita",
-        "italic": "Cursiva",
-        "underline": "Subrayado",
-        "strikethrough": "Tachado",
-        "highlight": "Resaltado",
-        "link": "Enlace",
-        "paragraph": "Párrafo",
+        "bulletList": "Lista con viñetas",
+        "codeBlock": "Bloque de código",
+        "download": "Descargar",
+        "editing": "Formato de texto",
         "heading1": "Encabezado 1",
         "heading2": "Encabezado 2",
         "heading3": "Encabezado 3",
         "heading4": "Encabezado 4",
         "heading5": "Encabezado 5",
         "heading6": "Encabezado 6",
-        "codeBlock": "Bloque de código",
-        "quote": "Cita",
-        "list": "Lista",
-        "bulletList": "Lista con viñetas",
-        "orderedList": "Lista ordenada",
-        "taskList": "Lista de tareas",
-        "table": "Tabla",
-        "insertTable": "Insertar tabla",
+        "highlight": "Resaltado",
         "image": "Imagen",
         "insertImage": "Insertar imagen",
-        "actions": "Acciones",
-        "download": "Descargar",
-        "undo": "Deshacer",
-        "redo": "Rehacer"
+        "insertTable": "Insertar tabla",
+        "italic": "Cursiva",
+        "link": "Enlace",
+        "list": "Lista",
+        "orderedList": "Lista ordenada",
+        "paragraph": "Párrafo",
+        "quote": "Cita",
+        "redo": "Rehacer",
+        "strikethrough": "Tachado",
+        "table": "Tabla",
+        "taskList": "Lista de tareas",
+        "title": "Insertar",
+        "underline": "Subrayado",
+        "undo": "Deshacer"
       },
       "linkDialog": {
+        "cancel": "Cancelar",
         "description": "Ingrese la URL y el texto del enlace opcional",
-        "url": "URL",
+        "insert": "Insertar",
         "text": "Texto del enlace (opcional)",
         "textPlaceholder": "Haga clic aquí",
-        "cancel": "Cancelar",
-        "insert": "Insertar"
+        "url": "URL"
       },
       "tableDialog": {
-        "description": "Especifique el número de filas y columnas",
-        "rows": "Filas",
-        "columns": "Columnas",
         "cancel": "Cancelar",
-        "insert": "Insertar"
+        "columns": "Columnas",
+        "description": "Especifique el número de filas y columnas",
+        "insert": "Insertar",
+        "rows": "Filas"
       }
     }
   }

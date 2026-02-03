@@ -1,30 +1,27 @@
 {
   "tools": {
     "keyboard-tester": {
-      "title": "Kiểm tra Bàn phím",
-      "description": "Kiểm tra các phím trên bàn phím của bạn và kiểm tra xem tất cả các phím có hoạt động bình thường không. Phản hồi trực quan cho mỗi lần nhấn phím với hỗ trợ cho các bố cục bàn phím khác nhau.",
-      "keywords": "bàn phím,kiểm tra,test,phím,bố cục,cơ,gõ,qwerty,kiểm tra,hoạt động",
-      "reset": "Đặt lại",
-      "progress": "Tiến độ kiểm tra",
+      "instructions": {
+        "highlight": "Các phím được nhấn sẽ được làm nổi bật",
+        "press": "Nhấn bất kỳ phím nào trên bàn phím của bạn để kiểm tra",
+        "reset": "Nhấp vào nút \"Đặt lại\" để xóa bản ghi kiểm tra",
+        "tested": "Các phím đã kiểm tra sẽ được hiển thị màu xanh lá",
+        "title": "Hướng dẫn"
+      },
       "keys": "Phím",
       "layout": "Bố cục bàn phím",
+      "legend": {
+        "pressed": "Đang nhấn",
+        "tested": "Đã kiểm tra",
+        "untested": "Chưa kiểm tra"
+      },
+      "progress": "Tiến độ kiểm tra",
+      "reset": "Đặt lại",
       "size": "Kích thước bàn phím",
       "sizes": {
         "60": "60% Nhỏ gọn",
         "full": "Kích thước đầy đủ (100%)",
         "tkl": "TKL (80%)"
-      },
-      "instructions": {
-        "title": "Hướng dẫn",
-        "press": "Nhấn bất kỳ phím nào trên bàn phím của bạn để kiểm tra",
-        "highlight": "Các phím được nhấn sẽ được làm nổi bật",
-        "tested": "Các phím đã kiểm tra sẽ được hiển thị màu xanh lá",
-        "reset": "Nhấp vào nút \"Đặt lại\" để xóa bản ghi kiểm tra"
-      },
-      "legend": {
-        "untested": "Chưa kiểm tra",
-        "pressed": "Đang nhấn",
-        "tested": "Đã kiểm tra"
       }
     }
   }

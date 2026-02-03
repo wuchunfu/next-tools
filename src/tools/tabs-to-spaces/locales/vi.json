@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "tabs-to-spaces": {
+      "chars": "Ký tự",
+      "configDescription": "Đặt độ rộng tab (khoảng cách tab stop) để chuyển đổi.",
+      "configTitle": "Cấu hình",
+      "customLabel": "Tùy chỉnh:",
+      "inputWithSpaces": "Đầu vào (có khoảng trắng)",
+      "inputWithTabs": "Đầu vào (có tab)",
+      "leadingOnlyDescription": "Chỉ chuyển đổi khoảng trắng ở đầu dòng. Khi tắt, chuyển đổi tất cả khoảng trắng căn chỉnh với tab stop.",
+      "leadingOnlyLabel": "Chỉ khoảng trắng đầu dòng",
+      "loadExample": "Tải Ví dụ",
+      "outputWithSpaces": "Đầu ra (có khoảng trắng)",
+      "outputWithTabs": "Đầu ra (có tab)",
+      "spacesInputPlaceholder": "Dán văn bản có khoảng trắng vào đây...",
+      "spacesPlaceholder": "Văn bản đã chuyển đổi sẽ xuất hiện ở đây...",
+      "spacesToTabsDescription": "Chuyển đổi khoảng trắng thành tab tại ranh giới tab stop.",
+      "spacesToTabsTitle": "Khoảng trắng sang Tab",
+      "tabWidthLabel": "Độ rộng Tab",
+      "tabsOutputPlaceholder": "Văn bản đã chuyển đổi sẽ xuất hiện ở đây...",
+      "tabsPlaceholder": "Dán văn bản có tab vào đây...",
+      "tabsToSpacesDescription": "Chuyển đổi ký tự tab thành khoảng trắng dựa trên ngữ nghĩa tab stop.",
+      "tabsToSpacesTitle": "Tab sang Khoảng trắng"
+    }
+  }
+}

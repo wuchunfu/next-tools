@@ -292,6 +292,11 @@
       "keywords": "device,information,screen,pixel,ratio,status,data,computer,size,user,agent",
       "title": "Device information"
     },
+    "display-tester": {
+      "description": "Comprehensive display testing tool for detecting dead pixels, testing color accuracy, grayscale transitions, response time, and more. Supports solid colors, gradients, grid alignment, and various test patterns.",
+      "keywords": "display,screen,monitor,test,dead pixel,stuck pixel,bright dot,dark dot,pixel,color,grayscale,gradient,calibration,RGB,contrast,response time",
+      "title": "Display Tester"
+    },
     "docker-run-to-docker-compose-converter": {
       "description": "Transforms \"docker run\" commands into docker-compose files!",
       "keywords": "docker,run,compose,yaml,yml,convert,deamon",
@@ -417,6 +422,11 @@
       "keywords": "jwt,parser,decode,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,token",
       "title": "JWT parser"
     },
+    "keyboard-tester": {
+      "description": "Test your keyboard keys and check if all keys are working properly. Visual feedback for each key press with support for different keyboard layouts.",
+      "keywords": "keyboard,tester,test,keys,layout,mechanical,typing,qwerty,azerty,dvorak,check,working",
+      "title": "Keyboard Tester"
+    },
     "keycode-info": {
       "description": "Find the javascript keycode, code, location and modifiers of any pressed key.",
       "keywords": "keycode,info,code,javascript,event,keycodes,which,keyboard,press,modifier,alt,ctrl,meta,shift",
@@ -441,6 +451,11 @@
       "description": "Find the vendor and manufacturer of a device by its MAC address.",
       "keywords": "mac,address,lookup,vendor,parser,manufacturer",
       "title": "MAC address lookup"
+    },
+    "markdown-editor": {
+      "description": "WYSIWYG Markdown editor with live preview, inspired by Typora. Write and preview Markdown in real-time with a clean, distraction-free interface.",
+      "keywords": "markdown,editor,wysiwyg,preview,typora,write,document,md,real-time,live",
+      "title": "Markdown Editor"
     },
     "markdown-to-html": {
       "description": "Convert Markdown to HTML and print as PDF",
@@ -547,6 +562,11 @@
       "keywords": "svg,placeholder,generator,image,size,mockup",
       "title": "SVG placeholder generator"
     },
+    "tabs-to-spaces": {
+      "description": "Convert tabs to spaces (and vice versa) based on tab stop semantics, preserving visual alignment in monospace fonts.",
+      "keywords": "tabs,spaces,converter,indentation,whitespace,tab stop,code formatting,text editor",
+      "title": "Tabs to Spaces Converter"
+    },
     "temperature-converter": {
       "description": "Degrees temperature conversions for Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, and Rømer.",
       "keywords": "temperature,converter,degree,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer",
@@ -646,87 +666,6 @@
       "description": "Parse and convert YAML to TOML.",
       "keywords": "yaml,to,toml,convert,transform",
       "title": "YAML to TOML"
-    },
-    "display-tester": {
-      "title": "Display Tester",
-      "description": "Comprehensive display testing tool for detecting dead pixels, testing color accuracy, grayscale transitions, response time, and more. Supports solid colors, gradients, grid alignment, and various test patterns.",
-      "keywords": "display,screen,monitor,test,dead pixel,stuck pixel,bright dot,dark dot,pixel,color,grayscale,gradient,calibration,RGB,contrast,response time"
-    },
-    "keyboard-tester": {
-      "title": "Keyboard Tester",
-      "description": "Test your keyboard keys and check if all keys are working properly. Visual feedback for each key press with support for different keyboard layouts.",
-      "keywords": "keyboard,tester,test,keys,layout,mechanical,typing,qwerty,azerty,dvorak,check,working",
-      "reset": "Reset",
-      "progress": "Test Progress",
-      "keys": "Keys",
-      "layout": "Keyboard Layout",
-      "size": "Keyboard Size",
-      "sizes": {
-        "60": "60% Compact",
-        "full": "Full Size (100%)",
-        "tkl": "TKL (80%)"
-      },
-      "instructions": {
-        "title": "Instructions",
-        "press": "Press any key on your keyboard to test it",
-        "highlight": "Pressed keys will be highlighted",
-        "tested": "Tested keys will be shown in green",
-        "reset": "Click the \"Reset\" button to clear test records"
-      },
-      "legend": {
-        "untested": "Untested",
-        "pressed": "Pressed",
-        "tested": "Tested"
-      }
-    },
-    "markdown-editor": {
-      "title": "Markdown Editor",
-      "description": "WYSIWYG Markdown editor with live preview, inspired by Typora. Write and preview Markdown in real-time with a clean, distraction-free interface.",
-      "keywords": "markdown,editor,wysiwyg,preview,typora,write,document,md,real-time,live",
-      "insert": {
-        "title": "Insert",
-        "editing": "Text Format",
-        "bold": "Bold",
-        "italic": "Italic",
-        "underline": "Underline",
-        "strikethrough": "Strikethrough",
-        "highlight": "Highlight",
-        "link": "Link",
-        "paragraph": "Paragraph",
-        "heading1": "Heading 1",
-        "heading2": "Heading 2",
-        "heading3": "Heading 3",
-        "heading4": "Heading 4",
-        "heading5": "Heading 5",
-        "heading6": "Heading 6",
-        "codeBlock": "Code Block",
-        "quote": "Quote",
-        "list": "List",
-        "bulletList": "Bullet List",
-        "orderedList": "Ordered List",
-        "taskList": "Task List",
-        "table": "Table",
-        "insertTable": "Insert Table",
-        "actions": "Actions",
-        "download": "Download",
-        "undo": "Undo",
-        "redo": "Redo"
-      },
-      "linkDialog": {
-        "description": "Enter the URL and optional link text",
-        "url": "URL",
-        "text": "Link Text (optional)",
-        "textPlaceholder": "Click here",
-        "cancel": "Cancel",
-        "insert": "Insert"
-      },
-      "tableDialog": {
-        "description": "Specify the number of rows and columns",
-        "rows": "Rows",
-        "columns": "Columns",
-        "cancel": "Cancel",
-        "insert": "Insert"
-      }
     }
   }
 }

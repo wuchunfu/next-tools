@@ -1,55 +1,53 @@
 {
   "tools": {
     "display-tester": {
-      "title": "Kiểm tra Màn hình",
-      "description": "Công cụ kiểm tra màn hình toàn diện",
-      "testModes": {
-        "solidColors": "Màu Đồng Nhất",
-        "grayscale": "Thang Độ Xám",
-        "gradient": "Gradient",
-        "grid": "Lưới",
-        "responseTime": "Thời Gian Phản Hồi"
-      },
+      "cardDescription": "Công cụ kiểm tra màn hình chuyên nghiệp để phát hiện điểm chết, kiểm tra độ chính xác màu sắc và chất lượng màn hình.",
+      "cardTitle": "Kiểm tra Màn hình",
       "colors": {
         "black": "Đen",
-        "white": "Trắng",
-        "red": "Đỏ",
-        "green": "Xanh Lá",
         "blue": "Xanh Dương",
         "cyan": "Xanh Lơ",
+        "green": "Xanh Lá",
         "magenta": "Đỏ Tía",
+        "red": "Đỏ",
+        "white": "Trắng",
         "yellow": "Vàng"
+      },
+      "controls": {
+        "exitFullscreen": "Thoát Toàn Màn Hình",
+        "nextColor": "Tiếp Theo",
+        "pressArrows": "Sử dụng phím mũi tên để điều hướng",
+        "pressEsc": "Nhấn ESC để thoát",
+        "pressF": "Nhấn F để toàn màn hình",
+        "previousColor": "Trước Đó",
+        "startTest": "Bắt Đầu Kiểm Tra"
       },
       "grayscaleLevels": {
         "level": "Xám {level}%"
       },
       "instructions": {
-        "solidColors": "Sử dụng nền màu đồng nhất để phát hiện điểm chết và điểm kẹt. Quan sát cẩn thận bất kỳ pixel bất thường nào trên màn hình.",
-        "grayscale": "Kiểm tra chuyển đổi thang độ xám và độ tương phản của màn hình. Tìm kiếm các dải màu hoặc vùng không đều.",
         "gradient": "Kiểm tra xem gradient màu có mượt mà không có dải màu rõ ràng.",
+        "grayscale": "Kiểm tra chuyển đổi thang độ xám và độ tương phản của màn hình. Tìm kiếm các dải màu hoặc vùng không đều.",
         "grid": "Kiểm tra căn chỉnh pixel và hình học màn hình. Các đường lưới phải thẳng và phân bố đều.",
-        "responseTime": "Kiểm tra thời gian phản hồi của màn hình. Quan sát hiện tượng bóng mờ hoặc mờ trên các hình vuông di chuyển."
+        "responseTime": "Kiểm tra thời gian phản hồi của màn hình. Quan sát hiện tượng bóng mờ hoặc mờ trên các hình vuông di chuyển.",
+        "solidColors": "Sử dụng nền màu đồng nhất để phát hiện điểm chết và điểm kẹt. Quan sát cẩn thận bất kỳ pixel bất thường nào trên màn hình."
       },
-      "controls": {
-        "startTest": "Bắt Đầu Kiểm Tra",
-        "exitFullscreen": "Thoát Toàn Màn Hình",
-        "nextColor": "Tiếp Theo",
-        "previousColor": "Trước Đó",
-        "pressEsc": "Nhấn ESC để thoát",
-        "pressArrows": "Sử dụng phím mũi tên để điều hướng",
-        "pressF": "Nhấn F để toàn màn hình"
+      "selectMode": "Chọn Chế Độ Kiểm Tra",
+      "testModes": {
+        "gradient": "Gradient",
+        "grayscale": "Thang Độ Xám",
+        "grid": "Lưới",
+        "responseTime": "Thời Gian Phản Hồi",
+        "solidColors": "Màu Đồng Nhất"
       },
       "tips": {
-        "title": "Mẹo Kiểm Tra",
         "tip1": "Kiểm tra trong phòng tối để có kết quả tốt nhất",
         "tip2": "Quan sát mỗi màu ít nhất 10-15 giây",
         "tip3": "Xem màn hình từ các góc độ khác nhau",
         "tip4": "Sử dụng chế độ toàn màn hình để kiểm tra",
-        "tip5": "Nếu bạn tìm thấy điểm chết, hãy thử nhẹ nhàng nhấn vào khu vực đó (đôi khi có thể sửa được)"
-      },
-      "selectMode": "Chọn Chế Độ Kiểm Tra",
-      "cardTitle": "Kiểm tra Màn hình",
-      "cardDescription": "Công cụ kiểm tra màn hình chuyên nghiệp để phát hiện điểm chết, kiểm tra độ chính xác màu sắc và chất lượng màn hình."
+        "tip5": "Nếu bạn tìm thấy điểm chết, hãy thử nhẹ nhàng nhấn vào khu vực đó (đôi khi có thể sửa được)",
+        "title": "Mẹo Kiểm Tra"
+      }
     }
   }
 }

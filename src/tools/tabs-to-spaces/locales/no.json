@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "tabs-to-spaces": {
+      "chars": "Tegn",
+      "configDescription": "Angi tab-bredde (tab-stopp-intervall) for konvertering.",
+      "configTitle": "Konfigurasjon",
+      "customLabel": "Tilpasset:",
+      "inputWithSpaces": "Inndata (med mellomrom)",
+      "inputWithTabs": "Inndata (med tabs)",
+      "leadingOnlyDescription": "Konverter kun mellomrom i begynnelsen av linjer. Når deaktivert, konverteres alle mellomrom som stemmer overens med tab-stopp.",
+      "leadingOnlyLabel": "Kun ledende mellomrom",
+      "loadExample": "Last Eksempel",
+      "outputWithSpaces": "Utdata (med mellomrom)",
+      "outputWithTabs": "Utdata (med tabs)",
+      "spacesInputPlaceholder": "Lim inn tekst med mellomrom her...",
+      "spacesPlaceholder": "Konvertert tekst vil vises her...",
+      "spacesToTabsDescription": "Konverter mellomrom til tabs ved tab-stopp-grenser.",
+      "spacesToTabsTitle": "Mellomrom til Tabs",
+      "tabWidthLabel": "Tab-bredde",
+      "tabsOutputPlaceholder": "Konvertert tekst vil vises her...",
+      "tabsPlaceholder": "Lim inn tekst med tabs her...",
+      "tabsToSpacesDescription": "Konverter tab-tegn til mellomrom basert på tab-stopp-semantikk.",
+      "tabsToSpacesTitle": "Tabs til Mellomrom"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "tabs-to-spaces": {
+      "chars": "Zeichen",
+      "configDescription": "Legen Sie die Tab-Breite (Tab-Stop-Intervall) für die Konvertierung fest.",
+      "configTitle": "Konfiguration",
+      "customLabel": "Benutzerdefiniert:",
+      "inputWithSpaces": "Eingabe (mit Leerzeichen)",
+      "inputWithTabs": "Eingabe (mit Tabs)",
+      "leadingOnlyDescription": "Konvertieren Sie nur Leerzeichen am Zeilenanfang. Wenn deaktiviert, werden alle Leerzeichen konvertiert, die mit Tab-Stops übereinstimmen.",
+      "leadingOnlyLabel": "Nur führende Leerzeichen",
+      "loadExample": "Beispiel laden",
+      "outputWithSpaces": "Ausgabe (mit Leerzeichen)",
+      "outputWithTabs": "Ausgabe (mit Tabs)",
+      "spacesInputPlaceholder": "Text mit Leerzeichen hier einfügen...",
+      "spacesPlaceholder": "Konvertierter Text wird hier angezeigt...",
+      "spacesToTabsDescription": "Konvertieren Sie Leerzeichen an Tab-Stop-Grenzen in Tabs.",
+      "spacesToTabsTitle": "Leerzeichen zu Tabs",
+      "tabWidthLabel": "Tab-Breite",
+      "tabsOutputPlaceholder": "Konvertierter Text wird hier angezeigt...",
+      "tabsPlaceholder": "Text mit Tabs hier einfügen...",
+      "tabsToSpacesDescription": "Konvertieren Sie Tab-Zeichen basierend auf Tab-Stop-Semantik in Leerzeichen.",
+      "tabsToSpacesTitle": "Tabs zu Leerzeichen"
+    }
+  }
+}

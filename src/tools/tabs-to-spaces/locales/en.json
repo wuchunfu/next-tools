@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "tabs-to-spaces": {
+      "chars": "Chars",
+      "configDescription": "Set the tab width (tab stop interval) for conversion.",
+      "configTitle": "Configuration",
+      "customLabel": "Custom:",
+      "inputWithSpaces": "Input (with spaces)",
+      "inputWithTabs": "Input (with tabs)",
+      "leadingOnlyDescription": "Only convert spaces at the beginning of lines. When disabled, converts all spaces that align with tab stops.",
+      "leadingOnlyLabel": "Leading spaces only",
+      "loadExample": "Load Example",
+      "outputWithSpaces": "Output (with spaces)",
+      "outputWithTabs": "Output (with tabs)",
+      "spacesInputPlaceholder": "Paste text with spaces here...",
+      "spacesPlaceholder": "Converted text will appear here...",
+      "spacesToTabsDescription": "Convert spaces to tabs at tab stop boundaries.",
+      "spacesToTabsTitle": "Spaces to Tabs",
+      "tabWidthLabel": "Tab Width",
+      "tabsOutputPlaceholder": "Converted text will appear here...",
+      "tabsPlaceholder": "Paste text with tabs here...",
+      "tabsToSpacesDescription": "Convert tab characters to spaces based on tab stop semantics.",
+      "tabsToSpacesTitle": "Tabs to Spaces"
+    }
+  }
+}

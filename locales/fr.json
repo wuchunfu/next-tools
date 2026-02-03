@@ -292,6 +292,11 @@
       "keywords": "appareil,information,écran,pixel,ratio,statut,données,ordinateur,taille,utilisateur,agent",
       "title": "Device information"
     },
+    "display-tester": {
+      "description": "Outil complet de test d'écran pour détecter les pixels morts, tester la précision des couleurs, les transitions de niveaux de gris, le temps de réponse et plus encore. Prend en charge les couleurs unies, les dégradés, l'alignement de la grille et divers motifs de test.",
+      "keywords": "écran,moniteur,test,pixel mort,pixel bloqué,point lumineux,point sombre,pixel,couleur,niveaux de gris,dégradé,calibration,RGB,contraste,temps de réponse",
+      "title": "Testeur d'Écran"
+    },
     "docker-run-to-docker-compose-converter": {
       "description": "Transforms \"docker run\" commands into docker-compose files!",
       "keywords": "docker,exécuter,compose,yaml,yml,convertir,démon",
@@ -417,6 +422,11 @@
       "keywords": "jwt,analyseur,décoder,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,jeton",
       "title": "JWT parser"
     },
+    "keyboard-tester": {
+      "description": "Testez les touches de votre clavier et vérifiez si toutes les touches fonctionnent correctement. Retour visuel pour chaque pression de touche avec prise en charge de différentes dispositions de clavier.",
+      "keywords": "clavier,testeur,test,touches,disposition,mécanique,frappe,azerty,qwerty,vérifier,fonctionner",
+      "title": "Testeur de Clavier"
+    },
     "keycode-info": {
       "description": "Find the javascript keycode, code, location and modifiers of any pressed key.",
       "keywords": "code touche,info,code,javascript,événement,codes touche,lequel,clavier,presser,modificateur,alt,ctrl,meta,shift",
@@ -441,6 +451,11 @@
       "description": "Find the vendor and manufacturer of a device by its MAC address.",
       "keywords": "mac,adresse,recherche,fournisseur,analyseur,fabricant",
       "title": "MAC address lookup"
+    },
+    "markdown-editor": {
+      "description": "Éditeur Markdown WYSIWYG avec aperçu en direct, inspiré de Typora. Écrivez et prévisualisez Markdown en temps réel avec une interface propre et sans distraction.",
+      "keywords": "markdown,éditeur,wysiwyg,aperçu,typora,écrire,document,md,temps réel,direct",
+      "title": "Éditeur Markdown"
     },
     "markdown-to-html": {
       "description": "Convert Markdown to HTML and print as PDF",
@@ -547,6 +562,11 @@
       "keywords": "svg,espace réservé,générateur,image,taille,maquette",
       "title": "SVG placeholder generator"
     },
+    "tabs-to-spaces": {
+      "description": "Convertir les tabulations en espaces ou les espaces en tabulations avec une sémantique correcte des taquets de tabulation. Prend en charge la largeur de tabulation configurable et le mode début uniquement.",
+      "keywords": "tabulations,espaces,convertisseur,tab,espace,indentation,formatage,code,taquet de tabulation,largeur de tabulation",
+      "title": "Convertisseur Tabulations/Espaces"
+    },
     "temperature-converter": {
       "description": "Degrees temperature conversions for Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, and Rømer.",
       "keywords": "température,convertisseur,degré,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer",
@@ -646,43 +666,6 @@
       "description": "Parse and convert YAML to TOML.",
       "keywords": "yaml,vers,toml,convertir,transformer",
       "title": "YAML to TOML"
-    },
-    "display-tester": {
-      "title": "Testeur d'Écran",
-      "description": "Outil complet de test d'écran pour détecter les pixels morts, tester la précision des couleurs, les transitions de niveaux de gris, le temps de réponse et plus encore. Prend en charge les couleurs unies, les dégradés, l'alignement de la grille et divers motifs de test.",
-      "keywords": "écran,moniteur,test,pixel mort,pixel bloqué,point lumineux,point sombre,pixel,couleur,niveaux de gris,dégradé,calibration,RGB,contraste,temps de réponse"
-    },
-    "keyboard-tester": {
-      "title": "Testeur de Clavier",
-      "description": "Testez les touches de votre clavier et vérifiez si toutes les touches fonctionnent correctement. Retour visuel pour chaque pression de touche avec prise en charge de différentes dispositions de clavier.",
-      "keywords": "clavier,testeur,test,touches,disposition,mécanique,frappe,azerty,qwerty,vérifier,fonctionner",
-      "reset": "Réinitialiser",
-      "progress": "Progression du test",
-      "keys": "Touches",
-      "layout": "Disposition du clavier",
-      "size": "Taille du clavier",
-      "sizes": {
-        "60": "60% Compact",
-        "full": "Taille complète (100%)",
-        "tkl": "TKL (80%)"
-      },
-      "instructions": {
-        "title": "Instructions",
-        "press": "Appuyez sur n'importe quelle touche de votre clavier pour la tester",
-        "highlight": "Les touches pressées seront mises en surbrillance",
-        "tested": "Les touches testées seront affichées en vert",
-        "reset": "Cliquez sur le bouton \"Réinitialiser\" pour effacer les enregistrements de test"
-      },
-      "legend": {
-        "untested": "Non testé",
-        "pressed": "Pressé",
-        "tested": "Testé"
-      }
-    },
-    "markdown-editor": {
-      "title": "Éditeur Markdown",
-      "description": "Éditeur Markdown WYSIWYG avec aperçu en direct, inspiré de Typora. Écrivez et prévisualisez Markdown en temps réel avec une interface propre et sans distraction.",
-      "keywords": "markdown,éditeur,wysiwyg,aperçu,typora,écrire,document,md,temps réel,direct"
     }
   }
 }

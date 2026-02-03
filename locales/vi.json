@@ -292,6 +292,11 @@
       "keywords": "thiết bị,thông tin,màn hình,pixel,tỷ lệ,trạng thái,dữ liệu,máy tính,kích thước,người dùng,đại lý",
       "title": "Thông tin thiết bị"
     },
+    "display-tester": {
+      "description": "Công cụ kiểm tra màn hình toàn diện để phát hiện điểm chết, kiểm tra độ chính xác màu sắc, chuyển đổi thang độ xám, thời gian phản hồi và nhiều hơn nữa. Hỗ trợ màu đồng nhất, gradient, căn chỉnh lưới và các mẫu kiểm tra khác nhau.",
+      "keywords": "màn hình,monitor,kiểm tra,điểm chết,điểm kẹt,điểm sáng,điểm tối,pixel,màu sắc,thang độ xám,gradient,hiệu chuẩn,RGB,độ tương phản,thời gian phản hồi",
+      "title": "Kiểm tra Màn hình"
+    },
     "docker-run-to-docker-compose-converter": {
       "description": "Chuyển đổi các lệnh docker run thành tệp docker-compose!",
       "keywords": "docker,chạy,compose,yaml,yml,chuyển đổi,daemon",
@@ -417,6 +422,11 @@
       "keywords": "jwt,trình phân tích,giải mã,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,mã thông báo",
       "title": "Giải mã JWT"
     },
+    "keyboard-tester": {
+      "description": "Kiểm tra các phím trên bàn phím của bạn và kiểm tra xem tất cả các phím có hoạt động bình thường không. Phản hồi trực quan cho mỗi lần nhấn phím với hỗ trợ cho các bố cục bàn phím khác nhau.",
+      "keywords": "bàn phím,kiểm tra,test,phím,bố cục,cơ,gõ,qwerty,kiểm tra,hoạt động",
+      "title": "Kiểm tra Bàn phím"
+    },
     "keycode-info": {
       "description": "Tìm mã keycode, mã, vị trí và các phím điều khiển của bất kỳ phím nào được nhấn.",
       "keywords": "mã phím,thông tin,mã,javascript,sự kiện,mã phím,nào,bàn phím,nhấn,sửa đổi,alt,ctrl,meta,shift",
@@ -441,6 +451,11 @@
       "description": "Tìm nhà sản xuất và nhà cung cấp của thiết bị dựa trên địa chỉ MAC.",
       "keywords": "mac,địa chỉ,tra cứu,nhà cung cấp,trình phân tích,nhà sản xuất",
       "title": "Tra cứu địa chỉ MAC"
+    },
+    "markdown-editor": {
+      "description": "Trình soạn thảo Markdown WYSIWYG với xem trước trực tiếp, lấy cảm hứng từ Typora. Viết và xem trước Markdown theo thời gian thực với giao diện sạch sẽ, không bị phân tâm.",
+      "keywords": "markdown,trình soạn thảo,wysiwyg,xem trước,typora,viết,tài liệu,md,thời gian thực,trực tiếp",
+      "title": "Trình soạn thảo Markdown"
     },
     "markdown-to-html": {
       "description": "Chuyển Markdown sang HTML và in ra PDF",
@@ -547,6 +562,11 @@
       "keywords": "svg,trình giữ chỗ,trình tạo,hình ảnh,kích thước,mô hình",
       "title": "Trình tạo hình ảnh SVG giả định"
     },
+    "tabs-to-spaces": {
+      "description": "Chuyển đổi tab thành khoảng trắng hoặc khoảng trắng thành tab với ngữ nghĩa tab stop chính xác. Hỗ trợ độ rộng tab có thể cấu hình và chế độ chỉ đầu dòng.",
+      "keywords": "tab,khoảng trắng,trình chuyển đổi,tab,khoảng cách,thụt lề,định dạng,mã,tab stop,độ rộng tab",
+      "title": "Trình Chuyển Đổi Tab/Khoảng Trắng"
+    },
     "temperature-converter": {
       "description": "Chuyển đổi độ nhiệt độ cho Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur và Rømer.",
       "keywords": "nhiệt độ,trình chuyển đổi,độ,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer",
@@ -646,43 +666,6 @@
       "description": "Phân tích và chuyển đổi YAML sang TOML.",
       "keywords": "yaml,sang,toml,chuyển đổi,chuyển đổi",
       "title": "YAML sang TOML"
-    },
-    "display-tester": {
-      "title": "Kiểm tra Màn hình",
-      "description": "Công cụ kiểm tra màn hình toàn diện để phát hiện điểm chết, kiểm tra độ chính xác màu sắc, chuyển đổi thang độ xám, thời gian phản hồi và nhiều hơn nữa. Hỗ trợ màu đồng nhất, gradient, căn chỉnh lưới và các mẫu kiểm tra khác nhau.",
-      "keywords": "màn hình,monitor,kiểm tra,điểm chết,điểm kẹt,điểm sáng,điểm tối,pixel,màu sắc,thang độ xám,gradient,hiệu chuẩn,RGB,độ tương phản,thời gian phản hồi"
-    },
-    "keyboard-tester": {
-      "title": "Kiểm tra Bàn phím",
-      "description": "Kiểm tra các phím trên bàn phím của bạn và kiểm tra xem tất cả các phím có hoạt động bình thường không. Phản hồi trực quan cho mỗi lần nhấn phím với hỗ trợ cho các bố cục bàn phím khác nhau.",
-      "keywords": "bàn phím,kiểm tra,test,phím,bố cục,cơ,gõ,qwerty,kiểm tra,hoạt động",
-      "reset": "Đặt lại",
-      "progress": "Tiến độ kiểm tra",
-      "keys": "Phím",
-      "layout": "Bố cục bàn phím",
-      "size": "Kích thước bàn phím",
-      "sizes": {
-        "60": "60% Nhỏ gọn",
-        "full": "Kích thước đầy đủ (100%)",
-        "tkl": "TKL (80%)"
-      },
-      "instructions": {
-        "title": "Hướng dẫn",
-        "press": "Nhấn bất kỳ phím nào trên bàn phím của bạn để kiểm tra",
-        "highlight": "Các phím được nhấn sẽ được làm nổi bật",
-        "tested": "Các phím đã kiểm tra sẽ được hiển thị màu xanh lá",
-        "reset": "Nhấp vào nút \"Đặt lại\" để xóa bản ghi kiểm tra"
-      },
-      "legend": {
-        "untested": "Chưa kiểm tra",
-        "pressed": "Đang nhấn",
-        "tested": "Đã kiểm tra"
-      }
-    },
-    "markdown-editor": {
-      "title": "Trình soạn thảo Markdown",
-      "description": "Trình soạn thảo Markdown WYSIWYG với xem trước trực tiếp, lấy cảm hứng từ Typora. Viết và xem trước Markdown theo thời gian thực với giao diện sạch sẽ, không bị phân tâm.",
-      "keywords": "markdown,trình soạn thảo,wysiwyg,xem trước,typora,viết,tài liệu,md,thời gian thực,trực tiếp"
     }
   }
 }

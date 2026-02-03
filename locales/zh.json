@@ -292,6 +292,11 @@
       "keywords": "设备,信息,屏幕,像素,比率,状态,数据,计算机,大小,用户,代理",
       "title": "设备信息"
     },
+    "display-tester": {
+      "description": "全面的显示器测试工具，用于检测坏点、测试色彩准确度、灰阶过渡、响应时间等。支持纯色测试、渐变测试、网格对齐等多种测试模式。",
+      "keywords": "显示器,屏幕,测试,坏点,亮点,暗点,像素,色彩,灰阶,渐变,校准,RGB,对比度,响应时间",
+      "title": "显示器测试"
+    },
     "docker-run-to-docker-compose-converter": {
       "description": "将 docker run 命令行转换为 docker-compose 文件!",
       "keywords": "docker,运行,compose,yaml,yml,转换,守护进程",
@@ -417,6 +422,11 @@
       "keywords": "jwt,解析器,解码,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,令牌",
       "title": "JWT 解析器"
     },
+    "keyboard-tester": {
+      "description": "测试键盘按键，检查所有按键是否正常工作。为每次按键提供视觉反馈，支持不同的键盘布局。",
+      "keywords": "键盘,测试,按键,布局,机械键盘,打字,检查,工作",
+      "title": "键盘测试"
+    },
     "keycode-info": {
       "description": "查找任何按下的键的javascript键代码、代码、位置和修饰符。",
       "keywords": "键码,信息,代码,javascript,事件,哪个,键盘,按下,修饰键,alt,ctrl,元,shift",
@@ -441,6 +451,11 @@
       "description": "通过设备的MAC地址查找设备的供应商和制造商。",
       "keywords": "mac,地址,查找,供应商,解析器,制造商",
       "title": "MAC地址查找"
+    },
+    "markdown-editor": {
+      "description": "所见即所得的 Markdown 编辑器，实时预览，灵感来自 Typora。在简洁、无干扰的界面中实时编写和预览 Markdown。",
+      "keywords": "markdown,编辑器,所见即所得,预览,typora,写作,文档,md,实时,在线",
+      "title": "Markdown 编辑器"
     },
     "markdown-to-html": {
       "description": "将 Markdown 转换为 HTML，并可打印为 PDF",
@@ -547,6 +562,11 @@
       "keywords": "svg,占位符,生成器,图像,大小,模型",
       "title": "SVG 占位符生成器"
     },
+    "tabs-to-spaces": {
+      "description": "基于制表位语义转换制表符和空格（可双向转换），在等宽字体中保持视觉对齐。",
+      "keywords": "制表符,空格,转换器,缩进,空白字符,制表位,代码格式化,文本编辑器",
+      "title": "制表符与空格转换器"
+    },
     "temperature-converter": {
       "description": "开尔文、摄氏度、华氏度、兰金、德莱尔、牛顿、雷奥穆尔和罗默温度度数转换。",
       "keywords": "温度,转换器,度,开尔文,摄氏度,华氏度,兰金,德利尔,牛顿,列氏,罗氏",
@@ -646,87 +666,6 @@
       "description": "解析YAML并将其转换为TOML。",
       "keywords": "yaml,到,toml,转换,变换",
       "title": "YAML 转 TOML"
-    },
-    "display-tester": {
-      "title": "显示器测试",
-      "description": "全面的显示器测试工具，用于检测坏点、测试色彩准确度、灰阶过渡、响应时间等。支持纯色测试、渐变测试、网格对齐等多种测试模式。",
-      "keywords": "显示器,屏幕,测试,坏点,亮点,暗点,像素,色彩,灰阶,渐变,校准,RGB,对比度,响应时间"
-    },
-    "keyboard-tester": {
-      "title": "键盘测试",
-      "description": "测试键盘按键，检查所有按键是否正常工作。为每次按键提供视觉反馈，支持不同的键盘布局。",
-      "keywords": "键盘,测试,按键,布局,机械键盘,打字,检查,工作",
-      "reset": "重置",
-      "progress": "测试进度",
-      "keys": "按键",
-      "layout": "键盘布局",
-      "size": "键盘尺寸",
-      "sizes": {
-        "60": "60% 紧凑型",
-        "full": "全尺寸 (100%)",
-        "tkl": "无数字键盘 (80%)"
-      },
-      "instructions": {
-        "title": "使用说明",
-        "press": "按下键盘上的任意按键进行测试",
-        "highlight": "按下的按键会高亮显示",
-        "tested": "已测试的按键会显示为绿色",
-        "reset": "点击\"重置\"按钮清除测试记录"
-      },
-      "legend": {
-        "untested": "未测试",
-        "pressed": "按下中",
-        "tested": "已测试"
-      }
-    },
-    "markdown-editor": {
-      "title": "Markdown 编辑器",
-      "description": "所见即所得的 Markdown 编辑器，实时预览，灵感来自 Typora。在简洁、无干扰的界面中实时编写和预览 Markdown。",
-      "keywords": "markdown,编辑器,所见即所得,预览,typora,写作,文档,md,实时,在线",
-      "insert": {
-        "title": "插入",
-        "editing": "文本格式",
-        "bold": "粗体",
-        "italic": "斜体",
-        "underline": "下划线",
-        "strikethrough": "删除线",
-        "highlight": "高亮",
-        "link": "链接",
-        "paragraph": "段落",
-        "heading1": "一级标题",
-        "heading2": "二级标题",
-        "heading3": "三级标题",
-        "heading4": "四级标题",
-        "heading5": "五级标题",
-        "heading6": "六级标题",
-        "codeBlock": "代码块",
-        "quote": "引用",
-        "list": "列表",
-        "bulletList": "无序列表",
-        "orderedList": "有序列表",
-        "taskList": "任务列表",
-        "table": "表格",
-        "insertTable": "插入表格",
-        "actions": "操作",
-        "download": "下载",
-        "undo": "撤销",
-        "redo": "重做"
-      },
-      "linkDialog": {
-        "description": "输入 URL 和可选的链接文本",
-        "url": "URL",
-        "text": "链接文本（可选）",
-        "textPlaceholder": "点击这里",
-        "cancel": "取消",
-        "insert": "插入"
-      },
-      "tableDialog": {
-        "description": "指定表格的行数和列数",
-        "rows": "行数",
-        "columns": "列数",
-        "cancel": "取消",
-        "insert": "插入"
-      }
     }
   }
 }

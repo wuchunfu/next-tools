@@ -2,50 +2,50 @@
   "tools": {
     "markdown-editor": {
       "insert": {
-        "title": "Вставить",
-        "editing": "Формат текста",
+        "actions": "Действия",
         "bold": "Жирный",
-        "italic": "Курсив",
-        "underline": "Подчеркнутый",
-        "strikethrough": "Зачеркнутый",
-        "highlight": "Выделение",
-        "link": "Ссылка",
-        "paragraph": "Абзац",
+        "bulletList": "Маркированный список",
+        "codeBlock": "Блок кода",
+        "download": "Скачать",
+        "editing": "Формат текста",
         "heading1": "Заголовок 1",
         "heading2": "Заголовок 2",
         "heading3": "Заголовок 3",
         "heading4": "Заголовок 4",
         "heading5": "Заголовок 5",
         "heading6": "Заголовок 6",
-        "codeBlock": "Блок кода",
-        "quote": "Цитата",
-        "list": "Список",
-        "bulletList": "Маркированный список",
-        "orderedList": "Нумерованный список",
-        "taskList": "Список задач",
-        "table": "Таблица",
-        "insertTable": "Вставить таблицу",
+        "highlight": "Выделение",
         "image": "Изображение",
         "insertImage": "Вставить изображение",
-        "actions": "Действия",
-        "download": "Скачать",
-        "undo": "Отменить",
-        "redo": "Повторить"
+        "insertTable": "Вставить таблицу",
+        "italic": "Курсив",
+        "link": "Ссылка",
+        "list": "Список",
+        "orderedList": "Нумерованный список",
+        "paragraph": "Абзац",
+        "quote": "Цитата",
+        "redo": "Повторить",
+        "strikethrough": "Зачеркнутый",
+        "table": "Таблица",
+        "taskList": "Список задач",
+        "title": "Вставить",
+        "underline": "Подчеркнутый",
+        "undo": "Отменить"
       },
       "linkDialog": {
+        "cancel": "Отмена",
         "description": "Введите URL и необязательный текст ссылки",
-        "url": "URL",
+        "insert": "Вставить",
         "text": "Текст ссылки (необязательно)",
         "textPlaceholder": "Нажмите здесь",
-        "cancel": "Отмена",
-        "insert": "Вставить"
+        "url": "URL"
       },
       "tableDialog": {
-        "description": "Укажите количество строк и столбцов",
-        "rows": "Строки",
-        "columns": "Столбцы",
         "cancel": "Отмена",
-        "insert": "Вставить"
+        "columns": "Столбцы",
+        "description": "Укажите количество строк и столбцов",
+        "insert": "Вставить",
+        "rows": "Строки"
       }
     }
   }

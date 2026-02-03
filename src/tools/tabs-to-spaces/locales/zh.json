@@ -1,0 +1,26 @@
+{
+  "tools": {
+    "tabs-to-spaces": {
+      "chars": "字符",
+      "configDescription": "设置制表符宽度（制表位间隔）用于转换。",
+      "configTitle": "配置",
+      "customLabel": "自定义：",
+      "inputWithSpaces": "输入（包含空格）",
+      "inputWithTabs": "输入（包含制表符）",
+      "leadingOnlyDescription": "仅转换行首的空格。关闭后，将转换所有对齐到制表位的空格。",
+      "leadingOnlyLabel": "仅转换行首空格",
+      "loadExample": "加载示例",
+      "outputWithSpaces": "输出（包含空格）",
+      "outputWithTabs": "输出（包含制表符）",
+      "spacesInputPlaceholder": "在此粘贴包含空格的文本...",
+      "spacesPlaceholder": "转换后的文本将显示在这里...",
+      "spacesToTabsDescription": "在制表位边界处将空格转换为制表符。",
+      "spacesToTabsTitle": "空格转制表符",
+      "tabWidthLabel": "制表符宽度",
+      "tabsOutputPlaceholder": "转换后的文本将显示在这里...",
+      "tabsPlaceholder": "在此粘贴包含制表符的文本...",
+      "tabsToSpacesDescription": "基于制表位语义将制表符转换为空格。",
+      "tabsToSpacesTitle": "制表符转空格"
+    }
+  }
+}

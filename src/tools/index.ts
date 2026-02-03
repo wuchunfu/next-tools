@@ -73,6 +73,7 @@ import { tool as slugifyString } from './slugify-string';
 import { tool as sqlPrettify } from './sql-prettify';
 import { tool as stringObfuscator } from './string-obfuscator';
 import { tool as svgPlaceholderGenerator } from './svg-placeholder-generator';
+import { tool as tabsToSpaces } from './tabs-to-spaces';
 import { tool as temperatureConverter } from './temperature-converter';
 import { tool as textDiff } from './text-diff';
 import { tool as textStatistics } from './text-statistics';
@@ -196,6 +197,7 @@ export const toolsByCategory: ToolCategory[] = [
       textDiff,
       numeronymGenerator,
       asciiTextDrawer,
+      tabsToSpaces,
     ],
   },
   {

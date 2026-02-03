@@ -1,55 +1,53 @@
 {
   "tools": {
     "display-tester": {
-      "title": "显示器测试",
-      "description": "全面的显示器测试工具",
-      "testModes": {
-        "solidColors": "纯色测试",
-        "grayscale": "灰阶测试",
-        "gradient": "渐变测试",
-        "grid": "网格测试",
-        "responseTime": "响应时间测试"
-      },
+      "cardDescription": "专业的显示器测试工具，用于检测坏点、测试色彩准确度和屏幕质量。",
+      "cardTitle": "显示器测试工具",
       "colors": {
         "black": "黑色",
-        "white": "白色",
-        "red": "红色",
-        "green": "绿色",
         "blue": "蓝色",
         "cyan": "青色",
+        "green": "绿色",
         "magenta": "洋红",
+        "red": "红色",
+        "white": "白色",
         "yellow": "黄色"
+      },
+      "controls": {
+        "exitFullscreen": "退出全屏",
+        "nextColor": "下一个",
+        "pressArrows": "使用方向键切换",
+        "pressEsc": "按 ESC 退出全屏",
+        "pressF": "按 F 进入全屏",
+        "previousColor": "上一个",
+        "startTest": "开始测试"
       },
       "grayscaleLevels": {
         "level": "灰阶 {level}%"
       },
       "instructions": {
-        "solidColors": "使用纯色背景检测坏点和亮点。仔细观察屏幕上是否有异常的像素点。",
-        "grayscale": "测试显示器的灰阶过渡和对比度。检查是否有色带或不均匀的区域。",
         "gradient": "检查颜色渐变是否平滑，是否有明显的色带现象。",
+        "grayscale": "测试显示器的灰阶过渡和对比度。检查是否有色带或不均匀的区域。",
         "grid": "检查像素对齐和屏幕几何形状。网格线应该笔直且均匀分布。",
-        "responseTime": "测试屏幕的响应时间。观察移动的方块是否有拖影或模糊。"
+        "responseTime": "测试屏幕的响应时间。观察移动的方块是否有拖影或模糊。",
+        "solidColors": "使用纯色背景检测坏点和亮点。仔细观察屏幕上是否有异常的像素点。"
       },
-      "controls": {
-        "startTest": "开始测试",
-        "exitFullscreen": "退出全屏",
-        "nextColor": "下一个",
-        "previousColor": "上一个",
-        "pressEsc": "按 ESC 退出全屏",
-        "pressArrows": "使用方向键切换",
-        "pressF": "按 F 进入全屏"
+      "selectMode": "选择测试模式",
+      "testModes": {
+        "gradient": "渐变测试",
+        "grayscale": "灰阶测试",
+        "grid": "网格测试",
+        "responseTime": "响应时间测试",
+        "solidColors": "纯色测试"
       },
       "tips": {
-        "title": "测试建议",
         "tip1": "在暗室中进行测试以获得最佳效果",
         "tip2": "每种颜色至少观察 10-15 秒",
         "tip3": "从不同角度观察屏幕",
         "tip4": "使用全屏模式进行测试",
-        "tip5": "如果发现坏点，尝试轻轻按压该区域（有时可以修复）"
-      },
-      "selectMode": "选择测试模式",
-      "cardTitle": "显示器测试工具",
-      "cardDescription": "专业的显示器测试工具，用于检测坏点、测试色彩准确度和屏幕质量。"
+        "tip5": "如果发现坏点，尝试轻轻按压该区域（有时可以修复）",
+        "title": "测试建议"
+      }
     }
   }
 }

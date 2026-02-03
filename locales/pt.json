@@ -292,6 +292,11 @@
       "keywords": "dispositivo,informação,tela,pixel,proporção,status,dados,computador,tamanho,usuário,agente",
       "title": "Informações do dispositivo"
     },
+    "display-tester": {
+      "description": "Ferramenta abrangente de teste de tela para detectar pixels mortos, testar precisão de cores, transições de escala de cinza, tempo de resposta e muito mais. Suporta cores sólidas, gradientes, alinhamento de grade e vários padrões de teste.",
+      "keywords": "tela,monitor,teste,pixel morto,pixel preso,ponto brilhante,ponto escuro,pixel,cor,escala de cinza,gradiente,calibração,RGB,contraste,tempo de resposta",
+      "title": "Testador de Tela"
+    },
     "docker-run-to-docker-compose-converter": {
       "description": "Transforma comandos \"docker run\" em arquivos docker-compose!",
       "keywords": "docker,executar,compose,yaml,yml,converter,daemon",
@@ -417,6 +422,11 @@
       "keywords": "jwt,analisador,decodificar,typ,alg,iss,sub,aud,exp,nbf,iat,jti,json,web,token",
       "title": "Analisador JWT"
     },
+    "keyboard-tester": {
+      "description": "Teste as teclas do seu teclado e verifique se todas as teclas estão funcionando corretamente. Feedback visual para cada pressionamento de tecla com suporte para diferentes layouts de teclado.",
+      "keywords": "teclado,testador,teste,teclas,layout,mecânico,digitação,qwerty,verificar,funcionando",
+      "title": "Testador de Teclado"
+    },
     "keycode-info": {
       "description": "Encontre o código de tecla javascript, código, localização e modificadores de qualquer tecla pressionada.",
       "keywords": "código de tecla,info,código,javascript,evento,códigos de tecla,qual,teclado,pressionar,modificador,alt,ctrl,meta,shift",
@@ -441,6 +451,11 @@
       "description": "Encontre o fornecedor e fabricante de um dispositivo pelo seu endereço MAC.",
       "keywords": "mac,endereço,pesquisa,fornecedor,analisador, fabricante",
       "title": "Pesquisa de endereço MAC"
+    },
+    "markdown-editor": {
+      "description": "Editor de Markdown WYSIWYG com visualização ao vivo, inspirado no Typora. Escreva e visualize Markdown em tempo real com uma interface limpa e sem distrações.",
+      "keywords": "markdown,editor,wysiwyg,visualização,typora,escrever,documento,md,tempo real,ao vivo",
+      "title": "Editor de Markdown"
     },
     "markdown-to-html": {
       "description": "Converter Markdown em HTML e imprimir como PDF",
@@ -547,6 +562,11 @@
       "keywords": "svg,placeholder,gerador,imagem,tamanho,maquete",
       "title": "Gerador de placeholder SVG"
     },
+    "tabs-to-spaces": {
+      "description": "Converta tabulações em espaços ou espaços em tabulações com semântica correta de paradas de tabulação. Suporta largura de tabulação configurável e modo somente inicial.",
+      "keywords": "tabulações,espaços,conversor,tab,espaço,indentação,formatação,código,parada de tabulação,largura de tabulação",
+      "title": "Conversor de Tabulações/Espaços"
+    },
     "temperature-converter": {
       "description": "Conversões de temperatura em graus para Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur e Rømer.",
       "keywords": "temperatura,conversor,grau,Kelvin,Celsius,Fahrenheit,Rankine,Delisle,Newton,Réaumur,Rømer",
@@ -646,43 +666,6 @@
       "description": "Analise e converta YAML para TOML.",
       "keywords": "yaml,para,toml,converter,transformar",
       "title": "YAML para TOML"
-    },
-    "display-tester": {
-      "title": "Testador de Tela",
-      "description": "Ferramenta abrangente de teste de tela para detectar pixels mortos, testar precisão de cores, transições de escala de cinza, tempo de resposta e muito mais. Suporta cores sólidas, gradientes, alinhamento de grade e vários padrões de teste.",
-      "keywords": "tela,monitor,teste,pixel morto,pixel preso,ponto brilhante,ponto escuro,pixel,cor,escala de cinza,gradiente,calibração,RGB,contraste,tempo de resposta"
-    },
-    "keyboard-tester": {
-      "title": "Testador de Teclado",
-      "description": "Teste as teclas do seu teclado e verifique se todas as teclas estão funcionando corretamente. Feedback visual para cada pressionamento de tecla com suporte para diferentes layouts de teclado.",
-      "keywords": "teclado,testador,teste,teclas,layout,mecânico,digitação,qwerty,verificar,funcionando",
-      "reset": "Redefinir",
-      "progress": "Progresso do teste",
-      "keys": "Teclas",
-      "layout": "Layout do teclado",
-      "size": "Tamanho do teclado",
-      "sizes": {
-        "60": "60% Compacto",
-        "full": "Tamanho completo (100%)",
-        "tkl": "TKL (80%)"
-      },
-      "instructions": {
-        "title": "Instruções",
-        "press": "Pressione qualquer tecla do seu teclado para testá-la",
-        "highlight": "As teclas pressionadas serão destacadas",
-        "tested": "As teclas testadas serão mostradas em verde",
-        "reset": "Clique no botão \"Redefinir\" para limpar os registros de teste"
-      },
-      "legend": {
-        "untested": "Não testado",
-        "pressed": "Pressionado",
-        "tested": "Testado"
-      }
-    },
-    "markdown-editor": {
-      "title": "Editor de Markdown",
-      "description": "Editor de Markdown WYSIWYG com visualização ao vivo, inspirado no Typora. Escreva e visualize Markdown em tempo real com uma interface limpa e sem distrações.",
-      "keywords": "markdown,editor,wysiwyg,visualização,typora,escrever,documento,md,tempo real,ao vivo"
     }
   }
 }
