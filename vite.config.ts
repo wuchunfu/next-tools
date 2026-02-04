@@ -96,6 +96,22 @@ export default defineConfig({
             type: 'image/png',
           },
         ],
+        screenshots: [
+          {
+            src: '/screenshot-desktop.png',
+            sizes: '1920x1080',
+            type: 'image/png',
+            form_factor: 'wide',
+            label: 'Next-Tools Desktop - Developer Tools Collection',
+          },
+          {
+            src: '/screenshots-mobile.png',
+            sizes: '750x1334',
+            type: 'image/png',
+            form_factor: 'narrow',
+            label: 'Next-Tools Mobile - Developer Tools on the Go',
+          },
+        ],
       },
     }),
     Components({
