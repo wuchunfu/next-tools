@@ -16,8 +16,8 @@ export function createToken({
   alphabet?: string
 }) {
   const allAlphabet = alphabet ?? [
-    withUppercase ? 'ABCDEFGHIJKLMOPQRSTUVWXYZ' : '',
-    withLowercase ? 'abcdefghijklmopqrstuvwxyz' : '',
+    withUppercase ? 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' : '',
+    withLowercase ? 'abcdefghijklmnopqrstuvwxyz' : '',
     withNumbers ? '0123456789' : '',
     withSymbols ? '.,;:!?./-"\'#{([-|\\@)]=}*+' : '',
   ].join('');
