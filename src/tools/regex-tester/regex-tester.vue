@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import type { ShadowRootExpose } from 'vue-shadow-dom';
-import { ShadowRoot } from 'vue-shadow-dom';
-import { render } from '@regexper/render';
 import { useStorage } from '@vueuse/core';
 import { Code2, FileText, Network, Sparkles, X } from 'lucide-vue-next';
 import RandExp from 'randexp';
@@ -18,6 +15,7 @@ import { useValidation } from '@/composable/validation';
 import { cn } from '@/lib/utils';
 import { tableCellClasses, tableContainerClasses, tableHeadClasses, tableHeaderClasses } from '@/utils/table';
 import { matchRegex } from './regex-tester.service';
+import { renderRegex } from './regex-visualizer';
 
 const regex = useStorage('regex-tester:regex', '')
 const text = ref('')
@@ -27,7 +25,7 @@ const multiline = useStorage('regex-tester:multiline', false)
 const dotAll = useStorage('regex-tester:dotAll', false)
 const unicode = useStorage('regex-tester:unicode', false)
 const unicodeSets = useStorage('regex-tester:unicodeSets', false)
-const visualizerSVG = ref<ShadowRootExpose>()
+const visualizerContainer = ref<HTMLDivElement>()
 const inputElement = ref<HTMLElement>()
 const { t } = useToolI18n()
 
@@ -87,22 +85,26 @@ function clearInput() {
 }
 
 watchEffect(
-  async () => {
+  () => {
     const regexValue = regex.value
-    // shadow root is required:
-    // @regexper/render append a <defs><style> that broke svg transparency of icons in the whole site
-    const visualizer = visualizerSVG.value?.shadow_root
-    if (visualizer) {
-      while (visualizer.lastChild) {
-        visualizer.removeChild(visualizer.lastChild)
+    const container = visualizerContainer.value
+
+    if (container) {
+      // Clear previous content
+      while (container.firstChild) {
+        container.removeChild(container.firstChild)
       }
-      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
-      try {
-        await render(regexValue, svg)
+
+      if (regexValue) {
+        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
+        try {
+          renderRegex(regexValue, svg)
+          container.appendChild(svg)
+        }
+        catch {
+          // Invalid regex - container will be empty
+        }
       }
-      catch {
-      }
-      visualizer.appendChild(svg)
     }
   },
 )
@@ -424,9 +426,7 @@ watchEffect(
         </div>
       </CardHeader>
       <CardContent>
-        <div class="overflow-x-auto rounded-lg border p-4">
-          <ShadowRoot ref="visualizerSVG" />
-        </div>
+        <div ref="visualizerContainer" class="regex-visualizer overflow-x-auto rounded-lg border bg-background" />
       </CardContent>
     </Card>
   </div>
