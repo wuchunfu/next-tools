@@ -1,61 +1,93 @@
 interface RegExpGroupIndices {
-  [name: string]: [number, number]
+  [name: string]: [number, number] | undefined
 }
-interface RegExpIndices extends Array<[number, number]> {
-  groups: RegExpGroupIndices
+interface RegExpIndices extends Array<[number, number] | undefined> {
+  groups?: RegExpGroupIndices
 }
 interface RegExpExecArrayWithIndices extends RegExpExecArray {
-  indices: RegExpIndices
+  indices?: RegExpIndices
 }
 interface GroupCapture {
   name: string
   value: string
   start: number
   end: number
-};
+}
 
 export function matchRegex(regex: string, text: string, flags: string) {
-  // if (regex === '' || text === '') {
-  //   return [];
-  // }
+  if (regex === '') {
+    return []
+  }
 
-  let lastIndex = -1
   const re = new RegExp(regex, flags)
+  const isGlobal = re.global
   const results = []
-  let match = re.exec(text) as RegExpExecArrayWithIndices
-  while (match !== null) {
-    if (re.lastIndex === lastIndex || match[0] === '') {
-      break
-    }
+  let match = re.exec(text) as RegExpExecArrayWithIndices | null
+  let iterationCount = 0
+  const maxIterations = 10000 // Prevent infinite loops
+
+  while (match !== null && iterationCount < maxIterations) {
+    iterationCount++
+
     const indices = match.indices
     const captures: Array<GroupCapture> = []
+
+    // Process numbered capture groups
     Object.entries(match).forEach(([captureName, captureValue]) => {
-      if (captureName !== '0' && captureName.match(/\d+/)) {
-        captures.push({
-          name: captureName,
-          value: captureValue,
-          start: indices[Number(captureName)]![0],
-          end: indices[Number(captureName)]![1],
-        })
+      // Skip capture groups that didn't participate in the match (undefined value)
+      // This happens with alternation patterns where only one branch matches
+      if (captureName !== '0' && /^\d+$/.test(captureName) && captureValue !== undefined) {
+        const captureIndices = indices?.[Number(captureName)]
+        if (captureIndices) {
+          captures.push({
+            name: captureName,
+            value: captureValue,
+            start: captureIndices[0],
+            end: captureIndices[1],
+          })
+        }
       }
     })
+
+    // Process named capture groups
     const groups: Array<GroupCapture> = []
-    Object.entries(match.groups || {}).forEach(([groupName, groupValue]) => {
-      groups.push({
-        name: groupName,
-        value: groupValue,
-        start: indices.groups![groupName]![0],
-        end: indices.groups![groupName]![1],
+    if (match.groups) {
+      Object.entries(match.groups).forEach(([groupName, groupValue]) => {
+        // Skip named groups that didn't participate in the match
+        if (groupValue !== undefined) {
+          const groupIndices = indices?.groups?.[groupName]
+          if (groupIndices) {
+            groups.push({
+              name: groupName,
+              value: groupValue,
+              start: groupIndices[0],
+              end: groupIndices[1],
+            })
+          }
+        }
       })
-    });
+    }
+
     results.push({
       index: match.index,
       value: match[0],
       captures,
       groups,
     })
-    lastIndex = re.lastIndex
-    match = re.exec(text) as RegExpExecArrayWithIndices
+
+    // For non-global regex, only return the first match
+    if (!isGlobal) {
+      break
+    }
+
+    // Handle zero-length matches to prevent infinite loop
+    // When a zero-length match occurs, manually advance lastIndex
+    if (match[0].length === 0) {
+      re.lastIndex++
+    }
+
+    match = re.exec(text) as RegExpExecArrayWithIndices | null
   }
+
   return results
 }
