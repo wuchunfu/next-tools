@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.9.4
+
+### Features
+- **pwa**: add screenshots for richer install UI (ee023dc)
+
+### Bug fixes
+- **regex-tester**: disable all matching flags by default (b457ee1)
+- **regex-tester**: handle undefined capture groups in alternation patterns (bf6e5e4)
+- **token-generator**: add missing 'N' and 'n' characters to alphabet (07c4cc0)
+
+### Refactoring
+- **regex-tester**: replace @regexper/render with custom implementation (cfc9318)
+
 ## Version 1.9.3
 
 ### Features
