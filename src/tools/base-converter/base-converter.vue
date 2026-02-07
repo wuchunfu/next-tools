@@ -11,7 +11,7 @@ import { Slider } from '@/components/ui/slider'
 import { useToolI18n } from '@/composable/useToolI18n'
 import { getErrorMessageIfThrows } from '@/utils/error'
 import InputCopyable from '../../components/InputCopyable.vue'
-import { convertBase } from './integer-base-converter.model'
+import { convertBase } from './base-converter.service'
 
 const input = ref('42');
 const inputBase = ref(10);

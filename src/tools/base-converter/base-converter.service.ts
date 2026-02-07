@@ -2,7 +2,11 @@ export function convertBase({ value, fromBase, toBase }: { value: string, fromBa
   const range = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/'.split('')
   const fromRange = range.slice(0, fromBase)
   const toRange = range.slice(0, toBase)
-  let decValue = value
+
+  // For bases <= 36, accept both upper and lower case letters (e.g. "FF" and "ff" for hex)
+  const normalizedValue = fromBase <= 36 ? value.toLowerCase() : value
+
+  let decValue = normalizedValue
     .split('')
     .reverse()
     .reduce((carry: bigint, digit: string, index: number) => {

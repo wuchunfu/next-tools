@@ -1,5 +1,5 @@
 import type { Ipv4RangeExpanderResult } from './ipv4-range-expander.types'
-import { convertBase } from '../base-converter/integer-base-converter.model'
+import { convertBase } from '../base-converter/base-converter.service'
 import { ipv4ToInt } from '../ipv4-address-converter/ipv4-address-converter.service'
 
 function bits2ip(ipInt: number) {
