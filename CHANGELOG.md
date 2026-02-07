@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.9.5
+
+### Bug fixes
+- **base-converter**: accept uppercase letters for bases <= 36 (a9e5a78)
+
 ## Version 1.9.4
 
 ### Features
