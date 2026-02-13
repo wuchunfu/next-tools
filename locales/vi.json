@@ -467,6 +467,11 @@
       "keywords": "toán học,trình đánh giá,máy tính,biểu thức,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh",
       "title": "Trình đánh giá toán học"
     },
+    "microphone-monitor": {
+      "description": "Kiểm tra micrô của bạn với trực quan hóa dạng sóng thời gian thực, đo âm lượng, phát lại giám sát và ghi âm. Gỡ lỗi thiết bị đầu vào âm thanh trong trình duyệt của bạn.",
+      "keywords": "micrô,kiểm tra,test,âm thanh,âm lượng,dạng sóng,ghi âm,phát lại,giám sát,đầu vào,thiết bị,âm thanh",
+      "title": "Giám sát Micrô"
+    },
     "mime-types": {
       "description": "Chuyển đổi loại mime thành phần mở rộng và ngược lại.",
       "keywords": "mime,loại,phần mở rộng,nội dung,loại",

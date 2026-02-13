@@ -467,6 +467,11 @@
       "keywords": "mathématiques,évaluateur,calculatrice,expression,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh",
       "title": "Math evaluator"
     },
+    "microphone-monitor": {
+      "description": "Testez votre microphone avec une visualisation de forme d'onde en temps réel, un VU-mètre, une écoute de retour et un enregistrement. Déboguez les périphériques d'entrée audio dans votre navigateur.",
+      "keywords": "microphone,testeur,test,audio,volume,forme d'onde,enregistrement,lecture,écoute,entrée,périphérique,son",
+      "title": "Moniteur de Microphone"
+    },
     "mime-types": {
       "description": "Convert MIME types to file extensions and vice-versa.",
       "keywords": "mime,types,extension,contenu,type",

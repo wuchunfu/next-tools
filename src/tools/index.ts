@@ -4,6 +4,7 @@ import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as markdownEditor } from './markdown-editor';
 import { tool as keyboardTester } from './keyboard-tester';
 import { tool as displayTester } from './display-tester';
+import { tool as microphoneMonitor } from './microphone-monitor';
 import { tool as dataTransferCalculator } from './data-transfer-calculator';
 import { tool as dateCalculator } from './date-calculator';
 import { tool as icoGenerator } from './ico-generator';
@@ -154,7 +155,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Images and videos',
-    components: [qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator, icoGenerator, cameraRecorder],
+    components: [qrCodeGenerator, wifiQrCodeGenerator, svgPlaceholderGenerator, icoGenerator],
   },
   {
     name: 'Development',
@@ -206,7 +207,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Device',
-    components: [displayTester, keyboardTester],
+    components: [displayTester, keyboardTester, microphoneMonitor, cameraRecorder],
   },
 ]
 

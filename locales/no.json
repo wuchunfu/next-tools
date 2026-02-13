@@ -467,6 +467,11 @@
       "keywords": "matte,evaluator,kalkulator,uttrykk,abs,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,sqrt,tan,tanh",
       "title": "Matematikkevaluator"
     },
+    "microphone-monitor": {
+      "description": "Test mikrofonen din med sanntidsvisualisering av bølgeform, volummåling, monitoreringavspilling og opptak. Feilsøk lydinngangsenheter i nettleseren din.",
+      "keywords": "mikrofon,tester,test,lyd,volum,bølgeform,opptak,avspilling,monitorering,inngang,enhet,lyd",
+      "title": "Mikrofon-monitor"
+    },
     "mime-types": {
       "description": "Konverter MIME typer til fil utvidelser og visa-versa.",
       "keywords": "mime,typer,utvidelse,innhold,type",
