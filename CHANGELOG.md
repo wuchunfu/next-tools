@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## Version 1.9.6
+
+### Features
+-  add microphone monitor tool and move camera recorder to Device category (57913b9)
+
 ## Version 1.9.5
 
 ### Bug fixes
